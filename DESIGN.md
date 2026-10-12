@@ -12,7 +12,7 @@ What that means in practice:
 
 | Build early (function) | Placeholder until the end (cosmetic) |
 |---|---|
-| 8-way movement, collision, world map, ship and Surf rules | Golden Sun tilesets and chibi field sprites (use FireRed's) |
+| 8-way movement, collision, world map, ship, and Surf/Dive/Waterfall rules (including underwater maps) | Golden Sun tilesets and chibi field sprites (use FireRed's) |
 | Battle format, the Adept battler, Psynergy moves, Set/Standby, 18-type classes, Summons | GS spell and Summon animations (reuse existing move animations) |
 | Field Psynergy and the map objects that react to it | GS-style Psynergy field effects |
 | Weyard forms' **data**: types, stats, moves, abilities, evolutions, Megas, Pokédex text | Weyard forms' **art** (reuse the regular species' sprites, or a simple palette swap) |
@@ -23,13 +23,13 @@ What that means in practice:
 ### Suggested build order
 
 1. **Foundation:** choose the code base; movement (8-way, or the grid fallback); 1 Adept + 1 Pokémon battle format.
-2. **Core systems:** Adept battler and Psynergy; Set/Standby and 18-type classes; Summons (with Z/Dynamax merged in); catching plus Djinn-style encounters; field Psynergy replacing HMs; item Psynergy; limited Surf; ship and world map.
+2. **Core systems:** Adept battler and Psynergy; Set/Standby and 18-type classes; Summons (with Z/Dynamax merged in); catching plus Djinn-style encounters; field Psynergy replacing most HMs; item Psynergy; Surf, Dive and Waterfall as Pokémon field moves; ship and world map.
 3. **Content:** region maps on placeholder tiles; story and the six sites; Weyard form data; roster placement; DexNav and auto-run.
 4. **Polish:** GS tilesets and sprites; Weyard form art; GS spell and Summon animations; GS menu and dialogue styling; music mix.
 
 ## The concept
 
-A **GBA ROM hack** set in a **brand-new region reminiscent of Weyard**. A party of **8 Adepts** fights alongside their **Pokémon**, and the Pokémon play the Djinn role. Each Adept has **3 Pokémon Set** on them: their types decide the Adept's class, one of them fights beside the Adept, and Pokémon on Standby power Summons. Each Adept's own element decides their Psynergy. As in Golden Sun, the whole party's Psynergy works on the field, solving puzzles in place of HMs, and items grant extra Psynergy anyone can use. The world looks and moves like Golden Sun, with The Lost Age's sailing and world map. Battles look like Pokémon with Golden Sun spell effects. The story centers on **six ancient elemental sites**, each covering three types and bound to a legendary Pokémon.
+A **GBA ROM hack** set in a **brand-new region reminiscent of Weyard**. A party of **8 Adepts** fights alongside their **Pokémon**, and the Pokémon play the Djinn role. Each Adept has **3 Pokémon Set** on them: their types decide the Adept's class, one of them fights beside the Adept, and Pokémon on Standby power Summons. Each Adept's own element decides their Psynergy. As in Golden Sun, the whole party's Psynergy works on the field, solving puzzles in place of most HMs, and items grant extra Psynergy anyone can use. Water travel stays Pokémon-powered: Surf, Dive and Waterfall work as HM-style field moves. The world looks and moves like Golden Sun, with The Lost Age's sailing and world map. Battles look like Pokémon with Golden Sun spell effects. The story centers on **six ancient elemental sites**, each covering three types and bound to a legendary Pokémon.
 
 ## Decisions
 
@@ -50,7 +50,8 @@ A **GBA ROM hack** set in a **brand-new region reminiscent of Weyard**. A party 
 | Class during battle | **Locked for the whole battle.** Mega Evolution, form or type changes, and partner swaps mid-battle do **not** change the Adept's class. It's recalculated after the battle | New |
 | Big attacks | **One Summon system.** Z-Moves and Dynamax are merged into it; their visuals can be reused as Summon variants | GS Summons + Unbound Z/Dynamax |
 | Summon cost | **1–3 Standby Pokémon by tier,** of matching types, **drawn from the whole party** (benched Adepts' Standby Pokémon count too), like Golden Sun | Golden Sun |
-| Field puzzles | **Psynergy puzzles replace HMs.** See "Field Psynergy" below | Golden Sun |
+| Field puzzles | **Psynergy puzzles replace most HMs.** See "Field Psynergy" below | Golden Sun |
+| Water field moves | **Surf, Dive and Waterfall stay as Pokémon HM-style field moves**, not Psynergy. See "Water field moves" below | Pokémon / Unbound |
 | Catching | **Both:** Poké Balls for most Pokémon; **Djinn-style encounters** for special and regional ones. See below | Hybrid |
 
 #### Class scoring
@@ -92,6 +93,16 @@ Special and regional Pokémon are found in the world, Golden Sun style, with a *
 
 **Retreat and Avoid vs. Escape Rope and Repel: keep both.** Retreat (escape a dungeon) and Avoid (fewer wild encounters) are Psynergy for the Adepts who have them. Escape Rope and Repel stay as items, as backups, following the same rule as item Psynergy.
 
+#### Water field moves (HM-style)
+
+Water travel stays with the Pokémon rather than Psynergy. These work like Unbound's HM system: **no move slot needed.** If **any Set Pokémon in the party** can learn the move, the party can use it on the field, the same party-wide rule as Psynergy.
+
+| Move | Function | Limits |
+|---|---|---|
+| **Surf** | Ride a Pokémon across water | **Only on rivers, lakes and coastal shallows, for short distances.** Deep sea needs the ship |
+| **Dive** | Dive at dark deep-water patches to explore underwater areas, then surface again (like Gen 3's HM08) | Dive spots sit in surfable water |
+| **Waterfall** | Climb up waterfalls to reach new areas | Only marked waterfalls |
+
 ### World and story
 
 | Area | Decision | Source |
@@ -99,7 +110,7 @@ Special and regional Pokémon are found in the world, Golden Sun style, with a *
 | Region | **Brand-new region reminiscent of Weyard** | New, GS-inspired |
 | Story driver | **Six ancient elemental sites** (like the lighthouses), three types each, each bound to a legendary. See table below | GS + Pokémon |
 | Overworld travel | **Lost Age-style world map and sailing.** The ship handles open sea | Golden Sun: The Lost Age |
-| Surf | **Limited:** works only on rivers, lakes and coastal shallows, for short distances. Deep sea needs the ship | Modified Pokémon |
+| Surf | **Limited:** works only on rivers, lakes and coastal shallows, for short distances. Deep sea needs the ship. Dive and Waterfall also stay (see "Water field moves") | Modified Pokémon |
 | Movement | **Golden Sun free 8-way movement** (see risk note) | Golden Sun |
 
 #### The six elemental sites
@@ -123,7 +134,7 @@ The first four follow Golden Sun's elements: Mercury Adepts are healers (hence F
 | Regional forms | **25 families get Weyard-style forms**, period and genre appropriate like Hisuian forms. **Whole evolution lines** change, not just final stages: **about 57 species** in all (list below). Data first, art last | New |
 | Branching evolutions | **Weyard Eevee can evolve into any Eeveelution**, and **Weyard Kirlia can still become Gallade.** Only the listed branches (Umbreon, Sylveon, Gardevoir) get Weyard forms; the others evolve into their regular forms | New |
 | Weyard Megas | **Weyard forms keep Mega Evolution**, as Weyard Megas: Venusaur, Charizard X and Y, Blastoise, Sceptile, Blaziken, Swampert, Lucario, Garchomp, Gardevoir, Gengar, Tyranitar, Rayquaza, plus **Primal Groudon**: **14 extra forms** | New |
-| QoL | DexNav, auto-run, no HMs needed | Unbound |
+| QoL | DexNav, auto-run, no HM moves taking up move slots | Unbound |
 
 #### Weyard-form families (25 families, ~57 species + 14 Mega/Primal forms)
 
@@ -162,6 +173,8 @@ The first four follow Golden Sun's elements: Mercury Adepts are healers (hence F
 - **Regional forms: data now, art later.** The engine handles them like Alolan/Galarian forms. Early work is types, stats, moves, abilities, evolutions, Mega data and Pokédex text for ~57 species plus 14 Mega/Primal forms, displayed with the regular species' sprites. The art pass at the end needs front and back battle sprites, a menu icon, normal and shiny palettes, and a GS-style overworld sprite for Djinn-style encounters.
 - **Branching evolutions** need form-aware evolution data: a Weyard Eevee or Kirlia evolving into a non-Weyard branch has to produce the regular species.
 - **Limited Surf** needs a terrain rule: Surf is allowed only on marked water types (river, lake, shallows), and deep sea blocks it.
+- **Water field moves check the whole party's Set Pokémon** for one that can learn Surf, Dive or Waterfall, with no move slot used (Unbound's HM approach, adapted to Set Pokémon instead of a normal party).
+- **Dive needs underwater maps.** FireRed has no field use for Dive (it was Ruby/Sapphire/Emerald only), so the chosen code base has to add it: dive-spot tiles, underwater map layers linked to the surface, and the surfacing rule. Factor this into the code-base recommendation. Waterfall already exists in FireRed.
 - **No Golden Sun decomp found.** GS mechanics (Djinn, classes, Psynergy, Summons, world map, sailing) have to be rebuilt. GS art and music have to be ripped from the ROMs, but that's polish-phase work.
 - **Unbound's own content isn't open.** Its maps, story and 180+ song OST aren't public. The engine pieces it's built on are: Complete FireRed Upgrade (CFRU) and Dynamic Pokémon Expansion (DPE), both on GitHub. Credit and ask before reusing anything taken directly from Unbound.
 - **GS music** would need converting to the Pokémon sound engine (polish phase).
@@ -172,6 +185,7 @@ The first four follow Golden Sun's elements: Mercury Adepts are healers (hence F
 These are content and balance details; none of them block phase 1 (foundation) work.
 
 - **Progression keys:** which item Psynergy does each site or dungeon award?
+- **Water field moves:** how are Surf, Dive and Waterfall unlocked (story events, site rewards, or a key item)? Can the ship also dive at marked open-sea spots?
 - **Special combos:** which type pairs unlock special classes, and what score do both types need (e.g., at least 1 point each)?
 - **Class tiers:** how many tiers per class line, and at which levels?
 - Which Z/Dynamax visuals carry over into Summons?
