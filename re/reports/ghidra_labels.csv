@@ -1,0 +1,3154 @@
+source,kind,name,site,address
+Unbound,relocated code,BtlController_EmitHealthBarUpdate,,0x0800E600
+Unbound,relocated code,TradeGetMultiplayerId,,0x0804FFD8
+Unbound,relocated code,CB2_ReturnToFieldFromDiploma,,0x080568E0
+Unbound,relocated data,gMonFrontPic_Hoppip,,0x08057722
+Unbound,relocated code,CameraObjectGetFollowedObjectId,,0x0805FAF4
+Unbound,relocated code,LoadPalette,,0x08070400
+Unbound,relocated code,PaletteStruct_Blend,,0x08070908
+Unbound,relocated code,Ash_InitVars,,0x0807D2FC
+Unbound,relocated code,Ash_InitAll,,0x0807D37C
+Unbound,relocated code,Ash_Main,,0x0807D3AC
+Unbound,relocated code,Ash_Finish,,0x0807D428
+Unbound,relocated code,GetStairsMovementDirection,,0x0807EBD0
+Unbound,relocated code,GetTrainerWonSpeech,,0x08080724
+Unbound,relocated unknown,EventScript_UseStrength,,0x08081BE0
+Unbound,relocated code,CompactPartySprites,,0x08090A08
+Unbound,relocated code,CreateMainMapTask,,0x080C03FC
+Unbound,relocated code,SaveMainMapTask,,0x080C080C
+Unbound,relocated code,StopBgAnimation,,0x080D04BC
+Unbound,relocated code,ClearWin2AndCopyToVram,,0x08101634
+Unbound,relocated data,gMonFrontPic_UnownD,,0x0810FDCC
+Unbound,relocated code,CopyDescriptionWindowTiles,,0x08111E08
+Unbound,relocated code,BlitBitmapToPartyWindow_LeftColumn,,0x08121B10
+Unbound,relocated code,Task_OakSpeech_FadeInRivalPic,,0x081307D0
+Unbound,relocated unknown,SaffronCity_MrPsychicsHouse_Text_YouWantedThis,,0x0816F084
+Unbound,relocated data,sSpeciesToHoennPokedexNum,,0x08176400
+Unbound,relocated data,sHoennToNationalOrder,,0x081794EC
+Unbound,relocated unknown,Route3_Text_GregRematchIntro,,0x08183682
+Unbound,relocated unknown,Route3_Text_RobinRematchIntro,,0x0818387A
+Unbound,relocated unknown,Route15_Text_EdwinRematchIntro,,0x0818664E
+Unbound,relocated unknown,Route15_Text_GraceRematchIntro,,0x0818678A
+Unbound,relocated unknown,Route15_Text_ErnestRematchIntro,,0x081868B6
+Unbound,relocated unknown,Route15_Text_YazminRematchIntro,,0x08186A22
+Unbound,relocated unknown,Route19_Text_DouglasRematchIntro,,0x081878DC
+Unbound,relocated unknown,Route19_Text_TonyRematchIntro,,0x08187984
+Unbound,relocated unknown,Route25_Text_JoeyRematchIntro,,0x081890C0
+Unbound,relocated unknown,ThreeIsland_BondBridge_Text_AlexisRematchIntro,,0x08189FDA
+Unbound,relocated unknown,SixIsland_WaterPath_Text_DeniseRematchIntro,,0x0818BA86
+Unbound,relocated unknown,ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons,,0x0819056C
+Unbound,relocated unknown,Text_PlayerBootedUpPC,,0x081A0202
+Unbound,relocated unknown,OneIsland_PokemonCenter_1F_Text_UsualPCServicesUnavailable,,0x081A5200
+Unbound,relocated unknown,Help_Text_HowToUseHomePC,,0x081B7610
+Unbound,relocated unknown,Help_Text_HowToUseDepositItem2,,0x081B77DC
+Unbound,relocated unknown,Help_Text_HowToUseRun,,0x081B7930
+Unbound,relocated unknown,Help_Text_HowToRegisterKeyItem,,0x081B79CA
+Unbound,relocated unknown,Help_Text_HowToUseHallOfFame,,0x081B7C56
+Unbound,relocated unknown,Help_Text_HP,,0x081B7CC0
+Unbound,relocated unknown,Help_Text_Moves,,0x081B7CD8
+Unbound,relocated unknown,Help_Text_Attack,,0x081B7CDE
+Unbound,relocated unknown,Help_Text_OT,,0x081B7D16
+Unbound,relocated unknown,Help_Text_Ability,,0x081B7D1E
+Unbound,relocated unknown,Help_Text_Money,,0x081B7D26
+Unbound,relocated unknown,Help_Text_MoveType,,0x081B7D2C
+Unbound,relocated unknown,Help_Text_Nature,,0x081B7D36
+Unbound,relocated unknown,Help_Text_PP,,0x081B7D44
+Unbound,relocated unknown,Help_Text_FNT,,0x081B7D56
+Unbound,relocated unknown,Help_Text_Items,,0x081B7D5A
+Unbound,relocated unknown,Help_Text_KeyItems,,0x081B7D60
+Unbound,relocated unknown,Help_Text_PokeBalls,,0x081B7D6A
+Unbound,relocated unknown,Help_Text_TextSpeed,,0x081B7D8E
+Unbound,relocated unknown,Help_Text_BattleStyle,,0x081B7DA6
+Unbound,relocated unknown,Help_Text_TM,,0x081B7DD2
+Unbound,relocated unknown,Help_Text_HMMove,,0x081B7DD8
+Unbound,relocated unknown,Help_Text_Evolution,,0x081B7DE0
+Unbound,relocated unknown,Help_Text_StatusProblem,,0x081B7DEA
+Unbound,relocated unknown,Help_Text_Money2,,0x081B7E08
+Unbound,relocated unknown,Help_Text_Badges2,,0x081B7E0E
+Unbound,relocated unknown,Help_Text_DefineSpeed,,0x081B83EE
+Unbound,relocated unknown,Help_Text_DefineLevel,,0x081B847A
+Unbound,relocated unknown,Help_Text_DefineOT,,0x081B8646
+Unbound,relocated unknown,Help_Text_DefineMoney,,0x081B8896
+Unbound,relocated unknown,Help_Text_DefineFNT,,0x081B8D1C
+Unbound,relocated unknown,Help_Text_DefineKeyItems,,0x081B8E66
+Unbound,relocated unknown,Help_Text_DefinePokeBalls,,0x081B8F4C
+Unbound,relocated unknown,Help_Text_DefinePokedex,,0x081B901A
+Unbound,relocated unknown,Help_Text_DefinePlayTime,,0x081B90A6
+Unbound,relocated unknown,Help_Text_DefineBattleStyle,,0x081B91F8
+Unbound,relocated unknown,Help_Text_DefineButtonMode,,0x081B92EC
+Unbound,relocated unknown,Help_Text_DefineCancel2,,0x081B9438
+Unbound,relocated unknown,Help_Text_DefineTM,,0x081B9496
+Unbound,relocated unknown,Help_Text_DefineEvolution,,0x081B9748
+Unbound,relocated unknown,Help_Text_DefineStatusProblem,,0x081B984E
+Unbound,relocated unknown,Help_Text_DefineBadges2,,0x081B9B2E
+Unbound,relocated unknown,Help_Text_TheHelpSystem,,0x081B9BB6
+Unbound,relocated unknown,Help_Text_TheGame,,0x081B9BC6
+Unbound,relocated unknown,Help_Text_GameFundamentals1,,0x081B9BE0
+Unbound,relocated unknown,Help_Text_GameFundamentals2,,0x081B9BF4
+Unbound,relocated unknown,Help_Text_GameFundamentals3,,0x081B9C08
+Unbound,relocated unknown,Help_Text_WhatArePokemon,,0x081B9C1C
+Unbound,relocated unknown,Help_Text_DescTheHelpSystem,,0x081B9C2E
+Unbound,relocated unknown,Help_Text_DescWirelessAdapter,,0x081B9DC4
+Unbound,relocated unknown,Help_Text_DescGameFundamentals1,,0x081B9E74
+Unbound,relocated unknown,Help_Text_DescGameFundamentals2,,0x081B9F08
+Unbound,relocated unknown,Help_Text_DescWhatArePokemon,,0x081BA026
+Unbound,relocated unknown,Help_Text_UsingTypeMatchupList,,0x081BA0F0
+Unbound,relocated unknown,Help_Text_OwnMoveDark,,0x081BA10C
+Unbound,relocated unknown,Help_Text_OwnPokemonDark,,0x081BA120
+Unbound,relocated unknown,Help_Text_OwnMovePsychic,,0x081BA162
+Unbound,relocated unknown,Help_Text_OwnMoveGrass,,0x081BA1C6
+Unbound,relocated unknown,Help_Text_OwnPokemonGhost,,0x081BA208
+Unbound,relocated unknown,Help_Text_OwnMoveIce,,0x081BA220
+Unbound,relocated unknown,Help_Text_OwnMoveElectric,,0x081BA278
+Unbound,relocated unknown,Help_Text_OwnPokemonElectric,,0x081BA290
+Unbound,relocated unknown,Help_Text_OwnMoveDragon,,0x081BA2DA
+Unbound,relocated unknown,Help_Text_OwnPokemonDragon,,0x081BA2F0
+Unbound,relocated unknown,Help_Text_OwnMoveSteel,,0x081BA338
+Unbound,relocated unknown,Help_Text_OwnMoveFire,,0x081BA394
+Unbound,relocated unknown,Help_Text_OwnPokemonFire,,0x081BA3A8
+Unbound,relocated unknown,Help_Text_OwnPokemonWater,,0x081BA3D4
+Unbound,relocated unknown,Help_Text_OwnMoveBug,,0x081BA3EC
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnPokemonDark,,0x081BA538
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveRock,,0x081BA594
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMovePsychic,,0x081BA66E
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnPokemonPsychic,,0x081BA6C8
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveFighting,,0x081BA71E
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveGrass,,0x081BA7E8
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveGhost,,0x081BA8D2
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveIce,,0x081BA98C
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnPokemonIce,,0x081BA9F0
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnPokemonPoison,,0x081BAC28
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveDragon,,0x081BAC88
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnPokemonSteel,,0x081BADF6
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnPokemonFlying,,0x081BAF00
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveFire,,0x081BAF6A
+Unbound,relocated unknown,Help_Text_TypeMatchupOwnMoveBug,,0x081BB0DE
+Unbound,relocated unknown,EventScript_CheckTurnAttendant,,0x081BB226
+Unbound,relocated unknown,EventScript_OnLoadFromColosseum,,0x081BB284
+Unbound,relocated unknown,EventScript_OnLoadFromBerryCrush,,0x081BB296
+Unbound,relocated unknown,CableClub_EventScript_PlayerExitTradeCenter,,0x081BB366
+Unbound,relocated unknown,CableClub_EventScript_SingleBattleMode,,0x081BB50E
+Unbound,relocated unknown,CableClub_EventScript_ConfirmNumberAndRestart,,0x081BB69A
+Unbound,relocated unknown,CableClub_EventScript_AbortLinkPlayerNotReady,,0x081BB7DE
+Unbound,relocated unknown,CableClub_EventScript_AbortLinkDifferentSelections,,0x081BB81E
+Unbound,relocated unknown,CableClub_EventScript_AbortLink,,0x081BB82E
+Unbound,relocated unknown,CableClub_EventScript_WirelessClubAdjustements,,0x081BB876
+Unbound,relocated unknown,Movement_AttendantFaceLeft,,0x081BB88E
+Unbound,relocated unknown,Movement_PlayerExitLinkRoom,,0x081BB890
+Unbound,relocated unknown,CableClub_EventScript_ShowBattleRecords,,0x081BB8A6
+Unbound,relocated unknown,BattleColosseum_2P_EventScript_PlayerSpot0,,0x081BB8C2
+Unbound,relocated unknown,BattleColosseum_2P_EventScript_PlayerSpot1,,0x081BB8CE
+Unbound,relocated unknown,BattleColosseum_4P_EventScript_PlayerSpot0,,0x081BB8DA
+Unbound,relocated unknown,BattleColosseum_4P_EventScript_PlayerSpot2,,0x081BB914
+Unbound,relocated unknown,CableClub_EventScript_ReadTrainerCard,,0x081BB980
+Unbound,relocated unknown,CableClub_EventScript_TooBusyToNotice,,0x081BB9A2
+Unbound,relocated unknown,BattleColosseum_2P_EventScript_Attendant,,0x081BB9AE
+Unbound,relocated unknown,TradeCenter_EventScript_Attendant,,0x081BB9C0
+Unbound,relocated unknown,CableClub_EventScript_WirelessDoubleBattle,,0x081BBCF4
+Unbound,relocated unknown,CableClub_EventScript_SaveAndChooseLinkLeader,,0x081BBD6E
+Unbound,relocated unknown,CableClub_Text_BattleUsingLinkCable,,0x081BC3C6
+Unbound,relocated unknown,CableClub_Text_NeedTwoMonsForDoubleBattle,,0x081BC408
+Unbound,relocated unknown,CableClub_Text_StartLinkWithXPlayersAConfirmBCancel,,0x081BC50C
+Unbound,relocated unknown,Text_LookedAtPlayersTrainerCard,,0x081BC84A
+Unbound,relocated unknown,CableClub_Text_YouMayTradeHere,,0x081BCA94
+Unbound,relocated unknown,CableClub_Text_YouMayBattleHere,,0x081BCACA
+Unbound,relocated unknown,CableClub_Text_WelcomeWhichDirectCornerRoom,,0x081BD28C
+Unbound,relocated unknown,EventScript_FldEffCut,,0x081BDF6A
+Unbound,relocated unknown,Movement_CutTreeDown,,0x081BDF84
+Unbound,relocated unknown,Text_TreeCanBeCutDown,,0x081BDFE2
+Unbound,relocated unknown,SilphCo_7F_EventScript_Grunt1,,0x081BE00C
+Unbound,relocated unknown,RockTunnel_1F_EventScript_Ariana,,0x081BE00C
+Unbound,relocated unknown,Route23_EventScript_MarshBadgeGuard,,0x081BE00C
+Unbound,relocated unknown,SilphCo_7F_EventScript_LaprasGuy,,0x081BE11C
+Unbound,relocated unknown,Route23_EventScript_RainbowBadgeGuard,,0x081BE11C
+Unbound,relocated unknown,Text_MonMaySurface,,0x081BE4A8
+Unbound,relocated unknown,Text_LightFilteringUseDive,,0x081BE4EE
+Unbound,relocated unknown,SSAnne_2F_Room2_EventScript_ItemStardust,,0x081BE66A
+Unbound,relocated unknown,SilphCo_10F_EventScript_ItemCarbos,,0x081BE8F4
+Unbound,relocated unknown,SilphCo_10F_EventScript_ItemRareCandy,,0x081BE90E
+Unbound,relocated unknown,FiveIsland_MemorialPillar_EventScript_ItemMetalCoat,,0x081BEC82
+Unbound,relocated unknown,FiveIsland_LostCave_Room10_EventScript_ItemSilkScarf,,0x081BEDBA
+Unbound,relocated unknown,FiveIsland_LostCave_Room12_EventScript_ItemSeaIncense,,0x081BEDD4
+Unbound,relocated unknown,EventScript_ProfileInfo,,0x081BEE80
+Unbound,relocated unknown,EventScript_AskForNewProfile,,0x081BEEDA
+Unbound,relocated unknown,EventScript_DeclineGiveNewProfile,,0x081BEF34
+Unbound,relocated unknown,EventScript_GaveSpecialProfile,,0x081BEF3E
+Unbound,relocated unknown,Text_TellMeWhatsYourProfile,,0x081BF016
+Unbound,relocated unknown,Text_DontBeLikeThat,,0x081BF17A
+Unbound,relocated unknown,DayCare_Text_TakeOtherOneBackToo,,0x081BF94E
+Unbound,relocated unknown,DayCare_Text_ItWillCostX,,0x081BFA3A
+Unbound,relocated unknown,DayCare_Text_HeresYourMon,,0x081BFA66
+Unbound,relocated unknown,DayCare_Text_TookBackMon,,0x081BFA84
+Unbound,relocated unknown,DayCare_Text_YouHaveJustOneMon,,0x081BFAAC
+Unbound,relocated unknown,EventScript_FldEffFlash,,0x081BFB5E
+Unbound,relocated unknown,EventScript_RepelWoreOff,,0x081BFB64
+Unbound,relocated unknown,SafariZone_EventScript_OutOfBallsMidBattle,,0x081BFB86
+Unbound,relocated unknown,SafariZone_EventScript_TimesUp,,0x081BFBC4
+Unbound,relocated unknown,SafariZone_EventScript_OutOfBalls,,0x081BFBD6
+Unbound,relocated unknown,SafariZone_Text_WouldYouLikeToExit,,0x081BFBE8
+Unbound,relocated unknown,SafariZone_Text_OutOfBalls,,0x081BFC52
+Unbound,relocated unknown,Text_PokemartSign,,0x081C0ECA
+Unbound,relocated unknown,Text_Computer,,0x081C10C0
+Unbound,relocated unknown,EventScript_DoFallWarp,,0x081C1360
+Unbound,relocated unknown,VSSeeker_Text_TrainersNotReady,,0x081C1428
+Unbound,relocated unknown,Route15_Text_ErnestDefeat,,0x081C27E6
+Unbound,relocated unknown,SixIsland_GreenPath_Text_JaclynRematchIntro,,0x081C3FE8
+Unbound,relocated unknown,EventScript_TestSignpostMsg,,0x081C555A
+Unbound,relocated unknown,Test_Text_ThisIsASignpost,,0x081C558C
+Unbound,relocated unknown,BattleScript_EffectHit,,0x081D6926
+CFRU,repoint,BattleScript_WasFrozen,0x0825063C,0x081D91F2
+Unbound,relocated unknown,AI_CV_AccuracyDown7,,0x081DA45E
+Unbound,relocated unknown,AI_CV_AccuracyDown8,,0x081DA45E
+Unbound,relocated unknown,AI_CV_LockOn_End,,0x081DA732
+Unbound,relocated unknown,AI_CV_AttackUp3,,0x081DB3E4
+Unbound,relocated unknown,AI_CV_SpeedDown_End,,0x081DB3E4
+Unbound,relocated unknown,AI_CV_PainSplit2,,0x081DB3E8
+Unbound,relocated data,gMonBackPic_UnownT,,0x082372EC
+Unbound,relocated data,gMonBackPic_UnownU,,0x08237304
+Unbound,relocated data,gMonBackPic_UnownV,,0x08237314
+Unbound,relocated data,gMonBackPic_UnownW,,0x08237328
+Unbound,relocated data,gMonPalette_Nidoqueen,,0x0823744E
+Unbound,relocated data,gMonPalette_Nidorino,,0x08237476
+Unbound,relocated data,gMonPalette_Nidoking,,0x08237488
+Unbound,relocated data,gMonPalette_Clefairy,,0x0823749E
+Unbound,relocated data,gMonPalette_Clefable,,0x082374B8
+Unbound,relocated data,gMonPalette_Vulpix,,0x082374D2
+Unbound,relocated data,gMonPalette_Ninetales,,0x082374EC
+Unbound,relocated data,gMonPalette_NidoranM,,0x082374F6
+Unbound,relocated data,gMonPalette_Slowpoke,,0x082375B0
+Unbound,relocated data,gMonPalette_Slowbro,,0x082375C8
+Unbound,relocated data,gMonPalette_Magnemite,,0x082375DE
+Unbound,relocated data,gMonPalette_Magneton,,0x082375F8
+Unbound,relocated data,gMonPalette_Farfetchd,,0x08237612
+Unbound,relocated data,gMonPalette_Doduo,,0x0823762A
+Unbound,relocated data,gMonShinyPalette_Lairon,,0x08237AC0
+Unbound,relocated data,gMonShinyPalette_Aggron,,0x082383C0
+Unbound,relocated data,gTrainerPalette_PokemonBreeder,,0x08238CD8
+Unbound,relocated data,gMonShinyPalette_Armaldo,,0x08238D2E
+Unbound,relocated data,gMonShinyPalette_Ralts,,0x08238D4C
+Unbound,relocated data,gMonShinyPalette_Kirlia,,0x08238D62
+Unbound,relocated data,sParty_LeaderTateLiza,,0x0823A010
+Unbound,relocated data,sParty_SchoolKidM,,0x0823A028
+Unbound,relocated data,sParty_SchoolKidF,,0x0823A040
+Unbound,relocated data,sParty_SrAndJr,,0x0823A058
+Unbound,relocated data,sParty_PokefanM,,0x0823A070
+Unbound,relocated data,sParty_LadyGillian,,0x0823A088
+Unbound,relocated data,sParty_YoungsterDestin,,0x0823A0B8
+Unbound,relocated data,sParty_LeaderErika,,0x0823A0D8
+Unbound,relocated data,sParty_LeaderSabrina,,0x0823A128
+Unbound,relocated data,sParty_BirdKeeperJacob2,,0x0823A178
+Unbound,relocated data,sParty_BirdKeeperEdwin,,0x0823A208
+Unbound,relocated data,sParty_ExpertF,,0x0823A260
+Unbound,relocated data,sParty_SailorLeonard,,0x0823A270
+Unbound,relocated data,sParty_ExpertM,,0x0823A280
+Unbound,relocated data,sParty_RSYoungster,,0x0823A290
+Unbound,relocated data,sParty_SwimmingTriathleteM,,0x0823A2A0
+Unbound,relocated data,sParty_BikerJaxon2,,0x0823A2E0
+Unbound,relocated data,sParty_CrushKinRonMya4,,0x0823A2F8
+Unbound,relocated data,sParty_FishermanWade2,,0x0823A308
+Unbound,relocated data,sParty_ChannelerJody,,0x0823A320
+Unbound,relocated data,sParty_TeamRocketGrunt41,,0x0823A330
+Unbound,relocated data,sParty_RSTwins,,0x0823A358
+Unbound,relocated data,sParty_Brendan,,0x0823A360
+Unbound,relocated data,sParty_Brendan2,,0x0823A368
+Unbound,relocated data,sParty_Channeler1,,0x0823A370
+Unbound,relocated data,sParty_LeaderWattson,,0x0823A3E0
+Unbound,relocated data,sParty_Camper2,,0x0823A438
+Unbound,relocated data,sParty_PicnickerAlicia,,0x0823A440
+Unbound,relocated data,sParty_LassAndrea,,0x0823A448
+Unbound,relocated data,sParty_BirdKeeperKeith,,0x0823A450
+Unbound,relocated data,sParty_PicnickerDiana,,0x0823A458
+Unbound,relocated data,sParty_JugglerEdward,,0x0823A460
+Unbound,relocated data,sParty_SailorDylan,,0x0823A7B0
+Unbound,relocated data,sParty_BugCatcher5,,0x0823A8A0
+Unbound,relocated data,sParty_SwimmerMaleDarrin2,,0x0823A8D8
+Unbound,relocated data,sParty_SuperNerdLeslie,,0x0823AA60
+Unbound,relocated data,sParty_SuperNerdGlenn,,0x0823AA78
+Unbound,relocated data,sParty_BikerLao,,0x0823AD10
+Unbound,relocated data,sParty_BikerAlex,,0x0823AD50
+Unbound,relocated data,sParty_SwimmingTriathleteF,,0x0823AD80
+Unbound,relocated data,sParty_BikerRuben,,0x0823AE48
+Unbound,relocated data,sParty_CueBallJamal,,0x0823B250
+Unbound,relocated data,sParty_Burglar2,,0x0823B260
+Unbound,relocated data,sParty_BugCatcher8,,0x0823B500
+Unbound,relocated data,sParty_BirdKeeperBenny,,0x0823B620
+Unbound,relocated data,sParty_BirdKeeperDonald,,0x0823B628
+Unbound,relocated data,sParty_RichBoy,,0x0823B638
+Unbound,relocated data,sParty_BirdKeeperMitch,,0x0823B6A8
+Unbound,relocated data,sParty_BirdKeeperBeck,,0x0823B6E0
+Unbound,relocated data,sParty_TwinsKiriJan,,0x0823B708
+Unbound,relocated data,sParty_BirdKeeperReed,,0x0823B728
+Unbound,relocated data,sParty_BlackBeltTakashi,,0x0823B7C8
+Unbound,relocated data,sParty_ScientistIvan,,0x0823B9B8
+Unbound,relocated data,sParty_BugCatcher4,,0x0823B9F8
+Unbound,relocated data,sParty_DragonTamer,,0x0823BA18
+Unbound,relocated data,sParty_ScientistBraydon,,0x0823BA48
+Unbound,relocated data,sParty_ScientistJoshua,,0x0823BAA8
+Unbound,relocated data,sParty_ScientistBeau,,0x0823BAC0
+Unbound,relocated data,sParty_SailorDuncan,,0x0823BAE8
+Unbound,relocated data,sParty_PokefanF,,0x0823BAF8
+Unbound,relocated data,sParty_TeamRocketGrunt39,,0x0823BB58
+Unbound,relocated data,sParty_TeamRocketGrunt24,,0x0823BDA8
+Unbound,relocated data,sParty_TeamRocketGrunt,,0x0823BEE8
+Unbound,relocated data,sParty_PkmnProfProfOak,,0x0823BF20
+Unbound,relocated data,sParty_PsychicJaclyn2,,0x0823C000
+Unbound,relocated data,sParty_BirdKeeperHarold2,,0x0823C070
+Unbound,relocated data,sParty_YoungCoupleGiaJes3,,0x0823C0C0
+Unbound,relocated data,sParty_CooltrainerRolando,,0x0823C3E0
+Unbound,relocated data,sParty_CooltrainerGilbert,,0x0823C400
+Unbound,relocated data,sParty_CooltrainerBrooke,,0x0823C430
+Unbound,relocated data,sParty_CooltrainerAustina,,0x0823C460
+Unbound,relocated data,sParty_YoungsterTimmy4,,0x0823C4B0
+Unbound,relocated data,sParty_PicnickerBecky2,,0x0823C650
+Unbound,relocated data,sParty_CrushKinRonMya2,,0x0823C680
+Unbound,relocated data,sParty_BugCatcherColton4,,0x0823C6B0
+Unbound,relocated data,sParty_RSBirdKeeper,,0x0823C6F0
+Unbound,relocated data,sParty_PicnickerGwen,,0x0823C720
+Unbound,relocated data,sParty_GentlemanNorton,,0x0823C780
+Unbound,relocated data,sParty_GentlemanArthur,,0x0823C798
+Unbound,relocated data,sParty_BirdKeeperMilo2,,0x0823C7F0
+Unbound,relocated data,sParty_EliteFourLorelei2,,0x0823C850
+Unbound,relocated data,sParty_RivalRoute22LateSquirtle,,0x0823C8B0
+Unbound,relocated data,sParty_RivalSilphSquirtle,,0x0823C900
+Unbound,relocated data,sParty_RivalSilphBulbasaur,,0x0823C960
+Unbound,relocated data,sParty_RivalSilphCharmander,,0x0823C9C0
+Unbound,relocated data,sParty_Channeler3,,0x0823CBD8
+Unbound,relocated data,sParty_SuperNerdGlenn2,,0x0823CBE8
+Unbound,relocated data,sParty_YoungsterChad4,,0x0823CCA0
+Unbound,relocated data,sParty_BirdKeeperRoger,,0x0823CE20
+Unbound,relocated data,sParty_PicnickerNancy,,0x0823CE80
+Unbound,relocated data,sParty_Channeler5,,0x0823CE98
+Unbound,relocated data,sParty_ChannelerHope,,0x0823CEA0
+Unbound,relocated data,sParty_PicnickerBecky,,0x0823CED0
+Unbound,relocated data,sParty_CrushKinRonMya3,,0x0823CEF0
+Unbound,relocated data,sParty_PlayerLeaf,,0x0823CF20
+Unbound,relocated data,sParty_PicnickerAriana,,0x0823CFA8
+Unbound,relocated data,sParty_CueBallCorey2,,0x0823CFC0
+Unbound,relocated data,sParty_TeamRocketGrunt44,,0x0823D188
+Unbound,relocated data,sParty_PicnickerBecky3,,0x0823D270
+Unbound,relocated data,sParty_HikerFranklin2,,0x0823D348
+Unbound,relocated data,sParty_JugglerMason,,0x0823D618
+Unbound,relocated data,sParty_EliteFourLance2,,0x0823D708
+Unbound,relocated data,sParty_SwimmerFemaleMelissa2,,0x0823D758
+Unbound,relocated data,sParty_RuinManiacBrandon,,0x0823D7C0
+Unbound,relocated data,sParty_RuinManiacBenjamin,,0x0823D7D8
+Unbound,relocated data,sParty_PainterEdna,,0x0823D7F0
+Unbound,relocated data,sParty_GentlemanClifford,,0x0823D808
+Unbound,relocated data,sParty_BugCatcherVance,,0x0823D898
+Unbound,relocated data,sParty_BugCatcherJonah,,0x0823D8B8
+Unbound,relocated data,sParty_LassJoana,,0x0823D8F0
+Unbound,relocated data,sParty_LassDalia,,0x0823D910
+Unbound,relocated data,sParty_CamperRicky2,,0x0823D940
+Unbound,relocated data,sParty_RuinManiacLayton,,0x0823D988
+Unbound,relocated data,sParty_TuberAmira2,,0x0823DB30
+Unbound,relocated data,sParty_LassMegan2,,0x0823DB70
+Unbound,relocated data,sParty_LassMegan3,,0x0823DB80
+Unbound,relocated data,sParty_PainterRayna2,,0x0823DB90
+Unbound,relocated data,sParty_BikerJaren2,,0x0823DBF0
+Unbound,relocated data,sParty_RockerLuca2,,0x0823DC30
+Unbound,relocated data,sParty_CueBallChase,,0x0823DC70
+Unbound,relocated data,sParty_BirdKeeperRobert2,,0x0823DCB8
+Unbound,relocated data,sParty_BirdKeeperRobert3,,0x0823DCC8
+Unbound,relocated data,sParty_PicnickerSusie2,,0x0823DCE0
+Unbound,relocated data,sParty_PicnickerSusie3,,0x0823DCF8
+Unbound,relocated data,sParty_PicnickerSusie4,,0x0823DD08
+Unbound,relocated data,sParty_BikerLukas2,,0x0823DD20
+Unbound,relocated data,sParty_BirdKeeperBenny2,,0x0823DD38
+Unbound,relocated data,sParty_BirdKeeperBenny3,,0x0823DD48
+Unbound,relocated data,sParty_BlackBeltShea2,,0x0823DD58
+Unbound,relocated data,sParty_BirdKeeperChester3,,0x0823DDC0
+Unbound,relocated data,sParty_BattleGirl,,0x0823DDF0
+Unbound,relocated data,sParty_PicnickerBecky4,,0x0823DE30
+Unbound,relocated data,sParty_SisAndBroLilIan3,,0x0823DE40
+Unbound,relocated data,sParty_BikerRuben2,,0x0823DE60
+Unbound,relocated data,sParty_CueBallCamron2,,0x0823DE70
+Unbound,relocated data,sParty_CueBallIsaiah2,,0x0823DE80
+Unbound,relocated data,sParty_PsychicJaclyn,,0x0823DEB8
+Unbound,relocated data,sParty_EliteFourBruno2,,0x0823DEC8
+Unbound,relocated data,sParty_ParasolLady,,0x0823DF30
+Unbound,relocated data,sParty_CooltrainerMichelle,,0x0823DF60
+Unbound,relocated data,sParty_BikerLukas,,0x0823DFB8
+Unbound,relocated data,sParty_Channeler4,,0x0823DFC8
+Unbound,relocated data,sParty_EliteFourAgatha2,,0x0823DFE0
+Unbound,relocated data,sParty_CooltrainerPaul,,0x0823E038
+Unbound,relocated data,sParty_ScientistTaylor,,0x0823E070
+Unbound,relocated data,sParty_ChannelerStacy,,0x0823E080
+Unbound,relocated data,sParty_JugglerMason2,,0x0823E100
+Unbound,relocated data,sParty_CooltrainerLeroy,,0x0823E1A0
+Unbound,relocated data,sParty_PkmnRangerKatelyn2,,0x0823E270
+Unbound,relocated data,sParty_CooltrainerSamuel,,0x0823E288
+Unbound,relocated data,sParty_NinjaBoy,,0x0823E2A0
+Unbound,relocated data,sParty_CooltrainerCaroline,,0x0823E2D8
+Unbound,relocated data,sParty_BugCatcherColton2,,0x0823E2E8
+Unbound,relocated data,sParty_BugCatcherColton3,,0x0823E338
+Unbound,relocated data,sParty_LeaderKoga,,0x0823E388
+Unbound,relocated data,sParty_EliteFourPhoebe,,0x0823E3D8
+Unbound,relocated data,sParty_ChampionRematchCharmander,,0x0823E428
+Unbound,relocated data,sParty_BoarderF,,0x0823E488
+Unbound,relocated data,sParty_CueBallPaxton,,0x0823E4E8
+Unbound,relocated data,sParty_YoungsterChad2,,0x0823E548
+Unbound,relocated data,sParty_LeaderBlaine,,0x08247000
+Unbound,relocated data,sParty_Channeler6,,0x082481F0
+Unbound,relocated data,sParty_Channeler7,,0x08248220
+Unbound,relocated data,sParty_Channeler8,,0x08248250
+Unbound,relocated data,sParty_RSChampion,,0x0824F050
+Unbound,relocated data,sParty_RSFisherman,,0x0824F080
+Unbound,relocated data,sParty_CyclingTriathleteF,,0x0824F0B0
+Unbound,relocated data,sParty_YoungsterTimmy3,,0x0824F0D0
+Unbound,relocated data,sParty_RunningTriathleteM,,0x0824F120
+Unbound,relocated data,sParty_PkmnRangerNicolas2,,0x0824F160
+Unbound,relocated data,sParty_ChannelerAmanda,,0x08250C04
+Unbound,relocated data,sParty_ChannelerTasha,,0x08250C34
+Unbound,relocated data,sParty_YoungsterTimmy2,,0x08250C64
+Unbound,relocated data,sParty_RunningTriathleteF,,0x0825126C
+Unbound,relocated data,sParty_PkmnRangerMadeline2,,0x082512CC
+Unbound,relocated data,sParty_TamerEvan2,,0x0825130C
+Unbound,relocated data,sParty_CrushGirlSharon3,,0x0825134C
+Unbound,relocated data,sParty_GamerRich2,,0x0825139C
+Unbound,relocated data,sParty_BirdKeeperJacob3,,0x082513FC
+Unbound,relocated data,sParty_RivalRoute22LateCharmander,,0x0825144C
+Unbound,relocated data,sParty_SwimmerMaleMatthew2,,0x0825149C
+Unbound,relocated data,sParty_RivalRoute22LateBulbasaur,,0x082514EC
+Unbound,relocated data,sParty_SwimmerMaleFinn2,,0x0825153C
+Unbound,relocated data,sParty_LeaderRoxanne,,0x0825158C
+Unbound,relocated data,sParty_PlayerMay,,0x082515DC
+Unbound,relocated data,sParty_RSSwimmerF,,0x0825162C
+Unbound,relocated data,sParty_TeamRocketGrunt25,,0x0825168C
+Unbound,relocated data,sParty_TeamRocketGrunt34,,0x082516EC
+Unbound,relocated data,sParty_RSGentleman,,0x0825173C
+Unbound,relocated data,sParty_RivalPokemonTowerSquirtle,,0x0825178C
+Unbound,relocated data,sParty_RivalPokemonTowerBulbasaur,,0x082517DC
+Unbound,relocated data,sParty_RivalPokemonTowerCharmander,,0x0825182C
+Unbound,relocated data,sParty_RSPicnicker,,0x0825187C
+Unbound,relocated data,sParty_YoungsterBen3,,0x082518DC
+Unbound,relocated data,sParty_LeaderBrock,,0x0825192C
+Unbound,relocated data,sParty_YoungsterDestin2,,0x0825198C
+Unbound,relocated data,sParty_PkmnBreederAlize2,,0x082519CC
+Unbound,relocated data,sParty_YoungCoupleGiaJes2,,0x08251A2C
+Unbound,relocated data,sParty_BirdKeeperChaz2,,0x08251A8C
+Unbound,relocated data,sParty_SwimmerFemaleNicole2,,0x08251AEC
+Unbound,relocated data,sParty_SwimmerMaleSamir2,,0x08251B4C
+Unbound,relocated data,sParty_HikerEarl2,,0x08251B8C
+Unbound,relocated data,sParty_RuinManiacLarry2,,0x08251BEC
+Unbound,relocated data,sParty_LeaderBrawly,,0x08251C4C
+Unbound,relocated data,sParty_PokemaniacHector2,,0x082521F0
+Unbound,relocated data,sParty_PsychicDario2,,0x08252250
+Unbound,relocated data,sParty_PsychicRodette2,,0x082522B0
+Unbound,relocated data,sParty_ChannelerJennifer,,0x082528BC
+Unbound,relocated data,sParty_ChannelerEmilia,,0x0825291C
+Unbound,relocated data,sParty_RSSailor,,0x0825297C
+Unbound,relocated data,sParty_SwimmerMaleTony2,,0x082529DC
+Unbound,relocated data,sParty_SwimmerFemaleAlice2,,0x08252A3C
+Unbound,relocated data,sParty_CrushGirlSharon2,,0x08252A9C
+Unbound,relocated data,sParty_PicnickerMissy3,,0x082537D0
+Unbound,relocated data,sParty_FishermanElliot2,,0x08253830
+Unbound,relocated data,sItemIconTable,,0x0825A554
+Unbound,relocated data,sParty_HikerMarcos,,0x0826D49C
+Unbound,relocated data,sParty_LassAli,,0x0826D4B4
+Unbound,relocated data,sParty_YoungsterTyler,,0x0826D4D4
+Unbound,relocated data,sParty_LassReli3,,0x0826D9C0
+Unbound,relocated data,gObjectEventPic_ItemBall,,0x0826DA40
+Unbound,relocated data,gObjectEventPic_MrFuji,,0x0826DAC0
+Unbound,relocated data,sParty_RSCamper,,0x0826DD32
+Unbound,relocated data,sParty_RivalSsAnneBulbasaur,,0x0826DF28
+Unbound,relocated data,sParty_CueBallCorey,,0x0826F6B8
+Unbound,relocated data,sParty_BeautySheila2,,0x08270D28
+Unbound,relocated data,sParty_BlackBeltShea3,,0x082710E2
+Unbound,relocated data,sParty_BlackBeltHugh2,,0x08271378
+Unbound,relocated data,sParty_CrushKinMikKia3,,0x082713D8
+Unbound,relocated data,sParty_CrushKinMikKia2,,0x08271438
+Unbound,relocated data,sParty_TwinsJoyMeg2,,0x08271498
+Unbound,relocated data,sParty_PkmnRangerJackson2,,0x082714F8
+Unbound,relocated data,sParty_BlackBeltHugh3,,0x08271548
+Unbound,relocated data,sParty_CrushGirlTanya2,,0x08271598
+Unbound,relocated data,sParty_EliteFourDrake,,0x082715F8
+Unbound,relocated data,sParty_LeaderWallace,,0x08271658
+Unbound,relocated data,sParty_LeaderNorman,,0x082716B8
+Unbound,relocated data,sParty_MagmaAdminCourtney,,0x08271718
+Unbound,relocated data,sParty_AquaAdminShelly,,0x08271778
+Unbound,relocated data,sParty_RSSisAndBro,,0x082717D8
+Unbound,relocated data,sParty_RSYoungCouple,,0x08271838
+Unbound,relocated data,sParty_RSBugCatcher,,0x08271898
+Unbound,relocated data,sParty_RSHiker,,0x082718F8
+Unbound,relocated data,sParty_OldCouple,,0x08271958
+Unbound,relocated data,sParty_AquaAdminMatt,,0x082719B8
+Unbound,relocated data,sParty_MagmaAdminTabitha,,0x08271E74
+Unbound,relocated data,sParty_LeaderFlannery,,0x08271ED4
+Unbound,relocated data,sParty_LeaderWinona,,0x08271F34
+Unbound,relocated data,sParty_RSLass,,0x08271F94
+Unbound,relocated data,sParty_EliteFourGlacia,,0x08271FF4
+Unbound,relocated data,sParty_Brendan3,,0x08272054
+Unbound,relocated data,sParty_May,,0x082720B4
+Unbound,relocated data,sParty_Collector,,0x08272114
+Unbound,relocated data,sParty_Wally,,0x08272174
+Unbound,relocated data,sParty_May2,,0x082721D4
+Unbound,relocated data,sParty_May3,,0x08272234
+Unbound,relocated data,sParty_RSPkmnBreederM,,0x08272294
+Unbound,relocated data,sParty_RSPkmnBreederF,,0x082722F4
+Unbound,relocated data,sParty_RSPkmnRangerM,,0x08272354
+Unbound,relocated data,sParty_RSPkmnRangerF,,0x082723B4
+Unbound,relocated data,sParty_MagmaGruntF,,0x08272414
+Unbound,relocated data,sParty_MagmaGruntM,,0x08272474
+Unbound,relocated data,sParty_MagmaLeader,,0x082724D4
+Unbound,relocated data,sParty_ScientistGideon,,0x08272534
+Unbound,relocated data,sParty_SwimmerFemaleAmara,,0x08272594
+Unbound,relocated data,sParty_TeamRocketGrunt43,,0x082725F4
+Unbound,relocated data,sParty_RivalSsAnneSquirtle,,0x08272644
+Unbound,relocated data,sParty_RivalSsAnneCharmander,,0x08272694
+Unbound,relocated data,sParty_PicnickerMissy2,,0x08272C64
+Unbound,relocated data,sParty_YoungsterChad3,,0x08272D3C
+Unbound,relocated data,sParty_ChampionRematchBulbasaur,,0x08272EC4
+Unbound,relocated data,sParty_PokemaniacWinston,,0x08272FCC
+Unbound,relocated data,sParty_LassReli2,,0x082730D4
+Unbound,relocated data,sParty_LassJanice2,,0x0827314C
+Unbound,relocated data,sBattleTerrainTiles_Underwater,,0x082752A0
+Unbound,relocated data,sBattleTerrainTilemap_Underwater,,0x08275BD0
+Unbound,relocated data,gTrainerFrontPic_Youngster,,0x08277360
+Unbound,relocated data,gTrainerFrontPic_BugCatcher,,0x082806F0
+Unbound,relocated data,sParty_BeautyLori,,0x0828331C
+Unbound,relocated data,sParty_BugCatcher3,,0x08283474
+Unbound,relocated data,sParty_FishermanHank,,0x082835FC
+Unbound,relocated data,sParty_PlayerRed,,0x082837A4
+Unbound,relocated data,gTrainerFrontPic_Lass,,0x08283BB0
+Unbound,relocated data,sParty_EliteFourSidney,,0x0828806C
+Unbound,relocated data,gTrainerFrontPic_Sailor,,0x082880C0
+Unbound,relocated data,gTrainerFrontPic_SuperNerd,,0x0828E5B0
+Unbound,relocated data,gTrainerFrontPic_Guitarist,,0x0828F580
+Unbound,relocated data,sBattleTerrainTiles_Building,,0x0828FBE0
+Unbound,relocated data,sBattleTerrainTilemap_Building,,0x08290700
+Unbound,relocated data,gTrainerFrontPic_Hiker,,0x082922F0
+Unbound,relocated data,gTrainerFrontPic_Biker,,0x082927A0
+Unbound,relocated data,gTrainerFrontPic_Burglar,,0x08293D10
+Unbound,relocated data,sParty_TeamRocketGrunt2,,0x082A3770
+Unbound,relocated data,sParty_BirdKeeperChester2,,0x082A47CC
+Unbound,relocated data,sParty_BeautyGrace2,,0x082A7670
+Unbound,relocated data,sParty_BirdKeeperMarlon3,,0x082A7690
+Unbound,relocated data,sParty_BirdKeeperMarlon2,,0x082A76C0
+Unbound,relocated data,sParty_SwimmerMaleJack2,,0x082A76E0
+Unbound,relocated data,sParty_SisAndBroLilIan2,,0x082A7740
+Unbound,relocated data,sParty_CrushGirlTanya3,,0x082A77A0
+Unbound,relocated data,sParty_ChampionRematchSquirtle,,0x082A7800
+Unbound,relocated data,gTrainerFrontPic_Fisherman,,0x082A87C0
+Unbound,relocated data,gTrainerFrontPic_SwimmerM,,0x082AAA20
+Unbound,relocated data,gTrainerFrontPic_LeaderGiovanni,,0x082AAD40
+Unbound,relocated data,sParty_TeamRocketGrunt16,,0x082B36DC
+Unbound,relocated data,sParty_RSCooltrainerF,,0x082B4FF0
+Unbound,relocated data,sParty_RSTuberM,,0x082B51DC
+Unbound,relocated data,sParty_RSCooltrainerM,,0x082B53E4
+Unbound,relocated data,sParty_HexManiac,,0x082B55F4
+Unbound,relocated data,sParty_RSLady,,0x082B57FC
+Unbound,relocated data,sParty_RSBeauty,,0x082B5A08
+Unbound,relocated data,gTrainerFrontPic_Twins,,0x082B68B0
+Unbound,relocated data,gTrainerFrontPic_CoolCouple,,0x082B6C40
+Unbound,relocated data,gTrainerFrontPic_YoungCouple,,0x082B7130
+Unbound,relocated data,sParty_CrushGirlTanya,,0x082B759C
+Unbound,relocated data,sParty_BlackBeltShea,,0x082B75BC
+Unbound,relocated data,sParty_BlackBeltHugh,,0x082B75DC
+Unbound,relocated data,sParty_CamperBryce,,0x082B75FC
+Unbound,relocated data,gTrainerFrontPic_PokemonRangerM,,0x082C0970
+Unbound,relocated data,sParty_LeaderMisty,,0x082C2A04
+Unbound,relocated data,gTrainerFrontPic_SisAndBro,,0x082C4310
+Unbound,relocated data,gTrainerFrontPic_PokemonRangerF,,0x082C47C0
+Unbound,relocated data,gTrainerFrontPic_CrushGirl,,0x082C4B20
+Unbound,relocated data,sParty_BossGiovanni2,,0x082C82EC
+Unbound,relocated data,sParty_LeaderLtSurge,,0x082C8480
+Unbound,relocated data,sParty_ChannelerPatricia,,0x082CB934
+Unbound,relocated data,gTileset_FuchsiaGym,,0x082D4B0C
+Unbound,relocated data,gTileset_CinnabarGym,,0x082D4B54
+Unbound,relocated data,gTileset_SeaCottage,,0x082D4D04
+Unbound,relocated data,gTileset_ViridianCity,,0x082D4E0C
+Unbound,relocated data,gTileset_PewterCity,,0x082D4E0C
+Unbound,relocated data,gTileset_SafariZoneBuilding,,0x082D4E9C
+Unbound,relocated data,gTileset_ViridianGym,,0x082D4FA4
+Unbound,relocated data,gTileset_SaffronGym,,0x082D4FA4
+Unbound,relocated data,gTileset_CeladonGym,,0x082D4FEC
+Unbound,relocated data,gTileset_BikeShop,,0x082D5034
+Unbound,relocated data,gTileset_BerryForest,,0x082D507C
+Unbound,relocated unknown,PokemonCenter_1F_Layout_Border,,0x082D5AFC
+Unbound,relocated unknown,PokemonCenter_2F_Layout_Border,,0x082D5AFC
+Unbound,relocated unknown,CeladonCity_Condominiums_3F_Layout_Blockdata,,0x0831A584
+Unbound,relocated unknown,House5_Layout_Border,,0x08321020
+Unbound,relocated unknown,SaffronCity_CopycatsHouse_1F_Layout_Border,,0x08321020
+Unbound,relocated unknown,SaffronCity_Dojo_Layout_Border,,0x08321020
+Unbound,relocated unknown,NavelRock_Fork_Layout_Border,,0x0832C664
+Unbound,relocated unknown,CeladonCity_Gym_Layout_Blockdata,,0x08333F6C
+Unbound,relocated unknown,VictoryRoad_1F,,0x0834F310
+Unbound,relocated unknown,SSAnne_Deck,,0x0834F32C
+Unbound,relocated unknown,VictoryRoad_3F,,0x0834F348
+Unbound,relocated unknown,FiveIsland_LostCave_Room3,,0x0834F4B4
+Unbound,relocated unknown,DiglettsCave_NorthEntrance,,0x0834F594
+Unbound,relocated unknown,DiglettsCave_B1F,,0x0834F5B0
+Unbound,relocated unknown,UndergroundPath_SouthEntrance,,0x0834F5CC
+Unbound,relocated unknown,UndergroundPath_WestEntrance,,0x0834F604
+Unbound,relocated unknown,SSAnne_Kitchen,,0x0834F658
+Unbound,relocated unknown,NavelRock_SummitPath_4F,,0x0834F674
+Unbound,relocated unknown,SSAnne_CaptainsOffice,,0x0834F690
+Unbound,relocated unknown,SafariZone_West,,0x0834F930
+Unbound,relocated unknown,SafariZone_East_RestHouse,,0x0834F94C
+Unbound,relocated unknown,SafariZone_North_RestHouse,,0x0834F968
+Unbound,relocated unknown,SafariZone_West_RestHouse,,0x0834F984
+Unbound,relocated unknown,SafariZone_SecretHouse,,0x0834F9A0
+Unbound,relocated unknown,CeruleanCave_1F,,0x0834F9BC
+Unbound,relocated unknown,CeruleanCave_2F,,0x0834F9D8
+Unbound,relocated unknown,PokemonLeague_ChampionsRoom,,0x0834FA9C
+Unbound,relocated unknown,PokemonLeague_LancesRoom,,0x0834FAB8
+Unbound,relocated unknown,Route19,,0x0834FB0C
+Unbound,relocated unknown,UndergroundPath_EastWestTunnel,,0x0834FBB4
+Unbound,relocated unknown,CeruleanCave_B1F,,0x0834FBEC
+Unbound,relocated unknown,PokemonTower_4F,,0x0834FBEC
+Unbound,relocated unknown,PokemonTower_5F,,0x0834FC08
+Unbound,relocated unknown,CeladonCity_Condominiums_3F,,0x0834FC08
+Unbound,relocated unknown,SSAnne_B1F_Room1,,0x0835012C
+Unbound,relocated unknown,OneIsland_KindleRoad_EmberSpa,,0x083503CC
+Unbound,relocated unknown,SaffronCity_House,,0x083503E8
+Unbound,relocated unknown,VictoryRoad_2F,,0x08350404
+Unbound,relocated unknown,NavelRock_SummitPath_2F,,0x083505C4
+Unbound,relocated unknown,SeafoamIslands_B2F,,0x08350618
+Unbound,relocated unknown,SaffronCity_Dojo,,0x083506A4
+Unbound,relocated unknown,MtEmber_RubyPath_B1F_Stairs,,0x0835074C
+Unbound,relocated unknown,SeafoamIslands_1F,,0x08350768
+Unbound,relocated unknown,SeafoamIslands_B1F,,0x083507D8
+Unbound,relocated unknown,PokemonTower_3F,,0x083507F4
+Unbound,relocated unknown,PokemonTower_2F,,0x08350810
+Unbound,relocated unknown,SafariZone_Center_RestHouse,,0x0835082C
+Unbound,relocated unknown,SafariZone_North,,0x083508B8
+Unbound,relocated unknown,PokemonTower_1F,,0x083508D4
+Unbound,relocated unknown,SaffronCity_Gym,,0x08350960
+Unbound,relocated unknown,MtEmber_SummitPath_1F,,0x083509B4
+Unbound,relocated unknown,SaffronCity_Mart,,0x083509D0
+Unbound,relocated unknown,RockTunnel_B1F,,0x08350A24
+Unbound,relocated unknown,UndergroundPath_EastEntrance,,0x08350A40
+Unbound,relocated unknown,SaffronCity_PokemonCenter_1F,,0x08350B3C
+Unbound,relocated unknown,SeafoamIslands_B3F,,0x08350B90
+Unbound,relocated unknown,SeafoamIslands_B4F,,0x08350BAC
+Unbound,relocated unknown,SaffronCity_PokemonCenter_2F,,0x08350C38
+Unbound,relocated unknown,SaffronCity_CopycatsHouse_2F,,0x08350CFC
+Unbound,relocated unknown,MtEmber_RubyPath_B3F,,0x08350E68
+Unbound,relocated unknown,ViridianCity_Gym,,0x08350F9C
+Unbound,relocated unknown,MtEmber_RubyPath_B2F_Stairs,,0x08350FF0
+Unbound,relocated unknown,VermilionCity_PokemonFanClub,,0x08351108
+Unbound,relocated unknown,VermilionCity_House1,,0x08351124
+Unbound,relocated unknown,VermilionCity_House2,,0x0835115C
+Unbound,relocated unknown,VermilionCity_Mart,,0x08351178
+Unbound,relocated unknown,VermilionCity_PokemonCenter_2F,,0x08351194
+Unbound,relocated unknown,VermilionCity_Gym,,0x083511CC
+Unbound,relocated unknown,TwoIsland_PokemonCenter_2F,,0x08351530
+Unbound,relocated unknown,TwoIsland_Harbor,,0x08351894
+Unbound,relocated unknown,CeladonCity_Condominiums_2F,,0x08351974
+Unbound,relocated unknown,FuchsiaCity_SafariZone_Office,,0x08351990
+Unbound,relocated unknown,CeladonCity_Gym,,0x083519E4
+Unbound,relocated unknown,CeladonCity_PokemonCenter_1F,,0x08351A00
+Unbound,relocated unknown,CeladonCity_PokemonCenter_2F,,0x08351A1C
+Unbound,relocated unknown,CeladonCity_GameCorner,,0x08351A54
+Unbound,relocated unknown,CeladonCity_GameCorner_PrizeRoom,,0x08351A70
+Unbound,relocated unknown,CeladonCity_Condominiums_RoofRoom,,0x08351AA8
+Unbound,relocated unknown,CeladonCity_DepartmentStore_Roof,,0x08351AE0
+Unbound,relocated unknown,CeladonCity_Hotel,,0x08351B6C
+Unbound,relocated unknown,FuchsiaCity_Mart,,0x08351B88
+Unbound,relocated unknown,CeladonCity_House1,,0x08351BA4
+Unbound,relocated unknown,FuchsiaCity_SafariZone_Entrance,,0x08351BC0
+Unbound,relocated unknown,TwoIsland_PokemonCenter_1F,,0x08351BDC
+Unbound,relocated unknown,CeladonCity_Condominiums_1F,,0x08351BF8
+Unbound,relocated unknown,CeladonCity_Condominiums_Roof,,0x08351C14
+Unbound,relocated unknown,CeladonCity_DepartmentStore_4F,,0x08351C30
+Unbound,relocated unknown,CeladonCity_DepartmentStore_5F,,0x08351C4C
+Unbound,relocated unknown,CeladonCity_DepartmentStore_Elevator,,0x08351C68
+Unbound,relocated unknown,OneIsland_Harbor,,0x08351CA0
+Unbound,relocated unknown,TwoIsland_JoyfulGameCorner,,0x08351CBC
+Unbound,relocated unknown,ThreeIsland_Mart,,0x08351CBC
+Unbound,relocated unknown,TwoIsland_House,,0x08351CD8
+Unbound,relocated unknown,FourIsland_House1,,0x08351CF4
+Unbound,relocated unknown,ThreeIsland_PokemonCenter_1F,,0x08351D10
+Unbound,relocated unknown,ThreeIsland_PokemonCenter_2F,,0x08351D2C
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_Lounge,,0x08351D48
+Unbound,relocated unknown,FourIsland_PokemonCenter_2F,,0x08351D64
+Unbound,relocated unknown,FourIsland_PokemonDayCare,,0x08351D80
+Unbound,relocated unknown,FourIsland_PokemonCenter_1F,,0x08351D9C
+Unbound,relocated unknown,FourIsland_House2,,0x08351D9C
+Unbound,relocated unknown,FourIsland_Harbor,,0x08351DB8
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_Entrance,,0x08351DF0
+Unbound,relocated unknown,FuchsiaCity_House3,,0x08351E0C
+Unbound,relocated unknown,FuchsiaCity_PokemonCenter_2F,,0x08351E28
+Unbound,relocated unknown,SixIsland_PokemonCenter_1F,,0x08351E44
+Unbound,relocated unknown,FuchsiaCity_PokemonCenter_1F,,0x08351E60
+Unbound,relocated unknown,CinnabarIsland_PokemonCenter_2F,,0x08351E60
+Unbound,relocated unknown,VermilionCity_PokemonCenter_1F,,0x08351E7C
+Unbound,relocated unknown,VermilionCity_House3,,0x08351E7C
+Unbound,relocated unknown,FuchsiaCity_WardensHouse,,0x08351E98
+Unbound,relocated unknown,FuchsiaCity_House2,,0x08351EB4
+Unbound,relocated unknown,FuchsiaCity_House1,,0x08351ED0
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_ResearchRoom,,0x08351F5C
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_ExperimentRoom,,0x08351F78
+Unbound,relocated unknown,CinnabarIsland_PokemonCenter_1F,,0x08351F94
+Unbound,relocated unknown,CeladonCity_Restaurant,,0x08351FE8
+Unbound,relocated unknown,gMapGroup_IndoorTwoIsland,,0x083524B0
+Unbound,relocated unknown,gMapGroup_IndoorOneIsland,,0x08352548
+Unbound,relocated unknown,gMapGroup_IndoorThreeIsland,,0x08352610
+Unbound,relocated unknown,CeruleanCity_MapConnections,,0x083527CC
+Unbound,relocated unknown,Route4_MapConnections,,0x08352A48
+Unbound,relocated unknown,Route9_MapConnections,,0x08352AE8
+Unbound,relocated unknown,Route14_MapConnections,,0x08352B94
+Unbound,relocated unknown,Route18_MapConnections,,0x08352C14
+Unbound,relocated unknown,Route24_MapConnections,,0x08352CF4
+Unbound,relocated unknown,FiveIsland_Meadow_MapConnections,,0x08352DE8
+Unbound,relocated unknown,SixIsland_WaterPath_MapConnections,,0x08352E5C
+Unbound,relocated data,gObjectEventPic_GreenSurfRun,,0x0835DC68
+Unbound,relocated data,gObjectEventPic_GreenItem,,0x0835F3A8
+Unbound,relocated data,gObjectEventPic_GreenVSSeekerBike,,0x0835F3A8
+Unbound,relocated data,gObjectEventPic_RedSurfRun,,0x083631A8
+Unbound,relocated data,gObjectEventPic_Pokedex,,0x083637A8
+Unbound,relocated data,gObjectEventPic_GymSign,,0x083639A8
+Unbound,relocated data,sPicTable_RedVSSeekerBike,,0x083A0330
+Unbound,relocated data,sPicTable_Policeman,,0x083A04B8
+Unbound,relocated data,sPicTable_WorkerF,,0x083A0938
+Unbound,relocated data,gObjectEventBaseOam_32x16,,0x083A3718
+Unbound,relocated data,gObjectEventBaseOam_16x32,,0x083A3718
+Unbound,relocated data,gObjectEventSpriteOamTables_16x16,,0x083A37F0
+Unbound,relocated data,gObjectEventSpriteOamTables_16x32,,0x083A37F0
+CFRU,repoint,sStartMenuActionTable,0x0806EF9C,0x083A7344
+CFRU,repoint,sStartMenuActionTable,0x0806F374,0x083A7344
+CFRU,repoint,sStartMenuActionTable,0x0806F3F8,0x083A7344
+CFRU,repoint,sStartMenuDescPointers,0x0806F138,0x083A7394
+CFRU,repoint,sStartMenuDescPointers,0x0806F368,0x083A7394
+Unbound,relocated unknown,MtEmber_SummitPath_1F_MapEvents,,0x083B285C
+Unbound,relocated unknown,ThreeIsland_BerryForest_Layout_Border,,0x083B340C
+Unbound,relocated unknown,Route21_South_MapEvents,,0x083B8300
+Unbound,relocated data,gObjectEventPic_CutTree,,0x083BD220
+CFRU,repoint,pcSelect_OperationsTable,0x0808FBC8,0x083CEA88
+CFRU,repoint,pcSelect_OperationsTable,0x0808FCE4,0x083CEA88
+CFRU,repoint,pcSelect_newBrmTable,0x08094E48,0x083D353C
+Unbound,relocated data,sSevii123_Tilemap,,0x083F089C
+Unbound,relocated data,sSevii45_Tilemap,,0x083F089C
+Unbound,relocated data,sSevii67_Tilemap,,0x083F089C
+Unbound,relocated data,gText_ItemfinderResponding,,0x0841647E
+Unbound,relocated data,gText_ItemfinderShakingWildly,,0x084164C2
+Unbound,relocated data,gText_MoveItems,,0x0841857C
+Unbound,relocated data,gText_WithdrawPokemon,,0x0841858C
+Unbound,relocated data,gText_MoveItemsDescription,,0x084185E2
+Unbound,relocated data,gText_DepositMonDescription,,0x08418642
+Unbound,relocated data,gText_OptionMenuCancel,,0x08419C5A
+CFRU,repoint,gText_TextSpeedMid,0x083CC330,0x08419E16
+CFRU,repoint,gText_TextSpeedFast,0x083CC334,0x08419E1C
+CFRU,repoint,gText_TextSpeedInstant,0x083CC338,0x08419E20
+CFRU,repoint,gUnknown_841F428,0x080F78DC,0x0841F428
+Unbound,relocated data,sRegionMap_Gfx,,0x0842D7D0
+Unbound,relocated data,sRematches,,0x08453190
+Unbound,relocated data,sSlotTilemap_Wide,,0x0845A180
+Unbound,relocated data,sSlotTilemap_MainNoHP,,0x0845A1BC
+Unbound,relocated data,sSlotTilemap_WideNoHP,,0x0845A1C8
+Unbound,relocated data,sSlotTilemap_WideEmpty,,0x0845A210
+Unbound,relocated data,sMoveSelectionCursorTiles_Right,,0x08463800
+Unbound,relocated data,sPicTable_LaprasDoll,,0x086C0148
+Unbound,relocated data,gMonFrontPic_UnownO,,0x08712314
+Unbound,relocated unknown,gMapGroup_IndoorVermilion,,0x0871A23C
+Unbound,relocated unknown,gNameChoice_Ash,,0x0871A89A
+Unbound,relocated unknown,gNameChoice_Jak,,0x0871A8A0
+Unbound,relocated unknown,gNameChoice_Jonn,,0x0871A8A6
+Unbound,relocated unknown,gNameChoice_Jon,,0x0871A8B6
+Unbound,relocated unknown,gNameChoice_Kay,,0x0871A8BE
+Unbound,relocated unknown,gNameChoice_Tosh,,0x0871A8C6
+Unbound,relocated unknown,gOakSpeech_Text_ThisWorld,,0x0871A8D6
+Unbound,relocated unknown,gOakSpeech_Text_IsInhabitedFarAndWide,,0x0871A8E4
+Unbound,relocated data,sBattleTerrainTilemap_Indoor,,0x0871C4C0
+Unbound,relocated unknown,sMapsecName_PEWTER_CITY,,0x0871CA60
+Unbound,relocated unknown,sMapsecName_VERMILION_CITY,,0x0871CA70
+Unbound,relocated unknown,sMapsecName_LAVENDER_TOWN,,0x0871FC80
+Unbound,relocated data,sBattleTerrainTiles_Indoor,,0x087204E0
+Unbound,relocated unknown,sMapsecName_UNDERGROUND_PATH_Clone,,0x08720E88
+Unbound,relocated unknown,sMapsecName_PALLET_TOWN,,0x08720F5C
+Unbound,relocated unknown,sMapsecName_KINDLE_ROAD,,0x08720F88
+Unbound,relocated unknown,sMapsecName_SEVII_ISLE_8,,0x08721304
+Unbound,relocated data,sParty_CooltrainerGeorge,,0x0872138C
+Unbound,relocated unknown,sMapsecName_SILPH_CO_,,0x08721438
+Unbound,relocated data,gTileset_IslandHarbor,,0x0872147C
+Unbound,relocated unknown,sMapsecName_RESORT_GORGEOUS,,0x087214E8
+Unbound,relocated unknown,sMapsecName_FIVE_ISLE_MEADOW,,0x0872167C
+Unbound,relocated unknown,sMapsecName_WATER_LABYRINTH,,0x087216AC
+Unbound,relocated unknown,sMapsecName_FUCHSIA_CITY,,0x08721968
+Unbound,relocated data,sParty_RivalOaksLabBulbasaur,,0x08725200
+Unbound,relocated data,sParty_RSAromaLady,,0x087263BC
+Unbound,relocated data,sParty_BikerBilly,,0x08726B9E
+Unbound,relocated unknown,CeruleanCity_House3_MapEvents,,0x087319D8
+Unbound,relocated data,sWorldMapFlags,,0x08731A6C
+Unbound,relocated data,sParty_YoungsterCalvin,,0x08733C7C
+Unbound,relocated data,sPicTable_Spearow,,0x0873CD08
+Unbound,relocated data,gObjectEventPic_Seel,,0x0873D550
+Unbound,relocated data,gMetatiles_PalletTown,,0x0873E02C
+Unbound,relocated data,gMetatileAttributes_PalletTown,,0x0873E9AC
+Unbound,relocated unknown,ViridianCity_Mart_Text_YouCameFromPallet,,0x08740EF8
+Unbound,relocated unknown,CeruleanCity_House2_Layout_Blockdata,,0x08741024
+Unbound,relocated unknown,House1_Layout_Blockdata,,0x087411D4
+Unbound,relocated data,sParty_CamperEthan,,0x0874B244
+Unbound,relocated data,sParty_BugCatcherGreg,,0x0874B378
+Unbound,relocated unknown,EventScript_SetPewterGymTrainers,,0x08751FF4
+Unbound,relocated unknown,Route24_Text_TimmyRematchIntro,,0x0875372E
+Unbound,relocated unknown,PewterCity_Gym_Text_LiamIntro,,0x08764ED4
+Unbound,relocated unknown,SaffronCity_Gym_Text_PrestonDefeat,,0x08765BFE
+Unbound,relocated unknown,Route3_Text_JaniceRematchIntro,,0x08780530
+Unbound,relocated unknown,PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy,,0x08780576
+Unbound,relocated data,gObjectEventPic_Poliwrath,,0x08789AB0
+Unbound,relocated unknown,SilphCo_5F_EventScript_WorkerM,,0x08791B5E
+Unbound,relocated unknown,CinnabarIsland_Gym,,0x087A1218
+Unbound,relocated unknown,PewterCity_Gym_Layout_Blockdata,,0x087A1484
+Unbound,relocated data,gMetatiles_SaffronGym,,0x087A1DE4
+Unbound,relocated data,gMetatileAttributes_SaffronGym,,0x087A23E4
+Unbound,relocated data,sParty_BugCatcherAnthony,,0x087A7100
+Unbound,relocated data,sParty_HikerWayne,,0x087A7170
+Unbound,relocated data,sParty_AquaGruntM,,0x087A73B0
+Unbound,relocated data,sParty_AquaGruntF,,0x087A75B8
+Unbound,relocated data,sParty_ChannelerPaula,,0x087A7760
+Unbound,relocated data,gMetatiles_CeruleanGym,,0x087A8D8C
+Unbound,relocated data,gMetatileAttributes_CeruleanGym,,0x087A936C
+Unbound,relocated data,sParty_TeamRocketGrunt3,,0x087AA988
+Unbound,relocated data,gObjectEventPic_Jigglypuff,,0x087AB7D0
+Unbound,relocated data,gObjectEventPic_Clefairy,,0x087AC1D0
+Unbound,relocated data,gObjectEventPic_Pidgey,,0x087B1220
+Unbound,relocated data,sPicTable_Pidgeot,,0x087B1A90
+Unbound,relocated data,sParty_AquaLeader,,0x087B33B4
+Unbound,relocated data,sParty_RSRuinManiac,,0x087B33CC
+Unbound,relocated data,sParty_RSTuberF,,0x087B45D8
+Unbound,relocated data,sParty_RivalCeruleanSquirtle,,0x087B6604
+Unbound,relocated data,sParty_YoungsterDan,,0x087B94C0
+Unbound,relocated data,sPicTable_Zapdos,,0x087B94D0
+Unbound,relocated data,sParty_YoungsterJoey,,0x087B9800
+Unbound,relocated data,gObjectEventPic_Omanyte,,0x087B9B80
+Unbound,relocated data,sParty_RivalOaksLabCharmander,,0x087BA808
+Unbound,relocated data,sParty_BugManiac,,0x087BCC44
+Unbound,relocated data,sParty_CamperShane,,0x087BD234
+Unbound,relocated data,sParty_HikerAlan,,0x087BD650
+Unbound,relocated data,sParty_RSPsychicM,,0x087BD854
+Unbound,relocated data,sParty_Interviewer,,0x087C0008
+Unbound,relocated unknown,Route24_Text_ReliDefeat,,0x087C0E60
+Unbound,relocated unknown,Route6_Text_RickyPostBattle,,0x087C3228
+Unbound,relocated unknown,PokemonMansion_1F_Text_SimonDefeat,,0x087C46D4
+Unbound,relocated unknown,PokemonMansion_B1F_Text_IvanPostBattle,,0x087C496A
+Unbound,relocated data,sParty_LassCrissy,,0x087C8C78
+Unbound,relocated data,gObjectEventPic_Cubone,,0x087D0970
+Unbound,relocated data,gTilesetTiles_ViridianForest,,0x087E5CE8
+Unbound,relocated data,sParty_Kindler,,0x087EF034
+Unbound,relocated unknown,gSongTable,,0x087FE000
+Unbound,relocated data,sNidokingLevelUpLearnset,,0x087FFF68
+Unbound,relocated data,sMrMimeLevelUpLearnset,,0x087FFF70
+Unbound,relocated data,sFanfares,,0x08800150
+Unbound,relocated data,gPartyMenuBg_Gfx,,0x088001D0
+Unbound,relocated data,gPartyMenuBg_Pal,,0x08800470
+Unbound,relocated data,sText_ItDoesntAffect,,0x08800880
+Unbound,relocated data,gPartyMenuBg_Tilemap,,0x088008E0
+Unbound,relocated data,gText_NumericalModeKanto,,0x08800FD0
+Unbound,relocated data,gItemEffectTable,,0x08800FF0
+Unbound,relocated unknown,SoundMainRAM,,0x0880DC30
+Unbound,relocated code,InitTilesetAnim_VermilionGym,,0x0880F0C0
+Unbound,relocated data,gObjectEventGraphicsInfoPointers,,0x088110E0
+Unbound,relocated unknown,BattleScript_SuccessBallThrow,,0x0881D030
+Unbound,relocated unknown,sWhiteoutRespawnHealerNpcIds,,0x0881DC30
+Unbound,relocated unknown,sHealLocations,,0x0881DC78
+Unbound,relocated data,sMapFlyDestinations,,0x0881DE40
+Unbound,relocated data,sDoorGraphics,,0x088201F8
+Unbound,relocated data,sBattleTerrainTiles_Grass,,0x08821100
+Unbound,relocated data,sBattleTerrainTilemap_Grass,,0x08821C10
+Unbound,relocated data,gTrainerFrontPic_RuinManiac,,0x08824AC0
+Unbound,relocated data,gTrainerPalette_ExpertM,,0x08827B10
+Unbound,relocated data,gTrainerPalette_Gentleman,,0x08827B70
+Unbound,relocated data,gTrainerPalette_CooltrainerM,,0x08827BA0
+Unbound,relocated data,gTrainerPalette_CooltrainerF,,0x08827BD0
+Unbound,relocated data,gTrainerFrontPic_CooltrainerM,,0x08827C00
+Unbound,relocated data,gObjectEventPic_Wigglytuff,,0x0882B2D0
+Unbound,relocated data,gObjectEventPic_Machop,,0x0882BCD0
+Unbound,relocated data,gMonFrontPic_Omanyte,,0x088313F6
+Unbound,relocated data,sStar_Gfx,,0x08831DA0
+Unbound,relocated data,gGraphics_TitleScreen_GameTitleLogoMap,,0x08831EE0
+Unbound,relocated data,sWirelessLinkDisplayGfx,,0x08835800
+Unbound,relocated data,gGraphics_TitleScreen_GameTitleLogoTiles,,0x08835800
+Unbound,relocated data,gObjectEventPic_NidoranM,,0x08839840
+Unbound,relocated data,gObjectEventPic_Nidorino,,0x0883A000
+Unbound,relocated data,gObjectEventPic_NidoranF,,0x0883AE00
+Unbound,relocated data,sScene2_GengarClose_Gfx,,0x0883B400
+Unbound,relocated data,sScene2_GengarClose_Map,,0x0883C320
+Unbound,relocated data,sScene2_Nidorino_Gfx,,0x0883C5C0
+Unbound,relocated data,sScene3_GengarAnim_Map,,0x0883D060
+Unbound,relocated data,sScene3_GengarAnim_Gfx,,0x0883D680
+Unbound,relocated data,sScene3_Bg_Gfx,,0x0883F980
+Unbound,relocated data,sScene3_Bg_Map,,0x08840630
+Unbound,relocated data,sScene3_Nidorino_Gfx,,0x08840BA0
+Unbound,relocated data,gObjectEventPic_SittingBoy,,0x08847200
+Unbound,relocated data,gObjectEventPic_WorkerF,,0x08857C00
+Unbound,relocated data,gObjectEventPic_Policeman,,0x0885E400
+Unbound,relocated data,gChimechoPokedexText,,0x08866666
+Unbound,relocated data,gMurkrowPokedexText,,0x08866776
+Unbound,relocated unknown,gItems,,0x08876200
+Unbound,relocated unknown,sMovementActionFuncs,,0x0887E670
+Unbound,relocated data,gObjectEventPic_Psyduck,,0x08881020
+Unbound,relocated data,gObjectEventPic_Pikachu,,0x08881C20
+Unbound,relocated unknown,gText_PkmnFainted3,,0x088835B0
+Unbound,relocated data,sText_Trainer1WantsToBattle,,0x088854B0
+Unbound,relocated code,Cmd_end,,0x08885A00
+Unbound,relocated data,sPicTable_ItemBall,,0x08885A60
+Unbound,relocated data,gObjectEventPic_Doduo,,0x08889FE0
+Unbound,relocated data,sMugshotBanner_Gfx,,0x0888A5E0
+Unbound,relocated data,sMugshotsTilemap,,0x0888AEE0
+Unbound,relocated data,sPicTable_Fossil,,0x088928E0
+Unbound,relocated data,sPicTable_OldAmber,,0x08892930
+Unbound,relocated data,gObjectEventPic_Meowth,,0x08892F80
+Unbound,relocated data,gObjectEventPic_Voltorb,,0x088959C0
+Unbound,relocated data,gObjectEventPic_Slowpoke,,0x088963C0
+Unbound,relocated data,gObjectEventPic_Slowbro,,0x088971A0
+Unbound,relocated unknown,BattleScript_ItemHealHP_End2,,0x088A0CD0
+Unbound,relocated data,sMapPreviewScreenData,,0x088A3770
+Unbound,relocated code,Task_ReturnToItemListAfterItemPurchase,,0x088A4360
+Unbound,relocated unknown,ledgeBehaviorFuncs.2435,,0x088B3190
+Unbound,relocated unknown,gBattleAnims_General,,0x088B5ED0
+Unbound,relocated data,sText_PkmnHurtBySpikes,,0x088BB1E0
+Unbound,relocated unknown,BattleScript_FaintAttacker,,0x088BB620
+Unbound,relocated data,sText_WildPkmnAppeared,,0x088BD140
+Unbound,relocated data,sBattleAICmdTable,,0x088BDAB0
+Unbound,relocated unknown,BattleScript_IntimidateEnd,,0x088BF016
+Unbound,relocated unknown,BattleScript_FaintTarget,,0x088C3190
+Unbound,relocated code,SetUpFieldMove_Fly,,0x088C91E0
+Unbound,relocated code,SetUpFieldMove_Surf,,0x088C91F2
+Unbound,relocated code,SetUpFieldMove_Teleport,,0x088C9206
+Unbound,relocated unknown,.gcc2_compiled.,,0x088C9206
+Unbound,relocated code,SetUpFieldMove_Dig,,0x088C9218
+Unbound,relocated unknown,.gcc2_compiled.,,0x088C9218
+Unbound,relocated data,gZapdosPokedexText,,0x088EBBEE
+Unbound,relocated data,gMiltankPokedexText,,0x088EEBBA
+Unbound,relocated data,gRelicanthPokedexText,,0x088EEBBA
+Unbound,relocated data,gSeedotPokedexText,,0x088EEBEE
+Unbound,relocated data,gNatuPokedexText,,0x088EEEEE
+Unbound,relocated data,sSoundMovesTable,,0x08904F60
+Unbound,relocated unknown,BattleScript_SpikesOnTarget,,0x089063E0
+Unbound,relocated unknown,BattleScript_EffectLeechSeed,,0x08906840
+Unbound,relocated code,Cmd_metronome,,0x0890DA70
+Unbound,relocated data,sMovesForbiddenToCopy,,0x0890DA90
+Unbound,relocated unknown,BattleScript_SuccessForceOut,,0x0890E2A0
+Unbound,relocated unknown,BattleScript_SoundproofProtected,,0x0890F4C0
+Unbound,relocated unknown,RocketHideout_B4F_EventScript_DrawMapForBarrierRemoval,,0x089521BE
+Unbound,relocated unknown,RocketHideout_Elevator_EventScript_FloorSelectFromB2F,,0x089521BE
+Unbound,relocated unknown,SilphCo_4F_EventScript_WorkerMRocketsGone,,0x089521BE
+Unbound,relocated unknown,SilphCo_7F_EventScript_RivalExitBottom,,0x089521BE
+Unbound,relocated unknown,SilphCo_7F_EventScript_EndReceiveLapras,,0x089521BE
+Unbound,relocated unknown,SilphCo_7F_EventScript_WorkerM1RocketsGone,,0x089521BE
+Unbound,relocated unknown,SilphCo_8F_EventScript_WorkerMRocketsGone,,0x089521BE
+Unbound,relocated unknown,RocketHideout_B4F_Text_Grunt2Intro,,0x089521BE
+Unbound,relocated unknown,RocketHideout_B4F_Text_Grunt2Defeat,,0x089521BE
+Unbound,relocated unknown,RocketHideout_B4F_Text_Grunt3PostBattle,,0x089521BE
+Unbound,relocated unknown,SilphCo_2F_Text_JerryPostBattle,,0x089521BE
+Unbound,relocated unknown,SilphCo_2F_Text_Grunt2Defeat,,0x089521BE
+Unbound,relocated unknown,SilphCo_3F_Text_JosePostBattle,,0x089521BE
+Unbound,relocated unknown,SilphCo_4F_Text_Grunt1PostBattle,,0x089521BE
+Unbound,relocated unknown,SilphCo_6F_Text_Grunt1Intro,,0x089521BE
+Unbound,relocated unknown,SilphCo_6F_Text_Grunt1Defeat,,0x089521BE
+Unbound,relocated unknown,SilphCo_7F_Text_CanceledMasterBallProject,,0x089521BE
+Unbound,relocated unknown,SilphCo_7F_Text_ReallyDangerousHere,,0x089521BE
+Unbound,relocated unknown,SilphCo_7F_Text_RivalDefeat,,0x089521BE
+Unbound,relocated unknown,SilphCo_7F_Text_FloorSign,,0x089521BE
+Unbound,relocated unknown,SilphCo_8F_Text_ThanksForSavingUs,,0x089521BE
+Unbound,relocated unknown,SilphCo_9F_Text_YouShouldTakeQuickNap,,0x089521BE
+Unbound,relocated unknown,SilphCo_9F_Text_ThankYouSoMuch,,0x089521BE
+Unbound,relocated unknown,EventScript_Close9FDoor4,,0x089521BE
+Unbound,relocated data,gTypeEffectiveness,,0x089619C0
+Unbound,relocated data,sHelpSystemTypeMatchupTextPtrs,,0x08964000
+Unbound,relocated data,sHelpSystemTypeMatchupDescriptionTextPtrs,,0x08964098
+CFRU,hook,ScrollingMultiLeftRightHook,0x080CBAC8,0x08964758
+CFRU,hook,FixSafariZoneBattleWindow,0x08049D1A,0x08964768
+CFRU,hook,FixSafariZoneWindow,0x0806EE98,0x08964788
+CFRU,hook,SetInitialSafariZoneParams,0x080A0ED0,0x0896479C
+CFRU,hook,ExpandCoinIntConversion,0x080D06D6,0x089647A4
+CFRU,hook,RemoveEvoItem,0x080CED5C,0x089647D4
+CFRU,hook,WriteTypeHook,0x08030984,0x089647F4
+CFRU,hook,DisplayTypeHook,0x081368CC,0x08964820
+CFRU,hook,DynamicWhiteoutMap,0x080BFD54,0x08964848
+CFRU,hook,DaycareInheritHiddenAbility,0x08046116,0x08964874
+CFRU,hook,PokedexScreenStats,0x08106370,0x089648E8
+CFRU,hook,DrawBlockHook,0x0805A9B8,0x08964B98
+CFRU,repoint,BattleScript_RainDishActivates,0x0801A4A0,0x08965032
+CFRU,repoint,BattleScript_PoisonedBy,0x08250634,0x08966850
+CFRU,repoint,BattleScript_BadPoisonedBy,0x08250644,0x089668DE
+Unbound,relocated unknown,BattleScript_MoveEffectToxic,,0x089668DE
+CFRU,repoint,BattleScript_BurnedBy,0x08250638,0x0896694A
+Unbound,relocated unknown,BattleScript_MoveEffectBurn,,0x0896694A
+CFRU,repoint,BattleScript_ItemSteal,0x08020E74,0x089669A4
+Unbound,relocated unknown,BattleScript_RecoilEnd,,0x089669A4
+CFRU,hook,EndBattleFlagClearHook,0x080159DC,0x08966CC4
+CFRU,repoint,BattleScript_AIUseFullRestoreOrHpHeal,0x081D99E8,0x0896C8F8
+CFRU,repoint,BattleScript_AIUseFullRestoreOrHpHeal,0x081D99EC,0x0896C8F8
+CFRU,repoint,BattleScript_AIUseStatRestore,0x081D99F0,0x0896C926
+Unbound,relocated unknown,BattleScript_AIUseStatRestore,,0x0896C926
+CFRU,repoint,BattleScript_AIUseXstat,0x081D99F4,0x0896C94A
+Unbound,relocated unknown,BattleScript_AIUseXstat,,0x0896C94A
+CFRU,repoint,BattleScript_AIUseGuardSpec,0x081D99F8,0x0896C96A
+Unbound,relocated unknown,BattleScript_AIUseGuardSpec,,0x0896C96A
+CFRU,repoint,BattleScript_MoveEffectWrap,0x08250660,0x0896CED4
+Unbound,relocated unknown,BattleScript_MoveEffectWrap,,0x0896CED4
+CFRU,repoint,BattleScript_ActionSwitch,0x0801640C,0x0896D85C
+CFRU,repoint,gAbilityDescriptions,0x080001C4,0x0896DE04
+CFRU,repoint,gAbilityDescriptions,0x081367A8,0x0896DE04
+Unbound,relocated data,gAbilityDescriptionPointers,,0x0896DE04
+CFRU,repoint,gAnimationBackgrounds,0x08073960,0x0896E200
+Unbound,relocated data,gBattleAnimBackgroundTable,,0x0896E200
+CFRU,repoint,gBattleAnimPicTable,0x08072914,0x0896E59C
+CFRU,repoint,gBattleAnimPicTable,0x08072BF8,0x0896E59C
+Unbound,relocated data,gBattleAnimPicTable,,0x0896E59C
+CFRU,repoint,gMoveAnimations,0x080725D0,0x0896FCCC
+Unbound,relocated unknown,gBattleAnims_Moves,,0x0896FCCC
+CFRU,hook,WATERGUN_ASM,0x080A7C28,0x08970F00
+CFRU,hook,BLACKHOLE_ASM,0x080B60BC,0x08978D9C
+CFRU,hook,CoreEnforcerASM,0x080A243C,0x0897F548
+CFRU,hook,ANCHORSHOT_ASM,0x080AE484,0x08980C38
+CFRU,hook,ION_DELUGE_ASM,0x080AAC24,0x08986F78
+CFRU,hook,EmbargoASM,0x080B68E4,0x08988880
+CFRU,hook,FAIRY_LOCK_ASM,0x080AEBA0,0x08988930
+CFRU,hook,LIGHTOFRUIN_ASM,0x080AE5EC,0x08988B4C
+CFRU,hook,SLUDGE_WAVE_ASM,0x080AB43C,0x0898F314
+CFRU,hook,ROLLOUT_TIMER_ASM,0x080B4C40,0x0898F7A4
+CFRU,hook,HEX_SIDE_ASM,0x080B8D74,0x08990784
+CFRU,hook,DetsinyBondASM1,0x080B6092,0x08996220
+CFRU,hook,DetsinyBondASM2,0x080B6160,0x0899623A
+CFRU,hook,ENCORE_USER_ASM,0x080E0DA8,0x08997F3C
+CFRU,hook,DISABLE_TIME_ASM,0x080A7FF8,0x08998AD4
+CFRU,hook,SKILLSWAP_CHOOSER,0x080B39B4,0x0899F0F4
+CFRU,hook,SetAverageBattlerPositionsHook,0x08076DA8,0x0899F180
+CFRU,repoint,gMoveDescriptions,0x080E5440,0x0899F194
+CFRU,repoint,gMoveDescriptions,0x08137BC8,0x0899F194
+Unbound,relocated data,gMoveDescriptionPointers,,0x0899F194
+CFRU,repoint,gBattleScriptingCommandsTable,0x08014C1C,0x0899FFFC
+CFRU,repoint,gBattleScriptingCommandsTable,0x08015A28,0x0899FFFC
+CFRU,repoint,gBattleScriptingCommandsTable,0x08015C6C,0x0899FFFC
+CFRU,repoint,gBattleScriptingCommandsTable,0x08015C98,0x0899FFFC
+CFRU,repoint,gBattleScriptingCommandsTable,0x0801D054,0x0899FFFC
+Unbound,relocated unknown,gBattleScriptingCommandsTable,,0x0899FFFC
+Unbound,relocated unknown,gBattleScriptsForMoveEffects,,0x089A05EC
+CFRU,repoint,ANIM_FROSTBITE,0x081C6E9C,0x089A220C
+CFRU,repoint,gBattleAnims_Special,0x08034238,0x089A226C
+Unbound,relocated unknown,gBattleAnims_Special,,0x089A226C
+CFRU,repoint,gMoveMenuInfoIcons,0x08107DAC,0x089A22A0
+Unbound,relocated data,sMenuInfoIcons,,0x089A22A0
+CFRU,hook,GetCurrentPocketItemAmountHook,0x08028760,0x089A23E0
+CFRU,hook,CountItemsInBag,0x08108DC8,0x089A23E8
+CFRU,hook,GetSmallestItemAmount,0x08108E20,0x089A23FC
+CFRU,hook,OpenBagBugFix3,0x08108AC0,0x089A2410
+CFRU,hook,BagLRScroll,0x0810852E,0x089A2424
+CFRU,hook,TMCaseLRScroll,0x08131D1C,0x089A243E
+CFRU,hook,BerryPouchLRScroll,0x0813D306,0x089A2454
+CFRU,hook,AllocateBerryPouchSpace,0x0813D1C0,0x089A246A
+CFRU,hook,ExpandedBerriesFix1,0x0806BDEC,0x089A2478
+CFRU,hook,ExpandedBerriesFix2,0x0814A490,0x089A2498
+CFRU,hook,GetBerryNameBerryIdFix,0x0813D33C,0x089A24AC
+CFRU,hook,PokeDudeBackupTMCaseHook,0x08132E76,0x089A24C0
+CFRU,hook,PokeDudeClearTMCaseHook,0x08132EB0,0x089A24CC
+CFRU,hook,PokeDudeRestoreTMCaseHook,0x0813318C,0x089A24D4
+CFRU,hook,AreItemsDisabledHook,0x080143D4,0x089A24E0
+CFRU,hook,BagSorterHook,0x0810900C,0x089A24F8
+CFRU,hook,BagSorterHook2,0x08109AD4,0x089A2514
+CFRU,hook,BagSorterHook3,0x08109B5C,0x089A2538
+CFRU,hook,PrepRedrawItemDescriptionOnEndMovingItem,0x0810948A,0x089A2568
+CFRU,hook,PrintRegisteredItemInBagHook,0x0810872C,0x089A2570
+CFRU,hook,RegisteredItemBagActionsHook,0x08109A44,0x089A258C
+CFRU,hook,RegisterItemHook,0x0810A02A,0x089A25B4
+CFRU,hook,TMCaseSplitIconsHook,0x081334C4,0x089A25C4
+CFRU,routine pointer,CreateSpriteLoadTable,0x0815FC5C,0x089A25D4
+Unbound,relocated code,ScrCmd_createvobject,,0x089A25D4
+CFRU,hook,UpdateEventObjectLargerGraphicsId,0x0805E150,0x089A25F6
+CFRU,routine pointer,NpcSpawnWithTemplate,0x0805E5F4,0x089A2614
+CFRU,hook,NewNpcInfo,0x0805E964,0x089A2634
+CFRU,routine pointer,LinkNpcFix,0x0805EFE4,0x089A2654
+CFRU,hook,EventObjectSetGraphicsIdFix,0x0805F168,0x089A2688
+CFRU,hook,PlayerFishingFix,0x0805D3AC,0x089A26A8
+CFRU,hook,NPCMartFix,0x0809BA6C,0x089A26C0
+CFRU,hook,CreateTrainerPicSpriteHook,0x0810C2AC,0x089A26E4
+CFRU,hook,CreditsPlayerPaletteHook,0x080F4A3C,0x089A26F4
+CFRU,hook,RegionMapPlayerIconHook,0x080C42F4,0x089A2708
+CFRU,hook,SetPalFossilImage,0x0809D5A8,0x089A271C
+CFRU,hook,LoadPalFossilImage,0x0809D538,0x089A2740
+CFRU,hook,LoadPalFossilImage,0x0809D568,0x089A2740
+CFRU,hook,DeleteOBJFreeTiles,0x08007280,0x089A2770
+CFRU,hook,DeleteAllOBJs,0x0800779C,0x089A2798
+CFRU,hook,DeleteReflection,0x080DAF88,0x089A27A8
+CFRU,hook,DeleteWarpArrow,0x080DB120,0x089A27C4
+CFRU,hook,SetPalMisc,0x080071B8,0x089A27F0
+CFRU,hook,SetPalEmotionBubble,0x08082664,0x089A280C
+CFRU,hook,SetPalWarpArrow,0x080DB1AC,0x089A2834
+CFRU,hook,SetPalItemfinderArrow,0x0813F434,0x089A285C
+CFRU,hook,SetPalFameCheckerUnknown,0x0812D7A8,0x089A2878
+CFRU,hook,SetPalNPC1,0x0805E6B0,0x089A28A8
+CFRU,hook,SetPalNPC2,0x0805EF78,0x089A28BC
+CFRU,hook,SetPalNPC3,0x0805EAB0,0x089A28D4
+CFRU,hook,SetPalNPC4,0x0805EBC0,0x089A28E8
+CFRU,hook,SetPalReflection,0x080DADB4,0x089A2908
+CFRU,hook,SetPalSurf,0x080DC410,0x089A2918
+CFRU,hook,SetPalFly,0x08087188,0x089A2934
+CFRU,hook,SetPalFly2,0x08086D58,0x089A2958
+CFRU,hook,SetPalShadow,0x080DB260,0x089A297C
+CFRU,hook,RefreshFameCheckerNPCs,0x0812D2AC,0x089A299C
+CFRU,hook,SetPalSSAnneWake,0x0815D4E8,0x089A29EC
+CFRU,hook,SetPalSSAnneSmoke,0x0815D600,0x089A2A10
+CFRU,hook,GetDarkeningType1,0x0807A2D0,0x089A2A34
+CFRU,hook,GetDarkeningType2,0x0807A428,0x089A2A44
+CFRU,hook,GetDarkeningType3,0x0807A544,0x089A2A54
+CFRU,hook,FogBrightenAll,0x0807AEC4,0x089A2A64
+CFRU,hook,FogBrightenOnStep,0x0807AAAC,0x089A2A8C
+CFRU,hook,FogBrightenAndFadeIn,0x0807A644,0x089A2AB4
+CFRU,hook,GetFadeType1,0x0807A0A8,0x089A2AD0
+CFRU,hook,GetFadeType2,0x0807A860,0x089A2AF8
+CFRU,hook,ReplaceOWSandstormPaletteHook,0x0807D5F0,0x089A2B18
+CFRU,hook,FollowMe_SetStateHook,0x08063CF4,0x089A2B28
+CFRU,hook,FollowMe_CollisionHook,0x08063928,0x089A2B64
+CFRU,hook,FollowMe_BikeHook,0x080A1330,0x089A2B8C
+CFRU,hook,FollowMe_SurfHook,0x08086B00,0x089A2B92
+CFRU,hook,FollowMe_SurfBagHook,0x08056D12,0x089A2BB8
+CFRU,hook,FollowMe_DismountSurf,0x0805D140,0x089A2BE0
+CFRU,hook,FollowMe_CreateAvatarHook2,0x080570EC,0x089A2BE6
+CFRU,hook,FollowMe_StairsMoveHook,0x0807EB28,0x089A2BEE
+CFRU,hook,FollowMe_EscalatorMoveHook,0x08084868,0x089A2C04
+CFRU,hook,FollowMe_EscalatorWarpEndHook,0x08084ACC,0x089A2C1C
+CFRU,hook,FollowMe_WarpArrowEndHook,0x0807E2B8,0x089A2C26
+CFRU,hook,FollowMe_WarpNormalEndHook,0x0807DF74,0x089A2C48
+CFRU,hook,FollowMe_WarpTeleportEndHook,0x0807E364,0x089A2C58
+CFRU,hook,FollowMe_WarpHoleEndHook,0x08084770,0x089A2C78
+CFRU,hook,FollowMe_WarpStairsEndHook,0x0807EC5A,0x089A2C82
+CFRU,hook,FollowMe_LocalIdHook,0x0805DF60,0x089A2CA8
+CFRU,hook,FollowMe_ScriptHook,0x0805FC20,0x089A2CC8
+CFRU,hook,FollowMe_WhiteOutHook,0x08054E1A,0x089A2CF0
+CFRU,hook,FollowMe_FishingHook,0x080A139C,0x089A2D00
+CFRU,hook,BuildTrainerPartyHook,0x0800FF7E,0x089A2D2C
+CFRU,hook,AIHandleItemUseHook,0x0800D2CC,0x089A2D38
+CFRU,hook,EmitChooseMoveHook,0x0800E524,0x089A2D4A
+CFRU,hook,AIEmitChooseActionHook,0x080140C8,0x089A2D5C
+CFRU,hook,SwitchMoveDataHook,0x0802EF90,0x089A2D78
+CFRU,hook,TurnValuesCleanUpAdditionHook,0x08015438,0x089A2D84
+CFRU,hook,GetProperBallIdHook1,0x0804AA1E,0x089A2D8A
+CFRU,hook,GetProperBallIdHook2,0x080EF3A8,0x089A2D98
+CFRU,hook,GetPokeBallBattleScriptHook,0x0801645E,0x089A2DA4
+CFRU,hook,OakIntroPokeballFixHook,0x0804B946,0x089A2DC4
+CFRU,hook,TradePokeballFixHook,0x0804BBD8,0x089A2DD0
+CFRU,hook,ShinyAnimFixHook,0x080F187C,0x089A2DDC
+CFRU,hook,PartyMenuSwitchingHook,0x08014450,0x089A2DFC
+CFRU,hook,PartyMenuAfterCancelLearnMoveHook,0x08125EEE,0x089A2E08
+CFRU,hook,CriticalCaptureAnimHook,0x080EFEE4,0x089A2E14
+CFRU,hook,PokeBallThrowSoundHook,0x0804AA2C,0x089A2E4C
+CFRU,hook,TrainersThrowPokeBallsHook1,0x0804AB04,0x089A2E60
+CFRU,hook,TrainersThrowPokeBallsHook2,0x0804B80E,0x089A2E80
+CFRU,hook,DoubleWildPokeBallItemUseFixHook,0x080A1E2C,0x089A2EA4
+CFRU,hook,DoubleWildDexHook1,0x0802D9D8,0x089A2ED0
+CFRU,hook,DoubleWildDexHook2,0x0802DAEC,0x089A2EE0
+CFRU,hook,CaptureExperienceEvolutionHook,0x08015A44,0x089A2EF0
+CFRU,hook,TrainerSlidingEndTurnHook,0x08013D14,0x089A2F18
+CFRU,hook,LoadProperMusicForLinkBattlesHook,0x080813B8,0x089A2F38
+CFRU,hook,ExpandedVarsHook,0x0806E454,0x089A2F44
+CFRU,hook,ExpandedFlagsHook,0x0806E5C0,0x089A2F6C
+CFRU,hook,DoubleWildUseItemRunFixHook,0x080142D8,0x089A2F88
+CFRU,hook,LinkBattleSaveHook,0x0806FC84,0x089A2FA8
+CFRU,hook,LinkTradeSaveHook,0x0805415E,0x089A2FB4
+CFRU,hook,NewGameSaveClearHook,0x08054A60,0x089A2FD0
+CFRU,hook,EvolutionMovesHook,0x080CEDD4,0x089A2FE4
+CFRU,hook,PokedexLoadAlternateHeightHook,0x081058DC,0x089A2FF4
+CFRU,hook,PokedexLoadAlternateWeightHook,0x08105A58,0x089A302C
+CFRU,hook,FixPokedexCheckNullSpeciesHook,0x08104ACA,0x089A3060
+CFRU,hook,SizeMinigameLoadAlternateHeightHook,0x080A0774,0x089A3084
+CFRU,hook,ForfeitBattleTowerHook,0x080146AC,0x089A30AC
+CFRU,hook,LoadMaxNumPokemonChooseBattleTowerStringHook,0x08124184,0x089A30EC
+CFRU,hook,AutoRunHook,0x0805BA30,0x089A3100
+CFRU,hook,BikeTurboBoostHook,0x080BD338,0x089A311C
+CFRU,hook,FlameBodyMagmaArmorEggHook,0x08046390,0x089A312C
+CFRU,hook,SkipEggHatchNicknameHook,0x080474F6,0x089A3150
+CFRU,hook,OvalCharmHook,0x08046314,0x089A3174
+CFRU,hook,DaycareLevelCapHook,0x08045690,0x089A3190
+CFRU,hook,SetBoxMonDataAtHook,0x0808BA60,0x089A31A4
+CFRU,hook,GetAndCopyBoxMonDataAtHook,0x0808BB70,0x089A31AC
+CFRU,hook,sub_808BDE8Hook,0x0808BDF0,0x089A31B4
+CFRU,hook,CompressedStorageSummaryScreenUpdate1,0x08093768,0x089A31C0
+CFRU,hook,CompressedStorageSummaryScreenUpdate2,0x08138BD2,0x089A31D4
+CFRU,hook,CompressedStorageSummaryScreenUpdate2,0x0813936E,0x089A31D4
+CFRU,hook,SwapBoxMonMovesUpdate1,0x08139208,0x089A31E2
+CFRU,hook,SwapBoxMonMovesUpdate2,0x08139304,0x089A3208
+CFRU,hook,ExpandedItemNameFixPokemonStorageSystemHook,0x08093F58,0x089A3228
+CFRU,hook,ExpandedAbilityNamesBattle2,0x080D860C,0x089A3234
+CFRU,hook,ExpandedAbilityNamesSummaryScreen,0x08136714,0x089A3250
+CFRU,hook,ExpandedAbilityDescriptionsSummaryScreen,0x08136728,0x089A3274
+CFRU,hook,LoadProperAbilityBattleDataHook,0x08013144,0x089A3298
+CFRU,hook,BatonPassEffects,0x08012850,0x089A32A4
+CFRU,hook,DisplayStatStageMessage,0x080D8486,0x089A32C0
+CFRU,hook,CharacterCustomizationUpdateTrainerFrontPic2,0x0810BD64,0x089A32F8
+CFRU,hook,SelectItemFromBagCheck,0x081090B8,0x089A3300
+CFRU,hook,SelectItemFromTMCaseCheck,0x081323B0,0x089A3318
+CFRU,hook,WhiteoutScreenFix,0x0807F542,0x089A3344
+CFRU,hook,TryHandleLaunchBattleTableAnimationHook,0x0803401E,0x089A3368
+CFRU,hook,ReshowBattleScreenMonSpriteHook1,0x08077CD2,0x089A336E
+CFRU,hook,ReshowBattleScreenMonSpriteHook2,0x08077ECA,0x089A3388
+CFRU,hook,ReshowBattleScreenHealthboxSpriteHook,0x08078104,0x089A33AC
+CFRU,hook,FrontierCheckBattleOverHook,0x08022400,0x089A33D4
+CFRU,hook,DracoMeteorMoveTutorHook,0x08126E6C,0x089A33F8
+CFRU,hook,DracoMeteorMoveTutorHook2,0x08126E74,0x089A3410
+CFRU,hook,ModifyMegaCryHook,0x08071F8E,0x089A342A
+CFRU,hook,CamomonsSummaryScreenHook,0x08136168,0x089A3446
+CFRU,hook,FieldMoveBadgeHook,0x0812461C,0x089A34CC
+CFRU,hook,DiveCheckEmergeHook,0x0806CB30,0x089A34E8
+CFRU,hook,DiveCheckDownHook,0x0806CCCC,0x089A351C
+CFRU,hook,DiveSpeedHook,0x0805BA1C,0x089A3550
+CFRU,hook,InitPlayerAvatarHook,0x080570CC,0x089A3578
+CFRU,hook,DNSCreateBuyMenuHook,0x0809AC84,0x089A3590
+CFRU,hook,DNSEndBuyMenuHook,0x0809C078,0x089A359C
+CFRU,hook,HealthBarChangeAmountHook,0x0804A00C,0x089A35C4
+CFRU,hook,ExpBarChangeAmountHook,0x0804A066,0x089A35E0
+CFRU,hook,ActivateMGBAPrint,0x081E381C,0x089A3608
+CFRU,hook,CreateRoamerIconTownMapHook,0x080C48AC,0x089A3610
+CFRU,hook,CreateRoamerIconTownMapPostSwitchMapHook,0x080C120C,0x089A3618
+CFRU,hook,DestroyRoamerIconTownMapSwitchHook,0x080C111C,0x089A3638
+CFRU,hook,DestroyRoamerIconTownMapCloseHook,0x080C2D44,0x089A364C
+CFRU,hook,HideOrShowRoamerIconTownMapHook,0x080C49F8,0x089A3668
+CFRU,hook,DrawLevelUpWindowPg2Hook,0x0811E950,0x089A3670
+CFRU,hook,OpenPartyScreenBatonPassExplosionFix,0x08024C16,0x089A3680
+CFRU,hook,MainMenuBadSaveTypeMsgHook,0x0800C61C,0x089A36C0
+CFRU,hook,MainMenuRTCWarningHook1,0x0800C718,0x089A36D0
+CFRU,hook,MainMenuRTCWarningHook2,0x0800C7A4,0x089A36FC
+CFRU,hook,SuctionCupsHook,0x0805D524,0x089A371C
+CFRU,hook,RandomizerShowPokepicHook,0x0809D2FC,0x089A3734
+CFRU,hook,FieldGetPlayerInputLButtonHook,0x0806C9AC,0x089A374C
+CFRU,hook,UseRegisteredItemHook,0x0806CCFC,0x089A375C
+CFRU,hook,XSpDefStatBoostHook,0x08041798,0x089A376C
+CFRU,hook,AIXItemStringHook,0x08016650,0x089A3780
+CFRU,hook,SummaryScreenOTGenderColour,0x08136270,0x089A37A4
+CFRU,hook,SummaryScreen_TradeMonMetLocationHook,0x08137776,0x089A37E4
+CFRU,hook,LastUsedBallOverrideHook,0x08032CEC,0x089A3808
+CFRU,hook,SitrusBerryOverworldEffectUpdate,0x08041C94,0x089A3828
+CFRU,hook,SlotMachineExpandedCoinsDisplayFix,0x08140F44,0x089A3840
+CFRU,hook,RemoveWalkThroughWallCheat,0x08058E28,0x089A3864
+CFRU,hook,RemoveShopModifierCheats,0x0809B18E,0x089A3880
+CFRU,hook,LoadMapFromCameraTransition_DNSFixHook1,0x08055880,0x089A38C0
+CFRU,hook,LoadMapFromCameraTransition_DNSFixHook2,0x080558C4,0x089A38E8
+CFRU,hook,AutoScrollBattleLevelUpBoxHook1,0x08026330,0x089A38F2
+CFRU,hook,AutoScrollBattleLevelUpBoxHook2,0x08026350,0x089A3902
+CFRU,hook,BattleLoadOpponentMonSpriteGfxHook,0x0803432C,0x089A3920
+CFRU,hook,BattleLoadPlayerMonSpriteGfxHook,0x080344A4,0x089A3932
+CFRU,hook,UpdateNickForIllusionHook,0x080496C8,0x089A3944
+CFRU,hook,UpdatePokeBallForIllusionHook,0x0804A9E0,0x089A3956
+CFRU,hook,UpdateCryForIllusionHook,0x0804B324,0x089A395E
+CFRU,hook,UpdateYDeltaForIllusionHook,0x08074598,0x089A397E
+CFRU,hook,UpdateElevationForIllusionHook,0x08074750,0x089A3996
+CFRU,hook,ShadowIllusionHook,0x0803570C,0x089A39AE
+CFRU,hook,GetBattlerSpriteCoordAttrPlayerIllusionHook,0x08076B5C,0x089A39C6
+CFRU,hook,GetBattlerSpriteCoordAttrEnemyIllusionHook,0x08076C1A,0x089A39E0
+CFRU,hook,LaunchBattleAnimationIllusionHook,0x08072604,0x089A39FA
+CFRU,hook,MegaRetrieveDataHook,0x080148C0,0x089A3A78
+CFRU,hook,LoadMegaGraphicsHook,0x0803495C,0x089A3A88
+CFRU,hook,MegaLevelStringHook,0x080483A4,0x089A3AA0
+CFRU,hook,CreateShakerHook,0x0804BE80,0x089A3B58
+CFRU,hook,ObjcShakerHook,0x0804BEDC,0x089A3B74
+CFRU,hook,PlayerHandleStatusIconUpdateHook,0x0803301C,0x089A3B94
+CFRU,hook,OpponentHandleStatusIconUpdateHook,0x08038974,0x089A3BB0
+CFRU,hook,LoadHealthBoxesIndicatorHook,0x08048398,0x089A3BCC
+CFRU,hook,DynamaxPalFadeHook1_LoadOpponentGfx,0x0803443C,0x089A3BE4
+CFRU,hook,DynamaxPalFadeHook2_LoadPlayerGfx,0x080345FC,0x089A3BF4
+CFRU,hook,RaidBattleCoordHook1,0x080744B0,0x089A3C04
+CFRU,hook,RaidBattleCoordHook2,0x080744D8,0x089A3C14
+CFRU,hook,DeadRaidMonSpriteHook,0x08077CC4,0x089A3C24
+CFRU,hook,DeadRaidMonSpriteHook2,0x0807524C,0x089A3C34
+CFRU,hook,RaidBossHPColourHook,0x0804A116,0x089A3C4C
+CFRU,hook,RaidHealthbarSpriteSheetFix,0x0803493C,0x089A3C5A
+CFRU,hook,RaidCapturedSentToBoxStringHook,0x0802DF74,0x089A3C6E
+CFRU,hook,BufferMaxMoveNameBattle,0x080D84F6,0x089A3CA0
+CFRU,hook,CreateSummaryScreenGigantamaxIconHook,0x08139D2C,0x089A3CB0
+CFRU,hook,MoveReminderHook_FixDataLoading,0x080E54D0,0x089A3CC4
+CFRU,hook,MoveReminderHook_FixMoveNameLoading,0x080E523E,0x089A3CD0
+CFRU,hook,MoveReminderHook_FixNumRelearnableMoves,0x080E50E8,0x089A3CE0
+CFRU,hook,MoveReminderHook_FixWindowTemplates,0x080E46B4,0x089A3CF4
+CFRU,hook,MoveReminderHook_FixBgPalette,0x080E4760,0x089A3D14
+CFRU,hook,MoveReminderHook_FixCalloc,0x080E47A4,0x089A3D34
+CFRU,hook,MoveReminderHook_FixLoadMoveId1,0x080E4AA0,0x089A3D40
+CFRU,hook,MoveReminderHook_FixLoadMoveId2,0x080E4CB2,0x089A3D54
+CFRU,hook,MoveReminderHook_FixLoadMoveId3,0x080E4E0A,0x089A3D68
+CFRU,hook,MoveReminderHook_FixLoadMoveId4,0x080E4E28,0x089A3D7C
+CFRU,hook,MoveReminderHook_FixLoadMoveId5,0x080E4F90,0x089A3D90
+CFRU,hook,MoveReminderHook_AddSplitIcon,0x080E5434,0x089A3D9C
+CFRU,hook,MultiInitPokemonOrderHook,0x0800D8A0,0x089A3DA4
+CFRU,hook,MultiEnemyPokeballReadoutHook,0x08049088,0x089A3DAE
+CFRU,hook,MultiBattleAddSecondOpponentHook,0x080132F8,0x089A3DCC
+CFRU,hook,MultiMoneyCalcHook,0x08025904,0x089A3DDC
+CFRU,hook,PartnerSetupHook,0x0800D458,0x089A3DFC
+CFRU,hook,DisplayPartnerNameInPartyMenuHook,0x08127AE8,0x089A3E28
+CFRU,hook,TagTeamBackspritePalHook,0x08033530,0x089A3E42
+CFRU,routine pointer,TagTeamExecutionCompleteHook,0x0802E384,0x089A3E52
+CFRU,hook,TagTeamPokeballReadoutHook,0x08048FAC,0x089A3E78
+CFRU,hook,TagTeamPartnerSendoutPokemonHook,0x08013758,0x089A3E94
+CFRU,routine pointer,PhysicalSpecialSplitIconRoutine,0x0813A1A0,0x089A4148
+CFRU,repoint,GetMonPokeBallHook,0x0803FE70,0x089A4384
+CFRU,hook,SetMonPokeBallHook,0x08040858,0x089A4390
+CFRU,hook,SetMonHeldItemHook,0x08040784,0x089A439C
+CFRU,hook,PlayerHandleFormChange,0x08031E40,0x089A43AC
+CFRU,hook,OpponentHandleFormChange,0x08037760,0x089A43B4
+CFRU,hook,LinkOpponentHandleFormChange,0x0803C318,0x089A43BC
+CFRU,hook,CreateBoxMonHook,0x0803DAD2,0x089A43C4
+CFRU,repoint,CheckHasSpeciesJump,0x0803FDEC,0x089A43DE
+CFRU,hook,ReusableTMCheck1,0x08124EA0,0x089A4410
+CFRU,hook,ReusableTMCheck2,0x08124F6C,0x089A4430
+CFRU,hook,ReusableTMCheck3,0x08125C74,0x089A4450
+CFRU,hook,SingleTmPurchaseFix,0x0809BC7C,0x089A446C
+CFRU,hook,AddSingleTmFix,0x0809BEBC,0x089A4476
+CFRU,hook,UnbuyableTmFix,0x0809BC3E,0x089A449C
+CFRU,hook,UnsellableTmFix,0x0813291C,0x089A44B4
+CFRU,hook,FixTmShopPrice,0x0809B41C,0x089A44D0
+CFRU,hook,ReloadMartList,0x0809BECA,0x089A44DC
+CFRU,hook,RemoveTMPPRestoreHook,0x08125FC8,0x089A44EC
+CFRU,hook,FixMartTmListing,0x0809B4A4,0x089A44FC
+CFRU,hook,TmMartDescriptionFix,0x0809B340,0x089A450C
+CFRU,hook,HmSymbolFix,0x08131E96,0x089A451C
+CFRU,hook,SelectedTmSymbolFix,0x0813250A,0x089A4548
+CFRU,hook,SortTmHms,0x0809A624,0x089A4564
+CFRU,hook,FixTmHmDiscLoader,0x081336BC,0x089A4584
+CFRU,hook,FixTmHmDiscLoader2,0x08133854,0x089A4598
+CFRU,hook,FixTmHmDiscPal,0x08133748,0x089A45AC
+CFRU,hook,FixTmHmDiscPos,0x08133798,0x089A45D8
+CFRU,repoint,SystemScript_FindItem,0x08160454,0x089A47CA
+CFRU,repoint,SystemScript_ObtainItem,0x08160450,0x089A4868
+CFRU,repoint,SystemScript_ObtainItemMessage,0x081A66AC,0x089A488E
+CFRU,repoint,EventScript_TrainerSpottedInitiate,0x08080374,0x089A5360
+Unbound,relocated unknown,EventScript_DoTrainerBattleFromApproach,,0x089A5360
+CFRU,hook,GetAbilityName,0x0801D7EC,0x089A9CA8
+CFRU,hook,AnimTask_SetCamouflageBlend,0x080BA934,0x089AE9E0
+CFRU,routine pointer,UpdatedAnimStealItemFinalCallback,0x080A37B8,0x089AED70
+CFRU,hook,AnimTask_SlideOffScreen,0x080995FC,0x089AEE38
+CFRU,hook,AnimTask_ShakeAndSinkMon,0x08098E90,0x089AF194
+CFRU,hook,SlideMonToOffset,0x080992E0,0x089B25C8
+CFRU,hook,SlideMonToOriginalPos,0x080991B4,0x089B2688
+CFRU,hook,ScriptCmd_loadspritegfx,0x08072868,0x089B2E48
+CFRU,hook,TryStartShinyAnimation,0x080F1720,0x089B2F0C
+CFRU,hook,UpdateOamPriorityInAllHealthboxes,0x0804828C,0x089B2FA4
+CFRU,hook,GetBattlerYDeltaFromSpriteId,0x080764EC,0x089B31D0
+CFRU,hook,HandleSpeciesGfxDataChange,0x08034BF4,0x089B323C
+CFRU,hook,DoMoveAnim,0x0807259C,0x089B3650
+CFRU,hook,SpriteCB_InitThrownBallBouncing,0x080EFB58,0x089B3814
+CFRU,hook,SpriteCB_EnemyShadow,0x08035624,0x089B3870
+CFRU,hook,OpponentHandleChooseMove,0x080385B0,0x089B3B24
+CFRU,hook,OpponentHandleDrawTrainerPic,0x08037CD0,0x089B3ED8
+CFRU,hook,OpponentHandleTrainerSlide,0x08037EA4,0x089B401C
+CFRU,hook,OpponentHandleChoosePokemon,0x08038744,0x089B4130
+CFRU,hook,SpriteCB_SlideInTrainer,0x08033EEC,0x089B4300
+CFRU,hook,SpriteCB_WildMon,0x08011D64,0x089B4338
+CFRU,hook,SpriteCB_WildMonShowHealthbox,0x08011DC8,0x089B4384
+CFRU,hook,SpriteCB_OpponentMonSendOut_1,0x0804B868,0x089B4404
+CFRU,routine pointer,VBlankCB_Battle,0x0800FF6C,0x089BA1A8
+CFRU,routine pointer,VBlankCB_Battle,0x08011B80,0x089BA1A8
+CFRU,routine pointer,VBlankCB_Battle,0x0802AAC4,0x089BA1A8
+CFRU,routine pointer,VBlankCB_Battle,0x08077A9C,0x089BA1A8
+Unbound,relocated code,VBlankCB_Battle,,0x089BA1A8
+CFRU,hook,GetMUS_ForBattle,0x08043FD4,0x089BA538
+CFRU,hook,GetTrainerBattleTransition,0x0807FF80,0x089BA740
+CFRU,hook,GetWhoStrikesFirst,0x08014CD8,0x089BACC4
+CFRU,hook,RunTurnActionsFunctions,0x080155C8,0x089BADDC
+CFRU,hook,SetActionsAndBanksTurnOrder,0x080150A8,0x089BB5CC
+CFRU,hook,BattleBeginFirstTurn,0x0801385C,0x089BB82C
+CFRU,hook,HandleAction_UseMove,0x08015CA0,0x089BC220
+CFRU,hook,BattleStringExpandPlaceholders,0x080D7868,0x089BD050
+CFRU,hook,BufferStringBattle,0x080D7274,0x089BDA88
+CFRU,hook,EmitPrintString,0x0800E2D4,0x089BE154
+CFRU,hook,PrepareStringBattle,0x080173AC,0x089BE280
+CFRU,hook,EmitPrintSelectionString,0x0800E3EC,0x089BE2A0
+CFRU,hook,LoadBattleTerrainGfx,0x0800F260,0x089BE3A8
+CFRU,hook,BattleSetup_GetTerrainId,0x0807FC5C,0x089BE5FC
+CFRU,hook,GetBattleTerrainOverride,0x0800FC2C,0x089BE734
+CFRU,hook,DrawBattleEntryBackground,0x0800FAE0,0x089BE824
+CFRU,hook,BT_Phase2Mugshot_LoadGfx,0x080D28A8,0x089BED8C
+CFRU,hook,Mugshots_CreateOpponentPlayerSprites,0x080D2EA4,0x089BEEFC
+CFRU,hook,BT_Phase2Mugshot_StartSpriteSlide,0x080D2A54,0x089BF28C
+CFRU,hook,BT_Phase2Mugshot_WaitForOpponentInPlace,0x080D2AD0,0x089BF3E0
+CFRU,hook,BT_Phase2Mugshot_StartBlackFade,0x080D2C8C,0x089BF42C
+CFRU,hook,ShiftTrainerMugshotSprite,0x080D3094,0x089BF46C
+CFRU,hook,GetBankForBattleScript,0x08016E24,0x089BF4F4
+CFRU,hook,CancelMultiTurnMoves,0x080172E8,0x089BFB6C
+Unbound,relocated data,gMonFootprintTable,,0x089C0460
+Unbound,relocated data,sHoennSpeciesIdToCryId,,0x089C1860
+CFRU,hook,CheckMoveLimitations,0x0801779C,0x089C2A44
+CFRU,hook,ClearTemporarySpeciesSpriteData,0x0803589C,0x089C2DBC
+CFRU,hook,IsMonAllowedInBattleTower,0x08127550,0x089C3978
+CFRU,hook,IsSpeciesBannedFromRandomizer,0x0801D87C,0x089C3F60
+CFRU,hook,CalculateMonStatsNew,0x0803E47C,0x089C4474
+CFRU,routine pointer,sp068_GivePlayerFrontierMonGivenSpecies,0x0815FF00,0x089C4D38
+CFRU,routine pointer,sp06B_ReplacePlayerTeamWithMultiTrainerTeam,0x0815FF0C,0x089C4DFC
+CFRU,routine pointer,sp06A_GivePlayerFrontierMonByLoadedSpread,0x0815FF08,0x089C5034
+CFRU,hook,GiveRandomFrontierMonByTier,0x0802883C,0x089C50B8
+CFRU,routine pointer,sp069_GivePlayerRandomFrontierMonByTier,0x0815FF04,0x089C519C
+CFRU,hook,GetMonAbility,0x08040D38,0x089C51B8
+Unbound,relocated data,sDexCategory_WatersEdgePkmn,,0x089C5210
+CFRU,hook,ScriptGiveMon,0x080A011C,0x089C5228
+Unbound,relocated data,sDexCategory_SeaPkmn,,0x089C55E0
+Unbound,relocated data,sDexCategory_CavePkmn,,0x089C56A0
+Unbound,relocated data,sDexCategory_MountainPkmn,,0x089C5840
+Unbound,relocated data,sDexCategory_RoughTerrainPkmn,,0x089C59E0
+Unbound,relocated data,sDexCategory_UrbanPkmn,,0x089C5AE0
+Unbound,relocated data,sDexCategory_RarePkmn,,0x089C5C30
+Unbound,relocated data,sDexCategory_GrasslandPkmn,,0x089C5D20
+Unbound,relocated data,sDexCategory_ForestPkmn,,0x089C5EC0
+CFRU,routine pointer,sp0E7_CreateFrontierOpponentTeamBeforeBattle,0x081600FC,0x089C7D14
+Unbound,relocated code,BattleTowerMapScript2,,0x089C7D14
+Unbound,relocated unknown,.gcc2_compiled.,,0x089C7D14
+CFRU,routine pointer,sp067_GenerateRandomBattleTowerTeam,0x0815FEFC,0x089C7D48
+CFRU,hook,SetMonExpWithMaxLevelCheck,0x08043B48,0x089C84D8
+CFRU,hook,RandomlyGivePartyPokerus,0x08043A68,0x089C8518
+CFRU,hook,UpdatePartyPokerusTime,0x08043B38,0x089C85D8
+CFRU,hook,PartySpreadPokerus,0x08043B40,0x089C8648
+CFRU,hook,GiveMonToPlayer,0x08040B14,0x089C905C
+CFRU,hook,ItemIdToBallId,0x080EF52C,0x089C922C
+CFRU,hook,PlayerHandleSuccessBallThrowAnim,0x0803275C,0x089C924C
+CFRU,hook,PlayerHandleBallThrowAnim,0x080327B0,0x089C92AC
+CFRU,hook,PlayerHandleBallThrowAnim,0x080327B0,0x089C92AC
+CFRU,hook,AnimTask_FreeBallGfx,0x080EF4B8,0x089C9318
+CFRU,hook,AnimTask_ThrowBall,0x080EF5AC,0x089C9340
+CFRU,hook,LoadBallGfx,0x0804BEF4,0x089C9400
+CFRU,hook,AnimTask_LoadBallGfx,0x080EF490,0x089C9444
+CFRU,hook,GetBattlerPokeballItemId,0x0804BF90,0x089C9468
+CFRU,hook,GetEventObjectGraphicsInfo,0x0805F2C8,0x089C9CB4
+CFRU,hook,GetPlayerAvatarGraphicsIdByStateIdAndGender,0x0805C7E0,0x089C9D30
+CFRU,hook,GetPlayerAvatarGraphicsIdByStateId,0x0805C808,0x089C9D50
+CFRU,hook,GetPlayerAvatarStateTransitionByGraphicsId,0x0805C988,0x089C9D60
+CFRU,hook,GetPlayerAvatarGraphicsIdByCurrentState,0x0801D824,0x089C9DA8
+CFRU,hook,GetPlayerAvatarGraphicsIdByCurrentState,0x0805C9C8,0x089C9DA8
+CFRU,hook,GetPlayerAvatarGenderByGraphicsId,0x0805C824,0x089C9DF0
+CFRU,hook,GetEventObjectGraphicsId,0x0801D804,0x089C9E54
+CFRU,hook,GetEventObjectGraphicsInfoByEventObj,0x0801D760,0x089C9E88
+CFRU,hook,SetPlayerAvatarEventObjectIdAndObjectId,0x0805F02C,0x089C9E94
+CFRU,hook,ContextNpcGetTextColor,0x080CBE00,0x089C9EE0
+CFRU,hook,PlayerGenderToFrontTrainerPicId,0x0810C374,0x089C9F28
+CFRU,hook,ChangeEventObjPal,0x0801D85C,0x089CA0E4
+CFRU,hook,ChangeTrainerPicPal,0x0801D7A4,0x089CA12C
+CFRU,hook,ChangeTrainerBackPal,0x0801D864,0x089CA140
+CFRU,hook,LoadTrainerBackPal,0x0801D82C,0x089CA188
+CFRU,hook,PlayerHandleTrainerSlide,0x08032428,0x089CA1A4
+CFRU,hook,PlayerHandleDrawTrainerPic,0x0803227C,0x089CA264
+CFRU,hook,GetOutfitStyleByTrainerPic,0x0801D854,0x089CA378
+CFRU,hook,CalcMonHiddenPowerType,0x0802B678,0x089CEEF0
+CFRU,hook,CreateEgg,0x08046150,0x089D39DC
+CFRU,hook,GiveEggFromDaycare,0x080460D4,0x089D3A94
+CFRU,hook,TriggerPendingDaycareEgg,0x080459F0,0x089D42B0
+CFRU,hook,IsEggPending,0x080463FC,0x089D42DC
+CFRU,hook,CreateHatchedMon,0x08046BFC,0x089D42F4
+CFRU,hook,GetDaycareCompatibilityScore,0x0804654C,0x089D453C
+CFRU,hook,GetAllEggMoves,0x0801D784,0x089D4678
+CFRU,hook,GetLevelAfterDaycareSteps,0x0804574C,0x089D4840
+CFRU,routine pointer,sp0E2_IsDexNavCompleteHere,0x081600E8,0x089D8F6C
+CFRU,hook,apply_map_tileset_palette,0x080599C8,0x089D8FDC
+CFRU,hook,TransferPlttBuffer,0x08070474,0x089D9138
+CFRU,hook,SummaryScreen_ChangeCaughtBallSpriteVisibility,0x08139D54,0x089DA83C
+CFRU,hook,SummaryScreen_DestroyCaughtBallSprite,0x08139D90,0x089DA8AC
+CFRU,hook,LoadAndCreateEnemyShadowSprites,0x08035538,0x089DA960
+CFRU,routine pointer,sp119_SetRaidBattleFlag,0x081601C4,0x089DC0D8
+CFRU,routine pointer,sp11A_ClearRaidBattleFlag,0x081601C8,0x089DC118
+CFRU,routine pointer,sp11B_AllRaidBattlesCompleted,0x081601CC,0x089DC14C
+CFRU,routine pointer,sp11C_GiveRaidBattleRewards,0x081601D0,0x089DC290
+CFRU,hook,PaletteNeedsFogBrightening,0x0807A748,0x089DC720
+CFRU,hook,FindPalette,0x080089E8,0x089DC748
+CFRU,hook,ClearAllPalettes,0x0805F574,0x089DC7EC
+CFRU,hook,FindOrLoadPalette,0x08008928,0x089DC80C
+CFRU,hook,SetUpWeirdDisguise,0x080DCA00,0x089DCC2C
+CFRU,hook,SetUpRockDisguise,0x080DC9F0,0x089DCC4C
+CFRU,hook,SetUpTreeDisguise,0x080DC9E0,0x089DCC6C
+CFRU,hook,LoadCloudOrSandstormPalette,0x0807ABC0,0x089DCC8C
+CFRU,hook,sub_805F510,0x0805F510,0x089DCD34
+CFRU,hook,HandleEndTurn_BattleWon,0x08015670,0x089DCFB0
+CFRU,hook,HandleEndTurn_RanFromBattle,0x08015850,0x089DD144
+CFRU,hook,IsRunningFromBattleImpossible,0x08013D54,0x089DD27C
+CFRU,hook,TryRunFromBattle,0x08016748,0x089DD4B0
+CFRU,hook,BattleUseFunc_PokeDoll,0x080A2010,0x089DD674
+CFRU,hook,HandleEndTurn_BattleLost,0x0801578C,0x089DDB4C
+CFRU,hook,TurnBasedEffects,0x08018258,0x089DE10C
+CFRU,hook,HandleFaintedMonActions,0x08018F90,0x089E0398
+CFRU,hook,HandleDynamaxOnTurnEnd,0x08018C98,0x089E0A1C
+CFRU,hook,IsLevelUpEvolutionMethod,0x0801D814,0x089E0C0C
+CFRU,hook,IsItemEvolutionMethod,0x0801D81C,0x089E0C2C
+CFRU,hook,GetEvolutionTargetSpecies,0x08042EC4,0x089E0CF4
+CFRU,hook,GetMonDevolution,0x0801D78C,0x089E1338
+CFRU,hook,GetMinimumLevel,0x0801D7AC,0x089E1358
+CFRU,hook,CreateShedinja,0x080CE748,0x089E13D8
+CFRU,hook,PlayerHandleExpBarUpdate,0x08032F4C,0x089E1990
+CFRU,hook,PlayerGoThroughDoor,0x0807E80C,0x089E498C
+CFRU,hook,Task_PlayerExitDoor,0x0807DFBC,0x089E53E8
+CFRU,routine pointer,sp0D1_SetUpFollowerSprite,0x081600A4,0x089E5764
+CFRU,routine pointer,sp0D2_DestroyFollowerSprite,0x081600A8,0x089E5874
+CFRU,routine pointer,sp0D3_FaceFollowerSprite,0x081600AC,0x089E58B0
+CFRU,routine pointer,sp0E1_DoesPlayerHaveFollower,0x081600E4,0x089E5928
+CFRU,routine pointer,sp052_GenerateFacilityTrainer,0x0815FEA8,0x089E7D88
+CFRU,routine pointer,sp053_LoadFrontierIntroBattleMessage,0x0815FEAC,0x089E7F0C
+CFRU,routine pointer,sp054_GetBattleFacilityStreak,0x0815FEB0,0x089E8188
+CFRU,routine pointer,sp055_UpdateBattleFacilityStreak,0x0815FEB4,0x089E81BC
+CFRU,routine pointer,sp056_DetermineBattlePointsToGive,0x0815FEB8,0x089E84CC
+CFRU,routine pointer,sp06C_SpliceFrontierTeamWithPlayerTeam,0x0815FF10,0x089E861C
+CFRU,routine pointer,sp06D_LoadFrontierMultiTrainerById,0x0815FF14,0x089E86C0
+CFRU,routine pointer,sp06E_BufferBattleSandsRecords,0x0815FF18,0x089E874C
+CFRU,routine pointer,sp06F_CanTeamParticipateInBattleMine,0x0815FF1C,0x089E886C
+CFRU,routine pointer,sp070_RandomizeBattleMineBattleOptions,0x0815FF20,0x089E8988
+CFRU,routine pointer,sp071_LoadBattleMineRecordTier,0x0815FF24,0x089E8BC0
+CFRU,routine pointer,sp072_LoadBattleCircusEffects,0x0815FF28,0x089E8C24
+CFRU,routine pointer,sp073_ModifyTeamForBattleTower,0x0815FF2C,0x089E8E10
+CFRU,routine pointer,sp0E8_BufferRingChallengeOpponentTeamDetails,0x08160100,0x089E8F14
+Unbound,relocated code,ChooseNextBattleTowerTrainer,,0x089E8F14
+CFRU,routine pointer,sp0E9_ChooseRingChallengeOpponentMon,0x08160104,0x089E8F78
+Unbound,relocated code,CheckPartyBattleTowerBanlist,,0x089E8F78
+CFRU,routine pointer,sp0EA_BufferRingChallengeRecords,0x08160108,0x089E9224
+Unbound,relocated code,PrintBattleTowerTrainerGreeting,,0x089E9224
+CFRU,routine pointer,sp057_ShowFrontierRecords,0x0815FEBC,0x089E9D98
+CFRU,hook,Task_Hof_InitMonData,0x080F1F74,0x089F22F0
+CFRU,hook,Task_Hof_InitTeamSaveData,0x080F2114,0x089F2444
+CFRU,hook,Task_Hof_DisplayMon,0x080F22B0,0x089F2520
+CFRU,hook,Task_Hof_TryDisplayAnotherMon,0x080F2424,0x089F25F4
+CFRU,hook,Task_HofPC_DrawSpritesPrintText,0x080F2B6C,0x089F26CC
+CFRU,hook,CB2_DoHallOfFameScreen,0x080F1EFC,0x089F286C
+CFRU,hook,Task_HofPC_CopySaveData,0x080F2AA4,0x089F28B8
+CFRU,hook,HallOfFame_PrintMonInfo,0x080F3194,0x089F296C
+CFRU,hook,Task_HofPC_PrintMonInfo,0x080F2D60,0x089F2B9C
+CFRU,hook,Task_Hof_PlayMonCryAndPrintInfo,0x080F23A0,0x089F2CA4
+CFRU,hook,ReshowPCMenuAfterHallOfFamePC,0x080CA5C0,0x089F2D28
+CFRU,hook,SanitizeItemId,0x0809A8A4,0x089F3240
+CFRU,hook,ItemId_GetName,0x0809A8BC,0x089F324C
+CFRU,hook,ItemId_GetHoldEffect,0x0809A924,0x089F3360
+CFRU,hook,BerryIdFromItemId,0x0809C8E4,0x089F3564
+CFRU,hook,CanMonLearnTMHM,0x08043C2C,0x089F36A0
+CFRU,hook,GetExpandedTutorMove,0x08120BA8,0x089F38AC
+CFRU,hook,ItemIdToBattleMoveId,0x08125A78,0x089F39B8
+CFRU,hook,LoadTMNameWithNo,0x08131D48,0x089F39F4
+CFRU,hook,CanMonLearnTMTutor,0x08120B20,0x089F3B6C
+CFRU,hook,CheckIsHmMove,0x080441B8,0x089F3BE0
+CFRU,hook,CheckIsHmMove,0x08125A90,0x089F3BE0
+CFRU,hook,Task_ReturnToItemListAfterItemPurchase,0x0809BF68,0x089F3F10
+CFRU,hook,SetMemoryForBagStorage,0x08099E44,0x089F4150
+CFRU,hook,AllocateBagItemListBuffers,0x081083F4,0x089F4174
+CFRU,hook,BackupPlayerBag,0x0810ADD8,0x089F41D8
+CFRU,hook,RestorePlayerBag,0x0810AECC,0x089F42DC
+CFRU,hook,PocketCalculateInitialCursorPosAndItemsAbove,0x081089F4,0x089F44E8
+CFRU,hook,CountTMsInBag,0x0801D7F4,0x089F4550
+CFRU,hook,DoesBagHaveBerry,0x08099FAC,0x089F4584
+CFRU,hook,SortBerriesOrTMHMs,0x0809A720,0x089F4734
+CFRU,hook,CompactItemsInBagPocket,0x0809A584,0x089F475C
+CFRU,hook,PrintItemDescriptionOnMessageWindow,0x08108818,0x089F4888
+CFRU,hook,BagListMenuGetItemNameColored,0x08108560,0x089F49E0
+CFRU,hook,Bag_BuildListMenuTemplate,0x0810842C,0x089F4AA0
+CFRU,hook,GetLevelUpMovePairsBySpecies,0x0801D7BC,0x089F6B5C
+CFRU,hook,GetLevelUpMovesBySpecies,0x08043DD4,0x089F6BE8
+CFRU,hook,GetMoveRelearnerMoves,0x08043C84,0x089F6C58
+CFRU,hook,GetNumberOfRelearnableMoves,0x08043E2C,0x089F6D40
+CFRU,hook,MonTryLearningNewMove,0x0803EA88,0x089F6E48
+CFRU,hook,BuildTMMoveset,0x0801D7C4,0x089F7000
+CFRU,hook,BuildTutorMoveset,0x0801D7CC,0x089F7040
+CFRU,hook,GiveMoveToBoxMon,0x0803E8B0,0x089F70A4
+CFRU,hook,GiveBoxMonInitialMoveset,0x0803E9E0,0x089F7158
+CFRU,hook,SetMonMoveSlot,0x0803E964,0x089F7208
+CFRU,hook,HandleDataTransfer,0x08033134,0x089F7520
+CFRU,hook,HandleDataTransfer,0x08038A2C,0x089F7520
+CFRU,hook,HandleDataTransfer,0x0803D200,0x089F7520
+CFRU,hook,GetMegaSpecies,0x0801D794,0x089F76C8
+CFRU,hook,MoveSelectionDisplayMoveType,0x08030940,0x089F8004
+CFRU,hook,HandleInputChooseAction,0x0802E438,0x089F8174
+CFRU,hook,MoveSelectionDisplayMoveEffectiveness,0x080308A8,0x089F8B64
+CFRU,hook,HandleInputChooseMove,0x0802EA10,0x089F9234
+CFRU,hook,InitMoveSelectionsVarsAndStrings,0x08032CB4,0x089FA438
+CFRU,hook,TrySetCantSelectMoveBattleScript,0x08017594,0x089FA7BC
+CFRU,hook,PlayerHandleChooseAction,0x08032BD4,0x089FAD48
+CFRU,hook,BattleIntroOpponent1SendsOutMonAnimation,0x0801359C,0x089FBDA4
+CFRU,hook,Task_OpponentStartSendOutAnim,0x08038DC4,0x089FBEC0
+CFRU,hook,IsMultiBattle,0x0811FA20,0x089FBFD4
+CFRU,hook,Task_PlayerStartSendOutAnim,0x08033660,0x089FC078
+CFRU,hook,CheckForTrainersWantingBattle,0x08081B30,0x089FED54
+CFRU,hook,BattleSetup_ConfigureTrainerBattle,0x08080228,0x089FF070
+CFRU,hook,BattleSetup_StartTrainerBattle,0x08080464,0x089FF4DC
+CFRU,hook,GetIntroSpeechOfApproachingTrainer,0x080806D8,0x089FF6D8
+CFRU,hook,GetTrainerCantBattleSpeech,0x08080734,0x089FF750
+CFRU,hook,SetUpTrainerEncounterMusic,0x08080628,0x089FF7A0
+CFRU,hook,SetTrainerFlags,0x080803FC,0x089FF818
+CFRU,hook,TryStartStepCountScript,0x0806D698,0x089FFC0C
+CFRU,hook,RunOnTransitionMapScript,0x08069C44,0x089FFE8C
+CFRU,hook,RunOnResumeMapScript,0x08069C50,0x089FFEC8
+CFRU,hook,FieldCB_RushInjuredPokemonToCenter,0x0807F5F0,0x089FFEDC
+CFRU,hook,IsRunningDisallowedByMetatile,0x080BD4B8,0x08A00014
+CFRU,hook,Overworld_IsBikingAllowed,0x08055C9C,0x08A00024
+CFRU,hook,GetPlayerSpeed,0x080BD674,0x08A0006C
+CFRU,hook,PlayerOnBikeCollide,0x0805C1AC,0x08A001E4
+CFRU,hook,CanUseEscapeRopeOnCurrMap,0x080A1B8C,0x08A00218
+CFRU,routine pointer,MetatileBehavior_IsMuddySlope,0x0835B7FC,0x08A0023C
+Unbound,relocated unknown,MetatileBehavior_IsSecretBaseJumpMat,,0x08A0023C
+CFRU,routine pointer,ForcedMovement_MuddySlope,0x0835B800,0x08A00244
+Unbound,relocated code,ForcedMovement_MatJump,,0x08A00244
+CFRU,hook,DoPoisonFieldEffect,0x080A0618,0x08A002C8
+CFRU,hook,TaskRepel,0x080A19E8,0x08A00380
+CFRU,hook,UpdateRepelCounter,0x080830B8,0x08A003E4
+CFRU,hook,GetLedgeJumpDirection,0x080680F8,0x08A006E0
+CFRU,hook,PlayerJumpLedge,0x0805C23C,0x08A00744
+CFRU,hook,GetInteractedMetatileScript,0x0806D1F0,0x08A00794
+CFRU,hook,SetCutGrassMetatile,0x08097B50,0x08A00858
+CFRU,hook,PrepMiningWarp,0x0801D80C,0x08A00910
+CFRU,hook,TryRunOnFrameMapScript,0x08069C74,0x08A00B04
+CFRU,hook,GetInteractedWaterScript,0x0806D548,0x08A00B98
+CFRU,hook,Waterfall3_MovePlayer,0x08084DA4,0x08A00EEC
+CFRU,hook,MetatileBehavior_IsDiveable,0x08059FB0,0x08A01038
+CFRU,hook,MetatileBehavior_IsUnableToEmerge,0x08059FCC,0x08A01040
+CFRU,routine pointer,PlayerAvatarTransition_Underwater,0x0835B854,0x08A01048
+Unbound,relocated code,PlayerAvatarTransition_Underwater,,0x08A01048
+CFRU,routine pointer,PlayerAvatarTransition_HandleUnderwater,0x08471EEC,0x08A01058
+Unbound,relocated code,QL_GfxTransition_StopSurfSouth,,0x08A01058
+CFRU,hook,GetAdjustedInitialTransitionFlags,0x08055ACC,0x08A010FC
+CFRU,hook,WarpFadeOutScreen,0x0807DC18,0x08A01154
+CFRU,hook,Task_ClosePartyMenuAfterText,0x081255BC,0x08A01BC8
+CFRU,hook,SetNewPartySelectTarget2,0x081200F8,0x08A0288C
+CFRU,hook,CursorCb_Summary,0x08122D4C,0x08A02AB0
+CFRU,hook,ChangeSummaryScreenMonSinglesDoubles,0x0813B20C,0x08A02AE0
+CFRU,hook,ChangeSummaryScreenMonMulti,0x0813B38C,0x08A02B68
+CFRU,hook,SummaryScreen_IsMultiBattlePartner,0x08138B4C,0x08A02C18
+CFRU,hook,SummaryScreenMonIsFromGBA,0x0813B7F8,0x08A02CC0
+CFRU,hook,CursorCb_Enter,0x08124154,0x08A02D5C
+CFRU,hook,CursorCb_NoEntry,0x08124278,0x08A02EC4
+CFRU,hook,DisplayPartyPokemonSelectForBattle,0x0811F388,0x08A0301C
+CFRU,hook,CanPokemonSelectedBeEnteredInBattleTower,0x081275F8,0x08A0310C
+CFRU,hook,SetPartyMonFieldSelectionActions,0x081229FC,0x08A032F4
+CFRU,routine pointer,sp100_CanPlayerUseFlashInCurrentLocation,0x08160160,0x08A0363A
+CFRU,routine pointer,sp101_CanPlayerFlyInCurrentLocation,0x08160164,0x08A03668
+CFRU,routine pointer,sp102_IsPlayerFacingSurfableWater,0x08160168,0x08A0369C
+CFRU,routine pointer,sp103_IsPlayerFacingClimbableWaterfall,0x0816016C,0x08A036C8
+CFRU,routine pointer,sp104_IsPlayerOnDiveableWater,0x08160170,0x08A03730
+CFRU,routine pointer,sp105_IsPlayerFacingClimbableWall,0x08160174,0x08A0375C
+CFRU,routine pointer,sp109_IsPlayerFacingNPCWithOverworldPic,0x08160184,0x08A03784
+CFRU,routine pointer,sp10A_CanUseCutOnTree,0x08160188,0x08A037A4
+CFRU,routine pointer,sp10B_CanUseRockSmashOnRock,0x0816018C,0x08A037F4
+CFRU,routine pointer,sp10C_CanUseStrengthOnBoulder,0x08160190,0x08A03844
+CFRU,hook,ItemUseCB_MedicineStep,0x081253B0,0x08A038C0
+CFRU,hook,Task_DoLearnedMoveFanfareAfterText,0x08125CF4,0x08A03AF4
+CFRU,routine pointer,ItemUseCB_EvolutionStone,0x080A1768,0x08A03C4C
+Unbound,relocated code,ItemUseCB_EvolutionStone,,0x08A03C4C
+CFRU,routine pointer,FieldUseFunc_EVReducingBerry,0x08877C68,0x08A03D10
+CFRU,routine pointer,FieldUseFunc_EVReducingBerry,0x08877C94,0x08A03D10
+CFRU,routine pointer,FieldUseFunc_EVReducingBerry,0x08877CC0,0x08A03D10
+CFRU,routine pointer,FieldUseFunc_EVReducingBerry,0x08877CEC,0x08A03D10
+CFRU,routine pointer,FieldUseFunc_EVReducingBerry,0x08877D18,0x08A03D10
+CFRU,routine pointer,FieldUseFunc_EVReducingBerry,0x08877D44,0x08A03D10
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887BE10,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887BE3C,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887BE68,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887BE94,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887CC54,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887CC80,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887CCAC,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887CCD8,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887D308,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_FormChangeItem,0x0887D334,0x08A03D2C
+CFRU,routine pointer,FieldUseFunc_AbilityCapsule,0x08877168,0x08A04548
+CFRU,routine pointer,FieldUseFunc_AbilityCapsule,0x0887CA9C,0x08A04548
+CFRU,routine pointer,FieldUseFunc_MaxPowder,0x08876C40,0x08A04564
+CFRU,routine pointer,FieldUseFunc_Honey,0x08876E7C,0x08A04580
+CFRU,hook,ItemUseCB_RareCandy,0x081262AC,0x08A045B4
+CFRU,routine pointer,FieldUseFunc_VsSeeker,0x0887A054,0x08A046A8
+CFRU,hook,CopyBoxMonAt,0x0808BBF4,0x08A04718
+CFRU,hook,ZeroBoxMonAt,0x0808BCB4,0x08A04740
+CFRU,hook,GetBoxedMonPtr,0x0808BD30,0x08A0484C
+CFRU,hook,BoxMonAtToMon,0x0808BCF0,0x08A0489C
+CFRU,hook,GetBoxMonNickAt,0x0808BAE4,0x08A04914
+CFRU,hook,GetBoxMonDataAt,0x0808BA18,0x08A04954
+CFRU,hook,SetBoxMonAt,0x0808BBB4,0x08A04AD0
+CFRU,hook,SetBoxMonNickAt,0x0808BB2C,0x08A04B14
+CFRU,hook,GetBoxNamePtr,0x0808BD6C,0x08A04BA4
+CFRU,hook,GetBoxWallpaper,0x0808BD94,0x08A04BBC
+CFRU,hook,SetBoxWallpaper,0x0808BDBC,0x08A04BD4
+CFRU,hook,sub_80916F4,0x080916F4,0x08A04BEC
+CFRU,hook,SendMonToPC,0x08040B90,0x08A04CB0
+CFRU,hook,PlaceBoxMonIcon,0x08090D58,0x08A04E54
+CFRU,routine pointer,sp115_RaidBattleAvailable,0x081601B4,0x08A05B78
+CFRU,routine pointer,sp116_StartRaidBattleIntro,0x081601B8,0x08A05BAC
+CFRU,routine pointer,CB2_PartyMenuFromField,0x0801D7FC,0x08A05BFC
+CFRU,routine pointer,CB2_ItemMenuFromField,0x0801D800,0x08A05C44
+CFRU,hook,ReadKeys,0x080005E8,0x08A05C70
+CFRU,hook,GetLRKeysState,0x080BF630,0x08A060B0
+CFRU,hook,GetLRKeysPressedAndHeld,0x080BF66C,0x08A060D8
+CFRU,hook,sub_8104284,0x08104284,0x08A06100
+CFRU,hook,ClearRoamersData,0x08141C54,0x08A06138
+CFRU,hook,UpdateLocationHistoryForRoamers,0x08141DAC,0x08A0614C
+CFRU,hook,RoamersMoveToOtherLocationSet,0x08141DD4,0x08A06188
+CFRU,hook,RoamersMove,0x08141E28,0x08A061D8
+CFRU,hook,UpdateFoughtRoamerHPStatus,0x08141FE8,0x08A062F4
+CFRU,hook,SetFoughtRoamerInactive,0x0814201C,0x08A06328
+CFRU,hook,sp129_InitRoamer,0x08141D9C,0x08A06384
+CFRU,hook,PlayTimeCounter_Update,0x0805486C,0x08A06A10
+CFRU,hook,HandleLoadSector,0x080D9E54,0x08A06B4C
+CFRU,hook,TryLoadSaveSector,0x080DA120,0x08A06C94
+CFRU,hook,GetSaveValidStatus,0x080D9F0C,0x08A06CF0
+CFRU,hook,HandleWriteSector,0x080D9870,0x08A06E78
+CFRU,hook,SaveWriteToFlash,0x080D97D0,0x08A06F2C
+CFRU,hook,HandleSavingData,0x080DA248,0x08A07020
+CFRU,routine pointer,sp007_PokemonEVContestStatsChecker,0x0815FD7C,0x08A079D8
+CFRU,routine pointer,sp008_PokemonIVChecker,0x0815FD80,0x08A07A40
+CFRU,routine pointer,sp009_PokemonRibbonChecker,0x0815FD84,0x08A07A88
+CFRU,routine pointer,sp00A_CheckPokerusTimer,0x0815FD88,0x08A07AD4
+CFRU,routine pointer,sp00B_CheckPokeball,0x0815FD8C,0x08A07AF0
+CFRU,routine pointer,sp00C_CheckCaptureLocation,0x0815FD90,0x08A07B0C
+CFRU,routine pointer,sp00D_CheckHappiness,0x0815FD94,0x08A07B28
+CFRU,routine pointer,sp00E_CheckHeldItem,0x0815FD98,0x08A07B44
+CFRU,routine pointer,sp00F_EVAdderSubtracter,0x0815FD9C,0x08A07B60
+CFRU,routine pointer,sp010_IVSetter,0x0815FDA0,0x08A07BFC
+CFRU,routine pointer,sp011_RibbonSetterCleaner,0x0815FDA4,0x08A07C7C
+CFRU,routine pointer,sp012_PokerusSetter,0x0815FDA8,0x08A07CD0
+CFRU,routine pointer,sp013_IncreaseDecreaseHappiness,0x0815FDAC,0x08A07CF8
+CFRU,routine pointer,sp014_ChangeCapturedBall,0x0815FDB0,0x08A07D48
+CFRU,routine pointer,sp015_ModifyHeldItem,0x0815FDB4,0x08A07D6C
+CFRU,routine pointer,sp016_ChangePokemonSpecies,0x0815FDB8,0x08A07DAC
+CFRU,routine pointer,sp017_ChangePokemonAttacks,0x0815FDBC,0x08A07DDC
+CFRU,routine pointer,sp018_CheckPokemonSpecies,0x0815FDC0,0x08A07E5C
+CFRU,routine pointer,sp019_CheckAttackPP,0x0815FDC4,0x08A07E78
+CFRU,routine pointer,sp01A_CopyPartyData,0x0815FDC8,0x08A07EA4
+CFRU,routine pointer,sp01B_SwapPartyAndBoxData,0x0815FDCC,0x08A07EA6
+CFRU,routine pointer,sp07C_BufferNickname,0x0815FF50,0x08A07EA8
+Unbound,relocated code,BufferMonNickname,,0x08A07EA8
+CFRU,routine pointer,sp07D_CheckTradedPokemon,0x0815FF54,0x08A07EE4
+Unbound,relocated code,IsMonOTIDNotPlayers,,0x08A07EE4
+CFRU,routine pointer,sp09E_NicknamePokemon,0x0815FFD8,0x08A07F24
+Unbound,relocated code,ChangePokemonNickname,,0x08A07F24
+CFRU,routine pointer,sp062_PokemonEraser,0x0815FEE8,0x08A07FAC
+CFRU,routine pointer,sp063_StatusChecker,0x0815FEEC,0x08A07FF4
+CFRU,routine pointer,sp064_InflictStatus,0x0815FEF0,0x08A08014
+CFRU,routine pointer,sp065_CheckMonHP,0x0815FEF4,0x08A08060
+CFRU,routine pointer,sp066_InflictPartyDamage,0x0815FEF8,0x08A0807C
+CFRU,routine pointer,sp1AE_IsUntradableMonInParty,0x08160418,0x08A080CC
+Unbound,relocated code,IsBadEggInParty,,0x08A080CC
+CFRU,routine pointer,sp02B_CheckABButtons,0x0815FE0C,0x08A08184
+CFRU,routine pointer,sp02C_CheckDPad,0x0815FE10,0x08A08194
+CFRU,routine pointer,sp02D_CheckStartSelect,0x0815FE14,0x08A081DC
+CFRU,routine pointer,sp02E_CheckLRButtons,0x0815FE18,0x08A081EC
+CFRU,routine pointer,sp02F_KeyDump,0x0815FE1C,0x08A081FC
+CFRU,routine pointer,sp0C9_ForceOneKeyInput,0x08160084,0x08A08214
+CFRU,routine pointer,sp0CA_IgnoreKeys,0x08160088,0x08A08238
+CFRU,routine pointer,sp0CB_PlaceKeyScript,0x0816008C,0x08A08254
+CFRU,routine pointer,sp03E_AddVariables,0x0815FE58,0x08A08284
+CFRU,routine pointer,sp03F_SubtractVariables,0x0815FE5C,0x08A082D0
+CFRU,routine pointer,sp040_MultiplyVariables,0x0815FE60,0x08A08318
+CFRU,routine pointer,sp041_DivideVariables,0x0815FE64,0x08A08368
+CFRU,routine pointer,sp042_ANDVariables,0x0815FE68,0x08A08394
+CFRU,routine pointer,sp043_ORVariables,0x0815FE6C,0x08A083A8
+CFRU,routine pointer,sp044_XORVariables,0x0815FE70,0x08A083BC
+CFRU,routine pointer,sp024_AddTextByVariable,0x0815FDF0,0x08A083D0
+CFRU,routine pointer,sp025_AddTextByPointer,0x0815FDF4,0x08A083FC
+CFRU,routine pointer,sp075_MeasurePokemon1,0x0815FF34,0x08A0841C
+CFRU,routine pointer,sp076_MeasurePokemon2,0x0815FF38,0x08A08448
+CFRU,routine pointer,sp09C_OldManBattleModifier,0x0815FFD0,0x08A08478
+CFRU,routine pointer,sp051_CanTeamParticipateInSkyBattle,0x0815FEA4,0x08A08524
+CFRU,routine pointer,sp058_BufferSwarmText,0x0815FEC0,0x08A08554
+CFRU,routine pointer,sp059_BufferSpeciesRoamingText,0x0815FEC4,0x08A085BC
+CFRU,routine pointer,sp05A_WildDataSwitch,0x0815FEC8,0x08A0862C
+CFRU,routine pointer,sp05B_WildDataSwitchCanceller,0x0815FECC,0x08A08640
+CFRU,routine pointer,sp0AC_LoadTrainerBDefeatText,0x08160010,0x08A0864C
+CFRU,routine pointer,sp046_StartTimer,0x0815FE78,0x08A08660
+CFRU,routine pointer,sp047_HaltTimer,0x0815FE7C,0x08A08678
+CFRU,routine pointer,sp048_ResumeTimer,0x0815FE80,0x08A08698
+CFRU,routine pointer,sp049_StopTimer,0x0815FE84,0x08A086B8
+CFRU,routine pointer,sp04A_GetTimerValue,0x0815FE88,0x08A086D0
+CFRU,routine pointer,sp04C_UpdatePlaytime,0x0815FE90,0x08A086DC
+CFRU,routine pointer,sp04B_StopAndUpdatePlaytime,0x0815FE8C,0x08A0871C
+CFRU,routine pointer,sp04D_TimerValueReached,0x0815FE94,0x08A08730
+CFRU,routine pointer,sp04E_SaveTimerValue,0x0815FE98,0x08A08748
+CFRU,routine pointer,sp04F_StartTimerAtTime,0x0815FE9C,0x08A08758
+CFRU,routine pointer,sp050_StoreTimerToVariable,0x0815FEA0,0x08A08760
+CFRU,routine pointer,sp061_LoadTimerFromVariable,0x0815FEE4,0x08A08780
+CFRU,routine pointer,sp086_GetSafariBalls,0x0815FF78,0x08A087A0
+CFRU,routine pointer,sp087_ChangeSafariBalls,0x0815FF7C,0x08A087AC
+CFRU,routine pointer,sp088_GetSafariCounter,0x0815FF80,0x08A087EC
+CFRU,routine pointer,sp089_SetSafariCounter,0x0815FF84,0x08A087F8
+CFRU,routine pointer,sp07E_GetTileNumber,0x0815FF58,0x08A0889C
+CFRU,routine pointer,sp07F_GetTileBehaviour,0x0815FF5C,0x08A088C4
+CFRU,routine pointer,sp097_StartGroundBattle,0x0815FFBC,0x08A088F8
+CFRU,routine pointer,sp098_StartWaterBattle,0x0815FFC0,0x08A08902
+CFRU,routine pointer,sp081_SetWalkingScript,0x0815FF64,0x08A0890C
+CFRU,routine pointer,sp08A_ReadPedometerValue,0x0815FF88,0x08A08920
+CFRU,routine pointer,sp0A0_CheckAndSetDailyEvent,0x0815FFE0,0x08A08AF0
+CFRU,routine pointer,sp0A1_UpdateTimeInVars,0x0815FFE4,0x08A08BD8
+CFRU,routine pointer,sp0A2_GetTimeDifference,0x0815FFE8,0x08A08BE8
+CFRU,routine pointer,sp0AD_GetTimeOfDay,0x08160014,0x08A08CD4
+CFRU,routine pointer,sp0D9_GetHour,0x081600C4,0x08A08D10
+CFRU,routine pointer,sp0DA_GetDayOfWeek,0x081600C8,0x08A08D1C
+CFRU,routine pointer,sp0AE_ClearFlag,0x08160018,0x08A08D28
+CFRU,routine pointer,sp0AF_DismountBicyle,0x0816001C,0x08A08D40
+CFRU,routine pointer,sp09A_StopSounds,0x0815FFC8,0x08A08D60
+CFRU,routine pointer,sp0B0_LoadPartyPokemonTypes,0x08160020,0x08A08D80
+CFRU,routine pointer,sp0B1_ChooseItemFromBag,0x08160024,0x08A08DC8
+CFRU,routine pointer,sp0B2_PokemonTypeInParty,0x08160028,0x08A08E2C
+CFRU,routine pointer,sp0CC_CanLearnDracoMeteorInParty,0x08160090,0x08A08E9C
+CFRU,routine pointer,sp18B_ShowFossilImage,0x0816038C,0x08A08F40
+Unbound,relocated code,OpenMuseumFossilPic,,0x08A08F40
+CFRU,routine pointer,sp0D0_PokemonInPartyThatCanLearnTMHM,0x081600A0,0x08A090A4
+CFRU,routine pointer,ScrCmd_fadescreenswapbuffers,0x0815FB90,0x08A09100
+Unbound,relocated code,ScrCmd_showcontestpainting,,0x08A09100
+CFRU,routine pointer,KeyboardKeyHandler_Character,0x083E23D0,0x08A09164
+Unbound,relocated code,KeyboardKeyHandler_Character,,0x08A09164
+CFRU,routine pointer,sp0B3_DoChooseNumberScreen,0x0816002C,0x08A0926C
+CFRU,routine pointer,sp12C_DoEnterPhraseScreen,0x08160210,0x08A09290
+CFRU,routine pointer,sp12D_CompareEnteredPhrase,0x08160214,0x08A092E8
+CFRU,routine pointer,sp0E4_ShowItemSpriteOnFindObtain,0x081600F0,0x08A0930C
+CFRU,routine pointer,sp0E5_ClearItemSpriteAfterFindObtain,0x081600F4,0x08A0933C
+CFRU,routine pointer,sp196_TryCopyTMNameToBuffer1,0x081603B8,0x08A0935C
+Unbound,relocated code,BufferTMHMMoveName,,0x08A0935C
+CFRU,routine pointer,ScrCmd_message,0x0815FB50,0x08A093AC
+Unbound,relocated code,ScrCmd_message,,0x08A093AC
+CFRU,routine pointer,ScrCmd_hidemappopup,0x0815FC78,0x08A093FC
+Unbound,relocated code,ScrCmd_addelevmenuitem,,0x08A093FC
+CFRU,routine pointer,sp112_BufferNaturalGiftPowerAndType,0x081601A8,0x08A0942C
+CFRU,routine pointer,LoadTextBuffer07,0x08231E8C,0x08A0948C
+Unbound,relocated code,ExpandPlaceholder_Version,,0x08A0948C
+CFRU,routine pointer,LoadTextBuffer08,0x08231E90,0x08A09498
+Unbound,relocated code,ExpandPlaceholder_Magma,,0x08A09498
+CFRU,routine pointer,LoadTextBuffer09,0x08231E94,0x08A094A4
+Unbound,relocated code,ExpandPlaceholder_Aqua,,0x08A094A4
+CFRU,routine pointer,LoadTextBuffer0A,0x08231E98,0x08A094B0
+Unbound,relocated code,ExpandPlaceholder_Maxie,,0x08A094B0
+CFRU,routine pointer,LoadTextBuffer0B,0x08231E9C,0x08A094BC
+Unbound,relocated code,ExpandPlaceholder_Archie,,0x08A094BC
+CFRU,routine pointer,LoadTextBuffer0C,0x08231EA0,0x08A094C8
+Unbound,relocated code,ExpandPlaceholder_Groudon,,0x08A094C8
+CFRU,routine pointer,LoadTextBuffer0D,0x08231EA4,0x08A094D4
+Unbound,relocated code,ExpandPlaceholder_Kyogre,,0x08A094D4
+CFRU,routine pointer,sp0CF_BufferAbilityName,0x0816009C,0x08A094E0
+CFRU,routine pointer,ScrCmd_bufferitemnameplural,0x0815FD04,0x08A09518
+Unbound,relocated code,ScrCmd_bufferitemnameplural,,0x08A09518
+CFRU,hook,GetCoins,0x080D0554,0x08A0957C
+CFRU,hook,SetCoins,0x080D057C,0x08A09588
+CFRU,hook,GiveCoins,0x080D05A4,0x08A09594
+CFRU,hook,TakeCoins,0x080D05E4,0x08A095C0
+CFRU,routine pointer,scrB3_CheckCoins,0x0815FC80,0x08A095D8
+Unbound,relocated code,ScrCmd_checkcoins,,0x08A095D8
+CFRU,routine pointer,scrB4_AddCoins,0x0815FC84,0x08A09604
+Unbound,relocated code,ScrCmd_addcoins,,0x08A09604
+CFRU,routine pointer,scrB5_SubtractCoins,0x0815FC88,0x08A09654
+Unbound,relocated code,ScrCmd_removecoins,,0x08A09654
+CFRU,hook,SetMoveEffect,0x0801FF20,0x08A096D4
+CFRU,hook,StartCB_HandleInput,0x0806F280,0x08A0BD8E
+CFRU,hook,StartCB_HandleInput,0x0806F280,0x08A0BD8E
+CFRU,hook,DoDrawStartMenu,0x0806F01C,0x08A0BEA4
+CFRU,hook,DrawStartMenuInOneGo,0x0806F14C,0x08A0C26C
+CFRU,hook,Task_StartMenuHandleInput,0x0806F1F0,0x08A0C284
+CFRU,hook,SaveDialogCB_PrintAskSaveText,0x0806F7A8,0x08A0C2F0
+CFRU,hook,PrepareStringForUsingXItem,0x08042D50,0x08A0CDD4
+CFRU,hook,HasNoMonsToSwitch,0x08019C10,0x08A0DB10
+CFRU,hook,IsAutoScrollEnabled,0x0801D88C,0x08A0F190
+CFRU,hook,TextPrinterWaitWithDownArrow,0x08005634,0x08A0F1CC
+CFRU,hook,TextPrinterWait,0x08005680,0x08A0F224
+CFRU,routine pointer,WaitForAorBPress,0x0806BA7C,0x08A0F274
+Unbound,relocated code,WaitForAorBPress,,0x08A0F274
+CFRU,hook,TierBanScreenFromScript,0x0801D894,0x08A0FE84
+CFRU,hook,HandleIntroSlide,0x080BC3A0,0x08A0FFC0
+CFRU,hook,GetCurrentLevelCap,0x0801D79C,0x08A10474
+CFRU,routine pointer,CB2_NewGame,0x0812EB54,0x08A10A20
+CFRU,hook,ClearNewGamePlusFlags,0x0801D83C,0x08A10CAC
+CFRU,routine pointer,sp026_RandomizerNewGamePlusTeam,0x0815FDF8,0x08A10D08
+CFRU,hook,TryReplaceUnboundNormalTrainerSpecies,0x0801D84C,0x08A12900
+CFRU,hook,HallOfFame_PrintWelcomeText,0x080F313C,0x08A13148
+CFRU,hook,CanSpeciesEvolve,0x0801D874,0x08A13DEC
+CFRU,hook,GetBaseStatsTotal,0x0801D884,0x08A13EFC
+CFRU,hook,GetAbility1,0x0801D7D4,0x08A13F1C
+CFRU,hook,GetAbility2,0x0801D7DC,0x08A13F38
+CFRU,hook,GetHiddenAbility,0x0801D7E4,0x08A13F54
+CFRU,hook,GetVisualBaseStat,0x0801D77C,0x08A140CE
+CFRU,hook,CreateWildMon,0x080829FC,0x08A14838
+CFRU,routine pointer,sp117_CreateRaidMon,0x081601BC,0x08A14BE4
+CFRU,hook,GetAbilityEncounterRateModType,0x08082C58,0x08A15118
+CFRU,hook,DoStandardWildBattle,0x0807F748,0x08A151B8
+CFRU,hook,sp138_StartLegendaryBattle,0x0807F9D8,0x08A15270
+CFRU,routine pointer,sp156_StartGhostBattle,0x081602B8,0x08A1534C
+Unbound,relocated code,StartMarowakBattle,,0x08A1534C
+CFRU,routine pointer,sp118_StartRaidBattle,0x081601C0,0x08A1534E
+CFRU,hook,ScrCmd_setwildbattle,0x0806C368,0x08A15474
+CFRU,hook,GetLocalWaterMon,0x08083074,0x08A15678
+CFRU,hook,GetLocalWildMon,0x08082FE8,0x08A1569C
+CFRU,hook,SweetScentWildEncounter,0x08082EC0,0x08A1578C
+CFRU,hook,RockSmashWildEncounter,0x08082E54,0x08A158A4
+CFRU,hook,GetMapBaseEncounterCooldown,0x0808324C,0x08A158E8
+CFRU,hook,StandardWildEncounter,0x08082CBC,0x08A1593A
+CFRU,hook,TryStandardWildEncounter,0x080833B0,0x08A15B2C
+CFRU,hook,DoesCurrentMapHaveFishingMons,0x08082F78,0x08A15B78
+CFRU,hook,FishingWildEncounter,0x08082FB0,0x08A15BE8
+CFRU,hook,BattleAI_DoAIProcessing,0x080C7038,0x08A191FC
+CFRU,hook,BattleAI_HandleItemUseBeforeAISetup,0x080C6D0C,0x08A19BD8
+CFRU,hook,AI_TrySwitchOrUseItem,0x08039C84,0x08A1AB4A
+CFRU,hook,GetMostSuitableMonToSwitchInto,0x08039E3C,0x08A2B33C
+Unbound,relocated data,gAbilityNames,,0x08A36398
+CFRU,repoint,gText_FlashFirePowerUp,0x083FE238,0x08A37A4C
+CFRU,repoint,gText_AbilityCuredStatusProblem,0x083FE49C,0x08A37A74
+CFRU,repoint,gText_PkmnHurtsWith,0x083FE248,0x08A37BE2
+CFRU,repoint,DESC_ICEBEAM,0x088795D0,0x08A37CB8
+CFRU,repoint,DESC_BLIZZARD,0x088795FC,0x08A37D02
+CFRU,repoint,DESC_LEECHFANG,0x08879C00,0x08A37EC4
+CFRU,repoint,DESC_AVALANCHE,0x0887A4C4,0x08A38018
+CFRU,repoint,DESC_CHARGEBEAM,0x08879D60,0x08A38138
+CFRU,repoint,DESC_DARKPULSE,0x0887A5F8,0x08A38214
+CFRU,repoint,DESC_DRAGONPULSE,0x0887A288,0x08A382F2
+CFRU,repoint,DESC_DRAINPUNCH,0x0887A2B4,0x08A3833E
+CFRU,repoint,DESC_ENERGYBALL,0x08879CB0,0x08A383D4
+CFRU,repoint,DESC_FOCUSBLAST,0x08879C84,0x08A38422
+CFRU,repoint,DESC_GIGAIMPACT,0x0887A414,0x08A384AC
+CFRU,repoint,DESC_GRASSKNOT,0x0887A72C,0x08A384F2
+CFRU,repoint,DESC_ROCKCLIMB,0x0887AE64,0x08A388F4
+CFRU,repoint,DESC_ROCKPOLISH,0x0887A440,0x08A38940
+CFRU,repoint,DESC_ROOST,0x08879C58,0x08A389C2
+CFRU,repoint,DESC_SHADOWCLAW,0x0887A390,0x08A38A42
+CFRU,repoint,DESC_XSCISSOR,0x0887A650,0x08A38B1A
+CFRU,repoint,DESC_BULLDOZE,0x0887A8E4,0x08A38C36
+CFRU,repoint,DESC_FLAMECHARGE,0x0887A5A0,0x08A38CD2
+CFRU,repoint,DESC_FROSTBREATH,0x0887A910,0x08A38D20
+CFRU,repoint,DESC_HONECLAWS,0x08879D34,0x08A38DAC
+CFRU,repoint,DESC_WORKUP,0x0887A93C,0x08A38EF2
+CFRU,repoint,DESC_LOWSWEEP,0x0887A5CC,0x08A38FB8
+CFRU,repoint,DESC_SNARL,0x0887AAF4,0x08A38FF2
+CFRU,repoint,DESC_STRUGGLEBUG,0x0887A8B8,0x08A3902E
+CFRU,repoint,DESC_VENOSHOCK,0x0887A338,0x08A39106
+CFRU,repoint,DESC_WILDCHARGE,0x0887A968,0x08A39154
+CFRU,repoint,DESC_POISONJAB,0x0887A6D4,0x08A39198
+CFRU,repoint,DESC_STONEEDGE,0x0887A498,0x08A39306
+CFRU,repoint,DESC_PAYBACK,0x0887A3BC,0x08A39350
+CFRU,repoint,DESC_ACROBATICS,0x0887AAC8,0x08A3961C
+CFRU,repoint,DESC_UTURN,0x0887A7B0,0x08A39692
+CFRU,repoint,DESC_VOLTSWITCH,0x0887A834,0x08A396D2
+CFRU,repoint,DESC_DRAGONTAIL,0x0887A860,0x08A39712
+CFRU,repoint,DESC_FLASHCANNON,0x0887A808,0x08A3987A
+CFRU,repoint,DESC_PLUCK,0x0887A784,0x08A398FE
+CFRU,repoint,DESC_SCALD,0x0887A6A8,0x08A39B3C
+CFRU,repoint,DESC_BRINE,0x08879D08,0x08A39B78
+CFRU,repoint,DESC_DRAININGKISS,0x0887AB4C,0x08A39CCC
+CFRU,repoint,DESC_DAZZLINGGLEAM,0x0887A9EC,0x08A39D14
+CFRU,repoint,DESC_STEALTHROCK,0x0887A574,0x08A39D8C
+CFRU,repoint,DESC_INCINERATE,0x0887A88C,0x08A39F3A
+CFRU,repoint,DESC_PSYSHOCK,0x0887AA44,0x08A3A732
+CFRU,repoint,DESC_ROUND,0x0887ABA4,0x08A3A77C
+CFRU,repoint,DESC_NATURALGIFT,0x0887ABFC,0x08A3A87C
+CFRU,repoint,DESC_GYROBALL,0x0887A51C,0x08A3A99E
+CFRU,repoint,DESC_SMARTSTRIKE,0x0887AA9C,0x08A3CC30
+CFRU,repoint,DESC_QUASH,0x0887AC28,0x08A3E064
+Unbound,relocated data,gMoveNames,,0x08A40A10
+CFRU,repoint,gText_HazardsBlownAway,0x083FE188,0x08A43F8E
+CFRU,repoint,gText_CriticalHit,0x083FE270,0x08A4A98C
+Unbound,relocated data,sText_CriticalHit,,0x08A4A98C
+CFRU,repoint,gText_AttackerChangedType,0x083FE030,0x08A4ABC2
+CFRU,repoint,gText_CanNoLongerEscape,0x083FE148,0x08A4AEFE
+Unbound,relocated data,sText_TargetCantEscapeNow,,0x08A4AEFE
+CFRU,repoint,gText_CloakedInLight,0x083FE068,0x08A4AF18
+CFRU,repoint,gText_ItemPumpedMon,0x083FE424,0x08A4AF58
+Unbound,relocated data,sText_PkmnUsedXToGetPumped,,0x08A4AF58
+CFRU,repoint,gText_GotFrostbite,0x083FDFD0,0x08A4B23C
+Unbound,relocated data,sText_PkmnWasFrozen,,0x08A4B23C
+CFRU,repoint,gText_MoveUsedFrostbiteRemoved,0x083FDFE4,0x08A4B26A
+CFRU,repoint,gText_RemovedTargetFrostbite,0x083FDFDC,0x08A4B28A
+CFRU,repoint,gText_RemovedAttackerFrostbite,0x083FDFE0,0x08A4B2A4
+CFRU,repoint,gText_ItemRemovedFrostbite,0x083FE3A4,0x08A4B2BE
+CFRU,repoint,gText_AbilityPreventsStatLoss,0x083FE244,0x08A4B2DC
+CFRU,repoint,gText_AbilityPreventsSpecificStatLoss,0x083FE3E0,0x08A4B2F8
+CFRU,repoint,gText_AbilityPreventsConfusion,0x083FE234,0x08A4B312
+CFRU,repoint,gText_AbilityBlocksHealBell,0x083FE484,0x08A4B32E
+Unbound,relocated data,sText_PkmnsXBlocksY2,,0x08A4B32E
+CFRU,repoint,gText_ShroudedInMist,0x083FE090,0x08A4B3F2
+CFRU,repoint,TheOpposingString,0x080D7B7C,0x08A4C61A
+CFRU,repoint,TheOpposingString,0x080D7CA4,0x08A4C61A
+CFRU,repoint,TheOpposingString,0x080D7D18,0x08A4C61A
+CFRU,repoint,TheOpposingString,0x080D7D8C,0x08A4C61A
+CFRU,repoint,TheOpposingString,0x080D7E00,0x08A4C61A
+CFRU,repoint,TheOpposingString,0x080D7E74,0x08A4C61A
+CFRU,repoint,TheOpposingString,0x080D82C0,0x08A4C61A
+CFRU,repoint,TheOpposingString,0x080D8554,0x08A4C61A
+CFRU,repoint,gText_TheWild,0x080D7B78,0x08A4C636
+CFRU,repoint,gText_TheWild,0x080D7CA0,0x08A4C636
+CFRU,repoint,gText_TheWild,0x080D7D14,0x08A4C636
+CFRU,repoint,gText_TheWild,0x080D7D88,0x08A4C636
+CFRU,repoint,gText_TheWild,0x080D7DFC,0x08A4C636
+CFRU,repoint,gText_TheWild,0x080D7E70,0x08A4C636
+CFRU,repoint,gText_TheWild,0x080D82BC,0x08A4C636
+CFRU,repoint,gText_TheWild,0x080D8584,0x08A4C636
+CFRU,repoint,sText_GotMoneyForWinning,0x083FDF84,0x08A4C670
+Unbound,relocated data,sText_PlayerGotMoney,,0x08A4C670
+CFRU,repoint,sText_OutofUsablePokemon,0x083FDF88,0x08A4C688
+CFRU,repoint,sText_LostAgaintWild,0x083FDF8C,0x08A4C6B2
+CFRU,repoint,sText_LostAgainstTrainer,0x083FE4C0,0x08A4C6FC
+Unbound,relocated data,sText_PlayerWhiteoutAgainstTrainer,,0x08A4C6FC
+CFRU,repoint,sText_PaidPrizeMoney,0x083FE4C4,0x08A4C740
+Unbound,relocated data,sText_PlayerPaidAsPrizeMoney,,0x08A4C740
+CFRU,repoint,sText_BlackedOut,0x083FE4F0,0x08A4C790
+CFRU,repoint,gText_BattleMenu,0x080EA760,0x08A4C7B6
+CFRU,repoint,gText_UnknownLocation,0x08137618,0x08A4CAB0
+CFRU,repoint,gText_UsedVar2WildStronger,0x080A1B3C,0x08A4D56C
+Unbound,relocated data,gText_UsedVar2WildRepelled,,0x08A4D56C
+CFRU,repoint,gText_UsedVar2WildWeaker,0x080A1AEC,0x08A4D5C4
+Unbound,relocated data,gText_UsedVar2WildLured,,0x08A4D5C4
+CFRU,repoint,gText_PokemonAreNeeded,0x0845A32C,0x08A4E15C
+Unbound,relocated data,gText_ThreePkmnAreNeeded,,0x08A4E15C
+CFRU,repoint,gText_MoveItemWhere,0x0845A37C,0x08A4E1F6
+CFRU,repoint,gText_DNASplicersFuseWithWhich,0x0845A380,0x08A4E2E4
+CFRU,repoint,gTypeNames,0x080D8510,0x08A4EAD4
+CFRU,repoint,gTypeNames,0x0811972C,0x08A4EAD4
+CFRU,repoint,gTypeNames,0x0811977C,0x08A4EAD4
+Unbound,relocated data,gTypeNames,,0x08A4EAD4
+CFRU,repoint,gStatusConditionStringsTable,0x080D7850,0x08A50260
+Unbound,relocated data,gStatusConditionStringsTable,,0x08A50260
+CFRU,repoint,sBT_Phase2Tasks,0x080D0A58,0x08A50368
+CFRU,repoint,sBT_Phase2Tasks,0x080D0A88,0x08A50368
+Unbound,relocated data,sTasks_Main,,0x08A50368
+CFRU,repoint,sBT_Phase1Tasks,0x080D09E8,0x08A503B4
+CFRU,repoint,sBT_Phase1Tasks,0x080D0A20,0x08A503B4
+Unbound,relocated data,sTasks_Intro,,0x08A503B4
+CFRU,repoint,FieldEffectScript_RockClimbDust,0x081D978C,0x08A6B3DC
+CFRU,repoint,FieldEffectScript_UseRockClimb,0x081D9788,0x08A6B3E6
+CFRU,repoint,FieldEffectScript_Explosion,0x081D977C,0x08A6B3F0
+CFRU,repoint,FieldEffectScript_MiningScanRing,0x081D976C,0x08A6B3F6
+CFRU,repoint,FieldEffectScript_LavaBubbles,0x081D9768,0x08A6B3FC
+CFRU,repoint,FieldEffectScript_Sparkles,0x081D9718,0x08A6B406
+CFRU,repoint,FieldEffectScript_CaveDust,0x081D9714,0x08A6B410
+CFRU,repoint,FieldEffectScript_Dust,0x081D96D4,0x08A6B41A
+Unbound,relocated unknown,gFldEffScript_Dust,,0x08A6B41A
+CFRU,repoint,FieldEffectScript_Sparkle,0x081D9784,0x08A6B420
+Unbound,relocated unknown,gFldEffScript_Sparkle,,0x08A6B420
+CFRU,repoint,FieldEffectScript_BikeTireTracks,0x081D9738,0x08A6B426
+Unbound,relocated unknown,gFldEffScript_BikeTireTracks,,0x08A6B426
+CFRU,repoint,FieldEffectScript_SandFootprints,0x081D96E0,0x08A6B42C
+CFRU,repoint,FieldEffectScript_ShortGrass,0x081D9750,0x08A6B432
+Unbound,relocated unknown,gFldEffScript_ShortGrass,,0x08A6B432
+CFRU,repoint,FieldEffectScript_ShakingLongGrass,0x081D96FC,0x08A6B438
+CFRU,repoint,FieldEffectScript_JumpLongGrass,0x081D96F4,0x08A6B43E
+CFRU,repoint,FieldEffectScript_LongGrass,0x081D96F0,0x08A6B444
+CFRU,repoint,FieldEffectScript_ShakingTallGrass,0x081D96F8,0x08A6B44A
+CFRU,repoint,FieldEffectScript_JumpTallGrass,0x081D96DC,0x08A6B450
+CFRU,repoint,FieldEffectScript_TallGrass,0x081D96BC,0x08A6B456
+Unbound,relocated unknown,gFldEffScript_TallGrass,,0x08A6B456
+CFRU,repoint,gFieldEffectObjectImageAnim_ShakingGrass,0x083A5A2C,0x08A6B59C
+Unbound,relocated data,sAnim_UnusedGrass,,0x08A6B59C
+CFRU,repoint,sItemMenuActions,0x08109BA4,0x08A6BA64
+CFRU,repoint,sItemMenuActions,0x08109C20,0x08A6BA64
+CFRU,repoint,sItemMenuActions,0x08109C48,0x08A6BA64
+Unbound,relocated data,sItemMenuContextActions,,0x08A6BA64
+CFRU,repoint,gEventObjectImageAnim_RunEast,0x083A346C,0x08A6BD98
+CFRU,repoint,gEventObjectImageAnim_RunEast,0x083A34CC,0x08A6BD98
+Unbound,relocated data,sAnim_RunEast,,0x08A6BD98
+CFRU,repoint,gEventObjectImageAnim_RunWest,0x083A3468,0x08A6BDAC
+CFRU,repoint,gEventObjectImageAnim_RunWest,0x083A34C8,0x08A6BDAC
+Unbound,relocated data,sAnim_RunWest,,0x08A6BDAC
+CFRU,repoint,gEventObjectImageAnim_RunNorth,0x083A3464,0x08A6BDC0
+CFRU,repoint,gEventObjectImageAnim_RunNorth,0x083A34C4,0x08A6BDC0
+Unbound,relocated data,sAnim_RunNorth,,0x08A6BDC0
+CFRU,repoint,gEventObjectImageAnim_RunSouth,0x083A3460,0x08A6BDD4
+CFRU,repoint,gEventObjectImageAnim_RunSouth,0x083A34C0,0x08A6BDD4
+Unbound,relocated data,sAnim_RunSouth,,0x08A6BDD4
+CFRU,repoint,gFieldMoves,0x08122A7C,0x08A6C944
+Unbound,relocated data,sFieldMoves,,0x08A6C944
+CFRU,repoint,gPartyMenu_ItemMenuActions,0x0845A74C,0x08A6C962
+Unbound,relocated data,sPartyMenuAction_GiveTakeItemCancel,,0x08A6C962
+CFRU,repoint,gFieldMoveDescriptions,0x081221D0,0x08A6C968
+Unbound,relocated data,sFieldMoveDescriptionTable,,0x08A6C968
+CFRU,repoint,gFieldMoveCursorCallbacks,0x08124614,0x08A6C9A4
+CFRU,repoint,gFieldMoveCursorCallbacks,0x08124680,0x08A6C9A4
+Unbound,relocated unknown,sFieldMoveCursorCallbacks,,0x08A6C9A4
+CFRU,repoint,gPartyMenuCursorOptions,0x08120F74,0x08A6CA1C
+CFRU,repoint,gPartyMenuCursorOptions,0x08121FB8,0x08A6CA1C
+CFRU,repoint,gPartyMenuCursorOptions,0x08122D18,0x08A6CA1C
+CFRU,repoint,gPartyMenuCursorOptions,0x08122D48,0x08A6CA1C
+Unbound,relocated unknown,sCursorOptions,,0x08A6CA1C
+CFRU,repoint,gSaveSectionOffsets,0x080DA23C,0x08A6CD88
+Unbound,relocated unknown,sSaveSlotLayout,,0x08A6CD88
+CFRU,repoint,sNamingScreenTitlePrintingFuncs,0x0809F588,0x08A6CE10
+Unbound,relocated unknown,sDrawTextEntryBoxFuncs,,0x08A6CE10
+CFRU,repoint,sNamingScreenTemplates,0x0809DB58,0x08A6CE38
+Unbound,relocated data,sNamingScreenTemplates,,0x08A6CE38
+CFRU,repoint,gSpriteTemplateTable_TrainerBackSprites,0x0803F8A0,0x08A6DBF0
+Unbound,relocated data,sTrainerBackSpriteTemplates,,0x08A6DBF0
+CFRU,repoint,gTrainerBackAnimsPtrTable,0x0803F8A4,0x08A6E46C
+Unbound,relocated unknown,gTrainerBackAnimsPtrTable,,0x08A6E46C
+CFRU,repoint,gTrainerBackPicPaletteTable,0x08034774,0x08A6E514
+CFRU,repoint,gTrainerBackPicPaletteTable,0x080D6EA4,0x08A6E514
+CFRU,repoint,gTrainerBackPicPaletteTable,0x080EAEC0,0x08A6E514
+CFRU,repoint,gTrainerBackPicPaletteTable,0x08159458,0x08A6E514
+Unbound,relocated data,gTrainerBackPicPaletteTable,,0x08A6E514
+CFRU,repoint,gBallParticleSpriteTemplates,0x080F0268,0x08A6E62C
+Unbound,relocated data,sBallParticlesSpriteTemplates,,0x08A6E62C
+Unbound,relocated data,sBallOpenFadeColors,,0x08A6E8CC
+Unbound,relocated data,sBallParticleAnimationFuncs,,0x08A6E914
+Unbound,relocated data,sBallParticleAnimNums,,0x08A6E984
+Unbound,relocated data,gBallParticlePalettes,,0x08A6E9A0
+Unbound,relocated data,gBallParticleSpritesheets,,0x08A6EA80
+Unbound,relocated data,gBallSpriteTemplates,,0x08A6EB60
+Unbound,relocated data,gBallSpritePalettes,,0x08A6EE00
+Unbound,relocated data,gBallSpriteSheets,,0x08A6EEE0
+Unbound,relocated data,gBattleMoves,,0x08A769AE
+CFRU,repoint,gExperienceTables,0x0802FFB8,0x08A79560
+CFRU,repoint,gExperienceTables,0x080300E4,0x08A79560
+CFRU,repoint,gExperienceTables,0x080301F4,0x08A79560
+CFRU,repoint,gExperienceTables,0x0803DCC8,0x08A79560
+CFRU,repoint,gExperienceTables,0x0803E828,0x08A79560
+CFRU,repoint,gExperienceTables,0x0803E894,0x08A79560
+CFRU,repoint,gExperienceTables,0x0804199C,0x08A79560
+CFRU,repoint,gExperienceTables,0x08043B88,0x08A79560
+CFRU,repoint,gExperienceTables,0x08043C0C,0x08A79560
+CFRU,repoint,gExperienceTables,0x08049F48,0x08A79560
+CFRU,repoint,gExperienceTables,0x080E7F10,0x08A79560
+CFRU,repoint,gExperienceTables,0x080E803C,0x08A79560
+CFRU,repoint,gExperienceTables,0x080E814C,0x08A79560
+CFRU,repoint,gExperienceTables,0x08136790,0x08A79560
+CFRU,repoint,gExperienceTables,0x0813AADC,0x08A79560
+CFRU,repoint,gExperienceTables,0x081569E8,0x08A79560
+CFRU,repoint,gExperienceTables,0x08156B14,0x08A79560
+CFRU,repoint,gExperienceTables,0x08156C24,0x08A79560
+Unbound,relocated data,gExperienceTables,,0x08A79560
+CFRU,repoint,gWildMonNightHeaders,0x0801D778,0x08A7DA74
+CFRU,repoint,Substitute_FrontTiles,0x080350F4,0x08A8A4DC
+Unbound,relocated data,gSubstituteDollFrontGfx,,0x08A8A4DC
+CFRU,repoint,Substitute_FrontPal,0x0803514C,0x08A8A754
+Unbound,relocated data,gSubstituteDollPal,,0x08A8A754
+CFRU,repoint,Substitute_BackTiles,0x08035144,0x08A8BAB8
+Unbound,relocated data,gSubstituteDollBackGfx,,0x08A8BAB8
+CFRU,repoint,SurfPal,0x080AB464,0x08A8BDD0
+Unbound,relocated data,gBattleAnimBgPalette_Surf,,0x08A8BDD0
+CFRU,repoint,TradeBallTiles,0x0826CDD4,0x08ACEFDC
+Unbound,relocated data,sPokeball_Gfx,,0x08ACEFDC
+CFRU,repoint,TradeBallPal,0x0826CDDC,0x08ACF5DC
+Unbound,relocated data,sPokeball_Pal,,0x08ACF5DC
+CFRU,repoint,PokeSummary_StatusAilmentIcons_FrostbiteTiles,0x0813A314,0x08B1E11C
+Unbound,relocated data,gSummaryScreen_StatusAilmentIcon_Gfx,,0x08B1E11C
+CFRU,repoint,StatusGfx_Icons_FrostbiteTiles,0x0845A574,0x08B1E280
+Unbound,relocated data,gStatusGfx_Icons,,0x08B1E280
+CFRU,repoint,Type_IconsTiles,0x08107DB0,0x08B1EE64
+Unbound,relocated data,gMenuInfoElements_Gfx,,0x08B1EE64
+CFRU,repoint,Type_IconsPal,0x08107D64,0x08B21264
+Unbound,relocated data,gMenuInfoElements2_Pal,,0x08B21264
+CFRU,repoint,Wav_grass_footstep_sample,0x0848EE14,0x08B2148C
+CFRU,repoint,Wav_sand_footstep_sample,0x0848EE20,0x08B22594
+CFRU,repoint,sScriptStringVars,0x0806BCC0,0x08B2A250
+CFRU,repoint,sScriptStringVars,0x0806BD08,0x08B2A250
+CFRU,repoint,sScriptStringVars,0x0806BD58,0x08B2A250
+CFRU,repoint,sScriptStringVars,0x0806BD8C,0x08B2A250
+CFRU,repoint,sScriptStringVars,0x0806BE88,0x08B2A250
+CFRU,repoint,sScriptStringVars,0x0806BED0,0x08B2A250
+CFRU,repoint,sScriptStringVars,0x0806BF0C,0x08B2A250
+CFRU,repoint,sScriptStringVars,0x0806BF38,0x08B2A250
+Unbound,relocated data,sScriptStringVars,,0x08B2A250
+Unbound,relocated unknown,sMapsecName_BOND_BRIDGE,,0x08B50010
+Unbound,relocated unknown,sMapsecName_LIPTOO_CHAMBER,,0x08B50094
+Unbound,relocated unknown,sMapsecName_ROUTE_22,,0x08B500A0
+Unbound,relocated unknown,RocketHideout_Elevator_MapEvents,,0x08B50200
+Unbound,relocated unknown,sMapsecName_ROUTE_20,,0x08B50330
+Unbound,relocated unknown,sMapsecName_ROUTE_24,,0x08B50350
+Unbound,relocated unknown,sMapsecName_TREASURE_BEACH,,0x08B503A0
+Unbound,relocated unknown,CinnabarIsland_MapConnections,,0x08B504FC
+Unbound,relocated unknown,sSixIslandWaterPath_FireRed_FishingMons,,0x08B505D4
+Unbound,relocated unknown,ViridianCity_House_MapEvents,,0x08B51214
+Unbound,relocated unknown,Route13_MapEvents,,0x08B513C8
+Unbound,relocated unknown,ThreeIsland_PokemonCenter_1F_MapEvents,,0x08B51464
+Unbound,relocated unknown,sMapsecName_SAFFRON_CITY,,0x08B514E4
+Unbound,relocated unknown,UndergroundPath_NorthEntrance_MapEvents,,0x08B51558
+Unbound,relocated unknown,SSAnne_1F_Room6_MapEvents,,0x08B515BC
+Unbound,relocated unknown,PokemonLeague_LancesRoom_MapEvents,,0x08B51A48
+Unbound,relocated unknown,CinnabarIsland_MapEvents,,0x08B51B90
+Unbound,relocated unknown,NavelRock_Exterior_MapEvents,,0x08B51BD4
+Unbound,relocated unknown,sMapsecName_SCUFIB_CHAMBER,,0x08B51BF0
+Unbound,relocated unknown,PokemonTower_5F_MapEvents,,0x08B51DF4
+Unbound,relocated unknown,PewterCity_PokemonCenter_2F_MapEvents,,0x08B52208
+Unbound,relocated unknown,sMapsecName_SEVII_ISLE_6,,0x08B52274
+Unbound,relocated unknown,sMapsecName_TWO_ISLAND,,0x08B522A4
+Unbound,relocated unknown,sMapsecName_GREEN_PATH,,0x08B522D4
+Unbound,relocated unknown,Route2_ViridianForest_SouthEntrance_MapEvents,,0x08B52348
+Unbound,relocated data,gTileset_PowerPlant,,0x08B53254
+Unbound,relocated unknown,sMapsecName_EMBER_SPA,,0x08B53448
+Unbound,relocated unknown,sMapsecName_TRAINER_TOWER,,0x08B535E4
+Unbound,relocated unknown,LavenderTown_House2_MapEvents,,0x08B536D4
+Unbound,relocated unknown,SixIsland_DottedHole_B4F_MapEvents,,0x08B53798
+Unbound,relocated unknown,sMapsecName_FOUR_ISLAND,,0x08B537AC
+Unbound,relocated unknown,Route12_NorthEntrance_1F_MapEvents,,0x08B5394C
+Unbound,relocated unknown,CeladonCity_MapConnections,,0x08B53F98
+Unbound,relocated unknown,PalletTown_PlayersHouse_1F_MapEvents,,0x08B54008
+Unbound,relocated unknown,FuchsiaCity_SafariZone_Entrance_MapEvents,,0x08B540C4
+Unbound,relocated unknown,PokemonMansion_B1F_MapEvents,,0x08B54168
+Unbound,relocated unknown,SSAnne_B1F_Room3_MapEvents,,0x08B54688
+Unbound,relocated unknown,SSAnne_B1F_Corridor_MapEvents,,0x08B54718
+Unbound,relocated unknown,SSAnne_Kitchen_MapEvents,,0x08B5476C
+Unbound,relocated unknown,LavenderTown_VolunteerPokemonHouse_Layout_Blockdata,,0x08B54844
+Unbound,relocated unknown,SafariZone_East_RestHouse_MapEvents,,0x08B549E8
+Unbound,relocated unknown,SSAnne_B1F_Room5_MapEvents,,0x08B550E0
+Unbound,relocated unknown,VermilionCity_MapConnections,,0x08B551F4
+Unbound,relocated unknown,VermilionCity_House2_MapEvents,,0x08B55280
+Unbound,relocated unknown,Route12_MapConnections,,0x08B552B8
+Unbound,relocated unknown,SevenIsland_TrainerTower_MapConnections,,0x08B55338
+Unbound,relocated unknown,PokemonMansion_2F_MapScripts,,0x08B55C14
+Unbound,relocated unknown,MtMoon_1F_MapEvents,,0x08B55DD4
+Unbound,relocated unknown,Route2_ViridianForest_NorthEntrance_MapEvents,,0x08B55E74
+Unbound,relocated unknown,SevenIsland_House_Room2_MapEvents,,0x08B55EF0
+Unbound,relocated unknown,CeruleanCave_2F_MapEvents,,0x08B560CC
+Unbound,relocated unknown,SevenIsland_SevaultCanyon_Entrance_MapConnections,,0x08B5643C
+Unbound,relocated unknown,NavelRock_SummitPath_2F_MapEvents,,0x08B56490
+Unbound,relocated unknown,SixIsland_DottedHole_1F_MapEvents,,0x08B56500
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_ExperimentRoom_MapEvents,,0x08B56604
+Unbound,relocated unknown,Route5_MapConnections,,0x08B567A4
+Unbound,relocated unknown,PewterCity_Museum_2F_MapEvents,,0x08B568EC
+Unbound,relocated unknown,SSAnne_B1F_Room4_MapEvents,,0x08B56A64
+Unbound,relocated unknown,UndergroundPath_SouthEntrance_MapEvents,,0x08B56CD8
+Unbound,relocated unknown,TwoIsland_MapConnections,,0x08B56D04
+Unbound,relocated unknown,SaffronCity_CopycatsHouse_1F_MapEvents,,0x08B58568
+Unbound,relocated unknown,FourIsland_IcefallCave_1F_MapEvents,,0x08B58784
+Unbound,relocated unknown,SSAnne_2F_Corridor_MapEvents,,0x08B58BB8
+Unbound,relocated unknown,PewterCity_Mart_MapEvents,,0x08B58DD4
+Unbound,relocated unknown,Route20_MapConnections,,0x08B58E18
+Unbound,relocated unknown,SaffronCity_House_MapEvents,,0x08B58F74
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_Entrance_MapEvents,,0x08B590B0
+Unbound,relocated unknown,ViridianForest_MapEvents,,0x08B59110
+Unbound,relocated unknown,SaffronCity_CopycatsHouse_1F_Layout_Blockdata,,0x08B591E8
+Unbound,relocated unknown,SaffronCity_CopycatsHouse_2F_Layout_Blockdata,,0x08B59408
+Unbound,relocated unknown,SaffronCity_NorthSouthEntrance_Layout_Blockdata,,0x08B59628
+Unbound,relocated unknown,SSAnne_B1F_Room2_MapEvents,,0x08B5A35C
+Unbound,relocated unknown,MtMoon_B1F_MapEvents,,0x08B5A3BC
+Unbound,relocated unknown,Route20_MapEvents,,0x08B5A510
+Unbound,relocated data,gMetatiles_FanClubDaycare,,0x08B5A5D4
+Unbound,relocated data,gMetatileAttributes_FanClubDaycare,,0x08B5B254
+Unbound,relocated unknown,CeladonCity_PokemonCenter_1F_MapEvents,,0x08B5E138
+Unbound,relocated unknown,CeladonCity_Condominiums_Roof_MapEvents,,0x08B5E2A8
+Unbound,relocated unknown,CeladonCity_Condominiums_2F_MapEvents,,0x08B5E3CC
+Unbound,relocated unknown,NavelRock_BasePath_B5F_MapEvents,,0x08B5EFC4
+Unbound,relocated unknown,UndergroundPath_NorthSouthTunnel_MapEvents,,0x08B5F80C
+Unbound,relocated unknown,MtEmber_RubyPath_B1F_MapEvents,,0x08B5F8DC
+Unbound,relocated unknown,Route19_UnusedHouse_MapEvents,,0x08B5FA38
+Unbound,relocated unknown,MtEmber_RubyPath_B4F_MapEvents,,0x08B5FAA0
+Unbound,relocated unknown,SafariZone_West_RestHouse_MapEvents,,0x08B5FB20
+Unbound,relocated unknown,MtEmber_RubyPath_B5F_MapEvents,,0x08B5FC20
+Unbound,relocated unknown,TrainerTower_Elevator_MapEvents,,0x08B5FD84
+Unbound,relocated unknown,IndigoPlateau_Exterior_MapConnections,,0x08B5FDBC
+Unbound,relocated unknown,OneIsland_House1_MapEvents,,0x08B5FE04
+Unbound,relocated unknown,TrainerTower_5F_MapEvents,,0x08B5FED8
+Unbound,relocated unknown,FiveIsland_LostCave_Entrance_MapEvents,,0x08B5FF78
+Unbound,relocated unknown,LavenderTown_MapConnections,,0x08B5FFDC
+Unbound,relocated unknown,PokemonTower_3F_MapEvents,,0x08B60050
+Unbound,relocated unknown,SevenIsland_TanobyRuins_MoneanChamber_MapEvents,,0x08B600C8
+Unbound,relocated unknown,MtEmber_SummitPath_3F_MapEvents,,0x08B6026C
+Unbound,relocated unknown,Route21_North_MapEvents,,0x08B60340
+Unbound,relocated unknown,NavelRock_BasePath_B2F_MapEvents,,0x08B603F4
+Unbound,relocated unknown,ViridianCity_MapConnections,,0x08B60560
+Unbound,relocated unknown,SilphCo_2F_MapEvents,,0x08B60ADC
+Unbound,relocated unknown,OneIsland_House2_MapEvents,,0x08B60DD4
+Unbound,relocated unknown,CeladonCity_GameCorner_PrizeRoom_MapEvents,,0x08B60E64
+Unbound,relocated unknown,SixIsland_DottedHole_SapphireRoom_MapEvents,,0x08B60F44
+Unbound,relocated unknown,SevenIsland_Harbor_MapEvents,,0x08B610F0
+Unbound,relocated unknown,SaffronCity_CopycatsHouse_2F_MapEvents,,0x08B6116C
+Unbound,relocated unknown,SaffronCity_Gym_MapEvents,,0x08B61240
+Unbound,relocated unknown,BirthIsland_Exterior_MapEvents,,0x08B612E4
+Unbound,relocated unknown,VermilionCity_House1_MapEvents,,0x08B613E0
+Unbound,relocated unknown,FiveIsland_LostCave_Room14_MapEvents,,0x08B614D0
+Unbound,relocated unknown,NavelRock_SummitPath_4F_Layout_Blockdata,,0x08B614E4
+Unbound,relocated unknown,SSAnne_Deck_MapEvents,,0x08B61704
+Unbound,relocated unknown,SSAnne_CaptainsOffice_MapEvents,,0x08B6175C
+Unbound,relocated unknown,PokemonMansion_3F_MapEvents,,0x08B618CC
+Unbound,relocated unknown,Route6_NorthEntrance_MapEvents,,0x08B61928
+Unbound,relocated unknown,UndergroundPath_EastWestTunnel_MapEvents,,0x08B61AEC
+Unbound,relocated unknown,Route19_MapEvents,,0x08B61B90
+Unbound,relocated unknown,SixIsland_MapEvents,,0x08B61D20
+Unbound,relocated unknown,FuchsiaCity_PokemonCenter_1F_MapEvents,,0x08B61DC8
+Unbound,relocated unknown,VictoryRoad_3F_MapEvents,,0x08B61EB4
+Unbound,relocated unknown,ViridianCity_Mart_MapEvents,,0x08B61FC4
+Unbound,relocated unknown,NavelRock_SummitPath_4F_MapEvents,,0x08B622D8
+Unbound,relocated unknown,FiveIsland_House2_MapEvents,,0x08B6233C
+Unbound,relocated unknown,SSAnne_3F_Corridor_MapEvents,,0x08B62390
+Unbound,relocated unknown,FourIsland_House1_MapEvents,,0x08B623E8
+Unbound,relocated unknown,NavelRock_SummitPath_3F_MapEvents,,0x08B62504
+Unbound,relocated unknown,House5_Layout_Blockdata,,0x08B62690
+Unbound,relocated unknown,SixIsland_OutcastIsland_MapConnections,,0x08B62774
+Unbound,relocated unknown,Mart_Layout_Blockdata,,0x08B627D0
+Unbound,relocated unknown,PokemonTower_2F_MapEvents,,0x08B62BF8
+Unbound,relocated unknown,SeafoamIslands_B3F_MapEvents,,0x08B62C7C
+Unbound,relocated unknown,SixIsland_PatternBush_MapEvents,,0x08B62E1C
+Unbound,relocated unknown,ViridianCity_School_MapEvents,,0x08B62EC8
+Unbound,relocated unknown,ThreeIsland_House2_MapEvents,,0x08B62FE8
+Unbound,relocated unknown,PokemonCenter_1F_Layout_Blockdata,,0x08B63000
+Unbound,relocated unknown,SixIsland_WaterPath_MapEvents,,0x08B63230
+Unbound,relocated unknown,CeladonCity_Restaurant_MapEvents,,0x08B63424
+Unbound,relocated unknown,CeruleanCity_Gym_MapEvents,,0x08B638E0
+Unbound,relocated unknown,CeladonCity_Hotel_MapEvents,,0x08B639D4
+Unbound,relocated unknown,PewterCity_Museum_2F_Layout_Blockdata,,0x08B63C44
+Unbound,relocated unknown,OneIsland_KindleRoad_MapConnections,,0x08B63EAC
+Unbound,relocated unknown,Route17_MapConnections,,0x08B63EE4
+Unbound,relocated unknown,ThreeIsland_House3_MapEvents,,0x08B63FB4
+Unbound,relocated unknown,CeladonCity_DepartmentStore_Elevator_MapEvents,,0x08B6407C
+Unbound,relocated unknown,FuchsiaCity_Mart_MapEvents,,0x08B64428
+Unbound,relocated unknown,PokemonTower_7F_MapEvents,,0x08B645D8
+Unbound,relocated unknown,SSAnne_Room1_Layout_Blockdata,,0x08B6465C
+Unbound,relocated unknown,NavelRock_Harbor_MapEvents,,0x08B6482C
+Unbound,relocated unknown,Route5_SouthEntrance_MapEvents,,0x08B648DC
+Unbound,relocated unknown,Route22_MapEvents,,0x08B6496C
+Unbound,relocated unknown,TrainerTower_3F_MapEvents,,0x08B64A8C
+Unbound,relocated data,gMetatiles_Mart,,0x08B64AEC
+Unbound,relocated data,gMetatileAttributes_Mart,,0x08B6506C
+Unbound,relocated data,gMetatiles_SilphCo,,0x08B6524C
+Unbound,relocated data,gMetatileAttributes_SilphCo,,0x08B66A4C
+Unbound,relocated unknown,CeladonCity_DepartmentStore_1F_MapEvents,,0x08B69E58
+Unbound,relocated unknown,CeladonCity_DepartmentStore_Roof_MapEvents,,0x08B6A528
+Unbound,relocated data,gMetatiles_PewterGym,,0x08B6A53C
+Unbound,relocated data,gMetatileAttributes_PewterGym,,0x08B6AE9C
+Unbound,relocated unknown,SilphCo_6F_MapEvents,,0x08B6B520
+Unbound,relocated unknown,FourIsland_LoreleisHouse_MapEvents,,0x08B6B5B4
+Unbound,relocated unknown,FiveIsland_House1_MapEvents,,0x08B6B600
+Unbound,relocated unknown,FourIsland_Harbor_MapEvents,,0x08B6B640
+Unbound,relocated unknown,Route11_EastEntrance_1F_MapEvents,,0x08B6B748
+Unbound,relocated unknown,Route11_EastEntrance_2F_MapEvents,,0x08B6B7C4
+Unbound,relocated unknown,FuchsiaCity_Gym_MapEvents,,0x08B6B878
+Unbound,relocated unknown,SafariZone_SecretHouse_MapEvents,,0x08B6B8E4
+Unbound,relocated unknown,SafariZone_West_MapEvents,,0x08B6BA64
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_Entrance_Layout_Blockdata,,0x08B6BC30
+Unbound,relocated unknown,SilphCo_Elevator_Layout_Blockdata,,0x08B6BEE8
+Unbound,relocated unknown,SixIsland_PokemonCenter_1F_MapEvents,,0x08B6C014
+Unbound,relocated unknown,CeladonCity_DepartmentStore_Elevator_Layout_Blockdata,,0x08B6C260
+Unbound,relocated unknown,DiglettsCave_NorthEntrance_MapEvents,,0x08B6C300
+Unbound,relocated data,gMetatiles_SeaCottage,,0x08B6C9CC
+Unbound,relocated data,gMetatileAttributes_SeaCottage,,0x08B6CF4C
+Unbound,relocated unknown,ThreeIsland_House5_MapEvents,,0x08B6D17C
+Unbound,relocated unknown,Route18_MapEvents,,0x08B6D380
+Unbound,relocated unknown,SevenIsland_House_Room1_Layout_Blockdata,,0x08B6D3AC
+Unbound,relocated unknown,IndigoPlateau_PokemonCenter_1F_MapEvents,,0x08B6DA74
+Unbound,relocated unknown,CeladonCity_Condominiums_1F_MapEvents,,0x08B6DBDC
+Unbound,relocated unknown,Route16_NorthEntrance_2F_MapEvents,,0x08B6DC9C
+Unbound,relocated unknown,NavelRock_1F_MapEvents,,0x08B6DF74
+Unbound,relocated unknown,SevenIsland_House_Room1_MapEvents,,0x08B6E12C
+Unbound,relocated unknown,NavelRock_BasePath_B11F_MapEvents,,0x08B6E400
+Unbound,relocated unknown,SaffronCity_Gym_Layout_Blockdata,,0x08B6E430
+Unbound,relocated unknown,PalletTown_ProfessorOaksLab_Layout_Blockdata,,0x08B6F938
+Unbound,relocated unknown,sMapsecName_ROUTE_4,,0x08B6FB10
+Unbound,relocated unknown,gMapLayouts,,0x08B6FB20
+Unbound,relocated unknown,SixIsland_AlteringCave_MapEvents,,0x08B70438
+Unbound,relocated unknown,gMapGroups,,0x08B70498
+Unbound,relocated unknown,Route5_PokemonDayCare_MapEvents,,0x08B705E8
+Unbound,relocated unknown,SeafoamIslands_1F_MapEvents,,0x08B7079C
+Unbound,relocated unknown,SilphCo_3F_MapEvents,,0x08B709E8
+Unbound,relocated data,gMetatiles_Condominiums,,0x08B709FC
+Unbound,relocated data,gMetatileAttributes_Condominiums,,0x08B712FC
+Unbound,relocated unknown,SaffronCity_PokemonTrainerFanClub_MapEvents,,0x08B71648
+Unbound,relocated unknown,ThreeIsland_Harbor_MapEvents,,0x08B71688
+Unbound,relocated unknown,Route25_SeaCottage_MapEvents,,0x08B71774
+Unbound,relocated unknown,OneIsland_Harbor_MapEvents,,0x08B717C8
+Unbound,relocated unknown,SaffronCity_PokemonCenter_1F_MapEvents,,0x08B718F4
+Unbound,relocated unknown,RocketHideout_B2F_MapEvents,,0x08B719FC
+Unbound,relocated unknown,SevenIsland_SevaultCanyon_House_MapEvents,,0x08B71A84
+Unbound,relocated unknown,SSAnne_Exterior_Layout_Blockdata,,0x08B73214
+Unbound,relocated unknown,FourIsland_IcefallCave_Back_MapEvents,,0x08B742FC
+Unbound,relocated unknown,Route4_PokemonCenter_1F_MapEvents,,0x08B74440
+Unbound,relocated unknown,Route23_UnusedHouse_MapEvents,,0x08B744B0
+Unbound,relocated unknown,Route11_MapEvents,,0x08B74658
+Unbound,relocated unknown,Route18_EastEntrance_2F_MapEvents,,0x08B74748
+Unbound,relocated unknown,SSAnne_1F_Corridor_MapEvents,,0x08B747B8
+Unbound,relocated unknown,PewterCity_Gym_MapEvents,,0x08B74BA8
+Unbound,relocated unknown,Route2_EastBuilding_MapEvents,,0x08B74C48
+Unbound,relocated unknown,RocketHideout_B3F_MapEvents,,0x08B74E30
+Unbound,relocated unknown,Route22_NorthEntrance_MapEvents,,0x08B74ED8
+Unbound,relocated unknown,ThreeIsland_MapEvents,,0x08B75090
+Unbound,relocated unknown,NavelRock_BasePath_B1F_Layout_Blockdata,,0x08B750D8
+Unbound,relocated unknown,TrainerTower_Lobby_MapEvents,,0x08B75478
+Unbound,relocated unknown,TwoIsland_Harbor_MapEvents,,0x08B755C8
+Unbound,relocated unknown,Route6_UnusedHouse_MapEvents,,0x08B75764
+Unbound,relocated unknown,SaffronCity_Connection_MapEvents,,0x08B7598C
+Unbound,relocated unknown,Route18_EastEntrance_1F_MapEvents,,0x08B75A54
+Unbound,relocated unknown,MtMoon_B2F_Layout_Blockdata,,0x08B75A90
+Unbound,relocated data,gMetatiles_ViridianForest,,0x08B76178
+Unbound,relocated data,gMetatileAttributes_ViridianForest,,0x08B76A38
+Unbound,relocated unknown,SilphCo_1F_MapEvents,,0x08B76DB8
+Unbound,relocated unknown,Route7_MapEvents,,0x08B76E54
+Unbound,relocated unknown,MtMoon_1F_Layout_Blockdata,,0x08B76E98
+Unbound,relocated unknown,Route15_WestEntrance_1F_MapEvents,,0x08B77420
+Unbound,relocated unknown,PokemonMansion_1F_Layout_Blockdata,,0x08B77454
+Unbound,relocated unknown,PokemonMansion_2F_MapEvents,,0x08B77E24
+Unbound,relocated unknown,OneIsland_PokemonCenter_2F_MapEvents,,0x08B77EF4
+Unbound,relocated unknown,SSAnne_1F_Corridor_Layout_Blockdata,,0x08B79FD4
+Unbound,relocated unknown,SevenIsland_SevaultCanyon_MapEvents,,0x08B7AD74
+Unbound,relocated unknown,FiveIsland_LostCave_Room2_MapEvents,,0x08B7AE14
+Unbound,relocated unknown,SSAnne_Exterior_MapEvents,,0x08B7AE98
+Unbound,relocated unknown,FourIsland_IcefallCave_1F_Layout_Blockdata,,0x08B7AF48
+Unbound,relocated unknown,SafariZone_Center_RestHouse_MapEvents,,0x08B7C9D0
+Unbound,relocated unknown,VermilionCity_MapEvents,,0x08B7CBB8
+Unbound,relocated unknown,CeladonCity_Condominiums_3F_MapEvents,,0x08B7CCE4
+Unbound,relocated unknown,LavenderTown_House1_MapEvents,,0x08B7CD9C
+Unbound,relocated data,gTilesetTiles_CeruleanGym,,0x08B7CDB0
+Unbound,relocated unknown,PokemonMansion_1F_MapEvents,,0x08B7D138
+Unbound,relocated unknown,SeafoamIslands_B1F_MapEvents,,0x08B7D2E4
+Unbound,relocated unknown,FiveIsland_LostCave_Room3_MapEvents,,0x08B7D348
+Unbound,relocated data,gMetatiles_Lab,,0x08B7DF14
+Unbound,relocated data,gMetatileAttributes_Lab,,0x08B7EA94
+Unbound,relocated unknown,RocketHideout_Elevator_Layout_Blockdata,,0x08B7F5C0
+Unbound,relocated unknown,SSAnne_3F_Corridor_Layout_Blockdata,,0x08B7FA70
+Unbound,relocated unknown,TwoIsland_MapEvents,,0x08B80338
+Unbound,relocated unknown,NavelRock_BasePath_B9F_MapEvents,,0x08B804B8
+Unbound,relocated unknown,Route23_MapEvents,,0x08B80658
+Unbound,relocated unknown,Route2_MapEvents,,0x08B80F5C
+Unbound,relocated unknown,Route3_MapEvents,,0x08B80FD8
+Unbound,relocated unknown,Route16_MapEvents,,0x08B81084
+Unbound,relocated data,gMetatiles_PokemonMansion,,0x08B81134
+Unbound,relocated data,gMetatileAttributes_PokemonMansion,,0x08B82334
+Unbound,relocated unknown,PalletTown_PlayersHouse_2F_MapEvents,,0x08B82858
+Unbound,relocated unknown,NavelRock_BasePath_B8F_MapEvents,,0x08B8294C
+Unbound,relocated unknown,OneIsland_PokemonCenter_1F_MapEvents,,0x08B82AF8
+Unbound,relocated unknown,NavelRock_Fork_MapEvents,,0x08B82C44
+Unbound,relocated unknown,PewterCity_House1_MapEvents,,0x08B82D94
+Unbound,relocated unknown,FuchsiaCity_SafariZone_Entrance_Layout_Blockdata,,0x08B82E44
+Unbound,relocated unknown,TwoIsland_CapeBrink_MapEvents,,0x08B83028
+Unbound,relocated unknown,Route12_MapEvents,,0x08B831CC
+Unbound,relocated unknown,Route1_MapEvents,,0x08B833C4
+Unbound,relocated unknown,NavelRock_BasePath_B2F_Layout_Blockdata,,0x08B833D8
+Unbound,relocated unknown,SafariZone_North_MapEvents,,0x08B8377C
+Unbound,relocated unknown,NavelRock_BasePath_B3F_MapEvents,,0x08B838B0
+Unbound,relocated unknown,SSAnne_2F_Corridor_Layout_Blockdata,,0x08B83934
+Unbound,relocated unknown,PokemonTower_6F_MapEvents,,0x08B84760
+Unbound,relocated unknown,Route14_MapEvents,,0x08B84AAC
+Unbound,relocated unknown,SilphCo_1F_Layout_Blockdata,,0x08B85F2C
+Unbound,relocated unknown,SilphCo_2F_Layout_Blockdata,,0x08B86578
+Unbound,relocated data,gTilesetTiles_ViridianCity,,0x08B86B54
+Unbound,relocated unknown,PewterCity_MapEvents,,0x08B87B58
+Unbound,relocated unknown,SSAnne_Room2_Layout_Blockdata,,0x08B87BC0
+Unbound,relocated unknown,Route4_MapEvents,,0x08B87ED0
+Unbound,relocated unknown,PalletTown_MapEvents,,0x08B87FB4
+Unbound,relocated unknown,Prototype_SeviiIsle_6_MapEvents,,0x08B87FB4
+Unbound,relocated unknown,Prototype_SeviiIsle_7_MapEvents,,0x08B87FB4
+Unbound,relocated unknown,SevenIsland_MapEvents,,0x08B88470
+Unbound,relocated unknown,FiveIsland_Harbor_MapEvents,,0x08B8883C
+Unbound,relocated unknown,FiveIsland_ResortGorgeous_House_Layout_Blockdata,,0x08B888A4
+Unbound,relocated unknown,Route24_MapEvents,,0x08B892FC
+Unbound,relocated unknown,NavelRock_BasePath_B3F_Layout_Blockdata,,0x08B8934C
+Unbound,relocated unknown,FuchsiaCity_Gym_Layout_Blockdata,,0x08B89558
+Unbound,relocated unknown,CeladonCity_MapEvents,,0x08B89B28
+Unbound,relocated unknown,SevenIsland_UnusedHouse_MapEvents,,0x08B8C8D8
+Unbound,relocated unknown,Route5_MapEvents,,0x08B8CB08
+Unbound,relocated unknown,ViridianCity_MapEvents,,0x08B8CC4C
+Unbound,relocated unknown,MtEmber_Summit_Layout_Blockdata,,0x08B8D130
+Unbound,relocated unknown,SixIsland_DottedHole_B4F_Layout_Blockdata,,0x08B8D460
+Unbound,relocated unknown,FiveIsland_RocketWarehouse_MapEvents,,0x08B8D8BC
+Unbound,relocated unknown,RocketHideout_B1F_MapEvents,,0x08B8DB10
+Unbound,relocated unknown,NavelRock_BasePath_B4F_MapEvents,,0x08B8DDA8
+Unbound,relocated unknown,FourIsland_MapEvents,,0x08B8DF80
+Unbound,relocated unknown,SeafoamIslands_B2F_MapEvents,,0x08B8E1E0
+Unbound,relocated data,gMetatiles_SeviiIslands45,,0x08B8E290
+Unbound,relocated data,gMetatileAttributes_SeviiIslands45,,0x08B8EC90
+Unbound,relocated unknown,PowerPlant_MapEvents,,0x08B8EFD0
+Unbound,relocated unknown,PalletTown_RivalsHouse_MapEvents,,0x08B8F078
+Unbound,relocated unknown,RocketHideout_B4F_Layout_Blockdata,,0x08B90E24
+Unbound,relocated unknown,SevenIsland_SevaultCanyon_Entrance_MapEvents,,0x08B91788
+Unbound,relocated unknown,Route8_MapEvents,,0x08B91890
+Unbound,relocated data,gTilesetTiles_IslandHarbor,,0x08B91BA0
+Unbound,relocated unknown,FiveIsland_WaterLabyrinth_MapEvents,,0x08B92BB0
+Unbound,relocated data,gMetatiles_SeafoamIslands,,0x08B92C00
+Unbound,relocated data,gMetatileAttributes_SeafoamIslands,,0x08B93C00
+Unbound,relocated unknown,MtEmber_RubyPath_B1F_Stairs_MapEvents,,0x08B9455C
+Unbound,relocated unknown,VictoryRoad_1F_MapEvents,,0x08B94890
+Unbound,relocated unknown,OneIsland_TreasureBeach_MapEvents,,0x08B95298
+Unbound,relocated unknown,MtEmber_SummitPath_2F_MapEvents,,0x08B96694
+Unbound,relocated unknown,FourIsland_PokemonDayCare_MapEvents,,0x08B96788
+Unbound,relocated unknown,SixIsland_DottedHole_B3F_MapEvents,,0x08B96B14
+Unbound,relocated unknown,MtEmber_Exterior_MapEvents,,0x08B97680
+Unbound,relocated unknown,NavelRock_BasePath_B4F_Layout_Blockdata,,0x08B97694
+Unbound,relocated unknown,NavelRock_BasePath_B5F_Layout_Blockdata,,0x08B977E8
+Unbound,relocated data,gTilesetTiles_SeaCottage,,0x08B97998
+Unbound,relocated data,gTilesetTiles_Mart,,0x08B97E54
+Unbound,relocated unknown,CeruleanCity_BikeShop_MapEvents,,0x08B98974
+Unbound,relocated unknown,MtEmber_RubyPath_B2F_MapEvents,,0x08B98B58
+Unbound,relocated data,gTilesetTiles_BikeShop,,0x08B98BA0
+Unbound,relocated unknown,OneIsland_PokemonCenter_2F_Layout_Blockdata,,0x08B99150
+Unbound,relocated unknown,Route12_NorthEntrance_2F_MapEvents,,0x08B995B8
+Unbound,relocated unknown,TrainerTower_Lobby_Layout_Blockdata,,0x08B9A7E0
+Unbound,relocated data,gTilesetTiles_RockTunnel,,0x08B9B47C
+Unbound,relocated unknown,NavelRock_BasePath_B10F_MapEvents,,0x08B9C794
+Unbound,relocated unknown,CeladonCity_Gym_MapEvents,,0x08B9CACC
+Unbound,relocated data,gMetatiles_VermilionGym,,0x08B9CAE0
+Unbound,relocated data,gMetatileAttributes_VermilionGym,,0x08B9D360
+Unbound,relocated unknown,Route8_WestEntrance_MapEvents,,0x08B9D5F0
+Unbound,relocated unknown,MtEmber_RubyPath_1F_MapEvents,,0x08B9F730
+Unbound,relocated unknown,CeruleanCity_House4_MapEvents,,0x08B9F814
+Unbound,relocated unknown,NavelRock_BasePath_B1F_MapEvents,,0x08B9FDCC
+Unbound,relocated unknown,Route9_MapEvents,,0x08B9FF4C
+Unbound,relocated unknown,NavelRock_SummitPath_3F_Layout_Blockdata,,0x08BA0028
+Unbound,relocated unknown,NavelRock_SummitPath_2F_Layout_Blockdata,,0x08BA0130
+Unbound,relocated unknown,CeruleanCity_House5_MapEvents,,0x08BA0750
+Unbound,relocated unknown,NavelRock_BasePath_B6F_MapEvents,,0x08BA09DC
+Unbound,relocated unknown,SafariZone_Center_MapEvents,,0x08BA0F9C
+Unbound,relocated data,gTilesetTiles_VermilionGym,,0x08BA1180
+Unbound,relocated unknown,OneIsland_KindleRoad_MapEvents,,0x08BA2F90
+Unbound,relocated unknown,VictoryRoad_2F_MapEvents,,0x08BA3414
+Unbound,relocated unknown,CeladonCity_GameCorner_MapEvents,,0x08BA370C
+Unbound,relocated unknown,CeruleanCave_1F_MapEvents,,0x08BA39CC
+Unbound,relocated unknown,TwoIsland_JoyfulGameCorner_MapEvents,,0x08BA3C1C
+Unbound,relocated unknown,SixIsland_RuinValley_MapEvents,,0x08BA3FBC
+Unbound,relocated unknown,NavelRock_BasePath_B7F_MapEvents,,0x08BA41D4
+Unbound,relocated data,gMetatiles_GenericBuilding1,,0x08BA41EC
+Unbound,relocated data,gMetatileAttributes_GenericBuilding1,,0x08BA4D6C
+Unbound,relocated unknown,SafariZone_East_MapEvents,,0x08BA57E4
+Unbound,relocated unknown,PokemonLeague_LoreleisRoom_Layout_Blockdata,,0x08BA57F8
+Unbound,relocated unknown,ThreeIsland_BerryForest_MapEvents,,0x08BA5B64
+Unbound,relocated data,gTilesetTiles_CinnabarIsland,,0x08BA5B78
+Unbound,relocated unknown,FiveIsland_WaterLabyrinth_Layout_Blockdata,,0x08BA6E00
+Unbound,relocated unknown,CeruleanCity_MapEvents,,0x08BA825C
+Unbound,relocated unknown,SilphCo_9F_MapEvents,,0x08BA83F0
+Unbound,relocated unknown,PokemonTower_4F_MapEvents,,0x08BAA268
+Unbound,relocated unknown,FiveIsland_MapEvents,,0x08BAA5A0
+Unbound,relocated unknown,SevenIsland_TrainerTower_MapEvents,,0x08BAA9E0
+Unbound,relocated unknown,SevenIsland_Layout_Blockdata,,0x08BAA9F4
+Unbound,relocated data,gTilesetTiles_SeviiIslands45,,0x08BAAEA4
+Unbound,relocated unknown,IndigoPlateau_Exterior_MapEvents,,0x08BAC5D0
+Unbound,relocated unknown,TwoIsland_JoyfulGameCorner_Layout_Blockdata,,0x08BAC638
+Unbound,relocated data,gTilesetTiles_GenericBuilding2,,0x08BAF058
+Unbound,relocated unknown,RocketHideout_B4F_MapEvents,,0x08BAFF34
+Unbound,relocated unknown,SaffronCity_MapEvents,,0x08BB0684
+Unbound,relocated unknown,FiveIsland_RocketWarehouse_Layout_Blockdata,,0x08BB0700
+Unbound,relocated data,gTilesetTiles_SSAnne,,0x08BB1CEC
+Unbound,relocated data,gMetatiles_IslandHarbor,,0x08BB4F58
+Unbound,relocated data,gMetatileAttributes_IslandHarbor,,0x08BB58D8
+Unbound,relocated data,gTilesetTiles_UndergroundPath,,0x08BB5B38
+Unbound,relocated unknown,FourIsland_IcefallCave_Entrance_MapEvents,,0x08BB86D4
+Unbound,relocated unknown,PokemonLeague_BrunosRoom_Layout_Blockdata,,0x08BB86E8
+Unbound,relocated unknown,CeruleanCave_B1F_MapEvents,,0x08BB8BA8
+Unbound,relocated unknown,Route10_MapEvents,,0x08BB8F38
+Unbound,relocated unknown,PokemonTower_2F_Layout_Blockdata,,0x08BB97BC
+Unbound,relocated unknown,PokemonLeague_AgathasRoom_Layout_Blockdata,,0x08BBA7AC
+Unbound,relocated unknown,Route15_MapEvents,,0x08BBAFFC
+Unbound,relocated data,gMetatiles_CinnabarIsland,,0x08BBB058
+Unbound,relocated data,gMetatileAttributes_CinnabarIsland,,0x08BBC0D8
+Unbound,relocated data,gMetatiles_UnusedGatehouse2,,0x08BBC4F8
+Unbound,relocated data,gMetatileAttributes_UnusedGatehouse2,,0x08BBCDF8
+Unbound,relocated unknown,PokemonLeague_HallOfFame_Layout_Blockdata,,0x08BBD038
+Unbound,relocated data,gMetatiles_ViridianGym,,0x08BC09C0
+Unbound,relocated data,gMetatileAttributes_ViridianGym,,0x08BC13C0
+Unbound,relocated data,gMetatiles_BikeShop,,0x08BC198C
+Unbound,relocated data,gMetatileAttributes_BikeShop,,0x08BC200C
+Unbound,relocated unknown,Route5_Layout_Blockdata,,0x08BC2540
+Unbound,relocated data,gTilesetTiles_SafariZoneBuilding,,0x08BC35E0
+Unbound,relocated unknown,RockTunnel_B1F_MapEvents,,0x08BC3E7C
+Unbound,relocated unknown,MtEmber_Summit_MapEvents,,0x08BC4830
+Unbound,relocated data,gTilesetTiles_PalletTown,,0x08BC4844
+Unbound,relocated data,gMetatiles_UnusedGatehouse1,,0x08BC6348
+Unbound,relocated data,gMetatileAttributes_UnusedGatehouse1,,0x08BC6B48
+Unbound,relocated data,gTilesetTiles_LavenderTown,,0x08BC6D48
+Unbound,relocated unknown,LavenderTown_MapEvents,,0x08BC82D0
+Unbound,relocated unknown,NavelRock_BasePath_B9F_Layout_Blockdata,,0x08BC83A4
+Unbound,relocated data,gTilesetTiles_GameCorner,,0x08BC8A80
+Unbound,relocated data,gMetatiles_CeruleanCity,,0x08BC94B0
+Unbound,relocated data,gMetatileAttributes_CeruleanCity,,0x08BCA4B0
+Unbound,relocated unknown,SafariZone_RestHouse_Layout_Blockdata,,0x08BCA8B0
+Unbound,relocated unknown,NavelRock_BasePath_B10F_Layout_Blockdata,,0x08BCB630
+Unbound,relocated unknown,SixIsland_DottedHole_B3F_Layout_Blockdata,,0x08BCEACC
+Unbound,relocated data,gTilesetTiles_FanClubDaycare,,0x08BCF92C
+Unbound,relocated data,gMetatiles_UndergroundPath,,0x08BD0158
+Unbound,relocated data,gMetatileAttributes_UndergroundPath,,0x08BD0858
+Unbound,relocated unknown,PokemonTower_5F_Layout_Blockdata,,0x08BD0BB0
+Unbound,relocated data,gTilesetTiles_DepartmentStore,,0x08BD1650
+Unbound,relocated data,gMetatiles_BerryForest,,0x08BD2234
+Unbound,relocated data,gMetatileAttributes_BerryForest,,0x08BD2F34
+Unbound,relocated data,gTilesetTiles_TrainerTower,,0x08BD3274
+Unbound,relocated unknown,ThreeIsland_BerryForest_Layout_Blockdata,,0x08BD4314
+Unbound,relocated data,gMetatiles_CeladonCity,,0x08BD5958
+Unbound,relocated data,gMetatileAttributes_CeladonCity,,0x08BD7158
+Unbound,relocated data,gMetatiles_LavenderTown,,0x08BD9068
+Unbound,relocated data,gMetatileAttributes_LavenderTown,,0x08BD9F68
+Unbound,relocated unknown,NavelRock_BasePath_B11F_Layout_Blockdata,,0x08BDA328
+Unbound,relocated data,gTilesetTiles_GenericBuilding1,,0x08BDA78C
+Unbound,relocated unknown,Route6_MapEvents,,0x08BDB5B8
+Unbound,relocated unknown,FiveIsland_Meadow_MapEvents,,0x08BDC7D0
+Unbound,relocated unknown,SafariZone_North_Layout_Blockdata,,0x08BDCCF8
+Unbound,relocated data,gMetatiles_PowerPlant,,0x08BE0674
+Unbound,relocated data,gMetatileAttributes_PowerPlant,,0x08BE1E74
+Unbound,relocated unknown,DiglettsCave_B1F_MapEvents,,0x08BE2994
+Unbound,relocated unknown,SSAnne_Deck_Layout_Blockdata,,0x08BE347C
+Unbound,relocated unknown,FiveIsland_LostCave_Room2_Layout_Blockdata,,0x08BE40E8
+Unbound,relocated data,gTilesetTiles_IndigoPlateau,,0x08BE4774
+Unbound,relocated data,gTilesetTiles_PokemonCenter,,0x08BE56FC
+Unbound,relocated data,gTilesetTiles_PewterCity,,0x08BE66FC
+Unbound,relocated unknown,FuchsiaCity_MapEvents,,0x08BE83A8
+Unbound,relocated data,gTilesetTiles_Lab,,0x08BE9158
+Unbound,relocated unknown,IndigoPlateau_Exterior_Layout_Blockdata,,0x08BE9B58
+Unbound,relocated data,gMetatiles_SaffronCity,,0x08BEB318
+Unbound,relocated data,gMetatileAttributes_SaffronCity,,0x08BEC118
+Unbound,relocated data,gTilesetTiles_SeviiIslands67,,0x08BEC498
+Unbound,relocated data,gTilesetTiles_TanobyRuins,,0x08BEF464
+Unbound,relocated unknown,SilphCo_9F_Layout_Blockdata,,0x08BF0E80
+Unbound,relocated unknown,FourIsland_Layout_Blockdata,,0x08BF38A0
+Unbound,relocated data,gTilesetTiles_PewterGym,,0x08BF5688
+Unbound,relocated unknown,MtEmber_RubyPath_B1F_Stairs_Layout_Blockdata,,0x08BFB288
+Unbound,relocated unknown,MtEmber_Exterior_Layout_Blockdata,,0x08BFD4E8
+Unbound,relocated data,gTilesetTiles_UnusedGatehouse1,,0x08C015E8
+Unbound,relocated unknown,OneIsland_PokemonCenter_1F_Layout_Blockdata,,0x08C0298C
+Unbound,relocated unknown,mus_vs_trainer,,0x08C0302C
+Unbound,relocated data,gMetatiles_Museum,,0x08C04044
+Unbound,relocated data,gMetatileAttributes_Museum,,0x08C05844
+Unbound,relocated data,gTilesetTiles_BurgledHouse,,0x08C05E44
+Unbound,relocated data,gTilesetTiles_ViridianGym,,0x08C07520
+Unbound,relocated unknown,mus_poke_mansion,,0x08C07720
+Unbound,relocated unknown,mus_pallet,,0x08C0877C
+Unbound,relocated data,gMetatiles_VermilionCity,,0x08C08A58
+Unbound,relocated data,gMetatileAttributes_VermilionCity,,0x08C097D8
+Unbound,relocated data,gMetatiles_RestaurantHotel,,0x08C09CCC
+Unbound,relocated data,gMetatileAttributes_RestaurantHotel,,0x08C0AA4C
+Unbound,relocated data,gTilesetTiles_UnusedGatehouse2,,0x08C0ADAC
+Unbound,relocated data,gMetatiles_FuchsiaCity,,0x08C0BA2C
+Unbound,relocated unknown,mus_rs_vs_trainer,,0x08C0BEF0
+Unbound,relocated data,gMetatileAttributes_FuchsiaCity,,0x08C0D22C
+Unbound,relocated data,gMetatiles_TanobyRuins,,0x08C0D82C
+Unbound,relocated data,gMetatileAttributes_TanobyRuins,,0x08C0E4AC
+Unbound,relocated data,gTilesetTiles_SaffronCity,,0x08C0E7CC
+Unbound,relocated data,gTilesetTiles_CeladonCity,,0x08C0F8B4
+Unbound,relocated data,gTilesetTiles_Cave,,0x08C12614
+Unbound,relocated unknown,mus_poke_jump,,0x08C139B0
+Unbound,relocated unknown,mus_encounter_deoxys,,0x08C14390
+Unbound,relocated unknown,LavenderTown_Layout_Blockdata,,0x08C15300
+Unbound,relocated unknown,Route24_Layout_Blockdata,,0x08C18CA8
+Unbound,relocated unknown,ViridianCity_Layout_Blockdata,,0x08C1B5AC
+Unbound,relocated unknown,NavelRock_BasePath_B6F_Layout_Blockdata,,0x08C1E050
+Unbound,relocated unknown,NavelRock_BasePath_B7F_Layout_Blockdata,,0x08C1EF50
+Unbound,relocated unknown,NavelRock_BasePath_B8F_Layout_Blockdata,,0x08C208B0
+Unbound,relocated unknown,gWildMonHeaders,,0x08C230D8
+Unbound,relocated unknown,SaffronCity_Layout_Blockdata,,0x08C27884
+Unbound,relocated unknown,Prototype_SeviiIsle_6_Layout_Blockdata,,0x08C2B4F0
+Unbound,relocated unknown,Prototype_SeviiIsle_7_Layout_Blockdata,,0x08C2CE48
+Unbound,relocated data,gTilesetTiles_FuchsiaCity,,0x08C2E7A0
+Unbound,relocated unknown,PalletTown_Layout_Blockdata,,0x08C2FEA4
+Unbound,relocated unknown,SafariZone_East_Layout_Blockdata,,0x08C317FC
+Unbound,relocated data,gTilesetTiles_PokemonTower,,0x08C33368
+Unbound,relocated data,gMetatiles_Cave,,0x08C36690
+Unbound,relocated data,gMetatileAttributes_Cave,,0x08C37490
+Unbound,relocated unknown,SevenIsland_SevaultCanyon_Entrance_Layout_Blockdata,,0x08C37CFC
+Unbound,relocated data,gTilesetTiles_PowerPlant,,0x08C393B4
+Unbound,relocated data,gMetatiles_PewterCity,,0x08C3A988
+Unbound,relocated data,gMetatileAttributes_PewterCity,,0x08C3BE88
+Unbound,relocated unknown,TwoIsland_CapeBrink_Layout_Blockdata,,0x08C3C4B4
+Unbound,relocated unknown,FiveIsland_Meadow_Layout_Blockdata,,0x08C3F058
+Unbound,relocated data,gTilesetTiles_RestaurantHotel,,0x08C40EC4
+Unbound,relocated data,gTilesetTiles_Building,,0x08C43400
+Unbound,relocated data,gMetatiles_DiglettsCave,,0x08C458F0
+Unbound,relocated data,gMetatileAttributes_DiglettsCave,,0x08C470F0
+Unbound,relocated data,gTilesetTiles_DiglettsCave,,0x08C476F0
+Unbound,relocated data,gTilesetTiles_BerryForest,,0x08C4AB58
+Unbound,relocated data,gTilesetTiles_PokemonMansion,,0x08C4D364
+Unbound,relocated data,gMetatiles_BurgledHouse,,0x08C4E220
+Unbound,relocated data,gMetatileAttributes_BurgledHouse,,0x08C4EEA0
+Unbound,relocated data,gTilesetTiles_CeladonGym,,0x08C4F1C0
+Unbound,relocated data,gTilesetTiles_VermilionCity,,0x08C502C8
+Unbound,relocated data,gTilesetTiles_CeruleanCity,,0x08C532F0
+Unbound,relocated data,gTilesetTiles_Museum,,0x08C5572C
+Unbound,relocated data,gTilesetTiles_SeviiIslands123,,0x08C56E1C
+Unbound,relocated unknown,Route15_Layout_Blockdata,,0x08C58B5C
+Unbound,relocated data,gMetatiles_CeladonGym,,0x08C5A77C
+Unbound,relocated data,gMetatileAttributes_CeladonGym,,0x08C5B5FC
+Unbound,relocated data,gTilesetTiles_General,,0x08CF91A0
+Unbound,relocated data,gTilesetTiles_SeafoamIslands,,0x08CFD80C
+Unbound,relocated data,gTrainerPalette_RSAromaLady,,0x08E49AB8
+Unbound,relocated data,gTrainerFrontPic_RSPokeManiac,,0x08E4B998
+Unbound,relocated data,gTrainerPalette_RSPokeManiac,,0x08E4BE4C
+Unbound,relocated data,gTrainerFrontPic_RSSwimmerM,,0x08E4BE74
+Unbound,relocated data,gTrainerPalette_RSSwimmerM,,0x08E4C230
+Unbound,relocated data,gTrainerFrontPic_RSBlackBelt,,0x08E4C52C
+Unbound,relocated data,gTrainerPalette_RSBlackBelt,,0x08E4C9B4
+Unbound,relocated data,gTrainerFrontPic_PokeManiac,,0x08E4DF14
+Unbound,relocated data,gTrainerPalette_PokefanM,,0x08E4FAF0
+Unbound,relocated data,gTrainerFrontPic_PokefanF,,0x08E4FB18
+Unbound,relocated data,gTrainerFrontPic_RunningTriathleteM,,0x08E4FEFC
+Unbound,relocated data,gTrainerPalette_CyclingTriathleteM,,0x08E517F0
+Unbound,relocated data,gTrainerFrontPic_CyclingTriathleteF,,0x08E51818
+Unbound,relocated data,gTrainerPalette_CyclingTriathleteF,,0x08E51EAC
+Unbound,relocated data,gTrainerFrontPic_RichBoy,,0x08E53548
+Unbound,relocated data,gTrainerFrontPic_Beauty,,0x08E564B8
+Unbound,relocated data,gTrainerFrontPic_ParasolLady,,0x08E56858
+Unbound,relocated data,gTrainerPalette_Youngster,,0x08E5AD5C
+Unbound,relocated data,gTrainerPalette_BugCatcher,,0x08E5AD84
+Unbound,relocated data,gTrainerPalette_Lass,,0x08E5ADAC
+Unbound,relocated data,gTrainerFrontPic_PsychicM,,0x08E5ADD4
+Unbound,relocated data,gTrainerFrontPic_BlackBelt,,0x08E5B610
+Unbound,relocated data,gTrainerFrontPic_Camper,,0x08E5C008
+Unbound,relocated data,gTrainerPalette_Sailor,,0x08E5C2E4
+Unbound,relocated data,gTrainerPalette_RichBoy,,0x08E5C30C
+Unbound,relocated data,gTrainerPalette_SuperNerd,,0x08E5C3EC
+Unbound,relocated data,gTrainerPalette_Hiker,,0x08E5C414
+Unbound,relocated data,gTrainerPalette_Biker,,0x08E5C43C
+Unbound,relocated data,gTrainerPalette_Burglar,,0x08E5C464
+Unbound,relocated data,gTrainerPalette_Fisherman,,0x08E5C8C0
+Unbound,relocated data,gTrainerFrontPic_Scientist,,0x08E5C8E8
+Unbound,relocated data,gTrainerFrontPic_PsychicF,,0x08E5CCD8
+Unbound,relocated data,gTrainerFrontPic_PokefanM,,0x08E5D0C8
+Unbound,relocated data,gTrainerFrontPic_RSRuinManiac,,0x08E5D4A8
+Unbound,relocated data,gTrainerFrontPic_Gentleman,,0x08E5D89C
+Unbound,relocated data,gTrainerPalette_Scientist,,0x08E60B74
+Unbound,relocated data,gTrainerPalette_Twins,,0x08E64D6C
+Unbound,relocated data,gTrainerPalette_CoolCouple,,0x08E64D94
+Unbound,relocated data,gTrainerPalette_PsychicF,,0x08E67C58
+Unbound,relocated data,gTrainerPalette_PokemonRangerM,,0x08E689C8
+Unbound,relocated data,sMoveSelectionCursorTiles_Left,,0x08E9B188
+Unbound,relocated data,gSummaryScreen_PageMovesInfo_Tilemap,,0x08E9BA30
+Unbound,relocated data,sObjectEventSpritePalettes,,0x08EB9E9C
+Unbound,relocated data,sPicTable_GreenBike,,0x08EC0BD8
+Unbound,relocated data,sPicTable_GreenNormal,,0x08EC0C20
+Unbound,relocated data,sPicTable_RedNormal,,0x08EC0FF0
+Unbound,relocated code,InitTilesetAnim_CeladonGym,,0x08EC51A0
+Unbound,relocated code,InitTilesetAnim_MtEmber,,0x08EC51B0
+Unbound,relocated code,InitTilesetAnim_SilphCo,,0x08EC5260
+Unbound,relocated code,InitTilesetAnim_General,,0x08EC5360
+Unbound,relocated data,gHealthboxSinglesPlayerGfx,,0x08EEF0AC
+Unbound,relocated data,gBattleInterface_Healthbox_Pal,,0x08EEF360
+Unbound,relocated data,gHealthboxSinglesOpponentGfx,,0x08EEF380
+Unbound,relocated data,gHealthboxDoublesPlayerGfx,,0x08EEF528
+Unbound,relocated data,gHealthboxDoublesOpponentGfx,,0x08EEF688
+Unbound,relocated data,sPlayerFemale_Tiles,,0x08EEF804
+Unbound,relocated data,sPlayerFemale_Pal,,0x08EF0850
+Unbound,relocated data,sPlayerMale_Tiles,,0x08EF0870
+Unbound,relocated data,sPlayerMale_Pal,,0x08EF1848
+Unbound,relocated data,gBerryPouchBgGfx,,0x08EF1868
+Unbound,relocated data,gBerryPouchBg1Tilemap,,0x08EF1A28
+Unbound,relocated data,gBerryPouchBgPals,,0x08EF1B30
+Unbound,relocated data,gBerryPouchBgPal0FemaleOverride,,0x08EF1B30
+Unbound,relocated data,gBagBg_Gfx,,0x08EF1B68
+Unbound,relocated data,gBagBg_Tilemap,,0x08EF1DF0
+Unbound,relocated data,gBagBg_ItemPC_Tilemap,,0x08EF1DF0
+Unbound,relocated data,gBagBgPalette,,0x08EF1F28
+Unbound,relocated data,gBagBgPalette_FemaleOverride,,0x08EF1F28
+Unbound,relocated data,gBerryPouchSpriteTiles,,0x08EF2400
+Unbound,relocated data,gBerryPouchSpritePalette,,0x08EF2814
+Unbound,relocated data,gBagMale_Gfx,,0x08EF283C
+Unbound,relocated data,gBagFemale_Gfx,,0x08EF283C
+Unbound,relocated data,gBag_Pal,,0x08EF2F44
+Unbound,relocated data,gTMCase_Gfx,,0x08EF3234
+Unbound,relocated data,gTMCaseMenu_Tilemap,,0x08EF342C
+Unbound,relocated data,gTMCaseMenu_Male_Pal,,0x08EF354C
+Unbound,relocated data,gTMCaseMenu_Female_Pal,,0x08EF354C
+Unbound,relocated data,sGameFreakText_Gfx,,0x08EF3588
+Unbound,relocated data,sPresents_Gfx,,0x08EF3828
+Unbound,relocated data,sTilemap_AreaMap_Kanto,,0x08EF38B4
+Unbound,relocated data,sDungeonIcon,,0x08EF3D24
+Unbound,relocated data,sPlayerIcon_Leaf,,0x08EF3D70
+Unbound,relocated data,sPlayerIcon_LeafPal,,0x08EF3E04
+Unbound,relocated data,sPlayerIcon_Red,,0x08EF3E24
+Unbound,relocated data,sPlayerIcon_RedPal,,0x08EF3EA8
+Unbound,relocated data,sBattleTerrainTiles_Sand,,0x08EFDE90
+Unbound,relocated data,sBattleTerrainTilemap_Sand,,0x08EFED50
+Unbound,relocated data,sRival_Gfx,,0x08FC2CC8
+Unbound,relocated data,gNamingScreenRival_Pal,,0x08FC3EC8
+Unbound,relocated data,gMonFrontPic_Skitty,,0x08FD6562
+Unbound,relocated data,gTrainerFrontPic_RSFisherman,,0x09037408
+Unbound,relocated data,gTrainerPalette_RSFisherman,,0x09037904
+Unbound,relocated data,gTrainerFrontPic_LeaderWinona,,0x0903792C
+Unbound,relocated data,gTrainerPalette_LeaderWinona,,0x09037D0C
+Unbound,relocated data,gTrainerFrontPic_EliteFourAgatha,,0x09037D34
+Unbound,relocated data,gTrainerPalette_EliteFourAgatha,,0x090381E4
+Unbound,relocated data,gTrainerFrontPic_Painter,,0x0903820C
+Unbound,relocated data,gTrainerPalette_Painter,,0x09038600
+Unbound,relocated data,gTrainerFrontPic_LeaderRoxanne,,0x09038628
+Unbound,relocated data,gTrainerPalette_LeaderRoxanne,,0x090388F0
+Unbound,relocated data,gTrainerFrontPic_LeaderBlaine,,0x09038918
+Unbound,relocated data,gTrainerPalette_LeaderBlaine,,0x09038C8C
+Unbound,relocated data,gTrainerFrontPic_RSCamper,,0x09038CB4
+Unbound,relocated data,gTrainerPalette_RSCamper,,0x090391EC
+Unbound,relocated data,gTrainerFrontPic_BirdKeeper,,0x09039214
+Unbound,relocated data,gTrainerPalette_BirdKeeper,,0x090395F8
+Unbound,relocated data,gTrainerFrontPic_AquaGruntF,,0x09039620
+Unbound,relocated data,gTrainerPalette_AquaGruntF,,0x09039B58
+Unbound,relocated data,gTrainerFrontPic_AquaGruntM,,0x09039B80
+Unbound,relocated data,gTrainerPalette_AquaGruntM,,0x09039FE8
+Unbound,relocated data,gTrainerFrontPic_LeaderTateAndLiza,,0x0903A010
+Unbound,relocated data,gTrainerPalette_LeaderTateAndLiza,,0x0903A568
+Unbound,relocated data,gTrainerFrontPic_LeaderBrawly,,0x0903A590
+Unbound,relocated data,gTrainerPalette_LeaderBrawly,,0x0903A9E8
+Unbound,relocated data,gTrainerFrontPic_RSPokemonBreederM,,0x0903AA10
+Unbound,relocated data,gTrainerPalette_RSPokemonBreederM,,0x0903ADD0
+Unbound,relocated data,gTrainerFrontPic_LeaderWallace,,0x0903ADF8
+Unbound,relocated data,gTrainerPalette_LeaderWallace,,0x0903B1F4
+Unbound,relocated data,gTrainerFrontPic_OldCouple,,0x0903B21C
+Unbound,relocated data,gTrainerPalette_OldCouple,,0x0903B65C
+Unbound,relocated data,gTrainerFrontPic_MagmaLeaderMaxie,,0x0903B684
+Unbound,relocated data,gTrainerPalette_MagmaLeaderMaxie,,0x0903BA00
+Unbound,relocated data,gTrainerFrontPic_DragonTamer,,0x0903BA28
+Unbound,relocated data,gTrainerPalette_DragonTamer,,0x0903BDA8
+Unbound,relocated data,gTrainerFrontPic_EliteFourBruno,,0x0903BDD0
+Unbound,relocated data,gTrainerPalette_EliteFourBruno,,0x0903C110
+Unbound,relocated data,gTrainerFrontPic_EliteFourGlacia,,0x0903C138
+Unbound,relocated data,gTrainerPalette_EliteFourGlacia,,0x0903C51C
+Unbound,relocated data,gTrainerFrontPic_LeaderLtSurge,,0x0903C544
+Unbound,relocated data,gTrainerPalette_LeaderLtSurge,,0x0903C8F0
+Unbound,relocated data,gTrainerFrontPic_RSBugCatcher,,0x0903C918
+Unbound,relocated data,gTrainerPalette_RSBugCatcher,,0x0903CC7C
+Unbound,relocated data,gTrainerFrontPic_SrAndJr,,0x0903CCA4
+Unbound,relocated data,gTrainerPalette_SrAndJr,,0x0903D264
+Unbound,relocated data,gTrainerFrontPic_RSPokemonBreederF,,0x0903D28C
+Unbound,relocated data,gTrainerPalette_RSPokemonBreederF,,0x0903D644
+Unbound,relocated data,gTrainerFrontPic_MagmaAdminF,,0x0903D66C
+Unbound,relocated data,gTrainerPalette_MagmaAdminF,,0x0903DA14
+Unbound,relocated data,gTrainerFrontPic_AquaLeaderArchie,,0x0903DA3C
+Unbound,relocated data,gTrainerPalette_AquaLeaderArchie,,0x0903DEE0
+Unbound,relocated data,gTrainerFrontPic_RSBirdKeeper,,0x0903DF08
+Unbound,relocated data,gTrainerPalette_RSBirdKeeper,,0x0903E324
+Unbound,relocated data,gTrainerFrontPic_Juggler,,0x0903E34C
+Unbound,relocated data,gTrainerPalette_Juggler,,0x0903E7B8
+Unbound,relocated data,gTrainerFrontPic_RSYoungCouple,,0x0903E7E0
+Unbound,relocated data,gTrainerPalette_RSYoungCouple,,0x0903EB28
+Unbound,relocated data,gTrainerFrontPic_LeaderWattson,,0x0903EB50
+Unbound,relocated data,gTrainerPalette_LeaderWattson,,0x0903EF70
+Unbound,relocated data,gTrainerFrontPic_MagmaAdminM,,0x0903EF98
+Unbound,relocated data,gTrainerPalette_MagmaAdminM,,0x0903F3A8
+Unbound,relocated data,gTrainerFrontPic_EliteFourPhoebe,,0x0903F3D0
+Unbound,relocated data,gTrainerPalette_EliteFourPhoebe,,0x0903F8A0
+Unbound,relocated data,gTrainerFrontPic_Channeler,,0x0903F8C8
+Unbound,relocated data,gTrainerPalette_Channeler,,0x0903FD18
+Unbound,relocated data,gTrainerFrontPic_EliteFourSidney,,0x0903FD40
+Unbound,relocated data,gTrainerPalette_EliteFourSidney,,0x090400B0
+Unbound,relocated data,gTrainerFrontPic_LeaderMisty,,0x090400D8
+Unbound,relocated data,gTrainerPalette_LeaderMisty,,0x09040520
+Unbound,relocated data,gTrainerFrontPic_EliteFourLorelei,,0x09040548
+Unbound,relocated data,gTrainerPalette_EliteFourLorelei,,0x090409AC
+Unbound,relocated data,gTrainerFrontPic_RSSisAndBro,,0x090409D0
+Unbound,relocated data,gTrainerPalette_RSSisAndBro,,0x09040D68
+Unbound,relocated data,gTrainerFrontPic_AquaAdminM,,0x09040D90
+Unbound,relocated data,gTrainerPalette_AquaAdminM,,0x09041118
+Unbound,relocated data,gTrainerFrontPic_EliteFourDrake,,0x09041140
+Unbound,relocated data,gTrainerPalette_EliteFourDrake,,0x09041554
+Unbound,relocated data,gTrainerFrontPic_LeaderFlannery,,0x0904157C
+Unbound,relocated data,gTrainerPalette_LeaderFlannery,,0x090418B0
+Unbound,relocated data,gTrainerFrontPic_AquaAdminF,,0x090418D8
+Unbound,relocated data,gTrainerPalette_AquaAdminF,,0x09041C34
+Unbound,relocated data,gTrainerFrontPic_EliteFourLance,,0x09041C58
+Unbound,relocated data,gTrainerPalette_EliteFourLance,,0x0904205C
+Unbound,relocated data,gTrainerFrontPic_RSSwimmerF,,0x09042084
+Unbound,relocated data,gTrainerPalette_RSSwimmerF,,0x090423F0
+Unbound,relocated data,gTrainerFrontPic_Leaf,,0x09042418
+Unbound,relocated data,gTrainerPalette_Leaf,,0x090427EC
+Unbound,relocated data,gTrainerFrontPic_RSMay2,,0x09042814
+Unbound,relocated data,gTrainerPalette_RSMay2,,0x09042B94
+Unbound,relocated data,gTrainerFrontPic_HexManiac,,0x09042BBC
+Unbound,relocated data,gTrainerPalette_HexManiac,,0x09042F48
+Unbound,relocated data,gTrainerFrontPic_SwimmingTriathleteF,,0x09042F70
+Unbound,relocated data,gTrainerPalette_SwimmingTriathleteF,,0x090432C4
+Unbound,relocated data,gTrainerFrontPic_RSPicnicker,,0x090432EC
+Unbound,relocated data,gTrainerPalette_RSPicnicker,,0x09043640
+Unbound,relocated data,gTrainerFrontPic_Red,,0x09043668
+Unbound,relocated data,gTrainerPalette_Red,,0x09043A4C
+Unbound,relocated data,gTrainerFrontPic_RSBrendan2,,0x09043A74
+Unbound,relocated data,gTrainerPalette_RSBrendan2,,0x09043DFC
+Unbound,relocated data,gTrainerFrontPic_RSCooltrainerF,,0x09043E24
+Unbound,relocated data,gTrainerPalette_RSCooltrainerF,,0x090441D0
+Unbound,relocated data,gTrainerFrontPic_SwimmingTriathleteM,,0x090441F8
+Unbound,relocated data,gTrainerPalette_SwimmingTriathleteM,,0x0904454C
+Unbound,relocated data,gTrainerFrontPic_RSTuberF,,0x09044574
+Unbound,relocated data,gTrainerPalette_RSTuberF,,0x09044844
+Unbound,relocated data,gTrainerFrontPic_RSYoungster,,0x0904486C
+Unbound,relocated data,gTrainerPalette_RSYoungster,,0x09044B98
+Unbound,relocated data,gTrainerFrontPic_RSPsychicF,,0x09044BC0
+Unbound,relocated data,gTrainerPalette_RSPsychicF,,0x09044F74
+Unbound,relocated data,gTrainerFrontPic_RSPsychicM,,0x09044F9C
+Unbound,relocated data,gTrainerPalette_RSPsychicM,,0x09045368
+Unbound,relocated data,gTrainerFrontPic_LeaderNorman,,0x09045390
+Unbound,relocated data,gTrainerPalette_LeaderNorman,,0x090456DC
+Unbound,relocated data,gTrainerFrontPic_RSLady,,0x09045704
+Unbound,relocated data,gTrainerPalette_RSLady,,0x09045AD4
+Unbound,relocated data,gTrainerFrontPic_RSCooltrainerM,,0x09045AFC
+Unbound,relocated data,gTrainerPalette_RSCooltrainerM,,0x09045F40
+Unbound,relocated data,gTrainerFrontPic_RSMay1,,0x09045F68
+Unbound,relocated data,gTrainerFrontPic_RSBrendan1,,0x09046400
+Unbound,relocated data,gTrainerFrontPic_RocketGruntF,,0x0904688C
+Unbound,relocated data,gTrainerPalette_RocketGruntF,,0x09046BB4
+Unbound,relocated data,gTrainerFrontPic_RocketGruntM,,0x09046BDC
+Unbound,relocated data,gTrainerPalette_RocketGruntM,,0x09046F10
+Unbound,relocated data,gTrainerFrontPic_RSLass,,0x09046F38
+Unbound,relocated data,gTrainerPalette_RSLass,,0x0904725C
+Unbound,relocated data,gTrainerFrontPic_MagmaGruntM,,0x0904766C
+Unbound,relocated data,gTrainerPalette_MagmaGruntM,,0x09047A7C
+Unbound,relocated data,gTrainerFrontPic_MagmaGruntF,,0x09047AA4
+Unbound,relocated data,gTrainerPalette_MagmaGruntF,,0x09047EAC
+Unbound,relocated data,gTrainerFrontPic_Tamer,,0x09047ED4
+Unbound,relocated data,gTrainerPalette_Tamer,,0x090482AC
+Unbound,relocated data,gTrainerFrontPic_SchoolKidF,,0x090482D4
+Unbound,relocated data,gTrainerPalette_SchoolKidF,,0x09048754
+Unbound,relocated data,gTrainerFrontPic_LeaderErika,,0x0904877C
+Unbound,relocated data,gTrainerPalette_LeaderErika,,0x09048B7C
+Unbound,relocated data,gTrainerFrontPic_TuberM,,0x09048BA4
+Unbound,relocated data,gTrainerPalette_TuberM,,0x09048E6C
+Unbound,relocated data,gTrainerFrontPic_LeaderKoga,,0x09048E94
+Unbound,relocated data,gTrainerPalette_LeaderKoga,,0x090491D8
+Unbound,relocated data,gTrainerFrontPic_RSPokemonRangerM,,0x09049200
+Unbound,relocated data,gTrainerPalette_RSPokemonRangerM,,0x0904954C
+Unbound,relocated data,gTrainerFrontPic_RSPokemonRangerF,,0x09049574
+Unbound,relocated data,gTrainerPalette_RSPokemonRangerF,,0x090498F8
+Unbound,relocated data,gTrainerFrontPic_Engineer,,0x09049920
+Unbound,relocated data,gTrainerPalette_Engineer,,0x09049C9C
+Unbound,relocated data,gTrainerFrontPic_Wally,,0x09049CC4
+Unbound,relocated data,gTrainerPalette_Wally,,0x0904A080
+Unbound,relocated data,gTrainerFrontPic_LeaderBrock,,0x0904A0A8
+Unbound,relocated data,gTrainerPalette_LeaderBrock,,0x0904A3EC
+Unbound,relocated unknown,mus_route1,,0x09054FEC
+Unbound,relocated unknown,mus_rs_vs_gym_leader,,0x09056D2C
+Unbound,relocated unknown,mus_rocket_hideout,,0x09062A58
+Unbound,relocated unknown,mus_sevii_cave,,0x09063CB8
+Unbound,relocated unknown,mus_poke_center,,0x09073428
+Unbound,relocated unknown,mus_route3,,0x09077798
+Unbound,relocated unknown,mus_route24,,0x0907C538
+Unbound,relocated unknown,mus_surf,,0x0907E300
+Unbound,relocated unknown,mus_sevii_45,,0x0907FD9C
+Unbound,relocated unknown,mus_oak_lab,,0x09081E58
+Unbound,relocated unknown,voicegroup143,,0x09165060
+Unbound,relocated unknown,mus_vs_wild,,0x09480348
+DPE,hook,LoadSpecialPokePicHook,0x0800ECF2,0x09650000
+DPE,hook,LoadSpecialPokePicHook,0x0800F136,0x09650000
+DPE,hook,BattleLoadPlayerMonSpriteGfxHook,0x080344E4,0x0965001A
+DPE,hook,BattleLoadOpponentMonSpriteGfxHook,0x0803436C,0x0965003C
+DPE,hook,GenderedMonIconHook,0x08096E38,0x0965005C
+DPE,hook,SummaryScreenIconPalHook,0x08139DDC,0x09650078
+DPE,hook,CreateMonSprite_PicBoxHook,0x0808398C,0x09650098
+DPE,hook,EvolutionSceneHook1,0x080CDF10,0x096500B8
+DPE,hook,EvolutionSceneHook2,0x080CDF88,0x096500D4
+DPE,hook,EvolutionSceneHook3,0x080CE1C0,0x096500F0
+DPE,hook,PartyMenuManaphyEggHook,0x08122214,0x0965010C
+DPE,hook,SummaryScreenManaphyEggHook,0x08139978,0x09650128
+DPE,hook,EggHatchManaphyEggHook,0x080471A8,0x09650144
+DPE,hook,PokemonStorageSystemManaphyEggHook1,0x0809008E,0x096501BC
+DPE,hook,PokemonStorageSystemManaphyEggHook2,0x080900F4,0x096501D8
+DPE,hook,PokemonStorageSystemManaphyEggHook3,0x080901F8,0x096501E8
+DPE,hook,PokemonStorageSystemManaphyEggHook4,0x080907B2,0x096501F8
+DPE,hook,PokemonStorageSystemManaphyEggHook5,0x080908A4,0x09650208
+DPE,hook,PokemonStorageSystemManaphyEggHook6,0x080908E0,0x09650220
+DPE,hook,PokemonStorageSystemManaphyEggHook7,0x080956BC,0x0965023C
+DPE,hook,PokemonStorageSystemManaphyEggHook8,0x080440C8,0x0965024C
+DPE,hook,PokemonStorageSystemManaphyEggHook9,0x08093C94,0x09650260
+DPE,hook,PokemonStorageSystemManaphyEggHook10,0x0808F414,0x09650280
+DPE,hook,PokedexMemoryAllocationHook,0x081025E8,0x096502C0
+DPE,hook,DisplayRegionalDexNumHook,0x08104A66,0x096502E0
+DPE,hook,AlternateDexEntriesHook,0x08105CBC,0x09650324
+DPE,hook,AlternateDexCategoryHook,0x0810581C,0x0965037C
+Unbound,relocated data,sTMHMLearnsets,,0x09650484
+Unbound,relocated data,sTutorLearnsets,,0x09655564
+DPE,hook,GetEggMoves,0x08045C28,0x0965BA7C
+DPE,hook,GetEggSpecies,0x08045970,0x0965BAE0
+DPE,hook,SpeciesToCryId,0x08043304,0x0965BB2C
+DPE,hook,NationalPokedexNumToSpecies,0x08043200,0x0965BB34
+DPE,hook,GetMonSpritePalStructFromOtIdPersonality,0x08044180,0x0965BCD0
+DPE,hook,GetFrontSpritePalFromSpeciesAndPersonality,0x080440F4,0x0965BD04
+DPE,hook,GetIconSpecies,0x08096F5C,0x0965BDEC
+DPE,hook,CountSpeciesInDex,0x08104BBC,0x0965BEDC
+DPE,hook,GetRegionalPokedexCount,0x08088EDC,0x0965BF60
+DPE,hook,HasAllRegionalMons,0x08088F58,0x0965BFAC
+DPE,hook,sp1B9_SeenAllRegionalMons,0x0801D844,0x0965BFF4
+DPE,routine pointer,sp1B9_SeenAllRegionalMons,0x08160444,0x0965BFF4
+Unbound,relocated code,UpdateLoreleiDollCollection,,0x0965BFF4
+DPE,hook,HasAllMons,0x08088F84,0x0965C034
+DPE,hook,LoadPokedexViews,0x08103518,0x0965C094
+Unbound,relocated data,gSpeciesNames,,0x0966A98C
+Unbound,relocated data,gMonBackPicCoords,,0x099DCFF4
+Unbound,relocated data,gMonBackPicTable,,0x099DE42C
+Unbound,relocated data,gSpeciesInfo,,0x099E0C9C
+Unbound,relocated unknown,gCryTable,,0x099E9A24
+Unbound,relocated unknown,gCryTable_Reverse,,0x099ED6CC
+Unbound,relocated data,gEggMoves,,0x099F1374
+Unbound,relocated data,gEnemyMonElevation,,0x099F356C
+Unbound,relocated data,gEvolutionTable,,0x099F3A7A
+Unbound,relocated data,gMonFrontPicCoords,,0x09A1C17A
+Unbound,relocated data,gMonFrontPicTable,,0x09A1D5B4
+Unbound,relocated unknown,gDexCategories,,0x09A1FE24
+Unbound,relocated data,gMonIconPaletteIndices,,0x09A212EC
+Unbound,relocated data,gMonIconTable,,0x09A217FC
+Unbound,relocated data,sMonPosAttributes,,0x09A22C34
+Unbound,relocated data,gLevelUpLearnsets,,0x09A2457C
+Unbound,relocated data,gMonPaletteTable,,0x09A32BDC
+Unbound,relocated data,gPokedexEntries,,0x09A357CC
+Unbound,relocated data,gPokedexOrder_Type,,0x09A3D736
+Unbound,relocated data,gPokedexOrder_Height,,0x09A3DE64
+Unbound,relocated data,gPokedexOrder_Weight,,0x09A3E578
+Unbound,relocated data,gPokedexOrder_Alphabetical,,0x09A3EC86
+Unbound,relocated data,gMonShinyPaletteTable,,0x09A3F77C
+Unbound,relocated data,sSpeciesToNationalPokedexNum,,0x09A41FEC
+Unbound,relocated data,sTutorMoves,,0x09A42A06
+Unbound,relocated data,sTMHMMoves,,0x09A42B2A
+Unbound,relocated unknown,Route2_House_EventScript_Reyley,,0x09E520E2
+Unbound,relocated unknown,Route12_FishingHouse_EventScript_FishingGuruBrother,,0x09E5211E
+Unbound,relocated unknown,Route7_EastEntrance_EventScript_Guard,,0x09E523BA
+Unbound,relocated unknown,CeruleanCity_Mart_EventScript_Clerk,,0x09E55F96
+Unbound,relocated unknown,VermilionCity_Mart_EventScript_Clerk,,0x09E55F96
+Unbound,relocated unknown,CinnabarIsland_Mart_EventScript_Clerk,,0x09E55F96
+Unbound,relocated unknown,FourIsland_Mart_EventScript_Clerk,,0x09E55F96
+Unbound,relocated unknown,SilphCo_4F_MapScripts,,0x09E58A42
+Unbound,relocated unknown,SilphCo_5F_MapScripts,,0x09E591BE
+Unbound,relocated unknown,PewterCity_House2_EventScript_LittleBoy,,0x09E5B23A
+Unbound,relocated unknown,Route21_South_MapScripts,,0x09E5B660
+Unbound,relocated unknown,Route23_EventScript_CascadeBadgeGuard,,0x09E5B6B4
+Unbound,relocated unknown,FourIsland_MapScripts,,0x09E5BD60
+Unbound,relocated unknown,PewterCity_MapScripts,,0x09E5C974
+Unbound,relocated unknown,FiveIsland_ResortGorgeous_MapScripts,,0x09E5CD08
+Unbound,relocated unknown,CeladonCity_Condominiums_RoofRoom_EventScript_Blackboard,,0x09E62F88
+Unbound,relocated unknown,CeladonCity_DepartmentStore_2F_EventScript_Lass,,0x09E62FC4
+Unbound,relocated unknown,CeladonCity_Condominiums_RoofRoom_EventScript_BlackBelt,,0x09E63854
+Unbound,relocated unknown,CeladonCity_House1_EventScript_RocketChief,,0x09E640C2
+Unbound,relocated unknown,CeladonCity_DepartmentStore_5F_EventScript_Sailor,,0x09E642B0
+Unbound,relocated unknown,CeladonCity_DepartmentStore_3F_EventScript_GBAKid2,,0x09E642BA
+Unbound,relocated unknown,CeladonCity_DepartmentStore_3F_EventScript_LittleGirl,,0x09E642E8
+Unbound,relocated unknown,CeladonCity_DepartmentStore_4F_EventScript_Youngster,,0x09E64302
+Unbound,relocated unknown,CeladonCity_DepartmentStore_2F_EventScript_ClerkItems,,0x09E64364
+Unbound,relocated unknown,CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs,,0x09E64390
+Unbound,relocated unknown,CeladonCity_DepartmentStore_4F_EventScript_Clerk,,0x09E643E8
+Unbound,relocated unknown,CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems,,0x09E6440E
+Unbound,relocated unknown,CeladonCity_DepartmentStore_5F_EventScript_ClerkVitamins,,0x09E6443A
+Unbound,relocated unknown,CeladonCity_PokemonCenter_1F_MapScripts,,0x09E647E2
+Unbound,relocated unknown,CeruleanCity_House2_EventScript_Hiker,,0x09E68668
+Unbound,relocated unknown,FuchsiaCity_SafariZone_Entrance_MapScripts,,0x09E68B68
+Unbound,relocated unknown,CeruleanCity_Mart_EventScript_Youngster,,0x09E69166
+Unbound,relocated unknown,FuchsiaCity_House1_EventScript_LittleBoy,,0x09E697C0
+Unbound,relocated unknown,FuchsiaCity_House1_EventScript_Woman,,0x09E6984A
+Unbound,relocated unknown,FuchsiaCity_WardensHouse_EventScript_Warden,,0x09E69854
+Unbound,relocated unknown,SaffronCity_Dojo_EventScript_Hitoshi,,0x09E6A700
+Unbound,relocated unknown,SaffronCity_Dojo_EventScript_Aaron,,0x09E6A71C
+Unbound,relocated unknown,SaffronCity_PokemonCenter_1F_MapScripts,,0x09E6BC7E
+Unbound,relocated unknown,SaffronCity_Mart_EventScript_Youngster,,0x09E6BCCE
+Unbound,relocated unknown,SSAnne_Exterior_MapScripts,,0x09E6BCE8
+Unbound,relocated unknown,RockTunnel_1F_MapScripts,,0x09E6D30C
+Unbound,relocated unknown,RockTunnel_1F_EventScript_ItemPearl,,0x09E6D334
+Unbound,relocated unknown,MtMoon_1F_MapScripts,,0x09E6EA16
+Unbound,relocated unknown,CeladonCity_GameCorner_MapScripts,,0x09E6EB94
+Unbound,relocated unknown,VermilionCity_PokemonFanClub_EventScript_WorkerF,,0x09E7220A
+Unbound,relocated unknown,VermilionCity_House3_EventScript_Boy,,0x09E723E8
+Unbound,relocated unknown,VermilionCity_House3_EventScript_Pidgey,,0x09E724DA
+Unbound,relocated unknown,VermilionCity_PokemonCenter_1F_MapScripts,,0x09E724E8
+Unbound,relocated unknown,VermilionCity_PokemonCenter_1F_EventScript_Man,,0x09E724F8
+Unbound,relocated unknown,VermilionCity_Mart_EventScript_CooltrainerF,,0x09E725AA
+Unbound,relocated unknown,FuchsiaCity_SafariZone_Office_EventScript_Worker2,,0x09E75AD0
+Unbound,relocated unknown,FuchsiaCity_SafariZone_Office_EventScript_Worker4,,0x09E75D36
+Unbound,relocated unknown,CinnabarIsland_Gym_EventScript_Avery,,0x09E75EB0
+Unbound,relocated unknown,CinnabarIsland_Gym_EventScript_Derek,,0x09E75EDE
+Unbound,relocated unknown,FiveIsland_ResortGorgeous_House_EventScript_Selphy,,0x09E762BE
+Unbound,relocated unknown,CinnabarIsland_Gym_EventScript_GymStatue,,0x09E767DA
+Unbound,relocated unknown,SevenIsland_PokemonCenter_1F_EventScript_Sailor,,0x09E7693E
+CFRU,hook,CustomScrollingMultichoiceHook,0x080CB94C,0x09E76978
+CFRU,hook,ScrollingMultiSizeHook,0x080CB82A,0x09E769CC
+Unbound,relocated unknown,NavelRock_Exterior_MapScripts,,0x09E773B8
+Unbound,relocated unknown,PowerPlant_EventScript_ItemTM17,,0x09E77736
+Unbound,relocated unknown,SilphCo_4F_EventScript_Grunt1,,0x09E77744
+Unbound,relocated unknown,SilphCo_5F_EventScript_Scientist,,0x09E77792
+Unbound,relocated unknown,SilphCo_5F_EventScript_ItemTM01,,0x09E778BC
+Unbound,relocated unknown,RockTunnel_1F_EventScript_Ashton,,0x09E77AC4
+Unbound,relocated unknown,SixIsland_OutcastIsland_EventScript_Rocket,,0x09E77C30
+Unbound,relocated unknown,SilphCo_8F_EventScript_Grunt1,,0x09E77CCC
+Unbound,relocated unknown,RockTunnel_1F_EventScript_Oliver,,0x09E77D5C
+Unbound,relocated unknown,ThreeIsland_Port_EventScript_Woman,,0x09E77E1E
+Unbound,relocated unknown,SilphCo_7F_EventScript_Grunt3,,0x09E78112
+Unbound,relocated unknown,CinnabarIsland_MapScripts,,0x09E783F8
+Unbound,relocated unknown,PalletTown_ProfessorOaksLab_MapScripts,,0x09E79B00
+Unbound,relocated unknown,PalletTown_ProfessorOaksLab_EventScript_Aide2,,0x09E7A0A8
+Unbound,relocated unknown,PalletTown_ProfessorOaksLab_EventScript_Aide1,,0x09E7A122
+Unbound,relocated unknown,PalletTown_ProfessorOaksLab_EventScript_Aide3,,0x09E7A2C4
+Unbound,relocated unknown,PokedexRating_EventScript_DexComplete,,0x09E7A308
+Unbound,relocated unknown,TwoIsland_MapScripts,,0x09E7AC44
+Unbound,relocated unknown,FourIsland_LoreleisHouse_MapScripts,,0x09E7CF4A
+Unbound,relocated unknown,FourIsland_PokemonCenter_1F_MapScripts,,0x09E7D544
+Unbound,relocated unknown,FourIsland_PokemonCenter_1F_EventScript_Man,,0x09E7D556
+Unbound,relocated unknown,FourIsland_PokemonCenter_1F_EventScript_Gentleman,,0x09E7D56A
+Unbound,relocated unknown,Std_MsgboxSign,,0x09E7D5BC
+Unbound,relocated unknown,Std_MsgboxDefault,,0x09E7D5C6
+Unbound,relocated unknown,Std_MsgboxYesNo,,0x09E7D5CE
+Unbound,relocated unknown,LavenderTown_PokemonCenter_1F_EventScript_Nurse,,0x09E7D728
+Unbound,relocated unknown,CinnabarIsland_PokemonCenter_1F_EventScript_Nurse,,0x09E7D728
+Unbound,relocated unknown,SevenIsland_PokemonCenter_1F_EventScript_Nurse,,0x09E7D728
+Unbound,relocated unknown,LavenderTown_PokemonCenter_2F_MapScripts,,0x09E7D8AE
+Unbound,relocated unknown,FuchsiaCity_PokemonCenter_2F_MapScripts,,0x09E7D8AE
+Unbound,relocated unknown,CinnabarIsland_PokemonCenter_2F_MapScripts,,0x09E7D8AE
+Unbound,relocated unknown,Route4_PokemonCenter_2F_MapScripts,,0x09E7D8AE
+Unbound,relocated unknown,SevenIsland_PokemonCenter_2F_MapScripts,,0x09E7D8AE
+Unbound,relocated unknown,TwoIsland_PokemonCenter_2F_MapScripts,,0x09E7D8AE
+Unbound,relocated unknown,SixIsland_PokemonCenter_2F_MapScripts,,0x09E7D8AE
+Unbound,relocated unknown,Common_EventScript_UnionRoomAttendant,,0x09E7DAD0
+Unbound,relocated unknown,Common_EventScript_DirectCornerAttendant,,0x09E7DB1A
+Unbound,relocated unknown,CableClub_EventScript_WirelessTrade,,0x09E7DB76
+Unbound,relocated unknown,Common_EventScript_WirelessClubAttendant,,0x09E7DB84
+Unbound,relocated unknown,IndigoPlateau_PokemonCenter_1F_MapScripts,,0x09E7DF84
+Unbound,relocated unknown,PokemonLeague_LoreleisRoom_MapScripts,,0x09E7E452
+Unbound,relocated unknown,PokemonLeague_AgathasRoom_MapScripts,,0x09E7E452
+Unbound,relocated unknown,PokemonLeague_ChampionsRoom_MapScripts,,0x09E7E452
+Unbound,relocated unknown,PokemonLeague_LoreleisRoom_EventScript_Lorelei,,0x09E7E462
+Unbound,relocated unknown,PokemonLeague_BrunosRoom_EventScript_Bruno,,0x09E7E57C
+Unbound,relocated unknown,PokemonLeague_HallOfFame_MapScripts,,0x09E7F07E
+Unbound,relocated unknown,Route4_MapScripts,,0x09E7F380
+Unbound,relocated unknown,OneIsland_Harbor_MapScripts,,0x09E7FD24
+Unbound,relocated unknown,ThreeIsland_House1_EventScript_Lostelle,,0x09E7FF58
+Unbound,relocated unknown,ThreeIsland_PokemonCenter_1F_MapScripts,,0x09E80A90
+Unbound,relocated unknown,ThreeIsland_Mart_EventScript_Picnicker,,0x09E80AD8
+Unbound,relocated unknown,ThreeIsland_Mart_EventScript_Youngster,,0x09E80AE2
+Unbound,relocated unknown,FourIsland_House2_EventScript_StickerMan,,0x09E82054
+Unbound,relocated unknown,SixIsland_PokemonCenter_1F_MapScripts,,0x09E821B4
+Unbound,relocated unknown,FourIsland_Mart_EventScript_OldMan,,0x09E82326
+Unbound,relocated unknown,FourIsland_Mart_EventScript_Camper,,0x09E8234E
+Unbound,relocated unknown,PokemonTower_1F_EventScript_Woman1,,0x09E82D4E
+Unbound,relocated unknown,FiveIsland_RocketWarehouse_MapScripts,,0x09E8AF90
+Unbound,relocated unknown,SixIsland_DottedHole_1F_MapScripts,,0x09E8B4B6
+Unbound,relocated unknown,FourIsland_IcefallCave_1F_MapScripts,,0x09E8B67E
+Unbound,relocated unknown,FourIsland_IcefallCave_Back_MapScripts,,0x09E8B842
+Unbound,relocated unknown,SixIsland_DottedHole_B1F_MapScripts,,0x09E8BD7C
+Unbound,relocated unknown,FourIsland_IcefallCave_Entrance_MapScripts,,0x09E8BD82
+Unbound,relocated unknown,Route18_EastEntrance_1F_MapScripts,,0x09E8E494
+Unbound,relocated unknown,SevenIsland_House_Room1_MapScripts,,0x09E8EE4A
+Unbound,relocated unknown,TwoIsland_JoyfulGameCorner_MapScripts,,0x09E8F3D6
+Unbound,relocated unknown,TwoIsland_PokemonCenter_1F_MapScripts,,0x09E8FC78
+Unbound,relocated unknown,TwoIsland_PokemonCenter_1F_EventScript_GBAKid,,0x09E8FC8C
+Unbound,relocated unknown,SevenIsland_Mart_EventScript_Lass,,0x09E8FCA4
+Unbound,relocated unknown,SevenIsland_Mart_EventScript_Fisher,,0x09E8FCDA
+Unbound,relocated unknown,OneIsland_PokemonCenter_1F_MapScripts,,0x09E8FCE4
+Unbound,relocated unknown,RocketHideout_B4F_MapScripts,,0x09E91BEC
+Unbound,relocated unknown,CeladonCity_DepartmentStore_3F_EventScript_FloorSign,,0x09E9329C
+Unbound,relocated unknown,Route17_EventScript_TrainerTips2,,0x09E93808
+Unbound,relocated unknown,CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton,,0x09E944E6
+Unbound,relocated unknown,PokemonMansion_B1F_MapScripts,,0x09E94AD2
+Unbound,relocated unknown,CinnabarIsland_PokemonCenter_1F_EventScript_CooltrainerF,,0x09E951FC
+Unbound,relocated unknown,CinnabarIsland_Mart_EventScript_Woman,,0x09E95286
+Unbound,relocated unknown,LavenderTown_VolunteerPokemonHouse_EventScript_MrFuji,,0x09E95846
+Unbound,relocated unknown,LavenderTown_Mart_EventScript_BaldingMan,,0x09E95DC2
+Unbound,relocated unknown,LavenderTown_Mart_EventScript_Youngster,,0x09E95DD0
+Unbound,relocated unknown,VictoryRoad_2F_MapScripts,,0x09E965E6
+Unbound,relocated unknown,CeruleanCave_B1F_MapScripts,,0x09E9674C
+Unbound,relocated unknown,VictoryRoad_3F_MapScripts,,0x09E96EEA
+Unbound,relocated unknown,MtEmber_Exterior_MapScripts,,0x09E96FA6
+Unbound,relocated unknown,OneIsland_MapScripts,,0x09E97FBC
+Unbound,relocated unknown,OneIsland_EventScript_IslandSign,,0x09E98122
+Unbound,relocated unknown,FiveIsland_MapScripts,,0x09E981A2
+Unbound,relocated unknown,PalletTown_MapScripts,,0x09E98304
+Unbound,relocated unknown,Prototype_SeviiIsle_6_MapScripts,,0x09E98304
+Unbound,relocated unknown,SixIsland_MapScripts,,0x09E98604
+Unbound,relocated unknown,NavelRock_SummitPath_2F_MapScripts,,0x09E98F24
+Unbound,relocated unknown,VermilionCity_MapScripts,,0x09E98F24
+Unbound,relocated unknown,Route12_MapScripts,,0x09E991D0
+Unbound,relocated unknown,FiveIsland_Meadow_MapScripts,,0x09E993AC
+Unbound,relocated unknown,PowerPlant_MapScripts,,0x09E9A54A
+Unbound,relocated unknown,SilphCo_9F_MapScripts,,0x09E9A5E6
+Unbound,relocated unknown,SeafoamIslands_B4F_MapScripts,,0x09E9A738
+Unbound,relocated unknown,Route18_MapScripts,,0x09E9A8CC
+Unbound,relocated unknown,SixIsland_AlteringCave_MapScripts,,0x09E9AF92
+Unbound,relocated unknown,MtEmber_Summit_MapScripts,,0x09E9C070
+Unbound,relocated unknown,EventScript_AfterWhiteOutMomHeal,,0x09E9E288
+Unbound,relocated unknown,TrainerTower_5F_MapScripts,,0x09E9E458
+Unbound,relocated unknown,TrainerTower_4F_MapScripts,,0x09E9EC58
+Unbound,relocated unknown,TrainerTower_3F_MapScripts,,0x09E9FF90
+Unbound,relocated unknown,FiveIsland_LostCave_Entrance_MapScripts,,0x09EA0604
+Unbound,relocated unknown,TrainerTower_7F_MapScripts,,0x09EA3B54
+Unbound,relocated unknown,TrainerTower_6F_MapScripts,,0x09EA3C06
+Unbound,relocated unknown,TrainerTower_Elevator_MapScripts,,0x09EA4D94
+Unbound,relocated unknown,TrainerTower_Roof_MapScripts,,0x09EA4E28
+Unbound,relocated unknown,TrainerTower_8F_MapScripts,,0x09EA4E9A
+Unbound,relocated unknown,TrainerTower_2F_MapScripts,,0x09EA4F28
+Unbound,relocated unknown,TrainerTower_1F_MapScripts,,0x09EA54F4
+Unbound,relocated unknown,PalletTown_ProfessorOaksLab_EventScript_SquirtleBall,,0x09EAD178
+Unbound,relocated unknown,PokemonTower_1F_EventScript_Woman2,,0x09EADA74
+Unbound,relocated unknown,OneIsland_PokemonCenter_2F_MapScripts,,0x09EAE324
+Unbound,relocated unknown,UndergroundPath_WestEntrance_EventScript_BaldingMan,,0x09EAEBB2
+Unbound,relocated unknown,ThreeIsland_House4_EventScript_LittleBoy,,0x09EAF782
+Unbound,relocated code,Clouds_InitVars,,0x09EB2C60
+Unbound,relocated unknown,.gcc2_compiled.,,0x09EB2C60
+Unbound,relocated code,Clouds_Main,,0x09EB2C84
+Unbound,relocated code,Clouds_InitAll,,0x09EB2CF0
+Unbound,relocated code,Clouds_Finish,,0x09EB2CFC
+Unbound,relocated code,ItemUseOnFieldCB_Itemfinder,,0x09EB9F52
+Unbound,relocated unknown,.gcc2_compiled.,,0x09EB9F52
+Unbound,relocated code,ScrCmd_braillemessage,,0x09EC26D0
+Unbound,relocated code,ScrCmd_getbraillestringwidth,,0x09EC2834
+Unbound,relocated code,ScrCmd_bufferdecorationname,,0x09EC9D38
+Unbound,relocated code,ScrCmd_setberrytree,,0x09EC9DD0
+Unbound,relocated code,ScrCmd_checkitemspace,,0x09EC9DFC
+Unbound,relocated code,ScrCmd_showelevmenu,,0x09EDCC98
+Unbound,relocated code,ShouldTryRematchBattle,,0x09EDCD28
+Unbound,relocated code,IsTrainerReadyForRematch,,0x09EDCD68
+Unbound,relocated unknown,gString_PokemonFireRed_Staff,,0x09EEFE18
+Unbound,relocated data,gText_PokeSum_EggOrigin_TravelingMan,,0x09F054EE
+Unbound,relocated data,gText_Diploma_Kanto,,0x09F0EF08
+Unbound,relocated data,gText_NoMoreRoomInBag,,0x09F21BDE
+Unbound,relocated data,gText_BagIsFull,,0x09F21C2A
+Unbound,relocated data,gText_BagIsFull2,,0x09F21C2A
+Unbound,relocated data,gText_PlacedItemInBag,,0x09F21C3C
+Unbound,relocated data,gPCText_PolkaDot,,0x09F52A58
+Unbound,relocated data,gPCText_Pokecenter,,0x09F52A5E
+Unbound,relocated data,sCreditsTexts,,0x09FB0DB0
+Unbound,relocated data,sOverworldMapScenes,,0x09FB102C
+Unbound,relocated data,sCreditsScript,,0x09FB12D8
+Unbound,relocated data,sWallpapers,,0x09FB1A64
+Unbound,relocated data,gTrainerMoneyTable,,0x09FB1B24
+Unbound,relocated data,sAreaMarkers,,0x09FB44B0
+Unbound,relocated data,sSeag,,0x09FB5BD2
+Unbound,relocated data,sTravelDirectionMatrix,,0x09FB5BEE
+Unbound,relocated data,sSpriteTemplate_SparklesBig,,0x09FB6FA4
+Unbound,relocated data,sBgTemplates,,0x09FB7048
+Unbound,relocated data,sCopyright_Gfx,,0x09FC08A0
+Unbound,relocated data,sCopyright_Map,,0x09FC145C
+Unbound,relocated data,sCopyright_Pal,,0x09FC16E0
+Unbound,relocated data,sSparklesBig_Gfx,,0x09FD9F60
+Unbound,relocated data,sSparkles_Pal,,0x09FDA218
+Unbound,relocated data,sSparklesSmall_Gfx,,0x09FDA238

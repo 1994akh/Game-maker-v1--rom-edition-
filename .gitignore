@@ -1,0 +1,26 @@
+# ROMs, saves and anything extracted from them stay local (personal use, never published)
+*.gba
+*.gbc
+*.gb
+*.sav
+*.ss[0-9]
+*.elf
+*.map
+*.bin
+re/games/
+re/build/
+re/trace/
+
+# Third-party clones and local tool installs
+re/external/
+re/apps/
+re/ghidra/
+*.gpr
+*.rep/
+*.lock
+*.lock~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
