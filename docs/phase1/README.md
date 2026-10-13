@@ -71,17 +71,25 @@ Before tuning, a 1–2 day `gbax trace` measurement of Golden Sun's walk, run an
     - **The FireRed target passes the gate** on the battle side. The Emerald run is still to compare (it was running when this was written).
 - Estimates widened: base setup 1.5–2 weeks; movement A 2–4 weeks.
 
-## Decisions needed from you
+## Decisions (answered 13 Oct 2026)
 
-Blocking phase 1:
-1. **Platform order.** DESIGN.md says GBA ROM hack; you also want a Fold 7 app. Proposal: the ROM edition first, played
-   on the Fold 7 in an emulator (Lemuroid now, our own player app later), with a native app as a later edition. OK?
-2. **Code base:** pokeemerald-expansion, FireRed target (Emerald as the week-1 fallback)?
-3. **Movement:** A first, B as an optional later mode?
-4. **Adepts in battle:** all 8 can swap in (+~1 week), or a 6-Adept battle roster?
-5. **Mid-battle Adept change:** does the partner Pokémon swap out at once, or stay until it switches or faints?
-6. **Engine repo:** fork pokeemerald-expansion under your GitHub account (public, like this repo) to hold the engine
-   code, with this repo keeping the design docs?
+These replace the recommendation above where they differ. The research reports stay as written, for reference.
+
+| # | Question | Answer | What it changes |
+|---|---|---|---|
+| 1 | Platform order | **Native Android app first** (Fold 7), not the ROM edition | GBA limits (32 MB ROM, SaveBlock1's ~116 B free, `FREE_*` switches) no longer drive the design. The Lemuroid/player-app plan and the ROM-side controls work are dropped for now. |
+| 2 | Code base | **On hold until the Golden Sun extraction is done** | No pokeemerald-expansion fork, config or test-gate work yet. The expansion stays a candidate (as the battle/rules reference or as C code to port), next to engines built for native Android. |
+| 3 | Movement | **Go straight to B** (free 8-way movement) | Movement A is not built first. On a native engine free movement is the natural default, so B's GBA-specific risks (the 40–50% confidence) mostly don't carry over. The Golden Sun speed measurement becomes more important. |
+| 4 | Adepts in battle | **All 8 can swap in** | The Adept pool is 8, not 6. |
+| 5 | Partner on an Adept change | **The partner swaps too**: the new Adept brings its own Set Pokémon in at once | Each Set Pokémon is tied to its Adept in battle; an Adept change replaces both battlers on that side. |
+| 6 | Engine repo | **A new private repo** under your GitHub; this repo keeps the design docs | Created once the code base is chosen, after you confirm its name. |
+
+Next, in order:
+1. **Golden Sun extraction (your PC):** text, Psynergy, class, Djinn/Summon and enemy tables, movement speeds, then
+   battle sprites, maps and music. This gates decision 2.
+2. **Native engine options (can run in the cloud):** a report comparing ways to build the Android app (for example a
+   general engine such as Godot, or C/C++ with SDL reusing pokeemerald-expansion's battle code), against DESIGN.md
+   and the answers above. Proposal only; you decide.
 
 Needed for phase 2 (from the reports; not blocking yet): Standby recovery rules, Psynergy limited to 4 in battle,
 the enemy Standby pool, the default L/R Psynergy shortcuts, the wheel size, face-button layout, and the world

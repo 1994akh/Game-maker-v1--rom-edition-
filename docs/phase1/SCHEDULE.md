@@ -1,5 +1,10 @@
 # Schedule
 
+> **Superseded in part (13 Oct 2026).** You chose a native app first, free movement (B) first, and put the code base
+> on hold until the Golden Sun extraction is done (see [README.md](README.md#decisions-answered-13-oct-2026)). The
+> engine-track rows below (fork, config, save budget, movement A, Dive map, Lemuroid) are on hold. The decompiling
+> track is now the critical path. The plan below is kept for reference until a new schedule is written.
+
 Estimates assume Claude Code does the coding and you play-test. They come from the phase-1 reports, widened where the
 [review](REVIEW.md) said so. Two tracks run side by side:
 
@@ -11,7 +16,7 @@ Estimates assume Claude Code does the coding and you play-test. They come from t
 
 | Day | Engine track | Decompiling track (PC) | Needs you |
 |---|---|---|---|
-| Tue 13 | Finish the test gate: the FireRed run passed on 12 Oct (1 failure, the save-layout check); compare with the Emerald run. Create the engine fork once you OK it; FireRed as the default target; config: all `FREE_*` on, Gen 8/9 off (plus regional-form, Gigantamax, Tera decisions), DexNav on without search levels, `P_CAN_FORGET_HIDDEN_MOVE` | Golden Sun text decoding (needed to label every other table) | Answer the 6 decisions in [README.md](README.md#decisions-needed-from-you) |
+| Tue 13 | Finish the test gate: the FireRed run passed on 12 Oct (1 failure, the save-layout check); compare with the Emerald run. Create the engine fork once you OK it; FireRed as the default target; config: all `FREE_*` on, Gen 8/9 off (plus regional-form, Gigantamax, Tera decisions), DexNav on without search levels, `P_CAN_FORGET_HIDDEN_MOVE` | Golden Sun text decoding (needed to label every other table) | Answer the 6 decisions in [README.md](README.md#decisions-answered-13-oct-2026) |
 | Wed 14 | Save budget written down. **Data-model spike**: Adept as a species, Set Pokémon in a reserved PC box, where Adepts 7–8 live, which party array holds what; plan for healing, items and catching | Golden Sun mechanics tables: Psynergy (power, cost, element), classes (stat multipliers, Psynergy by level), Djinn/Summons, enemies | Install Lemuroid on the Fold 7 and try the test ROM with touch, Backbone and Xbox (10–15 min) |
 | Thu 15 | Battle stage 1: `BATTLE_TYPE_ADEPT`, a separate switch pool per player battler, `ADEPT_BATTLE_TEST` | Mechanics tables (continued) | — |
 | Fri 16 | Battle stage 1: exp to both battlers, write-back after battle; 5–8 tests passing | Golden Sun movement measurement: walk, run and diagonal speed, acceleration, corner nudge (`gbax trace`) | ~10 min walking around in Golden Sun while the trace runs |
