@@ -27,6 +27,11 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **Decided:** Adepts move between crews **only on the home island / village**.
 - **Decided:** Set Pokémon change **only at restoration points**. That covers which 3 Pokémon are Set on each Adept
   and swapping them with Pokémon in storage.
+- **Decided, healing at restoration points:**
+  - **Pokémon** heal **free**.
+  - **Adepts** pay coins for healing (HP, PP, revival and cures), priced like Golden Sun's Inns and Sanctums.
+  - A paid Adept heal also heals the Pokémon.
+  - Healing outside restoration points (Psynergy, items, partner moves) is unaffected: it heals only its target.
 - **Decided:** which of an Adept's 3 Set Pokémon is the active partner can be changed any time outside battle from
   the menu. The class is recalculated afterwards.
 - **Decided, how the crews form (story):**
@@ -97,13 +102,10 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **A fainted partner's replacement** comes in at the end of the turn, at no cost. It must be one of that Adept's Set
   Pokémon that isn't on Standby, recovering or fainted. If one returns from Recovery while its Adept has no partner,
   it joins at the end of that turn.
-- **Defeat:** the battle is lost when all 4 Adepts are down. You return to the last restoration point and lose half
-  your coins.
-  - **Corrected:** this is Pokémon's rule, not Golden Sun's. The extracted Golden Sun text has no coin-loss message
-    on defeat, and its Sanctums charge coins to revive. Fan documentation (not checked in code) says Golden Sun
-    revives only the leader and leaves the others downed. See open question 2.
-  - **Proposed:** after a defeat, every Adept wakes up restored, so the "downed at battle start" rule doesn't bite
-    straight away.
+- **Defeat (decided, kept 13 Oct):** the battle is lost when all 4 Adepts are down. You wake at the last restoration
+  point with **every Adept and Pokémon restored**, and lose **half your coins**.
+  - This is Pokémon's rule, kept on purpose. Golden Sun's differs: the extracted text has no coin loss on defeat,
+    and its Sanctums charge to revive.
 
 **Proposed, the revive window:**
 - **Opening:** when an Adept is downed, the partner's queued command is cancelled. At the partner's next action
@@ -270,18 +272,13 @@ Early on, while a crew is still being recruited (§1), it lacks more: the hero a
 
 ## 11. Still open
 
-1. **Defeat:** keep the decided rule (back to the last restoration point, half coins, everyone restored), or use
-   Golden Sun's (leader revived, others stay downed, paid revivals)?
-2. **Restoration points:** a free full heal like a Pokémon Center, or Golden Sun's paid services (Inn for HP/PP,
-   Sanctum for revivals and cures)? Either way they remain where Set Pokémon are changed.
-3. **Story missions:** the order of the recruitment missions, which Adepts' missions add them to a crew and which
-   move the story forward, and the mission that unlocks crew swapping. This belongs with the world and story
-   proposal.
-4. **Confirm from code** (no decision needed): the enemy slot cap, the Djinn recovery timing, and EXP for downed
+1. **Confirm from code** (no decision needed): the enemy slot cap, the Djinn recovery timing, and EXP for downed
    members.
+2. **Story missions:** written by Claude (your call, 13 Oct) in the story document. Anything there that needs a
+   mechanic or changes how the game plays comes back to you as a question.
 
-Settled since the first version: crew composition, Rouse numbers, how Adepts' level-ups are shown, and when crew
-swapping unlocks.
+Settled since the first version: crew composition, Rouse numbers, how Adepts' level-ups are shown, when crew
+swapping unlocks, the defeat rule, and restoration-point healing.
 
 ## For DESIGN.md (to paste into the claude.ai project)
 
@@ -293,6 +290,8 @@ swapping unlocks.
 | Battle format | **4 Adepts + 4 partner Pokémon** on your side; the enemy side is capped as in Golden Sun (about 6 slots; trainer pairs take 2) | Hybrid |
 | Partners | A Pokémon fights only while its Adept can. A downed Adept's partner gets one action (Rouse or an item) to try to revive them, then withdraws. An Adept downed before battle sits out with their Pokémon. Adepts can fight without Pokémon | New |
 | Swapping | No swapping in battle, except replacing a fainted partner; Set Pokémon change only at restoration points | New |
+| Restoration points | Pokémon heal free; Adepts pay to heal or revive (priced like Golden Sun's Inns and Sanctums), and a paid Adept heal heals the Pokémon too | Hybrid |
+| Defeat | Wake at the last restoration point with everyone restored; lose half your coins | Pokémon |
 | Summons | Cost 1–3 Standby Pokémon from the **active crew**; Unleash puts a benched Set Pokémon on Standby | Golden Sun, adapted |
 | Field Psynergy | The active crew's Psynergy works; backup items exist for every group Psynergy and live in a shared bag | Golden Sun, adapted |
 | Water field moves | Usable if any Set Pokémon in the active crew can learn them | Pokémon / Unbound |
