@@ -104,6 +104,11 @@ under `games\<slug>\text\` and `games\<slug>\data\`:
 | Psynergy, classes, Djinn, Summons | `gs_abilities_classes.md` | `gs_abilities` | Abilities 519 / 734, classes 92 / 111 used, Djinn 28 / 72, Summons 16 / 29; class selection logic from code; checked against goldensunwiki.net |
 | Enemies, encounters, items, characters | `gs_units_items.md` | `gs_units` | Enemies 163 / 378 real, groups, encounter tables, items incl. the utility-Psynergy items, PC stat curves |
 | Field movement | `gs_movement.md` | `tools\gs_movement\` | Free movement on 16.16 positions: walk 1.0, run 1.5 px/frame, 0.25 px/frame² acceleration, normalised diagonals, 8 px wall probe with ±22.5° slides; measured live in mGBA |
+| Maps | `gs_maps.md` | `gs_maps` | Rooms → areas (palette + 4 tilesets, 3 layers, 128×128 cell grid with collision/height/events); PNG + Tiled JSON + collision/events JSON; 176/186 GS1 and 301/312 GS2 areas render cleanly. Open: actor ids, GS2 warp targets, world map, tile animation |
+| Battle sprites | `gs_battle_sprites.md` | `gs_battle_sprites` | Enemy → battle table → sprite table; run-length frames, one shared 224-colour palette + 5 recolour maps; 161/165 and 370/380 enemy records, party sheets and weapon overlays |
+| Battle rules | `gs_battle_mechanics.md` | `gs_battle` | Damage, healing, elemental power/resist, criticals, 92 status effects, turn order, fleeing, Djinn recovery, Summons (GS2 % of max HP), rewards; Python reference matches the ROM routines in 2,265 emulated cases |
+| Field Psynergy | `gs_field_psynergy.md` | `gs_field` | Shared cast pipeline, 4-direction targeting, type-5 room events with phases; Move/Frost/Growth/Reveal handlers decoded; puzzle logic lives in per-room scripts |
+| Music | `music_export.md` | `gbax\music_export.py` + GBA Mus Ripper | MIDI (with loop markers) + one SoundFont per game: GS1 260, GS2 403, Unbound 519 songs |
 
 ## Graphics pipelines still to reverse
 

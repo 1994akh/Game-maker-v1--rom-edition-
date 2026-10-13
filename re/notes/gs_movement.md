@@ -189,12 +189,14 @@ The field loop `FUN_0808C4F8` then tries these in order (VERIFIED by decompile):
 
 ## 6. Field Psynergy and jumping (partly INFERRED)
 
-- **Facing-tile target** (`FUN_0808EF70`): take the point 16 px ahead along facing, snap it to its 16 px cell
-  (`& 0xFFF00000`) and add 8 px to reach the centre. An effect object (type 0x16) is spawned there, 16 px up,
-  falling with vy 2 px and gravity 0.25. This looks like the "cast on the tile in front" path; which Psynergy
-  uses it hasn't been confirmed.
-- **`FUN_08012B2C`** builds target rays per Psynergy kind from the cast point. Kind 0x14 casts two rays of 40 px
-  along the facing angle and its opposite; other kinds use 56 px. **Open.**
+Field Psynergy itself is specified in `gs_field_psynergy.md` (cast `0x0808E680`, targeting in 4 directions with
+per-Psynergy ranges, type-5 room events). Two guesses made here earlier were wrong (corrected by that pass):
+
+- **`FUN_0808EF70`** is not a Psynergy cast: it spawns the "item pops out of a chest" sprite. It takes the point
+  16 px ahead along facing, snaps it to its 16 px cell (`& 0xFFF00000`), adds 8 px, and spawns an effect object
+  (type 0x16) there, 16 px up, falling with vy 2 px and gravity 0.25.
+- **`FUN_08012B2C`** is not Psynergy targeting. It builds rays (kind 0x14: two 40 px rays along the facing angle and
+  its opposite; other kinds 56 px) depending on a byte in the map header; its purpose is still **open**.
 - **Gap and pillar hop** (`FUN_08093C00`):
   1. Snap facing to 4 directions (`(a+0x2000)&0xC000`) and start from the cell centre.
   2. The point 16 px ahead must not be a wall, and 32 px ahead must be walkable.
@@ -230,7 +232,7 @@ Sample rows from `walk_SE`, input Down+Right walking (`dpos` = px moved that fra
 - Why the destination is 6 px ahead when walking and 4 px when running, when the wall probe is 8 px.
 - What map container part +0x24 is, and what parts +0x30 and +0x34 hold.
 - The full list of 16 height shapes.
-- Which field Psynergy uses which targeting path (`FUN_08012B2C` kinds, `FUN_0808EF70`).
+- What `FUN_08012B2C`'s rays are for (map-header byte driven; not Psynergy targeting).
 - GS2 equivalents of the collision and talk functions: the literal pools match, but the functions weren't
   decompiled. GS2's sine table also isn't at a matching byte pattern.
 - How many sprite directions the walk animation uses (`FUN_0800C300`).
