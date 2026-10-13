@@ -15,32 +15,38 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 ## 1. Two crews of four
 
 - **Decided:** the 8 Adepts form two crews of 4. You play one crew at a time.
-- **Decided composition.** Crew 1 mirrors Isaac's party (an Earth lead and a Sea healer). Crew 2 is new.
+- **Decided composition** (Claude's call, as you asked). Each crew has an Earth lead and a Sea healer. Crew 1 holds
+  Forest and Shadow, so the hero's crew has DESIGN.md's whole proving set of field Psynergy (Move, Frost, Growth,
+  Reveal) without backup items. This replaced an earlier line-up that put Flame and Sky in Crew 1.
 
   | | Crew 1 (the hero's) | Crew 2 (the rival's) |
   |---|---|---|
   | Lead | Earth: hero | Earth: rival / co-lead |
   | Healer | Sea: healer 1 | Sea: healer 2 |
-  | Others | Flame, Sky | Forest, Shadow |
-
-  The review flags that this leaves the opening crew without Growth and Reveal (see §7 and open question 1).
+  | Others | Forest, Shadow | Flame, Sky |
 - **Decided:** Adepts move between crews **only on the home island / village**.
 - **Decided:** Set Pokémon change **only at restoration points**. That covers which 3 Pokémon are Set on each Adept
   and swapping them with Pokémon in storage.
 - **Decided:** which of an Adept's 3 Set Pokémon is the active partner can be changed any time outside battle from
   the menu. The class is recalculated afterwards.
-- **Decided, story use:**
-  - The game opens with Crew 1 and hands over to Crew 2, as Golden Sun did between Isaac and Felix.
-  - Control switches between the crews at set story points.
+- **Decided, how the crews form (story):**
+  - **Opening:** the party is **only the hero**, facing the rival.
+  - **Then you play as the rival** for a story mission.
+  - **Recruitment:** every other Adept has their own story mission(s). Each one either adds them to a crew or moves
+    the story forward.
+  - **Swapping between the crews** (switching which crew you play, and moving Adepts between crews on the home
+    island) **unlocks only once the story missions that build the crews are done.** Before then, the story decides
+    which crew you play.
+  - So a crew can have fewer than 4 Adepts early on, and battles use however many it has (down to 1 Adept + 1
+    partner). 4 + 4 is the maximum.
   - Some dungeons need both crews.
-  - The crews reunite for the endgame. After that, any 4 of the 8 can be picked on the home island.
 - **Proposed, crew logistics:**
-  - **Before the reunion,** the crews are apart and no swaps happen. Each handover starts at a restoration point.
-  - **After the reunion,** the Adepts not in the active crew wait on the home island.
+  - **Handovers:** each story handover between crews starts at a restoration point.
+  - **The other crew** waits on the home island once swapping is unlocked.
   - **Shared:** the bag, coins and Pokémon storage are shared by both crews.
   - **Per crew:** each crew keeps its own "last restoration point".
-  - **Getting home after the reunion:** every restoration point offers travel to the home island, so a crew
-    without Teleport or Retreat can't strand itself.
+  - **Getting home:** once swapping is unlocked, every restoration point offers travel to the home island, so a
+    crew without Teleport or Retreat can't strand itself.
 
 ## 2. Who is in a battle
 
@@ -109,7 +115,11 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **Partner can't act:** a status that makes the partner skip its turn (sleep, stun) uses up the window.
 - **Automation:** Auto tactics and "repeat last turn" always take the window with Rouse.
 - **Rouse limits:** **once per Adept per battle**, and only on the partner's own Adept. This prevents down → Rouse
-  loops, for the enemy as well. The success chance and the HP restored are left to balancing.
+  loops, for the enemy as well.
+- **Decided, Rouse numbers** (Claude's call, as you asked; tune in play-testing):
+  - **Success chance:** 50%, or 60% if the partner's type is in its Adept's element group (the same matching idea
+    as the class bonus).
+  - **On success:** the Adept comes back with 25% of max HP.
 - **Items:** partners can use bag items **only in the revive window**, so a turn still has at most 4 item users,
   as in Golden Sun.
 - **Victory and defeat:** checked only after every open revive window has resolved, so the last Adept's partner
@@ -168,6 +178,8 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **Decided:** Pokémon keep the Pokémon-style level-up and evolution popup, showing Golden Sun-scale stats.
   - **Proposed:** it shows HP, Attack, Defense, Agility and Luck (Pokémon have no PP stat), with a skip / fast
     option.
+- **Decided: Adepts' level-ups are shown as in Golden Sun.** After battle, the message window announces the new
+  level, then each stat's gain (HP, PP, Attack, Defense, Agility, Luck), then any newly learned Psynergy.
 - **Proposed, EXP:**
 
   | Who | EXP |
@@ -196,24 +208,26 @@ turn" and fast animations. Partners can still be commanded by hand.
 
 ## 7. Field Psynergy and water moves per crew (proposed)
 
-Field Psynergy works for the active crew only (decided). With the decided crews, each crew lacks two element
-groups:
+Field Psynergy works for the active crew only (decided). With full crews, each crew lacks two element groups.
+Early on, while a crew is still being recruited (§1), it lacks more: the hero alone has only Earth.
 
-| Group Psynergy | Crew 1 (Earth, Sea, Flame, Sky) | Crew 2 (Earth, Sea, Forest, Shadow) | Golden Sun item backup |
+| Group Psynergy | Crew 1 (Earth, Sea, Forest, Shadow) | Crew 2 (Earth, Sea, Flame, Sky) | Golden Sun item backup |
 |---|---|---|---|
 | Move, Pound, Tremor, Scoop (Earth) | ✓ | ✓ | Pound Cube, Tremor Bit, Scoop Gem |
 | Frost, Douse, Ply (Sea) | ✓ | ✓ | Frost Jewel, Douse Drop |
-| Blaze, Burst, Force, Parch (Flame) | ✓ | — | Burst Brooch, Orb of Force; **none for Blaze, Parch** |
-| Whirlwind, Cyclone, Mind Read, Teleport, Retreat (Sky) | ✓ | — | Cyclone Chip, Teleport Lapis, Escape Rope (Retreat); **none for Whirlwind, Mind Read** |
-| Growth, Lash, Catch (Forest) | — | ✓ | Lash Pebble, Catch Beads; **none for Growth** |
-| Reveal, Cloak, Halt, Avoid (Shadow) | — | ✓ | Cloak Ball, Halt Gem, Repel (Avoid); **none for Reveal** |
+| Growth, Lash, Catch (Forest) | ✓ | — | Lash Pebble, Catch Beads; **none for Growth** |
+| Reveal, Cloak, Halt, Avoid (Shadow) | ✓ | — | Cloak Ball, Halt Gem, Repel (Avoid); **none for Reveal** |
+| Blaze, Burst, Force, Parch (Flame) | — | ✓ | Burst Brooch, Orb of Force; **none for Blaze, Parch** |
+| Whirlwind, Cyclone, Mind Read, Teleport, Retreat (Sky) | — | ✓ | Cyclone Chip, Teleport Lapis, Escape Rope (Retreat); **none for Whirlwind, Mind Read** |
 
 **Proposed:**
 - **New backup items** for Growth, Reveal, Blaze, Parch, Whirlwind and Mind Read. That completes DESIGN.md's rule
   that no puzzle requires one specific Adept.
 - **Psynergy items** are key items in the shared bag, usable by any active Adept. In Golden Sun only the holder can
   use them, which would lock an item away in the other crew.
-- **Area design:** each crew's chapters use only Psynergy that crew has or that its backup items provide.
+- **Area design:** each crew's chapters use only Psynergy that crew has at that point in the story, or that its
+  backup items provide. Each recruitment mission is a natural place to hand out a backup item or to show off the new
+  Adept's Psynergy.
 - **Water moves:** "the party" means the active crew. Surf, Dive and Waterfall work if any of the crew's Set Pokémon
   can learn them. A restoration point **won't unset the last Set Pokémon that can learn an unlocked water move**,
   and each handover guarantees the incoming crew has them, so no one gets stranded on an island or underwater.
@@ -234,7 +248,10 @@ groups:
   - New work: an 8-against-6 battle line, the downed-Adept, revive-window and partner rules, partnerless Adepts,
     the enemy-trainer mirror, two crews in save data and menus, and backup items.
   - The engine is still to be chosen (native app first).
-- **World proposal:** the two crews line up with its acts, and Crew 2's opening is the rival's chapter.
+- **World proposal:** its acts need re-cutting around the decided story structure. The game opens with the hero
+  alone against the rival, then a mission played as the rival, then recruitment missions for each other Adept;
+  crew swapping comes after that. Its "Crew 2's opening is the rival's chapter" idea becomes that early rival
+  mission.
 
 ## 10. DESIGN.md parts this replaces
 
@@ -242,7 +259,7 @@ groups:
 |---|---|
 | Platform: GBA ROM hack | Native Android app first (decided 13 Oct) |
 | Battle format: 1 Adept + 1 Pokémon per side | 4 Adepts + 4 partners; enemy side capped as in Golden Sun |
-| Party: 8 Adepts, one on the field, others swap in | Two crews of 4; crews change only on the home island |
+| Party: 8 Adepts, one on the field, others swap in | Two crews of 4, built up through story missions; crews change only on the home island, once unlocked |
 | Sea's reason: "a second healer for when Adepts swap in and out" | One Sea healer per crew |
 | Summon cost: drawn from the whole party | Drawn from the active crew (up to 8) |
 | Field Psynergy: the whole party's works | The active crew's works, with backup items for every group Psynergy |
@@ -253,25 +270,26 @@ groups:
 
 ## 11. Still open
 
-1. **Crew composition:** swap the two crews' extra groups? Crew 1 = Earth, Sea, **Forest, Shadow** would give the
-   opening crew DESIGN.md's whole proving set (Move, Frost, Growth, Reveal) without backup items. Crew 2 would
-   then be Earth, Sea, Flame, Sky.
-2. **Defeat:** keep the decided rule (back to the last restoration point, half coins, everyone restored), or use
+1. **Defeat:** keep the decided rule (back to the last restoration point, half coins, everyone restored), or use
    Golden Sun's (leader revived, others stay downed, paid revivals)?
-3. **Restoration points:** a free full heal like a Pokémon Center, or Golden Sun's paid services (Inn for HP/PP,
+2. **Restoration points:** a free full heal like a Pokémon Center, or Golden Sun's paid services (Inn for HP/PP,
    Sanctum for revivals and cures)? Either way they remain where Set Pokémon are changed.
-4. **Rouse:** its success chance and the HP it restores.
-5. **Adepts' level-ups:** shown with Golden Sun's results text or the same popup as Pokémon.
-6. **When the crews first split and reunite.**
-7. **Confirm from code** (no decision needed): the enemy slot cap, the Djinn recovery timing, and EXP for downed
+3. **Story missions:** the order of the recruitment missions, which Adepts' missions add them to a crew and which
+   move the story forward, and the mission that unlocks crew swapping. This belongs with the world and story
+   proposal.
+4. **Confirm from code** (no decision needed): the enemy slot cap, the Djinn recovery timing, and EXP for downed
    members.
+
+Settled since the first version: crew composition, Rouse numbers, how Adepts' level-ups are shown, and when crew
+swapping unlocks.
 
 ## For DESIGN.md (to paste into the claude.ai project)
 
 | Area | Decision | Source |
 |---|---|---|
 | Platform | Native Android app (Galaxy Z Fold 7) first | — |
-| Party | **Two crews of 4 Adepts** (8 in all). You play one crew at a time; Adepts change crews only on the home island; the crews reunite for the endgame | Golden Sun: The Lost Age, adapted |
+| Party | **Two crews of 4 Adepts** (8 in all): Crew 1 = hero (Earth), Sea, Forest, Shadow; Crew 2 = rival (Earth), Sea, Flame, Sky. The game opens with the hero alone against the rival, then a mission played as the rival; every other Adept has recruitment or story missions. Crew swapping (switching crews, and moving Adepts between them on the home island) unlocks once those missions are done | Golden Sun: The Lost Age, adapted |
+| Level-up display | Adepts: Golden Sun-style results text. Pokémon: Pokémon-style popup with Golden Sun-scale stats | Hybrid |
 | Battle format | **4 Adepts + 4 partner Pokémon** on your side; the enemy side is capped as in Golden Sun (about 6 slots; trainer pairs take 2) | Hybrid |
 | Partners | A Pokémon fights only while its Adept can. A downed Adept's partner gets one action (Rouse or an item) to try to revive them, then withdraws. An Adept downed before battle sits out with their Pokémon. Adepts can fight without Pokémon | New |
 | Swapping | No swapping in battle, except replacing a fainted partner; Set Pokémon change only at restoration points | New |
@@ -281,4 +299,3 @@ groups:
 | Enemies | Golden Sun monsters, bosses and bandits are uncatchable; wild Pokémon are catchable; human trainers fight as Adept + Pokémon pairs | Hybrid |
 | Damage and stats | Golden Sun's formulas and stat scale for everyone; Adepts have clearly more HP than partners | Golden Sun |
 | Psynergy | Golden Sun-style long lists, in and out of battle; no 4-slot cap | Golden Sun |
-| Level-up display | Pokémon-style level-up and evolution popup for Pokémon, with Golden Sun-scale stats | Pokémon |
