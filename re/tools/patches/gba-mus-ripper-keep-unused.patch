@@ -1,0 +1,32 @@
+diff --git a/sound_font_ripper.cpp b/sound_font_ripper.cpp
+index 02b1357..f53d5e9 100644
+--- a/sound_font_ripper.cpp
++++ b/sound_font_ripper.cpp
+@@ -28,6 +28,7 @@ static bool verbose_flag = false;
+ static bool verbose_output_to_file = false;
+ static bool change_sample_rate = false;
+ static bool gm_preset_names = false;
++static bool keep_unused = false;	// gbax patch: -ku keeps the filler square voice (01 3C 00 00 02 00 00 00 00 00 0F 00) as a real preset
+ 
+ static unsigned int sample_rate = 22050;
+ static std::set<uint32_t> addresses;
+@@ -498,6 +499,8 @@ static void parse_arguments(const int argc, char *const argv[])
+ 			}
+ 			else if (!strcmp(argv[i], "-gm"))
+ 				gm_preset_names = true;
++			else if (!strcmp(argv[i], "-ku"))
++				keep_unused = true;
+ 
+ 			else if (!strcmp(argv[i], "--help"))
+ 				print_instructions();
+@@ -615,8 +618,8 @@ int main(const int argc, char *const argv[])
+ 		{
+ 			print("\nBank: " + std::to_string(current_bank) + ", Instrument: " + std::to_string(current_instrument) + " @0x" + hex(current_address));
+ 
+-			// Ignore unused instruments
+-			if (instr_data[current_instrument].word0 == 0x3c01
++			// Ignore unused instruments (unless -ku: the engine still plays this entry as a 50% square wave)
++			if (!keep_unused && instr_data[current_instrument].word0 == 0x3c01
+ 			&& instr_data[current_instrument].word1 == 0x02
+ 			&& instr_data[current_instrument].word2 == 0x0F0000)
+ 			{

@@ -93,6 +93,23 @@ numbers from struct fields at +4/+6/+8/+10.
 - Enemy and character sprites still aren't identified. A live trace during a battle will show which files and
   routines they use.
 
+## Text, mechanics tables and movement (solved, 13 Oct)
+
+Each has its own notes file and a re-runnable exporter (`python -m gbax.codecs.<module> ROM [ROM2]`), writing JSON
+under `games\<slug>\text\` and `games\<slug>\data\`:
+
+| Topic | Notes | Module | Result |
+|---|---|---|---|
+| Text | `gs_text.md` | `golden_sun_text` | Huffman with one tree per previous character; every string decodes (GS1 10,722, GS2 12,461), identical to the game's own routine run in the emulator; name-list ID ranges in `groups.json` |
+| Psynergy, classes, Djinn, Summons | `gs_abilities_classes.md` | `gs_abilities` | Abilities 519 / 734, classes 92 / 111 used, Djinn 28 / 72, Summons 16 / 29; class selection logic from code; checked against goldensunwiki.net |
+| Enemies, encounters, items, characters | `gs_units_items.md` | `gs_units` | Enemies 163 / 378 real, groups, encounter tables, items incl. the utility-Psynergy items, PC stat curves |
+| Field movement | `gs_movement.md` | `tools\gs_movement\` | Free movement on 16.16 positions: walk 1.0, run 1.5 px/frame, 0.25 px/frame² acceleration, normalised diagonals, 8 px wall probe with ±22.5° slides; measured live in mGBA |
+| Maps | `gs_maps.md` | `gs_maps` | Rooms → areas (palette + 4 tilesets, 3 layers, 128×128 cell grid with collision/height/events); PNG + Tiled JSON + collision/events JSON; 176/186 GS1 and 301/312 GS2 areas render cleanly. Open: actor ids, GS2 warp targets, world map, tile animation |
+| Battle sprites | `gs_battle_sprites.md` | `gs_battle_sprites` | Enemy → battle table → sprite table; run-length frames, one shared 224-colour palette + 5 recolour maps; 161/165 and 370/380 enemy records, party sheets and weapon overlays |
+| Battle rules | `gs_battle_mechanics.md` | `gs_battle` | Damage, healing, elemental power/resist, criticals, 92 status effects, turn order, fleeing, Djinn recovery, Summons (GS2 % of max HP), rewards; Python reference matches the ROM routines in 2,265 emulated cases |
+| Field Psynergy | `gs_field_psynergy.md` | `gs_field` | Shared cast pipeline, 4-direction targeting, type-5 room events with phases; Move/Frost/Growth/Reveal handlers decoded; puzzle logic lives in per-room scripts |
+| Music | `music_export.md` | `gbax\music_export.py` + GBA Mus Ripper | MIDI (with loop markers) + one SoundFont per game: GS1 260, GS2 403, Unbound 519 songs |
+
 ## Graphics pipelines still to reverse
 
 The callers of the core graphics functions, by code module (GS1):
@@ -126,5 +143,5 @@ entries, 260 with tracks), GS2 `0x081C4530` (800 entries, 403 with tracks). Each
 - Palettes for everything except portraits. gbax's generic matcher (adjacency, embedded headers) produces noise for
   most Golden Sun graphics, because they're archives and custom sprite formats rather than plain tiles. Each
   pipeline above has to be reversed; portraits show the pattern.
-- The text encoding. Golden Sun's text is believed to be compressed separately; to be confirmed.
+- ~~The text encoding~~: solved, see "Text, mechanics tables and movement" above.
 - Native Python port of format 0, using the emulator as the reference. It's optional, since emulation is exact.
