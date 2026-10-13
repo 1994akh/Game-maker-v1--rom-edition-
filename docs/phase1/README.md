@@ -65,6 +65,10 @@ Before tuning, a 1–2 day `gbax trace` measurement of Golden Sun's walk, run an
   the Set Pokémon go in a reserved PC box, and DexNav search levels stay off.
 - **Test gate on day 1.** CI never runs the tests on the FireRed target, so we run both `make check` variants and
   compare before any map exists. The target can't be switched cheaply once maps exist.
+  - **FireRed result (12 Oct, `make check BUILD=firered`, 7.5 min):**
+    - 5,416 passed, 1 failed, plus 18 known-failing, 421 to-do and 9 expected-failing (5,865 total).
+    - The one failure is `test/save.c:12` "SaveBlock1 is backwards compatible", which expected 15,568 bytes and found 15,756. It's the FireRed save layout being bigger than the test assumes, the same save pressure noted above. No battle or field test fails.
+    - **The FireRed target passes the gate** on the battle side. The Emerald run is still to compare (it was running when this was written).
 - Estimates widened: base setup 1.5–2 weeks; movement A 2–4 weeks.
 
 ## Decisions needed from you
