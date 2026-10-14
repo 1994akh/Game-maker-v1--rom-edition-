@@ -12,8 +12,9 @@ header; the detailed rules are in `docs/design/`.
   Vey, sympathetic. Short guided prologue, then open play. The midpoint "Breaking" changes the world map. Late-game
   airship; islands of the week with Star Trek-style dilemmas and an exploration log. All six legendaries are
   catchable, each a different way. One ending with per-Adept variations. Easter eggs and copyright-friendly spoof
-  cameos from the influences run through the side stories (§9a). 18 mechanics questions are in its §14, awaiting
-  decisions.
+  cameos from the influences run through the side stories (§9a). The world stays open after the ending for side
+  quests, catching and the Log. The Farer's Log has a Pokédex-style Kin section. Extra Pokémon live in the Kin
+  Garden on Marrow Isle. 20 mechanics questions are in its §14, awaiting decisions.
 
 ## 14 Oct 2026
 

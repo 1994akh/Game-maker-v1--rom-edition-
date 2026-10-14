@@ -262,8 +262,18 @@ stays optional (§9).
 - **Home island: Marrow Isle.** It's a Suikoden-style base that **grows**:
   - Fallhaven's refugees settle there in mission 10.
   - People rescued on other islands move in and open shops, a shipwright, a Pokémon daycare, a library of
-    Farer texts, and a Djinn-style "spirit garden" for found Pokémon.
+    Farer texts, and the **Kin Garden** (below).
   - Crew swapping and the cosmetics mirror are here (both already decided).
+- **The Kin Garden: where your extra Pokémon live.** This is the home of the shared Pokémon storage the party rules
+  already define:
+  - The party limit stays as decided: each Adept carries **3 Set Pokémon**.
+  - Every Pokémon caught or joined beyond that goes to the Kin Garden on Marrow Isle, with the usual "sent to
+    storage" message.
+  - You see them there: they roam a garden that grows terraces, ponds and caves as it fills, and you can talk to
+    them.
+  - They stay there until you switch them in. Under the decided rule, Set Pokémon change at **restoration points**,
+    and every restoration point reaches the Kin Garden's storage. Question 20 in §14 asks whether you'd rather
+    allow swaps only on the home island.
 - **The ship: the Wayfarer.** It's the mobile hub:
   - crew quarters, where you talk to each Adept between missions and their heart quests start;
   - a galley for crew-banter scenes;
@@ -283,10 +293,30 @@ stays optional (§9).
   - Places only reachable from the air: the Spine's peaks, sky isles, Rimfall ledges and an island inside the old
     Galeway eye.
   - Several superbosses live there.
-- **The Farer's Log, an exploration log:**
-  - It charts islands, species, ruins, cultures and Farer relics.
-  - Each entry gets a short "captain's log" line in the voice of whichever lead is captaining.
-  - Filling sections rewards gear and rumours. A complete log triggers the postgame.
+- **The Farer's Log, an exploration log** (a Farer book the Steward helps you fill in). It has four sections:
+
+  | Section | What it records |
+  |---|---|
+  | **Kin** (the Pokédex) | Every Pokémon, as **unseen / seen / caught** |
+  | **Bestiary** | Golden Sun monsters and bosses, as **seen / defeated**. They can't be caught |
+  | **Charts** | Islands, regions, landmarks and hidden places, as **rumoured / visited / fully explored** |
+  | **Relics and Cultures** | Farer relics, ruins and the island cultures you made contact with |
+
+- **What a Kin entry shows:**
+  - its Weyard form or ordinary form, its types, and which of the six elemental groups it belongs to;
+  - where it lives, marked on the world map (habitat and time of day);
+  - how it's met: wild, Djinn-style (joins, chases, battles first, or hidden), legendary or gift;
+  - its size (1 slot, or 2 for large species) and its evolution line;
+  - the field abilities (HMs) it can learn, so you know who can Surf, Dive or Cut;
+  - which Adept it's Set on, or that it's in the Kin Garden.
+- **The Kin entry text** is written in your crew's voices. Whoever first saw the Pokémon writes its entry: Sorrel is
+  tender with Forest species, Tamsin rates how hard they hit, Wynn draws a tiny map. Caught entries add a line from
+  its Adept.
+- **Captain's log:** each Charts entry gets a short "captain's log" line in the voice of whichever lead is
+  captaining.
+- **Rewards:** filling each section gives gear, rumours and Kin Garden decorations.
+- **The Farers' return:** completing Charts and Relics triggers it (§11). Completing Kin gives its own reward, the
+  postgame Mew sighting.
 - **Islands of the week (§9):** self-contained stories with a moral or cultural puzzle, solved by talking,
   thinking or fighting. Many are first contact with odd cultures, misunderstood creatures or Farer machines.
 
@@ -460,9 +490,30 @@ There's **one ending**, with **variations**, as you asked for both:
 
 - **The islands you helped** appear in the closing montage. Some also **send ships and fighters to the Pinnacle**
   (mission 21). Mechanics question 11 covers whether that should change the fight.
-- **Secret coda:** if the Farer's Log is complete, a sky-ship appears over the receding Rimfalls. The Farers have
-  come back. This opens the **postgame**: first contact with the Farers, Thunderhead's Sentinel and the Spine-peak
-  superbosses, the Groudon and Giratina catches, and a "Last Bearing" island past the old edge.
+- **Secret coda:** if the Log's Charts and Relics sections are complete before the final battle, a sky-ship
+  appears over the receding Rimfalls in the credits. The Farers have come back.
+
+### After the ending: the world stays open
+
+When the credits end you're returned to the world, at Marrow Isle, the day after:
+- **The world after the ending:** the Rimfalls visibly receding, rim islands regrowing, Vey's absence felt at the
+  Pinnacle, and NPCs reacting to the ending.
+- **Everything optional is still available:**
+  - every island of the week, cameo quest and themed puzzle;
+  - every Djinn-style find and every catch and Log entry;
+  - the Doduo races and the casino, if they're built.
+- **Nothing is permanently missable**, except Fallhaven itself, which is a story loss by design. Pokémon and Log
+  entries from Fallhaven or the drowned Canalport districts can still be found afterwards: in the Dreamdeck, in
+  the regrowing rim, or in the Dive areas.
+- **Heart quests finished after the ending** play their changed ending scene on their own, as an epilogue at home.
+- **The postgame adds:**
+  - **The Farers' return:** if the coda didn't play, it triggers as soon as Charts and Relics are complete. Then
+    comes first contact with the Farers.
+  - The Gem Sentinels and Thunderhead's Sentinel as superbosses.
+  - The Groudon and Giratina catches.
+  - The Galgamash finale and the Dreamdeck boss rush.
+  - A "Last Bearing" island past the old edge.
+  - The Mew sighting, the reward for a complete Kin section.
 
 ## 12. What the engine side needs next (in story order)
 
@@ -496,6 +547,9 @@ These are the rooms and systems the mission list asks for, in the order they are
 | Stakes | Losses, but no party deaths |
 | Home | Both: a home island that grows, and the ship as a mobile hub |
 | Easter eggs | Small and large nods to all the influences throughout; a few One Piece and Star Trek themed puzzles; copyright-friendly but obvious spoof characters in side stories (§9a) |
+| After the ending | Side quests, exploration, catching and the Log stay available after the main story ends (§11) |
+| Pokédex | A themed Pokédex-style log of caught and seen Pokémon with their details: the Kin section of the Farer's Log (§8) |
+| Extra Pokémon | Pokémon beyond the party limit go to the home island (the Kin Garden) until switched in, under the established rules (§8) |
 
 ## 14. Mechanics questions (for the design side, not decided here)
 
@@ -559,10 +613,13 @@ Each question has my recommendation.
     - **Recommendation:** a small set of new islands and superbosses plus the remaining legendary catches. No new
       systems.
     - **Why:** it reuses systems that already exist.
-16. **The Farer's Log.**
-    - **Recommendation:** a menu screen listing visited places, seen species and relics, with a completion
-      percentage and rewards at thresholds.
-    - **Why:** the Star Trek log, and it drives exploration.
+16. **The Farer's Log** (four sections, §8).
+    - **Recommendation:** a menu screen with the four sections. Kin entries are filled from the species data
+      (types, group, size, evolution, learnable field abilities) plus a hand-written text per species. Habitat
+      marks come from the encounter tables. "Seen" is set when a species first appears in battle or as a
+      Djinn-style encounter on the field. Each section shows a completion percentage and has rewards at
+      thresholds.
+    - **Why:** the Pokédex and the Star Trek log in one book, and it drives exploration.
 17. **The Bounty Board (§9a).**
     - **Recommendation:** cosmetic only: a bounty number per Adept, raised by story flags and shown on posters.
       It has no effect on encounters or prices.
@@ -570,4 +627,16 @@ Each question has my recommendation.
 18. **Mini-games from the easter eggs** (the Dodo Derby, the Glimmer Saucer, the Speakers' language).
     - **Recommendation:** build only the Speakers' puzzle (it's dialogue plus murals). The Derby and the casino are
       postgame extras, if time allows.
+19. **The world after the ending (§11).**
+    - **Recommendation:** a post-ending flag that switches the world to its final map variants (the receding
+      rim, regrown isles, changed NPC dialogue) and returns you to Marrow Isle with everything else intact.
+      Optional content never checks "before the ending".
+    - **Why:** it's the same map-variant-by-flag tool as the midpoint, and it keeps every catch and side quest
+      reachable.
+20. **Where you can swap Pokémon in from the Kin Garden.**
+    - **Recommendation:** keep the decided rule: at any restoration point, which reaches the Kin Garden's storage.
+      The Kin Garden on Marrow Isle is where they live and where you can see them.
+    - **Alternative:** swaps only on the home island. That's stricter and more Golden Sun-like, but slower once
+      the map is large.
+    - **Why:** you asked for the established rules, and they already say restoration points.
     - **Why:** they're new systems and the least important part of the game.
