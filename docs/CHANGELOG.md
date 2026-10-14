@@ -3,6 +3,17 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 14 Oct 2026 (story fights, mission 1)
+
+- **Losing a story fight restarts it** (your decision). If the party is knocked out in a fight the story stages,
+  such as Corvin at the Vault's inner door, the standard defeat plays and then the fight restarts from its start
+  (the party, bag and coins as they were when it began). No walk back to a restoration point, no coins lost.
+  Built in engine PR #33 (`Game.start_trainer_battle(..., story)`), checked end to end by `tools/mission1_check`.
+- **Mission 1 is playable end to end** (engine PR #33): the Vault road gated until the starter, the Vault's upper
+  halls (placeholder Sol Sanctum tiles), a Move puzzle with two Sentinel statues, Corvin's fight, Commodore Ilse
+  deputising the hero and handing over the Lodestar. The lines are placeholders for the cloud chat's story pass;
+  `docs/design/mission-1-build.md` lists what is built and where the words live.
+
 ## 14 Oct 2026 (engine: the battle look)
 
 - **Battle sprites come from the extraction** (engine PR #32). Enemies draw their Golden Sun sheets (161 from GS1

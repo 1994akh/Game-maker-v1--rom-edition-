@@ -49,9 +49,12 @@ design docs.
   Defend, Catch, the partner revive window), statuses and buffs, EXP and level-ups, saves and Continue, touch
   controls. Battles draw the extracted Golden Sun sheets and pokeemerald-expansion pictures with animated rounds.
   126 headless tests pass; each system has an automated end-to-end check with a screenshot.
-- **Next:** battle visuals polish (hurt and down scripts, Psynergy effects), enemy AI, Set Pokémon from the field
-  menu, crews and the home island, GS2 data, music hooks, more own rooms (the Vault's upper halls), statuses that
-  persist after battle. Design defaults chosen while building are marked "proposed" in `docs/design/`.
+- **Mission 1 plays end to end** (engine PR #33): the Vault halls, a Move puzzle, Corvin's story fight (a loss
+  restarts it, your rule), Ilse and the Lodestar; placeholder lines, see `docs/design/mission-1-build.md`.
+- **Next:** mission 2 (Corvin's sea caves and Fallhaven) or mission 3 (Canalport: Frost, Surf, a boss), battle
+  visuals polish (hurt and down scripts, Psynergy effects), enemy AI, Set Pokémon from the field menu, crews and
+  the home island, GS2 data, music hooks, statuses that persist after battle. Design defaults chosen while
+  building are marked "proposed" in `docs/design/`.
 
 ## Tools to install first ([full ranked list](resources/ranked.md))
 
