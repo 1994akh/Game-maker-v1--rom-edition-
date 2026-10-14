@@ -60,7 +60,7 @@ centre is "toward the Pinnacle" and the edge is "toward the falls".
 | **The Galeway** | A permanent storm ring | Act I: only Rimborn skiffs know the lanes (Crew 2's interludes). Act II: it breaks into passable fragments | Story gate, then strong monsters in the storm fragments |
 | **The Wide**, the outer sea | Four quarters (Northreach, Eastwater, Southdeep, Westgloam), each with its own look, weather and Pokémon culture | The **Wayfarer** (from mission 10) | Strong monsters (danger shown on the map); puzzles; Stillwater calm belts need the Flame engine |
 | **The Rimfalls** | The world's edge, where the sea pours away | Visible from the outer sea | Currents push ships back; it can't be crossed |
-| **Layers** | The Cloudreach above, the Deep Shelf below, the Hollow beside | Updraft and wings; Dive and the bubble hull; the Vault tear | Story and site rewards |
+| **Layers** | The Cloudreach above and the Deep Shelf below, **each about the size of one quarter of the Wide** (decided 14 Oct), with their own towns, routes and islands of the week; the Hollow beside | Updraft and wings; Dive and the bubble hull; the Vault tear | Story and site rewards |
 
 **One tall landmark per region**, so you can always steer by sight:
 - the Pinnacle spire (centre, visible almost everywhere);
@@ -235,7 +235,7 @@ because Act I is played as Crew 1.
 
 | # | Mission | Crew | Where | What happens | Unlocks | Gate |
 |---|---|---|---|---|---|---|
-| 12 | **Rendezvous** | {HERO} alone, then whoever you find on the way | Washed up in Dustplain (south Meridia) → home | A solo crossing of a changed continent, using the Lodestar for the first time: it finally "wakes" and points home. Corvin is already at Marrow Isle repairing the Wayfarer. Each crew is down to its lead | **Swapping resumes; the Wayfarer sails the whole sea** | Story |
+| 12 | **Rendezvous** | {HERO} alone, then whoever you find on the way (as guests, §14 question 3) | Washed up in Dustplain (south Meridia) → home | A solo crossing of a changed continent, using the Lodestar for the first time: it finally "wakes" and points home. Corvin is already at Marrow Isle repairing the Wayfarer. Each crew is down to its lead | **Swapping resumes; the Wayfarer sails the whole sea** | Story |
 | 13 | **The Lighthouse Inquiry** (Maren's regroup) | Either crew | A Tidewarden lighthouse-court in Northreach | Maren is on trial for treason by her own order. You can break her out, or win the trial with evidence from the Ledger (a Mind Read dialogue puzzle if Wynn is along). She chooses the people over the order | Maren returns | Danger (Northreach is high level) |
 | 14 | **Root and Ruin: FOREST SITE** (Sorrel's regroup) | Needs Sorrel's crew lead; Sorrel is found inside | The Eldergrove, past and present | The grove in two times: what you plant in the past opens paths in the present. Undo the deepened seal; **Celebi** is calmed. The village apologises to Sorrel. Optional: the garden puzzle chain (Celebi catch) | **Sorrel returns. Forest Well open; ship's living hull** (sails up the continent's wide rivers); Forest Summon | Puzzle |
 | 15 | **Ironfist Arena** (Tamsin's regroup) | Either crew | A colosseum island in Eastwater | Tamsin, fighting under a mask to pay for passage home, has to beat her old rival. A tournament chapter | **Tamsin returns.** Lifting Gem (Lift for anyone) | Danger |
@@ -344,8 +344,8 @@ push against.
 | Northreach | Pack ice, aurora, the lighthouse-court | Tidewarden outpost; licensed only | Main: 13 | Act II | ★★★★ |
 | **The Leviathan Shoal** | A Stillwater calm belt | Wild and huge | **"The Lane":** a Wailord pod blocks a trade lane and whalers want to hunt it. Find another lane, or move the pod's feeding ground with the Sea Well open | Act II (Flame engine) | ★★★★ |
 | Coralreach and Pearlhollow | Lagoon stilt town; undersea domes | **Symbiotic:** Pokémon hold the domes up | Main: 16 | Act II | ★★★ |
-| The Deep Shelf, Kelpwood | Kelp trench, vents, sunken ruins | Wild | Main: 18. **"The Choir":** whale-song that is really a Farer beacon | Bubble hull | ★★★★ |
-| The Cloudreach and the Aerie | Cloud sea, sky isles, monastery | Flying partners and messengers | Main: 17, 19. **"Groundbound":** a sky-born child who wants to see the sea | Act II | ★★★ |
+| The Deep Shelf (a full region) | Kelp trench, vents, sunken ruins, the Undertow tunnel under the Spine, two more dome towns besides Pearlhollow | Wild; symbiotic in the domes | Main: 18. **"The Choir":** whale-song that is really a Farer beacon. **"The Sunken Fleet":** a Tidewarden fleet lost at the Breaking; rescue or salvage | Bubble hull | ★★★–★★★★★ |
+| The Cloudreach (a full region) and the Aerie | Cloud sea, sky isles, the monastery, a sky-port town, storm-cloud reefs | Flying partners and messengers | Main: 17, 19. **"Groundbound":** a sky-born child who wants to see the sea. **"The Kite Races":** a sky-isle festival | Act II | ★★★–★★★★★ |
 | Gloam Shore and the Umbral Gate | Drowned island, black falls | The lost Gloam clan's shadow-bonds | Main: 20 | Act II | ★★★★ |
 | **Risen isles** (after the Breaking) | Sea-floor ruins now above water | None yet: newly risen, strange | **"First Footprints":** three small isles with new ecosystems and Farer relics, pure discovery for the Log | Act II | ★★–★★★★ |
 | **Spine peaks and sky isles** | Only reachable by air | Wild | Superbosses; secret Farer caches | Airship | ★★★★★ |
@@ -417,12 +417,13 @@ gag.
 
 **Final Fantasy and other nods (smaller)**
 - **Final Fantasy:**
-  - A Doduo ranch with racing ("the Dodo Derby").
+  - A Doduo ranch with racing, **the Dodo Derby**: a playable mini-game from Act II (decided 14 Oct).
   - A slow, lantern-carrying Litwick in Lantern Reef that edges closer every turn and hits very hard.
   - A Cacnea that always deals exactly 1,000 damage.
   - The Spine-peak superbosses are Farer war machines named after gemstones: the Ruby, Sapphire and Emerald
     Sentinels, a double nod to FF's Weapons and to Pokémon's game titles.
-  - Ironfist Arena's casino is the **Glimmer Saucer**.
+  - Ironfist Arena's casino is the **Glimmer Saucer**, a playable mini-game area from Act II (decided 14 Oct):
+    card and slot games for prizes, plus a battle-square challenge.
 - **Golden Sun:**
   - A silent-protagonist joke: the hero's only dialogue options are a nod, a shake of the head or "…", if the player
     picks "quiet" in the creator.
@@ -564,18 +565,26 @@ When the credits end you're returned to the world, at Marrow Isle, the day after
 - **Everything optional is still available:**
   - every island of the week, cameo quest and themed puzzle;
   - every Djinn-style find and every catch and Log entry;
-  - the Doduo races and the casino, if they're built.
+  - the Dodo Derby and the Glimmer Saucer.
 - **Nothing is permanently missable**, except Fallhaven itself, which is a story loss by design. Pokémon and Log
   entries from Fallhaven or the drowned Canalport districts can still be found afterwards: in the Dreamdeck, in
   the regrowing rim, or in the Dive areas.
 - **Heart quests finished after the ending** play their changed ending scene on their own, as an epilogue at home.
 - **The postgame adds:**
-  - **The Farers' return:** if the coda didn't play, it triggers as soon as Charts and Relics are complete. Then
-    comes first contact with the Farers.
+  - **The Farers' return:** after the ending, the Steward's quest **"Light the Beacon"** relights the Stormspire's
+    beacon (it needs one relic from each opened Well), and the Farer sky-ships come back. If the secret coda
+    already played, they're already waiting.
+  - **The Farside** (decided 14 Oct: a bigger postgame): a whole new region **beyond the Rimfalls**, the Farers'
+    own world, reached by following their ships over the receding edge. Its contents:
+    - **The setting:** sky-harbours, drifting Farer cities, and the place the Farers went when they left.
+    - **The story:** why they never came back, and what the "complete Log" was really for.
+    - **New things:** Pokémon found nowhere else (Kin entries), named bounties, and the Farers' own cultures for
+      first-contact islands of the week.
+    - **The final superboss.**
   - The Gem Sentinels and Thunderhead's Sentinel as superbosses.
   - The Groudon and Giratina catches.
   - The Galgamash finale and the Dreamdeck boss rush.
-  - A "Last Bearing" island past the old edge.
+  - A "Last Bearing" island at the far side of the Farside.
   - The Mew sighting, the reward for a complete Kin section.
 
 ## 12. What the engine side needs next (in story order)
@@ -615,7 +624,45 @@ These are the rooms and systems the mission list asks for, in the order they are
 | Bounties | Your crew's bounty (wanted posters, rival hunters), a Freeport Guild bounty board with hand-written and generated contracts, outside the story and after it (§9b) |
 | Extra Pokémon | Pokémon beyond the party limit go to the home island (the Kin Garden) until switched in, under the established rules (§8) |
 
-## 14. Mechanics questions (for the design side, not decided here)
+## 14. Mechanics questions
+
+**All 20 were answered on 14 Oct 2026.** Your answers:
+
+| # | Question | Answer |
+|---|---|---|
+| 1 | Crew 2 interludes | As recommended |
+| 2 | Walking on the world map | **Golden Sun style, as needed:** walk the continent and large islands on the world map, sail between them, enter small islands from the ship |
+| 3 | Scattered crews | **A guest system** (details below) |
+| 4 | Separate bags until mission 10 | As recommended |
+| 5 | Midpoint map changes by flag | As recommended |
+| 6 | Airship lands on marked pads | As recommended |
+| 7 | Sky and undersea layers | **Larger:** each about a quarter of the Wide (§2, §9) |
+| 8 | The Hollow as mirror copies | As recommended |
+| 9 | Legendaries caught mid-game | As recommended (Set only until Act III) |
+| 10 | Navigation as world-map UI | As recommended |
+| 11 | Allies give battle assists | As recommended |
+| 12 | The time loop by flag | As recommended |
+| 13 | Talking a fight down | As recommended |
+| 14 | Final battle relay | As recommended |
+| 15 | Postgame | **Bigger:** the Farside, a full region beyond the edge (§11) |
+| 16 | The Farer's Log screen | As recommended |
+| 17 | Bounty build order | As recommended |
+| 18 | Mini-games | **Build all three:** the language puzzle, the Dodo Derby and the Glimmer Saucer, from Act II |
+| 19 | The world after the ending | As recommended |
+| 20 | Pokémon swaps | Keep the current rule (any restoration point) |
+
+**The guest system (question 3), as I'd specify it:**
+- **When it applies:** after the Breaking, an Adept found by the other crew joins it as a **guest**.
+- **What a guest does:** a guest fills an empty slot (scattered crews are under 4, so there's room), fights with
+  their own Set Pokémon, and lends their field Psynergy.
+- **When it ends:** the guest goes back to their own crew when you reach Marrow Isle, or straight away if their own
+  crew's regroup chapter starts.
+- **What a guest can't do:** guests can't be moved between crews or have their Set Pokémon changed. That's still
+  the home-island and restoration-point rule.
+- **Why it's this small:** it's the smallest version of the system. It reuses the crew's 4 slots instead of adding a
+  fifth.
+
+The original questions and recommendations follow, for reference.
 
 Each question has my recommendation.
 

@@ -16,7 +16,13 @@ header; the detailed rules are in `docs/design/`.
   quests, catching and the Log. The Farer's Log has a Pokédex-style Kin section. Extra Pokémon live in the Kin
   Garden on Marrow Isle. Bounties (§9b): the crew's own wanted bounty, a Freeport Guild board of hand-written
   and generated contracts, and rival hunter crews. Mechanics questions 19 (the post-ending world: yes) and 20
-  (keep swaps at any restoration point) are decided; the rest of the 20 in its §14 await decisions.
+  (keep swaps at any restoration point) are decided.
+- **All 20 story mechanics questions answered** (`docs/story/story.md` §14). Mostly as recommended. The changes:
+  - Golden Sun-style world-map walking plus sailing.
+  - A small guest system for the scattered crews after the midpoint.
+  - Larger sky and undersea regions, each about a quarter of the outer sea.
+  - A bigger postgame: the Farside, a full region beyond the world's edge.
+  - All three mini-games built: the language puzzle, the Dodo Derby and the Glimmer Saucer.
 
 ## 14 Oct 2026
 
