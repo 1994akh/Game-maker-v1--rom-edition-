@@ -59,10 +59,9 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **Decided, the battle line:** each Adept stands next to their partner. When a partner withdraws or faints with no
   replacement, the line closes the gap. This matters because Golden Sun's spread attacks hit neighbours.
 - **Decided, the enemy side:** it isn't only Pokémon, and its size is capped at what Golden Sun allowed.
-  - **Corrected:** the exact cap is **not yet confirmed from code**. Extracted groups never exceed 6 enemies (GS1)
-    or 5 (GS2), and the notes say "6 slots, large enemies take 2", but that line has no code evidence.
-  - **To do:** trace the group-setup routine (GS2 `FUN_08127cd4`, GS1 `0x080C1A40`). Until then the working figure
-    is 6 slots.
+  - **Confirmed from code (14 Oct, §12):** 6 slots; small enemies take 1 slot and large ones 2, decided by a flag
+    on the enemy's battle-sprite entry. A formation's minimum counts are always placed, extras are rolled while
+    they fit.
 - **Decided, enemy types:**
 
   | Enemy | Catchable | How it fights |
