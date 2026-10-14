@@ -3,6 +3,15 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 14 Oct 2026 (engine: the battle look)
+
+- **Battle sprites come from the extraction** (engine PR #32). Enemies draw their Golden Sun sheets (161 from GS1
+  and 370 from GS2, exported locally), Adepts the party sheets (Isaac, Garet, Ivan, Mia, Jenna; the hero and the
+  Forest and Shadow Adepts borrow one until the graphics pass), Pokémon their pokeemerald-expansion pictures
+  (front for foes, back for partners). Rounds play one entry at a time, the actor's animation before the words.
+  **Proposed placeholders:** the Thief sheet stands in for rival Adepts; the animation scripts' roles are
+  inferred (0 idle, 1 attack, 3 cast) and recorded in `re/notes/gs_battle_sprites.md` with the decoded format.
+
 ## 14 Oct 2026 (story)
 
 - **The story is written** (`docs/story/story.md`), from a Q&A in the cloud chat. Tone: warm adventure with real

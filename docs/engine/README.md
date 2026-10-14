@@ -38,15 +38,20 @@ design docs.
 | **pokeemerald-expansion, PokeAPI CSVs** | Pokémon species, moves, learnsets and evolutions, converted to JSON. |
 | **Minish Cap decomp (tmc)** | Reference for free movement, corner nudging and puzzle objects. |
 
-## Status (14 Oct 2026)
+## Status (14 Oct 2026, evening)
 
 - **Runs on the Fold 7:** the debug APK built by `tools/setup_dev.py` + the Android preset installed and ran on the
-  phone (your test). The build in `OneDrive\Apps-Roms\_GameMaker-builds\GameMaker-debug.apk` is the one that ran.
-- **Playing:** Sol Sanctum and Alpine Crossing from the extracted maps; Golden Sun free movement; Move, Frost and
-  Growth field Psynergy with the game's timings and flag lifetimes; one field-ability table for Psynergy and the kept
-  HMs. 32 headless tests pass; each system has an automated end-to-end check with a screenshot.
-- **Next:** NPC dialogue from the extracted text, the first 4 + 4 battle on `gs_battle.py`'s formulas, Reveal,
-  menus, the character creator, Fold layouts.
+  phone (your test). The newest build is `OneDrive\Apps-Roms\_GameMaker-builds\GameMaker-debug.apk` (dated copies
+  beside it).
+- **Playing (a vertical slice):** title → character creator → Stonehollow (starter at the hatchery, inn with rest and
+  Pokémon management, Reveal and a hidden chest, Maren joins) → Vale and the GS1 world map with sailing → random
+  battles against monsters and wild Pokémon with the full command set (Attack, Psynergy, Unleash, Summon, Item,
+  Defend, Catch, the partner revive window), statuses and buffs, EXP and level-ups, saves and Continue, touch
+  controls. Battles draw the extracted Golden Sun sheets and pokeemerald-expansion pictures with animated rounds.
+  126 headless tests pass; each system has an automated end-to-end check with a screenshot.
+- **Next:** battle visuals polish (hurt and down scripts, Psynergy effects), enemy AI, Set Pokémon from the field
+  menu, crews and the home island, GS2 data, music hooks, more own rooms (the Vault's upper halls), statuses that
+  persist after battle. Design defaults chosen while building are marked "proposed" in `docs/design/`.
 
 ## Tools to install first ([full ranked list](resources/ranked.md))
 
