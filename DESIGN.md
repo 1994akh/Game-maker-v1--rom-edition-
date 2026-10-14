@@ -27,9 +27,30 @@ What that means in practice:
 3. **Content:** region maps on placeholder tiles; story and the six sites; Weyard form data; roster placement; DexNav and auto-run.
 4. **Polish:** GS tilesets and sprites; Weyard form art; GS spell and Summon animations; GS menu and dialogue styling; music mix.
 
+> ## Updated 14 Oct 2026: read this first
+>
+> Several decisions below were **superseded** after this file was written, mostly because the game is now a **native
+> Android app** (no GBA limits) rather than a ROM hack. The detailed rules live in `docs/design/`; superseded rows in
+> the tables below are marked **~~struck~~ → new rule** and point there. The unchanged parts (six sites, classes,
+> Weyard forms, Djinn-style encounters, function-first order) still stand.
+>
+> | Was | Now | Where |
+> |---|---|---|
+> | GBA ROM hack | **Native Android app** (Galaxy Z Fold 7) in **Godot 4.7.2** | `docs/engine/README.md` |
+> | 1 Adept + 1 Pokémon per side | **4 Adepts + 4 partner Pokémon** vs up to ~6 enemies | `docs/design/party-and-battle.md` §2 |
+> | 8 Adepts, one on the field, others swap in | **Two crews of 4**; no swapping in battle; crews change only on the home island | `party-and-battle.md` §1, §3 |
+> | Summons from the whole party | From the **active crew** (up to 8 Standby) | `party-and-battle.md` §4 |
+> | The whole party's field Psynergy works | The **active crew's** works, with backup items for every group Psynergy | `party-and-battle.md` §7 |
+> | Psynergy puzzles replace HMs; Surf/Dive/Waterfall separate | **One field-ability table**: Psynergy and the kept HMs (Cut, Rock Climb, Defog, Whirlpool, Surf, Dive, Waterfall) are the same system | `docs/design/field-abilities.md` |
+> | Pokémon damage math | **Golden Sun's formulas and stat scale** for everyone; Adepts out-HP partners | `party-and-battle.md` §5 |
+> | (not covered) | **Character creator** for the hero: gender, pronouns, cosmetics; name and gender permanent | `docs/design/character-creator.md` |
+> | (not covered) | **Story structure**: hero alone vs the rival → a mission played as the rival → recruitment missions → crew swapping unlocks | `party-and-battle.md` §1 |
+>
+> Full history: `docs/CHANGELOG.md`. Story work starts from `docs/story/BRIEF.md`.
+
 ## The concept
 
-A **GBA ROM hack** set in a **brand-new region reminiscent of Weyard**. A party of **8 Adepts** fights alongside their **Pokémon**, and the Pokémon play the Djinn role. Each Adept has **3 Pokémon Set** on them: their types decide the Adept's class, one of them fights beside the Adept, and Pokémon on Standby power Summons. Each Adept's own element decides their Psynergy. As in Golden Sun, the whole party's Psynergy works on the field, solving puzzles in place of most HMs, and items grant extra Psynergy anyone can use. Water travel stays Pokémon-powered: Surf, Dive and Waterfall work as HM-style field moves. The world looks and moves like Golden Sun, with The Lost Age's sailing and world map. Battles look like Pokémon with Golden Sun spell effects. The story centers on **six ancient elemental sites**, each covering three types and bound to a legendary Pokémon.
+A ~~GBA ROM hack~~ **native Android app** set in a **brand-new region reminiscent of Weyard**. A party of **8 Adepts** fights alongside their **Pokémon**, and the Pokémon play the Djinn role. Each Adept has **3 Pokémon Set** on them: their types decide the Adept's class, one of them fights beside the Adept, and Pokémon on Standby power Summons. Each Adept's own element decides their Psynergy. As in Golden Sun, the whole party's Psynergy works on the field, solving puzzles in place of most HMs, and items grant extra Psynergy anyone can use. Water travel stays Pokémon-powered: Surf, Dive and Waterfall work as HM-style field moves. The world looks and moves like Golden Sun, with The Lost Age's sailing and world map. Battles look like Pokémon with Golden Sun spell effects. The story centers on **six ancient elemental sites**, each covering three types and bound to a legendary Pokémon.
 
 ## Decisions
 
@@ -37,9 +58,9 @@ A **GBA ROM hack** set in a **brand-new region reminiscent of Weyard**. A party 
 
 | Area | Decision | Source |
 |---|---|---|
-| Platform | GBA ROM hack | — |
-| Battle format | **1 Adept + 1 Pokémon per side** (fits the engine's 4-fighter limit; runs as a re-skinned double battle, with the Adept as a special battler whose moves are Psynergy) | Hybrid |
-| Party | **8 Adepts**, like The Lost Age; one Adept on the field at a time, the others swap in | Golden Sun: The Lost Age |
+| Platform | ~~GBA ROM hack~~ → **Native Android app, Godot 4.7.2** (14 Oct) | `docs/engine/` |
+| Battle format | ~~1 Adept + 1 Pokémon per side~~ → **4 Adepts + 4 partner Pokémon** on your side; the enemy side capped as in Golden Sun (13 Oct) | `docs/design/party-and-battle.md` §2 |
+| Party | ~~8 Adepts, one on the field, the others swap in~~ → **Two crews of 4**. Crew 1 = hero (Earth), Sea, Forest, Shadow; Crew 2 = rival (Earth), Sea, Flame, Sky. You play one crew at a time; no swapping in battle (13 Oct) | `party-and-battle.md` §1 |
 | Adept element | **Each Adept belongs to one of the 6 site groups** (Earth, Flame, Sea, Sky, Forest, Shadow). **Earth and Sea have two Adepts each.** Earth: the hero plus a rival or co-lead, a nod to Isaac and Felix both being Venus. Sea: a second healer for when Adepts swap in and out | Golden Sun, adapted |
 | What the element does | **Decides the Adept's Psynergy, in battle and on the field.** **Set Pokémon that match the Adept's group give a bonus** (stronger Psynergy or better stats) | Golden Sun, adapted |
 | Set Pokémon | **3 Pokémon Set per Adept, 24 total.** One of the three is the Adept's fighting partner at a time | Golden Sun Djinn, adapted |
@@ -49,9 +70,9 @@ A **GBA ROM hack** set in a **brand-new region reminiscent of Weyard**. A party 
 | Class tiers | **Move up by Adept level**, like Golden Sun | Golden Sun |
 | Class during battle | **Locked for the whole battle.** Mega Evolution, form or type changes, and partner swaps mid-battle do **not** change the Adept's class. It's recalculated after the battle | New |
 | Big attacks | **One Summon system.** Z-Moves and Dynamax are merged into it; their visuals can be reused as Summon variants | GS Summons + Unbound Z/Dynamax |
-| Summon cost | **1–3 Standby Pokémon by tier,** of matching types, **drawn from the whole party** (benched Adepts' Standby Pokémon count too), like Golden Sun | Golden Sun |
-| Field puzzles | **Psynergy puzzles replace most HMs.** See "Field Psynergy" below | Golden Sun |
-| Water field moves | **Surf, Dive and Waterfall stay as Pokémon HM-style field moves**, not Psynergy. See "Water field moves" below | Pokémon / Unbound |
+| Summon cost | **1–3 Standby Pokémon by tier,** of matching types, ~~drawn from the whole party~~ → **drawn from the active crew** (up to 8) (13 Oct) | `party-and-battle.md` §4 |
+| Field puzzles | ~~Psynergy puzzles replace most HMs~~ → **Psynergy and HMs are one field-ability system**; the kept HMs add new puzzle verbs (14 Oct) | `docs/design/field-abilities.md` |
+| Water field moves | **Surf, Dive and Waterfall** stay Pokémon-powered, now as rows of that same table (free to use; any Set Pokémon in the active crew that can learn them) | `field-abilities.md` |
 | Catching | **Both:** Poké Balls for most Pokémon; **Djinn-style encounters** for special and regional ones. See below | Hybrid |
 
 #### Class scoring
