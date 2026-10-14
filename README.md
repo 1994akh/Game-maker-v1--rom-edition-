@@ -1,10 +1,11 @@
 # Game-maker-v1--rom-edition-
 
-- [DESIGN.md](DESIGN.md): component decisions (synced from the claude.ai project "GBA Game Gumbo").
-- [docs/engine/](docs/engine/README.md): the engine choice (Godot 4.7.2, 14 Oct 2026) and the research behind it.
-- [docs/design/character-creator.md](docs/design/character-creator.md): the hero's character creator (gender and cosmetics).
-- [docs/design/party-and-battle.md](docs/design/party-and-battle.md): party (two crews of 4) and battle rules,
-  agreed 13 Oct 2026.
-- [docs/phase1/](docs/phase1/README.md): phase 1 (foundation): code base recommendation, movement, battle-format,
-  Dive and controls sizing, a world/story proposal, the review and the schedule.
-- [re/](re/README.md): reverse-engineering toolkit (gbax) and notes on Pokémon Unbound and Golden Sun 1 & 2.
+Design repo for a Golden Sun × Pokémon game: a native Android app (Galaxy Z Fold 7) built in Godot. The engine
+lives in the private repo `GameMaker-Engine`. (The repo name predates the move away from a ROM hack.)
+
+- **Start here:** [DESIGN.md](DESIGN.md), with its 14 Oct header of what changed, and [docs/CHANGELOG.md](docs/CHANGELOG.md).
+- **Writing the story:** [docs/story/BRIEF.md](docs/story/BRIEF.md): every constraint, the decided structure, what's open, and what must come back as a mechanics question. Raw material in [docs/story/drafts/](docs/story/drafts/README.md).
+- **Rules:** [docs/design/party-and-battle.md](docs/design/party-and-battle.md) (crews, battles, stats), [docs/design/field-abilities.md](docs/design/field-abilities.md) (Psynergy + HMs), [docs/design/character-creator.md](docs/design/character-creator.md).
+- **Engine:** [docs/engine/](docs/engine/README.md): why Godot 4.7.2, and the research behind it.
+- **Phase 1 research:** [docs/phase1/](docs/phase1/README.md): the sizing, the controls spec, the world proposal.
+- **Reverse engineering:** [re/](re/README.md): the gbax toolkit and the Golden Sun / Unbound notes.

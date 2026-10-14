@@ -1,0 +1,56 @@
+# Changelog of decisions
+
+Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
+header; the detailed rules are in `docs/design/`.
+
+## 14 Oct 2026
+
+- **HMs merged into the field Psynergy system** (`docs/design/field-abilities.md`, PR #8). One table for both. Kept:
+  Cut, Rock Climb, Defog, Whirlpool, Surf, Dive, Waterfall. Dropped: Strength (= Move), Flash (Reveal/Blaze), Fly
+  (Teleport is fast travel). Rock Smash folded into Burst. HMs are free; Psynergy costs PP. *Why:* both are "an
+  ability used on the tile or object ahead, gated by who's in the crew"; the engine already treats them identically,
+  and the kept HMs add four new puzzle verbs.
+- **Character creator settled** (`docs/design/character-creator.md`, PR #7): options approved; pronouns a separate
+  choice defaulting to the chosen gender; no starter Pokémon at creation; name and gender permanent, cosmetics
+  changeable at a mirror at home.
+- **Engine: Godot 4.7.2** (`docs/engine/README.md`, PR #6), chosen after a three-route comparison and a challenger
+  round against libGDX and Unity. The engine lives in the private repo `GameMaker-Engine`. *Why:* Godot supplies
+  rendering, input, audio, saves, UI and the Android build; it was the only route scoring well on every criterion,
+  with a 6–8 week path to a playable slice.
+- **Golden Sun is decompiled now:** `PascalPixel/alchemy` (GS1 ~90%). `DESIGN.md`'s "no Golden Sun decomp found" is
+  out of date. The extraction notes and exporters are in `re/`.
+- **Story moves to the cloud chat.** Non-mechanical story decisions are made there; this repo records them.
+  Graphics are remade after the engine works; music and sound near the end.
+
+## 13 Oct 2026
+
+- **Party and battle rules** (`docs/design/party-and-battle.md`, PR #5), replacing DESIGN.md's battle format:
+  - Two crews of 4 Adepts (Crew 1: hero/Earth, Sea, Forest, Shadow; Crew 2: rival/Earth, Sea, Flame, Sky). You play
+    one at a time; Adepts change crews only on the home island; Set Pokémon change only at restoration points.
+  - Battles are 4 Adepts + 4 partner Pokémon vs an enemy side capped as in Golden Sun (~6 slots).
+  - A Pokémon fights only while its Adept can. A downed Adept's partner gets one action (Rouse: once per Adept per
+    battle, 50% / 60% if the partner matches the Adept's group, revives at 25% HP) to revive them, then withdraws.
+    Adepts can fight without Pokémon. No swapping in battle except replacing a fainted partner.
+  - Golden Sun's damage formulas and stat scale for everyone (the reference implementation is `re/gbax/codecs/
+    gs_battle.py`); Adepts clearly out-HP partners. Golden Sun-style long Psynergy lists, no 4-slot cap. Pokémon keep
+    the Pokémon-style level-up popup; Adepts' level-ups shown Golden Sun-style.
+  - Set/Standby/Summons follow Golden Sun's Djinn model; Summons draw on the active crew.
+  - Restoration points: Pokémon heal free, Adepts pay (a paid Adept heal heals the Pokémon too). Defeat: wake at the
+    last restoration point with everyone restored, half your coins lost.
+  - Story structure: the hero alone vs the rival → a mission played as the rival → recruitment missions → crew
+    swapping unlocks.
+  - *Why:* the 1+1 format existed only to fit the GBA's 4-fighter limit; a native app doesn't have it, and crews
+    remove the riskiest battle code (switching Adepts mid-battle) while opening story possibilities.
+- **Phase-1 answers** (`docs/phase1/README.md`, PR #3): native app first; code base on hold until the Golden Sun
+  extraction was done; free 8-way movement; all 8 Adepts usable (later refined into two crews); the partner swaps
+  with its Adept (later superseded: no swapping in battle); the engine in a new private repo.
+- **Golden Sun extraction** (`re/`, PR #4): all text, every mechanics table, battle formulas, movement constants,
+  maps as Tiled JSON, battle and field sprites, field-Psynergy spec, music. Verified against the ROMs and
+  goldensunwiki.net.
+
+## 12 Oct 2026
+
+- Phase-1 research (`docs/phase1/`, PR #2): code-base comparison, movement sizing, battle-format sizing, Dive and
+  water moves, the Fold 7 controls spec, a world/story proposal, a red-team review, a schedule. Written when the
+  target was still a GBA ROM; its engine recommendations were superseded on 13–14 Oct, but its sizing and the controls
+  spec still apply.
