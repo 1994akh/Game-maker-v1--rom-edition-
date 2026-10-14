@@ -5,6 +5,24 @@ header; the detailed rules are in `docs/design/`.
 
 ## 14 Oct 2026
 
+- **The debug APK runs on the Fold 7.** You confirmed it on the phone. Folding, touch and controller details are still
+  to be checked in play, but the build pipeline (Godot 4.7.2 → API 36 APK) is proven end to end.
+- **Battle rules re-checked against Golden Sun 1's code** (`docs/design/party-and-battle.md` §4, §5, §12). The
+  three open code checks are closed: enemy cap 6 slots with large enemies taking 2; EXP only to members standing at
+  the end; Set/Standby countdowns tick at the end of each round (the page had said "on the Adept's own turn"). New
+  from the code: a Summon gives the summoner a Power boost for the rest of the battle; turn order has a random bonus
+  of up to 6.25%. Four wrong claims in the notes (Guard levels, the GS1 Summon bonus, Drain damage, PP recovery)
+  are fixed in `re/`, and the formula self-test now runs 2,794 checks. *Why:* the engine's battle code is next, and
+  it is tested against `gs_battle.py`, so the oracle has to be right first.
+- **Local folder audited again, GitHub additions ranked** (`docs/engine/resources/local-folder-audit-2026-10-14.md`).
+  Already on disk and worth lifting now: the official Godot demos (turn queue, 21:9 layout, controller remap wizard,
+  JSON dialogue, RPG theme), the MetroidvaniaDeveloperSystem environment shaders and music crossfade, `lit`'s post
+  shaders, the joypads remap wizard. Top adds: KoBeWi's palette-swap shader, controller_icons, gloot, Maaack's menus,
+  pokerecomp (read-only), goldensunvst. Three folders must stay disabled (ziva_installer, GodotBridge, godot-mcp).
+- **Golden Sun extraction pass 3** landed in `re/`: all field sprites with per-direction animations, actor slots and
+  puzzle objects, exits with arrival points (GS2 warps 19% → 99.5% resolved), both world maps, Lost Age field
+  Psynergy handlers, and the battle confirmations above. Notes: `re/notes/gs_field_sprites.md`, `gs_worldmap.md`,
+  `gs_maps.md`, `gs_field_psynergy.md` §12, `gs_battle_mechanics.md` §13.
 - **HMs merged into the field Psynergy system** (`docs/design/field-abilities.md`, PR #8). One table for both. Kept:
   Cut, Rock Climb, Defog, Whirlpool, Surf, Dive, Waterfall. Dropped: Strength (= Move), Flash (Reveal/Blaze), Fly
   (Teleport is fast travel). Rock Smash folded into Burst. HMs are free; Psynergy costs PP. *Why:* both are "an

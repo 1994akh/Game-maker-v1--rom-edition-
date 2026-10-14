@@ -85,6 +85,9 @@ PHASES = {
 }
 
 
+from .gs_maps import flag_scope  # noqa: E402
+
+
 def _rom(path):
     with open(path, "rb") as f:
         return f.read()
@@ -243,6 +246,218 @@ def decode_event(e, abilities, game):
     return d
 
 
+# ---------------------------------------------------------------------------------------------------------------
+# GS2 (Lost Age) field-Psynergy handlers, 14 Oct second pass (notes\gs_field_psynergy.md section 12).
+# Routines from the compare chains 0x080DB4B8 (empty) / 0x080DB670 (targeted) and the end-of-effect table 0x080DB8A0.
+# "target" routines of ids 18-26 are 8-byte wrappers that store the target and fall into the "empty" routine.
+# Engine helpers named below (GS2, Ghidra decompile, VERIFIED unless the field says INFERRED):
+#   0x080CE31C target resolve, 0x080CE458 event search (phase word, field id, target), 0x080CEAFC run event,
+#   0x080CDA84 position ahead within the field id's range, 0x080CDAC0 actor range test, 0x080DBB78 terrain cell,
+#   0x080DC10C spawn effect object (sprite id), 0x081C0010 sound, 0x08013560 wait n frames, 0x080E8B44 screen shake.
+# ---------------------------------------------------------------------------------------------------------------
+GS2_EFFECT_HIT_RULE = (
+    "GS2 phase-5 (effect-hit) events are looked up once when the effect starts (0x080CE458(0x50000005, field id, "
+    "0x080CE31C target)) and then RUN EVERY FRAME while the effect animates: 0x080CEAFC(event, stage, frame). "
+    "stage is the effect's own progress value; frame counts up and the last call passes 999 (Burst) or the loop "
+    "ends when the effect task reports 999. The script is a per-frame callback, not a one-shot: a rebuild should "
+    "give it on_effect_frame(stage, frame) and on_effect_end(). VERIFIED call sites: Pound 0x080E5D5C, Scoop "
+    "0x080E68D0, Burst 0x080E572C, Parch 0x080E7844, Hover 0x080E9AF4, Grind 0x080E92B4, Cyclone helper 0x080E249C.")
+
+GS2_FIELD_SPEC = {
+    7: dict(name="Lift", routines=dict(target="0x080DDDA0", empty="0x080DDEA8"),
+            effect="Same code as GS1 (same sounds 0x86/0x82, 15-frame waits, constants; only relocated): two hands "
+                   "(effect object 0x2A1; GS1 0x11D) raise the boulder actor 24 px (empty cast: 14 px and drop). "
+                   "The phase-0 script then moves or removes it.",
+            differences="GS2 targets only actors that have a Lift event (GS1 any nearest actor); range 17 px. "
+                        "GS1 7 events, GS2 19 (all phase 0) on sprite 329.",
+            html5="LiftFieldPsynergy: destination_y_pos (default tile_y - 2) and destination_collision_layer "
+                  "(default +1) are per-object data; in the ROM the script decides where the rock goes."),
+    11: dict(name="Carry", routines=dict(target="0x080DF1FC", empty="0x080DF6F4"),
+             effect="Same code as GS1 (sounds 0x87/0x83/0x82/0x72/0xAF, 15/10-frame waits): hand object 0x2A1 lifts "
+                    "the actor and sets it down 16 px (0x100000) steps away along the facing.",
+             differences="GS2 has 7 events (2 phase 1 'pre', 5 phase 0) vs GS1 18; GS2 event-only targeting."),
+    13: dict(name="Catch", routines=dict(target="0x080E03C4", empty="0x080E03CC"),
+             effect="Same code as GS1 (sounds 0x8A/0x84/0x72, waits 1/10/15/20): hand object 0x116 flies to the far "
+                    "actor (range 49 px, dy 48) and pulls it back. GS1 has one extra call 0x08096C80(0xD7).",
+             differences="GS2: 2 events only."),
+    17: dict(name="Lash", routines=dict(target="0x080E0978", empty="0x080E09C0"),
+             acts_on="rope post actors (sprite 407) listed in the ROPE TABLE",
+             effect="Target routine looks the actor up in the rope table *(0x0300009C)+0x0C: 8 records x 0x20 bytes "
+                    "{s16 post_a, s16 post_b, ..., +0x10 s16 segments drawn, +0x1C active}; filled by room scripts. "
+                    "Not listed -> fail flag (+0x20 = 1): the lash hand (object 0x16B) rises and falls, nothing tied. "
+                    "Listed -> rope index/posts stored at field state +0xD31..+0xD33; the hand rises 16 frames, "
+                    "sound 0x84, then a per-frame task; on contact sound 0x200 and 0x080D92D4(rope, post_a, post_b) "
+                    "draws the rope from post A to post B 8 px above them in distance-proportional segments, "
+                    "sound 0x18B.",
+             timing="10 + 16 frames rise, 6-frame pause, rope drawn over the following task frames",
+             persistence="the phase-0 Lash script sets the event's flag; room init re-ties ropes from flags "
+                         "(flag scope per event in rooms[].events[].flag_scope)",
+             html5="LashFieldPsynergy + RopeDock objects (is_starting_dock, dest_x/dest_y, tied): same model "
+                   "(a pair of docks); html5 keeps the pairing on the dock object, the ROM in the rope table."),
+    18: dict(name="Pound", routines=dict(target="0x080E5D54", empty="0x080E5D5C"),
+             acts_on="pillar actors (sprites 406, 411) ahead, range 33 px, cone 45 deg, dy 12",
+             effect="Effect object 0x160 (fist) above the target; aborted if another solid actor (flag byte +0x59 "
+                    "bit 0) overlaps the hit point (0x080DBE80). Phase-5 event per frame with (hit stage, frame). "
+                    "The script sinks the pillar (82 of 85 events are phase 5).",
+             persistence="usually a 0x2xx/0x3xx flag: pillars pop back up on re-entry (see flag_scope_counts)",
+             html5="PoundFieldPsynergy shrinks the sprite, sets collision on tiles of events 'active at direction' "
+                   "and allow_jumping_over; the ROM does the height change in the per-frame script."),
+    19: dict(name="Tremor", routines=dict(target="0x080E8DB0", empty="0x080E9090"),
+             acts_on="actors (range 33, cone 45 deg, dy 16)",
+             effect="Horizontal screen shake 0x080E8B44(mode 1), sound 0x98, 10-frame waits; no effect-hit lookup. "
+                    "The phase-0 event on the targeted actor (10 of 11) runs after the shake: loose objects fall. "
+                    "INFERRED purpose"),
+    20: dict(name="Scoop", routines=dict(target="0x080E68C8", empty="0x080E68D0"),
+             acts_on="tile ahead 16 px (dirt spots; vertical 0)",
+             effect="Effect object 0x161 digs; sounds 0x8A, 0x84, 0x72. With a phase-5 event: per-frame call "
+                    "(stage, frame) where stage = 1 only at frame 30 and 2 only at frame 50 (else 0). With no "
+                    "event but diggable ground (state +0x1938 == 1): at frame 24, 0x080E716C pops object 0x1E9 "
+                    "with a random find (75%: one of 16 u16 entries of the table at literal 0x080E7234; "
+                    "else coins). INFERRED: the random-find details",
+             reference="gs2_scoop_stage(frame)"),
+    21: dict(name="Burst", routines=dict(target="0x080E5724", empty="0x080E572C"),
+             acts_on="tile ahead 16 px (cracked rock)",
+             effect="Explosion effect, sound 0x82; phase-5 event per frame (stage, frame), last call frame = 999. "
+                    "62 events: 38 phase 5, 12 phase 0, 12 phase 8 (override)."),
+    22: dict(name="Parch", routines=dict(target="0x080E783C", empty="0x080E7844"),
+             acts_on="water cell 32 px ahead (range 33, vertical 0)",
+             effect="0x080CDA84 gives the point ahead; 0x080DBD5C(x, z, layer) tests the cell (water); "
+                    "0x080DBDC8 reads its event id -> phase-5 lookup. Outcome 0 = nothing there, 1 = water but no "
+                    "event, 2 = event. Sounds 0x8C, 0x82, 0x21E. All 15 events phase 5: the script lowers the "
+                    "water / changes tiles."),
+    23: dict(name="Sand", routines=dict(target="0x080E4A2C", empty="0x080E4A34", end_of_effect="0x080E4730"),
+             acts_on="anywhere; works only on sand terrain",
+             effect="0x080DBCD8(x, z) = terrain cell kind 2 (0x080DBB78) under the player; state +0xD48 = 1 when "
+                    "NOT on sand (fail animation). The player spins (+0x2000 facing per frame, 40 frames, sound "
+                    "0x236); at frame 60 the sprite becomes 0xFB (sand mound), sound 0x88. "
+                    "End of effect 0x080E4730: phase-4 event lookup (0x40000005) for the cell, run with "
+                    "(event, +0x18, -1); the leader's sprite comes back from state +0x214, lifted 10 px, sounds "
+                    "0x220/0x21B. 55 events: 28 phase 0 (sand spots that do something while sanded), 27 phase 4 "
+                    "(where you surface).",
+             html5="SandFieldPsynergy: tile property allow_sand + a separate sand collision layer; ROM uses a "
+                   "terrain kind and phase-4 events instead of a second collision map."),
+    24: dict(name="Hover", routines=dict(target="0x080E9AEC", empty="0x080E9AF4", end_of_effect="0x080E9DB4"),
+             acts_on="anywhere (6 events)",
+             effect="Phase-5 lookup at the start; player anim 5, raised, sound 0x82. Fails (sound 0xF6, comes "
+                    "down in 32 frames) when 0x080DBCC0 rejects the cell or a solid actor overlaps. Otherwise the "
+                    "phase-5 script runs once (event, +0x18, +0x1A) and the hover task runs until it ends. "
+                    "End of effect 0x080E9DB4 (the 0x2000 cast): sinks the player to the ground, at most 60 frames, "
+                    "sound 0x84, then 2 x 20-frame settles; phase-2 events (2) run then.",
+             persistence="none (state only while floating)"),
+    25: dict(name="Cyclone", routines=dict(target="0x080E306C", empty="0x080E3074"),
+             acts_on="grass/bush cells around the player (no actor targeting; range 1, cone 0)",
+             effect="Whirl object 0x118 on the player, BG whirl distortion (0x080E2A68), sounds 0x88/0xCF; the "
+                    "helper 0x080E249C (called 3 times) checks terrain cells (0x080DBB78) and looks up the "
+                    "phase-5 events of the cut cells (all 140 events are phase 5). INFERRED: radius."),
+    26: dict(name="Blaze", routines=dict(target="0x080E3CFC", empty="0x080E3D04"),
+             acts_on="torch actors (sprites 364, 365, 418, 419, 489), range 17, dy 64",
+             effect="Looks for a torch actor among the 80 slots (0x080CDAC0); flame objects 0x16E/0x16F, sounds "
+                    "0xBA, 0xCF, 0x18B. Looks up phase 6 (0x60000005) and phase 2 (0x20000005) events: phase 6 "
+                    "= the torch is lit, phase 2 = already lit / end. 47 events: 21 phase 1, 11 phase 2, "
+                    "7 phase 0, 8 phase 6."),
+    27: dict(name="Grind", routines=dict(target="0x080E92B4", empty="0x080E97C8"),
+             acts_on="rock actor (sprite 424) or tile, range 33, cone 45 deg",
+             effect="Vertical screen shake 0x080E8B44(mode 2), sounds 0xEE/0x186; 0x080E9250 scrolls map rows "
+                    "(DMA) for the grinding look; phase-5 event per frame (8 of 19 events), phase 0 for 11."),
+    30: dict(name="Teleport", routines=dict(target="0x080E7818", empty="0x080E781C"),
+             acts_on="the cell UNDER the player (0x080CB144) - teleport pads",
+             effect="No engine effect: the routine only calls 0x080CDF5C (a getter) and returns. Everything is the "
+                    "phase-0 script of the pad (14 events): it warps to the paired pad."),
+}
+
+
+def gs2_scoop_stage(frame):
+    """Stage value passed to Scoop's phase-5 script on effect frame `frame` (GS2 0x080E68D0, VERIFIED)."""
+    return 1 if frame == 30 else 2 if frame == 50 else 0
+
+
+FLAG_SCOPES = {
+    "visit": "0x80-0xDF: cleared on every room entry",
+    "room": "0x200-0x2FF: cleared on every room entry (puzzle resets when the room is re-entered)",
+    "place_group": "0x300-0x3FF: cleared when entering a room of another place group (room table byte 2)",
+    "view": "0x164/0x165: set by Scene_AssignViewFlags for camera-streamed actors",
+    "saved": "everything else: kept and saved (the 0x200-byte flag block at 0x02000040 is in the save)",
+    "source": "VERIFIED GS1 0x0808AB74 / GS2 0x080C9C38 (Scene_ResetFlagsOnEnter; alchemy SRC/FIELD/COMMON/FIELD4.C)"}
+
+# Object kind by the Psynergy that targets a sprite (INFERRED labels; the field ids are VERIFIED event data).
+KIND_BY_FIELD = {1: "pushable (Move: pillar, statue, log, crate)", 6: "puddle (Frost -> ice pillar)",
+                 12: "sprout (Growth -> vine)", 7: "boulder (Lift)", 11: "carryable (Carry)",
+                 4: "Force target (pillar, tree, bell)", 5: "Douse target", 13: "far item (Catch)",
+                 14: "Whirlwind target (leaves, bush)", 9: "Halt target (moving object)", 3: "Ply target",
+                 17: "rope post (Lash)", 18: "pillar (Pound)", 19: "Tremor target", 26: "torch (Blaze)",
+                 27: "rock (Grind)", 2: "NPC (Mind Read)"}
+
+
+def object_kind(field_ids):
+    fids = {int(k): v for k, v in field_ids.items()}
+    puzzle = {k: v for k, v in fids.items() if k != 2}
+    if puzzle:
+        return KIND_BY_FIELD.get(max(puzzle, key=puzzle.get), f"field id {max(puzzle, key=puzzle.get)}")
+    return KIND_BY_FIELD[2] if fids else None
+
+
+def _collision(base, area, cache):
+    if area not in cache:
+        p = os.path.join(base, "maps", "areas", f"area_{area:03d}", "collision.json")
+        cache[area] = load_json(p) if os.path.exists(p) else None
+    return cache[area]
+
+
+def resolve_target(d, e, r, base, coll_cache, spr_dir, res, obj_types):
+    """Attach the event's target object: the actor row (placement table or script-spawned table) for actor events,
+    the collision cells carrying the event id for tile events."""
+    kind = d["target_kind"]
+    if kind == "anywhere":
+        res["anywhere"] += 1
+        return
+    if kind == "actor":
+        res["actor"] += 1
+        ref = e.get("actor")
+        if not ref:
+            d["target"] = dict(resolved=False, slot=e.get("actor_slot", d["target_id"]))
+            return
+        if ref["source"] == "party":
+            d["target"] = dict(resolved=True, slot=ref["index"], party_member=True)
+            res["actor_resolved"] += 1
+            return
+        rows = r.get("actors", []) if ref["source"] == "placements" else [
+            a for a in r.get("actors_spawned", []) if a.get("table") == ref.get("table")]
+        a = next((x for x in rows if x["index"] == ref["index"]), None)
+        if a is None:
+            d["target"] = dict(resolved=False, slot=e.get("actor_slot"))
+            return
+        res["actor_resolved"] += 1
+        png = os.path.join(spr_dir, f"{a['sprite_id']:04d}.png")
+        d["target"] = dict(resolved=True, slot=a["slot"], source=a["source"], table=a.get("table"), row=a["index"],
+                           sprite=a["sprite"], sprite_id=a["sprite_id"],
+                           sprite_png=os.path.relpath(png, base).replace("\\", "/") if os.path.exists(png) else None,
+                           x=a["x"], y=a["y"], z=a["z"], tile=a["tile"], angle=a["angle"],
+                           condition=a["condition"], behavior=a.get("behavior"))
+        t = obj_types.setdefault(a["sprite_id"], dict(field_ids={}, events=0, rooms=[], sprite_png=d["target"]["sprite_png"]))
+        if d["field_id"] is not None:
+            t["field_ids"][str(d["field_id"])] = t["field_ids"].get(str(d["field_id"]), 0) + 1
+        t["events"] += 1
+        if r["room"] not in t["rooms"]:
+            t["rooms"].append(r["room"])
+        return
+    res["tile"] += 1
+    col = _collision(base, r.get("area"), coll_cache) if r.get("area") is not None else None
+    cells = []
+    for L in (col or {}).get("layers", []):
+        for y, row in enumerate(L["event"]):
+            for x, v in enumerate(row):
+                if v == d["target_id"]:
+                    cells.append([L["layer"], x, y])
+    if cells:
+        res["tile_resolved"] += 1
+        xs, ys = [c[1] for c in cells], [c[2] for c in cells]
+        d["target"] = dict(resolved=True, cells_layer_x_y=cells[:64], n_cells=len(cells),
+                           bbox_tiles=[min(xs), min(ys), max(xs) + 1, max(ys) + 1],
+                           note="tile coords are per collision layer window (collision.json grid_x/grid_y)")
+    else:
+        d["target"] = dict(resolved=False, tile_event_id=d["target_id"])
+
+
 def load_json(path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
@@ -275,6 +490,9 @@ def export(g):
                                                                  type=it.get("type"), use_type=it.get("use_type"),
                                                                  grants=ua))
     rooms_out, n_ev, n_unmatched = [], 0, 0
+    res = dict(actor=0, actor_resolved=0, tile=0, tile_resolved=0, anywhere=0)
+    obj_types, coll_cache = {}, {}
+    spr_dir = os.path.join(base, "battle_sprites", "sprites")
     for f in sorted(glob.glob(os.path.join(base, "maps", "rooms", "*", "events.json"))):
         r = load_json(f)
         evs = []
@@ -282,6 +500,8 @@ def export(g):
             if e["type"] & 0xF != 5:
                 continue
             d = decode_event(e, abilities, g)
+            d["flag_scope"] = flag_scope(d["flag"])
+            resolve_target(d, e, r, base, coll_cache, spr_dir, res, obj_types)
             n_ev += 1
             if d["field_id"] is None:
                 n_unmatched += 1
@@ -294,6 +514,9 @@ def export(g):
                 p["events_by_kind"][d["target_kind"]] = p["events_by_kind"].get(d["target_kind"], 0) + 1
                 p["events_by_phase"][str(d["phase_raw"])] = p["events_by_phase"].get(str(d["phase_raw"]), 0) + 1
                 p["rooms"].add(r["room"])
+                fs = d.get("flag_scope")
+                fs = fs.get("scope", str(fs)) if isinstance(fs, dict) else str(fs)
+                p.setdefault("flag_scope_counts", {})[fs] = p.get("flag_scope_counts", {}).get(fs, 0) + 1
                 if len(p["examples"]) < 3 and "script" in d:
                     p["examples"].append(dict(room=r["room"], room_name=r.get("name"), **d))
         if evs:
@@ -304,6 +527,8 @@ def export(g):
         h = handlers.get(fid, {})
         p["effect_routines"] = h
         p["targeting"] = targeting["by_field_id"].get(fid, dict(targeting["default"], note="default"))
+        if g == "gs2" and fid in GS2_FIELD_SPEC:
+            p["gs2_handler_spec"] = GS2_FIELD_SPEC[fid]
     out = dict(game=g, rom_code=c["slug"][:4], generator="gbax.codecs.gs_field",
                spec="notes/gs_field_psynergy.md", code=c["code"], phases=PHASES,
                targeting_rule=targeting["rule"], targeting_table=targeting["table"],
@@ -312,6 +537,12 @@ def export(g):
                              rooms_with_events=len(rooms_out),
                              field_ids_with_effect_routines=sum(1 for v in psy.values() if v["effect_routines"])),
                field_psynergy=[psy[k] for k in sorted(psy)], rooms=rooms_out)
+    out["coverage"]["targets"] = res
+    out["flag_scopes"] = FLAG_SCOPES
+    if g == "gs2":
+        out["effect_hit_callback"] = GS2_EFFECT_HIT_RULE
+    out["object_types"] = [dict(sprite_id=k, kind=object_kind(v["field_ids"]), **v)
+                           for k, v in sorted(obj_types.items())]
     path = os.path.join(base, "data", "field_psynergy.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
