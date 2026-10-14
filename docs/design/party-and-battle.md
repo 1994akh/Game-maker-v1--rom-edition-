@@ -181,6 +181,17 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 
 - **Decided, elements:** every Adept and Pokémon has Power and Resist in each of the six element groups. A Pokémon's
   types set its values, and a double weakness gets a small extra penalty.
+- **Proposed numbers, as built in the engine (14 Oct; `UnitFactory.pokemon_from_species`), to tune in play:**
+  - Attack, Defense and Agility use the same share-of-the-Adept's-curve rule as HP, `0.25 + 0.0025 × base`,
+    with the better of Attack / Sp. Attack and of Defense / Sp. Defense, capped at 1.0 (HP stays capped at 0.8).
+    Luck is the base-stat total / 90, rounded, 1–8.
+  - Power / Resist: 105 / 115 in the Pokémon's own type groups, 85 / 95 elsewhere; Resist 75 in a group holding a
+    type it is weak to, 65 for a double weakness.
+  - Moves: a Pokémon knows the last four level-up moves for its level. Physical moves hit as Golden Sun added
+    damage with power ÷ 4 on top of Attack; special moves as base damage with power ÷ 2, like Psynergy; the move's
+    type picks its element group. Status moves are listed but do nothing yet. Moves cost no PP.
+  - Data comes from the local pokeemerald-expansion tables (species, learnsets, moves), converted offline by
+    `tools/export_pokemon_data.py`; PokeAPI stays the cross-check.
 - **Decided:** Psynergy works as in Golden Sun, with long lists, in and out of battle, and no 4-slot cap. Pokémon
   keep 4 moves.
 - **Decided:** Pokémon keep the Pokémon-style level-up and evolution popup, showing Golden Sun-scale stats.
