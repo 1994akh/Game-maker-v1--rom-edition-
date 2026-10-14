@@ -53,6 +53,14 @@ What the creator never changes:
   graphics pass, when the sprites are remade. That pass plans every sheet as layers from the start, so the creator
   doesn't need a redraw later.
 
+## Built (14 Oct, engine PR #20)
+
+The creator exists in the engine (`src/ui/creator.gd`): every row above as a choice, pronouns following the gender
+until set, a live preview of the body base, and the hero's name and pronouns flowing into dialogue through the
+`{HERO}` tokens. What is still placeholder: the body bases are Isaac's and Jenna's Golden Sun sprites, and the
+cosmetic choices are recorded as indices but not yet drawn (the palette-swap layer comes with the graphics pass).
+The mirror at home is not built yet.
+
 ## Open questions
 
 None. All four were answered on 14 Oct (see the top). Pronouns can also change at the mirror if you'd like
