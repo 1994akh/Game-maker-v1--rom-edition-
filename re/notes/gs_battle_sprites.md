@@ -86,8 +86,12 @@ Addresses are GS1 / GS2. VERIFIED = read from code and confirmed by decoding; IN
 
 - Enemy files hold front and back views alternately (even = front, odd = back; INFERRED from the images: the
   camera swings behind the enemies during the party's turn). The GS1 Troll has 12 frames = 6 poses x 2 views.
-- Animation scripts are in `sprites.json` as raw hex (`anims_hex`). They look like `(frame, duration)` byte pairs
-  with control codes `F1`/`FD`/`FE` (e.g. `00 3C 02 39 04 3C 02 37 FD 00`); INFERRED, not decoded yet.
+- Animation scripts are in `sprites.json` as raw hex (`anims_hex`): `(frame, ticks)` byte pairs until a control
+  byte, `F1` = loop back to the start, `FD`/`FE` = stop on the last frame (e.g. `00 14 02 14 04 14 FD 00` = frames
+  0, 2, 4 for 20 ticks each, then hold). The frame byte indexes the sheet directly and only names even frames,
+  i.e. the front views; the odd frame after each is the same pose from behind. INFERRED from the sheets and
+  used as-is by the engine (GameMaker-Engine `tools/export_gs_battle_sprites.py` decodes them; 14 Oct 2026):
+  script 0 idles (one frame, loop), 1 attacks (ends), 3 casts; the others aren't placed yet.
 - Frame offsets/anchors inside the sheet are in `frame_rects`; the in-battle anchor is probably table bytes
   +8/+9 (e.g. 0x30, 0x20 for 64x64), INFERRED.
 
@@ -110,7 +114,8 @@ Addresses are GS1 / GS2. VERIFIED = read from code and confirmed by decoding; IN
 - The overlay owner/weapon-type mapping and the code that chooses party sprite + overlay (GS1 kernel
   `0x08012600` area calls the loader with sprite IDs from a struct; not followed).
 - Battle-table byte 4, flag bit 0, and sprite-table bytes +2/+3/+4/+6..+9.
-- Animation script format; how summon pieces are positioned.
+- Which script is which beyond 0/1/3 (hurt, down, defend?); the ROM's script interpreter; how summon pieces
+  are positioned.
 - GS2's IWRAM RLE routine wasn't located; GS2 output was verified by decoding (every frame terminates at
   exactly its size) and visually.
 - Field sprites (category `field`) also decode; they belong to the overworld-sprite job, which can reuse
