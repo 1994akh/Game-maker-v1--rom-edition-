@@ -15,9 +15,10 @@ character creator, including **gender** and **some cosmetic choices**.
 
 | Choice | Options | Notes |
 |---|---|---|
-| Name | Free text, up to 10 characters | Defaults to a placeholder name. Used in dialogue through `{HERO}` |
+| Name | Free text, up to 10 characters | Defaults to **Rowan** (the story's default, `docs/story/story.md`). Used in dialogue through `{HERO}` |
 | Gender | Boy / girl, picking the body base | Changes the field sprite, battle sprite and portrait base |
 | Pronouns | He / she / they, picked separately from gender (defaults to match it) | Dialogue uses tokens like `{HERO_SUBJ}`, `{HERO_OBJ}` and `{HERO_POSS}` |
+| Voice | Talkative / quiet | From the story (§9a, a Golden Sun nod): a quiet hero's dialogue options are a nod, a shake of the head or "…". Changeable at the mirror |
 | Skin tone | 6 presets | Palette swap |
 | Hair style | 4–6 per body base | A separate sprite layer |
 | Hair colour | 10 presets | Palette swap on the hair layer |

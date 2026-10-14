@@ -26,6 +26,18 @@ header; the detailed rules are in `docs/design/`.
 
 ## 14 Oct 2026
 
+- **The story is written** (`docs/story/story.md`, PR #11, from the cloud chat): Halcyra, rings around one continent,
+  two crews, a three-layer conflict, 24 missions, islands of the week, a bounty system and a postgame. Its 20
+  mechanics questions were all answered by you there (§14). The ones that change play, now part of the design:
+  world-map walking Golden Sun-style on the continent and large islands; a **guest system** after the midpoint (a
+  found Adept fills an empty slot in the other crew until home); map variants switched by flag (the midpoint, the
+  ending, the time-loop town); the airship lands only on marked pads; the sky and undersea layers each about a
+  quarter of the outer sea; **the Farer's Log** (Pokédex, bestiary, charts, relics) as a menu screen; the **Kin
+  Garden** on the home island as Pokémon storage, swaps at any restoration point; a **bounty system** built in three
+  steps (hand-written contracts, generated contracts from templates, rival hunter crews); three mini-games from Act
+  II; a bigger postgame region beyond the world's edge. The hero's default name is **Rowan**; our text uses
+  `{HERO}` / `{HERO_SUBJ}` / `{HERO_OBJ}` / `{HERO_POSS}`. Engine order from the story (§12): Marrow Isle and the
+  Vault first (Move, first partner, the rival battle).
 - **The debug APK runs on the Fold 7.** You confirmed it on the phone. Folding, touch and controller details are still
   to be checked in play, but the build pipeline (Godot 4.7.2 → API 36 APK) is proven end to end.
 - **Battle rules re-checked against Golden Sun 1's code** (`docs/design/party-and-battle.md` §4, §5, §12). The
