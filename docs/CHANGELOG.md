@@ -14,7 +14,9 @@ header; the detailed rules are in `docs/design/`.
   catchable, each a different way. One ending with per-Adept variations. Easter eggs and copyright-friendly spoof
   cameos from the influences run through the side stories (§9a). The world stays open after the ending for side
   quests, catching and the Log. The Farer's Log has a Pokédex-style Kin section. Extra Pokémon live in the Kin
-  Garden on Marrow Isle. 20 mechanics questions are in its §14, awaiting decisions.
+  Garden on Marrow Isle. Bounties (§9b): the crew's own wanted bounty, a Freeport Guild board of hand-written
+  and generated contracts, and rival hunter crews. Mechanics questions 19 (the post-ending world: yes) and 20
+  (keep swaps at any restoration point) are decided; the rest of the 20 in its §14 await decisions.
 
 ## 14 Oct 2026
 

@@ -395,8 +395,8 @@ gag.
 3. **"Eight Thousand Followers"** (Captain Fibber): a logic puzzle. Some of his tall tales are secretly true, and
    only the true ones mark a dig spot on the map (Scoop).
 4. **"Bounty Board":** every Tidewarden notice board shows wanted posters of your crew. The bounties rise as you
-   defy the order, and the posters use terrible drawings (one Adept always gets the worst portrait). This is
-   cosmetic; question 17 in §14 covers it.
+   defy the order, and the posters use terrible drawings (one Adept always gets the worst portrait). The posters
+   are part of the bounty system in §9b.
 5. **"A Funeral at Sea"** (an emotional egg): when the Wayfarer replaces the old cutter *Kestrel*, an optional scene
    gives it a fiery send-off at sea.
 
@@ -451,6 +451,69 @@ gag.
 | 21 | Maize, Tarquin and other cameo allies arrive at the Pinnacle (§11) |
 | 23 | Torro, lost inside the Hollow, somehow |
 | Postgame | The Gem Sentinels; the Dreamdeck boss rush; the Galgamash finale; the Mew sighting |
+
+## 9b. Bounties and generated contracts (outside the story)
+
+Two kinds of bounty, One Piece style, plus **generated side quests** so there's always something to do, before and
+after the ending.
+
+### Your crew's bounty (being wanted)
+
+- **The posters:** every Adept has a bounty, shown on wanted posters with terrible portraits (§9a). The figures
+  rise at story beats where you defy the Tidewardens, and from big contract wins.
+- **What it does:** a higher bounty unlocks higher contract tiers at the free ports. It also sends **rival hunter
+  crews** after you (below).
+- **What it doesn't do:** it never blocks a town or raises prices. Tidewarden towns just add a joke line.
+- **After the ending:** the order is reformed and the posters change to "Wardens of the Wells: reward for
+  information". The figure becomes your fame.
+
+### Hunting bounties (the boards)
+
+Every free port has a **Bounty Board** run by the **Freeport Guild**, a guild of the free islands. Contracts come in
+two flavours:
+
+| Kind | What it is | How many |
+|---|---|---|
+| **Named bounties** | Hand-written: a notorious monster, a bandit captain, a cameo character's request. Each has a short story and a unique reward | About 30 across the game; some unlock only after the Breaking or the ending |
+| **Generated contracts** | Built from templates and the game's own data, so the board always has fresh work | Unlimited; each board shows 3–5 at a time and refreshes when you rest at a restoration point |
+
+**Guild rank** (from Bronze to Legend) rises with completed contracts and gates the harder tiers, together with your
+crew's bounty. A Guild Ledger page in the Farer's Log tracks contracts done, rank and named bounties.
+
+### How generated contracts are built
+
+A contract is a **template** whose slots are filled from data the game already has:
+
+| Template | The goal | Filled from | Example |
+|---|---|---|---|
+| **Hunt** | Defeat a monster (a stronger "alpha" variant) in a region | The Bestiary, the region's encounter table and danger level | "An alpha Chimera Worm is attacking ferries off Dustplain. Reward: 1,200 coins." |
+| **Catch** | Catch a Pokémon of a given species, type or trait | Kin data and habitats | "A Pearlhollow dome-keeper needs a Water-type that knows Dive." |
+| **Survey** | Visit or fully explore a place, or find a rumoured island | Charts and rumours | "Chart the risen isle south-west of Embral." |
+| **Salvage** | Recover an item from a wreck, ruin or Dive spot | Item tables and Dive spots | "Raise a Farer relic from the Kelpwood wreck." |
+| **Delivery and escort** | Carry goods or a passenger between two ports in time | The port list and sailing routes | "Take medicine to Hushwater before the next rest." |
+| **Clear** | Break up a bandit camp or a Tumbleweed Trio scheme | Bandit groups and camp locations | "Bandits have taken the lighthouse on Twin Bells." |
+| **Puzzle cache** | Solve a small generated puzzle room for a stash | Puzzle room kits for each field ability | "A Farer vault on Thunderhead opens to Frost and Move." |
+
+**The rules that keep generated contracts sane:**
+- **Only reachable places:** a contract only names places you can already reach with your current ship upgrades and
+  field abilities. A higher tier may name places with high danger stars, and the board shows those stars.
+- **Reward scales with danger and rank:** coins, items, Kin Garden decorations, and now and then a rare Pokémon
+  encounter, a backup Psynergy item or a rumour that adds a "?" to the map.
+- **Flavour text is assembled from pieces:** the client, the problem and a twist, from pools for each region, so a
+  Frostmarch contract reads differently from a Southdeep one. One crew member comments on each contract in their
+  own voice.
+- **Never the main story:** generated contracts don't touch story flags and never compete with story bosses or
+  legendaries.
+
+### Rival hunter crews
+
+These are bounty hunters who come after **you**:
+- **Who they are:** small, generated crews. Each has a captain name from a pool, an element theme and an Adept +
+  Pokémon roster built like the trainer-class rules.
+- **How they meet you:** they show up when your crew's bounty crosses a threshold. They ambush you at sea or on a
+  route, or challenge you at a port.
+- **Beating one** lowers your heat for a while, and some of them later become friendly contacts.
+- **The cameos:** the Tumbleweed Trio count as a hunter crew, a very bad one.
 
 ## 10. Navigation aids (all four you picked)
 
@@ -549,6 +612,7 @@ These are the rooms and systems the mission list asks for, in the order they are
 | Easter eggs | Small and large nods to all the influences throughout; a few One Piece and Star Trek themed puzzles; copyright-friendly but obvious spoof characters in side stories (§9a) |
 | After the ending | Side quests, exploration, catching and the Log stay available after the main story ends (§11) |
 | Pokédex | A themed Pokédex-style log of caught and seen Pokémon with their details: the Kin section of the Farer's Log (§8) |
+| Bounties | Your crew's bounty (wanted posters, rival hunters), a Freeport Guild bounty board with hand-written and generated contracts, outside the story and after it (§9b) |
 | Extra Pokémon | Pokémon beyond the party limit go to the home island (the Kin Garden) until switched in, under the established rules (§8) |
 
 ## 14. Mechanics questions (for the design side, not decided here)
@@ -620,23 +684,33 @@ Each question has my recommendation.
       Djinn-style encounter on the field. Each section shows a completion percentage and has rewards at
       thresholds.
     - **Why:** the Pokédex and the Star Trek log in one book, and it drives exploration.
-17. **The Bounty Board (§9a).**
-    - **Recommendation:** cosmetic only: a bounty number per Adept, raised by story flags and shown on posters.
-      It has no effect on encounters or prices.
-    - **Why:** the One Piece joke without a reputation system.
+17. **The bounty system (§9b).** You asked for a real bounty system, so this replaces the earlier "cosmetic
+    only" recommendation.
+    - **Recommendation:** build it in three steps:
+      1. Hand-written contracts from the boards.
+      2. Generated contracts from templates (§9b).
+      3. Rival hunter crews, last.
+    - The crew's own bounty only unlocks contract tiers and hunter ambushes. It never raises prices or blocks
+      towns.
+    - **Why:**
+      - Step 1 is ordinary quest scripting.
+      - Step 2 is the only genuinely new system: it fills templates from data that already exists (encounter
+        tables, danger levels, item and NPC lists).
+      - Step 3 is optional.
 18. **Mini-games from the easter eggs** (the Dodo Derby, the Glimmer Saucer, the Speakers' language).
     - **Recommendation:** build only the Speakers' puzzle (it's dialogue plus murals). The Derby and the casino are
       postgame extras, if time allows.
-19. **The world after the ending (§11).**
+    - **Why:** they're new systems and the least important part of the game.
+19. **The world after the ending (§11).** **Decided 14 Oct: yes, as recommended.**
     - **Recommendation:** a post-ending flag that switches the world to its final map variants (the receding
       rim, regrown isles, changed NPC dialogue) and returns you to Marrow Isle with everything else intact.
       Optional content never checks "before the ending".
     - **Why:** it's the same map-variant-by-flag tool as the midpoint, and it keeps every catch and side quest
       reachable.
-20. **Where you can swap Pokémon in from the Kin Garden.**
+20. **Where you can swap Pokémon in from the Kin Garden.** **Decided 14 Oct: keep the current rule** (any
+    restoration point).
     - **Recommendation:** keep the decided rule: at any restoration point, which reaches the Kin Garden's storage.
       The Kin Garden on Marrow Isle is where they live and where you can see them.
     - **Alternative:** swaps only on the home island. That's stricter and more Golden Sun-like, but slower once
       the map is large.
     - **Why:** you asked for the established rules, and they already say restoration points.
-    - **Why:** they're new systems and the least important part of the game.
