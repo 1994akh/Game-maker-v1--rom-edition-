@@ -3,6 +3,27 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 14 Oct 2026 (story)
+
+- **The story is written** (`docs/story/story.md`), from a Q&A in the cloud chat. Tone: warm adventure with real
+  stakes and no party deaths. World: rings around one walkable continent (Meridia), with an archipelago beyond.
+  Areas are blocked only by puzzles, story or visibly strong monsters. Conflict in three layers: the Tidewardens
+  against free islands → the Crown draining the Wells → the Farers, outsiders who built it. Villain: Lord Warden
+  Vey, sympathetic. Short guided prologue, then open play. The midpoint "Breaking" changes the world map. Late-game
+  airship; islands of the week with Star Trek-style dilemmas and an exploration log. All six legendaries are
+  catchable, each a different way. One ending with per-Adept variations. Easter eggs and copyright-friendly spoof
+  cameos from the influences run through the side stories (§9a). The world stays open after the ending for side
+  quests, catching and the Log. The Farer's Log has a Pokédex-style Kin section. Extra Pokémon live in the Kin
+  Garden on Marrow Isle. Bounties (§9b): the crew's own wanted bounty, a Freeport Guild board of hand-written
+  and generated contracts, and rival hunter crews. Mechanics questions 19 (the post-ending world: yes) and 20
+  (keep swaps at any restoration point) are decided.
+- **All 20 story mechanics questions answered** (`docs/story/story.md` §14). Mostly as recommended. The changes:
+  - Golden Sun-style world-map walking plus sailing.
+  - A small guest system for the scattered crews after the midpoint.
+  - Larger sky and undersea regions, each about a quarter of the outer sea.
+  - A bigger postgame: the Farside, a full region beyond the world's edge.
+  - All three mini-games built: the language puzzle, the Dodo Derby and the Glimmer Saucer.
+
 ## 14 Oct 2026
 
 - **The debug APK runs on the Fold 7.** You confirmed it on the phone. Folding, touch and controller details are still

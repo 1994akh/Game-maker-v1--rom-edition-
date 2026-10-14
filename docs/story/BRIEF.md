@@ -1,5 +1,8 @@
 # Story brief
 
+> **The story is now written: [story.md](story.md)** (14 Oct 2026). This brief stays as the list of constraints it
+> was written against.
+
 For writing the story in the claude.ai design chat (14 Oct 2026). This is everything the story has to respect and
 everything already decided about its shape. Story decisions that don't need a mechanic are yours to make there; the
 engine work continues in parallel and reads only the decisions recorded in this repo.
