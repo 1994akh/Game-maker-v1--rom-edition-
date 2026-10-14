@@ -3,6 +3,17 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 14 Oct 2026 (story)
+
+- **The story is written** (`docs/story/story.md`), from a Q&A in the cloud chat. Tone: warm adventure with real
+  stakes and no party deaths. World: rings around one walkable continent (Meridia), with an archipelago beyond.
+  Areas are blocked only by puzzles, story or visibly strong monsters. Conflict in three layers: the Tidewardens
+  against free islands → the Crown draining the Wells → the Farers, outsiders who built it. Villain: Lord Warden
+  Vey, sympathetic. Short guided prologue, then open play. The midpoint "Breaking" changes the world map. Late-game
+  airship; islands of the week with Star Trek-style dilemmas and an exploration log. All six legendaries are
+  catchable, each a different way. One ending with per-Adept variations. 16 mechanics questions are in its §14,
+  awaiting decisions.
+
 ## 14 Oct 2026
 
 - **The debug APK runs on the Fold 7.** You confirmed it on the phone. Folding, touch and controller details are still
