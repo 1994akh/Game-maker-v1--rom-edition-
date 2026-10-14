@@ -11,10 +11,10 @@ contention with other jobs; re-time it.
   point inside the room's exported actor list; with an offset of 8 it rises to 333 / 624. So actor slots 0–7 are
   probably reserved for the party, and many actors are created by room scripts rather than the actor table. This
   blocks placing Psynergy puzzle objects (see `gs_field_psynergy.md`) and is the top open item.
-- **Placeholder tiles:** GS1 Mercury Lighthouse (area 56) shows ~3,300 px of solid red blocks on layer 2, drawn with
+- **Placeholder tiles** (solved 14 Oct, see "Map polish"): GS1 Mercury Lighthouse (area 56) shows ~3,300 px of solid red blocks on layer 2, drawn with
   palette row 6, which looks like a placeholder. Probably tiles the game animates or reloads at run time (tile
   animation part `+0x30` isn't applied yet).
-- **Filler outside the playable area:** e.g. GS2 Champa (area 176): about a quarter of the image is a repeated
+- **Filler outside the playable area** (solved 14 Oct, see "Map polish"): e.g. GS2 Champa (area 176): about a quarter of the image is a repeated
   "A" filler tile, and `walkable_bounds_px` doesn't trim it yet.
 - **Tiled vs collision size:** the Tiled map is one tile larger in each direction than `collision.json`
   (e.g. Vale 31×95 vs 30×94) by design (`write_tiled`); code reading both must align them.
@@ -161,9 +161,8 @@ Tiled objects:
 
 - **World map**: area 1 in GS1 (room 2). It's stored differently: 256 px chunks, files 0xD4/0xD5, 2 palettes, 8
   tilesets (gsmagic `dispWMGS1`/`dispWMGS2`). Not exported.
-- **Tile animation**: GS1 part +0x30, GS2 +0x34. Not exported.
-- **Parallax**: scroll ratios are recorded but not applied; the composite draws every layer 1:1.
-- **Alpha blending**: needs the BLDCNT source for GS1 (+0x38 raw) and the 2-byte GS2 form.
+- **Tile animation, parallax, blending**: done 14 Oct, see "Map polish". The composite still draws every layer 1:1
+  (parallax is exported as data, not baked in).
 - **Map-code fields**: the meanings of the actor bytes, the entrance "rest" bytes, the event `b1` byte, and the
   high-nibble event types. Scripts are Thumb code calling the engine through RAM stubs; they need a script
   decompiler.
@@ -330,3 +329,149 @@ trigger for exits that aren't plain door tiles (INFERRED). The exit itself is re
 
 **Re-run** (fast, about 10 s per game; updates only warp keys, warps.json, the .tmj warp objects and index coverage):
 `.venv\Scripts\python.exe -m gbax.codecs.gs_maps "<ROM>" --warps-only`. A full export runs the same pass at the end.
+
+## Map polish (14 Oct): tile animation, blend glows, height shapes, reachable bounds, layer order
+
+Sources: alchemy GS1 decompile (`SRC\FIELD\COMMON\MAP\MAP.C` `Map_LoadLayeredScene`/`Map_UpdateLayerScroll`, `MAP3.C`
+`MapAnimation_*`, `SRC\GRAPHICS\DISPLAY\DISPLAY4.C` `DisplayBlend_*`), checked by disassembling both ROMs with capstone.
+Code in `gbax\codecs\gs_maps.py`: `anim_*`, `parse_blend_script`, `shape_height_px`, `reachable_cells`,
+`refine_walkable`, `write_height_shapes`, `GsMaps.tile_anim/anim_layer/visible_mask`.
+
+**1. Tile animation = GS1 part +0x30, GS2 part +0x34 (VERIFIED).** Decoded to `0x0202D000`, started by
+`MapAnimation_StartChannels` (GS1 `0x080118D8`), run every frame by `MapAnimation_Update` (GS1 `0x0801179C`).
+- Start list: u16 words up to the first `0xFFFF`; `0xFDnn` starts channel `nn & 15` on the words after it (bit 7 =
+  starts paused; a room script must unpause it).
+- Channel: `[src, count, dst, wait]` copies `count` 8x8 chars src -> dst, then waits `wait` frames (0 = next command in
+  the same frame). `0xFFFF` restarts, `0xFEnn` jumps to start + nn*4 bytes, `0xFEFF` stops.
+- Char numbers count from VRAM `0x06004000` = this exporter's `vram[]` index (tile + char_block*512). `src >= 0x600`
+  reads EWRAM `0x0201C000 + src*32` instead (literal at GS1 `0x0801189C`), i.e. the area's 4th tileset block. That
+  block is never in BG VRAM; it only stores animation frames (VERIFIED visually: water and foam frames in Mercury
+  Lighthouse).
+- Timers start at 0, so frame 0 of every running channel is applied on the first field frame. The base layers,
+  composite and tileset now show that state (`vram_raw` keeps the stored chars).
+- Coverage:
+  - GS1: 167 areas have a script, 1,160 channels. 16 are paused (areas 6, 7, 11, 44, 45, 88).
+  - GS2: 322 areas, 1,491 channels. 32 are paused (areas 79, 126, 152, 153, 264-266, 276, 295) and 16 end in `0xFEFF`.
+  - 1 GS1 and 14 GS2 channels don't repeat within 8,192 frames ("cap"). They are applied up to the start frame and
+    not animated.
+
+Export: each 16x16 cell whose metatile uses an animated char gets keyframes. They cover the combined cycle of the
+channels that touch it (LCM capped at 3,600 frames and 120 keyframes; the tile gets `anim_truncated` when capped).
+- `tileset.png`: static tiles first. Each animated tile then starts a row slot with its frames in the following
+  columns, never wrapping: the contiguous layout Godot's `TileSetAtlasSource` animation needs. `columns` =
+  max(16, longest animation). A tile's identity is its pixels plus its animation, so placeholders that look alike stay
+  separate.
+- `.tmj` tileset `tiles[]`: `{id, animation: [{tileid, duration ms}], properties: frames_60hz, anim_channels}`.
+  Durations assume 59.7275 Hz; the exact frame counts are in `frames_60hz`.
+- `area.json` -> `tile_animation`: every channel (paused, end, cycle start, period, dst range, raw commands), plus
+  `animated_tiles_16` and `tileset_columns`.
+
+**2. The palette-6 "placeholder" blocks are blended glow lights (script VERIFIED; the look is INFERRED).** GS1 part
++0x34 and GS2 part +0x38 hold a display-blend script (decoded to `0x0202DE00`, run by `DisplayBlend_RunScript`):
+- `0x3nnn` writes BLDCNT. Any other word goes to BLDALPHA (alpha mode) or BLDY and is followed by a wait in frames.
+  `0xFFFF`, `0xFEnn` and `0xFEFF` work as in part 1.
+- Mercury Lighthouse (area 56) has `0x3F42`: layer 2 (BG1) is blended over everything with EVB 16 and EVA 5 -> 12 -> 5
+  (4 frames per step). That is an additive, pulsing glow, and the red-to-black radial shapes on layer 2 are its light
+  pools.
+- They are not tile-animated (no channel touches them). The stored palette is used as is; room-script palette changes
+  weren't checked. The composite now blends them using the first step (5/16, additive).
+- The old "GS2 4-byte +0x38 form" was a misreading of this script. GS1 has one in 98 areas, GS2 in 141: `0x3F42`
+  (layer 2), `0x3F44` (layer 1), and a few darken scripts (`0x3FC8`).
+- `area.json` -> `blend`: {bldcnt, mode, first/second targets, first-step eva/evb/evy, first_target_layers, steps
+  [{bldalpha or bldy, eva/evb or evy, frames}], end}.
+- Tiled layer properties: `blend` (`add` when EVB = 16, else `mix`; or `brighten`/`darken`) and
+  `blend_eva16/evb16/evy16`. In Godot: a CanvasItemMaterial with blend mode ADD and modulate alpha EVA/16, animated
+  from `steps`.
+- Fixed a latent composite bug: the blend mask was an int array, so numpy did fancy indexing (9 s and GBs of memory per
+  area).
+
+**3. All 16 height shapes (VERIFIED by disassembly).** GS1 table `0x080134FC` (code `0x08011CE0`-`0x08011F48`); GS2
+table `0x0802EFC4` (`0x0802D23C`-`0x0802D45A`). The function gets the shape bytes h0-h2 (x8 px) and (x&15, z&15).
+Divisions truncate toward zero.
+
+| fn | GS1 | GS2 |
+|---|---|---|
+| 0 | flat h0 | same |
+| 1 / 2 | slope along x / z: h0 + (h1-h0)*x/16 | same |
+| 3 | diagonal step: x+z < 15 -> h0, > 15 -> h1, = 15 -> max | same |
+| 4 | same with t = z-x+15 | same |
+| 5 | two-segment slope along x+z (h0 -> h1 -> h2, /15) | same |
+| 6 | two-segment slope along z-x (/16) | same |
+| 7 | rounded plateau h0 + (h1-h0)*mask[z][x]; 16x16 0/1 mask at `0x080132FC` / `0x0802EDC4` | same |
+| 8 / 9 | step at x = 8 / z = 8 (h0, then h1) | same |
+| 10 | two-segment slope along x (h0 -> h1 -> h2, 8 px each) | h[diag3[x][z]] (transposed) |
+| 11 | two-segment slope along z; bytes read **unsigned** | h[diag3[x][15-z]] |
+| 12 | h[diag3[z][x]]: 3-level staircase diagonal, table `0x080133FC` / `0x0802EEC4` | same |
+| 13 | h[diag3[z][15-x]] | same |
+| 14 | flat h0 | z<8: (x<8 ? h0 : h1), else h2 |
+| 15 | flat h0 | z<8: h0, else (x<8 ? h1 : h2) |
+
+`collision.json` `height_shapes[].kind` names each shape. `maps\height_shapes.json` holds both tables and every
+function sampled for (h0, h1, h2) = (0, 8, 16) px, so a Godot port can be tested against `shape_height_px()`.
+
+**4. Reachable cells and tighter bounds.** `refine_walkable` runs at the end of a render run.
+- It floods from every entrance, GS2 door, placed actor and exit tile of the rooms that use the area. Objects start
+  on layer 0.
+- A step is allowed when the target cell isn't `0xFF` and the ground across the shared edge changes by -12..+8 px
+  (from the shape functions).
+- GS2 also requires (x, z - ground) to lie in a camera region (part +0x3C); that is the game's own test.
+
+Outputs:
+- `collision.json` layers gain `reachable` (0/1 per cell).
+- `area.json`:
+  - `walkable_bounds_px`: box of the reachable cells (collision-cell px, as before).
+  - `nonsolid_bounds_px`: the old box.
+  - `walkable_rects_px` (GS2): one box per camera region.
+  - `reachable`: {seeds, camera_regions, cells_by_layer}.
+- Walkable isn't the same as visible: wall tops above the floor are outside the box but on screen.
+
+**GS2 never-visible filler is blanked.** The view is clamped to the camera region (`Map_UpdateLayerScroll` clamps the BG
+scroll), so cells outside every region are never on screen.
+- They are cleared in the composite, the tileset and the `.tmj`; the raw `layerN.png` files keep them.
+- `area.json` records `visible_rects_px` and `hidden_px_outside_camera_regions`.
+- GS1 has no region table, so its bounds come only from the flood.
+
+Limits: layer switches (stairs and bridges via tile ids `0xF2`-`0xF9`) aren't followed, so a layer-1/2 floor is only
+reached when a seed lands on it. Areas opened by Psynergy or by scripts can be partly missed.
+
+**5. Layer order and parallax (VERIFIED in `Map_LoadLayeredScene`; INFERRED that the field loader matches).**
+- Layer l is written to BG(3-l)CNT (`0x0400000E/0C/0A`) with priority = header byte 4+l, and scrolls with
+  `gBgScroll[3-l]`.
+- On GBA a lower priority number is in front; on ties the lower BG number (= the higher layer) is in front.
+  `draw_order` already did this.
+- Layer record bytes: x/y offset (x8 px), scroll ratio x/y (x1/16), signed auto-scroll speed x/y (x1/16 px per frame),
+  wrap mask x/y (the auto-scroll phase wraps at (mask+1)*8 px).
+- BG scroll = view * ratio/16 + phase + offset. The view is the camera's top-left (x - 120, z - y - 96), clamped to
+  the bounds minus 240x160.
+- `area.json` layers gain `scroll_scale`, `autoscroll_px_per_frame` and `autoscroll_wrap_px`.
+- Tiled layers get `parallaxx`/`parallaxy` (= ratio/16, only when not 1.0) and the `autoscroll_*_px_per_frame`
+  properties.
+- Open: OBJ (sprite) priority against the BG priorities, and whether field rooms rewrite BGCNT at run time.
+
+**Before -> after**
+
+| | GS1 full (186 areas, 95 s) | GS2 sample (17 rooms, 18 areas, 18 s) |
+|---|---|---|
+| Areas with animated tiles exported | 0 -> **139** (7,879 animated tiles) | 0 -> 11 (399) |
+| Areas with a blend script applied | 0 -> **98** | 0 -> 9 (the old 4-byte reading found none) |
+| Unique 16x16 tiles | 91,746 -> 92,307 (animation splits tiles that look alike) | 6,864 -> 6,424 (filler removed) |
+| Height shapes decoded | 5 -> **16** | 5 -> **16** |
+| `walkable_bounds_px` tighter | 51 areas; total box area -13% | 14 of 18 areas; -28% |
+| Never-visible filler hidden | - | 15 areas, 5.69 M px (Champa 176: 164,864 px of "A" tiles) |
+
+Tiled check: 212 `.tmj` files with animations, 0 bad (frames contiguous in one row, ids < tilecount).
+
+Examples:
+- Kalay Sanctum (area 97): [0,0,960,960] -> [144,80,352,336].
+- Area 36: [0,0,480,1024] -> [16,0,400,400].
+- Mercury Lighthouse (area 56): the red blocks now render as faint additive glows.
+- Champa (176): the "A" filler is blanked. Its box is still the full map because the playable part is L-shaped;
+  `walkable_rects_px` gives its two parts.
+
+**Re-run**:
+- GS1 full:
+  `.venv\Scripts\python.exe -m gbax.codecs.gs_maps "games\AGSE-5c469520-Golden-Sun-USA-Europe\rom\Golden Sun (USA, Europe).gba"`.
+- GS2 sample:
+  `... -m gbax.codecs.gs_maps "C:\Users\aaron\OneDrive\Apps-Roms\Golden Sun - The Lost Age (USA, Europe).gba" --map 42 --map 182 --map 5 --map 25 ...`
+  (every 20th room).
+- A full GS2 run with this code is still to do.

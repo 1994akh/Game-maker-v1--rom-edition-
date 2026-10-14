@@ -382,7 +382,8 @@ FLAG_SCOPES = {
 # Object kind by the Psynergy that targets a sprite (INFERRED labels; the field ids are VERIFIED event data).
 KIND_BY_FIELD = {1: "pushable (Move: pillar, statue, log, crate)", 6: "puddle (Frost -> ice pillar)",
                  12: "sprout (Growth -> vine)", 7: "boulder (Lift)", 11: "carryable (Carry)",
-                 4: "Force target (pillar, tree, bell)", 5: "Douse target", 13: "far item (Catch)",
+                 4: "invisible target marker (Force; sprite 22 is a blank 16x16, the pillar/tree/bell is map tiles)",
+                 5: "Douse target", 13: "far item (Catch)",
                  14: "Whirlwind target (leaves, bush)", 9: "Halt target (moving object)", 3: "Ply target",
                  17: "rope post (Lash)", 18: "pillar (Pound)", 19: "Tremor target", 26: "torch (Blaze)",
                  27: "rock (Grind)", 2: "NPC (Mind Read)"}
