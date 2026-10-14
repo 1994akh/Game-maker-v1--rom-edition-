@@ -1025,7 +1025,7 @@ class GsMaps:
             im = imgs[l]
             m = im[..., 3] > 0
             if blend and blend["mode"] == 1 and blend["first"][3 - l]:
-                below_ok = np.array([blend["second"][3 - t] if t >= 0 else blend["second"][5] for t in range(-1, 3)])
+                below_ok = np.array([blend["second"][3 - t] if t >= 0 else blend["second"][5] for t in range(-1, 3)], bool)
                 b = m & below_ok[top_is + 1]
                 mix = (im[..., :3].astype(np.int32) * blend["eva"] + out.astype(np.int32) * blend["evb"]) >> 4
                 out[b] = np.minimum(mix[b], 255).astype(np.uint8)
@@ -1335,7 +1335,8 @@ def unique_tiles(imgs_keys, A, anim_ids=None):
             tiles_json.append({"id": pos[i], "animation": [{"tileid": pos[i] + k, "duration": max(1, round(n * 1000 / GBA_FPS))}
                                                             for k, (fimg, n) in enumerate(frames)],
                                "properties": [{"name": "frames_60hz", "type": "string", "value": ",".join(str(n) for _, n in frames)},
-                                              {"name": "anim_channels", "type": "string", "value": ",".join(map(str, store[aid]["channels"]))}]})
+                                              {"name": "anim_channels", "type": "string", "value": ",".join(map(str, store[aid]["channels"]))}]
+                               + ([{"name": "anim_truncated", "type": "bool", "value": True}] if store[aid]["truncated"] else [])})
     remap = np.zeros(len(order) + 1, np.int64)
     remap[1:] = [pos[i] + 1 for i in range(len(order))]
     gids = {l: np.where(g > 0, remap[g], 0) for l, g in gids.items()}
