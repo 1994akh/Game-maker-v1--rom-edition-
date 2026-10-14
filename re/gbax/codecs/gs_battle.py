@@ -31,6 +31,16 @@ ADDR = {
         "elem_level_table": 0x08088DF8,  # 16 x (s16 power, s16 resist)
         "multiplier_table": 0x08089258,
         "flee_scale": 0x080B9200,        # literal 10000
+        # 2026-10-14, from alchemy's GS1 C (games/THE BROKEN SEAL) checked against the ROM disassembly:
+        "spread_tables": 0x080C2AB8,     # u8 status[8], then 8 x s32[6] (same order and values as GS2 0x08128898)
+        "summon_bonus_block": (0x080BC2FA, 0x080BC38C),  # cmd 6: power += maxHP * pct / 100, jump table 0x080BC30C
+        "crit_target_level": 0x080BBF8E,  # ldrb [target,#0xF]; /5; +6
+        "guard_reduce": 0x080BBFC2,      # +0x12B: 1 -> /2, any other nonzero -> /10
+        "party_priority": 0x08027F90,    # Agility + (Agility * rand16 >> 20), halved for a 2nd action
+        "enemy_list_build": 0x080C1FFC,  # BattleFormation_BuildEnemyList: 6-slot budget, max 6 enemies
+        "battle_sprite_entries": 0x080C7420,  # 8-byte entries by unit id (enemy id + 8); byte 2 bit 0 = 1-slot enemy
+        "turn_end_djinn": 0x080BFBA4,    # spent Djinn -> per-owner countdowns; summon element boost
+        "summon_boost_recalc": 0x0807795A,  # Power[e] += 5*b*(b+1), b = s8 unit +0x12C+e
     },
     "gs2": {
         "elem_multiplier": 0x080B02DC,
@@ -56,6 +66,8 @@ ADDR = {
         "flee_chance": 0x0811CE94, "flee_run": 0x0811C66C,
         "djinn_recover_tick": 0x08124CC4, "djinn_list_add_standby": 0x080B0E04,
         "reward": 0x0812824C, "reward_distribute": 0x081284C0,
+        "type2_handler": 0x08121304,     # drain-style HP damage (uses the 0x08128948 spread), not "effect only"
+        "party_priority": 0x0804CBA0,    # same code as GS1 0x08027F90 (kernel rand16 FUN_08014878)
     },
 }
 
@@ -76,7 +88,26 @@ SPREAD = {
     "type5": (100, 80, 60, 40, 20, 10),         # 0x081288E8 (base damage)
     "summon": (100, 70, 40, 30, 20, 10),        # 0x08128900 (type 8)
     "type6": (100, 50, 30, 10, 10, 10),         # 0x08128918 (enemy "breath" base damage)
+    "pp_recover": (100, 80, 60, 40, 20, 10),    # 0x08128930 (type 11) / GS1 0x080C2B50
+    "type2": (100, 50, 30, 10, 10, 10),         # 0x08128948 (type 2 drain-style damage) / GS1 0x080C2B68
 }
+# All of these tables are byte-identical in GS1, starting at 0x080C2AB8 (VERIFIED: ROM bytes, 2026-10-14).
+
+# GS1 summon bonus: + target max HP * pct / 100 (no 10000 cap), keyed on (ability id - 380) for command 6.
+# VERIFIED: jump table at GS1 0x080BC30C, emulated by --selftest. The unused ids 384/385, 390/391, 396/397 are
+# never summoned; the jump table sends them past the four `pct =` stores, so the ROM would reuse a stale stack word.
+SUMMON_HP_PERCENT_GS1 = {
+    380: 3, 381: 6, 382: 9, 383: 12,      # Venus Ramses Cybele Judgment
+    386: 3, 387: 6, 388: 9, 389: 12,      # Mercury Nereid Neptune Boreas
+    392: 3, 393: 6, 394: 9, 395: 12,      # Mars Kirin Tiamat Meteor
+    398: 3, 399: 6, 400: 9, 401: 12,      # Jupiter Atalanta Procne Thor
+}
+
+# Enemy side: unit ids 0x80..0x85, so at most 6 enemies (3 when flag 0x16C is set). GS1
+# BattleFormation_BuildEnemyList 0x080C1FFC spends a budget of 6 slots: an enemy whose battle-sprite entry
+# (0x080C7420 + 8*(enemy id + 8), byte 2 bit 0) is set takes 1 slot, every other enemy takes 2.
+ENEMY_UNIT_IDS = tuple(range(0x80, 0x86))
+ENEMY_SLOT_BUDGET = 6
 
 # GS2 summon bonus: + min(target max HP, 10000) * pct / 100 added to the base power (ability id -> pct).
 # Emulated from the compare chain at 0x08120FE2..0x08121106. GS1 has no such code (pattern absent).
@@ -129,6 +160,8 @@ EFFECTS = {
 
 # Effects whose action gets +10000 priority (acts first in the round), FUN_0811d160.
 FIRST_STRIKE_EFFECTS = frozenset({72, 76, 79, 74, 46, 47, 88, 53})
+# GS1 (BattleQueue_SortByPriority, alchemy PRESENTATION/PRESENT5.C): only 46, 47, 53, and only for command kind 5.
+FIRST_STRIKE_EFFECTS_GS1 = frozenset({46, 47, 53})
 
 
 def _div(a: int, b: int) -> int:
@@ -237,13 +270,23 @@ class Unit:
     guard: int = 0                         # +0x12B: 0 none, 1 Defend (/2), 2 (x2/5), 3 (/10), 4 immune
 
 
-def _diff(att: Unit, tgt: Unit, element: int) -> int:
-    return 0 if element >= 4 else att.power[element] - tgt.resist[element]
+def _diff(att: Unit, tgt: Unit, element: int, from_item: bool = False) -> int:
+    """Power - Resist in the action's element. Item use (command 2) counts the user's Power as 100 (GS1 executor,
+    alchemy ACTION_RESOLVE_TARGET_ACTION.C; the same rule the heal handler uses in both games)."""
+    if element >= 4:
+        return 0
+    return (100 if from_item else att.power[element]) - tgt.resist[element]
 
 
-def _guard(dmg: int, guard: int) -> int:
+def _guard(dmg: int, guard: int, game: str = "gs2") -> int:
+    """Guard reduction (unit +0x12B). GS2: 1 -> /2, 2 -> x2/5, 3 -> /10. GS1 (0x080BBFC2, VERIFIED-CODE) has only
+    two levels: 1 -> /2 and any other nonzero value -> /10 (so Flash's guard 2 is a 90% cut in GS1)."""
+    if guard == 0:
+        return dmg
     if guard == 1:
         return _div(dmg, 2)
+    if game == "gs1":
+        return _div(dmg, 10)
     if guard == 2:
         return _div(dmg * 2, 5)
     if guard >= 3:
@@ -253,17 +296,19 @@ def _guard(dmg: int, guard: int) -> int:
 
 def attack_damage(att: Unit, tgt: Unit, element: int = 4, added: int = 0, multiplier_x10: int | None = None,
                   crit: int = 0, hits: int = 1, rand2: int = 0, defense_mode: int = 0,
-                  leave_1hp: bool = False) -> int:
-    """Damage of Attack / added-damage (type 3) / multiplier (type 4) abilities. GS2 0x08120A8C.
+                  leave_1hp: bool = False, game: str = "gs2") -> int:
+    """Damage of Attack / added-damage (type 3) / multiplier (type 4) abilities. GS2 0x08120A8C, GS1 in the
+    executor near 0x080BBF00 (alchemy Battle_ResolveTargetAction: same steps in the same order).
 
     element: weapon or ability element (Attack uses the weapon's, FUN_080b0434; 4 = neutral -> diff 0).
     multiplier_x10: ability power for type 4 (damage = core(...) * power / 10); None for type 3.
     crit: 0 none, 1 normal critical (x5/4), 2 effect-36..40 critical (x3/2); both then add the TARGET's
-          level/5 + 6 (GS2 0x08120B6A-0x08120B7C reads it from the target unit, like its guard/Defense/Resist).
+          level/5 + 6 (GS2 0x08120B6A-0x08120B7C, GS1 0x080BBF8E: both read it from the target unit).
     hits: per-target multiplier byte (1 normally, 0 = miss, +1/+2 from effects 41-44, 65, 68, 89).
-    rand2: the 2 low random bits added at the end (0..3). defense_mode: 1 halves Def (effect 35), 2 zeroes it.
+    rand2: the 2 low random bits added at the end (0..3). defense_mode: 1 halves Def (effect 35), 2 zeroes it
+    (effects 90/91, GS2 only). game: "gs1" uses GS1's two guard levels (see _guard); GS1 has no guard state 4.
     """
-    if tgt.guard == 4:
+    if game == "gs2" and tgt.guard == 4:
         return 0
     d = tgt.defense
     if defense_mode == 1:
@@ -280,7 +325,7 @@ def attack_damage(att: Unit, tgt: Unit, element: int = 4, added: int = 0, multip
         dmg = _div(dmg * 5, 4) if crit == 1 else _div(dmg * 3, 2)
         dmg += tgt.level // 5 + 6
     dmg += rand2 & 3
-    dmg = _guard(dmg, tgt.guard)
+    dmg = _guard(dmg, tgt.guard, game)
     if dmg <= 0:
         dmg = 1
     if leave_1hp and dmg < tgt.hp - 1:
@@ -289,23 +334,42 @@ def attack_damage(att: Unit, tgt: Unit, element: int = 4, added: int = 0, multip
 
 
 def psynergy_damage(att: Unit, tgt: Unit, power: int, element: int, damage_type: int = 5, distance: int = 0,
-                    hits: int = 1, rand2: int = 0, ability_id: int | None = None, game: str = "gs2") -> int:
+                    hits: int = 1, rand2: int = 0, ability_id: int | None = None, game: str = "gs2",
+                    from_item: bool = False) -> int:
     """Base-damage Psynergy (type 5), enemy breath (type 6) and summons (type 8). GS2 0x08120F70.
 
-    power: ability power (+10). For GS2 summons (and the 3 enemy abilities in SUMMON_HP_PERCENT_GS2) the power
-    first gains min(target max HP, 10000) * pct / 100. distance = |offset| from the centre target (0..5).
-    Unlike attacks there is no minimum of 1.
+    power: ability power (+10). Summons first gain a share of the target's max HP: GS2
+    min(max HP, 10000) * pct / 100 (SUMMON_HP_PERCENT_GS2, also 3 enemy abilities); GS1 max HP * pct / 100 with
+    no cap (SUMMON_HP_PERCENT_GS1, 3/6/9/12% by tier; GS1 0x080BC2F6, VERIFIED-EMU). distance = |offset| from the
+    centre target (0..5). from_item: the action is an item (Power counts as 100). Unlike attacks there is no
+    minimum of 1.
     """
-    if tgt.guard == 4:
+    if game == "gs2" and tgt.guard == 4:
         return 0
     if game == "gs2" and ability_id in SUMMON_HP_PERCENT_GS2:
         power += _div(min(tgt.max_hp, 10000) * SUMMON_HP_PERCENT_GS2[ability_id], 100)
-    dmg = psy_core(power, _diff(att, tgt, element)) * hits
+    elif game == "gs1" and ability_id in SUMMON_HP_PERCENT_GS1:
+        power += _div(tgt.max_hp * SUMMON_HP_PERCENT_GS1[ability_id], 100)
+    dmg = psy_core(power, _diff(att, tgt, element, from_item)) * hits
     table = {5: SPREAD["type5"], 6: SPREAD["type6"], 8: SPREAD["summon"]}.get(damage_type)
     if table:
         dmg = _div(table[min(distance, 5)] * dmg, 100)
     dmg += rand2 & 3
-    return _guard(dmg, tgt.guard)
+    return _guard(dmg, tgt.guard, game)
+
+
+def drain_damage(att: Unit, tgt: Unit, power: int, element: int, distance: int = 0, hits: int = 1,
+                 landed: bool = True, game: str = "gs2", from_item: bool = False) -> int:
+    """HP damage of damage type 2 (Drain, Cannibal Fang, Vampiric Fang...). GS2 0x08121304, GS1 executor case 2.
+
+    Only when the ability's effect landed (the hit/effect roll): psy_core(power, diff) * hits * spread / 100 with
+    the type-2 spread (100, 50, 30, 10, 10, 10), then the guard cut. No +0..3 and no minimum of 1. The effect
+    (31 drain HP) then credits the user. VERIFIED-CODE in both ROMs (GS2 disassembly 0x08121304-0x08121392).
+    """
+    if not landed or power == 0 or (game == "gs2" and tgt.guard == 4):
+        return 0
+    v = psy_core(power, _diff(att, tgt, element, from_item)) * hits
+    return _guard(_div(SPREAD["type2"][min(distance, 5)] * v, 100), tgt.guard, game)
 
 
 def heal_amount(att: Unit, tgt: Unit, power: int, element: int, distance: int = 0, hits: int = 1,
@@ -322,10 +386,26 @@ def heal_amount(att: Unit, tgt: Unit, power: int, element: int, distance: int = 
     return min(h, tgt.max_hp - tgt.hp)
 
 
-def pp_drain(att: Unit, tgt: Unit, power: int, element: int, distance: int = 0, hits: int = 1) -> int:
-    """PP removed by a Psynergy-drain (type 10) ability. GS2 0x08120CE2. Capped at the target's PP."""
+def pp_drain(att: Unit, tgt: Unit, power: int, element: int, distance: int = 0, hits: int = 1,
+             game: str = "gs2") -> int:
+    """PP removed by a Psynergy-drain (type 10) ability. GS2 0x08120CE2. Capped at the target's PP.
+
+    GS1 (alchemy executor case 10): same steps (psy_core, PP-drain spread, hits, guard, PP floored at 0)."""
     v = _div(SPREAD["pp_drain"][min(distance, 5)] * psy_core(power, _diff(att, tgt, element)), 100) * hits
-    return min(_guard(v, tgt.guard), tgt.pp)
+    return min(_guard(v, tgt.guard, game), tgt.pp)
+
+
+def pp_recover_amount(att: Unit, tgt: Unit, power: int, element: int, distance: int = 0, hits: int = 1,
+                      from_item: bool = False) -> int:
+    """PP restored by a type-11 ability. GS1 executor case 11 (VERIFIED-CODE, alchemy C + spread table bytes
+    0x080C2B50); GS2 0x08121278 INFERRED the same (its identical table 0x08128930 is referenced at 0x08121450).
+
+    heal_core(power, P) * PP-recovery spread (100, 80, 60, 40, 20, 10) / 100 * hits, capped at the missing PP.
+    Unlike HP healing there is no +0..3. P is the user's Power in the element (100 for neutral and items).
+    """
+    P = 100 if (element >= 4 or from_item) else att.power[element]
+    p = _div(SPREAD["pp_recover"][min(distance, 5)] * heal_core(power, P), 100) * hits
+    return min(p, tgt.max_pp - tgt.pp)
 
 
 def status_chance(effect: int, att_level: int, tgt_level: int, tgt_luck: int, weak: bool = False,
@@ -337,6 +417,9 @@ def status_chance(effect: int, att_level: int, tgt_level: int, tgt_luck: int, we
     fixed-chance effects ignore all of that. The roll succeeds if rand100() <= chance * spread / 100, so even
     a chance of 0 lands 1% of the time. Effects 67, 80, 85 roll 3 times. A target with Luck >= 40 is immune to
     effects 18, 19, 26, 27, 28, 34, 80, 82.
+    GS1 (BattleFx_RollSuccess, alchemy GAME/DJINN/DJINN.C): the same formula and roll, but there is NO Luck
+    immunity, only effect 67 rolls 3 times, and the pre-checks are revive (5, 56, 57) on a living target, cure
+    effects 3/4/64 with nothing to cure, and curse (28) on an already cursed target.
     """
     base = status_base_chance(effect)
     if base < 1:
@@ -379,9 +462,28 @@ def flee_chance_x10000(party_levels: list, enemy_levels: list, failed_attempts: 
     return 5000 + pa + failed_attempts * 2000 - ea
 
 
-def enemy_action_priorities(agility: int, turns: int) -> list:
-    """Priority of each action of an enemy with `turns` actions per round (GS2 FUN_0811cfd0)."""
+def party_action_priority(agility: int, rand16: int, repeat: bool = False) -> int:
+    """Turn priority of one party command (GS1 0x08027F90, GS2 0x0804CBA0; identical code, VERIFIED-CODE).
+
+    Agility + (Agility * rand16 >> 20), i.e. a random bonus of 0..Agility/16 (kernel RNG). A second command
+    of the same member in the same round (repeat) gets half of that; a negative result becomes 2000.
+    Members who can't choose (asleep, stunned...) get plain Agility and a no-op (GS1 BattlePres_BuildUnitEntries).
+    """
+    v = agility + ((agility * (rand16 & 0xFFFF)) >> 20) if agility else 0
+    v = ((v + 0x8000) & 0xFFFF) - 0x8000           # stored as s16
+    if repeat:
+        v = _div(v, 2)
+    return 2000 if v < 0 else v
+
+
+def enemy_action_priorities(agility: int, turns: int, game: str = "gs2") -> list:
+    """Priority of each action of an enemy with `turns` actions per round (GS2 FUN_0811cfd0).
+
+    GS1 (BattlePres_BuildOpponentEntries, alchemy PRESENT5.C): every action after the first gets Agility/2.
+    """
     out = [agility]
+    if game == "gs1":
+        return out + [_div(agility, 2)] * max(turns - 1, 0)
     if turns == 4:
         out += [_div(agility * 5, 6), _div(agility * 4, 6), _div(agility, 2)]
     elif turns == 3:
@@ -395,6 +497,10 @@ def reward_bonus(base: int, enemy_level: int, rolls_d: int, rng) -> int:
     """Extra-reward mode of GS2 FUN_0812824c: base + max(sum of (level//10 + 1) dice, base*3//10).
 
     EXP (enemy +0x48) uses d4 (`rolls_d`=4); coins (+0x42) use d6. rng() must return 16 bits.
+    GS1 has the same mode (BattleEnemy_RecordDefeat, alchemy BATTLE10.C; EXP record +0x52, coins +0x4C, item
+    +0x4E, drop code +0x50), switched on by bit 0 of the battle event flags (event opcode 13); in that mode the
+    drop code is lowered by 2 as in GS2. EXP then goes in full to every party member whose HP > 0; downed
+    members get nothing (Battle_AwardSpoils uses BattleParty_ListLivingUnits).
     """
     s = sum(((rng() * rolls_d) >> 16) + 1 for _ in range(enemy_level // 10 + 1))
     return base + max(s, _div(base * 3, 10))
@@ -408,6 +514,59 @@ def djinn_recovery_countdowns(n_used_by_owner: int, existing_max: int = -1) -> l
     """
     start = max(existing_max + 1, 2)
     return [start + i for i in range(n_used_by_owner)]
+
+
+# GS1 Djinn timing (alchemy, 2026-10-14): djinn_recovery_countdowns() is the same assignment, run at the end of
+# the summoner's turn (BattleUnit_ProcessTurnEnd 0x080BFBA4). The countdowns tick at ROUND END for every owner who
+# is in the battle with HP > 0 (Battle_ProcessRoundEnd), and every Djinni that reaches 0 is Set there (with the
+# per-owner stagger that is one per owner per round, the first at the end of the round after the summon).
+
+
+def summon_power_boost(djinn_of_element: int) -> int:
+    """Power bonus a GS1 summoner keeps in an element for the rest of the battle (VERIFIED-CODE).
+
+    At the end of the summoner's turn (0x080BFBA4) b = number of spent Djinn of the most-used element is stored
+    in unit +0x12C + e when larger than the current value; the stat recompute (0x0807795A) adds 5*b*(b+1) to
+    Power[e]: 1 Djinni +10, 2 +30, 3 +60, 4 +100. GS2 keeps +0x12C..+0x12F too (INFERRED the same use).
+    """
+    b = djinn_of_element
+    return 5 * b * (b + 1)
+
+
+def formation_enemy_counts(minimums, maximums, one_slot, rand16) -> list:
+    """How many of each of a formation's 5 members appear (GS1 BattleFormation_BuildEnemyList 0x080C1FFC).
+
+    minimums/maximums: the record's u8 counts; one_slot[i]: the member's battle-sprite entry has bit 0 of byte 2
+    set (small enemy, 1 slot; otherwise 2 slots). The minimums are always placed (they may overrun the 6-slot
+    budget); each member then rolls extras = rand(min(max - min, budget // size) + 1), and the extras are added
+    one per member per pass while they fit. The game assigns at most 6 units (0x80..0x85) from the list, in
+    an order set by the record's battle type (0 shuffled member groups, 1 random draw, else record order).
+    rand16() must return 16 bits (kernel RNG). VERIFIED-CODE for the budget/extras loops (ROM asm, alchemy draft).
+    """
+    budget = ENEMY_SLOT_BUDGET
+    size = [1 if one_slot[i] else 2 for i in range(5)]
+    for i in range(5):
+        if minimums[i]:
+            budget -= size[i] * minimums[i]
+    counts, extra = list(minimums), [0] * 5
+    for i in range(5):
+        room = maximums[i] - minimums[i]
+        if room > 0:
+            room = min(room, _div(budget, size[i]))
+            extra[i] = ((room + 1) * rand16()) >> 16
+    changed = True
+    while changed:
+        changed = False
+        for i in range(5):
+            if extra[i]:
+                if size[i] > budget:
+                    extra[i] = 0
+                else:
+                    counts[i] += 1
+                    extra[i] -= 1
+                    budget -= size[i]
+                    changed = True
+    return counts
 
 
 # --------------------------------------------------------------------------------------------------------------
@@ -514,6 +673,40 @@ def _selftest(gs1_path: str, gs2_path: str) -> int:
             n += 735
             if got != SUMMON_HP_PERCENT_GS2:
                 fails.append((game, "summon_hp_percent", got))
+        if game == "gs1":
+            # GS1 summon HP bonus (command 6): run 0x080BC2FA..0x080BC38C with the action id at [sp+0x40], the
+            # target unit in r7 (max HP 100 at +0x34), r5 = 0 and the pct stack word [sp+8] cleared -> r5 = pct.
+            from unicorn.arm_const import UC_ARM_REG_SP, UC_ARM_REG_R5, UC_ARM_REG_R7
+            uc = emu.uc
+            lo, hi = A["summon_bonus_block"]
+            sp, unit = 0x03007C00, 0x0203F000
+            emu.write(unit + 0x34, (100).to_bytes(2, "little"))
+            got = {}
+            for i in range(0, 520):
+                emu.write(sp + 0x40, i.to_bytes(4, "little"))
+                emu.write(sp + 8, bytes(4))
+                uc.reg_write(UC_ARM_REG_SP, sp)
+                uc.reg_write(UC_ARM_REG_R7, unit)
+                uc.reg_write(UC_ARM_REG_R5, 0)
+                uc.reg_write(UC_ARM_REG_CPSR, uc.reg_read(UC_ARM_REG_CPSR) | 0x20)
+                uc.emu_start(lo | 1, hi, count=500)
+                v = s32(uc.reg_read(UC_ARM_REG_R5))
+                if v:
+                    got[i] = v
+            n += 520
+            if got != SUMMON_HP_PERCENT_GS1:
+                fails.append((game, "summon_hp_percent", got))
+            # The distance spread tables are the GS2 ones, byte for byte.
+            base = A["spread_tables"] - 0x08000000
+            n += 1
+            if tuple(d[base:base + 6]) != SPREAD["status"]:
+                fails.append((game, "status_spread"))
+            order = ("pp_drain", "heal", None, "type5", "summon", "type6", "pp_recover", "type2")
+            for k, name in enumerate(order):
+                vals = tuple(int.from_bytes(d[base + 8 + 24 * k + 4 * j:][:4], "little") for j in range(6))
+                n += 1
+                if name and vals != SPREAD[name]:
+                    fails.append((game, "spread", name, vals))
         checks += n
         print(f"{game}: {n} emulated comparisons")
     print(f"total {checks} checks, {len(fails)} mismatches")

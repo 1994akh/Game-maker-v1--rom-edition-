@@ -38,6 +38,16 @@ design docs.
 | **pokeemerald-expansion, PokeAPI CSVs** | Pokémon species, moves, learnsets and evolutions, converted to JSON. |
 | **Minish Cap decomp (tmc)** | Reference for free movement, corner nudging and puzzle objects. |
 
+## Status (14 Oct 2026)
+
+- **Runs on the Fold 7:** the debug APK built by `tools/setup_dev.py` + the Android preset installed and ran on the
+  phone (your test). The build in `OneDrive\Apps-Roms\_GameMaker-builds\GameMaker-debug.apk` is the one that ran.
+- **Playing:** Sol Sanctum and Alpine Crossing from the extracted maps; Golden Sun free movement; Move, Frost and
+  Growth field Psynergy with the game's timings and flag lifetimes; one field-ability table for Psynergy and the kept
+  HMs. 32 headless tests pass; each system has an automated end-to-end check with a screenshot.
+- **Next:** NPC dialogue from the extracted text, the first 4 + 4 battle on `gs_battle.py`'s formulas, Reveal,
+  menus, the character creator, Fold layouts.
+
 ## Tools to install first ([full ranked list](resources/ranked.md))
 
 - **Map import:** YATI (Tiled import).
@@ -46,6 +56,11 @@ design docs.
 - **Pokémon data:** PokeAPI CSVs.
 - **Reference:** godot-open-rpg, read only.
 - **Later:** Dialogue Manager for dialogue, LimboAI for AI, and FluidSynth to render music to OGG.
+
+**14 Oct audit of your local folder:** [what's on disk worth using, what to add, what to keep disabled]
+(resources/local-folder-audit-2026-10-14.md). Short version: lift from the official Godot demos, the
+MetroidvaniaDeveloperSystem shaders and `lit`'s post shaders already in `Apps-Roms`; add KoBeWi's palette-swap
+shader, controller_icons, gloot and Maaack's menus; never enable ziva_installer, GodotBridge or godot-mcp.
 
 More: [Godot ecosystem survey](resources/godot-ecosystem.md) · [data and references](resources/data-and-references.md)
 

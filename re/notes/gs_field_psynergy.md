@@ -333,3 +333,190 @@ and Halt, whose case blocks are inline.
   time.
 - The flag-number space: whether flags with bit `0x1000` are a separate bank.
 - Live verification (mGBA) wasn't done in this pass; this job wasn't allowed to launch mGBA.
+
+## 11. Puzzle targets resolved (14 Oct)
+
+Details of the actor model are in `gs_maps.md` → "Actors and puzzle objects (14 Oct)". In short:
+- Event actor ids are **actor slots**. Slots 0–7 are party ids. Placement rows take slots 8, 9, … in table order,
+  even when their condition hides them.
+- Map code had to be **relocated** (`bl` fix-up, GS1 `0x08002D5C`) before its getters return the right tables.
+- Some actors come from tables that room scripts spawn (`Event_CallWithLastActiveObjectId`, GS1 `0x0808A030`).
+
+`field_psynergy.json` changes:
+- Each actor-targeted event has `target` {resolved, slot, source (placements / script:extra), table, row, sprite,
+  sprite_id, sprite_png, x, y, z, tile, angle, condition, behavior}.
+- Tile-targeted events get the collision cells that carry the event id, plus a bounding box.
+- Every event has `flag_scope`.
+- New top-level `object_types` (sprite → field ids, rooms, kind) and `flag_scopes`.
+- `coverage.targets` gives the counts.
+
+**GS1 coverage** (1,198 Psynergy events; 1,137 on actors, 61 "anywhere", none on tiles): **1,122 / 1,137 actor
+targets resolve (98.7%)**.
+
+| Psynergy | Resolved |
+|---|---|
+| Move | 142/142 |
+| Frost | 39/39 |
+| Growth | 12/12 |
+| Lift | 7/7 |
+| Force | 22/22 |
+| Douse | 28/28 |
+| Carry | 18/18 |
+| Catch | 15/15 |
+| Halt | 9/9 |
+| Ply | 2/2 |
+| Whirlwind | 16/17 |
+| Mind Read | 812/826 |
+
+**Puzzle object types (GS1, sprite id → role).** Each sprite's PNG is `battle_sprites\sprites\NNNN.png`. The sprite
+ids and the Psynergy that target them are VERIFIED data; the role names are INFERRED.
+
+| Role | Sprite ids |
+|---|---|
+| Puddle (Frost → ice pillar) | 227 (= alchemy `SPRITE_PUDDLE 0xE3`, Lunpa cave puddles in slots 8–11) |
+| Sprout (Growth → vine) | 238 (room 49, slot 8) |
+| Boulder (Lift) | 295 |
+| Pushables (Move) | 201, 202 (Sol Sanctum statues, room 12), 203, 205, 211 (42 events), 212, 223, 224, 234, 241, 243, 246, 253–256, 293, 299 |
+| Carry targets | 256 (also pushed) |
+| Douse targets | 289 (22), 290, 247 |
+| Force targets | 22 (also Catch/Mind Read: probably a generic NPC/object sprite), 33, 259, 294 |
+| Whirlwind targets | 248 |
+| Catch | 245 |
+| Halt | 90, 93, 165 |
+
+**State representation** (rebuild):
+- An object is {slot, sprite_id, position, facing, animation, condition flag}.
+- Frost and Growth set **animation 2** on the target (§7). Room init re-creates solved states from flags; the GS1
+  Lunpa cave sets anim 5 on frozen puddles (alchemy `PUDDLE_ANIM_FROZEN`).
+- Move changes the position (16 px per push).
+- Hidden/revealed objects are placement rows whose condition flag hides them until a script sets or clears it.
+
+**Persistence: answered (VERIFIED, GS1 `0x0808AB74`, GS2 `0x080C9C38`).** This corrects §5 and §8 ("one saved flag
+per solved puzzle"):
+
+| Flags | Lifetime |
+|---|---|
+| 0x200–0x2FF | Cleared on every room entry: the puzzle resets when you come back |
+| 0x300–0x3FF | Kept while you stay in the same place group (room table byte 2); cleared when you enter another group. That's why 0x305 recurs in unrelated rooms |
+| 0x80–0xDF | Cleared on every entry |
+| Others (e.g. 0x8xx story flags) | Saved and permanent |
+
+For the rebuild, use three stores: a room-scratch set, a place-group set, and the saved set. Pick the store by
+flag range.
+
+**GS2 coverage** (2,041 Psynergy events, was 1,808 before relocation):
+- Actor targets: **1,624 / 1,647 resolve (98.6%)**. Move 357/357, Frost 50/50, Growth 9/9, Lift 19/19, Lash 30/30,
+  Pound 85/85, Blaze 47/47, Whirlwind 117/117, Mind Read 848/868. Halt 1/4 is the weak case.
+- Tile targets: **268 / 277 resolve to collision cells (96.8%)**. Scoop 35/38, Burst 61/62, Parch 15/15,
+  Cyclone 135/140, Grind 8/8, Teleport 14/14.
+- 117 events are "anywhere".
+
+GS2 sprite → role, top ones (INFERRED labels):
+
+| Role | Sprite ids |
+|---|---|
+| Puddle (Frost) | 290 |
+| Sprout (Growth) | 299 |
+| Pushable (Move) | 272 (180 events), 312, 287, 428, 250, 254, 316, 292, 315 |
+| Boulder (Lift) | 329 |
+| Rope post (Lash) | 407 |
+| Pound pillar | 406, 411 |
+| Torches (Blaze) | 364, 365, 418, 419, 489 |
+| Whirlwind targets | 307, 325, 372, 382 |
+| Douse targets | 380, 383 |
+| Grind rock | 424 |
+
+**Run state (14 Oct):**
+- GS1 maps were fully re-exported.
+- The GS2 full render run was stopped after room 72 because it was too slow (~4.5 rooms/min). GS2 `events.json` and
+  `map_code.bin` were then refreshed for all 325 rooms (events only). GS2 Tiled maps for rooms 73+ still carry the
+  old actor objects, and index.json's per-room counts for those rooms are old.
+- To finish, re-run `.venv\Scripts\python.exe -m gbax.codecs.gs_maps "<GS2 ROM>"` (about an hour), then
+  `-m gbax.codecs.gs_field gs2`.
+
+## 12. Lost Age handlers (14 Oct, second pass)
+
+Sources:
+- GS2 Ghidra decompiles of the routines from the compare chains `0x080DB4B8` / `0x080DB670` and the end-of-effect
+  table `0x080DB8A0`.
+- Capstone scans of GS1 vs GS2 constants.
+- goldensun_html5 `base\field_abilities\*.ts`, read only.
+
+Data: `field_psynergy.json` → `field_psynergy[].gs2_handler_spec` (per id) and `flag_scope_counts`, plus the
+top-level `effect_hit_callback`. Code: `gbax\codecs\gs_field.py` `GS2_FIELD_SPEC`, `gs2_scoop_stage()`.
+
+**12.1 GS2 effect-hit events are per-frame callbacks (VERIFIED).** GS1 runs a phase-5 event once, when the visual
+lands. GS2 works differently:
+- The effect routine looks the event up once at the start: `0x080CE458(0x50000005, field id, 0x080CE31C target)`.
+- It then calls `0x080CEAFC(event, stage, frame)` **every frame** while its animation task runs. The frame index
+  counts up; Burst passes 999 on the last call.
+- Call sites: Pound `0x080E5D5C`, Scoop `0x080E68D0`, Burst `0x080E572C`, Parch `0x080E7844`, Hover `0x080E9AF4`
+  (once), Grind `0x080E92B4`, Cyclone helper `0x080E249C`.
+- For the rebuild, give a puzzle script `on_effect_frame(stage, frame)` and `on_effect_end()`, not one callback.
+- Scoop's stage is 1 only at frame 30 and 2 only at frame 50 (`gs2_scoop_stage`).
+
+The "target" routines of ids 18–27 and 30 are 8-byte wrappers that store the target and fall into the "empty" one.
+
+**12.2 Per Psynergy.** VERIFIED = read in the decompile; INFERRED is marked.
+
+| Id | Psynergy | Acts on (range) | Engine effect, timing, sounds | Events (GS2 phases) |
+|---|---|---|---|---|
+| 17 | Lash | rope-post actors (sprite 407) listed in the **rope table** (16 px) | `0x080E0978` looks the actor up in the rope table (below). If it isn't listed, a fail flag is set: the hand (object 0x16B) rises and drops. If it is, the hand rises for 10+16 frames (sound 0x84), then `0x080D92D4(rope, A, B)` draws the rope from post A to post B, 8 px up, in segments that grow with the distance (sounds 0x200, 0x18B) | 30, all phase 0 |
+| 18 | Pound | pillar actors 406/411 (33 px, cone 45°, dy 12) | Fist object 0x160. Aborted if another solid actor (byte +0x59 bit 0) overlaps the hit point. Phase-5 callback per frame with (hit stage, frame) | 85: 82 phase 5 |
+| 19 | Tremor | actors (33 px, cone 45°, dy 16) | Horizontal screen shake `0x080E8B44(1)`, sound 0x98, 10-frame waits. No effect-hit lookup; the phase-0 event of the target runs after the shake. INFERRED: what falls | 11: 10 phase 0 |
+| 20 | Scoop | tile ahead (16 px) | Dig object 0x161 (sounds 0x8A, 0x84, 0x72). With an event: the phase-5 callback. With no event on diggable ground (state +0x1938 == 1), `0x080E716C` pops object 0x1E9 at frame 24 with a random find: 75% an item from a 16-entry table (literal at `0x080E7234`), else coins. INFERRED: the random-find details | 38: 36 phase 5 |
+| 21 | Burst | tile ahead (16 px) | Blast, sound 0x82. Phase-5 callback (stage, frame), last frame 999 | 62: 38 phase 5, 12 phase 0, 12 phase 8 |
+| 22 | Parch | water cell 32 px ahead (`0x080CDA84`) | `0x080DBD5C` tests the cell and `0x080DBDC8` reads its event id. Outcomes: 0 = nothing, 1 = water without an event, 2 = event. Sounds 0x8C, 0x82, 0x21E | 15, all phase 5 |
+| 23 | Sand | anywhere; sand terrain only | `0x080DBCD8` tests terrain kind 2 (`0x080DBB78`) under the player; +0xD48 = 1 when not on sand (fail). The player spins (+0x2000 facing per frame for 40 frames, sound 0x236). At frame 60 the sprite becomes 0xFB, the sand mound (sound 0x88). End of effect `0x080E4730`: a **phase-4** lookup for the cell, run with (event, +0x18, −1). The leader's sprite comes back from +0x214, lifted 10 px (sounds 0x220, 0x21B) | 55: 28 phase 0, 27 phase 4 |
+| 24 | Hover | anywhere | Phase-5 lookup at the start; player anim 5, raised, sound 0x82. Fails (sound 0xF6, back down in 32 frames) if `0x080DBCC0` rejects the cell or a solid actor overlaps. Otherwise the script runs once and the hover task runs. End of effect `0x080E9DB4`: sinks to the ground in ≤ 60 frames (sound 0x84), then two 20-frame settles | 6: 3 phase 0, 2 phase 2, 1 phase 5 |
+| 25 | Cyclone | grass/bush cells around the player (no actor aim; range 1, cone 0) | Whirl object 0x118 on the player and a BG whirl distortion (`0x080E2A68`), sounds 0x88, 0xCF. Helper `0x080E249C`, called ×3, checks terrain cells and runs the phase-5 events of the cut cells. INFERRED: the radius | 140, all phase 5 |
+| 26 | Blaze | torch actors 364/365/418/419/489 (17 px, dy 64) | Finds a torch among the 80 slots (`0x080CDAC0`); flame objects 0x16E/0x16F, sounds 0xBA, 0xCF, 0x18B. Looks up **phase 6** (`0x60000005`, the light) and **phase 2** (`0x20000005`) events | 47: 21 phase 1, 11 phase 2, 8 phase 6, 7 phase 0 |
+| 27 | Grind | rock actor 424 or tile (33 px, cone 45°) | Vertical shake `0x080E8B44(2)`, sounds 0xEE, 0x186. `0x080E9250` DMA-scrolls map rows for the grinding look. Phase-5 callback | 19: 11 phase 0, 8 phase 5 |
+| 30 | Teleport | the cell **under** the player (`0x080CB144`) | **No engine effect**: `0x080E781C` only calls the getter `0x080CDF5C`. The pad's phase-0 script does the warp | 14, all phase 0 |
+
+**Rope table (Lash), VERIFIED layout, INFERRED field names:**
+- `*(0x0300009C)+0x0C` holds 8 records × 0x20 bytes: {s16 post_a actor, s16 post_b actor, …, +0x10 s16 segments drawn,
+  +0x1C nonzero = active}.
+- Room scripts fill it.
+- The cast stores the rope index and posts at field state +0xD31…+0xD33.
+
+**12.3 Lift, Carry, Catch: GS1 vs GS2.** The effect code is the same port: the same sounds (Lift 0x86/0x82; Carry
+0x87/0x83/0x82/0x72/0xAF; Catch 0x8A/0x84/0x72), the same waits (10/15/20 frames) and the same literals (VERIFIED
+by a constant scan). The differences:
+- The hand object is renumbered: Lift/Carry 0x2A1 (GS1 0x11D). GS1 Catch has one extra call, `0x08096C80(0xD7)`.
+- GS2 aims only at actors that have an event for the id (§4); the range table uses range+1.
+- The events differ:
+
+| Psynergy | GS1 events | GS2 events |
+|---|---|---|
+| Lift | 7 | 19 (all phase 0, boulder sprite 329) |
+| Carry | 18 | 7 (2 phase-1 "pre", 5 phase 0) |
+| Catch | 15 | 2 |
+
+The Lift raise is 24 px (`0x180000`), or 14 px (`0xE0000`) on the targeted path. Carry moves in 16 px steps.
+
+**12.4 Persistence.** By the event's flag (§11 table); counts are in `flag_scope_counts`. "None" there means flag
+FFFF: always active, nothing stored.
+- Pound: 63 of 85 "room" (0x2xx), so pillars pop back up on re-entry.
+- Lash: 22 of 30 "room".
+- Scoop: 18 "place_group", 6 saved.
+- Cyclone, Sand, Teleport and Blaze are flagless: the state is rebuilt from tiles or scripts each time.
+
+**12.5 Where html5 differs from the ROM:**
+
+| html5 | ROM |
+|---|---|
+| Lash `RopeDock` objects pair the docks (`is_starting_dock`, `dest_x/dest_y`, `tied`) | The pairing lives in the rope table, filled by room scripts |
+| Pound shrinks the sprite, sets collision on the tiles of events "active at direction", and enables jump-over | The per-frame phase-5 script changes the height |
+| Lift reads `destination_y_pos` (default tile_y − 2) and `destination_collision_layer` (+1) per object | The phase-0 script decides where the rock goes |
+| Sand uses a tile property `allow_sand` and a separate sand collision layer | A terrain kind under the player plus phase-4 "surface here" events |
+
+In general, html5 models these as object properties; the ROM uses map events plus scripts.
+
+**12.6 Open:**
+- The Cyclone radius (`0x080E249C`).
+- The terrain kinds read by `0x080DBB78` for Parch, Hover and Cyclone.
+- Tremor's script effects.
+- The Scoop random-find table contents.
+- Blaze's sprite check `0x1A2` (`0x08020330`).
+- The meaning of the stage values for Pound and Burst.

@@ -154,7 +154,7 @@ Tiled objects:
 - 325 of 325 rooms export event tables: 641 entrances, 8,766 warps, 2,543 actors, 5,369 event handlers.
 - The warp check is weak in GS2: only 1,677 of 8,746 doors are found in the target room's entrance table. GS2
   entrance tables are short (often 1–3 ids, e.g. 0/10/20) and type-1 events are common (1,165). Arrival points are
-  probably set by scripts or type-1 handlers. **Open**: the GS2 door → arrival mapping.
+  probably set by scripts or type-1 handlers. **Solved 14 Oct**: see "Exits and arrival points" below (99.5% resolve).
 - Some test rooms show junk warp lists (106 rows), like GS1's.
 
 ## Not done / open
@@ -173,3 +173,160 @@ Tiled objects:
 Sources: adituv/gsmagic `Form1.cs` (`loadEntireMap`, `dispMap`, `decompTileData`, `decompMap2`;
 https://github.com/adituv/gsmagic, clone in `external\gsmagic`, commit ecde9b5). Every table and format above was
 checked against the ROM code or data.
+
+## Actors and puzzle objects (14 Oct)
+
+Sources: alchemy's GS1 decompile (`games\THE BROKEN SEAL\SRC\FIELD\COMMON\OBJECT\OBJECT3.C`, `EVENT\EVENT.C`,
+`FIELD4.C`, `SYSTEM\RESOURCE\PATCH_THUMB_BRANCH.S`, `INCLUDE\FIELD_SCENE.H`), checked against both ROMs.
+
+**1. Map code must be relocated (VERIFIED; this was the main cause of the actor mismatch).** Map code is stored with
+every Thumb `bl` pair holding its target as an offset from the block start (target = `0x02008000 + stored + 2`).
+`Resource_LoadCode` runs the ARM routine GS1 `0x08002D5C` over the decoded block to make the calls pc-relative.
+The exporter skipped this, so the emulated getters called wrong addresses: some returned no table and multi-scene
+overlays returned the wrong scene's table (e.g. GS1 room 31 Bilibin had no actor table). `GsMaps.relocate_bl()` now
+does it; `map_code.bin` is the relocated code (as it sits in RAM). With it, getters return all four tables in all
+201 GS1 and 325 GS2 rooms. GS1 now has **1,198 Psynergy events** (was 1,005) and 968 talk events (was 734). Getters
+also run on a copy whose imports into the main image return 0 (`stub_imports`), i.e. a fresh game with all flags clear.
+
+**2. Actor slots (VERIFIED, GS1 `Event_SpawnObjectTable` `0x0808B3EC`).** The field actor table (field state
+`*(0x03001EBC)` + 0x14) has slots 0–65.
+- The placement row's first u16 is the sprite. Ids 0–7 are **party members** (`ACTOR_FIRST_PLACED = 8`); such a row
+  places that member in **its own slot** and doesn't consume a slot.
+- Every other row (sprite ≤ 0x2705) takes the **next slot from 8, whether or not its condition holds**. So row k
+  (counting non-party rows) is slot 8+k. Event ids (talk, Psynergy-on-actor) are these slot numbers.
+- Larger ids keep the previous slot (not seen in practice). Spawning stops after slot 65.
+- The room load spawns the leader first, then the room's table from slot 8 (`ObjectTable_ResetForObject`).
+- GS2: the same rule matches the data (below). The GS2 routine wasn't located (no `0x2705` compare found), so it's INFERRED.
+
+**Placement row** (24 B, `struct ScenePlacement`): s16 sprite, s16 condition, s32 behaviour (1 = stand, 2 = wander,
+else an engine or map-code callback), s32 x, y, z (16.16 px), u16 facing, u8 talk facing (0 face the party,
+1 face and turn back, 2 keep facing), u8 flags (bit 0: share the previous row's sprite slot).
+- Sprite: the low 12 bits index the sprite table (`battle_sprites\sprites\NNNN.png`, GS1 `0x08185024`).
+  The top nibble 2 means a two-part sprite (ids n and n+1). VERIFIED `FieldObject_Create`.
+- A row with y ≠ 0 starts raised (mode 4, y + 0.5 px). Objects are placed on the terrain height.
+
+**Conditions** (VERIFIED in the spawner):
+- `0xFFFF` = always.
+- Bit `0x1000` set = shown while the flag is set; otherwise shown while it's clear.
+- Djinn rows (condition 0x30–0x7F) also need flag condition+0x50 clear (that flag is "fled this visit", reset on
+  every entry). This doesn't apply on the world map.
+- Condition 0 in rooms whose placement getter calls `Scene_AssignViewFlags` (GS1 `0x0808A038` → `0x0808B868`):
+  rows inside the camera bounds get flag 0x164 (shown), the rest get 0x165 (not spawned at load; streamed). 27 GS1
+  rooms do this (the towns). Exported as `show: always_view_streamed`.
+
+**Script-spawned actors.** Room scripts add actors with `Event_CallWithLastActiveObjectId(table)` (GS1 far veneer
+`0x0808A030` → `0x080917AC`). It spawns another placement table starting at the slot after the highest occupied one.
+`Event_RunObjectHookAndWait(table)` (`0x0808A028`) instead rebuilds the whole actor table from slot 8.
+- Objects made with `Object_Create` (effects, overlay props) never get an actor slot, so events can't target them.
+- The exporter finds these calls by a static scan (`scan_actor_calls`): the room's import veneers, plus literal loads
+  tracked into r0.
+- GS1: 35 `extra` calls → 126 script-spawned rows, and 27 `prepare` calls. GS2 rooms import none of the three
+  (sampled every 5th room and checked in the full run), so GS2 actors all come from the placement getter.
+- The slots of script-spawned rows assume the placement table's last row is present (`slot_basis`). If that row's
+  condition fails, the real slots shift down.
+
+**Export changes** (`events.json`):
+- `actors[]` gains `slot`, `party_member`, `sprite_id`, `sprite_parts`, `condition` {show, flag, scope,
+  also_while_clear}, `behavior`/`behavior_kind`, `tile` [x, z] (16 px), `talk_facing`, `share_prev_sprite`,
+  `source`, and the lists `talk_events` / `psynergy_events` that target it. The old raw fields are kept.
+- New `actors_spawned[]` (the same fields plus `table` and `call_site`) and `actor_spawning` {placements_prepared_by_view,
+  script_calls}.
+- Events gain `actor_slot` and `actor` {source, index, table}, or `{source: party}` for slots below 8.
+- Tiled: actor objects are named `actor slot N`, with slot, row, source, sprite, show/flag/flag_scope and the Psynergy
+  abilities. Script-spawned actors go in their own object layer.
+
+**Coverage** (events whose actor slot resolves to an exported actor or a party slot):
+
+| | talk | Psynergy on actor |
+|---|---|---|
+| GS1 before | 111 / 734 | 34 / 138 (Move only) |
+| GS1 now | **949 / 968** (98%) | **1,122 / 1,137** (98.7%) |
+| GS2 now | **999 / 1,078** (93%) | **1,624 / 1,647** (98.6%) |
+
+- GS1 misses: rooms 38 and 140 (Mind Read, slots 13–16), 9, 92, 113 (one Whirlwind event, slot 18) and a few
+  single events. These are probably actors from tables the static scan can't follow (pointer built at run time).
+- GS2 misses: mostly debug room 321 (21).
+
+**Persistence (VERIFIED: GS1 `0x0808AB74`, GS2 `0x080C9C38`, alchemy `Scene_ResetFlagsOnEnter`):**
+- Unless the load keeps state (flag 0x109 path): **0x200–0x2FF are cleared on every room entry**, and 0x80–0xDF too.
+  Also cleared: 0x16C, 0x144, 0x161, 0x123, 0x11C.
+- **0x300–0x3FF are cleared when the new room's place group** (room table byte 2) differs from the last one. Then
+  flag 0x12F is set (show the place name) and the return point is recorded.
+- Flag 0x180 + (group & 0x7F) is set ("group visited").
+- Everything else persists. The whole 0x200-byte flag block at `0x02000040` is in the save.
+
+So a puzzle flag in 0x300–0x3FF lasts while you stay inside one dungeon or town and resets when you leave it. That's
+why 0x305 is reused by unrelated rooms. 0x2xx flags reset on every room change; 0x8xx+ story flags are permanent.
+`flag_scope()` in `gs_maps.py` returns this classification (`visit`/`room`/`place_group`/`view`/`saved`).
+
+Re-run: `.venv\Scripts\python.exe -m gbax.codecs.gs_maps <ROM>` (GS1 about 80 s), then
+`.venv\Scripts\python.exe -m gbax.codecs.gs_field all`.
+
+## Exits and arrival points (14 Oct, second pass)
+
+This replaces the "warps" row of the map-code table above and answers the GS2 "door → arrival" question.
+
+**1. The exit list (stub 2) is grouped by room. VERIFIED** against the engine's reader: GS1
+`MapGroupTable_SelectEntry` `0x0808A5F8` (alchemy `SRC\FIELD\COMMON\MAP\SELECT_GROUP_ENTRY.C`) and GS2 `0x080C9694`
+(Ghidra). GS2's field loop `0x080C9944` calls it with the exit id that `0x080CB91C` returns. The list is u32 words:
+
+| Word | Meaning |
+|---|---|
+| header | upper 20 bits clear; bits 0–11 = the room the group belongs to. A header of `0x1FF` ends the list |
+| exit | bits 0–11 to_room, 12–19 to_door (entrance id in the target room), 20–27 exit id (0xFF = any), bit 28 = a flag word follows |
+| flag word | after a bit-28 exit. The exit is taken while the flag is **clear**; 0 and (GS2) `0xFFFFFFFF` mean always |
+
+- A group ends at a word whose exit id is 0 (the next header) or whose room is `0x1FF`.
+- The engine takes the group whose header is the current room. Inside it, the **first** exit whose id matches and
+  whose flag allows it wins. With no match, it goes to the first exit's room, entrance 0. With no group, the room
+  doesn't change.
+- Before this pass, the exporter read every word as an exit. That listed group headers (exit 0 → own room), flag
+  words (`0x873` became room 2163, and `0xFFFFFFFF` cut GS2 lists short), and the groups of other rooms that share the
+  code. GS2 had 8,766 "warps" (now **2,100 real exits in 312 rooms**); GS1 had 4,958 (now **1,361**).
+- 13 GS2 rooms have no group of their own (0, 1, 3, 310–312, 317–321, 323, 324: title, test and debug rooms); GS1 has
+  10 (0, 1, 59, 190, 195–200).
+
+**2. Arrival point. VERIFIED, GS2 `0x080CC9C8`:**
+1. **Entrance table** (stub 1), `0x080CC67C`. The first row with the id whose flag is `FFFF` or **set**. It sets
+   x/y/z (16.16) at field state +0x1FC/+0x200/+0x204 and facing at +0x208. The camera limits at +14/+16/+18/+20 (px,
+   −1 = keep) are applied, then widened to at least 240 × 160. The position isn't written while flag `0x109` is set.
+2. If that fails and the mode is field (state +0x18A == 2): the area's **door table**, `0x080CC7C4`. This is area part
+   **+0x3C**, decompressed to `0x0202E000` by the area loader `0x0802A6B8`.
+   - u16 @0 is the door list offset and u16 @4 the camera-region offset.
+   - Door: 6 bytes {u8 id (FF ends), s16 x, s16 z, u8 flags}. Flags bits 0–3 are the facing in 1/16 turns (4 = south,
+     12 = north); bit 4 sets y = 8 px; bit 5 keeps the camera.
+   - Camera regions: 4 × s8 cells {left, top, right, bottom}, FF ends. The first region holding
+     (x, z − ground height) becomes the camera box.
+3. Otherwise the **first** entrance row.
+
+GS1 has no door table (its area headers stop at +0x38), so it uses only 1 and 3. That's why GS1 matched well before
+and GS2 didn't: GS2 entrance tables only hold special arrivals (id 0, cut-scene ids 9x), and ordinary doors live in
+the door table, keyed by the door's own exit id. 1,771 of 1,928 such GS2 exits lead back to the exit with that id in
+the target room.
+
+**Coverage** (`maps\warps.json` → `coverage`):
+
+| Game | Exits checked | Entrance table | Door table | First-row fallback | Resolved |
+|---|---|---|---|---|---|
+| GS1 | 1,359 (+2 to missing rooms) | 1,347 | – | 12 | **99.1%** |
+| GS2 | 2,100 | 172 | 1,917 | 11 | **99.5%** (was 19%) |
+
+The fallbacks are mostly flag-selected tables: the exporter runs getters as a fresh game.
+- GS2: Lemurian Ship (room 42) doors 10/20, Trial Road (247) doors 31–34/50, Contigo (236) door 99, title door 3.
+- GS1: the world map and rooms 17/18/40/143–145.
+
+**Type-1 events** (GS2 1,165) carry value = id = exit id, e.g. Daila exits 7–9 (room 12, world map). They are probably the
+trigger for exits that aren't plain door tiles (INFERRED). The exit itself is resolved by the list above.
+
+**Outputs**:
+- `events.json` → `warps[]` now holds only the room's own exits: `event` (exit id), `to_room`, `to_door`, `flag`,
+  `condition`, `raw`, and `arrival` {source: entrance/door/default, x, y, z, angle, camera_px / keep_camera}.
+- New keys: `exit_group`, `exit_groups` (every group in the list), `doors` and `camera_regions` (GS2), and
+  `camera_px` on entrances.
+- `maps\warps.json`: the whole warp graph with arrivals, the rule and the coverage.
+- Tiled: warp objects carry `to_x/to_y/to_z/to_angle/arrival` (patched in place). Several rows with one exit id are
+  flag alternatives; the first wins.
+- A `doors` point layer is added to the `.tmj` on the next full render.
+
+**Re-run** (fast, about 10 s per game; updates only warp keys, warps.json, the .tmj warp objects and index coverage):
+`.venv\Scripts\python.exe -m gbax.codecs.gs_maps "<ROM>" --warps-only`. A full export runs the same pass at the end.

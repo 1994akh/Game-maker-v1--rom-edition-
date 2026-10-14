@@ -141,12 +141,15 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **Summons** cost 1–3 Standby Pokémon of matching types, drawn from the **active crew**. **Corrected:** that's up
   to **8 per crew** (4 Adepts × 2 benched), not 12.
 - **Class** stays locked during battle. Unlike Golden Sun, unleashing doesn't change it.
-- **Corrected, recovery:**
-  - Recovery is **per Adept**. Each Adept's spent Pokémon get countdowns of 2, 3, 4…, and the countdowns drop on
-    that Adept's own turns, only while the Adept is up.
+- **Corrected, recovery (re-checked against the code, 14 Oct):**
+  - Recovery is **per Adept**. Each Adept's spent Pokémon get countdowns of 2, 3, 4…, assigned at the end of the
+    Adept's turn. The countdowns drop **at the end of each round**, only while that Adept is in the battle with HP
+    above 0. So the Pokémon return at the ends of rounds R+1, R+2, …, one per Adept per round.
   - So a Summon paid by three Adepts can return three Pokémon in one round.
-  - The countdown arithmetic is read from the game code. The exact timing hasn't been seen in a live game yet (a
-    to-do in the notes).
+  - An earlier version of this page said the countdowns drop on the Adept's own turn. Golden Sun 1's code ticks
+    them at round end (`re/notes/gs_battle_mechanics.md` §13); the page now follows the code.
+  - **Also from the code:** after a Summon, the summoner gains Power in the Summon's element for the rest of the
+    battle, 5 × b × (b + 1) for b Pokémon spent (+10 / +30 / +60 / +100). We keep that.
 
 **Proposed:**
 - **Downed Adept:** their Standby Pokémon can't be spent and don't recover until the Adept is revived. Fainted
@@ -159,8 +162,12 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 ## 5. Stats, damage and levelling
 
 - **Decided: damage uses Golden Sun's formulas**, from the reference implementation `gs_battle.py`.
-  - **Corrected:** its core formulas match the game's own routines in 2,263 emulated calls, plus 2 table checks.
-  - Criticals, guarding, spread fall-off and multi-hit are read from the code, not emulated.
+  - **Corrected (14 Oct):** its formulas match the game's own routines in 2,794 emulated checks (GS1 1,293, GS2
+    1,499), covering attack, Psynergy, healing, PP drain and recovery, guarding, the Summon HP bonus and the
+    status-chance roll. Criticals and multi-hit are read from the code, not emulated.
+  - Four earlier claims were wrong and are fixed in the notes and the code: Golden Sun 1 has two Guard levels (half,
+    then one tenth), it does have a Summon bonus (+3/6/9/12% of the target's max HP by tier, uncapped), Drain-type
+    abilities deal HP damage when they land, and PP recovery has no random part.
 - **Decided: Pokémon partners use Golden Sun's stat scale,** and Adepts clearly out-HP their partners.
 - **Corrected, HP conversion:** the earlier "base HP / 100 × 0.6" let high-HP Pokémon pass their Adept (Blissey 1.5×,
   Snorlax 0.96×). Proposed instead:
@@ -272,13 +279,30 @@ Early on, while a crew is still being recruited (§1), it lacks more: the hero a
 
 ## 11. Still open
 
-1. **Confirm from code** (no decision needed): the enemy slot cap, the Djinn recovery timing, and EXP for downed
-   members.
-2. **Story missions:** written by Claude (your call, 13 Oct) in the story document. Anything there that needs a
+1. **Story missions:** written by Claude (your call, 13 Oct) in the story document. Anything there that needs a
    mechanic or changes how the game plays comes back to you as a question.
 
 Settled since the first version: crew composition, Rouse numbers, how Adepts' level-ups are shown, when crew
-swapping unlocks, the defeat rule, and restoration-point healing.
+swapping unlocks, the defeat rule, restoration-point healing, and the three code checks below.
+
+## 12. Confirmed from the game code (14 Oct)
+
+No decisions needed; these were the open checks from the first version, now read from Golden Sun 1's code
+(`re/notes/gs_battle_mechanics.md` §13) and taken as the rules.
+
+- **Enemy cap:** at most 6 enemy slots. A formation names up to 5 enemy types with minimum and maximum counts; the
+  minimums are always placed, extras are rolled while they fit. **Large enemies take 2 slots** (a flag on the
+  battle-sprite entry, not the enemy record): in GS1, 43 enemies are 1-slot (vermin, bats, slimes, rats…) and 121 are
+  2-slot. Trainer pairs (Adept + Pokémon) take 2 as planned.
+- **EXP:** the award goes in full to the members standing at the end with HP above 0. Downed members get nothing.
+  Golden Sun 1 also has an "extra reward" mode (bonus EXP and coins, better drop chance) that a battle event can
+  switch on; we can use it for story battles.
+- **Recovery timing:** countdowns are assigned at the end of the summoner's turn and tick at the end of each round
+  (§4).
+- **Turn order:** a member's priority is Agility plus a random bonus of up to 6.25%; a second action in the same
+  round gets half. Only a few effects jump to the front of the round. We keep the random bonus, so equal-Agility
+  fighters don't always act in the same order.
+- **Criticals** use the target's level in both games (bonus = level / 5 + 6).
 
 ## For DESIGN.md (to paste into the claude.ai project)
 

@@ -3,7 +3,7 @@
 GS2 (The Lost Age, AGFE) is the reference; GS1 (AGSE) differences are noted. Addresses are ROM addresses,
 `0x08xxxxxx`. Reference implementation: `gbax\codecs\gs_battle.py`. Its self-test,
 `python -m gbax.codecs.gs_battle --selftest`, calls the games' own routines in `gbax.emu.Gba` and compares them with
-the Python. The current result is **2,265 comparisons, 0 mismatches** (GS1 764, GS2 1,499).
+the Python. The current result is **2,794 checks, 0 mismatches** (GS1 1,293 emulated, GS2 1,499; 2026-10-14).
 
 Evidence labels:
 
@@ -92,7 +92,7 @@ The type is the low nibble of ability byte 1 (`gs_abilities` damage types). The 
 |---|---|---|
 | 0 | `0x08121480` | effects only |
 | 1 healing | `0x08120DCE` | 4.4 |
-| 2 effect_only | `0x08121304` | no HP change, effect dispatch |
+| 2 (`effect_only` in `gs_abilities`) | `0x08121304` | drain-style HP damage when the effect lands (13.6; corrected 2026-10-14) |
 | 3 added_damage, 4 multiplier | `0x08120A8C` | 4.1 |
 | 5 base_damage, 6 base_damage_alt, 8 summon | `0x08120F70` | 4.2 |
 | 7 djinn_effect, 9 utility | `0x08121480` | effect only |
@@ -152,8 +152,8 @@ GS2 summon HP bonus (pct):
 | Iris | 40 |
 | Enemy abilities: Star Mine, Meteor Blow, Cruel Ruin | 30, 35, 40 |
 
-Coatlicue (heal) gets none. **GS1 has no HP bonus**: the `10000` cap sequence doesn't occur anywhere in GS1 code
-(byte search; INFERRED absent).
+Coatlicue (heal) gets none. **GS1 has a bonus too** (corrected 2026-10-14, VERIFIED-EMU): 3/6/9/12% of the target's
+max HP by summon tier, with no 10000 cap (section 13.6).
 
 Spread by distance 0..5 (VERIFIED-CODE, GS2 tables):
 
@@ -230,7 +230,8 @@ Uses `heal_core` on PP with the same structure as healing (`0x08121278`). The ex
 Round setup is `FUN_0811d61c`. Party commands come from the battle menu, `0x080381C0` in module `0x08038000`. Enemy
 actions come from `FUN_0811cfd0`. Then a stable descending bubble sort on priority, `FUN_0811d160`.
 
-- **Party priority:** set by the menu module. Raw Agility is INFERRED; the menu module wasn't decompiled.
+- **Party priority** (corrected 2026-10-14, VERIFIED-CODE): `Agility + (Agility·rand16 >> 20)`, GS2 `0x0804CBA0` /
+  GS1 `0x08027F90`; a member's second action in the round gets half. See 13.5.
 - **Enemies:**
   - The list is shuffled with 32 random swaps.
   - Each enemy acts `+0x43` times. Priorities by number of actions:
@@ -246,7 +247,7 @@ actions come from `FUN_0811cfd0`. Then a stable descending bubble sort on priori
 - **First-in-round actions:** +10000 priority for actions whose effect is 46, 47, 53, 72, 74, 76, 79 or 88. These
   are Defend/Granite, Flash/Total Defense, Cage/Ground, Shade, Counter-rush, Breath, Haze and Guard Aura, which
   matches the wiki's "activate first" list.
-- **No random agility factor** in the normal path. A random factor (enemies `Agi/2 + rand(Agi)`, party raw Agility)
+- **No random factor for enemies** in the normal path (the party roll is above). A random factor (enemies `Agi/2 + rand(Agi)`, party raw Agility)
   exists only in the alternate builder `FUN_0811c3bc` (GS1 `FUN_080b8574`), used when flag `0x16A` is set.
 - **Battle start** (`FUN_081197f0`):
   - 1/16: **first strike**. Enemies don't act in round 1 and fleeing always succeeds.
@@ -386,7 +387,7 @@ shuffle, target choice, flee, the battle-start roll and rewards. Its algorithm i
 - Coins: enemy `+0x42` is added to `+0x550`.
 - The kill is recorded as flag `0x600 + id`.
 
-**Extra-reward mode** (battle state `+0x850` nonzero; GS2 only, INFERRED absent in GS1):
+**Extra-reward mode** (battle state `+0x850` nonzero; GS1 has it too, see 13.2):
 - EXP becomes `base + max(Σ(level/10 + 1)×1d4, 3·base/10)`.
 - Coins become `base + max(Σ(level/10 + 1)×1d6, 3·base/10)`.
 
@@ -394,7 +395,8 @@ shuffle, target choice, flee, the battle-start roll and rewards. Its algorithm i
 dropped item replaces the cheapest of 4 candidate slots if it's worth more.
 
 **EXP distribution.**
-- Members in the battle get the **full** total each; it isn't divided.
+- Members in the battle **with HP > 0** get the **full** total each; it isn't divided. Downed members get none
+  (GS1 VERIFIED-CODE, 13.2).
 - In GS2, party members outside the battle get **half** (`>> 1`).
 - GS1 has a single branch (4-member party), at battle state `+0x534`.
 
@@ -416,8 +418,7 @@ Python, which the emulator matches).
 
 ## Open questions
 
-- Party turn priority is set in the battle-menu module (`0x08038000`), which wasn't decompiled. Raw Agility is
-  INFERRED; check whether there's a random factor.
+- Answered 2026-10-14: party priority has a random bonus of up to Agility/16 (13.5).
 - GS1's action executor and its jump tables weren't traced individually. Its leaf formulas are identical
   (VERIFIED-EMU), and its planner has the same miss and critical rolls.
 - Exact PP-recovery (type 11) spread, the user-side PP gain of drains, and the meaning of `+0x145` and of the
@@ -425,3 +426,140 @@ Python, which the emulator matches).
 - The Djinn recovery timing is from code reading. A live check in mGBA (summon with 3 Djinn, count the turns) would
   confirm "one per turn from the second turn".
 - What sets the extra-reward flag `+0x850`.
+
+## 13. GS1 cross-check against alchemy's decompiled C (2026-10-14)
+
+Source: `external\alchemy\games\THE BROKEN SEAL` (a matching GS1 decompilation, read only). Files from
+`recon\tbs\en\main` are drafts and are marked so. Each rule below was also checked in the GS1 ROM with capstone at
+the address given, unless it says otherwise. The self-test now runs **2,794 checks with 0 mismatches**.
+
+### 13.1 Enemy-side cap and large enemies (GS1)
+
+- **Six enemies at most.** `struct BattleSession` (`INCLUDE\BATTLE_WORK.H`) has `enemy_units[7]` (6 plus the
+  `0xFF` end mark) and six-entry arrays. Enemies are unit ids `0x80..0x85`. With flag `0x16C` set it's
+  `0x80..0x82` (`BattleParty_ListLivingUnits`). VERIFIED-CODE.
+- **Formation record** (`BattleFormationRecord`, 16 bytes): `battle_type`, `member_ids[5]`, `minimum_counts[5]`,
+  `maximum_counts[5]`. There are 380 records. Id ≥ 380, or a record whose minimums are all 0, falls back to
+  record 1.
+- **Builder:** `BattleFormation_BuildEnemyList` at GS1 `0x080C1FFC` (alchemy draft; the budget loop was checked in
+  the ROM asm). Python: `formation_enemy_counts`.
+  1. The budget is 6 slots. An enemy takes **1 slot** if bit 0 of byte 2 of its battle-sprite entry is set,
+     otherwise **2**. The entries are 8 bytes at GS1 `0x080C7420 + 8·(enemy id + 8)`; alchemy calls the table
+     `Summon_EntryTable`.
+  2. The minimum counts are always placed and charged, so they can overrun the budget.
+  3. Each member with max > min rolls `extra = rand(min(max − min, budget // size) + 1)`.
+  4. Extras are granted one per member per pass while the size still fits in the budget.
+  5. Order comes from the battle type: 0 shuffles the member groups (10 random swaps), 1 draws one enemy at a time
+     at random, any other value keeps record order.
+  6. Units `0x80..0x85` are cleared, then **at most 6** are assigned (`i ≤ 5`, ROM asm).
+- **How size is encoded.** It's that sprite-entry flag, not a field of the enemy record. In GS1, 43 of 164 enemy
+  entries are 1-slot: Vermin, Bat, Wild Mushroom, Slime, Will Head, Rat, the Bees, Spider, Gnome, Cuttle, Mole,
+  Dirge, Grub, Stone Soldier and their variants. The other 121 take 2 slots. So a random roll gives at most three
+  2-slot enemies, but a record's minimums can still place up to 6.
+- **Flag `0x173`** (a level-matched record, as in Colosso): `BattleFormation_SelectLevelMatchedCandidate` picks a
+  record whose member level average is at most party average + byte flag 1016 + 3, and raises each enemy by the
+  margin (`Owner_ApplyLevelGains`). Defeats in that mode give no spoils and set no kill flag.
+- **Mid-battle arrivals.** Calls for help and splits insert the new unit into the first free slot (254) or the
+  end slot, still within 6.
+- **GS2:** INFERRED the same (alchemy's `recon\tla` has the same symbols); not checked.
+
+### 13.2 EXP for downed members, and spoils (GS1, VERIFIED-CODE from alchemy `BATTLE10.C`)
+
+- **`Battle_AwardSpoils`.** The EXP total goes in full to every unit in `BattleParty_ListLivingUnits(party)`:
+  the first 4 active members (3 in link battles) **with HP > 0**. **Downed members get no EXP.** Coins are added
+  once. Items are handed out highest value first.
+- **`BattleEnemy_RecordDefeat(unit, earned)`.** It sets kill flag `0x600 + class id`. The GS1 enemy record has
+  coins at `+0x4C`, item `+0x4E`, drop code `+0x50` and EXP `+0x52`.
+  - When `earned` is set (bit 0 of the battle event flags, from event opcode 13), the GS2 bonus applies:
+    - EXP becomes `base + max(Σ 1d4, 3·base/10)`.
+    - Coins become `base + max(Σ 1d6, 3·base/10)`.
+    - The drop code drops by 2.
+    - Each sum has `level/10 + 1` dice.
+  - So the extra-reward mode isn't GS2-only. Whatever queues opcode 13 wasn't traced; it's INFERRED to be a kill
+    by a Djinni.
+- **Item drop.** There's no roll if the item is already among the 4 spoils. Otherwise the drop happens when
+  `(0x20000 >> code) > rand16`, and the item replaces the lowest-valued slot if it's worth more.
+- These functions' GS1 ROM addresses weren't pinned. Section 11's `0x080C24F0` wasn't re-checked.
+
+### 13.3 Djinn Standby, Recovery and the summon boost (GS1, VERIFIED-CODE unless noted)
+
+- **Battle start** (`BattlePlacement_UpdateEntries`, `PARTY2.C`). Every known but unset Djinni of the active
+  members is added as Standby (−1). Unless flag 364 is set, Standby Djinn whose owner isn't in the battle are Set
+  again at once.
+- **End of the summoner's turn** (`BattleUnit_ProcessTurnEnd` `0x080BFBA4`; a draft that differs only in register
+  names).
+  - The actor's own Djinn that are still on Standby are kept unset.
+  - Every spent (−2) Djinni gets a countdown, per owner: start = that owner's highest countdown + 1, at least 2,
+    then +1 for each further Djinni. That's the same as GS2 §8 and `djinn_recovery_countdowns`. The spent Djinn
+    can belong to several owners, and each owner gets its own run.
+- **Tick: at round end, not on the owner's turn** (`Battle_ProcessRoundEnd`).
+  - Every positive countdown whose owner is in the battle with HP > 0 drops by 1.
+  - Every entry at 0 is Set, with the Set message and a stat/class recompute.
+  - So countdowns 2, 3, 4 return their Djinn at the ends of rounds R+1, R+2 and R+3 (R = the summon round): one per
+    owner per round. A downed owner's countdowns pause.
+  - GS2 §8 (tick on the owner's turn, `FUN_08124cc4`) wasn't re-checked. In this respect GS1 differs from it.
+- **Between battles.** `BattlePlacement_UpdateTimedEntries` ticks the countdowns of owners with HP > 0 and Sets
+  those that reach 0. Its regular caller isn't decompiled (INFERRED: one tick per field step). The 20-tick version
+  is called by story scripts (Vale `KUUPUAPPU_*`, the link lobby).
+- **Summon Power boost.**
+  - b is the number of spent Djinn of the most-used element. It goes into unit `+0x12C + e`, kept if the old value
+    is larger.
+  - The stat recompute at `0x0807795A` adds `5·b·(b+1)` to that element's Power: 1 Djinni gives +10, 2 give +30,
+    3 give +60, 4 give +100. The gain is announced.
+  - The same pass adds `20 × res_modifier` (`+0x137`) to every Resist.
+  - Python: `summon_power_boost`. GS2 also has bytes at `+0x12C..+0x12F`; INFERRED to be the same.
+
+### 13.4 Criticals use the target's level in GS1 too
+
+VERIFIED-CODE. GS1 `0x080BBF8E` runs `ldrb r0,[r7,#0xF]`, and r7 is the target: Defense `+0x3E` is read from r7 at
+`0x080BBF00`. The bonus is `(u8)(level/5) + 6`, the same as GS2.
+
+### 13.5 Turn order (VERIFIED-CODE)
+
+- **Party, both games.**
+  - Priority is `Agility + (Agility·rand16 >> 20)`: a random bonus of 0 to Agility/16, at most 6.25%, from the
+    kernel RNG (GS1 `0x08004458`, GS2 `FUN_08014878`).
+  - A member's second action in the same round gets half. A negative value becomes 2000.
+  - Code: GS1 `0x08027F90` in `Battle_CollectPartyCommands` (`0x08027114`); GS2 `0x0804CBA0`, with identical
+    instructions.
+  - Members who can't choose (sleep `+0x13C`, or any of `+0x139..+0x13B`) get plain Agility.
+  - Python: `party_action_priority`.
+- **Enemies, GS1** (`BattlePres_BuildOpponentEntries`).
+  - 32 random swaps, as in GS2. An ambush lets `max(2, 1d5)` enemies act once each.
+  - The first action's priority is Agility and **every later action's is Agility/2**. GS2 uses graded values
+    instead (Agi, 3·Agi/4, …).
+  - Python: `enemy_action_priorities(..., game="gs1")`.
+- **First in the round, GS1.** Only effects 46, 47 and 53 get the +10000, and only for command kind 5
+  (`FIRST_STRIKE_EFFECTS_GS1`). The sort is a stable bubble sort, highest first.
+- The alternate builder `0x080B8574` (flag `0x16A`) is confirmed as an exact match: party raw Agility, enemies
+  `Agi/2 + rand(Agi)`.
+
+### 13.6 `gs_battle.py` against alchemy's GS1 `Battle_ResolveTargetAction`
+
+| Rule | GS1 (alchemy C, ROM-checked) | Python before | Now |
+|---|---|---|---|
+| Attack, types 3/4 | core → ×hits → crit ×5/4 or ×3/2 + target level/5 + 6 → + rand&3 → guard → min 1 → effect 34 (leave 1 HP) | same order | unchanged |
+| Guard | `+0x12B`: 1 → ÷2; **any other nonzero → ÷10** (`0x080BBFC2`); no state 4 | GS2's three levels for both games | `game="gs1"` in `_guard` and its callers |
+| Types 5/6/8 | power (+ summon bonus) → psy_core → ×hits → spread (5: 100/80…, 8: 100/70…, 6: 100/50…) → + rand&3 → guard, no minimum | same order | unchanged |
+| GS1 summon bonus | command 6: `+maxHP·pct/100`, pct 3/6/9/12 by tier (Venus…Judgment etc.), no cap (`0x080BC2F6`) | none | `SUMMON_HP_PERCENT_GS1`, VERIFIED-EMU (520 ids) |
+| Item use | Power counts as 100 in `diff` (command 2) | heal only | `from_item` on Psynergy, drain and PP recovery |
+| Heal, type 1 | heal_core(power, P) → spread → ×hits → + rand&3 → cap | same | unchanged |
+| PP drain, type 10 | psy_core → spread → ×hits → guard → cap (effect 32) → floor 0 | same | GS1 guard |
+| PP recovery, type 11 | heal_core → spread 100/80/60/40/20/10 → ×hits → cap at max PP, **no +rand** | missing | `pp_recover_amount` |
+| Type 2 | only if the hit/effect roll succeeded: psy_core → ×hits → spread 100/50/30/10/10/10 → guard; no rand, no minimum | missing; section 4 said "no HP change" | `drain_damage`. GS2 `0x08121304` does the same (disassembly), so section 4 was wrong for both games |
+| Status chance | `base + (atk lvl − tgt lvl − Luck/2)·3 + 25 if weak`; lands if `chance·spread/100 ≥ rand100` | same | docstring: GS1 has **no Luck ≥ 40 immunity** and only effect 67 rolls 3 times |
+| Flag `0x16E` (366) | types 3/4 with command 5: a lethal hit leaves 1 HP; types 5/6/8 with command 6: damage raised to the target's HP | n/a | notes only (GS2 §4.3 says "raised" for both; not re-checked) |
+
+- **GS1 type-2 abilities:** Drain (125), Psy Drain (126; effect 32 switches it to type 10), Cannibal Fang (458),
+  Vampiric Fang (469), Drain Fang (516), and Regenerate (128, targets allies, no description).
+- **The spread tables are identical in both games,** byte for byte, at GS1 `0x080C2AB8` and GS2 `0x08128898`
+  (self-test).
+
+### 13.7 Still open
+
+- GS2's formation builder and size flag (assumed the same as GS1).
+- What queues event opcode 13 (the extra-reward mode) in GS1.
+- Regenerate (128), a type-2 ability that targets allies: is it unused?
+- GS2's flag-`0x16E` handling for types 3/4 compared with GS1.
+- The regular caller of the out-of-battle Djinn tick.
+- Re-run: `.venv\Scripts\python.exe -m gbax.codecs.gs_battle --selftest`
