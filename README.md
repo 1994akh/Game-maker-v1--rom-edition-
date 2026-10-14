@@ -1,6 +1,8 @@
 # Game-maker-v1--rom-edition-
 
 - [DESIGN.md](DESIGN.md): component decisions (synced from the claude.ai project "GBA Game Gumbo").
+- [docs/engine/](docs/engine/README.md): the engine choice (Godot 4.7.2, 14 Oct 2026) and the research behind it.
+- [docs/design/character-creator.md](docs/design/character-creator.md): the hero's character creator (gender and cosmetics).
 - [docs/design/party-and-battle.md](docs/design/party-and-battle.md): party (two crews of 4) and battle rules,
   agreed 13 Oct 2026.
 - [docs/phase1/](docs/phase1/README.md): phase 1 (foundation): code base recommendation, movement, battle-format,
