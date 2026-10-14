@@ -413,7 +413,10 @@ def export(rom_path, out=None, tmj=True):
     }
     (out / "worldmap.json").write_text(json.dumps(spec, indent=1), encoding="utf-8")
     cells = {"width": wc, "height": hc, "kind": wm.kind.ravel().tolist(), "flag31": wm.flag31.astype(int).ravel().tolist(),
-             "event_back": wm.event[0].ravel().tolist(), "variant": wm.var.ravel().tolist()}
+             "event_back": wm.event[0].ravel().tolist(), "variant": wm.var.ravel().tolist(),
+             # The terrain class at each 16 px cell's centre (the 2 px samples at (8, 8) inside the cell), for a
+             # cell-based walkability grid; the full 2 px map stays in terrain_classes.png.
+             "terrain_class": cls[4::8, 4::8].astype(int).ravel().tolist()}
     if gs == 2:
         cells["flag30"] = wm.flag30.astype(int).ravel().tolist()
     (out / "cells.json").write_text(json.dumps(cells), encoding="utf-8")
