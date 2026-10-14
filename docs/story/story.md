@@ -324,6 +324,104 @@ push against.
 
 Fallhaven stays a **ruin** after mission 9: a memorial you can visit, with the rim currents beyond it.
 
+## 9a. Easter eggs, homages and spoof cameos
+
+The game's influences show up as easter eggs: some small (a line of dialogue, a poster, a statue), some large (a
+whole side quest). The aim is "obvious if you know it, invisible if you don't".
+
+**Copyright-friendly rules** (they also apply to the brief's rule against using these franchises' names):
+- Every spoof has an **original name and look**. It's recognisable by role, silhouette, personality and running
+  gags, not by a copied name, costume or logo.
+- **Catchphrases are bent, never quoted.** For example, "Make it flow", not the original line.
+- No copied music, art or logos.
+- Pokémon species names are fine (already decided).
+
+### Recurring spoof cameos
+
+These characters pop up across side stories, a few times each. Most have a final quest that pays off their running
+gag.
+
+| Cameo | Spoof of | Running gag | Where they appear | Their quest |
+|---|---|---|---|---|
+| **Captain Rufio Maize**, rubber-limbed, in a battered sun hat | One Piece's captain | Always hungry; declares every island "the best adventure ever"; wants to be "King of the Open Sea" | Canalport docks (Act I), the Tradewind Bazaar, a risen isle, the Pinnacle allies (§11) | **"The Feast of Fools"** (Act II): feed his whole crew before his ship sinks under their appetite |
+| **Torro**, a three-sword swordsman | One Piece's swordsman | Hopelessly lost: he turns up somewhere new every act, insisting he's on the right road | Dustplain, Frostmarch, the Cloudreach (how?), inside the Hollow | **"The Wrong Way"** (Act II): escort him; his wrong turns uncover secrets (see puzzles) |
+| **Captain Fibber**, long nose, slingshot | One Piece's sniper | Tall tales about his "eight thousand followers" | Hushwater, Twin Bells, the Arena | **"Eight Thousand Followers"**: a truth-and-lie puzzle (see puzzles) |
+| **Maestro Bonewhistle**, a skeleton violinist | One Piece's musician | Skull jokes; asks everyone "may I see your Pokédex?" | Lantern Reef (mission 6), a ghost-ship side room, the ending montage | **"The Long Wait"**: return his violin to a whale Pokémon that has waited for him for fifty years |
+| **The Tumbleweed Trio**, two bumbling thieves and their talking Meowth | Pokémon's comic villains | A rhyming motto; they "blast off" at the end of every appearance | Five side stories, one per region | **"Blasting Off Again… Again"**: the final heist, where they accidentally help save a town |
+| **Captain Jerrick Tarquin**, a bald, dignified captain | Star Trek's captain | Orders "Sunleaf tea, hot"; tugs his tunic straight; "Make it flow" | The Aerie Monastery, Thunderhead Atoll, Silverdeep's rescue fleet | **"The Inner Lantern"**: he lived a whole life in a Farer dream in one night, and wants to find the flute from it |
+| **Brother Sorak**, a calm Psychic monk, one eyebrow always raised | Star Trek's science officer | "Fascinating." Pure logic; his hand-mind-link opens Mind Read riddles | The Aerie Monastery (mission 19 area), the Pinnacle | **"Logic and Fire"**: help him admit an emotion so he can calm a raging Pokémon |
+| **The Steward** (main cast) | Star Trek's android officer | Studies humour and gets it wrong; wants to understand "friendship" | Stormspire (mission 19), then aboard the Wayfarer | Its heart quest is to tell one joke the crew laughs at. It sets up the postgame |
+| **Galgamash**, a wandering swordsman collecting legendary blades | Final Fantasy's recurring swordsman | Every blade he collects is a fake; brags, then flees | Four duels across the Wide | **"The Big Bridge"**: the final duel on a long bridge, and he gives you the one real sword |
+| **Cidrick**, the shipwright | Final Fantasy's recurring engineer | Every FF game has one; he insists his family built every ship ever | Marrow Isle shipyard (mission 10 on) | Upgrades the Wayfarer; his quest builds the airship's figurehead |
+| **Gary Rivalson**, the hero's smug childhood rival from next door | Pokémon's first rival | "Smell ya later" (bent); he's always one step ahead and never in danger | Stonehollow, then a few towns | A joke subplot: he's convinced *he* is the main character |
+
+### Themed puzzles
+
+**One Piece puzzles**
+1. **"The Wrong Way"** (Torro's escort): the Lodestar points one way and Torro walks the other. Following him on
+   purpose through a hedge maze or a fog bank reveals hidden paths only his "wrong" route opens.
+2. **"The Captain's Lunch"** (Maize's feast): a food chase across a lashed-ship deck. Move crates, Frost puddles
+   into stepping stones and Lash ropes to reach meat-on-the-bone before his crew does.
+3. **"Eight Thousand Followers"** (Captain Fibber): a logic puzzle. Some of his tall tales are secretly true, and
+   only the true ones mark a dig spot on the map (Scoop).
+4. **"Bounty Board":** every Tidewarden notice board shows wanted posters of your crew. The bounties rise as you
+   defy the order, and the posters use terrible drawings (one Adept always gets the worst portrait). This is
+   cosmetic; question 17 in §14 covers it.
+5. **"A Funeral at Sea"** (an emotional egg): when the Wayfarer replaces the old cutter *Kestrel*, an optional scene
+   gives it a fiery send-off at sea.
+
+**Star Trek puzzles**
+1. **"The Speakers of Tanarra"** (an island of the week): a people who speak only in metaphors from their legends.
+   Learn each image from murals around the island, then answer them in their own language to open the shrine. "The
+   tide, when the cliff fell."
+2. **"The Unwinnable Test"** (Aerie Monastery): a Farer battle trial that can't be won as set up. The solution is
+   to change the rules: Move the arena's pillars before the fight so the enemy can't reach you.
+3. **"The Trouble with Wooloo"** (a risen isle): a cute Pokémon herd that doubles every time you rest, overrunning
+   a village. Find the one food that calms them, while the Tumbleweed Trio try to sell them.
+4. **"The Hive"** (Eldergrove's bug hive, mission 5): a Combee swarm that "absorbs" everything that enters. Cloak
+   past the drones, and free the queen's mind with Reveal.
+5. **"Energize":** the Stormspire's Teleport pads are a puzzle of pad pairs. Each pad hums a different tone, and
+   stepping on the wrong pair scatters the crew around the floor.
+6. **"The Dreamdeck":** a Farer room in the Stormspire that rebuilds earlier places from your Log. It's a puzzle
+   room and, in the postgame, a boss-rush arena.
+
+**Final Fantasy and other nods (smaller)**
+- **Final Fantasy:**
+  - A Doduo ranch with racing ("the Dodo Derby").
+  - A slow, lantern-carrying Litwick in Lantern Reef that edges closer every turn and hits very hard.
+  - A Cacnea that always deals exactly 1,000 damage.
+  - The Spine-peak superbosses are Farer war machines named after gemstones: the Ruby, Sapphire and Emerald
+    Sentinels, a double nod to FF's Weapons and to Pokémon's game titles.
+  - Ironfist Arena's casino is the **Glimmer Saucer**.
+- **Golden Sun:**
+  - A silent-protagonist joke: the hero's only dialogue options are a nod, a shake of the head or "…", if the player
+    picks "quiet" in the creator.
+  - A statue of four warriors at an old lighthouse.
+  - A Mercury-blue puddle that refuses to freeze.
+  - A kid who falls from a great height in a cutscene and is caught in time.
+- **Pokémon:**
+  - A truck by the Canalport docks that you can push with Move to find… a rumour, and later a Mew sighting in the
+    postgame.
+  - A suspicious Magikarp salesman.
+  - A glitchy "MissingFall" Porygon at the world's edge.
+  - A Bidoof everyone loves.
+
+### Where the eggs land in the mission list
+
+| Mission | Egg |
+|---|---|
+| 1 | Gary Rivalson at the festival; the Mercury-blue puddle |
+| 3 | Captain Maize on the Canalport docks; the push-the-truck rumour |
+| 5 | "The Hive" |
+| 6 | Maestro Bonewhistle; the lantern Litwick |
+| 8 | The Bounty Board starts; the Tumbleweed Trio's first heist |
+| 10 | Cidrick at the shipyard; "A Funeral at Sea" |
+| 15 | The Glimmer Saucer; Captain Fibber |
+| 19 | The Steward; "The Unwinnable Test"; "Energize"; the Dreamdeck; Brother Sorak |
+| 21 | Maize, Tarquin and other cameo allies arrive at the Pinnacle (§11) |
+| 23 | Torro, lost inside the Hollow, somehow |
+| Postgame | The Gem Sentinels; the Dreamdeck boss rush; the Galgamash finale; the Mew sighting |
+
 ## 10. Navigation aids (all four you picked)
 
 - **Danger on the map:** each region and island shows 1–5 stars once it's known (the Danger column in §9). That's
@@ -397,6 +495,7 @@ These are the rooms and systems the mission list asks for, in the order they are
 | Pokémon in society | Varies by region |
 | Stakes | Losses, but no party deaths |
 | Home | Both: a home island that grows, and the ship as a mobile hub |
+| Easter eggs | Small and large nods to all the influences throughout; a few One Piece and Star Trek themed puzzles; copyright-friendly but obvious spoof characters in side stories (§9a) |
 
 ## 14. Mechanics questions (for the design side, not decided here)
 
@@ -464,3 +563,11 @@ Each question has my recommendation.
     - **Recommendation:** a menu screen listing visited places, seen species and relics, with a completion
       percentage and rewards at thresholds.
     - **Why:** the Star Trek log, and it drives exploration.
+17. **The Bounty Board (§9a).**
+    - **Recommendation:** cosmetic only: a bounty number per Adept, raised by story flags and shown on posters.
+      It has no effect on encounters or prices.
+    - **Why:** the One Piece joke without a reputation system.
+18. **Mini-games from the easter eggs** (the Dodo Derby, the Glimmer Saucer, the Speakers' language).
+    - **Recommendation:** build only the Speakers' puzzle (it's dialogue plus murals). The Derby and the casino are
+      postgame extras, if time allows.
+    - **Why:** they're new systems and the least important part of the game.

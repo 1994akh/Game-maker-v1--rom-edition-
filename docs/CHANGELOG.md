@@ -11,8 +11,9 @@ header; the detailed rules are in `docs/design/`.
   against free islands → the Crown draining the Wells → the Farers, outsiders who built it. Villain: Lord Warden
   Vey, sympathetic. Short guided prologue, then open play. The midpoint "Breaking" changes the world map. Late-game
   airship; islands of the week with Star Trek-style dilemmas and an exploration log. All six legendaries are
-  catchable, each a different way. One ending with per-Adept variations. 16 mechanics questions are in its §14,
-  awaiting decisions.
+  catchable, each a different way. One ending with per-Adept variations. Easter eggs and copyright-friendly spoof
+  cameos from the influences run through the side stories (§9a). 18 mechanics questions are in its §14, awaiting
+  decisions.
 
 ## 14 Oct 2026
 
