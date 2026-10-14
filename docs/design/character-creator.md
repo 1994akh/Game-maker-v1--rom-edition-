@@ -3,7 +3,13 @@
 **Decided (14 Oct 2026):** the player customises the main / first Adept (the hero, Crew 1's Earth lead) in a
 character creator, including **gender** and **some cosmetic choices**.
 
-Everything below is **Proposed** until you confirm it.
+**Decided (14 Oct, your answers):**
+- **The options below are approved.**
+- **Pronouns are a separate choice** (Claude's call, as you asked). They default to matching the chosen gender
+  (boy → he, girl → she), and "they" is always available.
+- **The hero starts without a starter Pokémon.** Partners are chosen as the story goes on. The creator has no
+  Pokémon picker.
+- **Name and gender are fixed once the hero is created.** Only cosmetics can change later, at the mirror.
 
 ## What can be chosen
 
@@ -11,7 +17,7 @@ Everything below is **Proposed** until you confirm it.
 |---|---|---|
 | Name | Free text, up to 10 characters | Defaults to a placeholder name. Used in dialogue through `{HERO}` |
 | Gender | Boy / girl, picking the body base | Changes the field sprite, battle sprite and portrait base |
-| Pronouns | He / she / they, picked separately from gender | Dialogue uses tokens like `{HERO_SUBJ}`, `{HERO_OBJ}` and `{HERO_POSS}` |
+| Pronouns | He / she / they, picked separately from gender (defaults to match it) | Dialogue uses tokens like `{HERO_SUBJ}`, `{HERO_OBJ}` and `{HERO_POSS}` |
 | Skin tone | 6 presets | Palette swap |
 | Hair style | 4–6 per body base | A separate sprite layer |
 | Hair colour | 10 presets | Palette swap on the hair layer |
@@ -28,8 +34,8 @@ What the creator never changes:
 
 - **At the start of a new game,** before the opening battle against the rival. It shows a live preview of the
   field sprite (walking in 8 directions), the battle sprite and the dialogue portrait.
-- **Afterwards:** cosmetics (not name or gender) can be changed at a mirror in the hero's house on the home island.
-  Changing name or gender later is open question 4.
+- **Afterwards:** cosmetics (not name, gender or pronouns) can be changed at a mirror in the hero's house on the home
+  island. Name and gender are permanent.
 
 ## How it works in the engine
 
@@ -48,8 +54,5 @@ What the creator never changes:
 
 ## Open questions
 
-1. Are these the right cosmetic options, or do you want more or fewer (e.g. body type, a face or expression set,
-   more outfits)?
-2. Should pronouns be a separate choice, or follow gender (boy = he, girl = she)?
-3. Should the hero's starter partner Pokémon also be picked in this screen, or later in the story?
-4. Should name or gender be changeable after the start, or fixed for the run?
+None. All four were answered on 14 Oct (see the top). Pronouns can also change at the mirror if you'd like
+(currently they're fixed along with name and gender); that's easy to switch.
