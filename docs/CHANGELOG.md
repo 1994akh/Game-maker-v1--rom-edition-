@@ -3,6 +3,19 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 4)
+
+- **Mission 4 is playable end to end** (engine PR #41): the handover to Corvin's crew after the sluice beast, the
+  Forgeheart's Earth trial, Tamsin's fight and her joining with Riolu, the Flame seal, Ho-Oh's judgment, the fire
+  and the escape, and the return to the hero's crew in Canalport. `docs/design/mission-4-build.md` has the flow,
+  the words, the measured balance and the placeholders.
+- **Top Summons wait for their legendary** (following story §5: "calming one unlocks its group's top Summon at
+  once"). Each group's highest tier is locked until then; lower tiers are always available. Calming Ho-Oh unlocks
+  Mars's top Summon.
+- **Legendary judges** are story fights against a single Pokémon with the story's numbers (Ho-Oh: 420 HP, two
+  actions a round, proposed).
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 3, Surf)
 
 - **Crew 1's Surf is a gift in Canalport** (your decision). Of crew 1's story partners only Mudkip can learn
