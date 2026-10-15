@@ -3,6 +3,17 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (two crews, mission 2)
+
+- **Two crews in the engine** (engine PR #36): switching crews stores the active crew's party, bag, coins,
+  location and last restoration point and loads the other's. Bags and coins stay per crew until mission 10, as
+  decided (§14 question 4); the Kin Garden is shared. **Proposed:** a crew's first state is its roster lead at
+  the hero's level with the partner from its first trainer row, three Herbs and no coins.
+- **Mission 2 is playable end to end** (engine PR #37): mission 1 ends in the handover to Corvin's crew, the
+  Marrow sea caves (a Move stone), Fallhaven (Sael, the falling street, the cart, Hask's refused offer), then
+  back to the hero. `docs/design/mission-2-build.md` lists the flow, where the words live and what is placeholder.
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (the battle screen)
 
 - **Heroes on the left, enemies on the right** (your decision; engine PR #35). The party stands along the lower
