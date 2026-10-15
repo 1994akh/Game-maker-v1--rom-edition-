@@ -52,6 +52,10 @@ What the creator never changes:
   the Isaac and Jenna bodies), with palette swaps only. The hair, outfit and accessory layers arrive with the
   graphics pass, when the sprites are remade. That pass plans every sheet as layers from the start, so the creator
   doesn't need a redraw later.
+- **Proposed base for that pass (15 Oct asset audit):** the LPC character layers, at the 64-pixel scale you set.
+  They are layered and palette-recoloured as planned here, with body types, hair, eyes and clothes. One gap: LPC
+  draws **four** directions, not eight, so diagonals would show the nearest side view or need drawing
+  (`docs/engine/resources/asset-audit-2026-10-15.md`).
 
 ## Built (14 Oct, engine PR #20)
 

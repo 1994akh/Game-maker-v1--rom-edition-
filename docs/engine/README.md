@@ -70,6 +70,11 @@ design docs.
 MetroidvaniaDeveloperSystem shaders and `lit`'s post shaders already in `Apps-Roms`; add KoBeWi's palette-swap
 shader, controller_icons, gloot and Maaack's menus; never enable ziva_installer, GodotBridge or godot-mcp.
 
+**15 Oct asset audit:** [two CC0 libraries and the LPC character generator](resources/asset-audit-2026-10-15.md),
+inventoried pack by pack against the new art scale (64-pixel Adepts, 32-pixel tiles). Short version: LPC for the
+Adepts, Kenney Pixel for the dialogue font, Dungeon Crawl icons, Pixel-boy battle backgrounds, CC0 effect sheets
+for Pokémon moves; tiles at 32 px, portraits and audio are gaps.
+
 More: [Godot ecosystem survey](resources/godot-ecosystem.md) · [data and references](resources/data-and-references.md)
 
 ## Toolchain (installed 14 Oct)

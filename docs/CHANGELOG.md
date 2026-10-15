@@ -3,6 +3,21 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (art scale and the asset audit)
+
+- **Decided (you, 15 Oct): Adept sprites at 64×64 pixels if possible, 32×32 if not**, and other art at that scale
+  where it can be. This replaces Golden Sun's small field sprites in the graphics pass; nothing changes yet.
+- **Proposed with it:** 32-pixel tiles and an internal picture of about 480×320, so the field shows a similar area.
+- **Answered: 128-pixel Adepts?** Draw at 64 and show bigger where wanted. LPC is drawn at 64, our Pokémon pictures
+  are 64×64, and the libraries stop at about 64, so 128 would double pixels or mix pixel sizes, at four times the
+  art cost. 128 and up pays for portraits, Summons, bosses and title art.
+- **Asset audit** (`docs/engine/resources/asset-audit-2026-10-15.md`): `2d-assets` (1,101 CC0 packs), the CC0
+  sprite library (76 packs) and the LPC generator (88,114 layer sheets), inventoried by the engine's new
+  `tools/inventory_assets.py`. Picks: LPC for Adepts, Kenney Pixel for the dialogue font, Dungeon Crawl icons,
+  Pixel-boy battle backgrounds, CC0 effect sheets for Pokémon moves, Kenney emotes and UI. Gaps: 32-pixel tiles,
+  portraits, audio.
+- Mission work paused after mission 9 for this audit, as asked. Done on Opus 5.5; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 9)
 
 - **Mission 9 is playable end to end** (engine PR #46) with both crews: the hero's crew evacuates Fallhaven's lower
