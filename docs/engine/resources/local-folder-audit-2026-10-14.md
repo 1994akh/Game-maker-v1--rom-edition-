@@ -105,3 +105,12 @@ Five folders appeared in `OneDrive\Apps-Roms` on 15 Oct. All were read, none run
 | `Blendot-…` | Blender round-trip editing for 3D models (MIT) | Not useful: no 3D models. Safe to delete |
 | `batch-sprite-keyframe-…` | An editor dock that slices a sheet and writes Sprite2D texture keyframes into an AnimationPlayer (comments in Chinese, no licence file) | Low value now: our sprites are built in code from the exported sheets. Possibly handy in the graphics pass for hand-made animations; no licence, so read-only reference |
 | `tile mapper\godot_multilayer_tilemap-…` | Byte-for-byte the same commit as the `godot_multilayer_tilemap-eac6924…` folder already audited in §1 | Duplicate. Safe to delete either copy |
+
+## 6. Added 15 Oct 2026, later
+
+Two more uploads, read only.
+
+| Folder | What it is | Verdict |
+|---|---|---|
+| `zelda3-master` | snesrev's C reimplementation of *A Link to the Past* (MIT, about 75k lines, SNES PPU from LakeSnes). Its levels and art are extracted from your own ROM at build time; none are in the folder | **Reference only.** Useful reading when we build top-down puzzle verbs Golden Sun lacks (pushable blocks on grids, holes and falling, floors and stairs between layers, switches) and enemy behaviour in rooms. Not to build or run, and none of its extracted assets can ship |
+| `tmc-master` (refreshed) | The Minish Cap decomp, now the **"Project Picori" PC and Android port**: a Gradle Android shell around an SDL3 native library (game engine, PPU, audio, ImGui menus and a touch overlay in C), a multi-region "fat binary", CI release workflows | **Reference only.** Shows how a GBA-era game ships natively on Android with a touch overlay; our Godot export already covers that. Two text files are addressed to AI agents: `AGENTS.md` (repo guidelines for its own contributors) and `agent.txt` ("You are my assistant. You will write comments for my code and rename functions…"). Both are third-party data; neither was acted on, and neither should be loaded as instructions |
