@@ -52,6 +52,10 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
   - **Per crew:** each crew keeps its own "last restoration point".
   - **Getting home:** once swapping is unlocked, every restoration point offers travel to the home island, so a
     crew without Teleport or Retreat can't strand itself.
+  - **Built in mission 10** (`mission-10-build.md`): all five above, with two details. Relay stones don't offer the
+    trip home, since the other crew is in the same dungeon. The bag and coins merge when the Wayfarer is found.
+    Swapping happens at the waiting lead in Stonehollow: the other crew takes over where the player stands. Adepts
+    are traded at the waiting lead or the Wayfarer's muster roll, each with their Set Pokémon; leads never move.
 
 ## 2. Who is in a battle
 

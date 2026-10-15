@@ -3,6 +3,19 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 10, Act I complete)
+
+- **Mission 10 is playable end to end** (engine PR #48): the refugees settle in Stonehollow, the two Earth leads
+  open the Vault's inner door, the Wayfarer is found, the crews' bags merge and **crew swapping unlocks**.
+  `docs/design/mission-10-build.md` has the flow, the swapping rules as built, the words and the placeholders.
+- **Crew logistics built** (`party-and-battle.md` §1): the other crew waits on Marrow Isle; swap at its lead,
+  where the player stands; trade Adepts with their Set Pokémon at the lead or the muster roll (leads never move, four
+  per crew); innkeepers away from home offer the trip home (relay stones don't).
+- **Fixed placeholders:** Corvin walked as the default hero's sprite; he is Felix now (masked in mission 1). Ilse
+  and the Kestrel's mates wore a small dog's sprite.
+- **Act I is complete.** Mission 11 (the Breaking) is next.
+- The Fable review of the Opus work was started, then paused until 16 Oct. Built on Opus 5.5; marked for review.
+
 ## 15 Oct 2026 (art scale and the asset audit)
 
 - **Decided (you, 15 Oct): Adept sprites at 64×64 pixels if possible, 32×32 if not**, and other art at that scale
