@@ -3,6 +3,17 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 8)
+
+- **Mission 8 is playable end to end** (engine PR #45): after crew 1's second recruitment, the story hands over to
+  Corvin's crew at the Tradewind Bazaar; Wynn joins with Ralts, Mind Read takes the strongbox code from the purser,
+  Whirlwind swings a sail into a bridge, the strongbox gives up Wynn's note and chart, and the chart shows the
+  Crown under the Pinnacle. Both crews are full. `docs/design/mission-8-build.md` has the flow, the words and the
+  placeholders.
+- **Whirlwind and Mind Read** work in the field as Sky Psynergy, refused until a Sky Adept is in the active crew.
+- **Fixed:** a gate's repaint tiles that the map never drew came out invisible; the engine now creates them first.
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 7)
 
 - **Mission 7 is playable end to end** (engine PR #44): after crew 1's first recruitment, the story hands over to
