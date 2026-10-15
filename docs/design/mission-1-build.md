@@ -43,8 +43,15 @@ All lines are our placeholders, written to the story's beats, in the engine's `m
   runner (walk, turn, shake, fade, sound) is the next engine piece for these.
 - **No random battles in the Vault** during the prologue (proposed): the guided opening stays about the puzzle
   and the fight.
-- **Corvin's party and level** (6 + Larvitar 6) are the rival check's numbers; the first fight is meant to be
-  losable and the retry rule carries it. Balance is open until more gear and the Set Pokémon line exist.
+- **Corvin's party (proposed): Corvin level 4 with a level-3 Larvitar and the hero's own Machete.** The rival
+  check's numbers (level 6 + 6, a better sword) beat a new game's hero and starter every time, even with Quake and
+  Herbs, which the retry rule would turn into a lock. Measured by the engine's `tools/balance_corvin.tscn` over 30
+  seeds: attacking only now wins 7, Quake plus an Herb when low wins 25; a test keeps it that way. Observation for
+  the partner numbers (§5 of party-and-battle.md): a level-5 starter falls to one Quake, so the starter made no
+  difference to the fight at all. Partner HP or Quake's early damage may want a second look.
+- **A pre-existing bug fixed on the way:** a role's pages (Brann, chests, Maren, Corvin, Ilse, the pages after a
+  battle) could not be turned by the player, only by the automated checks. Every check now turns pages by
+  pressing confirm, as a player does.
 - **Looks:** Corvin wears Garet's field sprite and the Thief's battle sheet; the Sentinels are Sol Sanctum's
   statues; Ilse a villager sprite; the Vault halls are a clip of Sol Sanctum. All to be redrawn in the graphics
   pass.

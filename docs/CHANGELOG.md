@@ -13,6 +13,12 @@ header; the detailed rules are in `docs/design/`.
   halls (placeholder Sol Sanctum tiles), a Move puzzle with two Sentinel statues, Corvin's fight, Commodore Ilse
   deputising the hero and handing over the Lodestar. The lines are placeholders for the cloud chat's story pass;
   `docs/design/mission-1-build.md` lists what is built and where the words live.
+- **Corvin's first fight tuned (proposed):** level 4 with a level-3 Larvitar and the hero's own Machete. The rival
+  check's level-6 pair beat a new game's hero every time, which the retry rule would have made a lock; the
+  engine's balance tool and a test now keep the fight beatable (Quake and an Herb win 25 of 30). Noted for the
+  partner numbers: a level-5 starter falls to one Quake.
+- **Fixed:** a role's dialogue pages (Brann, chests, Maren, Corvin, Ilse, post-battle pages) could not be turned
+  by the player; the checks had turned them directly. They now press confirm like a player.
 
 ## 14 Oct 2026 (engine: the battle look)
 
