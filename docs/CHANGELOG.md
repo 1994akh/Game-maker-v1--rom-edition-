@@ -3,6 +3,21 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (the battle screen)
+
+- **Heroes on the left, enemies on the right** (your decision; engine PR #35). The party stands along the lower
+  left seen from behind facing up-right, the enemies across the upper right facing down-left. Golden Sun draws
+  the sides the other way round, so its sheets are mirrored; Pokémon pictures already face this way. The first
+  placement had everyone facing away from their foe.
+- **Sprites scale with the line** (your decision): a lone foe draws at 1.3, a full line of eight at 0.7, with the
+  spacing to match (proposed steps in between: 2 → 1.15, 3 → 1.0, 4 → 0.9, 5–6 → 0.8).
+- **The boxes over the sprites while choosing** (your decision): the status box (top left) and the command menu
+  (bottom centre) draw over the fighters during action selection and hide while the round's words play at the
+  top, as Golden Sun does; both keep clear of the touch joystick and buttons. Enemy names sit above their heads.
+- **Cutscene review fixes** (engine PR #34 as merged): the Start menu is refused during a scene (a save there
+  would have recorded the scene as unplayed), scenes start on the next frame so a story fight's flag can never be
+  missed, fades sit under the message box, a hidden actor can't be talked to or targeted.
+
 ## 15 Oct 2026 (cutscenes)
 
 - **Cutscenes in the rooms** (engine PR #34): a room's `events.json` can list scenes, each a list of small steps
