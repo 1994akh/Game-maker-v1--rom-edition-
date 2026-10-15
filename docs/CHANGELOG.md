@@ -3,6 +3,17 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 6)
+
+- **Mission 6 is playable end to end** (engine PR #43): Vesper pilots for fifty coins and joins with Gastly,
+  Lantern Reef's broken wreck has Reveal planks, a Halt boom, fog that Defog clears, and Corvin's note ("Ask your
+  Commodore where the tithe goes"), which unlocks Defog. Easter eggs: Mimikyu, Maestro Bonewhistle, a Litwick
+  lantern. `docs/design/mission-6-build.md` has the flow, the words and the placeholders.
+- **Crew 1 is complete** once missions 5 and 6 are done: the hero, Maren, Sorrel and Vesper (Earth, Sea, Forest,
+  Shadow), which is what the story's later puzzles assume.
+- **Not built yet:** night-only decks (there is no day and night).
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 5, Act I begins)
 
 - **Mission 5 is playable end to end** (engine PR #42): the Kestrel's chart sails to the Greenwild, Sorrel joins
