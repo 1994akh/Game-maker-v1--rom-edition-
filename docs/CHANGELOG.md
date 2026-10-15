@@ -3,6 +3,21 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 5, Act I begins)
+
+- **Mission 5 is playable end to end** (engine PR #42): the Kestrel's chart sails to the Greenwild, Sorrel joins
+  with Rowlet, Growth binds the rotten bridge, the poison swamp stings, Celebi's vision plays at the great tree's
+  heart, the Forest seal is driven deeper on Ilse's order, and Cut unlocks. `docs/design/mission-5-build.md` has
+  the flow, the words and the placeholders.
+- **The Kestrel's chart** (proposed placeholder): until the sea map of the Calm exists, a deckhand at each port
+  lists the places the story has opened and sails there.
+- **Hazards** (poison swamps) cost HP per step, never below 1. **Cut** and the other kept HMs need their story
+  unlock as well as a Set Pokémon that can learn them.
+- **Open point for the cloud chat:** the story's Hive (mission 5's easter egg) is solved with Cloak and Reveal,
+  which only arrive with Vesper in mission 6, while missions 5 and 6 can be played in either order. It isn't built
+  yet; it could be an optional Greenwild area to return to.
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 4)
 
 - **Mission 4 is playable end to end** (engine PR #41): the handover to Corvin's crew after the sluice beast, the
