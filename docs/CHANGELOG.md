@@ -3,6 +3,18 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 7)
+
+- **Mission 7 is playable end to end** (engine PR #44): after crew 1's first recruitment, the story hands over to
+  Corvin's crew at Bastion Rock; Scoop digs a tunnel under the walls, a guard's line of sight sends the crew back to
+  the tunnel, the key ring opens Nerissa's cell, she joins with Froakie, and the crew Surfs out to the open Calm.
+  `docs/design/mission-7-build.md` has the flow, the words and the placeholders.
+- **Scoop** is in the field-ability table as Earth Psynergy (party-and-battle.md §7 already listed it for both
+  crews), so both Earth leads can dig.
+- **Guards** see in a straight line along their heading, blocked by walls; seen, the room's "caught" scene plays.
+  Vision cones and Cloak can come later.
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 6)
 
 - **Mission 6 is playable end to end** (engine PR #43): Vesper pilots for fifty coins and joins with Gastly,
