@@ -3,6 +3,19 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 9)
+
+- **Mission 9 is playable end to end** (engine PR #46) with both crews: the hero's crew evacuates Fallhaven's lower
+  town (Move, Growth, Reveal) while Corvin's crew holds the archive (Mind Read, Whirlwind); the Ledger of the Crown
+  is read, Sael holds the doors, Maren confesses, Ilse escorts the boats, and both crews land at Stonehollow.
+  `docs/design/mission-9-build.md` has the flow, the words and the placeholders.
+- **Relay stones (proposed):** a restoration point inside a two-crew dungeon. It offers rest and Set Pokémon like an
+  innkeeper, and switching to the other crew where it stands.
+- **Open point for the cloud chat:** the story has Fallhaven fall "the night after" the Forest seal was deepened
+  (mission 5), but mission 9 needs both crews full, so it plays after mission 8.
+- **Fixed:** Sael wore a small animal's sprite in mission 2.
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 8)
 
 - **Mission 8 is playable end to end** (engine PR #45): after crew 1's second recruitment, the story hands over to
