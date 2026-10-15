@@ -38,9 +38,12 @@ All lines are our placeholders, written to the story's beats, in the engine's `m
 
 ## Placeholders and proposals (not decided)
 
-- **No cutscenes yet.** The quake that opens the Vault, the hall splitting, Groudon stirring and Corvin's drop
-  into the river are told in lines, not shown. The Keeping Night festival is one villager's line. A small script
-  runner (walk, turn, shake, fade, sound) is the next engine piece for these.
+- **Cutscenes (engine PR #34):** rooms now carry `scenes`, lists of small steps (say, wait, walk, face, shake,
+  fade, flag, hide/show, give, battle, warp) run by the engine's `FieldScript`. Mission 1 has two: the Keeping
+  Night opener on first entering Stonehollow (a fade in, the festival, the quake as a camera shake, a villager
+  pointing up the Vault road) and the hall splitting after Corvin loses (the shake, his two lines, his walk to
+  the river, gone). Groudon stirring is still only implied. The format is in the engine's `maps_src/README.md`;
+  the cloud chat can write scenes directly there once the lines are settled. No sound yet (music/SFX come late).
 - **No random battles in the Vault** during the prologue (proposed): the guided opening stays about the puzzle
   and the fight.
 - **Corvin's party (proposed): Corvin level 4 with a level-3 Larvitar and the hero's own Machete.** The rival

@@ -3,6 +3,14 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (cutscenes)
+
+- **Cutscenes in the rooms** (engine PR #34): a room's `events.json` can list scenes, each a list of small steps
+  (words, waits, walks, turns, a camera shake, fades, flags, items, a story fight, a warp), played on entering,
+  when talking to an actor, or after a story fight is won. Mission 1 now opens with the Keeping Night and the
+  quake, and the hall splits after Corvin loses before he drops into the river. The lines are placeholders; the
+  format is documented in the engine's `maps_src/README.md` so the story pass can write scenes directly.
+
 ## 14 Oct 2026 (story fights, mission 1)
 
 - **Losing a story fight restarts it** (your decision). If the party is knocked out in a fight the story stages,
