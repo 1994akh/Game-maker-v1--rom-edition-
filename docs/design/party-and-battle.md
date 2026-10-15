@@ -192,11 +192,16 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
     type picks its element group. Status moves are listed but do nothing yet. Moves cost no PP.
   - Data comes from the local pokeemerald-expansion tables (species, learnsets, moves), converted offline by
     `tools/export_pokemon_data.py`; PokeAPI stays the cross-check.
-- **Proposed, catching (built 14 Oct, engine PR #22):** wild Pokémon appear in a share of each area's
-  encounters (half, by default) beside the Golden Sun monster groups, one or two at a time, on the lead Adept's
-  curve. They are caught with balls (Poké Ball, Great Ball) by the Gen 3 formula Unbound's base uses; a catch
-  takes the Pokémon out of the fight and gives no EXP. A caught Pokémon joins the catcher's Set Pokémon when
-  there is room for three, else the Kin Garden. A wild Pokémon's reward is its species' EXP yield × level / 50
+- **Catching (built 14 Oct, engine PR #22; decided 15 Oct except where marked):**
+  - **Decided, how many:** wild Pokémon appear in a share of each area's encounters, **half by default, tunable
+    per area** (a forest more Pokémon, a ruin more monsters). They come one or two at a time, beside the Golden
+    Sun monster groups, on the lead Adept's curve.
+  - **How it works:** they are caught with balls (Poké Ball, Great Ball) by the Gen 3 formula Unbound's base uses,
+    and a catch takes the Pokémon out of the fight.
+  - **Decided 15 Oct, a catch gives EXP,** the same as defeating it (Gen 6+). The engine currently gives none and
+    needs this change.
+  - **Decided, where a caught Pokémon goes:** it joins the catcher's Set Pokémon when they have fewer than three,
+    otherwise the Kin Garden, as built. A wild Pokémon's reward is its species' EXP yield × level / 50
   (so a level-3 Zigzagoon is worth about a Vermin), coins twice its level.
 - **Decided:** Psynergy works as in Golden Sun, with long lists, in and out of battle, and no 4-slot cap. Pokémon
   keep 4 moves.

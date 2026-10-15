@@ -41,8 +41,9 @@ All lines are our placeholders, written to the story's beats, in the engine's `m
 - **No cutscenes yet.** The quake that opens the Vault, the hall splitting, Groudon stirring and Corvin's drop
   into the river are told in lines, not shown. The Keeping Night festival is one villager's line. A small script
   runner (walk, turn, shake, fade, sound) is the next engine piece for these.
-- **No random battles in the Vault** during the prologue (proposed): the guided opening stays about the puzzle
-  and the fight.
+- **Decided 15 Oct: light random encounters in the Vault.** That means a few weak battles, so the player learns
+  the battle screen before Corvin. This replaces the earlier proposal of no encounters; the engine needs a
+  low-rate, low-level encounter table for `vault_halls`.
 - **Corvin's party and level** (6 + Larvitar 6) are the rival check's numbers; the first fight is meant to be
   losable and the retry rule carries it. Balance is open until more gear and the Set Pokémon line exist.
 - **Looks:** Corvin wears Garet's field sprite and the Thief's battle sheet; the Sentinels are Sol Sanctum's

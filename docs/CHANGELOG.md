@@ -3,6 +3,15 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026
+
+- **Catching settled** (`docs/design/party-and-battle.md`):
+  - A catch gives EXP, like defeating it. This changes the engine, which gives none now.
+  - A caught Pokémon joins the catcher's Set if there's room, otherwise the Kin Garden (as built).
+  - Wild Pokémon make up about half of random battles by default, tunable per area (as built).
+- **Mission 1 gets light random encounters in the Vault** (`docs/design/mission-1-build.md`), so the battle screen
+  is learned before Corvin's fight. This replaces the "no encounters" proposal.
+
 ## 14 Oct 2026 (story fights, mission 1)
 
 - **Losing a story fight restarts it** (your decision). If the party is knocked out in a fight the story stages,
