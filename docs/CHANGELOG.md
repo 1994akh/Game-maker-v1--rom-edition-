@@ -3,6 +3,21 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 15 Oct 2026 (mission 3, Surf)
+
+- **Crew 1's Surf is a gift in Canalport** (your decision). Of crew 1's story partners only Mudkip can learn
+  Surf, so in mission 3 the harbourmaster gives the hero a canal Pokémon that can (Marill, a placeholder species)
+  and Surf unlocks. Water travel stays Pokémon-powered, as decided.
+- **Field Psynergy is limited to the active crew** (the decided rule, now enforced in the engine): Frost needs a
+  Mercury Adept, Reveal a Shadow one, Growth a Forest one.
+- **Mission 3 is playable end to end** (engine PR #40): Ilse sends the hero and Maren (with Eevee) to Canalport,
+  Frost plugs the beach breaches and the flood drains, the harbourmaster's gift unlocks Surf, the sluice beast,
+  and the Calm opens. `docs/design/mission-3-build.md` lists the flow, the words and the placeholders.
+- **Engine pieces** (PRs #38–#40): Surf in our rooms; story bosses from scaled Golden Sun enemies (the sluice beast
+  is Kraken at level 8, proposed); recruits bring their story partner; rooms that change by flag (open cells and
+  repaint tiles).
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (two crews, mission 2)
 
 - **Two crews in the engine** (engine PR #36): switching crews stores the active crew's party, bag, coins,
