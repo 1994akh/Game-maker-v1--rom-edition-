@@ -92,3 +92,16 @@ Both audits agree on these. None of it has been done; it is your folder.
   it isn't in the folder, and the loader silently skips it. Take the dither from `lit` instead.
 - `azgaar_map_generator` is not Azgaar's Fantasy Map Generator; it's a Godot addon "inspired by" it.
 - `Pokemon\` holds only the FireRed ROM; its `Custom Pokemon`, `Fire red GBA` and `Pokemon Unbound` folders are empty.
+
+## 5. Added 15 Oct 2026
+
+Five folders appeared in `OneDrive\Apps-Roms` on 15 Oct. All were read, none run.
+
+| Folder | What it is | Verdict |
+|---|---|---|
+| `godot-3d-player-controller-addon-…\addons\controls` | Tim Cope's "Controls" HUD (MIT): on-screen button hints that swap art per device, plus a world "Press [button]" prompt | **Lift the art, not the addon.** It bundles **Kenney Input Prompts 1.4a (CC0)**: 737 vector glyphs for keyboard and mouse, Xbox, PlayStation, Switch, Steam Deck and touch. That is the "Kenney prompts" item from §2, now on disk. Use the glyphs for "A: Talk"-style hints in the dialogue box, menus and the touch overlay in the UI pass. Skip the HUD itself: it targets Godot 4.8 (we are on 4.7.2) and duplicates our TouchOverlay |
+| `godot-3d-player-controller-addon-…\addons\3d_player_controller` | A 3D third/first-person controller with IK and root motion (174 MB with assets) | Not useful: the game is 2D. Safe to delete |
+| `godot-road-generator-…` | TheDuckCow's 3D road and traffic generator (22 MB) | Not useful: 3D roads. Safe to delete |
+| `Blendot-…` | Blender round-trip editing for 3D models (MIT) | Not useful: no 3D models. Safe to delete |
+| `batch-sprite-keyframe-…` | An editor dock that slices a sheet and writes Sprite2D texture keyframes into an AnimationPlayer (comments in Chinese, no licence file) | Low value now: our sprites are built in code from the exported sheets. Possibly handy in the graphics pass for hand-made animations; no licence, so read-only reference |
+| `tile mapper\godot_multilayer_tilemap-…` | Byte-for-byte the same commit as the `godot_multilayer_tilemap-eac6924…` folder already audited in §1 | Duplicate. Safe to delete either copy |
