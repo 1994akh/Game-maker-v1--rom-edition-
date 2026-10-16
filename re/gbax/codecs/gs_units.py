@@ -65,11 +65,15 @@ CONFIG = {
     },
 }
 
-ITEM_TYPES = {  # INFERRED from field usage (attack only on 1, defense on 2-5, type 6 = held field-Psynergy items)
-    0: "item", 1: "weapon", 2: "armor", 3: "shield/arm", 4: "helm", 5: "boots?", 6: "psynergy_item",
-    7: "ring?", 8: "shirt?", 9: "class_item?",
+# Item types and flags, checked against the alchemy decomp and both games' tables (items and equipment reviews,
+# 16 Oct): rings are type 8 and shirts type 9 (GS1's 7 rings and 3 shirts), type 7 holds special pieces (the Trident),
+# 10 is GS2's class items (Mysterious Card, Trainer's Whip, Tomegathericon), 11 carried key items.
+ITEM_TYPES = {
+    0: "item", 1: "weapon", 2: "armor", 3: "shield/arm", 4: "helm", 5: "boots", 6: "psynergy_item",
+    7: "special", 8: "ring", 9: "shirt", 10: "class_item", 11: "carried_key_item",
 }
-ITEM_FLAGS = {0x01: "cursed?", 0x02: "unremovable?", 0x04: "rare?", 0x08: "important", 0x10: "stackable",
+# 0x02 blocks removing a worn piece (and giving or dropping it while worn); Golden Sun pairs it with the curse bit.
+ITEM_FLAGS = {0x01: "cursed", 0x02: "locked_when_equipped", 0x04: "rare", 0x08: "important", 0x10: "stackable",
               0x20: "flag20", 0x40: "flag40", 0x80: "flag80"}
 
 

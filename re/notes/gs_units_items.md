@@ -107,8 +107,8 @@ Briar.
 | Field | Offset | Notes |
 |---|---|---|
 | price | 0x00 u16 | |
-| type | 0x02 u8 | 0 item, 1 weapon, 2 armor, 3 shield/armlet, 4 helm, 5 boots, 6 Psynergy item, 8/9/10/11 = rings, shirts, class items etc. (INFERRED; checked against which types carry attack or defense) |
-| flags | 0x03 u8 | 0x08 important (all Psynergy items), 0x10 stackable (Herb); the other bits are INFERRED |
+| type | 0x02 u8 | 0 item, 1 weapon, 2 armor, 3 shield/armlet, 4 helm, 5 boots, 6 Psynergy item, 7 special (the Trident), 8 ring, 9 shirt, 10 class item (GS2), 11 carried key item. Checked against the alchemy decomp and GS1's 7 rings and 3 shirts (equipment review, 16 Oct) |
+| flags | 0x03 u8 | 0x01 cursed when equipped, 0x02 locked when equipped (can't be removed, given or dropped while worn), 0x04 rare (never normal shop stock; sold ones go to the Artifacts list), 0x08 important (all Psynergy items), 0x10 stackable (Herb). From the alchemy decomp (INVENT2.C, SHOP4.C), equipment and items reviews, 16 Oct |
 | equip mask | 0x04 u8 | bit order Isaac, Garet, Ivan, Mia, Felix, Jenna, Sheba, Piers (VERIFIED: GS2 sets bit 7 on items GS1 leaves 0, e.g. Long Sword `0x13` becomes `0x93`) |
 | icon | 0x06 u16 | |
 | attack | 0x08 u16 | |
@@ -117,7 +117,7 @@ Briar.
 | use type | 0x0C u8 | VERIFIED: 1 means usable, with the ability at +0x28 (GS2 AI). Observed values: 1 consumable, 2 reusable (may break), 3 Psynergy items, 0 none |
 | unleash ability | 0x0E u16 | |
 | element | 0x14 u32 | 4 = none |
-| equipped effects | 0x18 | 4 × (u8 type, s8 value, 2 pad) |
+| equipped effects | 0x18 | 4 × (u8 kind, s8 value, 2 pad). Kinds (alchemy CHARACTER.C Owner_RecalculateStats): 1 max HP+, 2 HP regen per round, 3 max PP+, 4 PP regen, 5 Agility+, 6 Luck+, 7–14 ×value/10 on HP, HP regen, PP, PP regen, Attack, Defense, Agility, Luck (applied after the class multiplier), 15–18 Power Venus/Mercury/Mars/Jupiter, 19–22 Resist (same order), 23 crit and unleash bonus, 24 counterstrike (unused), 25 curse ward (Cleric's Ring), 26 extra turns (unused), 27 more encounters (Lure Cap) |
 | use ability | 0x28 u16 | |
 
 Checks against well-known values (all match): Long Sword 200 coins, Atk 14; Herb 10 coins; Gaia Blade 17000 coins,
@@ -206,8 +206,8 @@ Atk 13/86/162/237/313/388, Def 6/38/69/102/134/166, Agi 8/86/163/241/318/396, Lu
   `ability | level<<9`, was wrong.)
 - **Enemy fields still unnamed.** The weakness codes (e.g. 24, 32, 69), the attack-type values, and the GS2 group
   bytes `+0x15..0x17`.
-- **Equipped-effect type IDs** (1, 15, 18, 19, …) aren't named.
-- **Item type labels** for types 7–11 are guesses.
+- ~~Equipped-effect type IDs~~ and ~~item type labels 7–11~~: named above from the alchemy decomp (16 Oct); the codec
+  (`gs_units.py`) uses the same labels.
 - **Encounter counts.** GS1's 104 isn't code-bounded. GS2's 110 comes from gsmagic and matches a clean data boundary.
 - **Area to encounter-table mapping:** needs the map/script pass.
 - **Enemy battle sprites** aren't linked yet; the enemy record has no graphics field, so sprites are probably
