@@ -39,6 +39,18 @@ header; the detailed rules are in `docs/design/`.
   It lists 15 bugs (item Psynergy can never fire, battle items hit your own side, rests charge full-health
   Adepts...) and 25 decisions for you. Its evolution routes follow progression.md (Maren's Shiny Stone, Riolu at
   20, Wynn's Dawn Stone, Vesper's Linking Cord).
+- **Published: [equipment.md](design/equipment.md).** It covers how weapons, armour and other gear work and their
+  screens.
+  - Today nothing can change gear, and only Attack, Defense and the weapon element apply.
+  - Proposed: Golden Sun's rules (stat order, equipped effects, Weapon Arts, curses, usable gear) and an Equip
+    screen with a before-and-after preview.
+  - Proposed: per-Adept equip profiles, recruit kits with weapons, and no held items for Pokémon.
+
+  It lists 15 decisions; questions the items page already asks aren't repeated.
+- **Doc fixes:**
+  - party-and-battle.md §1 now says bags are per crew until mission 10, as decided.
+  - items-and-economy.md §11 now records "worn gear can't be sold" as our change; Golden Sun refuses only locked
+    gear.
 - Built on Opus 5.5; marked for the Fable review.
 
 ## 16 Oct 2026 (bonded partners)
