@@ -3,6 +3,34 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 16 Oct 2026 (progression audit and the art-integration plan)
+
+- **Proposed, built: the waiting crew earns half** of each won battle, as in GS2. Its level-ups and evolutions are
+  told in one line each after the battle ("Meanwhile, with Corvin:"). Engine PR #50.
+- **Fixed:**
+  - The Pokémon exporter keeps evolution conditions; before, Riolu → Lucario read "level 0".
+  - Wynn's Ralts line (and 7 other species) gets its real Fairy type.
+  - Colour forms and Mothim export.
+  - A bonded Adept no longer loses its partner's HP share when it levels up.
+  - Gifts take the species table's name.
+
+  Engine PRs #51 and #52.
+- **Proposed: evolution conditions the game has no system for are ignored** (gender, time, weather, "not in region",
+  personality and Attack/Defense splits; the first branch wins for now). Friendship, known moves, held items, places
+  and regions hold an evolution back until their rules exist.
+- **Published: [progression.md](design/progression.md).** It answers whether levelling, power scaling and evolution
+  hold up end to end.
+  - The code holds, but the story's EXP leaves Act I at about L5–6 against fights tuned at L7.
+  - A lost story fight restarts forever.
+  - Classes and gear never improve.
+  - The content ends at L43.
+
+  It lists 19 decisions for you.
+- **Published: [art-integration.md](design/art-integration.md).** It plans how the new libraries and 64-px art come
+  in without re-authoring rooms, saves or checks. Phase 1, seams and bug fixes with no decision needed, is being
+  built. It lists 17 decisions for you.
+- Built on Opus 5.5; marked for the Fable review.
+
 ## 16 Oct 2026 (bonded partners)
 
 - **Decided (you, 16 Oct): partners are bonded to their Adepts.** The active Pokémon stops being a separate fighter

@@ -198,7 +198,7 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 
   | Golden Sun stat | Comes from |
   |---|---|
-  | HP | Adept HP curve (before the class multiplier) × clamp(0.25 + 0.0025 × base HP, 0.25, 0.80). A balancing check keeps every species at every level below 0.8 of its Adept |
+  | HP | Adept HP curve (before the class multiplier) × clamp(0.25 + 0.0025 × base HP, 0.25, 0.80). The balancing check planned here was never built, and since 16 Oct it isn't needed: a bonded partner lends only 30% of this to its Adept (§2) |
   | Attack | Attack and Special Attack |
   | Defense | Defense and Special Defense |
   | Agility | Speed |
@@ -241,16 +241,19 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
   | **All three Set Pokémon of each standing Adept** (the active partner and the benched ones, Standby included) | Full total, so a Pokémon grows toward evolution even when it isn't the active partner; swapping partners over time pays |
   | Adepts downed at the end, and their Pokémon | None |
   | The Kin Garden | None |
-  | The inactive crew | Proposed earlier: half, as in GS2. Not built |
+  | The waiting crew | **Proposed, built 16 Oct (engine PR #50):** half, as in GS2, for its standing Adepts and all three Set Pokémon of each. Its level-ups and evolutions are told in one line each after the active crew's pages ("Meanwhile, with Corvin:") |
 
   - **Proposed (16 Oct), one curve:** partners level on the **Adepts' Golden Sun table**, scaled by growth rate
     (fast 0.8, medium fast 1.0, medium slow 1.06, slow 1.25, erratic 0.6, fluctuating 1.64), so a partner keeps pace
     with its Adept. Before, the same EXP on Pokémon's 2–11× cheaper curves put partners at level 100 by Adept
     level 49 (the 15 Oct progression audit). Old records never lose a level.
   - **Built (16 Oct), evolution:** level evolutions happen after the level-up pages, for benched Set Pokémon too,
-    with a "What? X is evolving!" page; a nickname stays. Evolutions by item, trade, friendship, time of day or a
-    split choice wait for their rules (the exporter dropped their conditions); a split line takes its first
-    branch for now.
+    with a "What? X is evolving!" page; a nickname stays.
+    - **Since engine PR #51:** the exporter keeps each evolution's conditions. **Proposed:** gender, time of day,
+      weather, "not in region X" and the personality and Attack/Defense splits are ignored. A split line (Wurmple,
+      Tyrogue) takes its first branch until the player can choose.
+    - Friendship, a known move, a held item, a place or a region hold an evolution back until its rule is built.
+      Items, trade and friendship are proposed in [progression.md](progression.md) §4.
   - **To do:** check that GS's reward routine (`FUN_081284c0`) skips downed members.
 - **Proposed, flee and encounter rate:** only Adept levels count in the party-level averages these formulas use.
 - **Proposed, after a battle:** EXP, then level-up popups, then move learning, then evolutions, then class
