@@ -59,9 +59,21 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 
 ## 2. Who is in a battle
 
-- **Decided, your side:** the active crew's 4 Adepts, each with one partner Pokémon, so up to 8 fighters.
-- **Decided, the battle line:** each Adept stands next to their partner. When a partner withdraws or faints with no
-  replacement, the line closes the gap. This matters because Golden Sun's spread attacks hit neighbours.
+- **Decided (16 Oct), bonded partners:** the active partner is no longer a separate fighter. It is bonded to its
+  Adept and stands **behind** them in battle. Your side is the active crew's **4 Adepts**, one stat line each:
+  - **A stat boost that levels:** the partner adds a share of its own HP, Attack, Defense, Agility and Luck to its
+    Adept's (proposed: 30%, to tune). It keeps levelling, so the boost grows with it.
+  - **Its moves join the Adept's menu** under "Pokémon". The Adept uses them with the Adept's own stats (one stat
+    system). Each damaging move can be used a fifth of its PP per battle, at least once (proposed). Moves cost no
+    PP. Status moves aren't offered until they do something.
+  - **A shield for one hit:** the partner takes the first hit (an attack, Psynergy, a move or a Summon; not poison
+    or a curse) aimed at its Adept each battle.
+  - **The revive window and Rouse stay** (§3): when the Adept falls, the partner comes forward for its one action.
+  - The rest of the Djinn model is unchanged: benched Set Pokémon are unleashed, Standby ones pay for Summons, and
+    Set Pokémon decide the class (§4).
+  - **Replaced:** "the active crew's 4 Adepts, each with one partner Pokémon, so up to 8 fighters".
+- **Decided, the battle line:** the line is the Adepts; partners stand behind and are never targeted, so spread
+  attacks hit neighbouring Adepts. (Before 16 Oct each Adept stood next to their partner.)
 - **Decided, the enemy side:** it isn't only Pokémon, and its size is capped at what Golden Sun allowed.
   - **Confirmed from code (14 Oct, §12):** 6 slots; small enemies take 1 slot and large ones 2, decided by a flag
     on the enemy's battle-sprite entry. A formation's minimum counts are always placed, extras are rolled while
@@ -72,7 +84,7 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
   |---|---|---|
   | Golden Sun monsters, bosses and bandits | No | Extracted stats, Psynergy, AI and drops. **Corrected:** about 260 distinct enemies across both games (GS2's version where both have one), not 541. The record counts include Djinni battles, placeholders and boss phases |
   | Wild Pokémon | Yes | Mixed with monsters in wild battles, within the cap |
-  | Human trainers | No | Adept + Pokémon pairs, 2 slots each, with element-limited rosters like Pokémon's trainer classes |
+  | Human trainers | No | Adepts with bonded Pokémon behind them (they mirror your side since 16 Oct, 1 slot each), with element-limited rosters like Pokémon's trainer classes |
 
 - **Proposed, how enemy trainers mirror your crew:**
   - **Set Pokémon:** each enemy Adept has up to 3, with the same partner, replacement and revive-window rules.
@@ -88,7 +100,16 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 
 ## 3. Adepts and their partners
 
-**Decided:**
+**Decided (16 Oct), with bonded partners (§2):**
+- **The shield:** a partner takes one hit for its Adept per battle, then the Adept takes hits as usual.
+- **Partners don't faint.** They are never targeted, so the "fainted partner" and "replacement" rules below no
+  longer come up. An Adept without any Set Pokémon fights alone, with no boost, moves or shield.
+- **The revive window and Rouse work as before:** when an Adept is downed, its partner comes forward for **one
+  action** (Rouse, a reviving item, or pass), then waits behind until the Adept is revived.
+- **Also built 16 Oct:** Rouse's bonus (60% when the partner's type is in its Adept's element group) now applies;
+  before, nothing set it.
+
+**Decided (13–14 Oct; the parts about partners fighting are replaced by the above):**
 - **A Pokémon fights only while its Adept can.**
 - **When an Adept is downed,** their partner gets **one action** to try to revive them. If it fails, or the partner
   does something else, the partner can't act until the Adept is revived.
@@ -194,6 +215,9 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
   - Moves: a Pokémon knows the last four level-up moves for its level. Physical moves hit as Golden Sun added
     damage with power ÷ 4 on top of Attack; special moves as base damage with power ÷ 2, like Psynergy; the move's
     type picks its element group. Status moves are listed but do nothing yet. Moves cost no PP.
+  - **Since 16 Oct (bonded partners, §2):** these converted stats feed the bond (a share goes to the Adept), and
+    the moves are used by the Adept with the Adept's own Attack and Power, so the conversion no longer has to keep a
+    partner alive or useful on its own.
   - Data comes from the local pokeemerald-expansion tables (species, learnsets, moves), converted offline by
     `tools/export_pokemon_data.py`; PokeAPI stays the cross-check.
 - **Proposed, catching (built 14 Oct, engine PR #22):** wild Pokémon appear in a share of each area's
@@ -209,19 +233,24 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
     option.
 - **Decided: Adepts' level-ups are shown as in Golden Sun.** After battle, the message window announces the new
   level, then each stat's gain (HP, PP, Attack, Defense, Agility, Luck), then any newly learned Psynergy.
-- **Proposed, EXP:**
+- **Decided (16 Oct), EXP:**
 
   | Who | EXP |
   |---|---|
   | Adepts standing at the end | Full total (Golden Sun) |
-  | Adepts downed at the end, or who sat out | None |
-  | Partners and replacements that acted | Full total |
-  | Withdrawn partners | Their one action counts |
-  | Unleashed Pokémon | None |
-  | The inactive crew | Half, as in GS2, so a handover doesn't bring in an under-levelled crew |
+  | **All three Set Pokémon of each standing Adept** (the active partner and the benched ones, Standby included) | Full total, so a Pokémon grows toward evolution even when it isn't the active partner; swapping partners over time pays |
+  | Adepts downed at the end, and their Pokémon | None |
+  | The Kin Garden | None |
+  | The inactive crew | Proposed earlier: half, as in GS2. Not built |
 
-  - Pokémon level on their own Pokémon curves, with Golden Sun enemy EXP scaled to them. Golden Sun's curve reaches
-    8M at Lv 99; Pokémon's tops out around 1–1.6M. The scale factor is left to balancing.
+  - **Proposed (16 Oct), one curve:** partners level on the **Adepts' Golden Sun table**, scaled by growth rate
+    (fast 0.8, medium fast 1.0, medium slow 1.06, slow 1.25, erratic 0.6, fluctuating 1.64), so a partner keeps pace
+    with its Adept. Before, the same EXP on Pokémon's 2–11× cheaper curves put partners at level 100 by Adept
+    level 49 (the 15 Oct progression audit). Old records never lose a level.
+  - **Built (16 Oct), evolution:** level evolutions happen after the level-up pages, for benched Set Pokémon too,
+    with a "What? X is evolving!" page; a nickname stays. Evolutions by item, trade, friendship, time of day or a
+    split choice wait for their rules (the exporter dropped their conditions); a split line takes its first
+    branch for now.
   - **To do:** check that GS's reward routine (`FUN_081284c0`) skips downed members.
 - **Proposed, flee and encounter rate:** only Adept levels count in the party-level averages these formulas use.
 - **Proposed, after a battle:** EXP, then level-up popups, then move learning, then evolutions, then class
