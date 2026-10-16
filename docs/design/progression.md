@@ -106,7 +106,8 @@ about 2).
      Gleam are pushed out of the last four moves.
 4. **Triggers.**
    - A level-up after battle, as now.
-   - An evolution item used from the field menu. New items from 9004, used up only when the evolution happens.
+   - An evolution item used from the field menu, used up only when the evolution happens. The items get ids
+     9100–9199 ([items-and-economy.md](items-and-economy.md) §4 and §9).
    - Kin Garden Pokémon evolve by item only.
 5. **Choices.**
    - When two targets qualify (Wurmple, Tyrogue, Rockruff), the player picks "Which way?" or "Not now".
