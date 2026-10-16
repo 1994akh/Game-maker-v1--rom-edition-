@@ -445,8 +445,9 @@ def attack_miss_chance(attacker_deluded: bool) -> float:
 
 
 def unleash_chance_percent(weapon_unleash_rate: int, crit_bonus: int = 0) -> int:
-    """Weapon unleash chance in percent (GS2 FUN_080b04bc): crit_bonus + 5 * rate (rate 7 -> 35%, 8 -> 40%)."""
-    return crit_bonus + weapon_unleash_rate * 5
+    """Weapon unleash chance in percent (GS2 FUN_080b04bc): crit_bonus + 5 * rate (rate 7 -> 35%, 8 -> 40%).
+    A negative gear bonus counts as 0, as Golden Sun clamps it (alchemy RANDOM16.C / DJINN.C, equipment review)."""
+    return max(0, crit_bonus) + weapon_unleash_rate * 5
 
 
 def flee_chance_x10000(party_levels: list, enemy_levels: list, failed_attempts: int) -> int:
