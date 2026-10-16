@@ -249,8 +249,10 @@ Counters (Golden Sun): Buy, Sell, Artifacts, and Repair (which comes with breaka
 
 **Golden Sun's rules** (proposed; verified in its shop code):
 - Buy at list price. Sell at 3/4, or 1/2 for a broken item. Repair costs 1/4.
-- These can't be sold: key items (flag 8), story, quest and backup items, price-0 items, equipped gear, casino
-  tokens, bounty cargo and Pokémon.
+- These can't be sold: key items (flag 8), story, quest and backup items, price-0 items, casino tokens, bounty
+  cargo and Pokémon.
+- **Worn gear can't be sold (proposed, our change).** Golden Sun refuses only gear that is both worn and flagged
+  0x02, but here only bag items can be sold ([equipment.md](equipment.md) §2).
 - Rare items (flag 4) are never normal stock. Selling one adds it to a global Artifacts list. Any shop of the
   matching type sells it back at list price (weapons / armour, boots and shirts / items and rings), and Marrow
   Isle's smith shows the whole list.

@@ -48,7 +48,8 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **Proposed, crew logistics:**
   - **Handovers:** each story handover between crews starts at a restoration point.
   - **The other crew** waits on the home island once swapping is unlocked.
-  - **Shared:** the bag, coins and Pokémon storage are shared by both crews.
+  - **Shared:** Pokémon storage always. The bag and coins are per crew until mission 10, then one (decided,
+    story.md §14 question 4).
   - **Per crew:** each crew keeps its own "last restoration point".
   - **Getting home:** once swapping is unlocked, every restoration point offers travel to the home island, so a
     crew without Teleport or Retreat can't strand itself.
