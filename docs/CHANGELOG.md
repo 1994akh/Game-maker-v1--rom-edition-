@@ -47,6 +47,16 @@ header; the detailed rules are in `docs/design/`.
   - Proposed: per-Adept equip profiles, recruit kits with weapons, and no held items for Pokémon.
 
   It lists 15 decisions; questions the items page already asks aren't repeated.
+- **Published: [menus-and-navigation.md](design/menus-and-navigation.md).** It covers menus, pause, settings, saves,
+  maps and the compass.
+  - Proposed: a Golden Sun Start menu that freezes the world, a pause box elsewhere, and Android Back that never
+    quits.
+  - Proposed: a Settings screen saved on the phone, and 3 save files with safe writes and autosave.
+  - Proposed: no always-on minimap in rooms, an area map on a button, a Chart for the sea, and an objective line.
+  - The Lodestar is kept as decided: world map and sea only, full use from mission 12.
+
+  It lists 18 bugs, including the battle menu hiding half its commands, unsafe save writes, and the world running
+  under menus. It also lists 28 decisions.
 - **Doc fixes:**
   - party-and-battle.md §1 now says bags are per crew until mission 10, as decided.
   - items-and-economy.md §11 now records "worn gear can't be sold" as our change; Golden Sun refuses only locked
