@@ -29,6 +29,16 @@ header; the detailed rules are in `docs/design/`.
 - **Published: [art-integration.md](design/art-integration.md).** It plans how the new libraries and 64-px art come
   in without re-authoring rooms, saves or checks. Phase 1, seams and bug fixes with no decision needed, is being
   built. It lists 17 decisions for you.
+- **Published: [items-and-economy.md](design/items-and-economy.md).** It answers what every item does, key and
+  action items, buffs, drops, shops, selling, coins, catching, and evolution and Mega items.
+  - One coin scale (Golden Sun's), so balls get re-priced: Poké Ball 30.
+  - Golden Sun items for Adepts.
+  - Our own items only where Pokémon or the story need them.
+  - No bike, rod or held items.
+
+  It lists 15 bugs (item Psynergy can never fire, battle items hit your own side, rests charge full-health
+  Adepts...) and 25 decisions for you. Its evolution routes follow progression.md (Maren's Shiny Stone, Riolu at
+  20, Wynn's Dawn Stone, Vesper's Linking Cord).
 - Built on Opus 5.5; marked for the Fable review.
 
 ## 16 Oct 2026 (bonded partners)
