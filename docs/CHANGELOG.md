@@ -3,6 +3,21 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 16 Oct 2026 (bonded partners)
+
+- **Decided (you, 16 Oct): partners are bonded to their Adepts.** The active Pokémon stops being a separate fighter
+  and stands behind its Adept. It gives the Adept a share of its stats (a boost that levels with it), its moves
+  join the Adept's menu, and it **shields its Adept from one hit** per battle. The **revive window and Rouse stay**.
+  Battles have up to 4 fighters a side, one stat system. `party-and-battle.md` §2, §3 and §5 record it.
+- **Decided: all three Set Pokémon of a standing Adept earn EXP**, benched ones included, so they grow toward
+  evolution and swapping partners over time pays.
+- **Proposed numbers (to tune in play):** a 30% stat share; a fifth of a move's PP as uses per battle; partners on
+  the Adepts' EXP table scaled by growth rate, so they keep pace with their Adept instead of reaching 100 by Adept
+  level 49.
+- **Built:** level evolutions (others wait for their rules); Rouse's group bonus now applies; enemy trainers mirror
+  the bond. Engine PR #49.
+- Built on Opus 5.5 while Fable 5.1 was rate-limited; marked for review on Fable.
+
 ## 15 Oct 2026 (mission 10, Act I complete)
 
 - **Mission 10 is playable end to end** (engine PR #48): the refugees settle in Stonehollow, the two Earth leads
