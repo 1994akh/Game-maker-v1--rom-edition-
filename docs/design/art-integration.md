@@ -64,6 +64,40 @@ No decision needed. The critic trimmed it to what has a use now, in two parts.
 | 8 | UI art: item icons, button prompts, emotes, window frames | Your UI-art decisions |
 | 9 | Tiles, area by area, without touching events | Your tile-source decision |
 
+## 3a. What the Phase 2 probes showed (17 Oct)
+
+Two probes drew the open art questions as pictures (the LPC composer over all eight Adepts on two bodies; the
+Essentials library from the 16 Oct uploads rendered from its own map data; the same scene and a battle mocked at
+480×320 three ways), and a critic compared them. The pictures live outside the repo (third-party art); you have them.
+
+**Measured:**
+- LPC people are 47 sheet px tall with the head, 23.5 world px at art scale 2: about 13–21% shorter than Golden Sun's
+  leads (Isaac 30, Felix 31), and drawn twice as finely as the tiles. Teen, male and female bodies are the same height;
+  teen differs from male only in build (shoulders 24 px against 30).
+- **Essentials art is pixel-doubled throughout** (2×2 blocks everywhere; halving it is lossless): it is 16-px tiles and
+  32×32 frames drawn at 2×, the same density as Golden Sun at 2× and the Pokémon pictures. It could drop onto today's
+  16-px grid with no map-scale seam at all.
+- The composer in the stash ran unchanged: 8 of 8 Adepts in about 1.5 s per variant, every layer credited (144 files by
+  22 authors), eye credits already satisfied (art 17).
+- Essentials overworld sheets only walk (4 frames, 4 directions): no idle, run, cast or emote, and their looks are
+  fixed trainer classes, so they can't be the Adepts.
+
+**The critic's recommendation: crisp people in a Golden Sun world.** Every person LPC (the 8 Adepts on the teen body
+for Rowan and Corvin, then all 18 townsfolk looks together so heights agree), the world Golden Sun's tiles at 2×
+unchanged, and battle all at 2× (Pokémon pictures and LPC Adepts the same pixel size, on a pixel-art backdrop: the
+Essentials forest backdrop read well, its flat field one did not). Essentials stays a parts bin (its Boat, Caves,
+Harbour and beach sets are worth a look for the ship gap). The LPC tile download waits until after the demo.
+
+**To fix before the demo is shown, if LPC is a yes:** Tamsin's back view (red hair plus tied headband merge into a
+mask shape), Corvin and Tamsin both dark red over dark red in the same crew, Nerissa's wavy hair reading as a helmet
+from behind, Vesper's near-black hair on a dark outfit on dark floors; the five scripted poses room scripts call (nod,
+shake_head, push, hammer, sprawled) map to LPC's emote, sit and hurt rows; Rowan's scarf and Maren's cuffs vanish in
+LPC's combat poses, so battle uses the cast and idle rows or other items.
+
+**If LPC is a no:** an all-Golden-Sun-density game: Golden Sun tiles and cast as today, Essentials townsfolk where
+Golden Sun has no fitting look, no density mismatch, but the cast keep borrowed faces and the decided hero creator
+(art 5) loses its kit.
+
 ## 4. Decisions for you
 
 Recommended first. The alternatives are in brackets.
@@ -83,6 +117,8 @@ Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 O
    - Order: the Adepts, hero and rival first, then all 18 person looks together.
 
    [Adepts only; draw diagonal rows.] LPC adults are about 22% shorter than Isaac at exactly half size.
+   - **Probe (17 Oct):** composed and seen; the critic recommends yes, Adepts first then all 18 townsfolk together (§3a).
+
 4. **To talk over:** **The boy hero's body.** Recommended: LPC "teen", closer to Golden Sun's leads; the adult body for adult NPCs.
 5. **Decided (16 Oct):** **The hero creator.** Recommended:
    - Pre-composed sheets with colour keys: 2 genders × 6 styles × 3 outfits × 3 accessories, about 13 MB.
@@ -99,6 +135,8 @@ Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 O
 8. **To talk over:** **32-px tiles.** Recommended: keep Golden Sun's tiles at 2× until the graphics pass. Then download the LPC base
    tilesets from OpenGameArt as the main source; that download needs your go-ahead. [CC0 only (flat top-down DCSS);
    draw our own.]
+   - **Probe (17 Oct):** Golden Sun's tiles were the best-looking of the three windows; the Essentials sets are clean but modern-Pokémon and would mean redrawing all 17 rooms. The critic recommends keeping Golden Sun's tiles for the demo and using Essentials as a parts bin.
+
 9. **Decided (16 Oct):** **Library art in git.** Recommended: commit the CC0 picks (about 1–3 MB) and gitignore the LPC output, which
    the composer rebuilds from committed recipes. [Gitignore both; commit both.]
 10. **Decided (16 Oct):** **Battle sprite scales.** Recommended: whole numbers at 480. Adepts and partners at 2×; enemies at 2× for up to
