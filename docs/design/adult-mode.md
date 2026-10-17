@@ -4,6 +4,10 @@
 pictures exist is the story chat's to write (docs/story/story.md); the engine builds only what's recorded here and
 there. Everything below is **proposed** unless marked **your rule**.
 
+**Order of work (your rule, 17 Oct):** adult mode is built **after the Act I demo** (missions 1–10) is complete with
+its art, engine and story. Until then this page, the asset curation and the decompile tooling wait; nothing here is
+built, and the demo carries no adult content.
+
 ## 1. Rules
 
 **Your rules (16–17 Oct):**
@@ -110,5 +114,6 @@ All of it uses what the engine already has.
 9. **Who writes them.** The story chat is archived. Recommended: the engine side drafts each mission's outline and
    lines as a mission page for your approval on the decision page, then builds it. [You write the outlines in
    story.md first.]
-10. **Where adult missions and variants sit in the order of work.** Recommended: after the bug-fix build and the
-    first adult assets land, before mission 11, so the toggle has content from the start of Act II. [After Act II.]
+10. **Where adult missions and variants sit in the order of work.** Recommended: after the Act I demo (missions
+    1–10) is complete with its art, engine and story (your words, 17 Oct). [Before mission 11, as soon as the first
+    adult assets land; after Act II.]

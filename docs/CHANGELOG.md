@@ -3,6 +3,18 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 17 Oct 2026 (demo first)
+
+- **Decided (you, 17 Oct): the order of work.** A **playable Act I demo** (missions 1–10) **with great art** comes
+  first: its art, engine and story finished. **Adult mode moves after it** ([adult-mode.md](design/adult-mode.md),
+  decision 10); mission 11 too. The decompile and asset reviews keep running in the background until done.
+- **Found for the demo:** the uploaded Pokémon Essentials fan game carries Essentials' Gen 4/5-style library already
+  at our scale: 27 tilesets at 32 px with 48 autotiles, 219 human overworld sheets at 64×64 a frame, 200 battle
+  backgrounds, windowskins, 48-px item icons, Pokémon menu icons and 1,524 sounds and tracks. It is a candidate for
+  the open tile and character questions (art 3, 4 and 8) beside LPC, and goes into the Phase 2 probes. Only its
+  non-adult files are considered; nothing from it enters git.
+- Built on Opus 5.5.
+
 ## 16–17 Oct 2026 (your answers, adult mode, the Fable review)
 
 - **Decided (you, 16 Oct, on the decision page):** 80 of the 104 open questions from the five reviews, every one as

@@ -50,8 +50,10 @@ design docs.
   level evolutions, saves and Continue, touch controls. 250 headless tests and 27 end-to-end checks with screenshots.
 - **16 Oct:** the UI-scale seam and re-layout on fold (PR #53), the visible UI fixes (PR #54) and the field seams
   (PR #55) landed; the APK pipeline (PR #56) is in review. The 16 Oct reviews' pages are in `docs/design/`.
-- **Next:** your 16 Oct answers on the decision page set the order: the bug-fix build from the items, equipment and
-  menus reviews, mission 11 (the Breaking), the art Phase 2 probes. Design defaults chosen while building are marked
+- **Next (your order, 17 Oct): a playable Act I demo with great art.** The bug-fix build from the items, equipment,
+  menus and bonded-partner reviews; the art Phase 2 probes (LPC Adepts, the 32-px tile spike, the 480×320 picture) so
+  the open art questions can be settled by looking; then the art pass over missions 1–10 and the decided screens the
+  demo needs. Mission 11 and adult mode come after the demo. Design defaults chosen while building are marked
   "proposed" in `docs/design/`.
 
 ## Tools to install first ([full ranked list](resources/ranked.md))
