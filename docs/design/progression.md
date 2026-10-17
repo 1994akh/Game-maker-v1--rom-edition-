@@ -118,59 +118,60 @@ about 2).
 
 Recommended first. The alternatives are in brackets.
 
+Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
 **Act I levels and story fights**
-1. **Story recruits' levels.** Corvin copies the hero's level once, which is L5 unless you trained. Recommended: a
+1. **To talk over:** **Story recruits' levels.** Corvin copies the hero's level once, which is L5 unless you trained. Recommended: a
    join-level floor per mission in data (Corvin L7 at M2 and M4, L8 at M7, L9 at M8), then re-measure every story
    fight. [Add random fights to crew 2's rooms; retune Tamsin and Ho-Oh for L5; leave it.]
-2. **A lost story fight.** Today it restarts forever, and an Attack-only player can be stuck. Recommended: after a
+2. **Decided (16 Oct):** **A lost story fight.** Today it restarts forever, and an Attack-only player can be stuck. Recommended: after a
    loss, offer "Try again" or "Return to the last restoration point", with the fight not done. Add Flee to ordinary
    fights with Golden Sun's formula. [Keep the restart, with a test that every story fight is winnable at story
    levels.]
-3. **Target levels per mission.** Recommended: about L6–7 at M3, L8 at M5, L10 at M10, reached through more encounter
+3. **To talk over:** **Target levels per mission.** Recommended: about L6–7 at M3, L8 at M5, L10 at M10, reached through more encounter
    tables in mission rooms and bigger story-fight EXP, checked by `progression_check`. [Accept a flat L5–7 Act I;
    rely on grinding.]
-4. **Stonehollow's west gate** opens onto Golden Sun world zones of L14–21, where an L5 party wins 0–8%.
+4. **To talk over:** **Stonehollow's west gate** opens onto Golden Sun world zones of L14–21, where an L5 party wins 0–8%.
    Recommended: put it behind a story flag until our world map and danger stars exist. [Leave it open, with Flee
    and danger markers.]
 
 **Adept growth**
 
-5. **Class tiers.** Recommended:
+5. **To talk over:** **Class tiers.** Recommended:
    - Golden Sun's 5-tier lines, rising at Adept L1/10/20/30/40.
    - Each Set Pokémon of the Adept's group adds +1 elemental level (+5 Power and Resist).
    - At L30 that takes hits-to-down from 2.0 to about 3, and unlocks the late Psynergy (the Gaia line, Revive, Wish).
 
    [Tiers by Set Pokémon type count, like Djinn; one tier per act; keep tier 1 and weaken enemies.]
-6. **Level span.** Recommended: the main story ends around L45–55, as Golden Sun's does. Golden Sun 2's enemies are
+6. **Decided (16 Oct):** **Level span.** Recommended: the main story ends around L45–55, as Golden Sun's does. Golden Sun 2's enemies are
    extracted for Acts II–III, and L56–99 is post-game. [Scale GS1 monsters by area; raise EXP; lower the cap.]
-7. **Gear** is the equipment review's question: an equip menu plus shops and chests by area.
-8. **Vesper's curve.** She casts Water Seer Psynergy on Jenna's Mars curve (Mercury Power 77, so heals are 26%
+7. **Decided (16 Oct):** **Gear** is the equipment review's question: an equip menu plus shops and chests by area.
+8. **To talk over:** **Vesper's curve.** She casts Water Seer Psynergy on Jenna's Mars curve (Mercury Power 77, so heals are 26%
    weaker). Recommended: Mia's curve (pc 3) until Shadow has its own Psynergy. [A Mars placeholder class.]
-9. **Psynergy after L50.** Recommended: no new entries if the story ends near L50, which is true to Golden Sun.
+9. **To talk over:** **Psynergy after L50.** Recommended: no new entries if the story ends near L50, which is true to Golden Sun.
    Ragnarok and Heat Wave still grow with Attack. [Add Golden Sun 2 Psynergy up to the cap.]
 
 **Pokémon**
 
-10. **Physical moves.** Recommended: they add power ÷ 2 like special moves, so the move's power sets the damage for
+10. **Decided (16 Oct):** **Physical moves.** Recommended: they add power ÷ 2 like special moves, so the move's power sets the damage for
     every Adept, Seers included. [A level-based Attack floor for weaponless Adepts; accept it.]
-11. **Learning moves.** Recommended: each Pokémon stores four moves, with a "Learn X — forget which?" prompt at
+11. **Decided (16 Oct):** **Learning moves.** Recommended: each Pokémon stores four moves, with a "Learn X — forget which?" prompt at
     level-up and evolution. [Keep the automatic last four, but always keep the strongest damaging move.] Today
     Riolu at L52+ offers only Final Gambit, and Blaziken drops Slash at L49.
-12. **Partner pace.** Recommended: one growth factor (1.0) for every partner. A partner only lends 30%, so slow and
+12. **To talk over:** **Partner pace.** Recommended: one growth factor (1.0) for every partner. A partner only lends 30%, so slow and
     fluctuating partners trailing 12–22 levels late isn't worth the flavour. [Keep today's factors; clamp to within
     ±3 of the Adept.]
-13. **Evolutions beyond level.** Recommended: the rules in §4. [A "bond" counter on each record; a day/night clock;
+13. **Decided (16 Oct):** **Evolutions beyond level.** Recommended: the rules in §4. [A "bond" counter on each record; a day/night clock;
     story-beat evolutions only.]
-14. **Branches** (Wurmple, Tyrogue, Rockruff, Eevee). Recommended: "Which way?" or "Not now". [Fixed by the
+14. **Decided (16 Oct):** **Branches** (Wurmple, Tyrogue, Rockruff, Eevee). Recommended: "Which way?" or "Not now". [Fixed by the
     record's id; first entry plus an item for the other.] Until then the first branch wins.
-15. **Several stages at once.** Recommended: keep chaining, since a synced partner rarely gains more than a level or
+15. **Decided (16 Oct):** **Several stages at once.** Recommended: keep chaining, since a synced partner rarely gains more than a level or
     two a battle. [One stage per level-up, as in the main games.]
-16. **Gen 8/9 and regional evolutions.** Recommended: left out. [Allowed with mapped methods; "Weyard" as a region.]
-17. **Weyard forms.** Recommended: story partners switch to Weyard species ids at the Weyard data pass, with a save
+16. **To talk over:** **Gen 8/9 and regional evolutions.** Recommended: left out. [Allowed with mapped methods; "Weyard" as a region.]
+17. **To talk over:** **Weyard forms.** Recommended: story partners switch to Weyard species ids at the Weyard data pass, with a save
     migration. [Rename species in place; a "form" field.]
-18. **Ho-Oh's wasted moves.** Ho-Oh picks Whirlwind and Life Dew, which do nothing. Filtering them makes a 14% fight
+18. **To talk over:** **Ho-Oh's wasted moves.** Ho-Oh picks Whirlwind and Life Dew, which do nothing. Filtering them makes a 14% fight
     harder, so decide with item 1.
-19. **Wild Pokémon EXP.** It is linear (yield × level ÷ 50), so from about L15 a wild Pokémon is worth 0.2–0.7 of a
+19. **Decided (16 Oct):** **Wild Pokémon EXP.** It is linear (yield × level ÷ 50), so from about L15 a wild Pokémon is worth 0.2–0.7 of a
     same-level monster. Recommended: scale it to the area's monster EXP. Decide with item 3.
 
 ## 6. Not covered yet

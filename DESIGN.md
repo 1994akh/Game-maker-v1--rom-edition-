@@ -2,7 +2,7 @@
 
 > Synced from the claude.ai project **GBA Game Gumbo** (`claude/component-decisions.md`). That project doc is where design decisions get made; this file is the copy Claude Code builds from.
 
-Living log of what we're taking from **Golden Sun**, **Golden Sun: The Lost Age** and **Pokémon Unbound**. Hand this to Claude Code as the design source of truth. Last updated 2026-10-12.
+Living log of what we're taking from **Golden Sun**, **Golden Sun: The Lost Age** and **Pokémon Unbound**. Hand this to Claude Code as the design source of truth. Last updated 2026-10-17 (the 13–16 Oct decisions are in `docs/CHANGELOG.md`; the 14 Oct header below has rows for them).
 
 ## Guiding principle: function first, cosmetics last
 
@@ -37,9 +37,13 @@ What that means in practice:
 > | Was | Now | Where |
 > |---|---|---|
 > | GBA ROM hack | **Native Android app** (Galaxy Z Fold 7) in **Godot 4.7.2** | `docs/engine/README.md` |
-> | 1 Adept + 1 Pokémon per side | **4 Adepts + 4 partner Pokémon** vs up to ~6 enemies | `docs/design/party-and-battle.md` §2 |
+> | 1 Adept + 1 Pokémon per side | **4 Adepts, each with a bonded partner behind them** (16 Oct) vs up to ~6 enemies | `docs/design/party-and-battle.md` §2 |
 > | 8 Adepts, one on the field, others swap in | **Two crews of 4**; no swapping in battle; crews change only on the home island | `party-and-battle.md` §1, §3 |
 > | Summons from the whole party | From the **active crew** (up to 8 Standby) | `party-and-battle.md` §4 |
+> | Partners as separate fighters | **Bonded partners** behind their Adepts: a stat share, their moves, a one-hit shield (16 Oct) | `party-and-battle.md` §2–§3 |
+> | Pokémon-style battle menus | **Golden Sun boxes over the sprites**; heroes left, enemies right; sprites scale with the line (15 Oct) | `docs/CHANGELOG.md` |
+> | GBA-scale field art | **64×64 Adepts, 32-px tiles, a 480×320 picture** (15–16 Oct) | `docs/design/art-integration.md` |
+> | Design questions open | **Act I (missions 1–10) built**; items, equipment, menus and progression designed and answered on the decision page (16 Oct) | `docs/design/`, `docs/CHANGELOG.md` |
 > | The whole party's field Psynergy works | The **active crew's** works, with backup items for every group Psynergy | `party-and-battle.md` §7 |
 > | Psynergy puzzles replace HMs; Surf/Dive/Waterfall separate | **One field-ability table**: Psynergy and the kept HMs (Cut, Rock Climb, Defog, Whirlpool, Surf, Dive, Waterfall) are the same system | `docs/design/field-abilities.md` |
 > | Pokémon damage math | **Golden Sun's formulas and stat scale** for everyone; Adepts out-HP partners | `party-and-battle.md` §5 |
@@ -59,9 +63,9 @@ A ~~GBA ROM hack~~ **native Android app** set in a **brand-new region reminiscen
 | Area | Decision | Source |
 |---|---|---|
 | Platform | ~~GBA ROM hack~~ → **Native Android app, Godot 4.7.2** (14 Oct) | `docs/engine/` |
-| Battle format | ~~1 Adept + 1 Pokémon per side~~ → **4 Adepts + 4 partner Pokémon** on your side; the enemy side capped as in Golden Sun (13 Oct) | `docs/design/party-and-battle.md` §2 |
+| Battle format | ~~1 Adept + 1 Pokémon per side~~ → ~~4 Adepts + 4 partner Pokémon~~ → **4 Adepts, each with a bonded partner behind them** (16 Oct); the enemy side capped as in Golden Sun | `docs/design/party-and-battle.md` §2 |
 | Party | ~~8 Adepts, one on the field, the others swap in~~ → **Two crews of 4**. Crew 1 = hero (Earth), Sea, Forest, Shadow; Crew 2 = rival (Earth), Sea, Flame, Sky. You play one crew at a time; no swapping in battle (13 Oct) | `party-and-battle.md` §1 |
-| Adept element | **Each Adept belongs to one of the 6 site groups** (Earth, Flame, Sea, Sky, Forest, Shadow). **Earth and Sea have two Adepts each.** Earth: the hero plus a rival or co-lead, a nod to Isaac and Felix both being Venus. Sea: a second healer for when Adepts swap in and out | Golden Sun, adapted |
+| Adept element | **Each Adept belongs to one of the 6 site groups** (Earth, Flame, Sea, Sky, Forest, Shadow). **Earth and Sea have two Adepts each.** Earth: the hero plus a rival or co-lead, a nod to Isaac and Felix both being Venus. Sea: ~~a second healer for when Adepts swap in and out~~ → one Sea healer per crew | Golden Sun, adapted |
 | What the element does | **Decides the Adept's Psynergy, in battle and on the field.** **Set Pokémon that match the Adept's group give a bonus** (stronger Psynergy or better stats) | Golden Sun, adapted |
 | Set Pokémon | **3 Pokémon Set per Adept, 24 total.** One of the three is the Adept's fighting partner at a time | Golden Sun Djinn, adapted |
 | Class system | **All 18 types** get their own class lines (not collapsed into the 4 GS elements) | Golden Sun, expanded |
@@ -171,7 +175,7 @@ The first four follow Golden Sun's elements: Mercury Adepts are healers (hence F
 |---|---|---|
 | Art | **Golden Sun world** (tilesets, chibi field sprites); **Pokémon-style battle scenes** with GS spell effects | Mix |
 | Spell visuals | Golden Sun Summon and spell animations | Golden Sun |
-| UI | **Golden Sun menus and portrait dialogue boxes on the field; Pokémon menus in battle.** Menu *functions* are built early; the GS *look* comes last | Mix |
+| UI | **Golden Sun menus and portrait dialogue boxes on the field; ~~Pokémon menus in battle~~ → Golden Sun-style boxes over the sprites in battle (15 Oct).** Menu *functions* are built early; the GS *look* comes last | Mix |
 | Music | **Mix of both games**; which tracks go where is TBD | Mix |
 
 ## Not must-haves (could come back later)

@@ -224,8 +224,9 @@ Golden Sun facts come from the ROM extraction. The notes and reference code (`re
 - **Proposed, catching (built 14 Oct, engine PR #22):** wild Pokémon appear in a share of each area's
   encounters (half, by default) beside the Golden Sun monster groups, one or two at a time, on the lead Adept's
   curve. They are caught with balls (Poké Ball, Great Ball) by the Gen 3 formula Unbound's base uses; a catch
-  takes the Pokémon out of the fight and gives no EXP. A caught Pokémon joins the catcher's Set Pokémon when
-  there is room for three, else the Kin Garden. A wild Pokémon's reward is its species' EXP yield × level / 50
+  takes the Pokémon out of the fight and gives no EXP. As built, a caught Pokémon joins the lead's Set Pokémon when
+  there is room for three, else the Kin Garden; decided 16 Oct (items-and-economy.md decision 6): it goes to the Kin
+  Garden and gives a defeat's EXP, to be built. A wild Pokémon's reward is its species' EXP yield × level / 50
   (so a level-3 Zigzagoon is worth about a Vermin), coins twice its level.
 - **Decided:** Psynergy works as in Golden Sun, with long lists, in and out of battle, and no 4-slot cap. Pokémon
   keep 4 moves.
@@ -285,7 +286,7 @@ Early on, while a crew is still being recruited (§1), it lacks more: the hero a
 **Proposed:**
 - **New backup items** for Growth, Reveal, Blaze, Parch, Whirlwind and Mind Read. That completes DESIGN.md's rule
   that no puzzle requires one specific Adept.
-- **Psynergy items** are key items in the shared bag, usable by any active Adept. In Golden Sun only the holder can
+- **Psynergy items** are key items in the bag (one per crew until mission 10, then shared), usable by any active Adept. In Golden Sun only the holder can
   use them, which would lock an item away in the other crew.
 - **Area design:** each crew's chapters use only Psynergy that crew has at that point in the story, or that its
   backup items provide. Each recruitment mission is a natural place to hand out a backup item or to show off the new
@@ -298,10 +299,11 @@ Early on, while a crew is still being recruited (§1), it lacks more: the hero a
 
 - **Throwing:** a ball can target any one catchable Pokémon, however many enemies are left. Adepts throw, as an item
   action; partners can't (see the item rule in §3).
-- **After a catch:** the caught Pokémon leaves the field and the battle goes on. Catching gives EXP, as in Pokémon
-  from Gen 6.
-- **Storage:** caught Pokémon, and Pokémon that join through Djinn-style encounters, go to the shared storage with a
-  "sent to storage" message. They can be Set at the next restoration point.
+- **After a catch (decided 16 Oct, items-and-economy.md decision 6):** the caught Pokémon leaves the field and the
+  battle goes on. A catch gives the same EXP as a defeat and no coins. **Built today:** no EXP, and the Pokémon joins
+  the lead's Set if it has room, else the Kin Garden.
+- **Storage (decided 16 Oct):** caught Pokémon, and Pokémon that join through Djinn-style encounters, go to the Kin
+  Garden with a "sent to the Kin Garden" message and can be Set at the next restoration point.
 
 ## 9. What changes in the earlier plans
 
@@ -309,7 +311,7 @@ Early on, while a crew is still being recruited (§1), it lacks more: the hero a
   - Dropped: in-battle Adept switching with the partner reload (its riskiest stage) and the 8-Adept battle roster.
   - New work: an 8-against-6 battle line, the downed-Adept, revive-window and partner rules, partnerless Adepts,
     the enemy-trainer mirror, two crews in save data and menus, and backup items.
-  - The engine is still to be chosen (native app first).
+  - The engine is Godot 4.7.2 (chosen 14 Oct).
 - **World proposal:** its acts need re-cutting around the decided story structure. The game opens with the hero
   alone against the rival, then a mission played as the rival, then recruitment missions for each other Adept;
   crew swapping comes after that. Its "Crew 2's opening is the rival's chapter" idea becomes that early rival
@@ -320,7 +322,7 @@ Early on, while a crew is still being recruited (§1), it lacks more: the hero a
 | DESIGN.md | Now |
 |---|---|
 | Platform: GBA ROM hack | Native Android app first (decided 13 Oct) |
-| Battle format: 1 Adept + 1 Pokémon per side | 4 Adepts + 4 partners; enemy side capped as in Golden Sun |
+| Battle format: 1 Adept + 1 Pokémon per side | 4 Adepts, each with a bonded partner behind them (16 Oct); enemy side capped as in Golden Sun |
 | Party: 8 Adepts, one on the field, others swap in | Two crews of 4, built up through story missions; crews change only on the home island, once unlocked |
 | Sea's reason: "a second healer for when Adepts swap in and out" | One Sea healer per crew |
 | Summon cost: drawn from the whole party | Drawn from the active crew (up to 8) |
@@ -346,7 +348,7 @@ No decisions needed; these were the open checks from the first version, now read
 - **Enemy cap:** at most 6 enemy slots. A formation names up to 5 enemy types with minimum and maximum counts; the
   minimums are always placed, extras are rolled while they fit. **Large enemies take 2 slots** (a flag on the
   battle-sprite entry, not the enemy record): in GS1, 43 enemies are 1-slot (vermin, bats, slimes, rats…) and 121 are
-  2-slot. Trainer pairs (Adept + Pokémon) take 2 as planned.
+  2-slot. A trainer's Adept with its bonded partner takes 1 slot (16 Oct).
 - **EXP:** the award goes in full to the members standing at the end with HP above 0. Downed members get nothing.
   Golden Sun 1 also has an "extra reward" mode (bonus EXP and coins, better drop chance) that a battle event can
   switch on; we can use it for story battles.
@@ -364,14 +366,14 @@ No decisions needed; these were the open checks from the first version, now read
 | Platform | Native Android app (Galaxy Z Fold 7) first | — |
 | Party | **Two crews of 4 Adepts** (8 in all): Crew 1 = hero (Earth), Sea, Forest, Shadow; Crew 2 = rival (Earth), Sea, Flame, Sky. The game opens with the hero alone against the rival, then a mission played as the rival; every other Adept has recruitment or story missions. Crew swapping (switching crews, and moving Adepts between them on the home island) unlocks once those missions are done | Golden Sun: The Lost Age, adapted |
 | Level-up display | Adepts: Golden Sun-style results text. Pokémon: Pokémon-style popup with Golden Sun-scale stats | Hybrid |
-| Battle format | **4 Adepts + 4 partner Pokémon** on your side; the enemy side is capped as in Golden Sun (about 6 slots; trainer pairs take 2) | Hybrid |
-| Partners | A Pokémon fights only while its Adept can. A downed Adept's partner gets one action (Rouse or an item) to try to revive them, then withdraws. An Adept downed before battle sits out with their Pokémon. Adepts can fight without Pokémon | New |
-| Swapping | No swapping in battle, except replacing a fainted partner; Set Pokémon change only at restoration points | New |
+| Battle format | **4 Adepts, each with a bonded partner behind them** (one stat line, one slot; 16 Oct); the enemy side is capped as in Golden Sun (about 6 slots; a trainer's Adept and partner take 1) | Hybrid |
+| Partners | **Bonded (16 Oct):** the active Pokémon stands behind its Adept, lends a share of its stats, its moves and a one-hit shield, and acts only in the revive window (Rouse or an item) when its Adept falls. An Adept downed before battle sits out with their Pokémon. Adepts can fight without Pokémon | New |
+| Swapping | No swapping in battle; Set Pokémon change only at restoration points, the active partner any time outside battle (§1) | New |
 | Restoration points | Pokémon heal free; Adepts pay to heal or revive (priced like Golden Sun's Inns and Sanctums), and a paid Adept heal heals the Pokémon too | Hybrid |
 | Defeat | Wake at the last restoration point with everyone restored; lose half your coins | Pokémon |
 | Summons | Cost 1–3 Standby Pokémon from the **active crew**; Unleash puts a benched Set Pokémon on Standby | Golden Sun, adapted |
-| Field Psynergy | The active crew's Psynergy works; backup items exist for every group Psynergy and live in a shared bag | Golden Sun, adapted |
+| Field Psynergy | The active crew's Psynergy works; backup items exist for every group Psynergy and live in the bag (one per crew until mission 10, then shared) | Golden Sun, adapted |
 | Water field moves | Usable if any Set Pokémon in the active crew can learn them | Pokémon / Unbound |
-| Enemies | Golden Sun monsters, bosses and bandits are uncatchable; wild Pokémon are catchable; human trainers fight as Adept + Pokémon pairs | Hybrid |
-| Damage and stats | Golden Sun's formulas and stat scale for everyone; Adepts have clearly more HP than partners | Golden Sun |
+| Enemies | Golden Sun monsters, bosses and bandits are uncatchable; wild Pokémon are catchable; human trainers fight as Adepts with bonded partners, mirroring your side | Hybrid |
+| Damage and stats | Golden Sun's formulas and stat scale for everyone; a bonded partner lends 30% of its stats (proposed share, to tune) | Golden Sun |
 | Psynergy | Golden Sun-style long lists, in and out of battle; no 4-slot cap | Golden Sun |

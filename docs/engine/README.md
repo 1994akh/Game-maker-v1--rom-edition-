@@ -43,18 +43,16 @@ design docs.
 - **Runs on the Fold 7:** the debug APK built by `tools/setup_dev.py` + the Android preset installed and ran on the
   phone (your test). The newest build is `OneDrive\Apps-Roms\_GameMaker-builds\GameMaker-debug.apk` (dated copies
   beside it).
-- **Playing (a vertical slice):** title → character creator → Stonehollow (starter at the hatchery, inn with rest and
-  Pokémon management, Reveal and a hidden chest, Maren joins) → Vale and the GS1 world map with sailing → random
-  battles against monsters and wild Pokémon with the full command set (Attack, Psynergy, Unleash, Summon, Item,
-  Defend, Catch, the partner revive window), statuses and buffs, EXP and level-ups, saves and Continue, touch
-  controls. Battles draw the extracted Golden Sun sheets and pokeemerald-expansion pictures with animated rounds.
-  126 headless tests pass; each system has an automated end-to-end check with a screenshot.
-- **Mission 1 plays end to end** (engine PR #33): the Vault halls, a Move puzzle, Corvin's story fight (a loss
-  restarts it, your rule), Ilse and the Lodestar; placeholder lines, see `docs/design/mission-1-build.md`.
-- **Next:** mission 2 (Corvin's sea caves and Fallhaven) or mission 3 (Canalport: Frost, Surf, a boss), battle
-  visuals polish (hurt and down scripts, Psynergy effects), enemy AI, Set Pokémon from the field menu, crews and
-  the home island, GS2 data, music hooks, statuses that persist after battle. Design defaults chosen while
-  building are marked "proposed" in `docs/design/`.
+- **Playing:** title → character creator → **Act I, missions 1–10, end to end** (engine PR #48): Stonehollow and the
+  Vault, the sea caves and Fallhaven as Corvin, Canalport, the Forgeheart, the Eldergrove, Lantern Reef, Bastion Rock,
+  the Tradewind Bazaar, the fall of Fallhaven and the Wayfarer; two crews with swapping and trading; random battles
+  against monsters and wild Pokémon with the full command set and **bonded partners** (PR #49); statuses, EXP with
+  level evolutions, saves and Continue, touch controls. 250 headless tests and 27 end-to-end checks with screenshots.
+- **16 Oct:** the UI-scale seam and re-layout on fold (PR #53), the visible UI fixes (PR #54) and the field seams
+  (PR #55) landed; the APK pipeline (PR #56) is in review. The 16 Oct reviews' pages are in `docs/design/`.
+- **Next:** your 16 Oct answers on the decision page set the order: the bug-fix build from the items, equipment and
+  menus reviews, mission 11 (the Breaking), the art Phase 2 probes. Design defaults chosen while building are marked
+  "proposed" in `docs/design/`.
 
 ## Tools to install first ([full ranked list](resources/ranked.md))
 
