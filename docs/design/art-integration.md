@@ -169,6 +169,12 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     Lost Age content.]
 17. **To talk over:** **LPC eye credits.** 3,263 LPC files have no credit, including the adult eyes. Recommended: use the head's own
     eyes and refuse uncredited layers. [Research their credits.]
+18. **Tile redraws after the demo** (you asked, 17 Oct). Each room's tiles are a placeholder layer apart from its
+    collision and events, so a redraw never touches missions. Recommended: right after the demo, area by area,
+    starting with Stonehollow as a pilot, on the LPC base tilesets (they match the LPC people's pixel density; a tile
+    art scale like the people's art_scale 2 is the only engine change; the OpenGameArt download needs your go-ahead),
+    with Essentials pieces and our own drawing filling the gaps. [Essentials sets only, at Golden Sun's density, no
+    engine change; keep Golden Sun's tiles for good; redraw before the demo.]
 
 ## 5. Risks worth knowing
 
