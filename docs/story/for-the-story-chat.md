@@ -78,7 +78,7 @@ Recommended first. The alternatives are in brackets.
 11. **Decided (17 Oct):** **Which beats carry adult-only scenes.** Recommended: side stories and heart quests only, never a main mission, so
     nothing required ever touches adult mode; you name the characters. [Main missions may carry adult-only lines
     (never scenes) too.]
-12. **The clock's model** (follows from decision 8). Recommended: a stepped day of four phases (dawn, day, dusk,
+12. **Decided (17 Oct):** **The clock's model** (follows from decision 8). Recommended: a stepped day of four phases (dawn, day, dusk,
     night) advanced by walking and by resting, never by the phone's real time; rooms tint by phase, Kin habitats and
     the night-only beats read it, and time-of-day evolutions (Rockruff, Eevee's Espeon and Umbreon, Cosmoem) use it
     instead of the stone routes. [Real time from the phone's clock; a day/night switch at inns only.]

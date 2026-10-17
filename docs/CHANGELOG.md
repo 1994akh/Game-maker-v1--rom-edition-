@@ -28,6 +28,13 @@ header; the detailed rules are in `docs/design/`.
   phases by walking and rest, never the phone's time), what reads it (Lantern Reef's night decks, Kin habitats,
   time evolutions, night battle backgrounds) and the engine seams, with four questions on the decision page's new
   Clock tab. It is built after the bug-fix slices.
+- **Decided (you, 17 Oct): adult mode 11–22 and the clock's model (story 12).** Reskinned adult gear plus one unique
+  ultimate weapon of our own, the Giant Dildo Sword, from an adult side quest; a four-digit code after the 18+
+  gate; a silent save after each toggle; all three home easter eggs; explicit text, pictures and videos (mini-games
+  later); adult townsfolk on adult bodies, with Mind Read reading dirty thoughts; LPC revealing-outfit looks;
+  missions pause when the mode goes off; makers credited in the Gallery; voice clips allowed; no glasses sprite;
+  normal reward scale. The clock: four phases by walking and rest. New questions: adult 23 (the sword's power) and
+  24 (a forgotten code). Details in [adult-mode.md](design/adult-mode.md) §5. Adult mode still waits for the demo.
 - **Decided (you, 17 Oct, talked over in chat): the demo's art direction.** Art 3: every person is LPC, the 8
   Adepts first, then all 18 townsfolk looks together. Art 4: the adult body for the hero (your adult-mode answer 2)
   and for Corvin, so the rivals match. Art 8: Golden Sun's tiles stay at 2× for the demo, Essentials as a parts

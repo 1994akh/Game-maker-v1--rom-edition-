@@ -1,10 +1,11 @@
 # The day/night clock
 
 **Decided (you, 17 Oct):** the game gets a day/night clock now (story decision 8, the alternative). Story decision 12
-picks the clock's model; this page proposes the mechanics around the recommended model and lists what the clock
-changes. Everything here is **proposed** until the page's questions are answered.
+picked the clock's model (**decided 17 Oct as recommended**: four phases by walking and rest, never real time);
+this page proposes the mechanics around it and lists what the clock changes. The rest is **proposed** until the
+page's questions are answered.
 
-## 1. The model (proposed, pending story 12)
+## 1. The model (story 12, decided 17 Oct)
 
 - **Four phases:** dawn, day, dusk, night. One clock for the whole game, shared by both crews; switching crews never
   moves it.
