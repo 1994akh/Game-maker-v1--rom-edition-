@@ -30,7 +30,8 @@ built, and the demo carries no adult content.
 - **Off by default, and nothing required is behind it.** No main mission, recruit, area, reward or completion item
   needs adult mode. Its own missions are side content; a mode-exclusive variant of a mission changes the scenes and
   lines, never the unlocks, so the normal version stays complete. Turning it off hides everything again at once.
-- **No effect on play.** Adult mode never changes battles, stats, prices, encounters or the clock.
+- **No effect on play.** Adult mode never changes battles, stats, prices, encounters or the clock. The one
+  exception you asked for is a unique ultimate weapon (decision 11; its power is decision 23).
 
 ## 2. The item
 
@@ -81,6 +82,33 @@ All of it uses what the engine already has.
   the mode is off.
 - **Save.** Flags only (`adult_mode`, `gallery:<id>`), so the save format doesn't change.
 
+
+### Your answers to decisions 11–22 (17 Oct)
+
+- **Gear (11):** adult variants of weapons and attacks are reskins with the same numbers, **plus one unique ultimate
+  weapon of our own design, the Giant Dildo Sword**, unlocked at the end of one adult side quest and usable from then
+  on. Its power is question 23.
+- **Age gate (12):** the first use shows the 18+ warning and the age confirmation, then the player sets a four-digit
+  code; every later turn-on asks for the code. A wrong code leaves the mode off. Forgetting the code is question 24.
+- **Saving (13):** the toggle writes the game's save silently with a short "Saved" after the on/off toast; the glasses
+  can't be used where saving is blocked (mid-battle, mid-scene).
+- **Home (14):** all three: a magazine under the hero's bed (the gallery's first picture, which teaches the Gallery
+  menu), a bedroom poster that changes with the mode, and a line from Keeper Brann, who shares the house.
+  **Proposed:** Brann's line is a dry, embarrassed joke about the find; Brann is the hero's guardian, so it is never
+  flirtation or anything sexual between them.
+- **Explicitness (15):** explicit text and pictures within the §1 rules, and **videos too** (your note); mini-games
+  are for a later version. **Proposed:** videos from the local folder are converted offline to Ogg Theora (the format
+  Godot plays) and shown in the same pop-up and Gallery, with the same curation and credits as pictures.
+- **Townsfolk (16):** generic townsfolk may carry adult variants and lines, on adult bodies only, never a child body.
+  Your note: at the least, with the mode on **Mind Read on a townsperson reads a dirty thought**, and some thoughts
+  add a picture or video to the Gallery or an alternate line.
+- **Looks (17):** the Adepts' adult looks are revealing-outfit variants composed from the same LPC layers.
+- **Toggling off mid-mission (18):** the mission pauses, its actors and markers vanish and its flags keep.
+- **Credits (19):** the Gallery shows a picture's maker under it when the source credits one.
+- **Sound (20):** stingers and loops in adult scenes, and **voice clips from the pack too**, all gated by the flag.
+- **The glasses (21):** no sprite change; the looks and the toast show the switch.
+- **Rewards (22):** the same coin and charm scale as normal side missions.
+
 ## 4. Assets
 
 - **Where they live.** `assets/adult/` in the engine repo, gitignored like the ROM content, with a committed manifest
@@ -125,44 +153,51 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Open questions (17 Oct)**
 
-11. **Adult-only weapon and attack variants: reskins or new gear?** Your note on decision 3 asks for them.
+11. **Decided (17 Oct):** **Adult-only weapon and attack variants: reskins or new gear?** Your note on decision 3 asks for them.
     Recommended: reskins, so an adult name, look, attack line and effect animation on items and moves that keep their
     numbers, and the §1 "no effect on play" rule holds. [New items and moves with their own stats, balanced with the
     equipment work; reskins plus a few mode-only accessories with no combat effect.]
-12. **The age gate's form.** Your rule: an 18+ content warning and an age check before the mode can turn on.
+12. **Decided (17 Oct), alternative:** **The age gate's form.** Your rule: an 18+ content warning and an age check before the mode can turn on.
     Recommended: once per save file, on the glasses' first use: the warning page, then "I confirm I am 18 or older"
     with No as the default; a new game asks again. [Ask every time the mode is turned on; a four-digit code the
     player sets on first use, needed for every turn-on.]
-13. **What "save after every toggle" writes.** Recommended: the toggle writes the game's save silently, the way the
+13. **Decided (17 Oct):** **What "save after every toggle" writes.** Recommended: the toggle writes the game's save silently, the way the
     game saves today, with a short "Saved" after the on/off toast; the glasses can't be used where saving is blocked
     (mid-battle, mid-scene). [A separate autosave file so the player's own save is untouched; a save prompt instead
     of a silent write.]
-14. **The easter egg at home.** Your rule: one in the player's home from the moment the glasses are found.
+14. **Decided (17 Oct), alternative:** **The easter egg at home.** Your rule: one in the player's home from the moment the glasses are found.
     Recommended: a magazine hidden under the hero's bed that is the gallery's first picture and teaches the Gallery
     menu, with a plain "Old magazines." line while the mode is off. [A poster on the bedroom wall that changes with
     the mode; a line from whoever shares the house; all of these.]
-15. **How explicit.** Your note on decision 9: "raunchy lust is the idea". Recommended: explicit text and pictures
+15. **Decided (17 Oct):** **How explicit.** Your note on decision 9: "raunchy lust is the idea". Recommended: explicit text and pictures
     within the §1 rules (people only, canon adults, consent on the page); a scene cuts to black only where no art
     exists for it. [Suggestive text and art only; explicit text with suggestive art.]
-16. **Who else can appear: the generic townsfolk.** Recommended: only the Adepts and named NPCs with written ages
+16. **Decided (17 Oct), alternative:** **Who else can appear: the generic townsfolk.** Recommended: only the Adepts and named NPCs with written ages
     (story decision 10); the 18 generic townsfolk looks never carry adult variants or lines. [Generic adult townsfolk
     too, on a stated-adult body, for background flavour.]
-17. **How the adult looks are drawn.** Recommended: for the Adepts, a revealing-outfit variant composed from the same
+17. **Decided (17 Oct):** **How the adult looks are drawn.** Recommended: for the Adepts, a revealing-outfit variant composed from the same
     LPC layers (same body, same palette) so the mode matches the demo's art; the 16 Oct animation sets and the fan
     game's sheets serve scenes and pop-up art rather than the walking cast. [Fan-game or animation-set sheets as the
     walking variants regardless of style match; no walking variants, scenes and pictures only.]
-18. **Toggling off in the middle of an adult mission.** Recommended: the mission pauses, its actors and markers
+18. **Decided (17 Oct):** **Toggling off in the middle of an adult mission.** Recommended: the mission pauses, its actors and markers
     vanish and its flags keep, so it resumes where it was when the mode comes back; a scene already running finishes
     as it started (§2). [Toggling off abandons and resets the adult mission; the toggle is refused while an adult
     mission is active.]
-19. **Picture credits in the gallery.** Every maker goes in the end-credits scroll (your rule, 16 Oct).
+19. **Decided (17 Oct):** **Picture credits in the gallery.** Every maker goes in the end-credits scroll (your rule, 16 Oct).
     Recommended: the Gallery also shows the maker's name under a picture when the source's credits give one.
     [Credits scroll only.]
-20. **Adult sounds.** The SFX pack you added (assets decision 1). Recommended: short stingers and ambient loops in
+20. **Decided (17 Oct), alternative:** **Adult sounds.** The SFX pack you added (assets decision 1). Recommended: short stingers and ambient loops in
     adult scenes only, gated by the flag; no voice clips. [Voice clips from the pack too; no adult-only sound.]
-21. **The glasses on the hero.** Recommended: no sprite change for the glasses themselves; the adult looks are the
+21. **Decided (17 Oct):** **The glasses on the hero.** Recommended: no sprite change for the glasses themselves; the adult looks are the
     visible change and the toast confirms the switch. [A glasses overlay on the hero's field sprite while the mode is
     on.]
-22. **Adult-mission rewards and the economy.** Recommended: the same coin and charm scale as normal side missions, so
+22. **Decided (17 Oct):** **Adult-mission rewards and the economy.** Recommended: the same coin and charm scale as normal side missions, so
     a player with the mode on is never richer or stronger (§1); gallery entries and adult looks are the mode's own
     rewards. [Richer rewards as an incentive for the mode.]
+23. **The Giant Dildo Sword's power.** Recommended: an ultimate weapon in look and moves (its own unleash, attack
+    line and effect), with numbers equal to the best weapon available at that point in the story, so a player
+    without the mode is never weaker. [Genuinely stronger, the one exception to "no effect on play"; the strongest
+    weapon in the game, unlocked late.]
+24. **A forgotten code.** Recommended: the title screen's options can clear the code after the 18+ warning and the
+    age confirmation again, which also turns the mode off. [No recovery: a new game; the code can be changed only
+    while the mode is on.]
