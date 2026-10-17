@@ -59,10 +59,10 @@ No decision needed. The critic trimmed it to what has a use now, in two parts.
 | 3 | Font and text | Your font decision |
 | 4 | Switch to the 480×320 picture, UI scale 2, filling the Fold's screens | Probes; your picture and fit decisions |
 | 5 | Asset pipeline and credits (`asset_picks.json`, `import_assets.py`, a Credits screen) | Your commit-policy decision |
-| 6 | LPC Adepts in the field, then all 18 townsfolk looks together; the hero kit in the creator | Your LPC, body and creator decisions |
+| 6 | LPC Adepts in the field, then all 18 townsfolk looks together; the hero kit in the creator | Decided 17 Oct (art 3, 4, 5) |
 | 7 | Battle art: LPC Adepts, backgrounds, move effects | Your battle-art decisions |
 | 8 | UI art: item icons, button prompts, emotes, window frames | Your UI-art decisions |
-| 9 | Tiles, area by area, without touching events | Your tile-source decision |
+| 9 | Tiles, area by area, without touching events | Decided 17 Oct (art 8): Golden Sun's tiles stay for the demo; only gaps (ships, Surf) get new art |
 
 ## 3a. What the Phase 2 probes showed (17 Oct)
 
@@ -88,7 +88,11 @@ unchanged, and battle all at 2× (Pokémon pictures and LPC Adepts the same pixe
 Essentials forest backdrop read well, its flat field one did not). Essentials stays a parts bin (its Boat, Caves,
 Harbour and beach sets are worth a look for the ship gap). The LPC tile download waits until after the demo.
 
-**To fix before the demo is shown, if LPC is a yes:** Tamsin's back view (red hair plus tied headband merge into a
+**Decided (you, 17 Oct, talked over in chat): the critic's look.** Every person is LPC (the 8 Adepts, then all 18
+townsfolk looks together), on the adult body for the hero and Corvin; the world keeps Golden Sun's tiles at 2× for
+the demo, with Essentials as a parts bin; battle is all 2×. This is the demo's art direction.
+
+**To fix before the demo is shown (now the art pass's first list):** Tamsin's back view (red hair plus tied headband merge into a
 mask shape), Corvin and Tamsin both dark red over dark red in the same crew, Nerissa's wavy hair reading as a helmet
 from behind, Vesper's near-black hair on a dark outfit on dark floors; the five scripted poses room scripts call (nod,
 shake_head, push, hammer, sprawled) map to LPC's emote, sit and hurt rows; Rowan's scarf and Maren's cuffs vanish in
@@ -111,7 +115,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
    - The cover screen stays landscape unless the probe shows portrait is pleasant.
 
    [Fixed size with black borders; allow portrait.]
-3. **To talk over:** **LPC for Adepts and townsfolk.** Recommended:
+3. **Decided (17 Oct):** **LPC for Adepts and townsfolk.** Recommended:
    - Adopt it through the offline composer.
    - Diagonal steps use the side-facing rows, and casting snaps to 4 directions like Golden Sun.
    - Order: the Adepts, hero and rival first, then all 18 person looks together.
@@ -119,7 +123,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
    [Adepts only; draw diagonal rows.] LPC adults are about 22% shorter than Isaac at exactly half size.
    - **Probe (17 Oct):** composed and seen; the critic recommends yes, Adepts first then all 18 townsfolk together (§3a).
 
-4. **To talk over:** **The boy hero's body.** Recommended: LPC "teen", closer to Golden Sun's leads; the adult body for adult NPCs.
+4. **Decided (17 Oct), alternative:** **The boy hero's body.** Recommended: LPC "teen", closer to Golden Sun's leads; the adult body for adult NPCs.
    - **Probe (17 Oct):** teen and male are the same height; teen reads as a slim youth like Golden Sun's leads, male stockier. The critic recommends teen for Rowan and Corvin; the male body's extra wardrobe (jackets, most swords) matters only for the creator and battle weapons later.
    - **Settled by your adult-mode answer (17 Oct, adult-mode.md decision 2):** the hero is an adult in canon, drawn on the
      adult body. **Proposed:** Corvin on the adult body too, so the two Earth rivals match; with every Adept an adult
@@ -137,7 +141,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
    has capitals only.]
 7. **Decided (16 Oct):** **UI scale after the switch.** Recommended: 2× everywhere at first, which looks identical to today. Decide 1×
    inner / 2× cover later. [Native 1×; per screen from the start.]
-8. **To talk over:** **32-px tiles.** Recommended: keep Golden Sun's tiles at 2× until the graphics pass. Then download the LPC base
+8. **Decided (17 Oct):** **32-px tiles.** Recommended: keep Golden Sun's tiles at 2× until the graphics pass. Then download the LPC base
    tilesets from OpenGameArt as the main source; that download needs your go-ahead. [CC0 only (flat top-down DCSS);
    draw our own.]
    - **Probe (17 Oct):** Golden Sun's tiles were the best-looking of the three windows; the Essentials sets are clean but modern-Pokémon and would mean redrawing all 17 rooms. The critic recommends keeping Golden Sun's tiles for the demo and using Essentials as a parts bin.
