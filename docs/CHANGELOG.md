@@ -13,7 +13,11 @@ header; the detailed rules are in `docs/design/`.
   backgrounds, windowskins, 48-px item icons, Pokémon menu icons and 1,524 sounds and tracks. It is a candidate for
   the open tile and character questions (art 3, 4 and 8) beside LPC, and goes into the Phase 2 probes. Only its
   non-adult files are considered; nothing from it enters git.
-- Built on Opus 5.5.
+- **Art Phase 2 probes done (17 Oct):** the eight Adepts composed in LPC on two bodies, the Essentials library rendered
+  from its map data, the same scene and a battle mocked three ways at 480×320, and a critic's comparison
+  ([art-integration.md](design/art-integration.md) §3a). Recommendation: crisp LPC people in a Golden Sun world, battle
+  all at 2×; Essentials as a parts bin. Decisions 3, 4 and 8 stay yours, with the probe notes on their cards.
+- Built on Opus 5.5 and Fable 5.1.
 
 ## 16–17 Oct 2026 (your answers, adult mode, the Fable review)
 
