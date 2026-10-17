@@ -38,7 +38,7 @@ built, and the demo carries no adult content.
 |---|---|
 | Id and pocket | 9410 in the key-items range (items-and-economy.md §4), named "Adult-o-Vision", flag 8, shown in the Key Items pocket. It can't be sold, dropped or lost |
 | Where it comes from | The story chat's call. Default: an optional find in Act I that the player can pass by, so the choice is theirs from early on. [Sold at the Tradewind Bazaar (m8); a bounty reward; a gift from a side character] |
-| Toggling | Key Items → the glasses → Use. A short toast: "Adult-o-Vision: on" / "off". No settings row and no button: the glasses are the switch |
+| Toggling | Key Items → the glasses → Use. A short toast: "Adult-o-Vision: on" / "off". No settings row and no button: the glasses are the switch. **Your rules (17 Oct):** the first use shows an 18+ content warning and an age check the player must confirm before the mode can turn on (decision 12), and **the game saves after every toggle** (decision 13) |
 | What it sets | The permanent flag `adult_mode`, saved with the game. A new game starts with it clear |
 | When it takes effect | At once for the next dialogue page, the next room load and the next menu open. A scene already running finishes as it started |
 
@@ -55,6 +55,8 @@ All of it uses what the engine already has.
 - **Story points and easter eggs.** Scene steps gated with `when`; a scene may branch on the flag. The list of
   adult-only beats is a decision on the decision page (the story chat is archived), so the engine knows what to
   build per mission.
+- **From the moment the glasses are found (your rule, 17 Oct):** adult references, lines and variants begin at once, including an easter egg in the player's home, so the toggle shows something immediately (decision 14).
+- **Adult-only gear and attacks (your rule, 17 Oct):** adult variants of weapons and attacks exist in the mode. **Proposed reading:** reskins (names, looks, attack lines and effects) of items and moves with the same numbers, so "no effect on play" holds and the normal run stays complete (decision 11).
 - **Adult-only missions and variants (your rule, 17 Oct).** Three shapes, all on the existing mission tooling
   (`maps_src/<room>/events.json`, flags, `FieldScript` steps, `tools/missionN_check.gd`):
   - **Side missions** that only exist while the mode is on: their quest-givers, rooms' extra actors and rewards carry
@@ -96,24 +98,71 @@ All of it uses what the engine already has.
 
 ## 5. Decisions for you
 
-1. **Where the glasses are found.** Recommended: an optional Act I find the player can skip. [Bazaar stock; a bounty
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
+
+1. **Decided (17 Oct):** **Where the glasses are found.** Recommended: an optional Act I find the player can skip. [Bazaar stock; a bounty
    reward; a gift.]
-2. **The hero's canon age and body.** Recommended: an adult, drawn with the adult body (this settles art decision 4
+2. **Decided (17 Oct):** **The hero's canon age and body.** Recommended: an adult, drawn with the adult body (this settles art decision 4
    for the boy hero). [Keep the teen body and keep the hero out of adult scenes.]
-3. **The side mission's reward.** The story chat's call; a mechanics default is coins plus a charm.
-4. **Toggle persistence.** Recommended: saved with the game. [Off again every time the game starts.]
-5. **Easter eggs and completion.** Recommended: adult-only finds count in a hidden % shown only while the mode is on.
+3. **Decided (17 Oct):** **The side mission's reward.** The story chat's call; a mechanics default is coins plus a charm.
+   [An adult scene as the reward.] Your note: both, and adult-only weapon variations and attacks (decision 11).
+4. **Decided (17 Oct):** **Toggle persistence.** Recommended: saved with the game. [Off again every time the game starts.]
+5. **Decided (17 Oct):** **Easter eggs and completion.** Recommended: adult-only finds count in a hidden % shown only while the mode is on.
    [Count nowhere; count in the Log's normal %.]
-6. **Adult looks in battle too, or field only.** Recommended: both, through the same cast variant. [Field only.]
-7. **How many adult-only missions in Act I.** Recommended: the gallery hunt plus one side mission per recruited
+6. **Decided (17 Oct):** **Adult looks in battle too, or field only.** Recommended: both, through the same cast variant. [Field only.]
+7. **Decided (17 Oct):** **How many adult-only missions in Act I.** Recommended: the gallery hunt plus one side mission per recruited
    Adept (a heart quest with an adult beat), so seven, written after the main missions' variants. [The gallery hunt
    only; a fixed three.]
-8. **Which main missions get a variant.** Recommended: only missions whose scenes involve an approved adult character
+8. **Decided (17 Oct):** **Which main missions get a variant.** Recommended: only missions whose scenes involve an approved adult character
    and no Pokémon beat, starting with missions 3, 5 and 6 (Maren, Sorrel and Vesper join there). [Every mission;
    none, side missions only.]
-9. **Who writes them.** The story chat is archived. Recommended: the engine side drafts each mission's outline and
+9. **Decided (17 Oct):** **Who writes them.** The story chat is archived. Recommended: the engine side drafts each mission's outline and
    lines as a mission page for your approval on the decision page, then builds it. [You write the outlines in
    story.md first.]
-10. **Where adult missions and variants sit in the order of work.** Recommended: after the Act I demo (missions
+10. **Decided (17 Oct):** **Where adult missions and variants sit in the order of work.** Recommended: after the Act I demo (missions
     1–10) is complete with its art, engine and story (your words, 17 Oct). [Before mission 11, as soon as the first
     adult assets land; after Act II.]
+
+**Open questions (17 Oct)**
+
+11. **Adult-only weapon and attack variants: reskins or new gear?** Your note on decision 3 asks for them.
+    Recommended: reskins, so an adult name, look, attack line and effect animation on items and moves that keep their
+    numbers, and the §1 "no effect on play" rule holds. [New items and moves with their own stats, balanced with the
+    equipment work; reskins plus a few mode-only accessories with no combat effect.]
+12. **The age gate's form.** Your rule: an 18+ content warning and an age check before the mode can turn on.
+    Recommended: once per save file, on the glasses' first use: the warning page, then "I confirm I am 18 or older"
+    with No as the default; a new game asks again. [Ask every time the mode is turned on; a four-digit code the
+    player sets on first use, needed for every turn-on.]
+13. **What "save after every toggle" writes.** Recommended: the toggle writes the game's save silently, the way the
+    game saves today, with a short "Saved" after the on/off toast; the glasses can't be used where saving is blocked
+    (mid-battle, mid-scene). [A separate autosave file so the player's own save is untouched; a save prompt instead
+    of a silent write.]
+14. **The easter egg at home.** Your rule: one in the player's home from the moment the glasses are found.
+    Recommended: a magazine hidden under the hero's bed that is the gallery's first picture and teaches the Gallery
+    menu, with a plain "Old magazines." line while the mode is off. [A poster on the bedroom wall that changes with
+    the mode; a line from whoever shares the house; all of these.]
+15. **How explicit.** Your note on decision 9: "raunchy lust is the idea". Recommended: explicit text and pictures
+    within the §1 rules (people only, canon adults, consent on the page); a scene cuts to black only where no art
+    exists for it. [Suggestive text and art only; explicit text with suggestive art.]
+16. **Who else can appear: the generic townsfolk.** Recommended: only the Adepts and named NPCs with written ages
+    (story decision 10); the 18 generic townsfolk looks never carry adult variants or lines. [Generic adult townsfolk
+    too, on a stated-adult body, for background flavour.]
+17. **How the adult looks are drawn.** Recommended: for the Adepts, a revealing-outfit variant composed from the same
+    LPC layers (same body, same palette) so the mode matches the demo's art; the 16 Oct animation sets and the fan
+    game's sheets serve scenes and pop-up art rather than the walking cast. [Fan-game or animation-set sheets as the
+    walking variants regardless of style match; no walking variants, scenes and pictures only.]
+18. **Toggling off in the middle of an adult mission.** Recommended: the mission pauses, its actors and markers
+    vanish and its flags keep, so it resumes where it was when the mode comes back; a scene already running finishes
+    as it started (§2). [Toggling off abandons and resets the adult mission; the toggle is refused while an adult
+    mission is active.]
+19. **Picture credits in the gallery.** Every maker goes in the end-credits scroll (your rule, 16 Oct).
+    Recommended: the Gallery also shows the maker's name under a picture when the source's credits give one.
+    [Credits scroll only.]
+20. **Adult sounds.** The SFX pack you added (assets decision 1). Recommended: short stingers and ambient loops in
+    adult scenes only, gated by the flag; no voice clips. [Voice clips from the pack too; no adult-only sound.]
+21. **The glasses on the hero.** Recommended: no sprite change for the glasses themselves; the adult looks are the
+    visible change and the toast confirms the switch. [A glasses overlay on the hero's field sprite while the mode is
+    on.]
+22. **Adult-mission rewards and the economy.** Recommended: the same coin and charm scale as normal side missions, so
+    a player with the mode on is never richer or stronger (§1); gallery entries and adult looks are the mode's own
+    rewards. [Richer rewards as an incentive for the mode.]

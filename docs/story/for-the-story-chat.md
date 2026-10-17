@@ -47,32 +47,38 @@ questions the 16 Oct reviews raised, each with a suggested answer, and the story
 
 ## Decisions for you
 
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
+
 Recommended first. The alternatives are in brackets.
-1. **When the Lodestar first works.** Recommended: in Act I it is a Key Item with no needle, and the Kestrel's chart
+1. **Decided (17 Oct):** **When the Lodestar first works.** Recommended: in Act I it is a Key Item with no needle, and the Kestrel's chart
    marks the story destination; it stirs in its cradle on the Wayfarer at mission 10 and is fully awake from mission
    12. §6 is reworded to match. [A needle from mission 3; a third "points home only" stage at mission 12.]
-2. **Who gives the Lodestar.** Recommended: Brann gives it at the hatchery with the first partner, and Ilse's
+2. **Decided (17 Oct):** **Who gives the Lodestar.** Recommended: Brann gives it at the hatchery with the first partner, and Ilse's
    deputising stays. [Keep Ilse as the giver and drop "Brann's heirloom".]
-3. **Torro's "The Wrong Way".** Recommended: the beat gets a scripted bearing shown in that room. [Rewrite it around
+3. **Decided (17 Oct):** **Torro's "The Wrong Way".** Recommended: the beat gets a scripted bearing shown in that room. [Rewrite it around
    the Chart.]
-4. **Placing the backup Psynergy items.** Recommended: the engine side proposes a placement per mission for every
+4. **Decided (17 Oct):** **Placing the backup Psynergy items.** Recommended: the engine side proposes a placement per mission for every
    backup and unlock, as a table for you to approve on this page. [You place them yourself in story.md §7.]
-5. **The story partners' evolution items.** Recommended: Maren's Shiny Stone as a gift in her arc, Wynn's Dawn Stone
+5. **Decided (17 Oct):** **The story partners' evolution items.** Recommended: Maren's Shiny Stone as a gift in her arc, Wynn's Dawn Stone
    at the Bazaar heist's end, Vesper's Linking Cord from Nerissa after Bastion Rock. [All three as bounty rewards; all
    three sold at the Bazaar from Act II.]
-6. **Shops on the Act I islands.** Recommended: Dustplain a general store, Frostmarch a smith, Twin Bells an
+6. **Decided (17 Oct):** **Shops on the Act I islands.** Recommended: Dustplain a general store, Frostmarch a smith, Twin Bells an
    apothecary, Hushwater herbs only and no balls. [No shops on the islands; Marrow Isle only.]
-7. **Canalport after the flood.** Recommended: the shops move to the upper town, and the drowned lower town becomes
+7. **Decided (17 Oct):** **Canalport after the flood.** Recommended: the shops move to the upper town, and the drowned lower town becomes
    Dive loot. [Canalport closes until Act III.]
-8. **Kin habitats and the clock.** Recommended: drop time of day from the habitats until a day/night cycle is
+8. **Decided (17 Oct), alternative:** **Kin habitats and the clock.** Your choice, 17 Oct: the clock now (decision 12 asks for its model). Recommended: drop time of day from the habitats until a day/night cycle is
    decided. [Add a day/night clock now.]
-9. **Ho-Oh's judgement at mission 4.** Recommended: keep the Flame Summon at mission 4 but make the judgement a
+9. **Decided (17 Oct):** **Ho-Oh's judgement at mission 4.** Recommended: keep the Flame Summon at mission 4 but make the judgement a
    fixed-length fight: Ho-Oh ends it itself after a set number of rounds, or once the crew has shown enough, so a
    level-5 crew never beats a legendary and the fight can't be lost by a player who only attacks. [Move the Flame
    Summon unlock to Act II and only glimpse Ho-Oh at mission 4; keep the fight as it is.]
-10. **Cast ages.** Recommended: all eight Adepts and every named NPC who can appear in adult content are adults in
+10. **Decided (17 Oct):** **Cast ages.** Recommended: all eight Adepts and every named NPC who can appear in adult content are adults in
     canon, with ages written in story.md §4; any character written younger is excluded from adult content entirely.
     [Only the Adepts are adults; NPCs are case by case.]
-11. **Which beats carry adult-only scenes.** Recommended: side stories and heart quests only, never a main mission, so
+11. **Decided (17 Oct):** **Which beats carry adult-only scenes.** Recommended: side stories and heart quests only, never a main mission, so
     nothing required ever touches adult mode; you name the characters. [Main missions may carry adult-only lines
     (never scenes) too.]
+12. **The clock's model** (follows from decision 8). Recommended: a stepped day of four phases (dawn, day, dusk,
+    night) advanced by walking and by resting, never by the phone's real time; rooms tint by phase, Kin habitats and
+    the night-only beats read it, and time-of-day evolutions (Rockruff, Eevee's Espeon and Umbreon, Cosmoem) use it
+    instead of the stone routes. [Real time from the phone's clock; a day/night switch at inns only.]

@@ -70,6 +70,8 @@ from the ROMs or the local pokeemerald-expansion checkout goes into git (`assets
   files carry no credit (the adult eyes among them), which is art 17.
 - Golden Sun, Unbound and expansion content never enters git.
 
+**Your rule (17 Oct):** anything in the local folder may be used where it is better for the story or in quality, with your per-item approval and every maker tracked for the credits scroll.
+
 ## 6. Suggested order, once the talk items are settled
 
 1. Fonts, icons, prompts, frames and emotes: all on disk, all decided, no picture change needed.
@@ -81,16 +83,18 @@ from the ROMs or the local pokeemerald-expansion checkout goes into git (`assets
 
 ## 7. Decisions for you
 
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
+
 Recommended first. The alternatives are in brackets.
-1. **Music and sound route.** Recommended: Golden Sun's and Unbound's own tracks and sounds, extracted from the ROMs
+1. **Decided (17 Oct):** **Music and sound route.** Recommended: Golden Sun's and Unbound's own tracks and sounds, extracted from the ROMs
    and rendered to OGG offline, with the fan game's library as the fallback where a track is missing; the SFX pack
    you added for the adult-mode sounds. [The fan game's audio as the main source; CC0 downloads only.]
-2. **The 16 Oct animation sets as the adult-mode sprite base.** They are a full character (idle, walk, crawl, combat,
+2. **Decided (17 Oct):** **The 16 Oct animation sets as the adult-mode sprite base.** They are a full character (idle, walk, crawl, combat,
    expressions, adult clips) at one size, in a pixel version and a smooth one. Recommended: adopt the pixel version,
    resampled to the 64×64 standard, for the adult-mode variant sprites and scenes. [Use them only as pop-up art;
    don't use them.]
-3. **The fan game's 32-px tiles as the tile source.** The RPG Maker game carries 32×32 Pokémon-style tilesets and
+3. **Decided (17 Oct):** **The fan game's 32-px tiles as the tile source.** The RPG Maker game carries 32×32 Pokémon-style tilesets and
    autotiles, the size the art plan wants and nothing else on disk has. Recommended: evaluate them beside the LPC
    base tilesets (art decision 8) in the Phase 2 tile spike. [Ignore them; LPC tiles only.]
-4. **Pokémon menu icons and ball art from the expansion.** Recommended: export the 32×32 menu icons and the ball
+4. **Decided (17 Oct):** **Pokémon menu icons and ball art from the expansion.** Recommended: export the 32×32 menu icons and the ball
    sprites now, for the Pokémon screens and the item icons. [Text-only menus until the art pass.]

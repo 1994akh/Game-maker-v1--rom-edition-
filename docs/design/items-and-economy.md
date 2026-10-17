@@ -361,7 +361,7 @@ the bag, shop and drop page read.
 
 Recommended first. The alternatives are in brackets.
 
-Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 1. **To talk over:** **Coin scale and ball prices.** Recommended:
    - Golden Sun's scale for everything: Poké Ball 30, Great 100, Ultra 300, specialty balls 250, Escape Rope 50,
      Repel 40, stones 1,200.

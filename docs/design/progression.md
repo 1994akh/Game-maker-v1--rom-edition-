@@ -118,7 +118,7 @@ about 2).
 
 Recommended first. The alternatives are in brackets.
 
-Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 **Act I levels and story fights**
 1. **To talk over:** **Story recruits' levels.** Corvin copies the hero's level once, which is L5 unless you trained. Recommended: a
    join-level floor per mission in data (Corvin L7 at M2 and M4, L8 at M7, L9 at M8), then re-measure every story
