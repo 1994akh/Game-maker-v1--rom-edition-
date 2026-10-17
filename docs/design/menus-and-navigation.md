@@ -320,7 +320,7 @@ zoom-out can come after the 480×320 picture.
 - **DexNav** is decided (DESIGN.md). Proposed form: "Search here" on a Kin entry, with habitat marks on the Chart. A
   separate DexNav screen with chains is decision N-9.
 - **Story notes** (Corvin's note, the Ledger) sit in the Key Items pocket and are cross-listed under Relics.
-- Kin's "time of day" is dropped until a clock exists.
+- Kin's "time of day" returns with the day/night clock (decided 17 Oct; [day-night-clock.md](day-night-clock.md) §2).
 
 ## 9. Battle menu
 

@@ -24,6 +24,12 @@ header; the detailed rules are in `docs/design/`.
 - **Assets:** anything in the local folder may be used where it is better for the story or in quality (your note on
   the music route).
 - Decision marks on the pages now carry the date of the answer.
+- **The clock (story 8):** a new page, [day-night-clock.md](design/day-night-clock.md), proposes the model (four
+  phases by walking and rest, never the phone's time), what reads it (Lantern Reef's night decks, Kin habitats,
+  time evolutions, night battle backgrounds) and the engine seams, with four questions on the decision page's new
+  Clock tab. It is built after the bug-fix slices.
+- **Art decision 4 settled** by your adult-mode answer 2: the hero is an adult, drawn on the adult body.
+  **Proposed:** Corvin on the adult body too.
 
 ## 17 Oct 2026 (demo first)
 

@@ -34,6 +34,7 @@ Checked end to end by the engine's `tools/mission6_check`.
 ## Placeholders and open points
 
 - **"Night-only decks"** (story §7) aren't built: there is no day and night yet. The wreck is always walkable.
+  The clock is decided (17 Oct); [day-night-clock.md](day-night-clock.md) §2 proposes how the decks use it.
 - **Defog banks** are one room-wide fog. Defog is optional here because only some Pokémon learn it; the story's
   rule that "mandatory puzzles use only Crew 1's Psynergy" holds (Reveal and Halt are Vesper's).
 - **The graveyard** is one wreck; more hulks around it can come with the graphics pass.
