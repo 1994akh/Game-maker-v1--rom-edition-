@@ -398,7 +398,7 @@ Recommended first. The alternatives are in brackets. Questions the items review 
 (held items: items 8; curses, breakage and the forge: items 21; the Weapon Art name: items 23), and are not repeated
 here.
 
-Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 1. **Decided (16 Oct):** **How gear is stored and changed.** Recommended: the shared bag plus each Adept's 7 worn slots, as built. An
    Equip entry in the Start menu, also reached from Items and Status, with one stat preview, usable anywhere outside
    battle. [Golden Sun's per-Adept item lists with Give; only at restoration points.]

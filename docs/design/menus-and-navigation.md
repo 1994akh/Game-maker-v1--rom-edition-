@@ -381,7 +381,7 @@ These came up in the critic's pass and aren't designed yet:
 
 Recommended first. The alternatives are in brackets.
 
-Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 1. **Decided (16 Oct):** **N-0, Start menu.** Recommended: Psynergy, Pokémon, Items, Equip, Status, Log, Map, Save, Settings, Close, with Log
    and Map appearing once unlocked; a list now, Golden Sun's icon bar in polish. [Golden Sun's four plus System;
    Equip inside Items.]

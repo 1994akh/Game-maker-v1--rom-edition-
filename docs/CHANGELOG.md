@@ -3,6 +3,28 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 17 Oct 2026 (your answers on the story, adult mode and assets)
+
+- **Decided (you, 17 Oct):** all 25 questions on the Story, Adult mode and Assets tabs, every one as recommended
+  except the Kin clock, where you chose **a day/night clock now** (story 8; the clock's model is a new question,
+  story 12). Among them: the Lodestar dormant until the Wayfarer and awake from mission 12; Brann gives it; Ho-Oh's
+  mission-4 judgement becomes a fixed-length fight it ends itself; the Act I island shops; Canalport's flood; every
+  character in adult content a canon adult; adult beats in side stories and heart quests only; the animation sets as
+  the adult sprite base; the Essentials tiles into the tile spike (done, see the art probes); Pokémon menu icons and
+  ball art from the expansion.
+- **Your notes, now rules in [adult-mode.md](design/adult-mode.md):** an 18+ warning and age check on the glasses'
+  first use; the game saves after every toggle; adult references and an easter egg at home from the moment the
+  glasses are found; the gallery hunt's reward is coins and a charm *and* a scene; adult-only weapon and attack
+  variants (read as reskins with the same numbers, decision 11); ideas and art may draw on the local folder. Adult
+  mode itself still waits for the Act I demo.
+- **New questions on the page (you asked for every open adult-mode question, 17 Oct):** adult-mode 11–22 (reskins or
+  new gear, the age gate's form, what the toggle-save writes, the home easter egg, how explicit, generic townsfolk,
+  how adult looks are drawn, toggling off mid-mission, picture credits, adult sounds, the glasses on the hero,
+  rewards and the economy) and story 12 (the clock's model).
+- **Assets:** anything in the local folder may be used where it is better for the story or in quality (your note on
+  the music route).
+- Decision marks on the pages now carry the date of the answer.
+
 ## 17 Oct 2026 (demo first)
 
 - **Decided (you, 17 Oct): the order of work.** A **playable Act I demo** (missions 1–10) **with great art** comes

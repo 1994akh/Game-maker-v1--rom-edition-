@@ -102,7 +102,7 @@ Golden Sun has no fitting look, no density mismatch, but the cast keep borrowed 
 
 Recommended first. The alternatives are in brackets.
 
-Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 1. **Decided (16 Oct):** **The picture.** Recommended: switch to 480×320 with the world still in Golden Sun pixels (Option A), but only
    after the first 64-px art is ready and the 1:1 probe passes. [B: re-author everything in 32-px units; C: stay at
    240×160 with 32-px field Adepts; D: stretch with the 240 base, tested in the same probe.]
