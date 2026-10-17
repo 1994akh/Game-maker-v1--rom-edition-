@@ -394,7 +394,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
    [One held slot per Set Pokémon that affects its Adept.]
 9. **Decided (16 Oct):** **Permanent stat items.** Recommended: Golden Sun's six stat foods, on Adepts only, with an optional Exp. Candy
    for Pokémon. [Foods on Pokémon too; Pokémon vitamins.]
-10. **To talk over:** **Evolution items.** Recommended: the 28 items used from the bag, the Linking Cord for every trade, and the
+10. **Decided (17 Oct):** **Evolution items.** Recommended: the 28 items used from the bag, the Linking Cord for every trade, and the
     story routes in §9. Friendship and Eevee follow progression.md §4. [Every evolution by level; evolution
     through an NPC.]
 11. **Decided (16 Oct):** **Mega trigger.** Recommended: the Mega Ring plus a Mega Stone per Pokémon (key items), once per battle per side,

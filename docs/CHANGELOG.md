@@ -3,6 +3,24 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 17 Oct 2026, evening (more answers)
+
+- **Decided (you, 17 Oct), all as recommended:**
+  - **Progression 1, recruits' levels:** a join-level floor per mission in data (Corvin L7 at missions 2 and 4, L8 at
+    7, L9 at 8), then every story fight re-measured.
+  - **Progression 5, class tiers:** Golden Sun's 5-tier lines rising at Adept L1/10/20/30/40; each Set Pokémon of the
+    Adept's group adds +1 elemental level (+5 Power and Resist); the late Psynergy unlocks with the tiers.
+  - **Items 10, evolution items:** the 28 items used from the bag, the Linking Cord for every trade, the story routes
+    in [items-and-economy.md](design/items-and-economy.md) §9; friendship and Eevee as progression.md §4 says.
+  - **The clock 1–4** ([day-night-clock.md](design/day-night-clock.md)): night changes Kin habitats, the Lantern Reef
+    decks and the battle backgrounds, never prices, stats or the encounter rate; no HUD, the pause screen names the
+    phase; inns rest to dawn and bunks offer "Sleep until dusk/dawn"; scenes may set the phase, saved under a new save
+    format version with a migration.
+  - **Adult 23–24:** the Giant Dildo Sword matches the best weapon available at that point in the story; a forgotten
+    code is cleared from the title's options after the 18+ gate again, which also turns the mode off.
+  - **Art 18, tile redraws:** right after the demo, area by area, Stonehollow first, on the LPC base tilesets (the
+    download waits for your go-ahead when that work starts), Essentials and our own drawing for gaps.
+
 ## 17 Oct 2026 (your answers on the story, adult mode and assets)
 
 - **Decided (you, 17 Oct):** all 25 questions on the Story, Adult mode and Assets tabs, every one as recommended
