@@ -121,6 +121,9 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 4. **To talk over:** **The boy hero's body.** Recommended: LPC "teen", closer to Golden Sun's leads; the adult body for adult NPCs.
    - **Probe (17 Oct):** teen and male are the same height; teen reads as a slim youth like Golden Sun's leads, male stockier. The critic recommends teen for Rowan and Corvin; the male body's extra wardrobe (jackets, most swords) matters only for the creator and battle weapons later.
+   - **Settled by your adult-mode answer (17 Oct, adult-mode.md decision 2):** the hero is an adult in canon, drawn on the
+     adult body. **Proposed:** Corvin on the adult body too, so the two Earth rivals match; with every Adept an adult
+     (story decision 10) the teen body is used by no one in the cast.
 
 5. **Decided (16 Oct):** **The hero creator.** Recommended:
    - Pre-composed sheets with colour keys: 2 genders × 6 styles × 3 outfits × 3 accessories, about 13 MB.

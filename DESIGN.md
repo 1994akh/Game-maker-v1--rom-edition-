@@ -47,6 +47,7 @@ What that means in practice:
 > | The whole party's field Psynergy works | The **active crew's** works, with backup items for every group Psynergy | `party-and-battle.md` §7 |
 > | Psynergy puzzles replace HMs; Surf/Dive/Waterfall separate | **One field-ability table**: Psynergy and the kept HMs (Cut, Rock Climb, Defog, Whirlpool, Surf, Dive, Waterfall) are the same system | `docs/design/field-abilities.md` |
 > | Pokémon damage math | **Golden Sun's formulas and stat scale** for everyone; Adepts out-HP partners | `party-and-battle.md` §5 |
+> | No clock | **A day/night clock** (17 Oct): four phases by walking and rest, never real time (proposed) | `docs/design/day-night-clock.md` |
 > | (not covered) | **Character creator** for the hero: gender, pronouns, cosmetics; name and gender permanent | `docs/design/character-creator.md` |
 > | (not covered) | **Story structure**: hero alone vs the rival → a mission played as the rival → recruitment missions → crew swapping unlocks | `party-and-battle.md` §1 |
 >

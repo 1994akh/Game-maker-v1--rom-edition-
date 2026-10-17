@@ -91,7 +91,8 @@ about 2).
      - **Trade** uses the existing item twin (the Linking Cord etc.); Karrablast and Shelmet get one.
      - **Knows a move** becomes the level the move is learned.
      - **Time, gender and weather** are ignored where one target remains, and become the player's choice where two
-       remain.
+       remain. **Since 17 Oct** the day/night clock is decided: time conditions read it
+       ([day-night-clock.md](day-night-clock.md) §2).
      - **Gen 8/9 and regional** targets are left out (the roster is Gen 1–7).
      - **Eevee** evolves by stone: Sun → Espeon, Moon → Umbreon, Shiny → Sylveon. Maren's Shiny Stone could be a
        gift in her arc.
