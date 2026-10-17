@@ -3,6 +3,42 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 16–17 Oct 2026 (your answers, adult mode, the Fable review)
+
+- **Decided (you, 16 Oct, on the decision page):** 80 of the 104 open questions from the five reviews, every one as
+  recommended; 24 are marked to talk over. The pages mark each item **Decided (16 Oct)** or **To talk over**.
+- **Progression** ([progression.md](design/progression.md)): accepted 2 (A lost story fight), 6 (Level span), 7 (Gear), 10 (Physical moves), 11 (Learning moves), 13 (Evolutions beyond level), 14 (Branches), 15 (Several stages at once), 19 (Wild Pokémon EXP).
+  - Still to talk over: 1 (Story recruits' levels), 3 (Target levels per mission), 4 (Stonehollow's west gate), 5 (Class tiers), 8 (Vesper's curve), 9 (Psynergy after L50), 12 (Partner pace), 16 (Gen 8/9 and regional evolutions), 17 (Weyard forms), 18 (Ho-Oh's wasted moves).
+- **Art** ([art-integration.md](design/art-integration.md)): accepted 1 (The picture), 2 (Filling the Fold), 5 (The hero creator), 6 (Font), 7 (UI scale after the switch), 9 (Library art in git), 10 (Battle sprite scales), 11 (Battle backgrounds), 13 (Unleash and Pokémon on their feet), 14 (Icons, emotes, prompts, frames), 15 (Tamsin's look).
+  - Still to talk over: 3 (LPC for Adepts and townsfolk), 4 (The boy hero's body), 8 (32-px tiles), 12 (Move effects), 16 (Shipping less), 17 (LPC eye credits).
+- **Items and economy** ([items-and-economy.md](design/items-and-economy.md)): accepted 2 (Shops in Act I), 3 (Selling and artifacts), 4 (Act I income), 5 (Extra reward and wild drops), 6 (Catch EXP and where the catch goes), 8 (Held items), 9 (Permanent stat items), 11 (Mega trigger), 12 (TMs), 13 (Escape Rope and Repel), 14 (Key items pocket), 15 (Backup Psynergy items), 16 (PP for item Psynergy), 17 (Stack cap and pockets), 19 (Rest prices), 20 (Trainer rewards), 21 (Breakable gear, curses, the forge), 22 (Crew 2's balls before m10), 23 (Naming), 24 (Mini-game currency).
+  - Still to talk over: 1 (Coin scale and ball prices), 7 (Ball roster), 10 (Evolution items), 18 (Bike, rod, Dowsing Machine), 25 (Ho-Oh's catch style).
+- **Equipment** ([equipment.md](design/equipment.md)): accepted 1 (How gear is stored and changed), 2 (Who can wear what), 3 (The order stats are built in), 4 (Weapon Arts), 5 (The starting Machete's lock), 6 (Usable gear), 7 (Slots), 9 (Forest and Shadow gear), 10 (Gear across crews and guests), 11 (Recruit kits), 12 (Paying for eight Adepts), 15 (Enemy trainers' gear).
+  - Still to talk over: 8 (Item table), 13 (Does gear show on the sprite?), 14 (A "Best" button).
+- **Menus and navigation** ([menus-and-navigation.md](design/menus-and-navigation.md)): accepted 1 (Start menu), 2 (Pause), 3 (Freeze the world under the Start menu), 4 (Saves), 5 (Autosave timing), 6 (First Settings screen), 7 (Orientation), 8 (Back up saves off the phone), 9 (Battle menu shape), 10 (Running from battles), 11 (After losing a story fight), 12 (Partner tactics), 13 (Touch selects rows), 14 (Start inside a submenu), 15 (The Lodestar before mission 12), 16 (Pointing it at a marker), 17 (Default target with several open goals), 18 (Mini map), 19 (Danger stars and rumours), 20 (The area map's contents), 21 (Objective tracking), 22 (Log pages), 23 (DexNav's form), 24 (Landmarks on a small screen), 25 (Where Lantern Reef sits), 26 (L/R shortcuts), 27 (Fast travel), 28 (Pronouns at the mirror).
+- **Requested (you, 16 Oct): adult mode.** An optional Key Item, the Adult-o-Vision glasses, switches an adult mode on
+  and off at any time; it opens alternate sprites, story points, dialogue, easter eggs and a collection side mission
+  with a hidden gallery; adult scenes between consenting adults only. Mechanics proposed in
+  [adult-mode.md](design/adult-mode.md); the content rules (people only, canon adults only, consent on the page, off by
+  default, nothing required behind it) are written there.
+- **Decided (you, 16 Oct): the story chat is archived.** Story questions now go to the decision page too; the engine
+  side updates story.md from the answers. [for-the-story-chat.md](story/for-the-story-chat.md) carries them.
+- **Decided (you, 16 Oct): the local folder's materials may be used,** with or without licence terms, with your
+  approval per item where needed, and every maker tracked for an end-credits scroll:
+  [credits.md](engine/resources/credits.md).
+- **Published:** [needed-assets-2026-10-16.md](engine/resources/needed-assets-2026-10-16.md) (what art and sound the
+  game still needs, where each comes from) and the audit of the 16 Oct uploads
+  ([local-folder-audit-2026-10-16.md](engine/resources/local-folder-audit-2026-10-16.md)).
+- **The Fable review of the Opus work began.** The design-doc pass found 13 wording and status problems, all fixed
+  here: the catching rules in party-and-battle.md §5 and §8 now agree and carry the 16 Oct decision; the pre-16-Oct
+  battle model is gone from §10, §12 and the paste table; DESIGN.md's header table has rows for the 15–16 Oct
+  decisions; field-abilities.md and docs/engine/README.md say what is built; the Farer's Log has four decided sections.
+  The engine pass over the bonded-partner PRs found six defects (one medium: a field hazard at full HP strips the
+  partner's HP share); they go to the bug-fix build. The rest of the engine review is running.
+- Earlier, 16 Oct: design PR #45 corrected the codec's item type and flag labels and the oracle's unleash clamp;
+  design PR #46 added the story-chat questions page.
+- Built on Fable 5.1 from here.
+
 ## 16 Oct 2026 (progression audit and the art-integration plan)
 
 - **Proposed, built: the waiting crew earns half** of each won battle, as in GS2. Its level-ups and evolutions are

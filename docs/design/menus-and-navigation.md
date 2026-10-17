@@ -315,7 +315,7 @@ zoom-out can come after the 480×320 picture.
 
 ### 8.9 The Farer's Log (sections decided, screen proposed)
 
-- **Tabs:** Kin, Bestiary, Charts, Relics, Cultures (decided), plus the Guild Ledger (decided) and Bearings (main
+- **Tabs:** Kin, Bestiary, Charts, Relics and Cultures (the four decided sections), plus the Guild Ledger (decided) and Bearings (main
   goals, heart quests, taken contracts). Each tab has a completion %.
 - **DexNav** is decided (DESIGN.md). Proposed form: "Search here" on a Kin entry, with habitat marks on the Chart. A
   separate DexNav screen with chains is decision N-9.
@@ -381,59 +381,60 @@ These came up in the critic's pass and aren't designed yet:
 
 Recommended first. The alternatives are in brackets.
 
-1. **N-0, Start menu.** Recommended: Psynergy, Pokémon, Items, Equip, Status, Log, Map, Save, Settings, Close, with Log
+Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+1. **Decided (16 Oct):** **N-0, Start menu.** Recommended: Psynergy, Pokémon, Items, Equip, Status, Log, Map, Save, Settings, Close, with Log
    and Map appearing once unlocked; a list now, Golden Sun's icon bar in polish. [Golden Sun's four plus System;
    Equip inside Items.]
-2. **S-1, pause.** Recommended: two tiers, the Start menu on a free field and a pause box elsewhere. Back never quits,
+2. **Decided (16 Oct):** **S-1, pause.** Recommended: two tiers, the Start menu on a free field and a pause box elsewhere. Back never quits,
    and inside menus it goes back. [Settings only in the Start menu and title; Back asks "Quit?".]
-3. **S-2, freeze the world under the Start menu.** Recommended: yes, as Golden Sun does. [Keep it running and only
+3. **Decided (16 Oct):** **S-2, freeze the world under the Start menu.** Recommended: yes, as Golden Sun does. [Keep it running and only
    block your controls, as today.]
-4. **S-3, saves.** Recommended: 3 files, each with a manual save and an autosave, safe writes, summaries on the title.
+4. **Decided (16 Oct):** **S-3, saves.** Recommended: 3 files, each with a manual save and an autosave, safe writes, summaries on the title.
    [One slot plus a suspend save; 3 manual slots only.]
-5. **S-4, autosave timing.** Recommended: safe points only, on by default. [Only when leaving the app; only at
+5. **Decided (16 Oct):** **S-4, autosave timing.** Recommended: safe points only, on by default. [Only when leaving the app; only at
    restoration points; never.]
-6. **S-5, first Settings screen.** Recommended: the table in §6. [Text speed and touch opacity only; the full
+6. **Decided (16 Oct):** **S-5, first Settings screen.** Recommended: the table in §6. [Text speed and touch opacity only; the full
    CONTROLS.md set with a touch layout editor.]
-7. **S-6, orientation.** Recommended: lock to landscape until the portrait probe. [Allow any orientation and build
+7. **Decided (16 Oct):** **S-6, orientation.** Recommended: lock to landscape until the portrait probe. [Allow any orientation and build
    book and portrait layouts for every screen.]
-8. **S-7, back up saves off the phone.** Recommended: turn on Android backup, so saves follow your Google account.
+8. **Decided (16 Oct):** **S-7, back up saves off the phone.** Recommended: turn on Android backup, so saves follow your Google account.
    [An "Export saves" action; accept that an uninstall wipes saves.]
-9. **B-1, battle menu shape.** The fix in §9 is a bug fix of your 15 Oct decision. The question is only a Golden Sun
+9. **Decided (16 Oct):** **B-1, battle menu shape.** The fix in §9 is a bug fix of your 15 Oct decision. The question is only a Golden Sun
    icon row later. Recommended: later, placed above the touch stick. [A two-column grid of words.]
-10. **B-2, running from battles.** Recommended: yes, from random and wild battles only, with Golden Sun's flee chance
+10. **Decided (16 Oct):** **B-2, running from battles.** Recommended: yes, from random and wild battles only, with Golden Sun's flee chance
     on Adept levels. [No running; running only with an item.] Same as progression.md decision 2.
-11. **B-3, after losing a story fight.** Recommended: "Try again?"; No returns to the last restoration point, with the
+11. **Decided (16 Oct):** **B-3, after losing a story fight.** Recommended: "Try again?"; No returns to the last restoration point, with the
     fight still waiting. [Keep the endless restart.] Same as progression.md decision 2.
-12. **B-4, partner tactics.** party-and-battle.md §6 decided optional per-partner tactics. Bonded partners act only in
+12. **Decided (16 Oct):** **B-4, partner tactics.** party-and-battle.md §6 decided optional per-partner tactics. Bonded partners act only in
     their revive window, so recommended: move the tactics option to Adepts (an "Auto" setting per Adept), keeping
     "repeat last turn" and fast animations. [Drop tactics; keep them for the revive window only.]
-13. **T-1, touch selects rows.** Recommended: one tap for short lists, first tap previews and the second picks where
+13. **Decided (16 Oct):** **T-1, touch selects rows.** Recommended: one tap for short lists, first tap previews and the second picks where
     there's a detail pane. [Stick and A only; always one tap.]
-14. **T-2, Start inside a submenu.** Recommended: Start closes the whole stack, B goes back one level. [Start goes
+14. **Decided (16 Oct):** **T-2, Start inside a submenu.** Recommended: Start closes the whole stack, B goes back one level. [Start goes
     back one level.]
-15. **N-1, the Lodestar before mission 12.** Recommended: dormant in Act I, stirring at the Wayfarer (m10), full use
+15. **Decided (16 Oct):** **N-1, the Lodestar before mission 12.** Recommended: dormant in Act I, stirring at the Wayfarer (m10), full use
     from m12, as story §10 says. [A needle from mission 3; a third "points home only" stage at m12.]
-16. **N-2, pointing it at a marker.** Recommended: pick the marker on the Chart; tapping the dial opens the Chart.
+16. **Decided (16 Oct):** **N-2, pointing it at a marker.** Recommended: pick the marker on the Chart; tapping the dial opens the Chart.
     [Tapping the dial cycles targets.]
-17. **N-3, default target with several open goals.** Recommended: the nearest. [The last one you picked; the lowest
+17. **Decided (16 Oct):** **N-3, default target with several open goals.** Recommended: the nearest. [The last one you picked; the lowest
     mission number.]
-18. **N-4, mini map.** Recommended: none always on in rooms, a full-screen area map on a button, an optional sea
+18. **Decided (16 Oct):** **N-4, mini map.** Recommended: none always on in rooms, a full-screen area map on a button, an optional sea
     mini-chart. [An always-on corner minimap; one in Settings, off by default; no map at all.]
-19. **N-5, danger stars and rumours.** Recommended: on the Chart, plus a name-and-stars banner on the world map
+19. **Decided (16 Oct):** **N-5, danger stars and rumours.** Recommended: on the Chart, plus a name-and-stars banner on the world map
     (decided Q10 keeps them to world-map UI). [Icons on the walkable world map.]
-20. **N-6, the area map's contents.** Recommended: §8.3. [Also chests; cell-by-cell fog of war.]
-21. **N-7, objective tracking.** DESIGN.md calls a Mission Log "not a must-have". Recommended: the one-line objective
+20. **Decided (16 Oct):** **N-6, the area map's contents.** Recommended: §8.3. [Also chests; cell-by-cell fog of war.]
+21. **Decided (16 Oct):** **N-7, objective tracking.** DESIGN.md calls a Mission Log "not a must-have". Recommended: the one-line objective
     plus a small Bearings page in the Log. [Lodestar and Guild Ledger only; Unbound's full Mission Log.]
-22. **N-8, Log pages.** Recommended: the four decided sections plus Guild Ledger and Bearings. [Strictly the four.]
-23. **N-9, DexNav's form.** DexNav is decided. Recommended: "Search here" on Kin entries plus habitat marks on the
+22. **Decided (16 Oct):** **N-8, Log pages.** Recommended: the four decided sections plus Guild Ledger and Bearings. [Strictly the four.]
+23. **Decided (16 Oct):** **N-9, DexNav's form.** DexNav is decided. Recommended: "Search here" on Kin entries plus habitat marks on the
     Chart; a separate screen with chains later. [Unbound's DexNav screen now.]
-24. **N-10, landmarks on a small screen.** Recommended: edge markers. [A world-map zoom-out after the 480 picture.]
-25. **N-11, where Lantern Reef sits.** Recommended: north-west of Meridia, which fits both the world sketch and
+24. **Decided (16 Oct):** **N-10, landmarks on a small screen.** Recommended: edge markers. [A world-map zoom-out after the 480 picture.]
+25. **Decided (16 Oct):** **N-11, where Lantern Reef sits.** Recommended: north-west of Meridia, which fits both the world sketch and
     mission 6. [Due north; due west.] Probably the cloud chat's call.
-26. **N-12, L/R shortcuts.** Recommended: assignable in the Psynergy menu (default L = Move, R = the newest verb), and
+26. **Decided (16 Oct):** **N-12, L/R shortcuts.** Recommended: assignable in the Psynergy menu (default L = Move, R = the newest verb), and
     an 8-slot wheel on X later. [Keep today's fixed shortcuts.]
-27. **N-13, fast travel.** The built "Home" warp at inns is a second fast travel next to Teleport. Recommended: keep
+27. **Decided (16 Oct):** **N-13, fast travel.** The built "Home" warp at inns is a second fast travel next to Teleport. Recommended: keep
     Home as a deliberate exception for crew logistics, and keep Teleport's timing open. [Remove Home once Teleport
     exists.]
-28. **C-1, pronouns at the mirror.** Recommended: allow changing pronouns at the mirror; name and gender stay
+28. **Decided (16 Oct):** **C-1, pronouns at the mirror.** Recommended: allow changing pronouns at the mirror; name and gender stay
     permanent. [Keep pronouns fixed, the current decision.]

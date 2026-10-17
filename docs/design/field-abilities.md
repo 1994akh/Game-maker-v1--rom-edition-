@@ -66,5 +66,7 @@ with HMs counted as another source a crew can bring.
 
 ## Engine status
 
-Move is built (the Sol Sanctum puzzle plays). The ability table is generated next; Frost, Growth and Reveal follow,
-then the HM rows. No existing code changes: the field code already treats every ability as target + range + effect.
+Built (16 Oct): the generated table (`tools/export_field_abilities.py` plus the `data_src/field_abilities_hm.json`
+overlay), crew gating (`CrewAbilities`, `Room.crew_can_cast`), and Move, Frost, Growth, Reveal, Halt, Scoop, Whirlwind,
+Mind Read, Cut, Defog and Surf across missions 1–9. Not built: Rock Climb, Whirlpool, Dive, Waterfall, and item
+Psynergy (its gate never fires today, items-and-economy.md §14).

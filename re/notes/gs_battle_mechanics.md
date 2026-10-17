@@ -222,7 +222,7 @@ Uses `heal_core` on PP with the same structure as healing (`0x08121278`). The ex
 
 - **Unleash** (`FUN_080b04bc`, reached through stub `0x080AD108` from `0x08123C0C`): PCs only. The weapon has an
   unleash ability at item `+0xE` and a rate byte at `+0xB` (7 on most weapons, 8 on Masamune, Cloud Brand,
-  Atropos' Rod and Lachesis' Rule). The chance is `(X + 5·rate)` percent, rolled as
+  Atropos' Rod and Lachesis' Rule). The chance is `(max(0, X) + 5·rate)` percent (a negative gear bonus X counts as 0, as alchemy does), rolled as
   `rand16 < chance·65536/100`. On success the Attack becomes the unleash ability.
 
 ## 6. Turn order (VERIFIED-CODE unless noted)

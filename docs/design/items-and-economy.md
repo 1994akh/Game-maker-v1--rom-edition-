@@ -76,8 +76,7 @@ prize counter.
 | 9400–9499 | Key and quest items (9003 Lodestar keeps its id) |
 | 9500–9599 | Treasures and prize items |
 
-Our own rows move from `PartyBuilder.OWN_ITEMS` into `data_src/own_items.json`. This replaces progression.md's
-"from 9004" for evolution items.
+Our own rows move from `PartyBuilder.OWN_ITEMS` into `data_src/own_items.json`.
 
 ## 5. Key items (proposed)
 
@@ -108,7 +107,7 @@ Ship states (Kestrel, Wayfarer, Well upgrades) go on a ship page, not in the bag
 DESIGN.md says backups exist for every group Psynergy, while party-and-battle.md §7 still calls that proposed.
 
 **Proposed:**
-- Psynergy items are key items in the shared bag; any Adept in the active crew can use one and pays the normal PP.
+- Psynergy items are key items in the bag (one per crew until mission 10, then shared); any Adept in the active crew can use one and pays the normal PP.
   Today field PP always comes from the lead (a bug, §14).
 - A crew's field verbs are its group Psynergy, plus HMs (flag plus a Set Pokémon that learns it), plus the verbs
   its bag's items grant.
@@ -194,8 +193,9 @@ generated `data/field_abilities.json`.
 
 ## 9. Evolution and Mega items
 
-The evolution rules are in [progression.md](progression.md) §4; the resolver is `src/battle/evolution.gd`. This
-section covers the items.
+The evolution rules are in [progression.md](progression.md) §4. Today the resolver is `PartyBuilder.evolve()` in
+`src/battle/party_builder.gd`; `src/battle/evolution.gd` is progression.md §4's proposed home. This section covers the
+items.
 
 - **Used from the bag** on a Pokémon (Pokémon menu and Kin Garden): the 28 Gen 1–7 items. These are the Fire,
   Water, Thunder, Leaf, Ice, Sun, Moon, Shiny, Dusk and Dawn Stones, the Linking Cord, and the former held items
@@ -344,8 +344,8 @@ Act I suggestions:
 - **The Lodestar isn't flagged as a key item**, so a sell rule would allow selling it.
 - **Field Psynergy PP is always charged to the lead**, while the decided rule says the caster pays.
 - **A caught Pokémon always goes to the lead's Set.** Decision 6.
-- **The extractor mislabels Golden Sun item types and flags** (`re/gbax/codecs/gs_units.py`). The correct ones are 7
-  special, 8 ring, 9 shirt, 10 class item, 11 carried key item, and flags 0x01 cursed, 0x02 locked when equipped,
+- ~~The extractor mislabels Golden Sun item types and flags~~ **Fixed in design PR #45** (`re/gbax/codecs/gs_units.py`): 7
+  special, 8 ring, 9 shirt, 10 class item, 11 carried key item; flags 0x01 cursed, 0x02 locked when equipped,
   0x04 rare, 0x08 important, 0x10 stackable.
 - **The Golden Sun world-map placeholder is reachable from mission 1**, with fights of L12–22 paying up to 243
   coins. progression.md decision 4.
@@ -361,76 +361,77 @@ the bag, shop and drop page read.
 
 Recommended first. The alternatives are in brackets.
 
-1. **Coin scale and ball prices.** Recommended:
+Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+1. **To talk over:** **Coin scale and ball prices.** Recommended:
    - Golden Sun's scale for everything: Poké Ball 30, Great 100, Ultra 300, specialty balls 250, Escape Rope 50,
      Repel 40, stones 1,200.
    - Brann gives 5 balls with the first partner.
 
    [Keep Pokémon's 200/600 and multiply Golden Sun coins about 10×; or keep 200/600 and make balls mostly gifts.] At
    200, one catch costs 6–12 Greenwild battles.
-2. **Shops in Act I.** Recommended: a Stonehollow stall (m1), Fallhaven (m2), Canalport (m3), an Eldergrove
+2. **Decided (16 Oct):** **Shops in Act I.** Recommended: a Stonehollow stall (m1), Fallhaven (m2), Canalport (m3), an Eldergrove
    apothecary (m5) and the Bazaar (m8), then Marrow Isle from m10. [No shops until m10; Marrow Isle only.]
-3. **Selling and artifacts.** Recommended: Golden Sun's rules (sell at 3/4, repair at 1/4, sold rare items go to a
+3. **Decided (16 Oct):** **Selling and artifacts.** Recommended: Golden Sun's rules (sell at 3/4, repair at 1/4, sold rare items go to a
    global Artifacts list you can buy back). [Pokémon's 1/2 with no buy-back; per-shop artifact lists.]
-4. **Act I income.** Recommended: dungeon encounters, one gear chest per dungeon, quest coins, and bounties from m8,
+4. **Decided (16 Oct):** **Act I income.** Recommended: dungeon encounters, one gear chest per dungeon, quest coins, and bounties from m8,
    aiming at about 2,800 per crew. Crew 2 gets its own lower target. Tuned together with progression.md decisions
    3 and 4. [Encounters only; chests only; cheaper gear.]
-5. **Extra reward and wild drops.** Recommended:
+5. **Decided (16 Oct):** **Extra reward and wild drops.** Recommended:
    - 4× drop odds and bonus coins for story fights, alphas and bounty targets, and when a Summon or the partner's
      Pokémon move lands the finishing blow.
    - Wild Pokémon: coins level × 4, plus held items mapped to our table (50% / 5% on a catch, 1/16 / 1/128 on a
      defeat).
 
    [Story fights only; never. Wild: keep × 2 with no drops.]
-6. **Catch EXP and where the catch goes.** Recommended: the same EXP as a defeat, no coins. The catch goes to the
+6. **Decided (16 Oct):** **Catch EXP and where the catch goes.** Recommended: the same EXP as a defeat, no coins. The catch goes to the
    Kin Garden and can join a Set at the next restoration point, which keeps the decided "Set Pokémon change only at
    restoration points". [The thrower's Set if it has an empty slot, which amends that rule (filling an empty slot
    isn't a swap); or as built, the lead's Set.] Never a guest's Set.
-7. **Ball roster.** Recommended: Poké, Great and Ultra in shops, plus a rare Farer Ball (always catches); the
+7. **To talk over:** **Ball roster.** Recommended: Poké, Great and Ultra in shops, plus a rare Farer Ball (always catches); the
    specialty balls later. [The full expansion set; Poké, Great, Ultra and Master only.]
-8. **Held items.** Recommended: none. Held evolution items become bag items, and about six effects (type boost,
+8. **Decided (16 Oct):** **Held items.** Recommended: none. Held evolution items become bag items, and about six effects (type boost,
    Leftovers, Lucky Egg, Amulet Coin, Quick Claw, Scope Lens) can become Adept rings or charms (equipment review).
    [One held slot per Set Pokémon that affects its Adept.]
-9. **Permanent stat items.** Recommended: Golden Sun's six stat foods, on Adepts only, with an optional Exp. Candy
+9. **Decided (16 Oct):** **Permanent stat items.** Recommended: Golden Sun's six stat foods, on Adepts only, with an optional Exp. Candy
    for Pokémon. [Foods on Pokémon too; Pokémon vitamins.]
-10. **Evolution items.** Recommended: the 28 items used from the bag, the Linking Cord for every trade, and the
+10. **To talk over:** **Evolution items.** Recommended: the 28 items used from the bag, the Linking Cord for every trade, and the
     story routes in §9. Friendship and Eevee follow progression.md §4. [Every evolution by level; evolution
     through an NPC.]
-11. **Mega trigger.** Recommended: the Mega Ring plus a Mega Stone per Pokémon (key items), once per battle per side,
+11. **Decided (16 Oct):** **Mega trigger.** Recommended: the Mega Ring plus a Mega Stone per Pokémon (key items), once per battle per side,
     and the bond share recomputed from the Mega form. It needs a new battle command and a visible partner (art
     decision 13). [A Summon-like Mega spending Standby Pokémon; enemy bosses only.]
-12. **TMs.** Recommended: not now. If progression decision 11 stores four moves per Pokémon, a move tutor at the
+12. **Decided (16 Oct):** **TMs.** Recommended: not now. If progression decision 11 stores four moves per Pokémon, a move tutor at the
     Marrow Isle library becomes possible. [Unbound's 120 TMs with a forget-move screen.]
-13. **Escape Rope and Repel.** DESIGN.md says they stay as backups "following the same rule as item Psynergy". That
+13. **Decided (16 Oct):** **Escape Rope and Repel.** DESIGN.md says they stay as backups "following the same rule as item Psynergy". That
     reads two ways:
     - **Recommended:** a one-use rope (50) sharing Retreat's effect, and a Repel (40, 200 steps) sharing Avoid's.
       The Sacred Feather stays as loot.
     - **Alternative:** a reusable key-item rope and repel, like the other backup items.
 
     Crew 1 has no Sky Adept, so the rope is its only retreat.
-14. **Key items pocket.** Recommended: yes, flag-backed entries with readable text. [Real bag items with "take item"
+14. **Decided (16 Oct):** **Key items pocket.** Recommended: yes, flag-backed entries with readable text. [Real bag items with "take item"
     script steps; hidden flags only, as today.]
-15. **Backup Psynergy items.** Recommended: Golden Sun's own items where they exist, and our own gems or charms for
+15. **Decided (16 Oct):** **Backup Psynergy items.** Recommended: Golden Sun's own items where they exist, and our own gems or charms for
     Growth, Reveal, Blaze, Parch, Whirlwind, Mind Read and Sand. Crew 2-only backups reach Crew 1 from m10, and the
     cloud chat places them in story.md §7. [All as bounty rewards; drop backups for verbs no crew needs.]
-16. **PP for item Psynergy.** Recommended: the normal PP of the Adept who uses it, which confirms the decided rule.
+16. **Decided (16 Oct):** **PP for item Psynergy.** Recommended: the normal PP of the Adept who uses it, which confirms the decided rule.
     [Free like HMs; a flat 1 PP.]
-17. **Stack cap and pockets.** Recommended: 99 per stack, with the six pockets. [Golden Sun's 30; no cap.]
-18. **Bike, rod, Dowsing Machine.** Recommended: none. Water Pokémon come from Surf, Dive and sailing; one "Rod" key
+17. **Decided (16 Oct):** **Stack cap and pockets.** Recommended: 99 per stack, with the six pockets. [Golden Sun's 30; no cap.]
+18. **To talk over:** **Bike, rod, Dowsing Machine.** Recommended: none. Water Pokémon come from Surf, Dive and sailing; one "Rod" key
     item can come later. [Unbound's three rods; a bike on the world map.]
-19. **Rest prices.** Recommended: a per-room price on Golden Sun's inn ladder (2–25 per Adept), charged only for
+19. **Decided (16 Oct):** **Rest prices.** Recommended: a per-room price on Golden Sun's inn ladder (2–25 per Adept), charged only for
     Adepts below full; revival level × 20, curse removal level × 10. [A flat price by danger stars; keep the flat 6.]
-20. **Trainer rewards.** Recommended: pay per Adept beaten, as trainers.json says. [Count the bonded partner; keep
+20. **Decided (16 Oct):** **Trainer rewards.** Recommended: pay per Adept beaten, as trainers.json says. [Count the bonded partner; keep
     the built per-unit pay.]
-21. **Breakable gear, curses, the forge.** Recommended: keep all three with the equipment review. Gear breaks 1 use
+21. **Decided (16 Oct):** **Breakable gear, curses, the forge.** Recommended: keep all three with the equipment review. Gear breaks 1 use
     in 8 and repairs at 1/4; cursed gear locks until removed at a rest; the GS2 forge comes at Forgeheart in Act II.
     [Curses without breakage; neither; no forge.]
-22. **Crew 2's balls before m10.** Recommended: 3 Poké Balls in Corvin's first kit. [Catching is Crew 1's until the
+22. **Decided (16 Oct):** **Crew 2's balls before m10.** Recommended: 3 Poké Balls in Corvin's first kit. [Catching is Crew 1's until the
     Wayfarer.]
-23. **Naming.** Recommended: the battle command becomes "Ball" and Golden Sun's weapon effect "Weapon Art", keeping
+23. **Decided (16 Oct):** **Naming.** Recommended: the battle command becomes "Ball" and Golden Sun's weapon effect "Weapon Art", keeping
     "Catch" for the Forest verb and "Unleash" for the Set Pokémon action. [Keep both names.]
-24. **Mini-game currency.** Recommended: Golden Sun's Game Tickets and Lucky Medals at the Glimmer Saucer. [Plain
+24. **Decided (16 Oct):** **Mini-game currency.** Recommended: Golden Sun's Game Tickets and Lucky Medals at the Glimmer Saucer. [Plain
     coins; a casino coin.]
-25. **Ho-Oh's catch style.** story.md gives each legendary its own style. Recommended: keep Ho-Oh's classic catch
+25. **To talk over:** **Ho-Oh's catch style.** story.md gives each legendary its own style. Recommended: keep Ho-Oh's classic catch
     after the fight, made possible by the Farer Ball or a calmed catch-rate floor. [Make the forge fight end with
     Ho-Oh joining by script.]

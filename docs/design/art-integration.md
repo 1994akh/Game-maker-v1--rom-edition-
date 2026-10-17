@@ -68,58 +68,59 @@ No decision needed. The critic trimmed it to what has a use now, in two parts.
 
 Recommended first. The alternatives are in brackets.
 
-1. **The picture.** Recommended: switch to 480×320 with the world still in Golden Sun pixels (Option A), but only
+Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+1. **Decided (16 Oct):** **The picture.** Recommended: switch to 480×320 with the world still in Golden Sun pixels (Option A), but only
    after the first 64-px art is ready and the 1:1 probe passes. [B: re-author everything in 32-px units; C: stay at
    240×160 with 32-px field Adepts; D: stretch with the 240 base, tested in the same probe.]
-2. **Filling the Fold.** Recommended:
+2. **Decided (16 Oct):** **Filling the Fold.** Recommended:
    - The picture is sized per screen, so both screens are used fully and you see a bit more world.
    - The cover screen stays landscape unless the probe shows portrait is pleasant.
 
    [Fixed size with black borders; allow portrait.]
-3. **LPC for Adepts and townsfolk.** Recommended:
+3. **To talk over:** **LPC for Adepts and townsfolk.** Recommended:
    - Adopt it through the offline composer.
    - Diagonal steps use the side-facing rows, and casting snaps to 4 directions like Golden Sun.
    - Order: the Adepts, hero and rival first, then all 18 person looks together.
 
    [Adepts only; draw diagonal rows.] LPC adults are about 22% shorter than Isaac at exactly half size.
-4. **The boy hero's body.** Recommended: LPC "teen", closer to Golden Sun's leads; the adult body for adult NPCs.
-5. **The hero creator.** Recommended:
+4. **To talk over:** **The boy hero's body.** Recommended: LPC "teen", closer to Golden Sun's leads; the adult body for adult NPCs.
+5. **Decided (16 Oct):** **The hero creator.** Recommended:
    - Pre-composed sheets with colour keys: 2 genders × 6 styles × 3 outfits × 3 accessories, about 13 MB.
    - A palette shader does the recolouring, so colours change instantly.
    - Eye colour uses the head's own eye ramp.
 
    [Layers composed at runtime and baked to the save folder, about 3 MB with more code.] Either way this rewrites
    the creator page's "paper-doll layers" line.
-6. **Font.** Recommended: Kenney Pixel 16 in the message box and battle narration, and Kenney Mini 8 in menus. Both
+6. **Decided (16 Oct):** **Font.** Recommended: Kenney Pixel 16 in the message box and battle narration, and Kenney Mini 8 in menus. Both
    have real lower case. Boxes then hold 3 lines, as Golden Sun's do. [Mini 8 everywhere; keep Mini Square, which
    has capitals only.]
-7. **UI scale after the switch.** Recommended: 2× everywhere at first, which looks identical to today. Decide 1×
+7. **Decided (16 Oct):** **UI scale after the switch.** Recommended: 2× everywhere at first, which looks identical to today. Decide 1×
    inner / 2× cover later. [Native 1×; per screen from the start.]
-8. **32-px tiles.** Recommended: keep Golden Sun's tiles at 2× until the graphics pass. Then download the LPC base
+8. **To talk over:** **32-px tiles.** Recommended: keep Golden Sun's tiles at 2× until the graphics pass. Then download the LPC base
    tilesets from OpenGameArt as the main source; that download needs your go-ahead. [CC0 only (flat top-down DCSS);
    draw our own.]
-9. **Library art in git.** Recommended: commit the CC0 picks (about 1–3 MB) and gitignore the LPC output, which
+9. **Decided (16 Oct):** **Library art in git.** Recommended: commit the CC0 picks (about 1–3 MB) and gitignore the LPC output, which
    the composer rebuilds from committed recipes. [Gitignore both; commit both.]
-10. **Battle sprite scales.** Recommended: whole numbers at 480. Adepts and partners at 2×; enemies at 2× for up to
+10. **Decided (16 Oct):** **Battle sprite scales.** Recommended: whole numbers at 480. Adepts and partners at 2×; enemies at 2× for up to
     4 and 1× for 5 or more. [Keep today's fractional steps (your 1.3 and 0.7 end points).]
-11. **Battle backgrounds.** Recommended: Pixel-boy's 12 day/night scenes at 1× with the horizon clamped, and night
+11. **Decided (16 Oct):** **Battle backgrounds.** Recommended: Pixel-boy's 12 day/night scenes at 1× with the horizon clamped, and night
     set per room. [A clock or story flag.]
-12. **Move effects.** Recommended: hard-edged CC0 sheets now, Golden Sun's own Psynergy effects plugged in later.
+12. **To talk over:** **Move effects.** Recommended: hard-edged CC0 sheets now, Golden Sun's own Psynergy effects plugged in later.
     Drop the soft-rendered packs. [Decode GS effects first.]
-13. **Unleash and Pokémon on their feet.** Recommended:
+13. **Decided (16 Oct):** **Unleash and Pokémon on their feet.** Recommended:
     - The unleashed Pokémon appears beside its Adept.
     - Pokémon pictures stand on their feet line; today they float a few pixels up.
-14. **Icons, emotes, prompts, frames.** Recommended:
+14. **Decided (16 Oct):** **Icons, emotes, prompts, frames.** Recommended:
     - DCSS 32-px icons, plus drawn ones for Herb, Nut, Mint and the balls;
     - Golden Sun's emote sprite;
     - Kenney pixel button prompts;
     - an RPG-Frames window border recoloured to our navy.
-15. **Tamsin's look.** She is Mia's sprite in one room and Garet's in another. Recommended: one female look now
+15. **Decided (16 Oct):** **Tamsin's look.** She is Mia's sprite in one room and Garet's in another. Recommended: one female look now
     (sprite 3), and an LPC look later.
-16. **Shipping less.** Recommended: after a phone smoke test, also drop the test framework (1.4 MB) and the unused
+16. **To talk over:** **Shipping less.** Recommended: after a phone smoke test, also drop the test framework (1.4 MB) and the unused
     Golden Sun 2 sprites (6 MB). Together with Phase 1 the APK goes from about 63 MB to 45 MB. [Keep them for
     Lost Age content.]
-17. **LPC eye credits.** 3,263 LPC files have no credit, including the adult eyes. Recommended: use the head's own
+17. **To talk over:** **LPC eye credits.** 3,263 LPC files have no credit, including the adult eyes. Recommended: use the head's own
     eyes and refuse uncredited layers. [Research their credits.]
 
 ## 5. Risks worth knowing

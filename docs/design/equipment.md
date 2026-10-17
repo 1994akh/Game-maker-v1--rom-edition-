@@ -186,8 +186,7 @@ a Wind Seer's loses about 20%: a Kusanagi gives 108, as in Golden Sun, instead o
 | 0x08 | important | can't be sold or discarded |
 | 0x10 | stacks | consumables |
 
-The extractor mislabels these and the types 7–11 (`re/gbax/codecs/gs_units.py`); the fix is listed in
-items-and-economy.md §14.
+The extractor's labels for these and for types 7–11 were fixed in design PR #45 (`re/gbax/codecs/gs_units.py`).
 
 ## 6. Pokémon and gear
 
@@ -364,8 +363,8 @@ A Buy  B Back  X Info  L/R Compare
   encounter rate, weapon element and Weapon Art. It is used inside `UnitFactory.adept_from_pc` before the class
   multiplier.
 - `PartyBuilder.preview(party, adept_id, changes) -> {before, after}`.
-- `GsFormulas.unleash_chance`, `crit16` and `recalc_stats`, each with oracle vectors. The oracle's unleash chance
-  needs Golden Sun's clamp of a negative bonus to 0.
+- `GsFormulas.unleash_chance`, `crit16` and `recalc_stats`, each with oracle vectors. The oracle's unleash chance clamps a
+  negative bonus to 0 since design PR #45.
 - `Battle`: a Weapon Art roll in `_attack`, the bound check at turn start, regen at round end, and worn gear as an
   item source. `BattleUnit` serialises `weapon_element` and the new fields.
 - `tools/gear_check.gd` validates every kit (slot and profile) in adepts.json and trainers.json.
@@ -399,21 +398,22 @@ Recommended first. The alternatives are in brackets. Questions the items review 
 (held items: items 8; curses, breakage and the forge: items 21; the Weapon Art name: items 23), and are not repeated
 here.
 
-1. **How gear is stored and changed.** Recommended: the shared bag plus each Adept's 7 worn slots, as built. An
+Answered on the decision page, 16 Oct: accepted items are marked **Decided (16 Oct)**, the rest **To talk over**.
+1. **Decided (16 Oct):** **How gear is stored and changed.** Recommended: the shared bag plus each Adept's 7 worn slots, as built. An
    Equip entry in the Start menu, also reached from Items and Status, with one stat preview, usable anywhere outside
    battle. [Golden Sun's per-Adept item lists with Give; only at restoration points.]
-2. **Who can wear what.** Recommended: equip profiles per Adept, starting equal to today, then the tuning in §4 with
+2. **Decided (16 Oct):** **Who can wear what.** Recommended: equip profiles per Adept, starting equal to today, then the tuning in §4 with
    the kit changes in the same step. [Keep the borrowed Golden Sun masks; no restrictions.]
-3. **The order stats are built in.** Recommended: Golden Sun's, with gear before the class multiplier and the bond
+3. **Decided (16 Oct):** **The order stats are built in.** Recommended: Golden Sun's, with gear before the class multiplier and the bond
    share last. [Today's order: Seers gain up to 25% extra from weapons, and Squires and Guards lose about 9%.]
-4. **Weapon Arts.** Recommended: keep them at Golden Sun's 35% plus the gear bonus. [Drop them: 29 weapons lose their
+4. **Decided (16 Oct):** **Weapon Arts.** Recommended: keep them at Golden Sun's 35% plus the gear bonus. [Drop them: 29 weapons lose their
    signature move.]
-5. **The starting Machete's lock.** Recommended: honour "can't be removed" only on cursed gear. [Start the hero with
+5. **Decided (16 Oct):** **The starting Machete's lock.** Recommended: honour "can't be removed" only on cursed gear. [Start the hero with
    the Short Sword; honour it everywhere, leaving the hero stuck with the Machete.]
-6. **Usable gear.** Recommended: usable from the bag or while worn, now; breakage later if items decision 21 keeps it.
+6. **Decided (16 Oct):** **Usable gear.** Recommended: usable from the bag or while worn, now; breakage later if items decision 21 keeps it.
    [Usable and unbreakable for good; not usable.]
-7. **Slots.** Recommended: all seven, as built. [Golden Sun's four classic slots first; an eighth class-item slot.]
-8. **Item table.** Recommended: GS1's table for Act I. Switch to GS2's superset later, as its own step. The switch
+7. **Decided (16 Oct):** **Slots.** Recommended: all seven, as built. [Golden Sun's four classic slots first; an eighth class-item slot.]
+8. **To talk over:** **Item table.** Recommended: GS1's table for Act I. Switch to GS2's superset later, as its own step. The switch
    touches more than item ids:
    - item rows point into their own game's ability table (Weapon Arts, uses);
    - the description text base changes;
@@ -421,25 +421,25 @@ here.
    - saves already hold GS1 ids.
 
    [Switch now, before saves spread; hand-pick GS2 pieces into our own items.]
-9. **Forest and Shadow gear.** Recommended: our own effect kinds for Forest and Shadow Power and Resist, and a few
+9. **Decided (16 Oct):** **Forest and Shadow gear.** Recommended: our own effect kinds for Forest and Shadow Power and Resist, and a few
    elemental weapons and charms of our own. [Golden Sun's four elements only, so Sorrel and Vesper never get element
    gear.]
-10. **Gear across crews and guests.** Recommended:
+10. **Decided (16 Oct):** **Gear across crews and guests.** Recommended:
     - Gear travels with its Adept, as built.
     - Guests may re-equip.
     - On Marrow Isle the Equip screen shows both crews and offers "Hand over gear" to move the waiting crew's gear
       into the bag.
 
     [Strip gear on every trade; only the active crew can be equipped.]
-11. **Recruit kits.** Recommended: each recruit arrives with a kit for their join level, weapon included (Maren a
+11. **Decided (16 Oct):** **Recruit kits.** Recommended: each recruit arrives with a kit for their join level, weapon included (Maren a
     mace, Sorrel a staff, Vesper and Nerissa light blades, Wynn a staff). Corvin and Tamsin's story-fight Machete
     becomes their join kit too. [Keep the Cotton Shirt kits and rely on shops and chests.]
-12. **Paying for eight Adepts.** Recommended: Golden Sun prices, with recruit kits, chests in each crew's missions,
+12. **Decided (16 Oct):** **Paying for eight Adepts.** Recommended: Golden Sun prices, with recruit kits, chests in each crew's missions,
     and coins from crew 2's story fights. Agree one income figure with items decision 4. [The waiting crew earns
     half coins; halve gear prices; a shared armoury.]
-13. **Does gear show on the sprite?** Recommended: the weapon in battle (Golden Sun's overlays now, LPC later); armour
+13. **To talk over:** **Does gear show on the sprite?** Recommended: the weapon in battle (Golden Sun's overlays now, LPC later); armour
     never. [Armour layers too; nothing.]
-14. **A "Best" button.** Recommended: yes, on Y, with a yes/no check. [None, as in Golden Sun.]
-15. **Enemy trainers' gear.** Enemy Adepts mirror ours (decided) and wear kits through the same build. Recommended:
+14. **To talk over:** **A "Best" button.** Recommended: yes, on Y, with a yes/no check. [None, as in Golden Sun.]
+15. **Decided (16 Oct):** **Enemy trainers' gear.** Enemy Adepts mirror ours (decided) and wear kits through the same build. Recommended:
     they get gear stats, effects and regen, but no Weapon Arts or curses at first; Golden Sun's monsters never use
     Weapon Arts. [Everything ours has; stats only.]
