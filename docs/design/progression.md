@@ -121,7 +121,7 @@ Recommended first. The alternatives are in brackets.
 
 Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 **Act I levels and story fights**
-1. **To talk over:** **Story recruits' levels.** Corvin copies the hero's level once, which is L5 unless you trained. Recommended: a
+1. **Decided (17 Oct):** **Story recruits' levels.** Corvin copies the hero's level once, which is L5 unless you trained. Recommended: a
    join-level floor per mission in data (Corvin L7 at M2 and M4, L8 at M7, L9 at M8), then re-measure every story
    fight. [Add random fights to crew 2's rooms; retune Tamsin and Ho-Oh for L5; leave it.]
 2. **Decided (16 Oct):** **A lost story fight.** Today it restarts forever, and an Attack-only player can be stuck. Recommended: after a
@@ -137,7 +137,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Adept growth**
 
-5. **To talk over:** **Class tiers.** Recommended:
+5. **Decided (17 Oct):** **Class tiers.** Recommended:
    - Golden Sun's 5-tier lines, rising at Adept L1/10/20/30/40.
    - Each Set Pokémon of the Adept's group adds +1 elemental level (+5 Power and Resist).
    - At L30 that takes hits-to-down from 2.0 to about 3, and unlocks the late Psynergy (the Gaia line, Revive, Wish).

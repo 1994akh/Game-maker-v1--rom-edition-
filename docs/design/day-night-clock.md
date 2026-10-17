@@ -54,15 +54,17 @@ species appear (decision 1 below).
 
 ## 5. Decisions for you
 
-1. **What night changes besides the look.** Recommended: Kin habitats (some species only at night), the Lantern Reef
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
+
+1. **Decided (17 Oct):** **What night changes besides the look.** Recommended: Kin habitats (some species only at night), the Lantern Reef
    night decks and the night battle backgrounds; never prices, stats or the encounter rate. [Night also raises the
    wild encounter rate by a quarter; night changes nothing but the look.]
-2. **How the player sees the phase.** Recommended: no HUD element; the room tint shows it, the pause screen names it
+2. **Decided (17 Oct):** **How the player sees the phase.** Recommended: no HUD element; the room tint shows it, the pause screen names it
    ("Dusk") and the Chart's habitat marks say "night". [A small sun or moon beside the compass; nothing but the
    tint.]
-3. **Skipping ahead.** Recommended: an inn or a restoration point rests to dawn, and a bunk at home or on the ship
+3. **Decided (17 Oct):** **Skipping ahead.** Recommended: an inn or a restoration point rests to dawn, and a bunk at home or on the ship
    offers "Sleep until dusk" / "until dawn", so no one waits for the reef. [Walking only, no skipping; a Psynergy or
    an item that turns the clock.]
-4. **Scenes and the clock.** Recommended: scenes may set the phase (the Keeping Night opener, the reef's arrival at
+4. **Decided (17 Oct):** **Scenes and the clock.** Recommended: scenes may set the phase (the Keeping Night opener, the reef's arrival at
    dusk), and the phase saves with the game under a new save format version with a migration. [Scenes never touch
    the clock; the player's walking is the only hand.]

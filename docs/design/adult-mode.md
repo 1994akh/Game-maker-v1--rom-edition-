@@ -194,10 +194,10 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 22. **Decided (17 Oct):** **Adult-mission rewards and the economy.** Recommended: the same coin and charm scale as normal side missions, so
     a player with the mode on is never richer or stronger (§1); gallery entries and adult looks are the mode's own
     rewards. [Richer rewards as an incentive for the mode.]
-23. **The Giant Dildo Sword's power.** Recommended: an ultimate weapon in look and moves (its own unleash, attack
+23. **Decided (17 Oct):** **The Giant Dildo Sword's power.** Recommended: an ultimate weapon in look and moves (its own unleash, attack
     line and effect), with numbers equal to the best weapon available at that point in the story, so a player
     without the mode is never weaker. [Genuinely stronger, the one exception to "no effect on play"; the strongest
     weapon in the game, unlocked late.]
-24. **A forgotten code.** Recommended: the title screen's options can clear the code after the 18+ warning and the
+24. **Decided (17 Oct):** **A forgotten code.** Recommended: the title screen's options can clear the code after the 18+ warning and the
     age confirmation again, which also turns the mode off. [No recovery: a new game; the code can be changed only
     while the mode is on.]
