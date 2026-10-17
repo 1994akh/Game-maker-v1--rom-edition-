@@ -37,6 +37,13 @@ header; the detailed rules are in `docs/design/`.
   partner's HP share); they go to the bug-fix build. The rest of the engine review is running.
 - Earlier, 16 Oct: design PR #45 corrected the codec's item type and flag labels and the oracle's unleash clamp;
   design PR #46 added the story-chat questions page.
+- **Decided (you, 17 Oct): adult mode has its own missions.** Adult-themed side missions, missions that exist only
+  in the mode, and mode-exclusive variants of main missions; a variant changes scenes and lines, never unlocks.
+  [adult-mode.md](design/adult-mode.md) §1 and §3, with four new decisions.
+- **17 Oct:** engine PR #56 (the APK pipeline: `builds/` and `tests/` leave the APK, 62.7 → 52.9 MB) merged after its
+  reviewer ran all three new tools clean. The uploaded Pokémon Essentials fan game was decompiled read-only
+  (scripts to text, maps to JSON, every graphic and sound catalogued) for the adult-mode asset curation; two
+  Pokémon-involving scene sets are excluded under the rules.
 - Built on Fable 5.1 from here.
 
 ## 16 Oct 2026 (progression audit and the art-integration plan)

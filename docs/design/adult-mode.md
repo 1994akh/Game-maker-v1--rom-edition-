@@ -6,10 +6,12 @@ there. Everything below is **proposed** unless marked **your rule**.
 
 ## 1. Rules
 
-**Your rules (16 Oct):**
+**Your rules (16–17 Oct):**
 - An optional item, the **Adult-o-Vision glasses**, switches adult mode on and off at any time.
 - Adult mode opens what is otherwise hidden: alternate sprites, story points, dialogue, easter eggs, and a side
   mission that collects pop-up art from hidden books, magazines and other places, viewed in a hidden menu.
+- **Adult mode has its own missions (17 Oct):** adult-themed side missions, missions that exist only in the mode, and
+  mode-exclusive variants of missions.
 - Adult scenes are between **consenting adults only**.
 
 **Proposed rules that follow from those:**
@@ -21,8 +23,9 @@ there. Everything below is **proposed** unless marked **your rule**.
   content, the hero is an adult in canon, and the adult body type is the safer art choice (art decision 4).
 - **Consent is on the page.** A scene shows both people choosing it; nothing is written as coercion, payment for
   rescue, or a captor's leverage. The story chat holds this line when it writes the beats.
-- **Off by default, and nothing required is behind it.** No mission, recruit, area, reward or completion item
-  outside the adult side mission itself needs adult mode. Turning it off hides everything again at once.
+- **Off by default, and nothing required is behind it.** No main mission, recruit, area, reward or completion item
+  needs adult mode. Its own missions are side content; a mode-exclusive variant of a mission changes the scenes and
+  lines, never the unlocks, so the normal version stays complete. Turning it off hides everything again at once.
 - **No effect on play.** Adult mode never changes battles, stats, prices, encounters or the clock.
 
 ## 2. The item
@@ -45,8 +48,20 @@ All of it uses what the engine already has.
 - **Sprites.** `data_src/cast.json` looks get an optional `adult` variant. The cast resolver (engine PR #55) returns
   that look while the flag is set, for the field and for battle. Variants are drawn to the 64×64 standard like
   every other look (art scale 2).
-- **Story points and easter eggs.** Scene steps gated with `when`; a scene may branch on the flag. The story chat
-  lists which beats are adult-only, so the engine knows what to build per mission.
+- **Story points and easter eggs.** Scene steps gated with `when`; a scene may branch on the flag. The list of
+  adult-only beats is a decision on the decision page (the story chat is archived), so the engine knows what to
+  build per mission.
+- **Adult-only missions and variants (your rule, 17 Oct).** Three shapes, all on the existing mission tooling
+  (`maps_src/<room>/events.json`, flags, `FieldScript` steps, `tools/missionN_check.gd`):
+  - **Side missions** that only exist while the mode is on: their quest-givers, rooms' extra actors and rewards carry
+    `while_set adult_mode`. They are optional, hang off the home island and the recruited Adepts' heart quests, and
+    reward gallery entries, adult looks, charms or coins. The gallery hunt (§3 above) is the first of them.
+  - **Mode-exclusive missions**: the same, but with their own rooms or room variants and a mission page in
+    `docs/design/` like the main ones. Flags `am_<n>_done` keep them apart from the main `m<n>_done` chain.
+  - **Mode-exclusive variants of main missions**: the same mission with adult scenes, lines and looks swapped in
+    through `when` branches and `adult` looks. The variant sets the same flags and gives the same unlocks as the
+    normal run, so a player who toggles the mode mid-game is never stuck or short.
+  - Each mission's two versions are checked by the same `missionN_check`, run with the flag clear and set.
 - **Pop-up art.** A new actor role `gallery`: a hidden book, magazine, painting or the like. With the mode on,
   interacting shows the picture full screen (a `Popup` screen: fit to the view, A or B closes) and sets the flag
   `gallery:<id>`. With the mode off, the object shows a plain line ("A dusty book.") or is absent, per its row.
@@ -86,3 +101,14 @@ All of it uses what the engine already has.
 5. **Easter eggs and completion.** Recommended: adult-only finds count in a hidden % shown only while the mode is on.
    [Count nowhere; count in the Log's normal %.]
 6. **Adult looks in battle too, or field only.** Recommended: both, through the same cast variant. [Field only.]
+7. **How many adult-only missions in Act I.** Recommended: the gallery hunt plus one side mission per recruited
+   Adept (a heart quest with an adult beat), so seven, written after the main missions' variants. [The gallery hunt
+   only; a fixed three.]
+8. **Which main missions get a variant.** Recommended: only missions whose scenes involve an approved adult character
+   and no Pokémon beat, starting with missions 3, 5 and 6 (Maren, Sorrel and Vesper join there). [Every mission;
+   none, side missions only.]
+9. **Who writes them.** The story chat is archived. Recommended: the engine side drafts each mission's outline and
+   lines as a mission page for your approval on the decision page, then builds it. [You write the outlines in
+   story.md first.]
+10. **Where adult missions and variants sit in the order of work.** Recommended: after the bug-fix build and the
+    first adult assets land, before mission 11, so the toggle has content from the start of Act II. [After Act II.]
