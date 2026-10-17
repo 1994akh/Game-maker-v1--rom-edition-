@@ -28,8 +28,10 @@ header; the detailed rules are in `docs/design/`.
   phases by walking and rest, never the phone's time), what reads it (Lantern Reef's night decks, Kin habitats,
   time evolutions, night battle backgrounds) and the engine seams, with four questions on the decision page's new
   Clock tab. It is built after the bug-fix slices.
-- **Art decision 4 settled** by your adult-mode answer 2: the hero is an adult, drawn on the adult body.
-  **Proposed:** Corvin on the adult body too.
+- **Decided (you, 17 Oct, talked over in chat): the demo's art direction.** Art 3: every person is LPC, the 8
+  Adepts first, then all 18 townsfolk looks together. Art 4: the adult body for the hero (your adult-mode answer 2)
+  and for Corvin, so the rivals match. Art 8: Golden Sun's tiles stay at 2× for the demo, Essentials as a parts
+  bin. Battle is all 2×. The art pass starts with the probe's fix list ([art-integration.md](design/art-integration.md) §3a).
 
 ## 17 Oct 2026 (demo first)
 

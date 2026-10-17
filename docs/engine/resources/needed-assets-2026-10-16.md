@@ -39,11 +39,11 @@ from the ROMs or the local pokeemerald-expansion checkout goes into git (`assets
 
 | Need | What it waits on | What we have | If the answer is no |
 |---|---|---|---|
-| Adept, hero and rival sprites at 64 px (field and battle) | **art 3** (adopt LPC), **art 4** (the boy's body), **art 17** (eye credits) | LPC layers on disk; the composer tool half-written (the "lpc-composer wip" stash); recipes for the 8 Adepts drafted | Keep Golden Sun's sprites at 2× for now, or draw/generate our own (the Aseprite AI tool needs an NVIDIA GPU this PC lacks) |
-| 18 townsfolk looks | art 3 | LPC child, elderly and adult bodies | Golden Sun's townsfolk at 2× |
+| Adept, hero and rival sprites at 64 px (field and battle) | **Decided 17 Oct:** LPC (art 3), the adult body for the hero and Corvin (art 4); **art 17** (eye credits) is already satisfied by the probe | LPC layers on disk; the composer tool half-written (the "lpc-composer wip" stash); recipes for the 8 Adepts drafted | Keep Golden Sun's sprites at 2× for now, or draw/generate our own (the Aseprite AI tool needs an NVIDIA GPU this PC lacks) |
+| 18 townsfolk looks | **Decided 17 Oct:** LPC (art 3) | LPC child, elderly and adult bodies | Golden Sun's townsfolk at 2× |
 | Hero creator kit (you accepted art 5: 108 key-coloured sheets plus a palette shader) | art 3 | LPC hair, outfits, accessories, palettes | art 5 needs a different kit source |
 | Weapons shown in battle | **equip 13** | Golden Sun's own weapon overlays (exported); LPC weapon layers later | Nothing shows |
-| 32-px tiles | **art 8** | Only DCSS dungeon tiles (flat top-down, prototype only). The LPC base tilesets are on OpenGameArt, CC-BY-SA, **not on disk: a download needs your go-ahead** | Golden Sun's tiles stay at 2× |
+| 32-px tiles | **Decided 17 Oct:** Golden Sun's tiles for the demo (art 8) | Only DCSS dungeon tiles (flat top-down, prototype only). The LPC base tilesets are on OpenGameArt, CC-BY-SA, **not on disk: a download needs your go-ahead** | Golden Sun's tiles stay at 2× |
 | Move and Psynergy effects | **art 12** | Hard-edged CC0 sheets (Pixel-boy fx, DevWizard spells, explosions) on disk; the expansion's `battle_anims` (the Pokémon moves' own effect sheets, 16-bit style); Golden Sun's Psynergy effects (ROM, not decoded) | Pokémon moves keep playing with no effect, as today |
 | A smaller APK | **art 16** | — | 52.9 MB stays (it was 62.7) |
 
