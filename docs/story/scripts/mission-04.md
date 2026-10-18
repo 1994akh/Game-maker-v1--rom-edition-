@@ -185,7 +185,7 @@ that bell.
   and `m4_ash`, unless `m4_tamsin` (the battle role).
 
 *Tamsin waits in the sparring ring, bouncing on her toes: a tall young woman in a red sparring wrap with the sleeves
-torn off, her red hair cropped short under a tied orange headband (her LPC look), her knuckles taped, a burn scar
+torn off, her red hair cropped short under a tied gold headband (her LPC look), her knuckles taped, a burn scar
 up one forearm. Riolu bounces beside her, in time. [face Tamsin → Corvin]*
 
 **Tamsin:** So. The Rimborn who moved our stone
