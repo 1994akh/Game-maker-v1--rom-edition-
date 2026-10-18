@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 18 Oct 2026
 
+- **The first scripts, for your yes** (demo decision 1): the opening and missions 1 and 2 written in full in
+  [docs/story/scripts/](story/scripts/) (334 message-box pages, every line within the 3-line, 36-character budget, two
+  reply beats a mission with quiet versions, the mission 1 eggs), checked by a second editor against story.md and
+  your rules. A new **Scripts** tab carries one card per script plus their new canon and build changes.
 - **Every question and decision on the decision page (your rule, 18 Oct: the cloud chat is archived and will
   no longer be used).** Two new tabs: **Open questions** ([open-questions.md](design/open-questions.md)), 26
   questions swept from every doc that were still left to the chat or open (Summon and class names, the cast's
