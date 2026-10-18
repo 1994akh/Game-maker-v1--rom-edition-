@@ -5,8 +5,7 @@
 Demo decision 1 (yours, 18 Oct): the engine side writes every mission's full script in story.md's tone and posts it
 here for your yes or notes before it is built. Each card below is one script page in this folder; read it on GitHub
 (the links are in each card), then pick "Approve as written", "Approve with my notes" (write the notes in the card's
-note box) or "Rewrite it". Missions 3 and 4 are being written now; missions 5 to 10 follow, faster once you've judged
-the voice on these. The format, the tokens and the line budget are in [README.md](README.md).
+note box) or "Rewrite it". Missions 3 and 4 are added (18 Oct); missions 5 to 10 follow, faster once you've judged the voice on these. The format, the tokens and the line budget are in [README.md](README.md).
 
 ## 2. Decisions for you
 
@@ -40,3 +39,27 @@ Recommended first. The alternatives are in brackets.
    light, camera pans, poses, reply menus), text that changes with flags, a {LEADER} token so chest lines name whoever
    leads, a free inn in mission 2, and the hatchery as a scene. Recommended: build them in demo slice 9, the story
    pass, as listed. [Build only the words and steps, keeping today's rooms until the playtest.]
+6. **Mission 3, Highwater** (mission-03.md, 185 pages). Ilse posts Maren, a by-the-book Tidewarden medic and Sea
+   Adept, to the hero, lends them the Kestrel and sails south with the tithe fleet. In Canalport Maren's Frost plugs
+   the dike, Harbourmaster Quayle gives a Marill and with it Surf, and the crew swims the drowned lower town: a swing
+   bridge, Barnaby the bargeman, three Frost pillars across the Long Weir and an optional dig. The sluice beast isn't
+   guarding anything; the spring tide wedged it in the gates, and beaten it slips free alive. The Kestrel is theirs;
+   on the jetty Maren asks whether the hero can bring Corvin in. Eggs: Captain Maize and the push-the-truck rumour.
+   Read it at https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-03.md.
+   Recommended: approve it as written. [Approve with my notes; rewrite it.]
+7. **Mission 4, The Forgeheart** (mission-04.md, 198 pages). Corvin reaches Embral; Abbot Haldor refuses him, but the
+   Open Door lets anyone who passes three trials ask one thing: the stone (Move), the ash heaps (Scoop) and the fist,
+   a fight with Tamsin, who rates everything out of ten and names him "Landslide". She holds the abbot to his word,
+   joins, admits the tithe braziers have quadrupled, lights the Well's braziers with Blaze and pulls the seal with
+   him. Ho-Oh rises grey and in agony, judges them in a fixed-length fight it ends itself, and bursts through the roof
+   with the sacred flame: nothing legendary is gained (progression 20). The Forgeheart burns, Tamsin saves the Elder
+   (a much-loved Bidoof) and is sent away; Ilse's letter names the Forest seal next. Read it at
+   https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-04.md. Recommended:
+   approve it as written. [Approve with my notes; rewrite it.]
+8. **New canon in missions 3 and 4.** Letters by Wingull; Ilse's flagship the Holdfast; Canalport as the City of a
+   Hundred Bridges and its people (Quayle, Barnaby and Lettie, Effie, Odile, Mother Brindle); Maize's sloop the Merry
+   Wooloo; Maren's weekly reports flown west, a quiet seed for mission 9; the Forgeheart's Open Door and its three
+   trials, Abbot Haldor and the brothers and sisters; the fire tithe of braziers (forty this year, ten in Tamsin's
+   novice days); the carved Summon panels with a blank fourth ("the firebird keeps the fourth"), the in-world reason
+   the top Flame Summon waits; the Elder. Recommended: accept them into the canon, with story.md updated to match.
+   [Accept with my notes; strike the ones I name.]
