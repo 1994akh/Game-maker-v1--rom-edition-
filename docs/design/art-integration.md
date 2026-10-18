@@ -152,7 +152,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     4 and 1× for 5 or more. [Keep today's fractional steps (your 1.3 and 0.7 end points).]
 11. **Decided (16 Oct):** **Battle backgrounds.** Recommended: Pixel-boy's 12 day/night scenes at 1× with the horizon clamped, and night
     set per room. [A clock or story flag.]
-12. **Decided (18 Oct):** **Move effects.** Recommended: hard-edged CC0 sheets now, Golden Sun's own Psynergy effects plugged in later.
+12. **Decided (17 Oct):** **Move effects.** Recommended: hard-edged CC0 sheets now, Golden Sun's own Psynergy effects plugged in later.
     Drop the soft-rendered packs. [Decode GS effects first.]
 13. **Decided (16 Oct):** **Unleash and Pokémon on their feet.** Recommended:
     - The unleashed Pokémon appears beside its Adept.
@@ -164,10 +164,10 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     - an RPG-Frames window border recoloured to our navy.
 15. **Decided (16 Oct):** **Tamsin's look.** She is Mia's sprite in one room and Garet's in another. Recommended: one female look now
     (sprite 3), and an LPC look later.
-16. **Decided (18 Oct), alternative:** **Shipping less.** Recommended: after a phone smoke test, also drop the test framework (1.4 MB) and the unused
+16. **Decided (17 Oct), alternative:** **Shipping less.** Recommended: after a phone smoke test, also drop the test framework (1.4 MB) and the unused
     Golden Sun 2 sprites (6 MB). Together with Phase 1 the APK goes from about 63 MB to 45 MB. [Keep them for
     Lost Age content.]
-17. **Decided (18 Oct), alternative:** **LPC eye credits.** 3,263 LPC files have no credit, including the adult eyes. Recommended: use the head's own
+17. **Decided (17 Oct), alternative:** **LPC eye credits.** 3,263 LPC files have no credit, including the adult eyes. Recommended: use the head's own
     eyes and refuse uncredited layers. [Research their credits.]
     Your note (17 Oct): uncredited layers may be used, the game being for personal use; the composer credits
     them as "LPC contributors (uncredited)" and the research continues for the credits scroll.

@@ -362,7 +362,7 @@ the bag, shop and drop page read.
 Recommended first. The alternatives are in brackets.
 
 Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
-1. **Decided (18 Oct):** **Coin scale and ball prices.** Recommended:
+1. **Decided (17 Oct):** **Coin scale and ball prices.** Recommended:
    - Golden Sun's scale for everything: Poké Ball 30, Great 100, Ultra 300, specialty balls 250, Escape Rope 50,
      Repel 40, stones 1,200.
    - Brann gives 5 balls with the first partner.
@@ -387,7 +387,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
    Kin Garden and can join a Set at the next restoration point, which keeps the decided "Set Pokémon change only at
    restoration points". [The thrower's Set if it has an empty slot, which amends that rule (filling an empty slot
    isn't a swap); or as built, the lead's Set.] Never a guest's Set.
-7. **Decided (18 Oct):** **Ball roster.** Recommended: Poké, Great and Ultra in shops, plus a rare Farer Ball (always catches); the
+7. **Decided (17 Oct):** **Ball roster.** Recommended: Poké, Great and Ultra in shops, plus a rare Farer Ball (always catches); the
    specialty balls later. [The full expansion set; Poké, Great, Ultra and Master only.]
 8. **Decided (16 Oct):** **Held items.** Recommended: none. Held evolution items become bag items, and about six effects (type boost,
    Leftovers, Lucky Egg, Amulet Coin, Quick Claw, Scope Lens) can become Adept rings or charms (equipment review).
@@ -417,7 +417,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 16. **Decided (16 Oct):** **PP for item Psynergy.** Recommended: the normal PP of the Adept who uses it, which confirms the decided rule.
     [Free like HMs; a flat 1 PP.]
 17. **Decided (16 Oct):** **Stack cap and pockets.** Recommended: 99 per stack, with the six pockets. [Golden Sun's 30; no cap.]
-18. **Decided (18 Oct):** **Bike, rod, Dowsing Machine.** Recommended: none. Water Pokémon come from Surf, Dive and sailing; one "Rod" key
+18. **Decided (17 Oct):** **Bike, rod, Dowsing Machine.** Recommended: none. Water Pokémon come from Surf, Dive and sailing; one "Rod" key
     item can come later. [Unbound's three rods; a bike on the world map.]
 19. **Decided (16 Oct):** **Rest prices.** Recommended: a per-room price on Golden Sun's inn ladder (2–25 per Adept), charged only for
     Adepts below full; revival level × 20, curse removal level × 10. [A flat price by danger stars; keep the flat 6.]
@@ -432,6 +432,6 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     "Catch" for the Forest verb and "Unleash" for the Set Pokémon action. [Keep both names.]
 24. **Decided (16 Oct):** **Mini-game currency.** Recommended: Golden Sun's Game Tickets and Lucky Medals at the Glimmer Saucer. [Plain
     coins; a casino coin.]
-25. **Decided (18 Oct):** **Ho-Oh's catch style.** story.md gives each legendary its own style. Recommended: keep Ho-Oh's classic catch
+25. **Decided (17 Oct):** **Ho-Oh's catch style.** story.md gives each legendary its own style. Recommended: keep Ho-Oh's classic catch
     after the fight, made possible by the Farer Ball or a calmed catch-rate floor. [Make the forge fight end with
     Ho-Oh joining by script.]
