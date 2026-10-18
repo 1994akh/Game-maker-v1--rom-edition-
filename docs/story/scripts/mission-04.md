@@ -21,13 +21,14 @@
 **The flow.** Ketch lands Corvin on Embral, where the Forgeheart's sacred flame burns low and the tithe fleet is
 due. Abbot Haldor refuses him the Well, but the Forgeheart turns nobody from its trials: pass the stone, the ash
 and the fist, and ask one thing. Corvin moves the stone, digs up the bell and beats Tamsin, the monastery's best.
-He asks for the seal. Haldor refuses, until Tamsin holds him to the Open Door's word: Corvin may look, and Tamsin
-goes with him to stop his hand. On the Well stair she tells him why she came: forty tithe braziers this year, ten
-when she was a novice, and the flame half its height. They light the stair, reach the seal, and pull it together.
-Ho-Oh rises from the Well grey and in agony, judges them in a fight it ends itself, takes back its colour and
-bursts up through the roof, and the sacred flame goes with it. The Forgeheart burns. Haldor sends Tamsin away for
-the night. Ketch runs the skiff past the tithe fleet into the Galeway. Two days later a Wingull brings Ilse's
-letter to Canalport's jetty: the Forest seal is next.
+He asks for the seal. Haldor refuses, until Tamsin holds him to the Open Door's word. A monk's word doesn't bend,
+so Haldor keeps it past sense: the Well stair is Corvin's, since no hand has moved the lid in six hundred years,
+and Tamsin goes down as the Forgeheart's eyes. On the stair she tells him why she came: forty tithe braziers this
+year, ten when she was a novice, and the flame half its height. They light the stair, reach the seal, and pull it
+together. Ho-Oh rises from the Well grey and in agony, judges them in a fight it ends itself, takes back its
+colour and bursts up through the roof, and the sacred flame goes with it. The crew gains nothing legendary. The
+Forgeheart burns, and Haldor sends Tamsin away for the night. Ketch runs the skiff past the tithe fleet into the
+Galeway. Two days later a Wingull brings Ilse's letter to Canalport's jetty: the Forest seal is next.
 
 ## Scenes
 
@@ -35,10 +36,10 @@ letter to Canalport's jetty: the Forest seal is next.
 
 - Room: `forge_hall`, the gate court. Trigger: entering, unless `m4_intro` (today's `forge_arrival`, rewritten).
 
-*[phase day] [fade in 40] Embral Isle: black rock and grey ash, the volcano's plume leaning over everything. The
-Forgeheart is built into the mountainside, all red stone and iron roofs: a gate court where monks spar with their
-Pokémon, and beyond it the great hall, where a tall brazier burns at the heart of the floor. Its flame is small for
-its bowl.*
+*[phase day] [fade in 40] Morning on Embral Isle, after a night at anchor in the cove: black rock and grey ash,
+the volcano's plume leaning over everything. The Forgeheart is built into the mountainside, all red stone and iron
+roofs: a gate court where monks spar with their Pokémon, and beyond it the great hall, where a tall brazier burns
+at the heart of the floor. Its flame is small for its bowl.*
 
 *Corvin comes up the cove stair with Larvitar. Ketch's skiff is a speck on the black sand below.*
 
@@ -49,24 +50,29 @@ years.
 And never once let a Rimborn near
 it. No pressure.
 
+*[emote Corvin: sweat] He tugs at his collar.*
+
+**Corvin:** And Sael made me bring a coat.
+To a volcano.
+
 *Larvitar stops to watch a monk and a Machop trade blows in the court. [emote Larvitar: exclaim] A broad, bald
 monk with a face like a closed door steps out of the gate's shadow.*
 
-**Kell:** Halt. Name.
+**Grist:** Halt. Name.
 
 **Corvin:** Corvin. Of Fallhaven.
 
-**Kell:** Business.
+**Grist:** Business.
 
 **Corvin:** The abbot. And then, with luck,
 the Flame Well.
 
-**Kell:** Hm. Luck.
+**Grist:** Hm. Luck.
 
 The tithe fleet is due. The abbot
 is busy. Hall. Mind the sparring.
 
-*[walk Kell → the stone court] [rest point] [flag m4_intro] Control returns.*
+*[walk Grist → the stone court] [rest point] [flag m4_intro] Control returns.*
 
 ### 2. The abbot
 
@@ -138,12 +144,12 @@ answer. Go.
 ### 3. The Trial of Stone
 
 - Room: `forge_hall`, the stone court. Trigger: the training stone reaching the mat (slot 10, `m4_trial`, as
-  built; puzzle 1). Before that, talking to Kell gives the trial (People, below).
+  built; puzzle 1). Before that, talking to Grist gives the trial (People, below).
 
-*The stone settles on the mat with a thump that shakes dust off the posts. [shake 10, 1] Kell looks at it for a
+*The stone settles on the mat with a thump that shakes dust off the posts. [shake 10, 1] Grist looks at it for a
 while.*
 
-**Kell:** Hm.
+**Grist:** Hm.
 
 Good. The Earth answers you. Ash
 court next. Sister Wren.
@@ -179,11 +185,11 @@ that bell.
   and `m4_ash`, unless `m4_tamsin` (the battle role).
 
 *Tamsin waits in the sparring ring, bouncing on her toes: a tall young woman in a red sparring wrap with the sleeves
-torn off, her black hair tied back short, her knuckles taped, a burn scar up one forearm. Riolu bounces beside her,
-in time. [face Tamsin → Corvin]*
+torn off, her red hair cropped short under a tied orange headband (her LPC look), her knuckles taped, a burn scar
+up one forearm. Riolu bounces beside her, in time. [face Tamsin → Corvin]*
 
 **Tamsin:** So. The Rimborn who moved our stone
-and dug up our bell. Cute.
+and dug up our bell. Not bad.
 
 I did both when I was nine. Before
 breakfast.
@@ -251,16 +257,18 @@ taught me to punch.
 **Haldor:** ...It doesn't bend.
 
 Then hear the Forgeheart's answer.
-You may walk the Well stair, and
-look upon the seal.
+The Well stair is yours, Rimborn.
+Go down. Try the seal.
 
-Look. Nothing more.
+No hand has moved that lid in six
+hundred years. Yours will not be
+the first.
 
-Tamsin goes with you. If you lay a
-hand on that seal, she breaks the
-hand.
+Tamsin goes with you, as the
+Forgeheart's eyes. What you do down
+there, she sees.
 
-**Tamsin:** Gladly.
+**Tamsin:** Eyes and fists. Gladly.
 
 *[recruit tamsin] Tamsin and Riolu join the crew.*
 
@@ -281,7 +289,7 @@ somewhere far below. Three cold braziers stand on its landings. At the bottom, a
 Tamsin steps out beside Corvin, and Riolu beside Larvitar.*
 
 **Tamsin:** Right. Down here, Landslide, I'm
-not your guard.
+not just the abbot's eyes.
 
 **Corvin:** No?
 
@@ -352,8 +360,8 @@ down.
 **Tamsin:** Last chance, Landslide. Tell me
 why you'd pull it.
 
-Make it good. I'll know if it
-isn't.
+Make it good. I rate answers
+too.
 
 **Corvin replies:**
 
@@ -475,7 +483,7 @@ flickering] On the stair behind, the old banners catch.*
 **Tamsin:** It went through the roof. The
 hall is right above us.
 
-**Corvin:** Then so are we. Up. Now!
+**Corvin:** Then so is everyone. Up. Now!
 
 *[crew in] [flag m4_judged] [flag well_flame] [warp forge_hall, entrance 1]*
 
@@ -515,10 +523,11 @@ the seals were for.
 
 *[face Haldor → Tamsin]*
 
-**Haldor:** You were sent to stop his hand.
+**Haldor:** I sent you down as the
+Forgeheart's eyes.
 
-**Tamsin:** I didn't stop it. I told him to
-pull.
+**Tamsin:** I didn't just watch. I told him
+to pull, and I pulled with him.
 
 *[emote Haldor: silence] [wait 40]*
 
@@ -534,7 +543,11 @@ They came for the tithe. They will
 find a fire, and they'll want
 someone to blame.
 
-**Corvin:** I'm sorry, Abbot. I mean it.
+**Corvin:** Sorry about your roof, Abbot.
+
+*[wait 20] [emote Corvin: silence]*
+
+**Corvin:** ...I mean it.
 
 **Haldor:** Sorry is a word. Go and make it
 into something.
@@ -561,16 +574,16 @@ the burning floor (puzzle 4).*
 Below the monastery the bay is full of lanterns: a dozen ships with white-and-blue sails, the order's wave and
 ring on each. Boats are rowing for the shore. [camera → the bay] [camera back]*
 
-*Kell stands at the head of the cove stair. [crew out]*
+*Grist stands at the head of the cove stair. [crew out]*
 
-**Kell:** Tidewarden sails. Hm.
+**Grist:** Tidewarden sails. Hm.
 
 The cove stair. Go. I didn't see
 you.
 
-*[face Kell → Tamsin]*
+*[face Grist → Tamsin]*
 
-**Kell:** Tamsin. Come back.
+**Grist:** Tamsin. Come back.
 
 **Tamsin:** ...I will.
 
@@ -593,7 +606,9 @@ Pinnacle! Heave to!
 Commodore's own flag. Hold on to
 something.
 
-**Corvin:** Graymantle. {HERO}'s Commodore.
+**Corvin:** Graymantle herself. I'll bet
+she's made {HERO} her deputy
+by now.
 
 **Narration:** A dozen sails came after them,
 white in the firelight. Ahead, the
@@ -625,8 +640,9 @@ Flame Well ran free.
 bollard with Eevee. A Wingull comes in low from the south and lands beside her, a letter tube on its leg. [show
 Wingull] [crew out]*
 
-**Maren:** The Commodore's seal. It's for
-you, Deputy.
+**Maren:** Two days shovelling Canalport's
+mud, and now this. The Commodore's
+seal. It's for you, Deputy.
 
 *{HERO} breaks the seal and reads.*
 
@@ -646,8 +662,10 @@ Forgeheart beside him.
 My ships cannot follow there. He
 will try another seal.
 
-The nearest is the Forest seal, in
-the Greenwild. Go to the Eldergrove.
+The Forest seal, in the Greenwild,
+has no fleet to guard it. Go to the
+Eldergrove.
+
 Hold it until my orders come.
 
 I. Graymantle, Commodore. Aboard
@@ -708,13 +726,13 @@ chart), so nothing is written for after the fire. Positions are places in the re
   doorframe up with both hands, so
   the novices can get out.
 
-- **Brother Kell**, at the gate (scene 1), then in the stone court. Until `m4_asked`:
+- **Brother Grist**, at the gate (scene 1), then in the stone court. Until `m4_asked`:
 
-  **Kell:** The abbot first. Then the stone.
+  **Grist:** The abbot first. Then the stone.
 
   *From `m4_asked`, until `m4_trial`:*
 
-  **Kell:** The Trial of Stone. The stone, on
+  **Grist:** The Trial of Stone. The stone, on
   the mat. Earth only.
 
   Hands won't do it. Nor will
@@ -722,7 +740,7 @@ chart), so nothing is written for after the fire. Positions are places in the re
 
   *From `m4_trial`, in the trials:*
 
-  **Kell:** Hm. Good.
+  **Grist:** Hm. Good.
 
   *The fire:* at the cove stair (scene 14).
 
@@ -900,6 +918,11 @@ chart), so nothing is written for after the fire. Positions are places in the re
   thousand novices' shoulders. It
   would slide, with Move.
 
+  *Move on it before `m4_asked` (the Psynergy event's `else_text`; the stone stays put):*
+
+  **System:** The stone won't budge. The
+  trials start with the abbot.
+
 - **The mat**, in the stone court:
 
   **Sign:** A straw mat, flat and square. The
@@ -914,6 +937,22 @@ chart), so nothing is written for after the fire. Positions are places in the re
 
   **Sign:** A heap of cold ash. Not a thread of
   smoke. Larvitar sniffs it hopefully.
+
+  *Scoop on any heap before `m4_trial` (nothing moves):*
+
+  **System:** The ash won't give. Stone
+  first, then ash.
+
+  *Scoop on the first warm heap, from `m4_trial` (text only, no flag):*
+
+  **System:** Only warm ash.
+
+  *Scoop on the second warm heap, from `m4_trial` (text only, no flag):*
+
+  **System:** Warm ash, and a very old
+  sandal.
+
+  *Scoop on the cold heap, from `m4_trial`:* scene 4.
 
 - **The bell frame**, until `m4_ash`:
 
@@ -994,6 +1033,9 @@ No people but the crew and Ho-Oh (scenes 7 to 11). The things to examine, from t
 - **The chest**, in an alcove off the second landing: Elixir ×1, with the engine's chest line (naming
   `{LEADER}`).
 
+- **The gear chest**, in an alcove off the third landing (the dungeon's gear chest, items §13): Padded Gloves, with
+  the engine's chest line.
+
 - **The Flame seal**, slot 8, until `m4_seal`:
 
   **Sign:** A stone lid over the Well's mouth,
@@ -1022,8 +1064,9 @@ Scene 15 only. Mission 3's "after the sluice" lines hold for everyone else in th
 | What | Where | Gives | The words |
 |---|---|---|---|
 | The stair chest | `forge_sanctum`, the second landing's alcove | Elixir ×1 | The engine's chest line, naming `{LEADER}` |
+| The gear chest | `forge_sanctum`, the third landing's alcove (the dungeon's gear chest, items §13) | Padded Gloves (Corvin and Tamsin's kits have no gloves; the hero and Maren start with a pair each) | The engine's chest line, naming `{LEADER}` |
 | Tamsin's purse | The fight, as built | 40 coins | The fight's own line |
-| Ho-Oh | The judgement | EXP only: no coins, no item, no catch, no Summon (progression 20) | Scene 10's lines |
+| Ho-Oh | The judgement | **Nothing legendary** (progression 20): no catch, no Summon, no item, no coins. The fight's ordinary EXP only | Scene 10's lines |
 | The letter | Scene 15 | Nothing: words | The Letter, above |
 
 ## Puzzles
@@ -1038,16 +1081,16 @@ Pushed things stay where they're pushed, so every block can be got behind again.
 2. Push it south once (from the north), then west three times (from the east), so the player has to walk round
    it. The mat's cell is today's target, (5,9) on today's clip; the re-clip keeps the same shape.
 3. On the mat (`m4_trial`), scene 3 plays. The court is open round every cell the stone can reach.
-4. The stone only moves once the abbot has set the trials (`m4_asked`); before that Move says "The abbot first",
-   as Kell does, so the trials keep their order.
+4. The stone only moves once the abbot has set the trials (`m4_asked`); before that Move gives the stone's
+   refusal line (People and signs), as Grist says, so the trials keep their order.
 
 **Puzzle 2. The Trial of Ash (Scoop, new).**
 1. In the ash court, three heaps of ash and an empty bell frame. Wren's riddle: the mountain keeps what it loves
    under its coldest ash.
 2. Examining the heaps tells them apart: two have a thread of smoke, one has none (and Larvitar sniffs it).
-3. Scoop on a warm heap only says so: "Only warm ash." on one, and "Warm ash, and a very old sandal." on the other.
+3. Scoop on a warm heap only says so ("Only warm ash." on one, the sandal on the other: People and signs).
 4. Scoop on the cold heap uncovers the bell (scene 4, `m4_ash`). The heaps answer Scoop only from `m4_trial`;
-   before that, "Stone first", as Wren says.
+   before that the ash won't give, as Wren says.
 
 It reads before it digs: Golden Sun's habit of hiding the answer in what people say.
 
@@ -1058,7 +1101,7 @@ It reads before it digs: Golden Sun's habit of hiding the answer in what people 
 3. Blaze lights a brazier only in its turn: the spirit first (`m4_brazier_1`), then the beast (`m4_brazier_2`),
    then back up to the dragon (`m4_brazier_3`). Out of turn the flame gutters and nothing is set, so nothing ever
    needs resetting.
-4. The third opens the ward door (scene 8). The chest's alcove is off the second landing.
+4. The third opens the ward door (scene 8). The chests' alcoves are off the second and third landings.
 
 It shows off the new Adept's Psynergy, as the party rules ask of each recruitment (party-and-battle.md §7).
 
@@ -1091,16 +1134,19 @@ Things story.md doesn't say, for you to keep or strike:
   low in its brazier.
 - **The Open Door:** any who pass the three trials (stone, ash and the fist) may ask the Forgeheart one thing, a
   law older than the tithe; the bell the mountain buries each spring; Haldor bound by it, and Tamsin holding him to
-  it.
-- **The Forgeheart's people:** Abbot Haldor (an old champion, with his Hariyama), Brother Kell at the gate
+  it. Haldor keeps it past sense: the Well stair is Corvin's, because no hand has moved the lid in six hundred
+  years, and Tamsin goes down as "the Forgeheart's eyes" ("Eyes and fists"). She ends up pulling with Corvin, which
+  is why he sends her away.
+- **The Forgeheart's people:** Abbot Haldor (an old champion, with his Hariyama), Brother Grist at the gate
   ("Hm."), Sister Wren and her riddle, Brother Olm the cook and his bean stew and Poliwrath, Sister Ama and her
   Machop, Dorrin the novice and her Meditite, and the Elder (the egg, above).
 - **The fire tithe:** the Forgeheart pays in iron tithe braziers filled from the sacred flame (the opening's tithe
   barge carries such braziers), forty this year against ten when Tamsin was a novice, chalked one a year on the
   store's door; the tithe fleet due at the turn of the season (mission 1's notice), which puts Ilse's ships in the
   bay.
-- **Tamsin:** her look; "out of ten" for everything; "Landslide" for Corvin; her reason for coming (the braziers
-  and the flame); "I'm brave. I'm not stupid"; the Elder; sent away "tonight", not forever, with Kell's "Come
+- **Tamsin:** her look (the LPC recipe's red hair and tied headband, with a sparring wrap, taped knuckles and a
+  burn scar); "out of ten" for everything; "Landslide" for Corvin; her reason for coming (the braziers
+  and the flame); "I'm brave. I'm not stupid"; the Elder; sent away "tonight", not forever, with Grist's "Come
   back" (seeds for her heart quest).
 - **Riolu** reading pain from the Well before anyone sees Ho-Oh.
 - **The four panels:** Golden Sun's Flame Summons (Mars, Kirin, Tiamat, as decision 17 names them) carved in the
@@ -1114,12 +1160,15 @@ Things story.md doesn't say, for you to keep or strike:
   for the caldera nest after the Breaking.
 - **Haldor's lines:** "I kept my word. Look what my word has bought", and "You didn't know. That is what the seals
   were for": the order's side, half right, said by someone who isn't the order.
+- **Corvin's lines:** the coat Sael made him bring "to a volcano" (mission 2's coat), "Sorry about your roof,
+  Abbot. ...I mean it", and "I'll bet she's made {HERO} her deputy by now" as the Holdfast gives chase.
 - **No lives lost** in the fire, by Ilse's letter.
 - **The escape:** Ketch's new verse, the tithe fleet with Ilse's flagship the Holdfast (mission 3), "Heave to!",
   the fleet turning back at the Galeway's edge, Tamsin's "ten out of ten" storm.
-- **Ilse's letter** by Wingull: she holds the hero to the Forest seal "until my orders come", which mission 5's
-  runner then gives (drive it deeper).
-- **The reward:** Elixir ×1 on the stair.
+- **Ilse's letter** by Wingull: the Forest seal "has no fleet to guard it", and she holds the hero to it "until my
+  orders come", which mission 5's runner then gives (drive it deeper). The two days crew 1 spends shovelling
+  Canalport's mud while it waits.
+- **The rewards:** Elixir ×1 and Padded Gloves (the dungeon's gear chest) on the stair.
 
 ## Changes to the build
 
@@ -1132,7 +1181,7 @@ Things story.md doesn't say, for you to keep or strike:
 - **The fire state** of `forge_hall` from `m4_judged`: red flickering light; `hazards` on the burning cells; the
   fallen beam as a pushable actor across the east door; the monks' fire rows; the sacred brazier and the Elder
   swapped; the shaft closed behind the crew.
-- **`forge_sanctum`** re-clipped longer: the stair with three landings, three braziers and an alcove chest, the
+- **`forge_sanctum`** re-clipped longer: the stair with three landings, three braziers and two alcove chests, the
   ward door (a gate on `m4_ward`), and the seal chamber with the lid (slot 8) and the Well's mouth; the roof
   opening after Ho-Oh goes.
 - **`canalport`:** scene 15, an enter scene that plays when crew 1 resumes there (once `m4_done`).

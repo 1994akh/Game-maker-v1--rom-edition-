@@ -9,22 +9,23 @@
 | Plays after | Mission 2's last scene, which resumes crew 1 in Stonehollow at dawn ([mission-02.md](mission-02.md), scene 12) |
 | Crew | {HERO} and the first partner; Maren and Eevee join in scene 1; Marill joins in scene 4 |
 | Rooms | `stonehollow`, `canalport` (the harbour front: today's beach room), `canalport_canals` (new: the lower town's canals and the sea sluice, decision 5) |
-| Clock | Dawn in Stonehollow; day on arrival in Canalport; dusk in the canals as the evening tide comes in; night from the sluice on |
+| Clock | Dawn in Stonehollow; day on arrival in Canalport; dusk in the canals; night from the sluice on |
 | Flags in | `m2_done` |
-| Flags out | `m3_started`, `m3_intro`, `m3_breach_west`, `m3_breach_east`, `m3_beach`, `m3_surf`, `hm_surf`, `m3_canals_in`, `m3_barnaby`, `m3_bridge`, `m3_dug`, `m3_weir_1`, `m3_weir_2`, `m3_weir_3`, `m3_beast`, `m3_done`, `has_ship`, `m3_truck`, `m4_started` |
+| Flags out | `m3_started`, `m3_intro`, `m3_breach_west`, `m3_breach_east`, `m3_beach`, `m3_glint`, `m3_surf`, `hm_surf`, `m3_canals_in`, `m3_barnaby`, `m3_bridge`, `m3_dug`, `m3_weir_1`, `m3_weir_2`, `m3_weir_3`, `m3_beast`, `m3_done`, `has_ship`, `m3_truck`, `m4_started` |
 | Unlocks | Maren (Sea, with Eevee) joins, and with her Frost; Marill, Harbourmaster Quayle's gift (decisions 14 and 15), and so Surf (`hm_surf`); the Kestrel (`has_ship`): the Calm opens on the Kestrel's chart |
 | Reply beats | 2: Maren's posting (scene 1); Maren's question on the jetty (scene 10) |
 | Fights | The sluice beast (`sluice_beast`, as built: Kraken's sheet at L8). A loss plays "Try again" |
 | Leads into | Mission 4: Corvin's crew at the Forgeheart ([mission-04.md](mission-04.md)) |
 
-**The flow.** The morning after Corvin's mission, Ilse has a Wingull letter: Canalport is flooding and its sea
-sluice has jammed with something living in it. She posts Maren, a Tidewarden medic and Sea Adept, to {HERO}, lends
-them the Kestrel ("If Canalport stands, keep her") and sails south with the tithe fleet. In Canalport, Maren's Frost
+**The flow.** A few days after Keeping Night, Ilse has a Wingull letter: Canalport is flooding and its sea sluice
+has jammed with something living in it. She posts Maren, a Tidewarden medic and Sea Adept, to {HERO}, lends them
+the Kestrel ("If Canalport stands, keep her") and sails south with the tithe fleet. In Canalport, Maren's Frost
 plugs the two breaches in the beach dike, and Harbourmaster Quayle gives {HERO} a Marill from his ferry pod, so
-{HERO} can Surf. The crew swims the drowned lower town: a swing bridge to raise, a bargeman to patch up, a weir to
-cross on ice. At the sluice the beast isn't guarding anything: the tide carried it in and it's stuck in the gates.
-Beaten, it slips free, the gates swing open and the town drains out to sea. The Kestrel is theirs. On the jetty
-that night, Maren asks about Corvin, then sends her report by Wingull, west toward the Pinnacle.
+{HERO} can Surf. The crew swims the drowned lower town: a swing bridge to open, a bargeman to patch up, a weir to
+cross on ice. At the sluice the beast isn't guarding anything: the spring tide pushed it up the channel and it
+wedged itself in the gates, which is what jammed them. Beaten, it slips free, the gates swing open and the town
+drains out to sea. The Kestrel is theirs. On the jetty that night, Maren asks about Corvin, then sends her report
+by Wingull, west toward the Pinnacle, while Ilse sails south.
 
 ## Scenes
 
@@ -52,7 +53,7 @@ harbourmaster says it's not empty.
 
 Something is living in it.
 
-**Ilse:** The Kestrel sails for Canalport
+The Kestrel sails for Canalport
 within the hour. Tully has her
 ready.
 
@@ -125,7 +126,7 @@ ship.
 *Brann comes up the lane from the hatchery at his slow pace, with a cloth bundle in both hands. [walk Brann →
 beside {HERO}]*
 
-**Brann:** Off again, apprentice? Here.
+**Brann:** Off to sea, apprentice? Here.
 Maudie's pie. Don't argue.
 
 *He looks Maren up and down.*
@@ -142,7 +143,7 @@ you can write what you like.
 
 *[walk Ilse and the marine → the cove] [hide Ilse] [hide the marine] [fade out 40]*
 
-**Narration:** The Kestrel carried them east
+**Narration:** The Kestrel carried them south
 across the Calm, two days and two
 nights, to the coast of Meridia.
 
@@ -205,8 +206,8 @@ Somebody on the quay cheers, then everybody does.*
 *Quayle jumps down off his crate and comes at a run, tide book under his arm. [walk Quayle → beside {HERO}]*
 
 **Quayle:** It's stopped! Highwater due at
-four bells, and stopped at half
-past three! Ha!
+four bells, and stopped at three!
+Ha!
 
 You're the Tidewardens? Come to the
 post. I've a sluice that needs
@@ -231,9 +232,12 @@ Here's my trouble. The sea sluice
 lets the lower town drain out at
 every ebb.
 
-Two nights ago its gates jammed
-shut, and something moved in. It
-groans. It has arms.
+Two nights ago, on the spring tide,
+something came up the channel and
+jammed its gates shut.
+
+It's still in there. It groans. It
+has arms.
 
 **Maren:** Arms?
 
@@ -254,16 +258,16 @@ You'll have to swim it.
 in the water. It's towed my ferry
 two summers.
 
-It'll carry you over any water in
-Canalport. Face the water and ask
-it nicely.
+It'll carry you over any calm
+water. Face the water and ask it
+nicely.
 
-*[give_pokemon marill, L6] [flag hm_surf]*
+*[give_pokemon Marill, L6] [flag hm_surf] Marill goes into a Set with room (Changes to the build, below).*
 
-**System:** Marill joined the crew!
+**System:** {HERO} received Marill!
 
-**System:** Surf! Face the water and press
-A to ride on Marill.
+**System:** Now you can Surf! Face calm water
+and press A to ride on Marill.
 
 **Quayle:** The canal mouth is past the post,
 by the lock stair. Follow the Grand
@@ -284,11 +288,12 @@ Grand Cut runs north between the houses toward the sea wall, where the sluice ho
 
 *A long, low groan rolls down the canal. The water shivers. [shake 20, 1] [emote Marill: sweat]*
 
-**Maren:** That's the sluice house. And
-that's the tide coming in again.
+**Maren:** That's the sluice house. With
+its gates shut, the river has
+nowhere to go but up.
 
-When it peaks tonight, this water
-rises another foot. We'd best be
+By tonight this water will be
+another foot higher. We'd best be
 quick, {HERO}.
 
 *[flag m3_canals_in] Control returns.*
@@ -313,8 +318,8 @@ a soft blue glow on the ankle]*
 **Maren:** Sprained, not broken. Hold still.
 This will feel cold.
 
-**Barnaby:** Ooh. Ah. That's... Actually,
-that's lovely.
+**Barnaby:** Ooh! Cold! Cold! ...Oh. That's
+much better.
 
 **Maren:** Stay off it for a week. I'll know
 if you don't.
@@ -336,7 +341,7 @@ get under it.
 
 Flood knocked its weight off the
 plinth. Shove the weight back, and
-she'll swing up sweet as you like.
+she'll swing open sweet as you like.
 
 *[pose Maren: stand] [crew in] [flag m3_barnaby] Control returns.*
 
@@ -384,11 +389,13 @@ the waves, waves once, and sinks. [hide the beast]*
 **Maren:** It wasn't guarding the sluice. It
 was stuck in it.
 
-The spring tide carried it in
-through the breaches, and it never
-found the way back out.
+The spring tide pushed it up the
+channel. It wedged itself in the
+gates, and jammed them shut.
 
-I'd have been cross too.
+Two nights stuck in a door, with
+everyone shouting at it. I'd have
+been cross too.
 
 *[phase night] All down the canals the water drops. Quays come up out of the flood, streaming. Doors drip on
 their hinges. Lamps come on in upstairs windows, and somewhere, far off, a cheer. [gate: the drowned quays become
@@ -460,7 +467,7 @@ bring him in, {HERO}?
    You took a breath first. I won't
    write that part.
 
-2. "He was my friend." · quiet: (Shake head)
+2. "I don't know yet." · quiet: (Shake head)
 
    **Maren:** Then I'll write that the deputy
    is honest. It's true, and it's
@@ -468,22 +475,23 @@ bring him in, {HERO}?
 
 3. "What will you write?" · quiet: ...
 
-   **Maren:** The truth. Always. That you're
-   tired, and brave, and you haven't
-   eaten since noon.
+   **Maren:** I'll write the truth. I always
+   do. That you're tired, and brave,
+   and you haven't eaten since noon.
 
-   Eat the Keeper's pie, {HERO}.
+   Eat the pie, {HERO}. Keeper's
+   orders.
 
 *Every reply rejoins here.*
 
 *Maren tears the page out, rolls it into a tube and whistles. A Wingull drops out of the dark onto the next
 bollard. She ties the tube to its leg.*
 
-**Maren:** Medical returns. The Pinnacle
+**Maren:** Medical returns. The order
 wants them every week. Very dull.
 
-*The Wingull flies off west over the roofs, inland, toward the Pinnacle. [walk Wingull → off west] [hide
-Wingull] [emote Eevee: question]*
+*The Wingull flies off west over the roofs, inland, toward the Pinnacle, not south after Ilse's fleet. Nobody says
+so. [walk Wingull → off west] [hide Wingull] [emote Eevee: question]*
 
 **Maren:** Get some sleep, Deputy. The
 Kestrel sails when you say.
@@ -501,11 +509,11 @@ Crew 1 is recorded where it stood, on the jetty, and resumes there in mission 4'
 
 ### `stonehollow`
 
-This page takes Stonehollow over from mission 1's "after the Vault" state. *The states:* the morning after
+This page takes Stonehollow over from mission 1's "after the Vault" state. *The states:* before the voyage
 (`m2_done`, until `m3_started`); Act I (`m3_done`, until a later page takes over), for a return by the Kestrel.
 Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
 
-- **Keeper Brann**, slot 8, cell (3,9). The morning after:
+- **Keeper Brann**, slot 8, cell (3,9). Before the voyage:
 
   **Brann:** Ilse's been at the north gate
   since dawn, with a letter and a
@@ -517,7 +525,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
   Then tell me everything. Slowly.
   I'm old.
 
-- **Brann's Sudowoodo.** The morning after:
+- **Brann's Sudowoodo.** Before the voyage:
 
   **Sign:** The Sudowoodo has moved one step
   closer to the cottage door. Nobody
@@ -529,7 +537,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
   be a tree. It's getting very good
   at it.
 
-- **Nell**, at the hatchery stall. Her shop lines are mission 1's. The morning after:
+- **Nell**, at the hatchery stall. Her shop lines are mission 1's. Before the voyage:
 
   **Nell:** Brann says you're sailing. Take
   Herbs. Take more Herbs than that.
@@ -540,13 +548,13 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
   all about it. After you buy Herbs.
 
 - **Commodore Ilse**, slot 16: scene 1 only. She sails with the tithe fleet, so the row hides from
-  `m3_started`, and **her marine** with her. The marine, the morning after:
+  `m3_started`, and **her marine** with her. The marine, before the voyage:
 
   **Marine:** The Commodore's been up since the
   Wingull came. When she's up, we're
   all up.
 
-- **Ada**, slot 15. The morning after:
+- **Ada**, slot 15. Before the voyage:
 
   **Ada:** I'm relighting the lanterns the
   shake put out. Ninety-one so far.
@@ -558,7 +566,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
   Keeping Night they'll be brighter
   than ever. I've decided.
 
-- **Dunstan**, slot 10. The morning after:
+- **Dunstan**, slot 10. Before the voyage:
 
   **Dunstan:** Brann's halls are a mess. I've
   offered him a cart. He says the
@@ -570,7 +578,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
   rockslide a barrow at a time. Come
   back in about forty years.
 
-- **Old Moss**, slot 11. The morning after:
+- **Old Moss**, slot 11. Before the voyage:
 
   **Old Moss:** They say the Sleeper rolled over.
   At my age, I roll over too. Takes
@@ -584,7 +592,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
 
 - **Maudie**, slot 9: mission 1's lines, in every state.
 
-- **Gary Rivalson.** The morning after:
+- **Gary Rivalson.** Before the voyage:
 
   **Gary:** Off to the mainland? I'd go too,
   but the mainland isn't ready for
@@ -600,7 +608,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
 
   Smell you next tide!
 
-- **Corla.** The morning after:
+- **Corla.** Before the voyage:
 
   **Corla:** The cove's been quiet since the
   dark skiff. Too quiet, Ada says.
@@ -608,11 +616,11 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
 
   *Act I:*
 
-  **Corla:** Back on the Commodore's cutter!
-  Wait till the cove hears. I'm the
-  cove. I've heard.
+  **Corla:** Your own cutter now! Wait till
+  the cove hears. I'm the cove. I've
+  heard.
 
-- **Tobin.** The morning after:
+- **Tobin.** Before the voyage:
 
   **Tobin:** I'm being extra good. It's very
   tiring. How long does the Sleeper
@@ -624,7 +632,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
   Brann. He hung it in the hatchery.
   He says the eggs like it.
 
-- **Tully**, slot 17, at the cove. The morning after:
+- **Tully**, slot 17, at the cove. Before the voyage:
 
   **Tully:** We sail the moment the Commodore
   has spoken to you, Deputy. She's at
@@ -662,8 +670,9 @@ in the first state. Cells are on today's 34×30 clip; new people give a place in
   **Quayle:** In ink, mind. Not pencil. Canalport
   has never had a day like it.
 
-  Did you find the ferryman's hat? No?
-  It'll turn up. Hats do.
+  And the ferryman's hat is up the
+  Cut, hung on a gate post. Neatly!
+  I've written that down too.
 
 - **Lettie** (the canal girl, slots 11 and 14). The beach dry, until `m3_barnaby`, slot 11, cell (25,22):
 
@@ -707,22 +716,22 @@ in the first state. Cells are on today's 34×30 clip; new people give a place in
   **Marine:** Highwater's past. I'm going to
   sit down for a week.
 
-- **Mags, the innkeeper**, slot 12, cell (14,26), at The Dry Boot (the inn role). Before the rest menu, the
+- **Effie, the innkeeper**, slot 12, cell (14,26), at The Dry Boot (the inn role). Before the rest menu, the
   beach dry:
 
-  **Mags:** The Dry Boot. Driest beds in
+  **Effie:** The Dry Boot. Driest beds in
   Canalport, and today that's saying
   something.
 
   *After the sluice:*
 
-  **Mags:** The whole lower town's dry! I
+  **Effie:** The whole lower town's dry! I
   was going to rename the inn. Now
   I don't have to.
 
   *After resting:*
 
-  **Mags:** Slept well? The tide's been in
+  **Effie:** Slept well? The tide's been in
   and out twice. You missed nothing.
 
 - **Odile, the chandler** (new), at her chandlery on the quay. She opens the Canalport item shop (Herb, Nut,
@@ -833,6 +842,11 @@ in the first state. Cells are on today's 34×30 clip; new people give a place in
   Isle pie. I'd know that crust
   anywhere.
 
+  *[shake 10, 1] A rumble rolls down the jetty. It's Maize's stomach. He looks at the two pies in his hands as if
+  they've let him down. [emote Maize: sweat]*
+
+  **Maize:** ...Got any more?
+
   *After the sluice:*
 
   **Maize:** You beat a sea monster? Without
@@ -885,9 +899,9 @@ in the first state. Cells are on today's 34×30 clip; new people give a place in
 
 - **The tide board**, outside the Tidewarden post:
 
-  **Sign:** HIGHWATER: FOUR BELLS. LOW
-  WATER: SIX BELLS. Chalked under it
-  in a neat hand:
+  **Sign:** HIGHWATER: FOUR BELLS.
+  LOW WATER: NOT TODAY.
+  Chalked under it in a neat hand:
 
   SLUICE STUCK. SOMETHING IN IT.
   HAS ARMS. Q.
@@ -959,7 +973,7 @@ in the first state. Cells are on today's 34×30 clip; new people give a place in
   Tidewardens are walking the dikes,
   one by one.
 
-- **The beach glint** (new), on the drained sand, from `m3_beach`:
+- **The beach glint** (new), on the drained sand, from `m3_beach` until `m3_glint` (Scoop sets it):
 
   **Sign:** Something glints in the wet sand
   where the flood ran. Scoop would
@@ -1071,10 +1085,10 @@ beast is the fight.
 |---|---|---|---|
 | Maudie's pie | Scene 1, from Brann | Nothing: a prop (Maize smells it, Maren mentions it) | — |
 | Quayle's gift | Scene 4 | Marill, L6, into the crew's Set | Scene 4's system lines |
-| The beach glint | `canalport`, the drained sand (Scoop, from `m3_beach`) | Nut ×1 | **System:** {LEADER} found Nut! (the engine's line) |
+| The beach glint | `canalport`, the drained sand (Scoop, from `m3_beach`; sets `m3_glint`) | Nut ×1 | **System:** {LEADER} found Nut! (the engine's line) |
 | The Tanners' chest | `canalport_canals`, on the Tanners' quay beside the counterweight | Elixir ×2 | The engine's chest line, naming `{LEADER}` |
 | The mudbank | `canalport_canals`, the side canal (Scoop, optional) | Great Ball ×2 | **System:** {LEADER} found Great Ball x2! |
-| The sluice house | `canalport_canals`, inside the sluice house, from `m3_beast` (the dungeon's gear chest, items §13) | Padded Gloves | The engine's chest line |
+| The sluice house | `canalport_canals`, inside the sluice house, from `m3_beast` (the dungeon's gear chest, items §13) | Leather Cap (the hero and Maren already wear Padded Gloves, the roster kit, and neither has a helm) | The engine's chest line |
 | The tide fund | Scene 9, from Quayle | 100 coins | Scene 9's system line |
 | The truck's note | `canalport`, under the truck | Nothing: a note to read | The Note, above |
 
@@ -1132,7 +1146,8 @@ It teaches that Frost makes a way, not only a plug.
   island is "the best adventure ever", he's going to be "King of the Open Sea", and he asks everyone to join his
   crew. His sloop is the Merry Wooloo, a bent nod to his original's ship and its sheep figurehead. His own look,
   never a copied one: a battered sun hat and arms a little too long. The stretch itself isn't shown; Brindle's
-  "he's eaten eleven" carries it.
+  "that rubbery fellow" carries it. His talk is a short staged scene (decision 10): the join-my-crew menu, then a
+  stomach rumble that shakes the jetty.
 - **The push-the-truck rumour** (§9a, Pokémon). The truck is an iron wagon nobody can explain, rusted to the
   jetty. Hobb's gran's "little pink something" is the rumour; Move shifts it one cell to find a child's drawing
   and a promise. `m3_truck` stays set for the postgame Mew sighting, the reward for a complete Kin section
@@ -1161,14 +1176,16 @@ Things story.md doesn't say, for you to keep or strike:
   four bells", the sea sluice that drains the lower town at every ebb, the Grand Cut, the Tanners' Swing, the Long
   Weir, the lock stair, The Dry Boot, the tithe paid in rain, the south road closed while the dikes are walked.
 - **Canalport's people:** Harbourmaster Quayle and his ferry Marill pod; Lettie and her father Barnaby the
-  bargeman; Mags at The Dry Boot; Odile the chandler; Ivo the armourer; Hobb the docker; Mother Brindle and her eel
+  bargeman; Effie at The Dry Boot; Odile the chandler; Ivo the armourer; Hobb the docker; Mother Brindle and her eel
   pies; Mrs Pennock and Grandad at their window; a Tidewarden marine at the sandbags.
-- **The sluice beast** as a sea creature the spring tide carried in, stuck in the gates rather than guarding them,
-  and carried back out to sea on the ebb when it's beaten: nobody kills it. The ferryman's hat it hung on a post.
-- **Maize's sloop,** the Merry Wooloo, and the truck's note.
-- **The rewards:** Nut ×1, Elixir ×2, Great Ball ×2, Padded Gloves and 100 coins from the tide fund (proposed
-  for slice 10's income pass).
-- **Stonehollow's lines** for the morning after and for Act I, and Maren's word on the blue puddle.
+- **The sluice beast** as a sea creature the spring tide pushed up the channel, wedged in the gates (which is
+  what jammed them) rather than guarding them, and carried back out to sea on the ebb when it's beaten: nobody
+  kills it. The ferryman's hat it hung on a post, and Quayle writing that down too.
+- **Maize's sloop,** the Merry Wooloo, his stomach rumble, and the truck's note.
+- **The tide board's** "LOW WATER: NOT TODAY", and Quayle's bells.
+- **The rewards:** Nut ×1, Elixir ×2, Great Ball ×2, a Leather Cap and 100 coins from the tide fund (proposed
+  for slice 10's income pass). The Elixirs and Great Balls are items §13's Canalport suggestion.
+- **Stonehollow's lines** before the voyage and for Act I, and Maren's word on the blue puddle.
 
 ## Changes to the build
 
@@ -1183,8 +1200,9 @@ Things story.md doesn't say, for you to keep or strike:
 - **`canalport`:** the sluice beast's row (slot 13) and the west cliff landing move to the canals; a water warp at
   the lock stair, open from `m3_surf`; a second entrance there for the quay stair; new rows for Barnaby, the
   marine, Odile and Ivo (with their shops, slice 4), Hobb, Brindle, Maize, the Merry Wooloo, the truck, the tide
-  board, the notice, the Marill pen and the beach glint; names on today's rows: slot 10 Quayle, 11 and 14
-  Lettie, 12 Mags, 15 Tully. The south warp's two closed lines (the second on progression decision 4's flag).
+  board, the notice, the Marill pen and the beach glint (a dig spot setting `m3_glint`); names on today's rows:
+  slot 10 Quayle, 11 and 14 Lettie, 12 Effie, 15 Tully. The south warp's two closed lines (the second on
+  progression decision 4's flag).
 - **`stonehollow`:** `to_canalport` becomes scene 1 (Brann walks in for the pie; Ilse and her marine walk off and
   hide from `m3_started`); the two new states for every row above; Maren's line after the puddle's Frost.
 
@@ -1194,7 +1212,8 @@ Things story.md doesn't say, for you to keep or strike:
 - **A gift that carries a needed HM** goes into a crew Adept's Set with a free slot, never to storage: Marill
   goes to {HERO}'s Set, or to Maren's (she only has Eevee here) if {HERO}'s is full, so Surf always works.
 - **Coins as a gift:** a `give` of coins, with its system line (today only `take_coins` exists).
-- **Quayle's row** keeps its quest role: the scene's lines, `give_pokemon marill` at L6, `hm_surf`, `m3_surf`.
+- **Quayle's row** keeps its quest role: the scene's lines, `give_pokemon marill` at L6 with the engine's own
+  "{HERO} received Marill!", `hm_surf`, `m3_surf`.
 - **Surf onto land:** climbing off Marill onto a landing step or quay, and back on (puzzle 2, the dig, the weir).
 - **Gates on the surf layer:** the Swing's gate opens cells to Surf; the weir's three gates open single cells on
   foot; the drained state closes the drowned quays' water and opens them as floor.
@@ -1204,10 +1223,10 @@ Things story.md doesn't say, for you to keep or strike:
 - **Scene 3's trigger** fires when both breach flags are set (as mission 2's scene 6 fires on its flag).
 - **Maize's yes/no** uses the mirror's yes/no menu, with no flag.
 - **The Kestrel's mate** in every mooring room: the chart, then a Bunk row with the home bed's menu (decision 34).
-- **A Wingull** as an actor that lands and flies off (scenes 10 here and 13 in mission 4).
+- **A Wingull** as an actor that lands and flies off (scene 10 here and scene 15 in mission 4).
 - **`m3_truck`:** the truck as a pushable actor whose push shows the note; the flag is kept for the postgame.
-- **The canal Marill pod** and Eevee as actors scenes can move; Marill follows the lead on land (decision 29,
-  when it's the active partner) and carries the lead on water.
+- **The canal Marill pod** and Eevee as actors scenes can move; Marill carries the lead on water (the surf mount,
+  demo decision 26).
 
 **New scene steps** (README §2): `phase`, `light` (the glow of Ply), `camera` (pan and back), `pose` (nod, kneel,
 stand), `choice` (both reply beats, with the quiet set), `crew out` and `crew in`, coins in `give`, a step-on

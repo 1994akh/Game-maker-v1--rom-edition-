@@ -57,6 +57,7 @@ brackets so the builder knows what to use:
 | `[flag m1_quake]` | `flag` |
 | `[hide Corvin]`, `[show Tanner]` | `hide`, `show` |
 | `[give Poké Ball ×5]` | `give` |
+| `[give_pokemon Marill, L6]`, `[recruit maren]` | `give_pokemon`, `recruit` (as built, with the engine's own "{HERO} received Marill!" and "Maren joined the crew!") |
 | `[battle corvin_vault]` | `battle` |
 | `[gate …]` | a room `gate` opening or repainting cells |
 | `[crew 2]`, `[resume crew 1]`, `[warp room, entrance]` | `crew`, `resume_crew`, `warp` |
