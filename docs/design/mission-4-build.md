@@ -16,6 +16,8 @@ Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it w
    pulls the **Flame seal**; every brazier roars and **Ho-Oh** answers and judges the crew (a story fight against
    a Pokémon; a loss restarts it). Calmed, it bursts through the roof and its fire falls on the monastery.
 5. **The Flame Well runs free.** Mars's top Summon (Meteor, until the cloud chat names our own) is unlocked.
+   **Changing (your answer, progression 20, 18 Oct):** at mission 4 Ho-Oh judges and flies off and the crew gains
+   nothing legendary; the top Flame Summon unlocks with the caldera catch after the Breaking. Not built yet.
    Corvin's crew escapes past Ilse's fleet through the Galeway, and **the game returns to the hero's crew in
    Canalport**, where it stood.
 

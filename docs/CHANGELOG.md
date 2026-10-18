@@ -3,6 +3,13 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 18 Oct 2026
+
+- **Decided (you, 18 Oct): Ho-Oh stays special** (progression 20, from your note). At mission 4 Ho-Oh judges Crew 2
+  in its fixed-length fight and flies off; the crew gains nothing legendary there. The top Flame Summon unlocks with
+  the caldera catch after the Breaking. This replaces the Summon part of story decision 9; mission 4 changes in the
+  next feature build.
+
 ## 17 Oct 2026, night (15 talk items answered)
 
 - **Decided (you, 17 Oct), as recommended:** art 12 (hard-edged CC0 move effects now, Golden Sun's Psynergy

@@ -175,7 +175,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     harder, so decide with item 1.
 19. **Decided (16 Oct):** **Wild Pokémon EXP.** It is linear (yield × level ÷ 50), so from about L15 a wild Pokémon is worth 0.2–0.7 of a
     same-level monster. Recommended: scale it to the area's monster EXP. Decide with item 3.
-20. **Ho-Oh in Act I** (your note on decision 18: "Ho-Oh is unlocked REALLY early ... devalues legendaries").
+20. **Decided (17 Oct):** **Ho-Oh in Act I** (your note on decision 18: "Ho-Oh is unlocked REALLY early ... devalues legendaries").
     Ho-Oh is never caught in Act I: story.md has it judge Crew 2 at mission 4 and be caught only after the Breaking,
     in Embral's caldera (items 25, your answer). What comes early is the top Flame Summon, unlocked when the
     judgement ends (story decision 9). Recommended: at mission 4 Ho-Oh judges and flies off, and the crew gains

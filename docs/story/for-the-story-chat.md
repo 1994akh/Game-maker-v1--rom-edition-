@@ -68,7 +68,8 @@ Recommended first. The alternatives are in brackets.
    Dive loot. [Canalport closes until Act III.]
 8. **Decided (17 Oct), alternative:** **Kin habitats and the clock.** Your choice, 17 Oct: the clock now (decision 12 asks for its model). Recommended: drop time of day from the habitats until a day/night cycle is
    decided. [Add a day/night clock now.]
-9. **Decided (17 Oct):** **Ho-Oh's judgement at mission 4.** Recommended: keep the Flame Summon at mission 4 but make the judgement a
+9. **Decided (17 Oct):** **Ho-Oh's judgement at mission 4.** Changed 18 Oct by progression decision 20: the Summon now waits
+   for the caldera catch; the fixed-length judgement stays. Recommended: keep the Flame Summon at mission 4 but make the judgement a
    fixed-length fight: Ho-Oh ends it itself after a set number of rounds, or once the crew has shown enough, so a
    level-5 crew never beats a legendary and the fight can't be lost by a player who only attacks. [Move the Flame
    Summon unlock to Act II and only glimpse Ho-Oh at mission 4; keep the fight as it is.]
