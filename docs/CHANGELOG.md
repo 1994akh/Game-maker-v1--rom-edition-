@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 18 Oct 2026
 
+- **Decided (you, 17–18 Oct), the last talk items, as recommended:** progression 3 (about L6–7 at mission 3, L8 at
+  5, L10 at 10, through encounter tables and story-fight EXP), progression 4 (Stonehollow's west gate, and Canalport's
+  lower-town exit, behind a story flag until our world map exists), equipment 8 (Golden Sun 1's item table for Act
+  I; Golden Sun 2's later with a save migration). Nothing is left to talk over.
+- **Go-ahead (you, 18 Oct) for the audio tools** (demo 36): an open-source GBA music renderer and an OGG encoder,
+  from their official sources, checksum-checked, to render Golden Sun's and Unbound's own tracks offline (assets 1).
 - **The demo plan** ([demo-plan.md](design/demo-plan.md)): what the Act I demo holds and how it ends, what is built
   and in flight, twelve build slices in order, which talk items still block it (progression 3, 4, equipment 8), and
   40 questions on the decision page's new Demo tab (the dialogue pass, the hero's voice, the opening, staging, rooms,

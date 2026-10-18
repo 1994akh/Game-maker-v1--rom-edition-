@@ -414,7 +414,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 6. **Decided (16 Oct):** **Usable gear.** Recommended: usable from the bag or while worn, now; breakage later if items decision 21 keeps it.
    [Usable and unbreakable for good; not usable.]
 7. **Decided (16 Oct):** **Slots.** Recommended: all seven, as built. [Golden Sun's four classic slots first; an eighth class-item slot.]
-8. **To talk over:** **Item table.** Recommended: GS1's table for Act I. Switch to GS2's superset later, as its own step. The switch
+8. **Decided (18 Oct):** **Item table.** Recommended: GS1's table for Act I. Switch to GS2's superset later, as its own step. The switch
    touches more than item ids:
    - item rows point into their own game's ability table (Weapon Arts, uses);
    - the description text base changes;

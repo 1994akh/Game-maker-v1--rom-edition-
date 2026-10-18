@@ -177,19 +177,17 @@ reef's rudder house, not at an inn. Decision 7.
 while the screens are built); slices 5 and 6, with 11 whenever an agent is free; slices 7 and 8; then 10 and 12.
 Slices 3, 9 and 11 touch different files from the art slices, so any of them can fill a free agent.
 
-## 4. Talk items that block the demo
+## 4. The talk items
 
-Three are still to talk over (CHANGELOG, 17 Oct night):
+All eighteen are answered now. The last three, as recommended (progression 3 and 4 on 17 Oct, equipment 8 in chat
+on 18 Oct):
 
-- **Progression 3, target levels per mission:** blocks slice 10 (encounter tables and story-fight EXP) and the tuning
-  in decision 35. The choice: about L6–7 at mission 3, L8 at 5 and L10 at 10 through more encounters and bigger
-  story-fight EXP, or a flat L5–7 Act I.
-- **Progression 4, Stonehollow's west gate:** blocks slice 8's world edges. The choice: close the gate onto Golden
-  Sun's L14–21 Angara zones (and Canalport's lower-town exit, which reaches the same map) behind a story flag for the
-  demo, or leave them open with Flee and danger markers.
-- **Equipment 8, item table:** blocks slice 4 only in the item ids the demo's saves hold. The choice: keep Golden Sun
-  1's table for Act I and switch later with a save migration, or switch to Golden Sun 2's superset before the demo
-  (art 16 keeps the Lost Age files in the APK either way).
+- **Progression 3, target levels per mission:** about L6–7 at mission 3, L8 at 5 and L10 at 10, through encounter
+  tables in the mission rooms and bigger story-fight EXP, checked by `progression_check`. Slice 10.
+- **Progression 4, Stonehollow's west gate:** behind a story flag until our world map and danger stars exist, and
+  Canalport's lower-town exit with it. Slice 8.
+- **Equipment 8, item table:** Golden Sun 1's table for Act I; Golden Sun 2's superset later, as its own step with a
+  save migration. Slice 4 keeps today's ids.
 
 The other fifteen were answered on 17 Oct (night), and your note on Ho-Oh became progression 20 (decided 18 Oct).
 None of them blocks the demo now:
@@ -220,6 +218,7 @@ None of them blocks the demo now:
 
 Recommended first. The alternatives are in brackets.
 
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 **Story and dialogue**
 
 1. **The dialogue pass.** Every Act I line is placeholder text written for the story chat, which is archived; this
@@ -382,7 +381,7 @@ Recommended first. The alternatives are in brackets.
 
 **Audio**
 
-36. **Downloads for audio.** The decided route (assets 1) renders Golden Sun's and Unbound's tracks offline to OGG,
+36. **Decided (18 Oct):** **Downloads for audio.** The decided route (assets 1) renders Golden Sun's and Unbound's tracks offline to OGG,
     and neither a renderer nor an encoder is installed; this blocks slice 11. Recommended: a go-ahead to install an
     open-source GBA music renderer and an OGG encoder from their official sources, checksum-checked by
     `tools/setup_dev.py`, when slice 11 starts. [Only tools already on disk; WAV files, with a larger APK.]
