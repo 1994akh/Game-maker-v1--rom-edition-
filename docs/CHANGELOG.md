@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 18 Oct 2026
 
+- **The demo plan** ([demo-plan.md](design/demo-plan.md)): what the Act I demo holds and how it ends, what is built
+  and in flight, twelve build slices in order, which talk items still block it (progression 3, 4, equipment 8), and
+  40 questions on the decision page's new Demo tab (the dialogue pass, the hero's voice, the opening, staging, rooms,
+  puzzles, the mission 7/8 handovers, art approval, the Fold probe, portraits, the title, ships, the Calm, audio, the
+  demo build and playtests). Found while planning: the mission 7 and 8 handovers start at the end of the recruitment
+  scene, not at the next restoration point as story.md §14 Q1 says (decision 7).
 - **Decided (you, 18 Oct): Ho-Oh stays special** (progression 20, from your note). At mission 4 Ho-Oh judges Crew 2
   in its fixed-length fight and flies off; the crew gains nothing legendary there. The top Flame Summon unlocks with
   the caldera catch after the Breaking. This replaces the Summon part of story decision 9; mission 4 changes in the
