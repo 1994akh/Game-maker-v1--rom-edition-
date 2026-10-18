@@ -129,10 +129,10 @@ Answered on the decision page: accepted items are marked **Decided** with the da
    loss, offer "Try again" or "Return to the last restoration point", with the fight not done. Add Flee to ordinary
    fights with Golden Sun's formula. [Keep the restart, with a test that every story fight is winnable at story
    levels.]
-3. **To talk over:** **Target levels per mission.** Recommended: about L6–7 at M3, L8 at M5, L10 at M10, reached through more encounter
+3. **Decided (17 Oct):** **Target levels per mission.** Recommended: about L6–7 at M3, L8 at M5, L10 at M10, reached through more encounter
    tables in mission rooms and bigger story-fight EXP, checked by `progression_check`. [Accept a flat L5–7 Act I;
    rely on grinding.]
-4. **To talk over:** **Stonehollow's west gate** opens onto Golden Sun world zones of L14–21, where an L5 party wins 0–8%.
+4. **Decided (17 Oct):** **Stonehollow's west gate** opens onto Golden Sun world zones of L14–21, where an L5 party wins 0–8%.
    Recommended: put it behind a story flag until our world map and danger stars exist. [Leave it open, with Flee
    and danger markers.]
 
