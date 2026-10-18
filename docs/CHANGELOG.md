@@ -3,6 +3,25 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 17 Oct 2026, night (15 talk items answered)
+
+- **Decided (you, 17 Oct), as recommended:** art 12 (hard-edged CC0 move effects now, Golden Sun's Psynergy
+  effects later); equipment 14 (a Best button on Y with a yes/no check); items 1 (Golden Sun's coin scale: Poké
+  Ball 30, Great 100, Ultra 300, specialty 250, Escape Rope 50, Repel 40, stones 1,200; Brann gives 5 balls with
+  the first partner), items 7 (Poké, Great and Ultra in shops plus a rare Farer Ball that always catches), items 18
+  (no bike, rod or Dowsing Machine), items 25 (Ho-Oh's classic catch after its fight, after the Breaking);
+  progression 8 (Vesper on Mia's curve), 9 (no new Psynergy after L50), 12 (one growth factor for every partner),
+  17 (Weyard species ids at the Weyard data pass, with a save migration), 18 (Ho-Oh filtered to damaging moves,
+  then the fight re-measured).
+- **Decided (you, 17 Oct), alternatives:** art 16, keep the Lost Age files in the APK for later content;
+  art 17, research the uncredited LPC layers, and your note: use them even uncredited, the game being for personal
+  use; equipment 13, armour layers show on the sprite too, not only weapons; progression 16, Gen 8/9 and regional
+  evolutions allowed with mapped methods.
+- **Your note on Ho-Oh** ("unlocked REALLY early") is now progression decision 20: Ho-Oh is only caught after
+  the Breaking already; the question is whether the top Flame Summon should wait for that catch too.
+- Still to talk over: progression 3 (target levels per mission), 4 (Stonehollow's west gate), equipment 8 (the
+  item table).
+
 ## 17 Oct 2026, evening (more answers)
 
 - **Decided (you, 17 Oct), all as recommended:**

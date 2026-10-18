@@ -437,9 +437,9 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 12. **Decided (16 Oct):** **Paying for eight Adepts.** Recommended: Golden Sun prices, with recruit kits, chests in each crew's missions,
     and coins from crew 2's story fights. Agree one income figure with items decision 4. [The waiting crew earns
     half coins; halve gear prices; a shared armoury.]
-13. **To talk over:** **Does gear show on the sprite?** Recommended: the weapon in battle (Golden Sun's overlays now, LPC later); armour
+13. **Decided (18 Oct), alternative:** **Does gear show on the sprite?** Recommended: the weapon in battle (Golden Sun's overlays now, LPC later); armour
     never. [Armour layers too; nothing.]
-14. **To talk over:** **A "Best" button.** Recommended: yes, on Y, with a yes/no check. [None, as in Golden Sun.]
+14. **Decided (18 Oct):** **A "Best" button.** Recommended: yes, on Y, with a yes/no check. [None, as in Golden Sun.]
 15. **Decided (16 Oct):** **Enemy trainers' gear.** Enemy Adepts mirror ours (decided) and wear kits through the same build. Recommended:
     they get gear stats, effects and regen, but no Weapon Arts or curses at first; Golden Sun's monsters never use
     Weapon Arts. [Everything ours has; stats only.]

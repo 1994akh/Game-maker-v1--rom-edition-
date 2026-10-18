@@ -93,7 +93,8 @@ about 2).
      - **Time, gender and weather** are ignored where one target remains, and become the player's choice where two
        remain. **Since 17 Oct** the day/night clock is decided: time conditions read it
        ([day-night-clock.md](day-night-clock.md) §2).
-     - **Gen 8/9 and regional** targets are left out (the roster is Gen 1–7).
+     - **Gen 8/9 and regional** targets: **allowed with mapped methods** (decision 16, your answer 17 Oct); the
+       exporter maps each one's method to a rule above or leaves it held back until its rule exists.
      - **Eevee** evolves by stone: Sun → Espeon, Moon → Umbreon, Shiny → Sylveon. Maren's Shiny Stone could be a
        gift in her arc.
      - **Kirlia → Gallade** by Dawn Stone.
@@ -146,9 +147,9 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 6. **Decided (16 Oct):** **Level span.** Recommended: the main story ends around L45–55, as Golden Sun's does. Golden Sun 2's enemies are
    extracted for Acts II–III, and L56–99 is post-game. [Scale GS1 monsters by area; raise EXP; lower the cap.]
 7. **Decided (16 Oct):** **Gear** is the equipment review's question: an equip menu plus shops and chests by area.
-8. **To talk over:** **Vesper's curve.** She casts Water Seer Psynergy on Jenna's Mars curve (Mercury Power 77, so heals are 26%
+8. **Decided (18 Oct):** **Vesper's curve.** She casts Water Seer Psynergy on Jenna's Mars curve (Mercury Power 77, so heals are 26%
    weaker). Recommended: Mia's curve (pc 3) until Shadow has its own Psynergy. [A Mars placeholder class.]
-9. **To talk over:** **Psynergy after L50.** Recommended: no new entries if the story ends near L50, which is true to Golden Sun.
+9. **Decided (18 Oct):** **Psynergy after L50.** Recommended: no new entries if the story ends near L50, which is true to Golden Sun.
    Ragnarok and Heat Wave still grow with Attack. [Add Golden Sun 2 Psynergy up to the cap.]
 
 **Pokémon**
@@ -158,7 +159,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 11. **Decided (16 Oct):** **Learning moves.** Recommended: each Pokémon stores four moves, with a "Learn X — forget which?" prompt at
     level-up and evolution. [Keep the automatic last four, but always keep the strongest damaging move.] Today
     Riolu at L52+ offers only Final Gambit, and Blaziken drops Slash at L49.
-12. **To talk over:** **Partner pace.** Recommended: one growth factor (1.0) for every partner. A partner only lends 30%, so slow and
+12. **Decided (18 Oct):** **Partner pace.** Recommended: one growth factor (1.0) for every partner. A partner only lends 30%, so slow and
     fluctuating partners trailing 12–22 levels late isn't worth the flavour. [Keep today's factors; clamp to within
     ±3 of the Adept.]
 13. **Decided (16 Oct):** **Evolutions beyond level.** Recommended: the rules in §4. [A "bond" counter on each record; a day/night clock;
@@ -167,13 +168,20 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     record's id; first entry plus an item for the other.] Until then the first branch wins.
 15. **Decided (16 Oct):** **Several stages at once.** Recommended: keep chaining, since a synced partner rarely gains more than a level or
     two a battle. [One stage per level-up, as in the main games.]
-16. **To talk over:** **Gen 8/9 and regional evolutions.** Recommended: left out. [Allowed with mapped methods; "Weyard" as a region.]
-17. **To talk over:** **Weyard forms.** Recommended: story partners switch to Weyard species ids at the Weyard data pass, with a save
+16. **Decided (18 Oct), alternative:** **Gen 8/9 and regional evolutions.** Recommended: left out. [Allowed with mapped methods; "Weyard" as a region.]
+17. **Decided (18 Oct):** **Weyard forms.** Recommended: story partners switch to Weyard species ids at the Weyard data pass, with a save
     migration. [Rename species in place; a "form" field.]
-18. **To talk over:** **Ho-Oh's wasted moves.** Ho-Oh picks Whirlwind and Life Dew, which do nothing. Filtering them makes a 14% fight
+18. **Decided (18 Oct):** **Ho-Oh's wasted moves.** Ho-Oh picks Whirlwind and Life Dew, which do nothing. Filtering them makes a 14% fight
     harder, so decide with item 1.
 19. **Decided (16 Oct):** **Wild Pokémon EXP.** It is linear (yield × level ÷ 50), so from about L15 a wild Pokémon is worth 0.2–0.7 of a
     same-level monster. Recommended: scale it to the area's monster EXP. Decide with item 3.
+20. **Ho-Oh in Act I** (your note on decision 18: "Ho-Oh is unlocked REALLY early ... devalues legendaries").
+    Ho-Oh is never caught in Act I: story.md has it judge Crew 2 at mission 4 and be caught only after the Breaking,
+    in Embral's caldera (items 25, your answer). What comes early is the top Flame Summon, unlocked when the
+    judgement ends (story decision 9). Recommended: at mission 4 Ho-Oh judges and flies off, and the crew gains
+    nothing legendary; the top Flame Summon unlocks with the caldera catch after the Breaking, so legendaries stay
+    special. [Keep the Summon at mission 4 as story decision 9 says; unlock it at mission 4 but weaker until the
+    catch.]
 
 ## 6. Not covered yet
 
