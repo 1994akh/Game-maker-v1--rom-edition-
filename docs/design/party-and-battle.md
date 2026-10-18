@@ -359,7 +359,7 @@ No decisions needed; these were the open checks from the first version, now read
   fighters don't always act in the same order.
 - **Criticals** use the target's level in both games (bonus = level / 5 + 6).
 
-## For DESIGN.md (to paste into the claude.ai project)
+## For DESIGN.md (summary rows; the claude.ai chat is archived, so DESIGN.md is edited in this repo)
 
 | Area | Decision | Source |
 |---|---|---|

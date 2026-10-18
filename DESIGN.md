@@ -1,6 +1,6 @@
 # GBA Game Gumbo — Component Decisions
 
-> Synced from the claude.ai project **GBA Game Gumbo** (`claude/component-decisions.md`). That project doc is where design decisions get made; this file is the copy Claude Code builds from.
+> First synced from the claude.ai project **GBA Game Gumbo** (`claude/component-decisions.md`). That project's chat is archived: design decisions are now made on the decision page, and this file, `docs/design/` and `docs/CHANGELOG.md` are the record Claude Code builds from.
 
 Living log of what we're taking from **Golden Sun**, **Golden Sun: The Lost Age** and **Pokémon Unbound**. Hand this to Claude Code as the design source of truth. Last updated 2026-10-17 (the 13–16 Oct decisions are in `docs/CHANGELOG.md`; the 14 Oct header below has rows for them).
 

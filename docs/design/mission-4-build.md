@@ -1,7 +1,8 @@
 # Mission 4, "The Forgeheart", as built (15 Oct 2026)
 
 What the engine plays today for mission 4 (`docs/story/story.md` §7), where its words live, and what is still a
-placeholder. The cloud chat owns the story; this page is the hand-off so the lines can be rewritten in place.
+placeholder. The engine side writes each mission's final script for your yes (demo decision 1); this page is
+the hand-off so the lines can be rewritten in place.
 Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it when it is back.
 
 ## The flow
@@ -15,7 +16,8 @@ Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it w
 4. **The sanctum** (`forge_sanctum`, the brazier chamber), down the shaft that only opens with Tamsin. Corvin
    pulls the **Flame seal**; every brazier roars and **Ho-Oh** answers and judges the crew (a story fight against
    a Pokémon; a loss restarts it). Calmed, it bursts through the roof and its fire falls on the monastery.
-5. **The Flame Well runs free.** Mars's top Summon (Meteor, until the cloud chat names our own) is unlocked.
+5. **The Flame Well runs free.** Mars's top Summon (Meteor, Golden Sun's own name, kept by demo decision 17) is
+   unlocked.
    **Changing (your answer, progression 20, 18 Oct):** at mission 4 Ho-Oh judges and flies off and the crew gains
    nothing legendary; the top Flame Summon unlocks with the caldera catch after the Breaking. Not built yet.
    Corvin's crew escapes past Ilse's fleet through the Galeway, and **the game returns to the hero's crew in

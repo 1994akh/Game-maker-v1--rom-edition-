@@ -1,7 +1,8 @@
 # Mission 3, "Highwater", as built (15 Oct 2026)
 
 What the engine plays today for mission 3 (`docs/story/story.md` §7), where its words live, and what is still a
-placeholder. The cloud chat owns the story; this page is the hand-off so the lines can be rewritten in place.
+placeholder. The engine side writes each mission's final script for your yes (demo decision 1); this page is
+the hand-off so the lines can be rewritten in place.
 Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it when it is back.
 
 ## The flow
@@ -53,8 +54,8 @@ All lines are placeholders written to the story's beats, in the engine's `maps_s
 - **Saltmarsh Reach** (the story's route into Canalport) isn't built; the Kestrel docks in Canalport directly.
 - **Canalport is one beach room.** The lower town is shut ("still under water") until the sluice opens, and then
   leads to the world map placeholder. The canals themselves are not drawn yet.
-- **Marill** is a placeholder for the canal Kin the Tidewardens give; the cloud chat can name another species
-  that learns Surf.
+- **Marill** is the canal Kin the Tidewardens give, a canal Water type that learns Surf, kept by demo
+  decision 15 (18 Oct).
 - **The beast** wears a Sol Sanctum statue's field sprite and Kraken's battle sheet.
 - **Balance:** the beast expects the player to heal and use Psynergy; plain attacking loses. With the retry rule
   that teaches rather than locks, but it is worth a look in the balance pass.

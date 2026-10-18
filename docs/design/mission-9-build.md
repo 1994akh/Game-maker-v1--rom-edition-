@@ -1,7 +1,8 @@
 # Mission 9, "The Fall of Fallhaven", as built (15 Oct 2026)
 
 What the engine plays today for mission 9 (`docs/story/story.md` §7), where its words live, and what is still a
-placeholder. The cloud chat owns the story; this page is the hand-off so the lines can be rewritten in place.
+placeholder. The engine side writes each mission's final script for your yes (demo decision 1); this page is
+the hand-off so the lines can be rewritten in place.
 Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it when it is back.
 
 ## The flow
@@ -51,9 +52,9 @@ As built:
 
 ## Placeholders and open points
 
-- **Timing (for the cloud chat):** the story says Fallhaven falls "the night after Crew 1 deepened the Forest
-  seal", which is mission 5. As built it falls after missions 5 to 8 are all done, because mission 9 needs both
-  crews full. The line may want a softer "soon after".
+- **Timing (decided, demo 8, 18 Oct: "soon after", played at night):** the story says Fallhaven falls "the
+  night after Crew 1 deepened the Forest seal", which is mission 5. As built it falls after missions 5 to 8 are
+  all done, because mission 9 needs both crews full, so story.md's line becomes "soon after".
 - **Sael's death, Maren's confession and Ilse's choice** are narration over a black screen. They deserve staged
   scenes in the story pass.
 - **The lower town** is Bilibin at full size; the "night" is only words. **The archive** is a palace wing.

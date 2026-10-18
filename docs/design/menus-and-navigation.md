@@ -283,8 +283,8 @@ meaning alone: danger is a count of stars, and HP shows as numbers.
   - **Mission 10.** Its cradle on the Wayfarer "points nowhere yet", which is where it stirs.
   - **From mission 12, full use.** It points at the story goal by default and can be retargeted.
 
-  story.md line 175 still says the Lodestar gives bearings in Act I, which conflicts with lines 238 and 528. That's
-  for the cloud chat to settle; a third stage would be a question for you.
+  story.md line 175 still says the Lodestar gives bearings in Act I, which conflicts with lines 238 and 528. Story
+  decision 1 (17 Oct) settles it as above, and story.md §6 is reworded to match.
 - **Default target:** the current main goal for the active crew. When several are open, the nearest; the Chart lists
   them all (decision N-3).
 - **Aim:** a straight bearing to the goal place, with no routing through warps.
@@ -372,7 +372,7 @@ These came up in the critic's pass and aren't designed yet:
 - **Chest and quest flags use only the room's file name**, and GS1 and GS2 share some names, so flags would collide.
 - **Group-scoped flags clear on every room entry** instead of when the place changes. This waits for places.json.
 
-**Doc conflicts** (for you or the cloud chat):
+**Doc conflicts** (each settled since: story decision 1, decision B-4, and DESIGN.md's struck battle-menu row):
 - story.md line 175 against lines 238 and 528 on the Lodestar in Act I.
 - party-and-battle.md §6's per-partner tactics under bonded partners (decision B-4).
 - DESIGN.md's "Pokémon menus in battle" against the decided 15 Oct Golden Sun-style battle boxes.
@@ -430,7 +430,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     Chart; a separate screen with chains later. [Unbound's DexNav screen now.]
 24. **Decided (16 Oct):** **N-10, landmarks on a small screen.** Recommended: edge markers. [A world-map zoom-out after the 480 picture.]
 25. **Decided (16 Oct):** **N-11, where Lantern Reef sits.** Recommended: north-west of Meridia, which fits both the world sketch and
-    mission 6. [Due north; due west.] Probably the cloud chat's call.
+    mission 6. [Due north; due west.]
 26. **Decided (16 Oct):** **N-12, L/R shortcuts.** Recommended: assignable in the Psynergy menu (default L = Move, R = the newest verb), and
     an 8-slot wheel on X later. [Keep today's fixed shortcuts.]
 27. **Decided (16 Oct):** **N-13, fast travel.** The built "Home" warp at inns is a second fast travel next to Teleport. Recommended: keep

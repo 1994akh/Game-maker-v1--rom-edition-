@@ -1,8 +1,9 @@
 # Mission 10, "The Two-Earth Door", as built (15 Oct 2026)
 
 What the engine plays today for mission 10 (`docs/story/story.md` §7 and §8), where its words live, and what is
-still a placeholder. The cloud chat owns the story; this page is the hand-off so the lines can be rewritten in
-place. Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it when it is back.
+still a placeholder. The engine side writes each mission's final script for your yes (demo decision 1); this
+page is the hand-off so the lines can be rewritten in place. Built on Opus 5.5 while Fable 5.1 was rate-limited;
+the Fable model reviews it when it is back.
 
 ## The flow
 

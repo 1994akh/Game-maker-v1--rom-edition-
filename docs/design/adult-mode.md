@@ -1,8 +1,9 @@
 # Adult mode: the Adult-o-Vision glasses
 
 **Requested by you, 16 Oct.** This page proposes the mechanics. Which story points, lines, scenes and hidden
-pictures exist is the story chat's to write (docs/story/story.md); the engine builds only what's recorded here and
-there. Everything below is **proposed** unless marked **your rule**.
+pictures exist, the engine side drafts as mission pages for your yes on the decision page (decision 9); the
+engine builds only what's recorded here and in docs/story/story.md. Everything below is **proposed** unless
+marked **your rule**.
 
 **Order of work (your rule, 17 Oct):** adult mode is built **after the Act I demo** (missions 1–10) is complete with
 its art, engine and story. Until then this page, the asset curation and the decompile tooling wait; nothing here is
@@ -22,11 +23,11 @@ built, and the demo carries no adult content.
 - **People only.** No Pokémon or other creature appears in any adult content. Pokémon stay what they are everywhere
   else in the game.
 - **Canon adults only.** Every character who appears in adult content is an adult in the cast list, with the age
-  written down (the story chat sets ages). A character written as younger is excluded from all of it, lines
+  written down (in story.md §4, story decision 10). A character written as younger is excluded from all of it, lines
   included. The hero counts too: the LPC "teen" body is an art body type, not an age; if the hero appears in adult
   content, the hero is an adult in canon, and the adult body type is the safer art choice (art decision 4).
 - **Consent is on the page.** A scene shows both people choosing it; nothing is written as coercion, payment for
-  rescue, or a captor's leverage. The story chat holds this line when it writes the beats.
+  rescue, or a captor's leverage. The engine side holds this line when it drafts the beats.
 - **Off by default, and nothing required is behind it.** No main mission, recruit, area, reward or completion item
   needs adult mode. Its own missions are side content; a mode-exclusive variant of a mission changes the scenes and
   lines, never the unlocks, so the normal version stays complete. Turning it off hides everything again at once.
@@ -38,7 +39,7 @@ built, and the demo carries no adult content.
 | Rule | Proposed |
 |---|---|
 | Id and pocket | 9410 in the key-items range (items-and-economy.md §4), named "Adult-o-Vision", flag 8, shown in the Key Items pocket. It can't be sold, dropped or lost |
-| Where it comes from | The story chat's call. Default: an optional find in Act I that the player can pass by, so the choice is theirs from early on. [Sold at the Tradewind Bazaar (m8); a bounty reward; a gift from a side character] |
+| Where it comes from | Decided 17 Oct (decision 1): an optional find in Act I that the player can pass by, so the choice is theirs from early on. [Sold at the Tradewind Bazaar (m8); a bounty reward; a gift from a side character] |
 | Toggling | Key Items → the glasses → Use. A short toast: "Adult-o-Vision: on" / "off". No settings row and no button: the glasses are the switch. **Your rules (17 Oct):** the first use shows an 18+ content warning and an age check the player must confirm before the mode can turn on (decision 12), and **the game saves after every toggle** (decision 13) |
 | What it sets | The permanent flag `adult_mode`, saved with the game. A new game starts with it clear |
 | When it takes effect | At once for the next dialogue page, the next room load and the next menu open. A scene already running finishes as it started |
@@ -77,7 +78,8 @@ All of it uses what the engine already has.
 - **The gallery menu.** A **Gallery** entry in the Start menu that exists only while the mode is on
   (menus-and-navigation.md §3). It lists collected pictures as "n of N", opens one on A, and shows an uncollected
   one as a locked slot with the area's name as a hint.
-- **The side mission.** Collect all N pictures for a reward the story chat names. Progress shows in the Gallery and,
+- **The side mission.** Collect all N pictures for a reward: coins and a charm, and a scene
+  (decision 3). Progress shows in the Gallery and,
   while the mode is on, as a line on the Farer's Log Bearings page. It counts toward no visible completion % when
   the mode is off.
 - **Save.** Flags only (`adult_mode`, `gallery:<id>`), so the save format doesn't change.
@@ -132,8 +134,9 @@ Answered on the decision page: accepted items are marked **Decided** with the da
    reward; a gift.]
 2. **Decided (17 Oct):** **The hero's canon age and body.** Recommended: an adult, drawn with the adult body (this settles art decision 4
    for the boy hero). [Keep the teen body and keep the hero out of adult scenes.]
-3. **Decided (17 Oct):** **The side mission's reward.** The story chat's call; a mechanics default is coins plus a charm.
-   [An adult scene as the reward.] Your note: both, and adult-only weapon variations and attacks (decision 11).
+3. **Decided (17 Oct):** **The side mission's reward.** To be named with the story beats; a mechanics default is
+   coins plus a charm. [An adult scene as the reward.] Your note: both, and adult-only weapon variations and attacks
+   (decision 11).
 4. **Decided (17 Oct):** **Toggle persistence.** Recommended: saved with the game. [Off again every time the game starts.]
 5. **Decided (17 Oct):** **Easter eggs and completion.** Recommended: adult-only finds count in a hidden % shown only while the mode is on.
    [Count nowhere; count in the Log's normal %.]
