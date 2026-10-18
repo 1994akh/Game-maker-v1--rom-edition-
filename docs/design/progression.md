@@ -147,9 +147,9 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 6. **Decided (16 Oct):** **Level span.** Recommended: the main story ends around L45–55, as Golden Sun's does. Golden Sun 2's enemies are
    extracted for Acts II–III, and L56–99 is post-game. [Scale GS1 monsters by area; raise EXP; lower the cap.]
 7. **Decided (16 Oct):** **Gear** is the equipment review's question: an equip menu plus shops and chests by area.
-8. **Decided (18 Oct):** **Vesper's curve.** She casts Water Seer Psynergy on Jenna's Mars curve (Mercury Power 77, so heals are 26%
+8. **Decided (17 Oct):** **Vesper's curve.** She casts Water Seer Psynergy on Jenna's Mars curve (Mercury Power 77, so heals are 26%
    weaker). Recommended: Mia's curve (pc 3) until Shadow has its own Psynergy. [A Mars placeholder class.]
-9. **Decided (18 Oct):** **Psynergy after L50.** Recommended: no new entries if the story ends near L50, which is true to Golden Sun.
+9. **Decided (17 Oct):** **Psynergy after L50.** Recommended: no new entries if the story ends near L50, which is true to Golden Sun.
    Ragnarok and Heat Wave still grow with Attack. [Add Golden Sun 2 Psynergy up to the cap.]
 
 **Pokémon**
@@ -159,7 +159,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 11. **Decided (16 Oct):** **Learning moves.** Recommended: each Pokémon stores four moves, with a "Learn X — forget which?" prompt at
     level-up and evolution. [Keep the automatic last four, but always keep the strongest damaging move.] Today
     Riolu at L52+ offers only Final Gambit, and Blaziken drops Slash at L49.
-12. **Decided (18 Oct):** **Partner pace.** Recommended: one growth factor (1.0) for every partner. A partner only lends 30%, so slow and
+12. **Decided (17 Oct):** **Partner pace.** Recommended: one growth factor (1.0) for every partner. A partner only lends 30%, so slow and
     fluctuating partners trailing 12–22 levels late isn't worth the flavour. [Keep today's factors; clamp to within
     ±3 of the Adept.]
 13. **Decided (16 Oct):** **Evolutions beyond level.** Recommended: the rules in §4. [A "bond" counter on each record; a day/night clock;
@@ -168,10 +168,10 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     record's id; first entry plus an item for the other.] Until then the first branch wins.
 15. **Decided (16 Oct):** **Several stages at once.** Recommended: keep chaining, since a synced partner rarely gains more than a level or
     two a battle. [One stage per level-up, as in the main games.]
-16. **Decided (18 Oct), alternative:** **Gen 8/9 and regional evolutions.** Recommended: left out. [Allowed with mapped methods; "Weyard" as a region.]
-17. **Decided (18 Oct):** **Weyard forms.** Recommended: story partners switch to Weyard species ids at the Weyard data pass, with a save
+16. **Decided (17 Oct), alternative:** **Gen 8/9 and regional evolutions.** Recommended: left out. [Allowed with mapped methods; "Weyard" as a region.]
+17. **Decided (17 Oct):** **Weyard forms.** Recommended: story partners switch to Weyard species ids at the Weyard data pass, with a save
     migration. [Rename species in place; a "form" field.]
-18. **Decided (18 Oct):** **Ho-Oh's wasted moves.** Ho-Oh picks Whirlwind and Life Dew, which do nothing. Filtering them makes a 14% fight
+18. **Decided (17 Oct):** **Ho-Oh's wasted moves.** Ho-Oh picks Whirlwind and Life Dew, which do nothing. Filtering them makes a 14% fight
     harder, so decide with item 1.
 19. **Decided (16 Oct):** **Wild Pokémon EXP.** It is linear (yield × level ÷ 50), so from about L15 a wild Pokémon is worth 0.2–0.7 of a
     same-level monster. Recommended: scale it to the area's monster EXP. Decide with item 3.
