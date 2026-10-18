@@ -101,7 +101,7 @@ Each page's last section lists every new step it uses.
 | `{HERO_SUBJ}` | he / she / they | 4 |
 | `{HERO_OBJ}` | him / her / them | 4 |
 | `{HERO_POSS}` | his / her / their | 5 |
-| `{LEADER}` | The active crew's lead (an engine token, for system lines while Corvin's crew plays) | 10 |
+| `{LEADER}` | The active crew's lead, for system lines while Corvin's crew plays. **New:** the engine has only the four `HERO` tokens today; mission 2's build list asks for it | 10 |
 
 Rules, because the pronouns are the player's choice:
 - The pronoun tokens are lower case, so **never start a sentence with one.** Start with `{HERO}` instead.
@@ -151,7 +151,7 @@ story.md is an invention, listed on the page where it's first used.
 | {HERO} | Short and plain. Steady. Says less than they feel. The player fills the rest |
 | Corvin | Warm and quick, teasing, a little theatrical. Jokes when it hurts. Apologises lightly and means it heavily |
 | Keeper Brann | Old, slow, dry. Talks in eggs and stone. Gruff on top, soft underneath. Calls the hero "apprentice" |
-| Commodore Ilse | Clipped and exact, a naval officer. Kind in what she does more than what she says. Believes in the order |
+| Commodore Ilse | Clipped and exact, a naval officer. Kind in what she does more than what she says. Believes in the order. Calls the hero by name, then "deputy"; "apprentice" is Brann's word |
 | Captain Sael | Dry, blunt, a sea captain. Fierce love said as scolding. Never wastes a word |
 | Hask | Low and level, never shouts. Speaks in absolutes: every, all, now. Needles Corvin as "Sael's stray" |
 | Maren | By the book, precise, a medic's calm; a careful listener (mission 3 on) |

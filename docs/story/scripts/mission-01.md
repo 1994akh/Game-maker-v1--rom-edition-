@@ -18,7 +18,7 @@
 | Leads into | Mission 2: Corvin's crew in `sea_caves` |
 
 **The flow.** {HERO} wakes late on Keeping Night and goes out to the festival. At the hatchery, Brann gives the first
-partner, five Poké Balls and the Lodestar, and then the Vault shakes: someone has forced its gate. Brann sends
+partner, five Poké Balls and the Lodestar, and then the Vault shakes: someone has forced its doors. Brann sends
 {HERO} up the Vault road. Three Move puzzles and an optional dig lead to the inner door, where a masked man waits:
 Corvin, alive. He asks for help, is refused, and fights, hoping two Earth Adepts' Psynergy will force the seal. It
 stirs the Sleeper instead. The hall splits and Corvin escapes down the underground river. At dawn, Ilse names him a
@@ -133,24 +133,21 @@ there. Ask first. Then throw.
 
 *Brann takes a brass compass from his coat and turns it over in his big hands.*
 
-**Brann:** And this. The Lodestar. My
-grandmother's grandmother's, and
-hers before that.
+**Brann:** And this. The Lodestar. Keepers
+have handed it down since before
+my grandmother's time.
 
-A Farer piece, they say. From the
-sky-sailors in the old songs.
-
-It has never pointed anywhere in my
-lifetime. Keepers pass it on all
-the same. "Hold it till it wakes."
+A Farer piece, they say, whatever
+a Farer was. It has never pointed
+anywhere. "Hold it till it wakes."
 
 *[give Lodestar]*
 
 **System:** {HERO} received the Lodestar!
 
 **Brann:** There. Now you look like a
-keeper. Come on. The rite is at
-moonrise, and Ilse brought cake...
+keeper. Come on, the rite's at
+moonrise, and the pie is nearly...
 
 *[shake 70, 3] The drums stop dead. Lanterns swing on their strings. A deep boom rolls down the Vault road, then
 another, and somewhere up the hill stone grinds on stone.*
@@ -162,13 +159,13 @@ another, and somewhere up the hill stone grinds on stone.*
 *Commodore Ilse comes at a run from the square, one hand on her sword hilt: a tall woman in a Tidewarden's blue
 coat, grey at the temples. [walk Ilse → beside Brann] [face Ilse → Brann]*
 
-**Ilse:** Keeper! The Vault road gate is
-standing open. The bar is snapped
-clean through.
+**Ilse:** Keeper! There's light at the top of
+the Vault road. The doors are open.
 
-**Brann:** Snapped? From inside, or out?
+**Brann:** Open? Nobody opens the Vault
+but a keeper.
 
-**Ilse:** Out.
+**Ilse:** Then somebody has.
 
 *[emote Brann: silence] [face Brann → {HERO}]*
 
@@ -217,8 +214,9 @@ all nights.
 
 *The inner door chamber: a round room with the inner door at its north end, a slab of dark stone with two
 handprints cut side by side into its seal. Along the east wall a deep crack hums with running water somewhere below.
-A figure in a grey hooded coat and a plain white mask stands with one palm flat on the seal, back to the room.
-[sprite Corvin: 34, masked]*
+A figure in a grey hooded coat and a white mask of carved wood stands with one palm flat on the seal, back to the
+room. [sprite Corvin: 34, masked] Until the unmasking the speaker shows a name tag only, "Masked figure", with no
+portrait, so the portrait doesn't give him away.*
 
 *[walk {HERO} → three cells south of the figure] The figure doesn't turn.*
 
@@ -253,15 +251,15 @@ quick.
 
 *[face Corvin → the door] [light: the two handprints glow a faint amber]*
 
-**Corvin:** This door takes two Earth Adepts,
-side by side. Behind it is the only
+**Corvin:** It takes two Earth Adepts, side
+by side. That door hides the only
 way to save my home.
 
 *[face Corvin → {HERO}]*
 
 **Corvin:** Not this home. The other one. A
-town on the rim that's falling into
-the sea, a street every month.
+town on the rim, falling off the
+world a street at a time.
 
 Will you help me open it?
 
@@ -284,12 +282,12 @@ Will you help me open it?
 
 3. "Corvin... why?" · quiet: ...
 
-   **Corvin:** You want to know why. Every
-   month the rim loses a street, and
-   I'm out of other doors.
+   **Corvin:** Because I've knocked on every
+   other door there is. This is the
+   last one.
 
-   That's all you get. Not here, with
-   your oath listening.
+   The rest I'll tell you somewhere
+   your oath can't hear.
 
 *Every reply rejoins here.*
 
@@ -379,7 +377,7 @@ nowhere near the front.*
 thing a keeper checks.
 
 **Ilse:** And the second is the report.
-What was up there, apprentice?
+What was up there?
 
 *[face {HERO} → Brann]*
 
@@ -387,13 +385,15 @@ What was up there, apprentice?
 
 *Quiet: [emote {HERO}: silence] and no line.*
 
-*{HERO} holds out the white mask. Brann takes it and turns it over in his hands for a long moment.*
+*{HERO} holds out the white mask. Brann takes it and turns it over in his hands for a long moment. (He knows it
+on sight, so the quiet hero's silence still tells the scene who it was.)*
 
-**Brann:** ...Corvin. The sea gave him
+**Brann:** I carved this mask. A Keeping
+Night, years back, for a boy who
+hatched my eggs in his boots.
+
+...Corvin. So the sea gave him
 back.
-
-He used to steal my eggs and hatch
-them in his boots. Every spring.
 
 **Ilse:** Whatever he was to you both, he
 forced the Vault on the one night
@@ -403,12 +403,11 @@ The order has a word for that.
 Seal-breaker.
 
 My marines are searching the north
-shore caves. The charts say that's
-where the river comes out.
+shore caves, where the charts say
+the river comes out.
 
-I can't spare a ship to chase one
-man through the Galeway. But I can
-name a deputy who knows his face.
+But I need someone who knows his
+face.
 
 *[face Ilse → {HERO}]*
 
@@ -434,8 +433,7 @@ name a deputy who knows his face.
 
 *Every reply rejoins here.*
 
-**Ilse:** Then stand up straight. We don't
-kneel in my order.
+**Ilse:** So. Let it be said properly.
 
 {HERO} of Marrow Isle, keeper's
 apprentice. From this dawn, deputy
@@ -443,9 +441,8 @@ of the Tidewardens.
 
 Written and witnessed.
 
-**Brann:** And keeper of the Earth seal,
-from tonight. Whatever that turns
-out to mean.
+**Brann:** And still my apprentice. Deputy
+or no, you come home for supper.
 
 **Ilse:** The Kestrel stays in the cove a
 few days. When I have work for you,
@@ -638,11 +635,9 @@ give a place instead.
   **Ilse:** Go on, {HERO}. I'll hold the
   gate till you come down.
 
-  *After the Vault (slot 14, from `m1_done` until `m2_done`; the dawn scene replaces her quest role):*
-
-  **Ilse:** Rest while you can, deputy. When
-  there's work, you'll hear it from me
-  first.
+  *After the Vault:* no idle line. Scene 7 plays her part and crew 2 takes over at once, so slot 14 is never
+  seen again; it hides from `m1_done`, which the dawn scene sets. From `m2_done`, when crew 1 is back, her slot
+  16 belongs to mission 3's script.
 
 - **A Tidewarden marine** (new), beside Ilse; goes where she goes. The festival:
 
@@ -1100,14 +1095,16 @@ Things story.md doesn't say, for you to keep or strike:
 - **The Tern:** the fishing boat Corvin was lost with five years ago, its skipper Ebb and its hand Orrin, and the
   memorial stone; Brann scratching Corvin's name off it. Corvin crewing the Tern as a young deckhand; his family
   stays offstage.
-- **Brann:** his look, his knees, "Hold it till it wakes", the Lodestar as a keepers' heirloom handed down his
-  family, and folk memory of "Farers" as sky-sailors in old songs (a seed for mission 19, saying nothing of the
-  Crown); Corvin hatching Brann's eggs in his boots.
+- **Brann:** his look, his knees, "Hold it till it wakes", the Lodestar as a keepers' heirloom handed down since
+  before his grandmother's time, and "Farer" as a word nobody can explain any more (a seed for mission 19 that says
+  nothing of who the Farers were or of the Crown); Corvin hatching Brann's eggs in his boots; "Deputy or no, you
+  come home for supper".
 - **Ilse:** her look; in port for the festival as the order's guest; her marines searching the north shore caves
-  (mission 2 hears them); "We don't kneel in my order".
-- **Corvin's actions:** he forced the Vault's gate himself on the festival night ("I knocked. The Vault knocked
+  (mission 2 hears them); seeing the Vault's light from the north gate.
+- **Corvin's actions:** he forced the Vault's doors himself on the festival night ("I knocked. The Vault knocked
   back"), which is the quake; he fights hoping two Earth Adepts' Psynergy at the seal will force the door, which is
-  what stirs the Sleeper; his mask, left behind and handed to Brann; his line "come and find me. I'll tell you
+  what stirs the Sleeper; his mask, a Keeping Night mask Brann carved for him as a boy, left behind and handed back
+  to Brann (so Brann names him even when a quiet hero says nothing); his line "come and find me. I'll tell you
   everything".
 - **The Vault:** the bronze seal-bar, the entrance plaque, the mural of six faceless robed figures, the inner door's
   two handprints, the crack along the east wall that becomes his escape.
@@ -1135,9 +1132,11 @@ Things story.md doesn't say, for you to keep or strike:
 - **Text by state:** most people have three states. Either one row per state with `condition`s, or a row field that
   picks its text by flag (a list of `{flag, text}`, the last match winning). The second keeps slots stable and is
   recommended.
-- **Ilse's slot 14** loses its quest role and the Lodestar (item 9003): scene 7 does her part, then she says her
-  "Rest while you can" line until `m2_done`. The handover narration and `crew 2` move from her `scene_after` into
-  scene 7.
+- **Ilse's slot 14** loses its quest role and the Lodestar (item 9003): scene 7 does her part, and the row hides
+  from `m1_done` (crew 2 takes over at once, so an idle line there would never be seen). The handover
+  narration and `crew 2` move from her `scene_after` into scene 7.
+- **The masked figure's name tag:** scene 5's first pages show the tag "Masked figure" and no portrait (decision
+  24's portraits would give Corvin away); his portrait appears with the unmasking.
 - **The hatchery** becomes a scene: Brann's lines, the choice, the per-pick lines and system lines from the room's
   events (today the pick line is in code: "X is yours now"), the gifts, the quake, Ilse's run and `m1_quake`.
 - **The opener** (`keeping_night`) loses its quake and its villager line: scene 2 replaces it.

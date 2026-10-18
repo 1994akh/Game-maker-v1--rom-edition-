@@ -6,16 +6,17 @@
 |---|---|
 | What | A narrated intro of six painted stills, before the creator (demo-plan.md decision 3) |
 | When | New Game → the opening → the creator → mission 1 (the hero's house). Continue never plays it |
-| Length | Six stills, 17 pages of narration, about a minute at reading speed |
+| Length | Six stills and six pages of narration, one page a still (decision 3's "about six pages"), about forty seconds at reading speed |
 | Skip | Start skips to the creator. The opening is never shown again on that save |
 | Tokens | None: the hero doesn't exist yet |
 | Flags | None |
 
 **What it tells.** Only what every child of Halcyra believes (story.md §3, layer 1): six Wells, sealed six hundred
 years ago to save the world; the Tidewardens who keep the seals and take the tithe; the falling rim; Marrow Isle and
-its keepers; tonight's festival. It never names the Crown or the Farers. Two lines carry a quiet doubt for later
-("So every child in Halcyra is taught", and the rim failing "ever since"), and the last still brings Corvin's dark
-skiff home.
+its keepers; tonight's festival. It never names the Crown or the Farers. Two phrases carry a quiet doubt for later
+("the songs say", and the rim falling "ever since"), and the last still brings Corvin's dark skiff home. The stills
+carry what the six pages leave out: the great Pokémon behind the doors, the Rimborn boats turned back, the tithe
+barge.
 
 ## How the stills are made (for the illustrator)
 
@@ -26,8 +27,9 @@ skiff home.
 - **No text** in any still.
 - **One palette across all six**, warm for the island and the festival and cooler for the rim, so they read as one
   sequence.
-- **Motion:** each still pans or pushes in slowly while its pages play (a few pixels a second), with one parallax
-  layer where noted. Stills crossfade (40 ticks) between each other.
+- **Motion:** each still pans or pushes in slowly while its page is up (a few pixels a second), with one parallax
+  layer where noted. The page waits for A, as every page does; then the still crossfades (40 ticks) to the next.
+  With one page a still, each still should hold the eye for a few seconds on its own.
 - **Nothing from later acts:** no Farer ships, no Crown, no sky-sailors. The figures in still 2 have no faces.
 
 ## Still 1. Halcyra
@@ -38,42 +40,29 @@ Around it, a calm turquoise sea scattered with islands (the Calm). Around that, 
 Galeway). Beyond, a wider, darker blue sea (the Wide), and at the very edge a ring of white water falling away into
 pale nothing (the Rimfalls). Six faint points of coloured light glow at the six Well sites: amber on Marrow Isle in
 the east, red on a volcanic island in the south, blue at a great whirlpool in the south-east, violet at a tower
-piercing the clouds in the north, green at a giant tree in the west, and a deep purple at black falls on the
-north-west rim. Morning light. Parallax: the cloud ring drifts.*
+piercing the clouds in the north, green at a giant tree in the west, and a cold silver at black falls on the
+north-west rim (silver rather than a second purple, so Shadow never reads as Sky once the palette is reduced).
+Morning light. Parallax: the cloud ring drifts.*
 
 *[fade in 60] [still opening_1]*
 
-**Narration:** Halcyra is a world of open sea and
-countless islands, around a single
-green continent.
-
-Beneath it lie six elemental Wells:
+**Narration:** Six Wells lie beneath Halcyra:
 Earth and Flame, Sea and Sky,
 Forest and Shadow.
-
-And in the heart of each Well, a
-great Pokémon sleeps.
 
 ## Still 2. The sealing
 
 *The still: six robed, hooded figures stand in a ring before six great stone doors, each door rimmed with the light
-of its element (amber, red, blue, violet, green, purple). Their hands are raised, and each door's light is
+of its element (amber, red, blue, violet, green, silver). Their hands are raised, and each door's light is
 narrowing to a thin bright seam as it closes. Their faces are lost in shadow under the hoods. Behind each door, just
 suggested in the last of the light, the edge of something enormous: a wing, a coil, a ridge of horn. Dark stone,
 the look of an old temple carving brought to life. Push in slowly toward the nearest door.*
 
 *[crossfade 40] [still opening_2]*
 
-**Narration:** Six hundred years ago, the Wells
-were sealed.
-
-The old songs say the world was
-failing then, and the seals saved
-it.
-
-The seals held. The land grew
-green and calm. So every child in
-Halcyra is taught.
+**Narration:** Six hundred years ago, the songs
+say, the Wells and their great
+Pokémon were sealed, to save us all.
 
 ## Still 3. The Tidewardens
 
@@ -85,12 +74,8 @@ little too perfect. Pan slowly up from the barge to the spire.*
 
 *[crossfade 40] [still opening_3]*
 
-**Narration:** From the Pinnacle, high on the
-mountains of the Spine, the
-Tidewardens keep the seals.
-
-They license every Adept and every
-handler of Pokémon, and take the
+**Narration:** From the Pinnacle, the Tidewardens
+keep the seals, and take the
 element tithe for the keeping.
 
 ## Still 4. The falling rim
@@ -103,17 +88,9 @@ the mist rolls.*
 
 *[crossfade 40] [still opening_4]*
 
-**Narration:** But ever since, at the world's edge,
-the sea has poured away over the
-Rimfalls, into nothing.
-
-And the rim goes with it. Its towns
-fall into the mist, a street at a
-time.
-
-The Rimborn sail inward with what
-they can carry. The Tidewardens
-turn their boats away.
+**Narration:** Yet ever since, at the world's edge,
+the sea has poured away, and the
+rim falls with it, street by street.
 
 ## Still 5. Marrow Isle
 
@@ -124,15 +101,9 @@ moment, the faintest amber glow, deep down. Warm stone and amber light. Push in 
 
 *[crossfade 40] [still opening_5]*
 
-**Narration:** East of the continent, in the Calm,
-lies Marrow Isle.
-
-Under its village, Stonehollow, the
-Earth Well sleeps behind the doors
-of the Marrow Vault.
-
-Its keepers have guarded them for
-six hundred years.
+**Narration:** On Marrow Isle, in the Calm, the
+keepers of Stonehollow guard the
+Vault where the Earth Well sleeps.
 
 ## Still 6. Keeping Night
 
@@ -144,14 +115,9 @@ Parallax: the lanterns sway. Hold on the skiff for the last page.*
 
 *[crossfade 40] [still opening_6]*
 
-**Narration:** Once a year, on Keeping Night,
-Stonehollow lights its lanterns to
-honour the sealing.
-
-Tonight is Keeping Night.
-
-And out on the dark water, a skiff
-with no lights is coming home.
+**Narration:** Tonight is Keeping Night, when the
+lanterns honour the sealing. And a
+skiff with no lights is coming home.
 
 *[fade out 60] The creator opens. Its title line:*
 
@@ -159,11 +125,11 @@ with no lights is coming home.
 
 ## Inventions
 
-- The doubt in "So every child in Halcyra is taught" and "ever since": story.md's logline links the sealing and
-  the falling rim; the narration only hints at it.
+- The doubt in "the songs say" and "ever since": story.md's logline links the sealing and the falling rim; the
+  narration only hints at it.
 - The Tidewarden sigil (a wave beneath a closed ring) and the tithe barge.
 - The six Well sites' colours: Golden Sun's element colours for Earth, Flame, Sea and Sky (amber, red, blue,
-  violet), green for Forest and deep purple for Shadow.
+  violet), green for Forest and a cold silver for Shadow.
 - The dark skiff with one figure in it (Corvin, arriving for mission 1).
 - The creator's title line, "Who keeps the Vault tonight?"
 

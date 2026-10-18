@@ -148,8 +148,8 @@ something stupid.
 
 *[face Sael → Corvin] [emote Sael: anger] [wait 30] [emote Sael: silence]*
 
-**Sael:** Five days, Corvin. Ketch said "a
-quick look at Marrow Isle". Five
+**Sael:** Five days, Corvin. Your note said
+"a quick look at Marrow Isle". Five
 days.
 
 **Corvin:** I'm back, aren't I?
@@ -200,8 +200,8 @@ Well? Did you find your "only way"?
 out of that wreck, half drowned and
 furious at the sea.
 
-I've watched you look west across
-the Calm ever since. I hoped you'd
+I've watched you look west, toward
+the Calm, ever since. I hoped you'd
 stop.
 
 You only got better at hiding it.
@@ -228,12 +228,9 @@ out buying bread, Sael.
 season, and the cliff under the
 lower town is next.
 
-Everyone goes up the cliff road to
-the high town tonight. But a cart
-went over in the west alley.
-
-The alley's the only way up. You're
-an Earth Adept. Clear it.
+Everyone climbs to the high town
+tonight, and a cart's blocking the
+west alley. Earth Adept. Clear it.
 
 Then find me at the top. We're not
 finished, you and I.
@@ -406,11 +403,11 @@ waiting ends.
    **Hask:** Just "no". Sael's favourite
    word. She taught you well.
 
-2. "You'd drown the centre."
+2. "That could drown us all."
 
-   **Hask:** The centre has had six hundred
-   years of summer. Let it learn what
-   weather is.
+   **Hask:** The rim is drowning now. The
+   centre's had six hundred years of
+   summer. Let it learn some weather.
 
 3. "And if you're wrong?"
 
@@ -479,8 +476,8 @@ found.
 *[fade out 60] [flag m2_done]*
 
 **Narration:** Corvin sailed for Embral at first
-light, by lanes only the Rimborn
-know.
+light, with bread, and for once,
+a coat.
 
 Far to the west, on Marrow Isle,
 {HERO} still kept a compass that
@@ -561,11 +558,8 @@ stay. Cells are on today's 25×20 clip.
 
   *After the fall:*
 
-  **Tanner:** Forty years on that street, and
-  it went while I was out buying
-  bread.
-
-  I've still got the bread.
+  **Tanner:** I've still got the bread. Funny,
+  the things you keep.
 
 - **Ketch** (new), at the foot of the harbour stair, by the skiff. Arrival:
 
@@ -584,8 +578,8 @@ stay. Cells are on today's 25×20 clip.
 
 - **Old Jory, the net-mender** (new), on the harbour steps. Arrival:
 
-  **Old Jory:** Corvin! Back from the heartland.
-  Sit down. I'll sing you the one you
+  **Old Jory:** Corvin! Back already? Sit down,
+  sit down. I'll sing you the one you
   like.
 
   Under the marrow, under the stone,
@@ -881,8 +875,9 @@ invention: **"a kid who falls from a great height in a cutscene and is caught in
 
 Things story.md doesn't say, for you to keep or strike:
 
-- **Corvin's trip:** his own idea against Sael's wishes, five days there and back, with Ketch's help; his landing
-  in the "east" caves while Ilse's marines search the north ones.
+- **Corvin's trip:** his own idea against Sael's wishes, left as a note ("a quick look at Marrow Isle"), five days
+  there and back, with Ketch's help; his landing in the "east" caves while Ilse's marines search the north ones;
+  Sael's "You never take a coat" and the coat he takes to Embral.
 - **Ketch:** a Rimborn skiff pilot, chatty, with a funeral song half written; the reef gap; two days through the
   Galeway lanes.
 - **The Rimborn chalk mark** for "something kept here", and the stash.
