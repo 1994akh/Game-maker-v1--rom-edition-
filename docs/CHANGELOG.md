@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 18 Oct 2026
 
+- **Merged in the engine:** the LPC cast (PR #61: 8 Adepts and 20 townsfolk on adult and child bodies, the critic's
+  fixes, the five poses, a foot shadow, credits for 33 LPC authors, a check that the game's sheets are current) and
+  the art files (PR #63: the CC0 pipeline and picks, item icons by id only, Pokémon menu icons and the emote sprite).
+  Nothing on screen changes until art part B wires them in with the 480×320 switch. Art approvals card 6 asks about
+  the Tab and Enter prompts.
 - **Art for your yes** (demo decision 21): a new **Art approvals** tab on the decision page with five cards: the LPC
   cast and 20 townsfolk looks with the art critic's fixes, the scripted poses, a foot shadow, the UI art, and night
   battle backgrounds. The pictures were sent in chat. Also merged in the engine: the Fold probe (PR #65) and the music

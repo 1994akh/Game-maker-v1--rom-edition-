@@ -31,3 +31,7 @@ Recommended first. The alternatives are in brackets.
    almost flat teal, the meadow and snowfield nights are dim), and the arena's red sky is loud. Recommended: use a
    night background only where a room really is at night (the clock decides), brighten the murky ones a little, and
    keep the arena for a special fight. [Every outdoor room switches at night as they are; day scenes only.]
+6. **The Tab and Enter button prompts.** Kenney's pixel prompt pack has no one-key Tab or Enter: Tab is two tiles wide
+   and Enter an L-shaped key two rows tall, and shrinking them breaks their borders and letters. They only matter for
+   a keyboard. Recommended: draw our own one-key Tab and Enter in the pack's style when the prompts are wired in.
+   [Show them at their own size; drop keyboard prompts and show the pad's only.]
