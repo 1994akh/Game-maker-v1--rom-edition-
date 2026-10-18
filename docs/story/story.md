@@ -149,12 +149,13 @@ Each Adept has **three story beats** (FF-style personal arcs):
 ## 5. The legendaries
 
 As you asked, all three roles are combined. Every legendary **judges** the crew, several **talk** and take sides, and
-**all six can be caught**, each in a different way. Calming one unlocks its group's top Summon at once. Catching it
+**all six can be caught**, each in a different way. Calming one unlocks its group's top Summon at once (except Ho-Oh's, which waits for its catch after the Breaking:
+progression decision 20, 18 Oct). Catching it
 is a separate later beat, so a legendary never joins the party early enough to break the balance (§14, question 9).
 
 | Legendary | Site | Role in the story | When it's calmed (Summon) | How it's caught |
 |---|---|---|---|---|
-| **Ho-Oh** | Forgeheart, Embral Isle (Flame) | **Judge.** It wakes in agony when Corvin pulls the Flame seal and tests Crew 2 in battle | Mission 4 | **After a major story point:** after the Breaking it nests in Embral's new caldera, and you fight and catch it there |
+| **Ho-Oh** | Forgeheart, Embral Isle (Flame) | **Judge.** It wakes in agony when Corvin pulls the Flame seal and tests Crew 2 in battle | Mission 4 judges; the Summon waits for the catch (progression 20) | **After a major story point:** after the Breaking it nests in Embral's new caldera, and you fight and catch it there |
 | **Celebi** | Eldergrove Heart (Forest) | **Talks** through time visions: it showed the founders sealing the Wells and has been trying to warn people ever since | Mission 14 | **Puzzle:** finish the past/present garden chain in Root and Ruin and it comes to you |
 | **Lugia** | Silverdeep (Sea) | **Takes a side.** It sided with the Tidewardens, believing the seals protect the sea, and has to be convinced by evidence, not just beaten | Mission 18 | **End of its arc:** after Silverdeep it waits at the Silverdeep lighthouse and joins when you return |
 | **Rayquaza** | Stormspire (Sky) | **Judge and guardian** of the Farers' tower; it dives in to stop Primal Groudon in Act III | Mission 19 | **Classic:** a battle-and-catch at the Stormspire summit, reachable by airship after its arc |
@@ -212,7 +213,7 @@ because Act I is played as Crew 1.
 | 1 | **The Keeping Night** | {HERO} alone | Marrow Isle: Stonehollow village, the Vault's upper halls | The festival that honours the sealing. A quake opens the Vault, and {HERO} solves Move puzzles and chooses a first partner at Keeper Brann's hatchery. At the inner door, which only two Earth Adepts together can open, a masked intruder waits: Corvin, alive. "That door hides the only way to save my home." They fight. The clash of two Earth Adepts at the seal stirs Groudon, the hall splits, and Corvin escapes down the underground river. Commodore Ilse names him a seal-breaker and deputises {HERO} to hunt him | First partner; Move; the Lodestar (Brann's heirloom: a Farer compass nobody can read yet) |
 | 2 | **The Drowned Boy** | Corvin alone | Marrow sea caves → a Rimborn skiff → **Fallhaven**, a cliff town on the east rim | Earth puzzles in the river caves. In Fallhaven we meet Sael, who pulled Corvin from a wreck, and see a street fall into the Rimfalls. Corvin clears escape paths as a cliff gives way. Hask offers to tear out every seal at once; Corvin refuses and sails for the Flame Well | Shows the rim's stakes first-hand |
 | 3 | **Highwater** | {HERO}, then Maren joins | Brightcoast on Meridia: Saltmarsh Reach and Canalport | A tidal canal city is flooding, and Ilse assigns Maren to {HERO}. Frost turns puddles into pillars, and Surf crosses the canals. Boss: a sluice beast | **Maren joins. Surf. The cutter *Kestrel*: the Calm opens** |
-| 4 | **The Forgeheart (FLAME SITE)** | Crew 2 interlude: Corvin, then Tamsin joins | Embral Isle | Monastery trials; Tamsin joins after losing to Corvin. Pulling the Flame seal wakes **Ho-Oh** in agony, and it judges Crew 2 in battle. Its flight sets the monastery alight, and Crew 2 escapes Ilse's fleet through the Galeway lanes | **Tamsin joins. Flame Well open. Fire Summon** |
+| 4 | **The Forgeheart (FLAME SITE)** | Crew 2 interlude: Corvin, then Tamsin joins | Embral Isle | Monastery trials; Tamsin joins after losing to Corvin. Pulling the Flame seal wakes **Ho-Oh** in agony, and it judges Crew 2 in battle. Its flight sets the monastery alight, and Crew 2 escapes Ilse's fleet through the Galeway lanes | **Tamsin joins. Flame Well open.** (The Fire Summon waits for Ho-Oh's catch after the Breaking: progression 20, 18 Oct) |
 
 ### Act I: Open Water (Crew 1 in Meridia and the Calm; any order inside the act)
 

@@ -352,7 +352,8 @@ A Buy  B Back  X Info  L/R Compare
 - **Now:** the weapon shows by family on the current Golden Sun battle sprite, using Golden Sun's own weapon
   overlays.
 - **Later:** an LPC weapon layer, if art decision 3 adopts LPC.
-- Armour never shows, so the creator's outfit stays.
+- ~~Armour never shows, so the creator's outfit stays.~~ **Changed by your answer to decision 13 (17 Oct): armour
+  layers show too.** Which pieces replace the outfit is [demo-plan.md](demo-plan.md) decision 31.
 - Icons follow art decision 14. Until then the screens use text only: names, and coloured +/− for stat changes.
 
 ## 9. In code (proposed)
