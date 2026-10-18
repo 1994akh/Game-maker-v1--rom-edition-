@@ -5,6 +5,23 @@ header; the detailed rules are in `docs/design/`.
 
 ## 18 Oct 2026
 
+- **Decided (you, 18 Oct): all 40 demo questions** ([demo-plan.md](design/demo-plan.md) §5), every one as recommended
+  except the title screen (25), where you chose **the logo over a live scene, Stonehollow at dusk**. So: the engine
+  side writes every mission's full script and posts it for your yes; the hero speaks short lines with two or three
+  replies at about two beats a mission; a narrated, illustrated opening; the big beats staged in their rooms with
+  stills for Celebi's vision and Sael's death; the rooms a beat happens in get built; 2–4 puzzles per dungeon with
+  Blaze and Cloak; the mission 7/8 interludes start when Crew 1 next uses an inn or a sanctum; Fallhaven falls
+  "soon after", at night; the Hive opens once Vesper is in the crew; all of Act I's eggs; four to six hand-written
+  bounties; Mimikyu as a Djinn-style find; the Shiny Stone at mission 13; the starter trio and Marill kept; ordinary
+  forms in the demo; Golden Sun's Summons for four groups, our own names on recolours for Forest and Shadow; our own
+  Forest and Shadow class names; the islands of the week as rumours; free play after mission 10 and an end card at
+  the Wayfarer's helm. Art: contact sheets for your yes before wiring; a Fold probe APK for you to run; illustrated
+  art from an image generator, cleaned to our palette; 64-px portraits with three expressions; Golden Sun's ships
+  and the surf mount; a sailable Calm and a parchment Chart; field sprites for Ho-Oh, Celebi and Mimikyu; the
+  lead's partner follows; Essentials backdrops for the gaps; helms, shields, gloves and mail show on the sprite.
+  Features: the Farer's Log found on the Wayfarer; the Kin Garden browser; the hero's house in Stonehollow; story
+  fights tuned to 85% with Psynergy, 25% attack-only. Audio: Golden Sun's music for places and battles, Unbound's
+  for Pokémon moments. A release-signed demo APK, two playtest rounds, one reviewer per PR.
 - **Decided (you, 17–18 Oct), the last talk items, as recommended:** progression 3 (about L6–7 at mission 3, L8 at
   5, L10 at 10, through encounter tables and story-fight EXP), progression 4 (Stonehollow's west gate, and Canalport's
   lower-town exit, behind a story flag until our world map exists), equipment 8 (Golden Sun 1's item table for Act

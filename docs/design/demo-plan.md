@@ -221,135 +221,135 @@ Recommended first. The alternatives are in brackets.
 Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
 **Story and dialogue**
 
-1. **The dialogue pass.** Every Act I line is placeholder text written for the story chat, which is archived; this
+1. **Decided (18 Oct):** **The dialogue pass.** Every Act I line is placeholder text written for the story chat, which is archived; this
    blocks slice 9. Recommended: the engine side writes each mission's full script (scenes, named people, townsfolk,
    signs and item text) in story.md's tone and posts it as a mission page for your yes or notes before building it.
    [You write the scripts in story.md first; only the main scenes are rewritten and townsfolk keep today's lines.]
-2. **The hero's voice.** story.md §4 says the player decides how the hero feels, and the creator already offers a
+2. **Decided (18 Oct):** **The hero's voice.** story.md §4 says the player decides how the hero feels, and the creator already offers a
    talkative or a quiet hero; this blocks the scripts. Recommended: the hero speaks short lines, and at about two
    beats a mission the player picks one of two or three replies that change only the next few lines, never a flag; a
    quiet hero's replies are a nod, a shake of the head or "…". [A silent hero with no replies; replies that set flags
    later scenes read.]
-3. **The opening.** New Game goes straight to the creator and then the Keeping Night; this blocks the opening's script
+3. **Decided (18 Oct):** **The opening.** New Game goes straight to the creator and then the Keeping Night; this blocks the opening's script
    and its stills. Recommended: a narrated intro of about six pages over painted stills before the creator: the six
    Wells, the sealing, the falling rim, Marrow Isle on the festival night. [Straight to the creator, as built; an
    intro staged with sprites in the engine.]
-4. **Staging the big beats.** Groudon's stir, Ho-Oh's fire and escape, Celebi's vision, Ilse's runner, Sael's death,
+4. **Decided (18 Oct):** **Staging the big beats.** Groudon's stir, Ho-Oh's fire and escape, Celebi's vision, Ilse's runner, Sael's death,
    Maren's confession and Ilse's choice are narration over a fade; this blocks slice 9. Recommended: stage each in its
    room with actors, walks, emotes, shakes, light and the camera, and add an illustrated still for Celebi's vision and
    Sael's death only. [Sprites only, no stills; keep the narration.]
-5. **Places the story names.** Saltmarsh Reach, Canalport's canals and upper town, Bastion Rock's sea-gate, cells and
+5. **Decided (18 Oct):** **Places the story names.** Saltmarsh Reach, Canalport's canals and upper town, Bastion Rock's sea-gate, cells and
    sea caves (a docks cottage and a jail stand in), the skiff journey, the Galeway chase, the Bazaar's other hulls,
    Fallhaven's collapsing cliff, the reef's other hulks and the Wayfarer's quarters and galley aren't rooms; this
    blocks the room list for slices 8 and 9. Recommended: build the ones a beat happens in (Canalport's canals for
    Surf, Bastion Rock's sea-gate, cells and sea-cave escape, Fallhaven's falling cliff road, the Wayfarer's quarters
    with one talk per Adept, and its galley), clipped from Golden Sun rooms, and keep Saltmarsh Reach, the skiff, the
    hulls, the hulks and the chase as narration. [Build every place the story names; keep today's 17 rooms.]
-6. **Puzzle depth.** Most mission dungeons have one puzzle per beat, where Golden Sun's chain several; Tamsin's Blaze
+6. **Decided (18 Oct):** **Puzzle depth.** Most mission dungeons have one puzzle per beat, where Golden Sun's chain several; Tamsin's Blaze
    and Vesper's Cloak have no field use yet, and the Bazaar's strongbox code is never typed in; this blocks the
    scripts. Recommended: 2 to 4 puzzles per dungeon from the verbs the crew holds at that point, Golden Sun style,
    with Blaze and Cloak built and the code entered on a dial, listed on each mission's script page. [One puzzle per
    beat, as built; only the puzzles story.md names.]
-7. **The mission 7 and 8 handovers.** The decided rule (story.md §14 Q1) starts each Crew 2 interlude at the next
+7. **Decided (18 Oct):** **The mission 7 and 8 handovers.** The decided rule (story.md §14 Q1) starts each Crew 2 interlude at the next
    restoration point after a recruitment, but the engine starts it at the end of the recruitment scene (§2), and the
    rule doesn't say whether arriving or resting counts; this blocks slice 3. Recommended: after a recruitment, the
    interlude starts the next time Crew 1 uses an inn or a sanctum, as its menu closes, and Crew 1 later resumes at
    that restoration point. [Start it on entering any room with a restoration point; keep it as built and amend the
    rule.]
-8. **Fallhaven's timing.** story.md has Fallhaven fall "the night after" Crew 1 deepened the Forest seal (mission 5),
+8. **Decided (18 Oct):** **Fallhaven's timing.** story.md has Fallhaven fall "the night after" Crew 1 deepened the Forest seal (mission 5),
    but mission 9 needs both crews full, so it plays after missions 5 to 8; this blocks mission 9's script.
    Recommended: "soon after", with the fall played at night (the scene sets the clock). [The night after Crew 2's
    heist at the Bazaar; keep the line as written.]
-9. **The Hive.** Mission 5's egg is solved with Cloak and Reveal, which arrive with Vesper in mission 6, and missions
+9. **Decided (18 Oct):** **The Hive.** Mission 5's egg is solved with Cloak and Reveal, which arrive with Vesper in mission 6, and missions
    5 and 6 can come in either order; this blocks mission 5's script and a Cloak build. Recommended: an optional
    Greenwild area that opens once Vesper is in the crew, with Cloak built for it and a reward chest at the queen.
    [Leave the Hive out of the demo; make mission 6 come before mission 5.]
-10. **Act I's easter eggs.** Mission 6's three are built, while Gary Rivalson and the Mercury-blue puddle (1), Captain
+10. **Decided (18 Oct):** **Act I's easter eggs.** Mission 6's three are built, while Gary Rivalson and the Mercury-blue puddle (1), Captain
     Maize and the push-the-truck rumour (3), the Tumbleweed Trio's first heist (8) and Cidrick with "A Funeral at
     Sea" (10) are not; this blocks the scripts. Recommended: all of them in the demo, each a short scene with its own
     look. [Only the eggs that need no new room; none beyond mission 6's.]
-11. **Bounties at mission 8.** Items 4 (decided) counts bounties from mission 8 in Act I's income, and story.md §14
+11. **Decided (18 Oct):** **Bounties at mission 8.** Items 4 (decided) counts bounties from mission 8 in Act I's income, and story.md §14
     Q17 builds them in three steps; this blocks mission 8's script and the income target. Recommended: step 1 only in
     the demo: 4 to 6 hand-written contracts on the Bazaar's Freeport Guild board from mission 8, plus wanted posters
     with terrible portraits on Tidewarden notice boards. [Generated contracts as well; a single named bounty.]
-12. **Mimikyu.** It shows only with Reveal at the reef's bow, wears a placeholder sprite and can't be caught; this
+12. **Decided (18 Oct):** **Mimikyu.** It shows only with Reveal at the reef's bow, wears a placeholder sprite and can't be caught; this
     blocks mission 6's script. Recommended: a Djinn-style find: once revealed it hides twice around the wreck, then
     battles and joins with no ball, going to the Kin Garden. [A sighting only until Act II; a wild catch with a ball.]
-13. **Maren's Shiny Stone.** Story 5 (decided) makes it a gift in her arc, which runs through missions 3, 9 and 13,
+13. **Decided (18 Oct):** **Maren's Shiny Stone.** Story 5 (decided) makes it a gift in her arc, which runs through missions 3, 9 and 13,
     while Wynn's Dawn Stone (8) and Vesper's Linking Cord (7) fall inside the demo; this blocks the item placement.
     Recommended: mission 13, her regroup chapter, so Eevee stays Eevee in the demo. [After her confession in mission
     9; when she joins in mission 3.]
-14. **The starter trio.** The mission 1 page calls Treecko, Torchic and Mudkip placeholders, though story.md §4 names
+14. **Decided (18 Oct):** **The starter trio.** The mission 1 page calls Treecko, Torchic and Mudkip placeholders, though story.md §4 names
     them; this blocks Brann's hatchery scene. Recommended: keep them: they cover Grass, Fire and Water, Mudkip can
     Surf, two can Cut, and their fights are measured. [Another trio you name; any Gen 1–7 starter, the player's pick.]
-15. **The canal Kin.** Marill, the harbourmaster's Surf gift in mission 3, is a placeholder; this blocks mission 3's
+15. **Decided (18 Oct):** **The canal Kin.** Marill, the harbourmaster's Surf gift in mission 3, is a placeholder; this blocks mission 3's
     script. Recommended: keep Marill, a canal Water type that learns Surf. [Lotad, for Brightcoast's farms; Psyduck.]
-16. **Weyard forms.** story.md §4 gives every story partner a Weyard form, DESIGN.md plans 25 Weyard families, data
+16. **Decided (18 Oct):** **Weyard forms.** story.md §4 gives every story partner a Weyard form, DESIGN.md plans 25 Weyard families, data
     first and art last, and progression 17 (decided 17 Oct) switches the story partners to Weyard species ids at the
     Weyard data pass, with a save migration; when that pass comes blocks the partners' data and art. Recommended:
     ordinary forms throughout the demo, with the Weyard pass after it. [The eight story partners' Weyard forms in the
     demo, as palette swaps.]
-17. **Summons.** Golden Sun's Summon sprites are in the ROM but not exported, and the Forest and Shadow Summons are
+17. **Decided (18 Oct):** **Summons.** Golden Sun's Summon sprites are in the ROM but not exported, and the Forest and Shadow Summons are
     placeholders ("Forest Spirit" and "Shadow Spirit", copies of Venus's); since progression 20 (decided 18 Oct) the
     top Flame Summon waits for Ho-Oh's catch, so no top Summon unlocks in the demo and only the lower tiers show; this
     blocks slice 7 and the scripts. Recommended: Golden Sun's own Summons and names for Earth, Sea, Flame and Sky,
     exported from the ROM, and our own names on recoloured Golden Sun Summons for Forest's and Shadow's lower tiers;
     the top tiers' names and art wait for Act II. [Our own names for all six groups; a Pokémon-themed Summon per
     group.]
-18. **Class names for Forest and Shadow.** With class tiers decided (progression 5) and Vesper on Mia's curve
+18. **Decided (18 Oct):** **Class names for Forest and Shadow.** With class tiers decided (progression 5) and Vesper on Mia's curve
     (progression 8, decided 17 Oct), Sorrel would show Golden Sun's Wind Seer line and Vesper the Water Seer line;
     this blocks the Status screen and the tier build. Recommended: our own five names over the borrowed numbers:
     Forest "Sprout, Briar, Grovekeeper, Wildwarden, Elder Sage" and Shadow "Shade, Fogrunner, Gloamcaller,
     Nightwarden, Umbral Sage". [Keep Golden Sun's names; names written in the dialogue pass for your yes.]
-19. **The islands of the week.** Dustplain, Frostmarch, Hushwater and Twin Bells are Act I places with decided shops
+19. **Decided (18 Oct):** **The islands of the week.** Dustplain, Frostmarch, Hushwater and Twin Bells are Act I places with decided shops
     (story 6), but no mission from 1 to 10 goes there; this blocks the Chart's contents. Recommended: not in the demo;
     they show on the Chart as rumours ("?") and are built after it. [Hushwater, the smallest, as a sample; all four.]
-20. **How the demo ends.** Mission 10 ends on the Wayfarer, and mission 11, the maiden voyage, is not in the demo; this
+20. **Decided (18 Oct):** **How the demo ends.** Mission 10 ends on the Wayfarer, and mission 11, the maiden voyage, is not in the demo; this
     blocks slice 12. Recommended: free play goes on in Act I, and the Wayfarer's helm offers the maiden voyage, which
     plays an end card ("The Breaking: to be continued"), the credits with every maker and a save prompt, then returns
     you to the deck. [An end card straight after the Wayfarer scene; the helm refuses to sail, with no end card.]
 
 **Art**
 
-21. **Approving the art.** Every art slice changes how the whole game looks; this blocks slices 5 to 8. Recommended:
+21. **Decided (18 Oct):** **Approving the art.** Every art slice changes how the whole game looks; this blocks slices 5 to 8. Recommended:
     each slice posts a contact sheet (cast, townsfolk, creator kit, portraits, ships, title, battle) to the decision
     page as a yes-or-redo card before it is wired in. [Build it and judge on the phone; judge only at the playtest.]
-22. **The Fold probe.** Art 1 switches to 480×320 only after the 1:1 probe passes, and the Fold's real screen sizes are
+22. **Decided (18 Oct):** **The Fold probe.** Art 1 switches to 480×320 only after the 1:1 probe passes, and the Fold's real screen sizes are
     still inferred; this blocks slice 2. Recommended: you install one probe APK from `_GameMaker-builds` and send its
     readout folded and unfolded, two screenshots. [Switch on the documented sizes and fix at the playtest.]
-23. **Illustrated art.** The portraits, the title card and the opening's stills need art no library has in our style;
+23. **Decided (18 Oct):** **Illustrated art.** The portraits, the title card and the opening's stills need art no library has in our style;
     this blocks slices 6 and 8. Recommended: made with an image generator from written prompts and each character's
     LPC look, then reduced to the game's palette and pixel size and cleaned by hand, each on a contact sheet first.
     [Drawn by hand as pixel art, which is slower; only art already in the local folder.]
-24. **Portraits.** There are none, and the creator previews one for the hero; this blocks the message box's layout.
+24. **Decided (18 Oct):** **Portraits.** There are none, and the creator previews one for the hero; this blocks the message box's layout.
     Recommended: a 64×64 portrait with three expressions for each of the 8 Adepts and Act I's named people (Ilse,
     Brann, Sael, Hask), beside the message box, the hero's drawn per body and hair style with colour keys so the
     creator's palette shader recolours them; everyone else gets a name tag. [Name tags only; 128-px busts in key
     scenes only.]
-25. **The title screen.** It is a text label; this blocks slice 8. Recommended: a painted title card at 480×320, the
+25. **Decided (18 Oct), alternative:** **The title screen.** It is a text label; this blocks slice 8. Recommended: a painted title card at 480×320, the
     Wayfarer under the Pinnacle with "Halcyra" in a drawn logo, slow sea and cloud parallax and the menu below. [The
     logo over a live scene, Stonehollow at dusk; the logo on the navy frame only.]
-26. **Ships and Surf.** The Kestrel, the Wayfarer and Surf are coloured boxes, and Golden Sun's own boat and ship
+26. **Decided (18 Oct):** **Ships and Surf.** The Kestrel, the Wayfarer and Surf are coloured boxes, and Golden Sun's own boat and ship
     sprites are in the export but not yet identified; this blocks the sea and the art of missions 3–10. Recommended:
     Golden Sun's own sailing sprites for both ships, the expansion's surf-blob mount under the rider, and drawn ships
     only where Golden Sun has none. [Draw both ships at 64 and 128 px; adapt Kenney's pirate pack.]
-27. **The Calm.** The Kestrel's chart is a deckhand's list of places; this blocks slice 8 and the Chart. Recommended: a
+27. **Decided (18 Oct):** **The Calm.** The Kestrel's chart is a deckhand's list of places; this blocks slice 8 and the Chart. Recommended: a
     sailable Calm built from Golden Sun 2's world-map tiles to story.md §2's layout, with the Act I places as
     landings, and the decided Chart painted once as a parchment map of the Calm; Meridia's walkable map comes with
     Dustplain and Frostmarch after the demo (decision 19), and the Angara gate is progression 4 (§4). [Keep the
     deckhand list for the demo; draw the Calm at 32 px from scratch.]
-28. **Pokémon and monsters on the field.** Ho-Oh, Celebi, Mimikyu and the Litwick have no field sprites of their own,
+28. **Decided (18 Oct):** **Pokémon and monsters on the field.** Ho-Oh, Celebi, Mimikyu and the Litwick have no field sprites of their own,
     and the sluice beast wears a statue's; this blocks the art of missions 3–6. Recommended: the expansion's overworld
     sprites at 2×, with short appear and flight animations for Ho-Oh and Celebi, and the beast as Kraken's battle
     picture rising from the canal. [Their battle pictures as stills over the scene; our own drawings at 64 px.]
-29. **Partner followers.** There is no code or decision yet, and the expansion has an overworld sprite for every
+29. **Decided (18 Oct):** **Partner followers.** There is no code or decision yet, and the expansion has an overworld sprite for every
     species; this sets slice 6's scope. Recommended: the lead's active partner follows the lead on the field, hidden
     while surfing and in scenes unless a scene stages it. [No followers in the demo; the whole crew follows the lead.]
-30. **Battle backdrops for the gaps.** Art 11 picked Pixel-boy's 12 day and night scenes, which have no cave, ship
+30. **Decided (18 Oct):** **Battle backdrops for the gaps.** Art 11 picked Pixel-boy's 12 day and night scenes, which have no cave, ship
     deck, jail or forge; this blocks slice 7. Recommended: Essentials backdrops for those places at the same pixel
     size (the probe found its forest one read well), each approved under your materials rule. [Pixel-boy's nearest
     scene; draw our own.]
-31. **Armour on the sprite.** Equipment 13 (decided 17 Oct) shows armour layers as well as the weapon, but every
+31. **Decided (18 Oct):** **Armour on the sprite.** Equipment 13 (decided 17 Oct) shows armour layers as well as the weapon, but every
     Adept always wears body armour, and the cast's and the creator's outfits are what make them recognisable; this
     blocks slices 6 and 7. Recommended: helms, shields, gloves, and mail or plate add their LPC layer over the Adept's
     own look, in the field and in battle, mapped once per item in data; shirts, robes and other light body armour keep
@@ -358,23 +358,23 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Features**
 
-32. **The Farer's Log.** Its screen and sections are decided and its records start now, but not when the player gets
+32. **Decided (18 Oct):** **The Farer's Log.** Its screen and sections are decided and its records start now, but not when the player gets
     the book; this blocks the Start menu's Log row. Recommended: found aboard the Wayfarer at mission 10, where the
     Farers left it, with every tab filled from records kept since mission 1 (Kin and Bestiary from battles, Charts
     from places visited, Relics from the story notes, the Guild Ledger from the demo's contracts) and DexNav's
     "Search here" working from it (menus N-9). [A keeper's notebook from mission 1 that becomes the Log; not in the
     demo.]
-33. **The Kin Garden.** Storage works through innkeepers, but its browser and the walkable garden aren't built; this
+33. **Decided (18 Oct):** **The Kin Garden.** Storage works through innkeepers, but its browser and the walkable garden aren't built; this
     blocks the Pokémon screens. Recommended: the browser (paging, sorting, summary, use an item) at every restoration
     point in the demo, and the walkable garden with Marrow Isle's growth in Act II. [The walkable garden too; today's
     list only.]
-34. **The hero's house and the ship's bunk.** The hero's house with its mirror and bed, shared with Brann, is decided
+34. **Decided (18 Oct):** **The hero's house and the ship's bunk.** The hero's house with its mirror and bed, shared with Brann, is decided
     (character-creator.md, adult 14) but isn't a room, and the decided "Sleep until dusk/dawn" bunk (clock 3) needs a
     place on the ship; this blocks the clock and mirror builds. Recommended: the house as a small Stonehollow room,
     its bed the home bunk, and the ship's bunk as a row on the Kestrel's deckhand (in the Wayfarer's quarters from
     mission 10), with no cabin room on the Kestrel. [A cabin room on the Kestrel too; the home bed only, with no bunk
     at sea.]
-35. **Story-fight difficulty.** The recruit floors and the re-measure are decided (progression 1), but not the win
+35. **Decided (18 Oct):** **Story-fight difficulty.** The recruit floors and the re-measure are decided (progression 1), but not the win
     rate to tune to; this blocks slice 10. Recommended: at the levels progression 3 settles, a player using Psynergy
     sensibly wins each story fight on the first try at least 85% of the time and an attack-only player at least 25%,
     with "Try again" for the rest. [Golden Sun's ease, about 95% with Psynergy; harder, about 60%.]
@@ -385,7 +385,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     and neither a renderer nor an encoder is installed; this blocks slice 11. Recommended: a go-ahead to install an
     open-source GBA music renderer and an OGG encoder from their official sources, checksum-checked by
     `tools/setup_dev.py`, when slice 11 starts. [Only tools already on disk; WAV files, with a larger APK.]
-37. **Music and sound by place.** Nothing assigns tracks or sounds to places yet; this blocks slice 11. Recommended:
+37. **Decided (18 Oct):** **Music and sound by place.** Nothing assigns tracks or sounds to places yet; this blocks slice 11. Recommended:
     Golden Sun's tracks for places, sailing, monster battles and story scenes, and Unbound's for Pokémon moments (wild
     battles, catching, evolution, the hatchery); Golden Sun's menu, field and Psynergy sounds; the expansion's cries
     when a Pokémon enters; the fan game's ambient loops where Golden Sun has none; all in one table for your yes.
@@ -393,13 +393,13 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Shipping the demo**
 
-38. **The demo build.** Today's builds are debug APKs; this blocks slice 12. Recommended: a release-signed APK with its
+38. **Decided (18 Oct):** **The demo build.** Today's builds are debug APKs; this blocks slice 12. Recommended: a release-signed APK with its
     own keystore, backed up beside the debug one in OneDrive, with the debug build kept for testing. [The debug APK,
     as today.]
-39. **Playtest rounds.** You test on the phone; this sets when builds reach `_GameMaker-builds`. Recommended: two
+39. **Decided (18 Oct):** **Playtest rounds.** You test on the phone; this sets when builds reach `_GameMaker-builds`. Recommended: two
     rounds, a mid build once missions 1–4 have their final art and words and then the full demo, each with a
     playtest page where you mark every mission yes or add a note. [One round at the end; a build after every slice.]
-40. **Reviews before merge.** The 16 Oct reviews used six reviewers each, and the demo has twelve slices; this sets the
+40. **Decided (18 Oct):** **Reviews before merge.** The 16 Oct reviews used six reviewers each, and the demo has twelve slices; this sets the
     pace. Recommended: one reviewer and the end-to-end checks per PR, and one critic pass over the whole demo before
     the full playtest. [Six reviewers per slice, as on 16 Oct; checks only.]
 
