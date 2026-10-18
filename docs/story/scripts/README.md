@@ -12,8 +12,10 @@ turn each one into the room's `events.json` without inventing a word.
 | [opening.md](opening.md) | The narrated intro before the creator (decision 3), with the six stills described for the illustrator | Draft |
 | [mission-01.md](mission-01.md) | Mission 1, The Keeping Night | Draft |
 | [mission-02.md](mission-02.md) | Mission 2, The Drowned Boy | Draft |
+| [mission-03.md](mission-03.md) | Mission 3, Highwater | Draft |
+| [mission-04.md](mission-04.md) | Mission 4, The Forgeheart | Draft |
 
-Missions 3 to 10 follow in this folder, one page each, in the same format.
+Missions 5 to 10 follow in this folder, one page each, in the same format.
 
 ## 1. What a page holds, in order
 
@@ -66,6 +68,9 @@ brackets so the builder knows what to use:
 | `[choice]` | **new step:** a reply menu (section 3) |
 | `[sprite Corvin → 35]` | **new step:** swap an actor's sprite mid-scene (the unmasking) |
 | `[still name]` | **new step:** an illustrated still (Celebi's vision and Sael's death only, decision 4) |
+| `[crew out]`, `[crew in]` | **new step:** the crew's members step out of the lead to stand beside them for a scene, and back in after (Golden Sun's way), so recruits can be staged |
+| `[give coins 100]` | `give`, **new:** coins as well as items |
+| `[round 2]` | **new step:** a line in a story fight's message bar at the start of that round (Ho-Oh's judgement) |
 
 Each page's last section lists every new step it uses.
 
@@ -154,13 +159,17 @@ story.md is an invention, listed on the page where it's first used.
 | Commodore Ilse | Clipped and exact, a naval officer. Kind in what she does more than what she says. Believes in the order. Calls the hero by name, then "deputy"; "apprentice" is Brann's word |
 | Captain Sael | Dry, blunt, a sea captain. Fierce love said as scolding. Never wastes a word |
 | Hask | Low and level, never shouts. Speaks in absolutes: every, all, now. Needles Corvin as "Sael's stray" |
-| Maren | By the book, precise, a medic's calm; a careful listener (mission 3 on) |
+| Maren | By the book, precise, a medic's calm; a careful listener (mission 3 on). Diagnoses in lists ("a split knuckle, a bruised jaw"), takes notes on everything, "I'll know if you don't". Calls the hero "Deputy", then by name. Never says who her reports go to |
 | Sorrel | Prickly, short, kinder to plants than to people (mission 5 on) |
 | Vesper | Dry wit, few words, a pilot's eye for weather (mission 6 on) |
-| Tamsin | Proud, blunt and funny; rates everything by how hard it hits (mission 4 on) |
+| Tamsin | Proud, blunt and funny; rates everything by how hard it hits, out of ten (mission 4 on). Calls Corvin "Landslide". Brave, "not stupid"; soft about the Elder |
 | Nerissa | Calm and wry; a diver's patience (mission 7 on) |
 | Wynn | Chatty, quick, always mid-thought; afraid of heights and says so (mission 8 on) |
 | Gary Rivalson | Smug, sure he's the main character, never in danger. Signs off "Smell you next tide!" |
+| Ketch | Corvin's Rimborn skiff pilot: chatty, cheerful under fire, always mid-way through Corvin's funeral song (missions 2 and 4 on) |
+| Abbot Haldor | The Forgeheart's abbot, an old champion: formal, slow, few words, fighting sayings. Keeps his word past sense. Calls Corvin "Rimborn" (mission 4) |
+| Harbourmaster Quayle | Canalport's harbourmaster: fussy, kind, talks in tide times and bells, loves his ferry Marill (mission 3) |
+| Captain Rufio Maize | The One Piece cameo (story.md §9a): loud, delighted, always hungry; "Best adventure ever!", "King of the Open Sea", asks everyone to join his crew (mission 3 on) |
 | Townsfolk | Each has one small life of their own, a job, a worry or a joke, and talks about that first |
 
 ## 8. Content rules
