@@ -1,6 +1,6 @@
 # World and story proposal: "Halcyra" (working name)
 
-**Status: proposal only.** DESIGN.md says design decisions are made in the claude.ai project (`DESIGN.md:3`). Nothing here is decided. All names are placeholders I made up. The One Piece influence shows only in structure: crew gathering, island-hopping, a compass, calm belts, a continental wall, and sky and undersea layers. No One Piece characters or places are named.
+**Status: proposal only.** It was written for the claude.ai project's chat, now archived; docs/story/story.md (14 Oct) took its place. Nothing here is decided. All names are placeholders I made up. The One Piece influence shows only in structure: crew gathering, island-hopping, a compass, calm belts, a continental wall, and sky and undersea layers. No One Piece characters or places are named.
 
 **Evidence legend:** **VERIFIED** means I read it in code or docs, cited `path:line` or by URL. **INFERRED** means it is a reasoned conclusion I did not test. Story and world content is proposal and needs no evidence. Engine claims in §6 are all marked.
 

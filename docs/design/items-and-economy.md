@@ -95,7 +95,8 @@ Our own rows move from `PartyBuilder.OWN_ITEMS` into `data_src/own_items.json`.
 | Quest objects (violin, flute, real sword, Wooloo food, feast food) | quest flag | quest done |
 
 Ship states (Kestrel, Wayfarer, Well upgrades) go on a ship page, not in the bag. The Lodestar's giver mismatch
-(story.md says Brann's heirloom; the build has Ilse give it) is for the story pass.
+(story.md says Brann's heirloom; the build has Ilse give it) is settled by story decision 2: Brann
+gives it.
 
 ## 6. Item Psynergy and backups
 
@@ -133,9 +134,9 @@ DESIGN.md says backups exist for every group Psynergy, while party-and-battle.md
 | Retreat | Crew 1 | Escape Rope | own | shops |
 | Pound, Tremor, Scoop, Frost, Douse | none | Pound Cube, Tremor Bit, Scoop Gem, Frost Jewel, Douse Drop | GS | optional loot |
 
-The new names are placeholders. Where they are placed (missions, recruitments, bounty rewards) goes to the cloud
-chat for story.md §7. New rows go in `data_src/field_abilities_hm.json`, the exporter's overlay, never in the
-generated `data/field_abilities.json`.
+The new names are placeholders. Where they are placed (missions, recruitments, bounty rewards) comes to you as
+the engine side's placement table (story decision 4). New rows go in `data_src/field_abilities_hm.json`, the
+exporter's overlay, never in the generated `data/field_abilities.json`.
 
 ## 7. Consumables, buffs and permanent boosts (proposed)
 
@@ -272,7 +273,7 @@ there in Act I.
 | Ironfist Arena | m15 | — | Tier 3 battle gear; the Glimmer Saucer prize counter (tickets and Lucky Medals for artifacts, Psy Crystals, stones, Exp. Candy) | The casino is decided |
 | Coralreach / Pearlhollow | m16 | — | Dive, Net and Nest Balls, Water Stone; buys pearls | |
 | Forgeheart smith | Act II | — | Forge (GS2's table), Repair, appraisal of Rusty weapons | After Tamsin's heart quest |
-| Dustplain, Frostmarch, Hushwater, Twin Bells | Act I | — | Open: a stock or "no shop" line each, matching its culture. Hushwater fears Pokémon and treats Psynergy healing as taboo | For the story pass |
+| Dustplain, Frostmarch, Hushwater, Twin Bells | Act I | — | Dustplain a general store, Frostmarch a smith, Twin Bells an apothecary, Hushwater herbs only and no balls (story decision 6) | Built after the demo (demo decision 19) |
 | Later towns | Acts II–III | — | Golden Sun's tier ladder | |
 
 Stock ladder: Act I uses Golden Sun 1's Vale-to-Bilibin rows (up to about 600), Act II Xian to Tolbi (1,200–7,000)
@@ -413,7 +414,8 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     script steps; hidden flags only, as today.]
 15. **Decided (16 Oct):** **Backup Psynergy items.** Recommended: Golden Sun's own items where they exist, and our own gems or charms for
     Growth, Reveal, Blaze, Parch, Whirlwind, Mind Read and Sand. Crew 2-only backups reach Crew 1 from m10, and the
-    cloud chat places them in story.md §7. [All as bounty rewards; drop backups for verbs no crew needs.]
+    engine side proposes their placement for your yes (story 4). [All as bounty rewards; drop backups for verbs no
+    crew needs.]
 16. **Decided (16 Oct):** **PP for item Psynergy.** Recommended: the normal PP of the Adept who uses it, which confirms the decided rule.
     [Free like HMs; a flat 1 PP.]
 17. **Decided (16 Oct):** **Stack cap and pockets.** Recommended: 99 per stack, with the six pockets. [Golden Sun's 30; no cap.]

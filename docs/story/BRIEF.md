@@ -1,7 +1,8 @@
 # Story brief
 
 > **The story is now written: [story.md](story.md)** (14 Oct 2026). This brief stays as the list of constraints it
-> was written against. Questions from the engine side for the story chat: [for-the-story-chat.md](for-the-story-chat.md).
+> was written against. The story chat is archived (16 Oct); story questions are
+> answered on the decision page ([for-the-story-chat.md](for-the-story-chat.md)).
 
 For writing the story in the claude.ai design chat (14 Oct 2026). This is everything the story has to respect and
 everything already decided about its shape. Story decisions that don't need a mechanic are yours to make there; the

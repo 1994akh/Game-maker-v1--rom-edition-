@@ -1,7 +1,8 @@
 # Mission 2, "The Drowned Boy", as built (15 Oct 2026)
 
 What the engine plays today for mission 2 (`docs/story/story.md` §7), where its words live, and what is still a
-placeholder. The cloud chat owns the story; this page is the hand-off so the lines can be rewritten in place.
+placeholder. The engine side writes each mission's final script for your yes (demo decision 1); this page is
+the hand-off so the lines can be rewritten in place.
 Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it when it is back.
 
 ## The flow

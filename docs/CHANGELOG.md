@@ -5,6 +5,15 @@ header; the detailed rules are in `docs/design/`.
 
 ## 18 Oct 2026
 
+- **Every question and decision on the decision page (your rule, 18 Oct: the cloud chat is archived and will
+  no longer be used).** Two new tabs: **Open questions** ([open-questions.md](design/open-questions.md)), 26
+  questions swept from every doc that were still left to the chat or open (Summon and class names, the cast's
+  ages, the other starters, how legendaries join, the partner numbers, the rules still marked proposed, UI scale
+  per screen, the LPC tile download, who appears in adult content, and more), each with a recommendation; and the
+  **Decision log** ([decision-log.md](design/decision-log.md)), 100 decisions you made before or beside the page
+  (12–18 Oct: DESIGN.md, the phase 1 answers, party and battle, the story Q&A and its 20 mechanics answers, and
+  your rules in chat), each marked decided with its date. 33 lines across the docs that still said the story
+  chat would decide or write something now point to the decision page.
 - **Decided (you, 18 Oct): all 40 demo questions** ([demo-plan.md](design/demo-plan.md) §5), every one as recommended
   except the title screen (25), where you chose **the logo over a live scene, Stonehollow at dusk**. So: the engine
   side writes every mission's full script and posts it for your yes; the hero speaks short lines with two or three

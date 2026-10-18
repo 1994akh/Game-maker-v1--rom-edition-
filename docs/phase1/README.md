@@ -12,7 +12,7 @@ claims in the source, and a schedule.
 | [BATTLE_FORMAT.md](BATTLE_FORMAT.md) | 1 Adept + 1 Pokémon per side on the expansion's battle engine, in 8 stages, with a test plan |
 | [WATER_MOVES.md](WATER_MOVES.md) | Dive with underwater maps, Waterfall, limited Surf, the "any Set Pokémon can learn it" rule, the ship |
 | [CONTROLS.md](CONTROLS.md) | Touch layouts for the Fold 7 (cover, inner, tabletop) and ordinary phones; Backbone and Xbox controllers |
-| [WORLD_PROPOSAL.md](WORLD_PROPOSAL.md) | A world and story **proposal** inspired by One Piece, Golden Sun and Pokémon (for the design project to decide) |
+| [WORLD_PROPOSAL.md](WORLD_PROPOSAL.md) | A world and story **proposal** inspired by One Piece, Golden Sun and Pokémon (written for the claude.ai project's chat, now archived; docs/story/story.md replaced it on 14 Oct) |
 | [REVIEW.md](REVIEW.md) | Red-team review: tries to refute the recommendation, re-checks 19 claims, ranks the remaining risks |
 | [SCHEDULE.md](SCHEDULE.md) | The plan for this week and the phases after it, plus the decompiling track |
 

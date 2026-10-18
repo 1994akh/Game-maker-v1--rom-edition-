@@ -1,7 +1,8 @@
 # Mission 5, "The Eldergrove", as built (15 Oct 2026)
 
 What the engine plays today for mission 5 (`docs/story/story.md` §7), where its words live, and what is still a
-placeholder. The cloud chat owns the story; this page is the hand-off so the lines can be rewritten in place.
+placeholder. The engine side writes each mission's final script for your yes (demo decision 1); this page is
+the hand-off so the lines can be rewritten in place.
 Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it when it is back.
 
 ## The flow
@@ -42,8 +43,8 @@ Checked end to end by the engine's `tools/mission5_check`.
 
 - **The Hive is not built.** The story's "The Hive" (§9a) is solved with Cloak and Reveal, which are Vesper's
   (mission 6). Missions 5 and 6 can be played in either order, so the Hive can't be required in mission 5. It can
-  become an optional area of the Greenwild to return to after mission 6. **For the cloud chat:** is the Hive meant
-  to be optional, or should mission 6 come first?
+  become an optional area of the Greenwild to return to after mission 6. **Decided (demo 9, 18 Oct):** an optional
+  Greenwild area that opens once Vesper is in the crew, with Cloak built for it and a reward chest at the queen.
 - **Ilse's runner** is narration, not a character on screen.
 - **Celebi** has no sprite in the scene; the vision is told in words over a fade.
 - **The swamp** is drawn as a purple tint until the graphics pass gives it tiles.

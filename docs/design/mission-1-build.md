@@ -1,7 +1,8 @@
 # Mission 1, "The Keeping Night", as built (14 Oct 2026)
 
 What the engine plays today for mission 1 (`docs/story/story.md` §7), where its words live, and what is still a
-placeholder. The cloud chat owns the story; this page is the hand-off so the lines can be rewritten in place.
+placeholder. The engine side writes each mission's final script for your yes (demo decision 1); this page is
+the hand-off so the lines can be rewritten in place.
 
 ## The flow
 
@@ -43,7 +44,7 @@ All lines are our placeholders, written to the story's beats, in the engine's `m
   Night opener on first entering Stonehollow (a fade in, the festival, the quake as a camera shake, a villager
   pointing up the Vault road) and the hall splitting after Corvin loses (the shake, his two lines, his walk to
   the river, gone). Groudon stirring is still only implied. The format is in the engine's `maps_src/README.md`;
-  the cloud chat can write scenes directly there once the lines are settled. No sound yet (music/SFX come late).
+  the dialogue pass writes its scenes directly there (demo decision 1). No sound yet (music/SFX come late).
 - **No random battles in the Vault** during the prologue (proposed): the guided opening stays about the puzzle
   and the fight.
 - **Corvin's party (proposed): Corvin level 4 with a level-3 Larvitar and the hero's own Machete.** The rival
