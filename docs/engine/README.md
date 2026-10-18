@@ -77,14 +77,21 @@ for Pokémon moves; tiles at 32 px, portraits and audio are gaps.
 
 More: [Godot ecosystem survey](resources/godot-ecosystem.md) · [data and references](resources/data-and-references.md)
 
-## Toolchain (installed 14 Oct)
+## Toolchain (installed 14 Oct; music tools 18 Oct)
 
-`GameMaker-Engine/tools/setup_dev.py` installed each of these and checked it against its published checksum. They
-live in `C:\Users\aaron\Documents\UnboundHack\apps\`:
+`GameMaker-Engine/tools/setup_dev.py` pins each download's size and SHA-256 (each checked against the project's
+published checksum when it was pinned); with no flags it verifies the installed copies offline, and `--install`
+downloads and installs. They live in `C:\Users\aaron\Documents\UnboundHack\apps\`:
 
 - **Godot 4.7.2-stable**, in self-contained mode, with its export templates.
 - **Eclipse Temurin JDK 17.0.20.**
 - **Android command-line tools.**
+- **agbplay nightly 2026-09-24 (commit d209cce)** by ipatix (LGPL-3.0), the GBA MP2K music renderer that
+  `GameMaker-Engine/tools/render_music.py` drives, in `agbplay-nightly-20260924\`. The project publishes nightly builds
+  only. It emulates Golden Sun's Camelot synth instruments and reverbs.
+- **soundfile 0.14.0** (python-soundfile, BSD-3-Clause), which bundles libsndfile 1.2.2 (LGPL-2.1) with its Ogg Vorbis
+  encoder, with numpy 2.5.3, cffi 2.1.1, pycparser 3.0 and typing_extensions 4.16.0, in a Python 3.13 venv of its own,
+  `soundfile-0.14.0\`; render_music.py re-runs itself under it.
 
 Godot 4.7.2 builds for Android with compileSdk/targetSdk 36, build-tools 36.1.0, NDK 29.0.14206865 and minSdk 24. You
 install those SDK packages yourself with `GameMaker-Engine/tools/android_sdk_packages.ps1`, because it asks you to
