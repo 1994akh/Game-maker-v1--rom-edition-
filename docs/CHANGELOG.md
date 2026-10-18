@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 18 Oct 2026
 
+- **Art for your yes** (demo decision 21): a new **Art approvals** tab on the decision page with five cards: the LPC
+  cast and 20 townsfolk looks with the art critic's fixes, the scripted poses, a foot shadow, the UI art, and night
+  battle backgrounds. The pictures were sent in chat. Also merged in the engine: the Fold probe (PR #65) and the music
+  tools (PR #66, agbplay and soundfile, with their review fixes).
 - **The first scripts, for your yes** (demo decision 1): the opening and missions 1 and 2 written in full in
   [docs/story/scripts/](story/scripts/) (334 message-box pages, every line within the 3-line, 36-character budget, two
   reply beats a mission with quiet versions, the mission 1 eggs), checked by a second editor against story.md and
