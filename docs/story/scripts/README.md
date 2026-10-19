@@ -16,8 +16,10 @@ turn each one into the room's `events.json` without inventing a word.
 | [mission-04.md](mission-04.md) | Mission 4, The Forgeheart | Draft |
 | [mission-05.md](mission-05.md) | Mission 5, The Eldergrove (either order with 6), with the Hive and Celebi's still | Draft |
 | [mission-06.md](mission-06.md) | Mission 6, Lantern Reef (either order with 5) | Draft |
+| [mission-07.md](mission-07.md) | Mission 7, Bastion Rock: the first Crew 2 interlude, with Nerissa | Draft |
+| [mission-08.md](mission-08.md) | Mission 8, The Tradewind Bazaar: the second Crew 2 interlude, with Wynn, the Guild's contracts and the posters | Draft |
 
-Missions 7 to 10 follow in this folder, one page each, in the same format.
+Missions 9 and 10 follow in this folder, one page each, in the same format.
 
 ## 1. What a page holds, in order
 
@@ -44,6 +46,8 @@ Missions 7 to 10 follow in this folder, one page each, in the same format.
 - `**Narration:**` is the unvoiced narrator (no name tag). `**Sign:**`, `**Note:**` and similar are examined
   objects. `**System:**` marks the engine's own messages ("{HERO} received the Lodestar!"), written out so you see
   them in place.
+- `**Dabney, thinking:**` is a thought heard with Mind Read (mission 8 on): the name tag shows, and the words are
+  what the person is thinking, not saying.
 - The builder turns pages into `{BOX}` breaks and lines into `\n`; scripts never write `{BOX}` themselves.
 
 **Stage directions** are italic paragraphs. They say what is seen, in plain words, then the engine step in square
@@ -77,6 +81,7 @@ brackets so the builder knows what to use:
 | `[crew out]`, `[crew in]` | **new step:** the crew's members step out of the lead to stand beside them for a scene, and back in after (Golden Sun's way), so recruits can be staged |
 | `[give coins 100]` | `give`, **new:** coins as well as items |
 | `[round 2]` | **new step:** a line in a story fight's message bar at the start of that round (Ho-Oh's judgement) |
+| `[dial]` | **new step:** a number dial of three rings, 0 to 9 (the Bazaar's strongbox, decision 6); the right code plays on, a wrong one says its line |
 
 Each page's last section lists every new step it uses.
 
@@ -153,7 +158,7 @@ A person with one state says the same thing throughout the mission. The builder 
 or Vesper may or may not be in the crew. Their lines are marked in place, *Vesper in the crew:* or *Sorrel in the
 crew:*, with the flag that means it (`m6_pilot`, `m5_sorrel`); the builder makes them `when` steps. A scene always
 makes sense without them, and each page lists them under "Either order". `[crew out]` steps out whoever is in the
-crew.
+crew. Mission 7's hand-back to Crew 1 marks Sorrel's and Vesper's lines the same way.
 
 **Flags** are named `m<mission>_<what>` (`m1_quake`), as the engine's are today. A page keeps the engine's existing
 flag names and lists every new one in its header.
@@ -175,19 +180,26 @@ story.md is an invention, listed on the page where it's first used.
 | Sorrel | Prickly, short, kinder to plants than to people (mission 5 on). Clipped sentences, often one word ("What.", "East."); gentle only with plants and Kin ("Slowly. Nobody's going to take it off you"). Says the blunt true thing ("It isn't lifted. It's buried"). Never thanks anyone outright; does the kind thing and scowls. Says "Kin", the Greenwild's word. Calls the hero "keeper" when she wants something of them, Maren "Tidewarden" |
 | Vesper | Dry wit, few words, a pilot's eye for weather (mission 6 on). Deadpan, two or three words where others use ten ("Pilot. Paid."); talks in weather ("Day fog stands up. Night fog lies down"); money-minded ("I don't give credit. I keep a tab"). Treats Ghost Pokémon as friends. Calls the hero "deputy", Maren "medic". Dislikes the Tidewardens and takes their coin ("Tidewarden orders. My favourite"). Never says where she's from; when it nearly slips, "Never mind. Old weather" |
 | Tamsin | Proud, blunt and funny; rates everything by how hard it hits, out of ten (mission 4 on). Calls Corvin "Landslide". Brave, "not stupid"; soft about the Elder |
-| Nerissa | Calm and wry; a diver's patience (mission 7 on) |
-| Wynn | Chatty, quick, always mid-thought; afraid of heights and says so (mission 8 on) |
+| Nerissa | Calm and wry; a diver's patience (mission 7 on). Slow, short and dry ("'Yet.' A short word with a long tail on it"); hears people by their walk; talks in breath and depth ("Breathe when I breathe. In. Out."); kind without fuss ("Kind. Nobody does anything for nothing. But kind"). Calls Corvin "seal-breaker" while she's testing him. Wants to go home to Pearlhollow, and says so once, not often |
+| Wynn | Chatty, quick, always mid-thought; afraid of heights and says so (mission 8 on). Starts in the middle of a sentence ("...which it is, which I said. Hello!"); runs on, then takes it back ("Ask anyone. Don't ask anyone"); says she's scared of heights every time ("Why is there so much down?"); hears loud thoughts and says that too ("You think very loudly"). Fierce only about her chart |
 | Gary Rivalson | Smug, sure he's the main character, never in danger. Signs off "Smell you next tide!" |
-| Ketch | Corvin's Rimborn skiff pilot: chatty, cheerful under fire, always mid-way through Corvin's funeral song (missions 2 and 4 on) |
+| Ketch | Corvin's Rimborn skiff pilot: chatty, cheerful under fire, always mid-way through Corvin's funeral song, with a new verse for every place (a volcano verse, a prison verse, a market verse); always eating or about to (missions 2, 4, 7 and 8) |
 | Abbot Haldor | The Forgeheart's abbot, an old champion: formal, slow, few words, fighting sayings. Keeps his word past sense. Calls Corvin "Rimborn" (mission 4) |
 | Harbourmaster Quayle | Canalport's harbourmaster: fussy, kind, talks in tide times and bells, loves his ferry Marill (mission 3) |
 | Captain Rufio Maize | The One Piece cameo (story.md §9a): loud, delighted, always hungry; "Best adventure ever!", "King of the Open Sea", asks everyone to join his crew (mission 3 on) |
 | Tully | The Kestrel's mate: cheerful and practical, proud of the cutter and calls her "she"; says the plain thing ("It's not turning"). Calls the hero "Deputy" once there is one (missions 1 on) |
 | Celebi | The Forest legendary, which talks (story.md §5): rarely, in short strange lines out of time ("This is when"). Tired and thin, and wants only to be remembered (mission 5) |
 | Elder Hollin | The Eldergrove's elder: stern, frightened, proud of the grove's ways. Not cruel: says sorry for what she believes ("I'm sorry for that"), calls Sorrel a fool and "ours" in one breath (mission 5) |
-| Runner Pell | A young Tidewarden runner: earnest, breathless, very correct ("Begging your pardon"); thanks people for small things (mission 5) |
+| Runner Pell | A young Tidewarden runner off the cutter Dunlin: earnest, breathless, very correct ("Begging your pardon"); thanks people for small things ("Thank you for being so easy to find") (missions 5 and 8) |
 | Marrit | Lantern Reef's lantern-keeper: old, certain and practical. The Ghost Pokémon are the drowned crews come home, and "that's what they'd like you to think". Short sentences, kind under them (mission 6) |
 | Maestro Bonewhistle | The One Piece cameo (story.md §9a): a grand, delighted skeleton; announces his own bone jokes ("Bone joke!"), asks "May I see your Pokédex?", sad about his lost violin underneath (mission 6 on) |
+| Sergeant Pruitt | Bastion Rock's duty sergeant: barks in forms ("Name! Number! Licence!"); if it isn't on the register, it isn't there, so Froakie is a frog. Has never once slept on duty, and says so on his desk (mission 7) |
+| Lieutenant Holm | A young officer of the Bastion watch: brave, loud, by the book ("Halt! In the name of the Pinnacle!"); would arrest a frog and register it after. Does her duty to the end, even when the end is setting the sea on fire (mission 7) |
+| Old Tarrant | A jailed Rimborn smuggler, the Magikarp-salesman egg: "Psst", haggles against himself (five hundred, then five), cheerful about eleven more years (mission 7) |
+| Guildmistress Tally | Head of the Freeport Guild at the Tradewind Bazaar: brisk, fair, counts and weighs everything on her brass scales ("The Guild doesn't care who you are. The Guild cares what you owe"); fines to the coin. Calls Corvin's crew "Bronze" once they're in the Guild (mission 8) |
+| Factor Plumb | A Bazaar moneylender: oily courtesy, "my friend", "my dear", "Business is business"; menace said smiling; fond of the old laws, "paid in coin or paid in kind" (mission 8) |
+| Purser Dabney | Plumb's clerk: nervous, honest underneath, and thinks very loudly ("Don't think it, Dabney") (mission 8) |
+| The Tumbleweed Trio | The Pokémon cameo (story.md §9a): Bramble, grand and theatrical ("Thank you SO much, dears"); Burr, soft, stuck with burrs, always complaining about his legs; Scratch, a talking Meowth in a tricorn hat, bossy ("Do the motto!"). A rhyming call-and-answer motto, bent, never quoted; they leave on "We're tumbling off agaaain!" (mission 8 on) |
 | Townsfolk | Each has one small life of their own, a job, a worry or a joke, and talks about that first |
 
 ## 8. Content rules
