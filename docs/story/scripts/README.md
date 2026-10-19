@@ -14,8 +14,10 @@ turn each one into the room's `events.json` without inventing a word.
 | [mission-02.md](mission-02.md) | Mission 2, The Drowned Boy | Draft |
 | [mission-03.md](mission-03.md) | Mission 3, Highwater | Draft |
 | [mission-04.md](mission-04.md) | Mission 4, The Forgeheart | Draft |
+| [mission-05.md](mission-05.md) | Mission 5, The Eldergrove (either order with 6), with the Hive and Celebi's still | Draft |
+| [mission-06.md](mission-06.md) | Mission 6, Lantern Reef (either order with 5) | Draft |
 
-Missions 5 to 10 follow in this folder, one page each, in the same format.
+Missions 7 to 10 follow in this folder, one page each, in the same format.
 
 ## 1. What a page holds, in order
 
@@ -58,6 +60,9 @@ brackets so the builder knows what to use:
 | `[hide Corvin]`, `[show Tanner]` | `hide`, `show` |
 | `[give Poké Ball ×5]` | `give` |
 | `[give_pokemon Marill, L6]`, `[recruit maren]` | `give_pokemon`, `recruit` (as built, with the engine's own "{HERO} received Marill!" and "Maren joined the crew!") |
+| `[give_pokemon Mimikyu, L9, to the Kin Garden]` | `give_pokemon`, **new:** straight to storage with the storage line, never into a Set (a Djinn-style find) |
+| `[take_coins 50]` | `take_coins` (as built) |
+| `[to_entrance 0]` | `to_entrance` (as built: a guard's `caught` steps) |
 | `[battle corvin_vault]` | `battle` |
 | `[gate …]` | a room `gate` opening or repainting cells |
 | `[crew 2]`, `[resume crew 1]`, `[warp room, entrance]` | `crew`, `resume_crew`, `warp` |
@@ -144,6 +149,12 @@ happened, with the flag that starts each one:
 A person with one state says the same thing throughout the mission. The builder turns states into actor rows with
 `condition`s, or into one row whose text follows the flags (each page's build list says which it needs).
 
+**Lines for a crew member who may not be there.** Missions 5 and 6 come in either order (story.md §6), so Sorrel
+or Vesper may or may not be in the crew. Their lines are marked in place, *Vesper in the crew:* or *Sorrel in the
+crew:*, with the flag that means it (`m6_pilot`, `m5_sorrel`); the builder makes them `when` steps. A scene always
+makes sense without them, and each page lists them under "Either order". `[crew out]` steps out whoever is in the
+crew.
+
 **Flags** are named `m<mission>_<what>` (`m1_quake`), as the engine's are today. A page keeps the engine's existing
 flag names and lists every new one in its header.
 
@@ -160,9 +171,9 @@ story.md is an invention, listed on the page where it's first used.
 | Commodore Ilse | Clipped and exact, a naval officer. Kind in what she does more than what she says. Believes in the order. Calls the hero by name, then "deputy"; "apprentice" is Brann's word |
 | Captain Sael | Dry, blunt, a sea captain. Fierce love said as scolding. Never wastes a word |
 | Hask | Low and level, never shouts. Speaks in absolutes: every, all, now. Needles Corvin as "Sael's stray" |
-| Maren | By the book, precise, a medic's calm; a careful listener (mission 3 on). Diagnoses in lists ("a split knuckle, a bruised jaw"), takes notes on everything, "I'll know if you don't". Calls the hero "Deputy", then by name. Never says who her reports go to |
-| Sorrel | Prickly, short, kinder to plants than to people (mission 5 on) |
-| Vesper | Dry wit, few words, a pilot's eye for weather (mission 6 on) |
+| Maren | By the book, precise, a medic's calm; a careful listener (mission 3 on). Diagnoses in lists ("a split knuckle, a bruised jaw"; "drought, blight or root rot"), takes notes on everything ("I'll need a new page"), "I'll know if you don't". Calls the hero "Deputy", then by name. Never says who her reports go to: asked, she says "Medical returns" or "The order" |
+| Sorrel | Prickly, short, kinder to plants than to people (mission 5 on). Clipped sentences, often one word ("What.", "East."); gentle only with plants and Kin ("Slowly. Nobody's going to take it off you"). Says the blunt true thing ("It isn't lifted. It's buried"). Never thanks anyone outright; does the kind thing and scowls. Says "Kin", the Greenwild's word. Calls the hero "keeper" when she wants something of them, Maren "Tidewarden" |
+| Vesper | Dry wit, few words, a pilot's eye for weather (mission 6 on). Deadpan, two or three words where others use ten ("Pilot. Paid."); talks in weather ("Day fog stands up. Night fog lies down"); money-minded ("I don't give credit. I keep a tab"). Treats Ghost Pokémon as friends. Calls the hero "deputy", Maren "medic". Dislikes the Tidewardens and takes their coin ("Tidewarden orders. My favourite"). Never says where she's from; when it nearly slips, "Never mind. Old weather" |
 | Tamsin | Proud, blunt and funny; rates everything by how hard it hits, out of ten (mission 4 on). Calls Corvin "Landslide". Brave, "not stupid"; soft about the Elder |
 | Nerissa | Calm and wry; a diver's patience (mission 7 on) |
 | Wynn | Chatty, quick, always mid-thought; afraid of heights and says so (mission 8 on) |
@@ -171,6 +182,12 @@ story.md is an invention, listed on the page where it's first used.
 | Abbot Haldor | The Forgeheart's abbot, an old champion: formal, slow, few words, fighting sayings. Keeps his word past sense. Calls Corvin "Rimborn" (mission 4) |
 | Harbourmaster Quayle | Canalport's harbourmaster: fussy, kind, talks in tide times and bells, loves his ferry Marill (mission 3) |
 | Captain Rufio Maize | The One Piece cameo (story.md §9a): loud, delighted, always hungry; "Best adventure ever!", "King of the Open Sea", asks everyone to join his crew (mission 3 on) |
+| Tully | The Kestrel's mate: cheerful and practical, proud of the cutter and calls her "she"; says the plain thing ("It's not turning"). Calls the hero "Deputy" once there is one (missions 1 on) |
+| Celebi | The Forest legendary, which talks (story.md §5): rarely, in short strange lines out of time ("This is when"). Tired and thin, and wants only to be remembered (mission 5) |
+| Elder Hollin | The Eldergrove's elder: stern, frightened, proud of the grove's ways. Not cruel: says sorry for what she believes ("I'm sorry for that"), calls Sorrel a fool and "ours" in one breath (mission 5) |
+| Runner Pell | A young Tidewarden runner: earnest, breathless, very correct ("Begging your pardon"); thanks people for small things (mission 5) |
+| Marrit | Lantern Reef's lantern-keeper: old, certain and practical. The Ghost Pokémon are the drowned crews come home, and "that's what they'd like you to think". Short sentences, kind under them (mission 6) |
+| Maestro Bonewhistle | The One Piece cameo (story.md §9a): a grand, delighted skeleton; announces his own bone jokes ("Bone joke!"), asks "May I see your Pokédex?", sad about his lost violin underneath (mission 6 on) |
 | Townsfolk | Each has one small life of their own, a job, a worry or a joke, and talks about that first |
 
 ## 8. Content rules
