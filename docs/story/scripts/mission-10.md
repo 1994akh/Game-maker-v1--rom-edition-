@@ -1432,13 +1432,14 @@ free play (`m10_done`): the Wayfarer at anchor in the cove. Cells are mission 1'
   Corvin waits in the Vault (`vault_halls`, slot 12).
 
 - **Corvin, the waiting lead** (slot 21, the crew role, as built), by the Keeping Stone, while {HERO}'s crew is
-  played, from `crew_swap`. Before the menu:
+  played, from `m10_done`. Before the menu:
 
   **Corvin:** My lot's ready when you are.
   Tamsin's rating Maudie's pie. It's
   getting a nine.
 
-- **{HERO}, the waiting lead** (slot 22, as built), while Corvin's crew is played. Before the menu:
+- **{HERO}, the waiting lead** (slot 22, as built), while Corvin's crew is played, from `m10_done`. Before the
+  menu:
 
   **{HERO}:** Go on. I'll keep the island.
 
@@ -1791,6 +1792,11 @@ Mission 1's signs stand. From `m10_vault_in`:
   **Sign:** A window of blue glass. Through it
   the sky is bluer than the sky.
 
+- **The gangway**, from `m10_supper` until `m10_done` (the warp's closed line):
+
+  **Maren:** It's the middle of the night. Bed.
+  Medic's orders.
+
 - **The hatches:**
 
   **Sign:** A hatch down to the galley. It
@@ -2135,10 +2141,14 @@ Things story.md doesn't say, for you to keep or strike:
 - **The Lodestar:** the chart table's cradle as a yes/no with a light, which changes nothing; the item's text from
   `m10_cradle`.
 - **Crew conditions:** a row that shows only while a named Adept is in the waiting crew and isn't its lead (the
-  quarters' free-play rows); scenes that show any Adept, wherever they are (supper, the first night, the funeral's
-  Tamsin, whichever crew she is in).
+  quarters' free-play rows); scenes that show all eight Adepts once each, whichever crew a trade at the muster roll
+  has put them in: the played crew steps out (`crew out`) and the rest are shown (supper, the first night, the
+  funeral's Tamsin).
+- **The waiting leads** (`stonehollow` slots 21 and 22) show from `m10_done` (today from `crew_swap`), so Corvin
+  isn't in the village and at supper at once; trading at the muster roll works from `crew_swap`.
 - **The first night** as a state: from `m10_night` every Adept stands at their bunk as an actor, the played crew
-  stepped out (`crew out`), until the morning's `crew in`.
+  stepped out (`crew out`), until the morning's `crew in`. From `m10_supper` until `m10_done` the deck's gangway is
+  closed with Maren's line (People and signs), so the night plays aboard.
 - **Tully's mate rows** in every mooring room (Canalport slot 15, Eldergrove slot 13, Lantern Reef's) switch to the
   Wayfarer's lines and bunk text from `m10_done`.
 - **Corvin's crew in Canalport:** the marine's and Quayle's lines while Crew 2 is played (`while_crew 2`), and
