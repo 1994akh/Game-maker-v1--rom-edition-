@@ -224,12 +224,9 @@ think very loudly.
 
 **System:** Wynn joined the crew!
 
-**Wynn:** Plumb's purser, Dabney, keeps his
-counting table on the market hull.
-He knows the strongbox numbers.
-
-He thinks about them all day. He
-can't help it. He's that sort.
+**Wynn:** Dabney, Plumb's purser, on the
+market hull. He knows the numbers.
+Thinks about them all day. Loudly.
 
 And Plumb's hull has its gangplank
 up. But there's a spar on the market

@@ -751,9 +751,8 @@ tithe goes. That makes two of us.
 
 *Sorrel in the crew (`m5_sorrel`):*
 
-**Sorrel:** They write our seed in a book like
-that. Every autumn. I've never seen
-the book.
+**Sorrel:** A tithe ledger. Our seed's in one
+of those. Every autumn.
 
 *Then, in every crew:*
 
@@ -1306,7 +1305,7 @@ Everything in the interlude plays the same after mission 5 or mission 6. Only th
 | Where | When | What |
 |---|---|---|
 | Scene 16 | `m6_pilot` | Vesper's "That makes two of us" |
-| Scene 16 | `m5_sorrel` | Sorrel's "They write our seed in a book like that" |
+| Scene 16 | `m5_sorrel` | Sorrel's "A tithe ledger. Our seed's in one of those" |
 
 If Crew 1 finished both recruitments before resting, both lines play, each standing on its own, and mission 8 plays
 at the following rest. In every `[crew out]` of scene 16, whoever is in Crew 1 steps out.
