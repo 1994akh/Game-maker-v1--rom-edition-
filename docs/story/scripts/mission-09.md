@@ -780,3 +780,338 @@ at the reading chair, where her captain's coat hangs, gone white at the seams wi
 
 *[flag m9_sael] [warp fallhaven_cliff, the high door (a new entrance on the second bend)]*
 
+### 15. The falling road
+
+- Room: `fallhaven_cliff`, the archive's high door on the second bend. Trigger: entering, unless `m9_climb`.
+
+*[fade in 20] The cliff road by the archive's high door, at night. It is falling. Below the second bend the road has
+already gone into the dark, and stones come bouncing down the switchbacks above and over the edge. The whole cliff
+groans. [shake 30, 2] Corvin's crew is ahead, going up: Tamsin with an arm round Corvin, who carries the Ledger and
+the coat and doesn't look back. [walk Corvin, Tamsin, Nerissa and Wynn → up the road] [hide them] [crew out]*
+
+*[shake 20, 3] Behind Crew 1 the high door's frame cracks, and the door falls in. [gate: the high door's cells
+become rubble]*
+
+**Maren:** Up. Don't stop. Don't look down,
+and don't stop.
+
+**Vesper:** Nobody's looking down, medic.
+
+*[crew in] [flag m9_climb] Control returns. The road climbs to the high town gate (puzzles 9 and 10). Each bend
+falls away behind the crew as they pass it (step-on spots, People and signs).*
+
+### 16. The boulder goes over
+
+- Room: `fallhaven_cliff`, between the second bend and the last. Trigger: the boulder pushed east off the road
+  (`m9_boulder`, puzzle 9).
+
+*The boulder tips over the edge and drops into the mist. [hide the boulder] Nobody stops to listen for it to land.
+[flag m9_boulder] Control returns.*
+
+### 17. Fallhaven falls
+
+- Room: `fallhaven_cliff`, the top. Trigger: stepping off the last bend onto the top (a step-on spot), once
+  `m9_climb`, unless `m9_top`.
+
+*The top of the road, by the high town gate. Corvin's crew waits there. Corvin stands at the edge with the Ledger
+under one arm and the coat over the other, looking down. [walk {HERO} → beside Corvin] [crew out]*
+
+*[shake 120, 4] Below them, the whole of the lower town goes at once: the plaza's last edge, the stairs, the stilts
+and the chains, the archive's face with its great doors, all of it sliding away into the white mist, slowly, as if
+it were tired. The lamps go out one by one. Then the roar of the falls drops to a deeper note, and holds it.
+[camera → the lower town's roofs, at the foot of the road] [gate: the lower town's cells become the edge] [wait 90]
+[camera back]*
+
+*[wait 60] Nobody says anything. The roar goes on.*
+
+**Corvin:** She made me take a coat.
+
+*[wait 40]*
+
+**Corvin:** I always forget the coat.
+
+*[pose {HERO}: a hand on Corvin's shoulder] [emote {HERO}: silence] [wait 60]*
+
+### 18. Maren
+
+- Room: `fallhaven_cliff`, the top. Trigger: straight on from scene 17.
+
+*Maren steps forward. She has her notebook in both hands. [face Maren → {HERO}]*
+
+**Maren:** Before we go down to the boats. I
+have to say something.
+
+**Maren:** I have to say it now. Or I'll
+write it down instead, and that's
+how this started.
+
+**Maren:** My reports. Every week, by
+Wingull. I told you they were
+medical returns.
+
+**Maren:** They went to the Pinnacle. To the
+Lord Warden himself. Aurelian Vey.
+
+**Maren:** Where we went. Who we met. The
+Forest seal. Corvin's note on the
+reef. All of it.
+
+**Maren:** He asked for me by name. A medic
+to watch the deputy. The deputy
+would lead him to the seal-breaker.
+
+**Maren:** My last report went the night
+Ketch came. It said where we were
+going.
+
+*[emote Corvin: silence] [emote Vesper: squint]*
+
+**Maren:** I told myself the order keeps
+people safe. I wrote it down so
+often, I believed it.
+
+**Maren:** Then I read that Ledger, in our
+own hand. And I watched Sael shut
+those doors.
+
+**Maren:** I'm not asking you to say
+anything.
+
+**{HERO} replies:**
+
+1. "I'm glad you told us." · quiet: (Nod)
+
+   **Maren:** Don't be glad yet. If tonight
+   hadn't happened, I'd have kept on
+   writing. ...I think.
+
+2. "You lied to us." · quiet: (Shake head)
+
+   **Maren:** Yes. Every week, in a neat hand.
+   I'm very good at it. That's the
+   worst part.
+
+3. "Why tell us now?" · quiet: ...
+
+   **Maren:** Because the next report would
+   have been about Sael. And I can't
+   write that one.
+
+*Every reply rejoins here.*
+
+**Vesper:** I asked you once who reads your
+reports. You said the order.
+
+**Vesper:** You weren't lying. You just didn't
+say which bit.
+
+**Sorrel:** Toward the middle. Every week. I
+noticed.
+
+**Maren:** I know. You both noticed. I
+noticed you noticing. I wrote that
+down too.
+
+*She holds the notebook out to {HERO}.*
+
+**Maren:** Every report I sent. I kept a
+copy of each one. I always keep a
+copy.
+
+**Maren:** You decide what happens to them.
+No more reports. Not one.
+
+*{HERO} takes the notebook. [flag m9_confession] (Maren's notebook shows in Key Items from this flag, items §5.)*
+
+**System:** {HERO} took Maren's notebook.
+
+**Maren:** I'm still your medic. If you'll
+have me.
+
+*[wait 30]*
+
+**Corvin:** Sael would have asked one thing.
+Can she set a bone?
+
+**Corvin:** She can. So she stays.
+
+*[wait 20] Running feet. Ketch comes out through the high town gate and stops dead when he sees their faces. [show
+Ketch] [walk Ketch → the gate]*
+
+**Ketch:** The boats are loaded. Every one
+that floats, and two that mostly
+don't. ...Corvin.
+
+**Corvin:** I know.
+
+*Corvin puts on Sael's coat. It's too big in the shoulders. He turns his back on the falls and walks to the gate.
+[pose Corvin: put on the coat] [walk Corvin → the gate] [crew in] [flag m9_top] [fade out 60]*
+
+### 19. The Galeway
+
+- Room: none: lines over black, as mission 4's chase. Trigger: straight on from scene 18.
+
+**Narration:** Every boat that would float put
+out from the west cove that night,
+and Ketch led them into the storm.
+
+**Narration:** Two nights in the Galeway lanes.
+On the second, the Kestrel's keel
+cracked. She sailed on anyway.
+
+**Narration:** Far off through the rain, one lamp
+went another way: into the storm's
+heart, and out of sight.
+
+**Narration:** On the third morning the storm let
+them go. And the order's fleet was
+waiting.
+
+**Distant voice:** Rimborn boats! By order of the
+Lord Warden, turn back! The Calm
+is closed to you!
+
+**Ketch:** That's the Holdfast. Corvin, all
+of you: sacks of nets. You've had
+practice.
+
+**Corvin:** ...I've had practice.
+
+*[wait 40]*
+
+**Ilse:** Holdfast. Belay that order.
+
+**Distant voice:** Commodore? It's the Lord Warden's
+own hand...
+
+**Ilse:** I can read, Lieutenant. Signal the
+fleet. We escort them in.
+
+**Ilse:** To Marrow Isle.
+
+*[place crew 2 → stonehollow, the cove (in Ketch's skiff, under its nets)] [phase dawn] [warp stonehollow, the cove
+(a new entrance)]*
+
+### 20. The landing
+
+- Room: `stonehollow`, the cove. Trigger: entering from the voyage, once `m9_top`, unless `m9_done` (it replaces
+  the first half of today's `refugees_settle`).
+
+*[fade in 40] Dawn in Stonehollow's cove, crowded as it has never been: Rimborn boats tied two deep along the jetty,
+the Holdfast at anchor off the point under her white-and-blue sails, and the Kestrel coming in last on a towline,
+low in the water. Villagers come down the cove path with blankets, lanterns and baskets: Brann at the front, Nell
+and Maudie behind with pies. Rimborn climb up onto the jetty with their bundles. On Ketch's skiff, under a heap of
+nets, something lumpy keeps very still. [crew out]*
+
+*Ilse comes ashore in the Holdfast's boat, her coat dark with spray. [show Ilse] [walk Ilse → before {HERO}] [face
+Ilse → {HERO}]*
+
+**Ilse:** Deputy.
+
+**Ilse:** My orders were to turn every
+Rimborn boat back at the Galeway.
+In the Lord Warden's own hand.
+
+**Ilse:** I read them twice. Then I looked
+at the boats.
+
+*[face Ilse → the jetty] Old Jory is being helped up the steps with his nets. Pip rides on Hanne's hip. Wenna is
+handing out pickled eggs to anyone who'll take one.*
+
+**Ilse:** I've read "the rim falls" in a
+hundred reports. I had never once
+watched it fall.
+
+*[face Ilse → {HERO}]*
+
+**Ilse:** So. Let it be said properly. I
+disobeyed an order of the
+Pinnacle.
+
+**Ilse:** Written and witnessed.
+
+*[walk Brann → beside Ilse]*
+
+**Brann:** Witnessed.
+
+**Ilse:** Thank you, Keeper.
+
+*[wait 20]*
+
+**Ilse:** The order knew where you'd gone,
+Deputy, before I did. It knew in
+time to send me orders.
+
+**Ilse:** I'd like to know how.
+
+*[emote Maren: silence] [wait 40]*
+
+**Ilse:** ...Another time.
+
+*[face Ilse → the Kestrel] Tully stands on the Kestrel's deck with one hand on her rail.*
+
+**Ilse:** And you've broken my cutter.
+
+**Tully:** She got us home, Commodore. Every
+one of us. Through the lanes and
+all.
+
+**Ilse:** Then she did her work.
+
+**Ilse:** I sail for the Pinnacle on the
+noon tide, to answer for this. Hold
+the island, Deputy.
+
+**Ilse:** Feed these people. That's an
+order. Possibly my last one.
+
+**Brann:** Feeding people is keeper's work.
+We'll manage.
+
+**Ilse:** I know you will.
+
+*[walk Ilse → the Holdfast's boat] [hide Ilse] Brann turns to the jetty and lifts his voice over the noise.*
+
+**Brann:** Rimborn, sailors, fishers! Marrow
+Isle has room for every one of you.
+There's pie. There's always pie.
+
+*[face Brann → {HERO}] He looks {HERO} over, slowly, the way he checks an egg.*
+
+**Brann:** Whole. Good. That's the first
+thing a keeper checks.
+
+**Brann:** The second's the report. ...Later.
+Eat first.
+
+*[crew in] [fade out 40]*
+
+**Narration:** That morning, Marrow Isle took in
+what was left of Fallhaven.
+
+*[flag m9_done] Mission 10 begins straight on ([mission-10.md](mission-10.md), scene 1).*
+
+## The still (for the illustrator)
+
+*Still `sael_doors`, 480×320, made like the opening's stills and Celebi's ([opening.md](opening.md),
+[mission-05.md](mission-05.md)): painted from a written prompt, reduced to the game's palette and pixel size and
+cleaned by hand, on a contact sheet first (decision 23). The message box covers the bottom third, so the focal point
+stays in the top two-thirds, with quiet ground at the bottom. No text.*
+
+*The still: the archive's great hall from inside, at night, looking south toward the great doors. The doors fill
+the upper middle of the picture: tall, dark, iron-banded, a heavy bar across them, bowing inward. Cold blue-white
+light (the falls' mist, lit by the moon) blazes through the cracks round their frame and between their planks, and a
+fine spray hangs in it. One iron bracket hangs loose from the stone. Sael stands with her back to the doors, arms out
+along the bar, boots braced on the flags, in her shirtsleeves, her cropped grey hair wet with spray. She is looking
+back over her shoulder toward the viewer: not afraid, not sad, the face of a captain telling her crew to go, with
+the smallest softening at the mouth. Loose papers and a chart lift off the reading table on the left and drift
+toward the cracks. A lamp swings on its chain, throwing warm amber across the shelves. On the right, at the edge of
+the frame, the empty reading chair. In the bottom third, the floor of the hall and the long shadows of people going
+away up a stair out of the picture: quiet ground under the box. Palette: the doors' cold white against the lamp's
+warm amber, with Sael between them, half in each. It should feel like the opening's stills: painted, still, a
+memory.*
+
+*Motion: a slow push in toward Sael while the page is up; the papers drift; the light through the cracks pulses
+with the falls' roar. Then the light through the cracks swells until it whites out the picture, and fades to black
+(Celebi's still tears; this one goes white, then dark).*
+
