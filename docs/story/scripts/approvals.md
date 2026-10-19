@@ -5,7 +5,7 @@
 Demo decision 1 (yours, 18 Oct): the engine side writes every mission's full script in story.md's tone and posts it
 here for your yes or notes before it is built. Each card below is one script page in this folder; read it on GitHub
 (the links are in each card), then pick "Approve as written", "Approve with my notes" (write the notes in the card's
-note box) or "Rewrite it". Missions 3 and 4 are added (18 Oct); missions 5 to 10 follow, faster once you've judged the voice on these. The format, the tokens and the line budget are in [README.md](README.md).
+note box) or "Rewrite it". Missions 3 to 6 are added (18 Oct); missions 7 to 10 follow, faster once you've judged the voice on these. The format, the tokens and the line budget are in [README.md](README.md).
 
 ## 2. Decisions for you
 
@@ -63,3 +63,51 @@ Recommended first. The alternatives are in brackets.
    novice days); the carved Summon panels with a blank fourth ("the firebird keeps the fourth"), the in-world reason
    the top Flame Summon waits; the Elder. Recommended: accept them into the canon, with story.md updated to match.
    [Accept with my notes; strike the ones I name.]
+9. **Mission 5, The Eldergrove** (mission-05.md, 230 pages; either order with mission 6). Following Ilse's letter,
+   the Kestrel brings the crew to the Greenwild. The great tree has dropped green leaves since spring, a green light
+   burns in its heart at night, and Elder Hollin blames Sorrel, the one person who goes near it. Prickly and kinder
+   to plants than people, Sorrel says the tree isn't cursed but hungry, 'something is drinking it from underneath',
+   and guides the crew in for the tree's sake. On the way, Growth binds a rotten bridge, Maren's Frost makes stepping
+   stones across the poison Sourmire, and in the roots a dead root, a dig and a vine ladder lead up to the seal.
+   There Celebi shows its vision further than ever: six hooded founders closing the Forest Well 'so the centre may
+   endure', the light running east under the ground, five more Wells sealed far away. Then it breaks off (an
+   illustrated still, described for the illustrator). Runner Pell brings the Commodore's order to drive the seal
+   deeper. Sorrel objects, the hero's own Move sets it, Sorrel binds the roots, and the tree goes silent. Sorrel
+   gives the crew Cut, and back in the village says the curse isn't lifted but buried. The mission ends at the
+   Mossbed, where the next rest starts the Crew 2 interlude. Two reply beats with quiet versions, Vesper's lines if
+   she's aboard, and the optional Hive once she is: Cloak past the drones, Halt the sentry, then Reveal frees the
+   queen's mind, and with it Hazel's two absorbed sons and a chest. Read it at
+   https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-05.md. Recommended:
+   approve it as written. [Approve with my notes; rewrite it.]
+10. **Mission 6, Lantern Reef** (mission-06.md, 168 pages; either order with mission 5). On Canalport's beach Vesper,
+   a deadpan fog pilot, offers a lead: a Rimborn skiff went into Lantern Reef running dark and came out lighter. She
+   takes the crew in for fifty coins (or the whole purse and 'a very good tab') and joins with Gastly. By day the
+   reef's fog stands like a wall; the Kestrel's bunk sleeps until night. At dusk old Marrit lights her lanterns for
+   the drowned crews she believes come home. At dark the fog lies down and the wrecks rise, full of Ghost Pokémon,
+   and Maestro Bonewhistle conducts a drowned orchestra on the bow ('May I see your Pokédex?'). Reveal finds the
+   planks between the broken Last Bell's three pieces, and Halt stops a loose boom. At the stern, mission 2's Rimborn
+   chalk mark hides Corvin's note: Ho-Oh grey and screaming, Embral's forty braziers, 'Ask your Commodore where the
+   tithe goes.' Maren says the tithe goes to the Pinnacle; Vesper asks 'And after the Pinnacle?' The job done, Vesper
+   stays on 'at the same rate' and teaches Defog. The mission ends at Marrit's lantern house, where the next rest
+   starts the Crew 2 interlude. Optional: Mimikyu hides twice around the wreck, then fights and joins with no ball,
+   going to the Kin Garden; the lantern Litwick creeps a plank closer each look and hits hard on round four; the
+   Defog banks, the Merrow over a halted spar, and Sorrel's seedling if she's aboard. Two reply beats with quiet
+   versions. Read it at
+   https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-06.md. Recommended:
+   approve it as written. [Approve with my notes; rewrite it.]
+11. **New canon in missions 5 and 6.** In the Greenwild: 'Kin' as its own word for Pokémon; the Eldergrove village
+    with its Kin-stone, the Mossbed, Fennel's ball-free apothecary, the harvest tithe of seed and sap, and the sick
+    groves burned on the Elder's word; the people (Elder Hollin, Brack, Rue, Sedge, Clover, Mother Hazel and her sons
+    Linn and Osric); the tree's sickness since spring, read by Sorrel as hunger from below; Sorrel's GO AWAY hut and
+    her gran who kept the heart. Celebi: its lines ('This is when', 'Every keeper. Every spring.'), and the vision's
+    'Hold a while. Only a while.' with the Lodestar at a founder's belt in the still, unremarked. The order: Runner
+    Pell of the cutter Dunlin, the Forest seal driven down by the hero's Move and bound by Sorrel's roots, Cut taught
+    by Sorrel, and Maren's report flying east, which Sorrel notices. The Hive: the queen dreaming the comb full on
+    the grey sap, and the absorbed foragers' 'We are the Hive... Struggling is sticky.' On the reef: Vesper's look,
+    her fifty-coin fee and tab; 'Day fog stands up. Night fog lies down'; Marrit the lantern-keeper and the reef's
+    dead ('That's what they'd like you to think'); the Last Bell and the Merrow, a Westgloam fog-runner whose
+    lantern-eye carving and Vesper's 'I knew an island that wouldn't pay. Never mind. Old weather' seed her past;
+    Corvin's full note and his knot; 'Who reads your reports?' '...The order.'; Bonewhistle's Rumbelow, his
+    fifty-year song and lost violin; Mimikyu's three hiding places; and the night holding while the crew is on the
+    reef. Recommended: accept them into the canon, with story.md updated to match. [Accept with my notes; strike the
+    ones I name.]
