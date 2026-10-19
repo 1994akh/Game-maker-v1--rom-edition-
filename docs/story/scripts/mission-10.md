@@ -1143,3 +1143,1021 @@ maiden voyage waits at the helm.
 
 *[hide Ketch] Control returns.*
 
+## People and signs, by room
+
+These are Act I's free-play lines too: from `m10_done` the demo plays on (decision 20), and every row below keeps its
+last state for good. While Corvin's crew is played, every line stands as written unless it's marked *Corvin
+leading*; none of the others names the lead.
+
+### `stonehollow`
+
+This page takes Stonehollow over from mission 3's "Act I" state and mission 8's posters. *The states:* settling
+(`m9_done`, until `m10_done`): the cove full of Rimborn boats and the beached Kestrel, the refugees moving in;
+free play (`m10_done`): the Wayfarer at anchor in the cove. Cells are mission 1's; new people give a place instead.
+
+- **Keeper Brann**, slot 8, at the hatchery gate. Settling:
+
+  **Brann:** Rimborn in the inn. Rimborn in the
+  hatchery. Rimborn in my porridge
+  pot.
+
+  **Brann:** Good. The island was getting far
+  too quiet.
+
+  *Free play:*
+
+  **Brann:** A Farer ship in my cove, and a
+  seal-breaker at my table. My
+  grandmother would have fainted.
+
+  **Brann:** I'm enjoying it. Don't tell anyone.
+
+  *Free play, Corvin leading:*
+
+  **Brann:** Supper's at six. Both of you. I'll
+  be counting heads.
+
+- **Brann's Sudowoodo.** Settling:
+
+  **Sign:** The Sudowoodo has a Rimborn child
+  hanging off each arm. It is being a
+  very good tree.
+
+  *Free play:*
+
+  **Sign:** The Sudowoodo has moved to the head
+  of the cove path. It stares at the
+  ship. It's never seen a bigger tree.
+
+- **Nell**, at the stall (Marrow Isle's general store from mission 10, items §11; her shop lines are mission 1's).
+  Settling:
+
+  **Nell:** Herbs for everyone off the boats!
+  Free! Brann said so. ...Brann said
+  so once. I'm saying it lots.
+
+  *Free play:*
+
+  **Nell:** Brann says I'm the island's general
+  store now. I said I always was. He
+  said: patience.
+
+- **Ada**, slot 15. Settling:
+
+  **Ada:** I've hung lanterns all down the
+  cove path, so the boats could find
+  the jetty. Two hundred and twelve.
+
+  *Free play:*
+
+  **Ada:** There's a Farer ship in the cove,
+  and I'm lighting lamps round it.
+  Ships like lamps. Everyone knows.
+
+- **Dunstan**, slot 10. Settling:
+
+  **Dunstan:** Forty Rimborn after quarry work,
+  and I've got forty picks. Funny how
+  these things work out.
+
+  *Free play:*
+
+  **Dunstan:** Corvin fell in my gravel pit twice
+  one summer. Now he's found a ship
+  under the Vault. Still falling in.
+
+- **Old Moss**, slot 11, standing by his bench. Settling:
+
+  **Old Moss:** I gave my bench to Old Jory. He
+  sings. I'll allow it.
+
+  *Free play:*
+
+  **Old Moss:** Three new names on the stone in
+  one morning. It's a sad old stone.
+  Busy, though.
+
+- **Maudie**, slot 9, at The Quiet Stone (the inn role). Before the rest menu, settling:
+
+  **Maudie:** The Quiet Stone's full to the
+  rafters. There's Rimborn asleep in
+  the bath. Driest they've been.
+
+  *Free play:*
+
+  **Maudie:** Fen from Fallhaven helps me now.
+  She keeps locking all the doors.
+  Habit, she says.
+
+  *After resting:* mission 1's line.
+
+- **Fen** (mission 2's innkeeper), at The Quiet Stone's counter. Settling:
+
+  **Fen:** The Quiet Stone. Every bed's level.
+  I've checked them all. Twice.
+
+  *Free play:*
+
+  **Fen:** I lock the doors. Maudie unlocks
+  them. We're getting on very well.
+
+- **Gary Rivalson**, outside the Rivalsons' house. Settling:
+
+  **Gary:** Refugees? On my island? ...Fine.
+  They can have my room. Not my
+  partner, though. It's resting.
+
+  **Gary:** Smell you next tide!
+
+  *Free play:*
+
+  **Gary:** A Farer ship! I'd have found it
+  myself, but I didn't want to show
+  off. Smell you next tide!
+
+  *Free play, Corvin leading:*
+
+  **Gary:** Corvin. Back from the dead AGAIN.
+  Some of us only bother being born
+  once. Smell you next tide!
+
+- **Corla.** Settling:
+
+  **Corla:** I've never seen the cove this full.
+  Or a Commodore's flagship towing a
+  wreck in.
+
+  *Free play:*
+
+  **Corla:** There's a ship in the cove the
+  size of the inn. Dunstan says that
+  about everything. This time, yes.
+
+- **Tobin.** Settling:
+
+  **Tobin:** Pip says Pip's been to the end of
+  the world. I've been to the end of
+  the jetty. It's not the same.
+
+  *Free play:*
+
+  **Tobin:** Did the Sleeper breathe again? I
+  felt it in my bed. I'm being extra
+  good. Extra extra good.
+
+- **Tully** (slot 17's voyage row hides from `m9_done`: the Kestrel is beached, and from `m10_done` the Wayfarer's
+  helm has the chart). Settling, on the shingle by the Kestrel:
+
+  **Tully:** She got us home. Every one of us.
+  I'm going to sit with her a while.
+
+  *Free play:* aboard the Wayfarer (below), and in scene 14.
+
+- **Old Jory** (mission 2), on Old Moss's bench. Settling:
+
+  **Old Jory:** Old Moss gave me his bench. I gave
+  him a song. He says it was a fair
+  trade. He's lying, bless him.
+
+  *Free play:* aboard the Wayfarer (below).
+
+- **Hanne and Pip** (mission 2), by the hatchery. Settling:
+
+  **Hanne:** Pip is sitting right here until
+  we're both very old. Again.
+
+  **Pip:** Is that the Vault up there? Can I
+  climb it?
+
+  **Hanne:** No.
+
+  *Free play:*
+
+  **Pip:** Tobin says a Sleeper lives under
+  the Vault. I'm going to be good too.
+  Mostly.
+
+- **Tanner** (mission 2), at The Quiet Stone's back door. Settling:
+
+  **Tanner:** Maudie's lent me her oven. I've
+  still got the bread. Now I've got
+  somewhere to put it.
+
+  *Free play:*
+
+  **Tanner:** Bread every morning, at this door.
+  Forty years on the east street, and
+  now I'm a baker.
+
+- **Ossian** (slot 18, today's "Rimborn refugee"), by the memorial stone. Settling:
+
+  **Ossian:** Saltcombe. Fallhaven. Now this
+  place. ...I'm going to try very
+  hard to stay in this one.
+
+  *Free play:*
+
+  **Ossian:** The stone says Saltcombe now. I
+  still say it. But it's good to have
+  help.
+
+- **The Rimborn child** (slot 19), in every state:
+
+  **Child:** Everyone says the captain held the
+  doors, right to the end. I'm going
+  to be a captain.
+
+- **Wenna** (mission 2). Settling:
+
+  **Wenna:** I brought the pickled eggs. All of
+  them. Priorities, dear.
+
+  *Free play:*
+
+  **Wenna:** There's a cellar under my new
+  house. Good and dry. I'm not going
+  down it. I've learned.
+
+- **Marta** (mission 2). Settling, with a basket:
+
+  **Marta:** Shop's shut. The shop's in this
+  basket. Come back when I've found
+  a counter.
+
+  *Free play, at her new counter by the inn: she opens Marrow Isle's second shop, with Fallhaven's stock (items
+  §11):*
+
+  **Marta:** MARTA'S, again. Herbs, gear and no
+  promises. Same as ever.
+
+  *Not enough coins, in the shop:* mission 2's line. *Leaving the shop:*
+
+  **Marta:** Mind the edge. ...Habit. There
+  isn't one here.
+
+- **Gannet** (mission 9), by the hatchery with a crate of charts. Settling:
+
+  **Gannet:** Four hundred charts, and I carried
+  three hundred and twelve. I count
+  the twelve as a win.
+
+  *Free play:*
+
+  **Gannet:** The keeper says I can have the
+  cellar under the hatchery, for the
+  charts. A library, he called it.
+
+- **Cidrick** (the egg), at his yard at the cove's far end: scene 13. Then, settling:
+
+  **Cidrick:** Her keel's done. I'm sorry. Saying
+  it twice doesn't make it any
+  easier.
+
+  *Free play:*
+
+  **Cidrick:** That Farer ship. Somebody in my
+  family built her. I'm nearly sure.
+  I'll have the papers by spring.
+
+- **Ketch**, at his skiff in the cove, eating. Settling:
+
+  **Ketch:** Two crossings in a week. I'm owed
+  a nap and a cake. I'll take the
+  cake first.
+
+  *Free play:* in the Wayfarer's galley (below).
+
+- **Corvin** (slot 20): scenes 1 and 2 only; the row hides from `m10_stone` (today it shows until `m10_door`), and
+  Corvin waits in the Vault (`vault_halls`, slot 12).
+
+- **Corvin, the waiting lead** (slot 21, the crew role, as built), by the Keeping Stone, while {HERO}'s crew is
+  played, from `crew_swap`. Before the menu:
+
+  **Corvin:** My lot's ready when you are.
+  Tamsin's rating Maudie's pie. It's
+  getting a nine.
+
+- **{HERO}, the waiting lead** (slot 22, as built), while Corvin's crew is played. Before the menu:
+
+  **{HERO}:** Go on. I'll keep the island.
+
+  *Quiet: [emote {HERO}: smile] and no line.*
+
+**Signs and things to examine**
+
+- **The memorial stone**, from `m10_stone`:
+
+  **Sign:** FOR THOSE THE SEA KEPT.
+  The Tern, lost off the Galeway
+  five years ago. Skipper Ebb. Orrin.
+
+  **Sign:** A neat line through a third name.
+  Under it, new-cut: CAPTAIN SAEL, OF
+  FALLHAVEN.
+
+  **Sign:** And under her, smaller: FALLHAVEN.
+  SALTCOMBE.
+
+- **The notice board**, from `m9_done`: its mission 1 text and mission 8's posters page, then:
+
+  **Sign:** A new notice, in Brann's square
+  hand: RIMBORN WELCOME. PIE AT THE
+  QUIET STONE. HERBS FROM NELL.
+
+  **Sign:** And under Corvin's poster, in the
+  same hand: WANTED HOME FOR SUPPER.
+
+  *Corvin leading, after it:*
+
+  **Corvin:** Still not my face.
+
+- **The cove.** Settling:
+
+  **Sign:** Rimborn boats, tied two deep along
+  the jetty. Every one has a name on
+  its bow, and under it: FALLHAVEN.
+
+  *Free play (beside the boarding warp to the Wayfarer):*
+
+  **Sign:** The Wayfarer at anchor. Her folded
+  sails lie along her sides like
+  wings at rest.
+
+- **The beached Kestrel** (new), on the shingle, until `m10_funeral`:
+
+  **Sign:** The Kestrel, hauled up on the
+  shingle, her keel cracked stem to
+  stern. Her rail's been polished.
+
+  *From `m10_done`, the same page, then:*
+
+  **Sign:** Tully would want her seen off
+  properly. Give her a send-off?
+
+  *[yes/no] Yes: scene 14. No: nothing. From `m10_funeral`:*
+
+  **Sign:** A long scar in the shingle, where
+  the Kestrel lay.
+
+- **Cidrick's yard:**
+
+  **Sign:** CIDRICK AND SONS. SHIPWRIGHTS.
+  Under it, smaller: SONS TO FOLLOW.
+
+- **Marta's**, from `m10_done`:
+
+  **Sign:** MARTA'S, AGAIN. Herbs, gear and
+  no promises.
+
+- **The Mercury-blue puddle**, with Frost from Corvin's crew (Nerissa): mission 1's line, then:
+
+  **Nerissa:** It doesn't want to. I respect that.
+
+### `hero_house`
+
+Mission 1's rows, with these states from `m9_done` (and the note from `m10_done`):
+
+- **Brann's note**, on the table, from `m10_done`:
+
+  **Note:** {HERO}. Corvin. Supper at six.
+  HERE, not on that ship. My knees
+  have opinions. Brann.
+
+- **The mirror**, from `m9_done`:
+
+  **Mirror:** You look like you've been to the
+  end of the world. You have.
+
+  *Then mission 1's "Change your look?" and its yes/no.*
+
+- **Brann's bed**, from `m10_done`:
+
+  **Sign:** Brann's bed, corners sharp enough
+  to slice bread. A second blanket is
+  folded at its foot. For Corvin.
+
+- **The egg basket**, from `m9_done`:
+
+  **Sign:** The speckled egg has a hairline
+  crack in it. Brann says: not yet.
+
+- **The window**, from `m10_done`:
+
+  **Sign:** Through the glass, the Vault road.
+  And past the cove, a ship with her
+  sails folded like wings.
+
+- **The bed**, the home bunk: mission 1's lines.
+
+### `vault_halls`
+
+Mission 1's signs stand. From `m10_vault_in`:
+
+- **Corvin**, slot 12, by the inner door. Scene 4; then, from `m10_asked` until `m10_door`:
+
+  **Corvin:** Go on. Hand flat. Push with your
+  mind, not your back. Brann's
+  drills.
+
+- **The inner door**, slot 11. Until `m10_door` (mission 1's text, then):
+
+  **Sign:** Two handprints, side by side.
+  Corvin stands by the east one.
+
+  *Move on the west print before `m10_asked` (the Psynergy event's `else_text`):*
+
+  **System:** The print stays cold. It opens to
+  two Earth Adepts, together.
+
+  *From `m10_door`:*
+
+  **Sign:** The inner door stands open, its two
+  halves drawn back into the walls.
+  The prints are cold now.
+
+- **The warded stair**, slot 13 (as built), on the landing, from `m10_door`:
+
+  **Sign:** A stair spirals down toward the
+  Earth Well, behind a curtain of red
+  light. It won't open. Not yet.
+
+  *Move on it (nothing moves):*
+
+  **System:** The ward doesn't move. Whatever is
+  down there is asleep. Let it be.
+
+- **The sea stair**, on the landing, from `m10_door`:
+
+  **Sign:** A stair down into the dark. The
+  sound of the sea comes up it, and
+  the smell of salt.
+
+- **The sea-chest**, on the landing (the dungeon's gear chest, Items, below):
+
+  **Sign:** An old sea-chest on the landing,
+  its lock long rusted away.
+
+- **The river's edge**, from `m9_done`:
+
+  **Sign:** The underground river runs loud
+  and black toward the sea. It took
+  Corvin once. It gave him back.
+
+### `wayfarer_berth` (new)
+
+*The states:* berthed (until `m10_done`); empty (`m10_done`): the Wayfarer has gone round to the cove.
+
+- **Corvin, Tamsin, Nerissa and Wynn**, on the last dry step, from `m10_berth_in` until `m10_ship`. Corvin, before
+  the shingle is dug:
+
+  **Corvin:** You first. I dug the last hole. It
+  was a very good hole.
+
+  *Wynn:*
+
+  **Wynn:** She's just sitting there being a
+  ship. I could look at her all day.
+  I might.
+
+- **The shingle** (puzzle 2), until `m10_shingle`:
+
+  **Sign:** Six hundred years of shingle, washed
+  in from the cave mouth over the
+  stair. Scoop would dig it clear.
+
+  *From `m10_shingle`:*
+
+  **Sign:** The stair's last flight, dug clear
+  down to the quay.
+
+- **The gangway** (puzzle 3), until `m10_gangway`:
+
+  **Sign:** The ship's gangway hangs from a
+  brass arm on her rail. It swings out
+  over the water, and back.
+
+  *From `m10_gangway`:*
+
+  **Sign:** The gangway, its chain made fast,
+  bridging the quay to her rail.
+
+- **The quay:**
+
+  **Sign:** A quay of dressed stone, carved
+  with the six marks. Older than the
+  Vault's halls.
+
+- **The cave mouth:**
+
+  **Sign:** Far off, a grey light where the sea
+  comes in, under the north cliffs.
+
+- **The glint** (optional A), at the waterline, until `m10_glint`:
+
+  **Sign:** Something glints in the shingle at
+  the waterline. Scoop would dig it
+  out.
+
+- **The empty berth**, from `m10_done`:
+
+  **Sign:** The berth, empty. The water where
+  she lay is still and black. She's
+  at anchor in the cove now.
+
+### `wayfarer` (re-clipped)
+
+*The states:* berthed (`m10_ship`, until `m10_done`); at anchor in the cove (`m10_done`).
+
+- **The helm**, slot 8 (the voyage role, rewritten). Berthed:
+
+  **Sign:** The Wayfarer's wheel, taller than a
+  man. It's very still. She's going
+  nowhere yet.
+
+  *At anchor, with Tully beside it, until `m10_funeral`:*
+
+  **Tully:** The Wayfarer, Deputy. She's not
+  the Kestrel. She's very nice,
+  though. Where to?
+
+  **Tully:** And the Kestrel's on the shingle.
+  When you've a moment. She ought to
+  be seen off.
+
+  *From `m10_funeral`:*
+
+  **Tully:** Where to, Deputy? The Calm's on
+  the chart. Sea trials, Cidrick
+  says. She likes them.
+
+  *Corvin leading, in place of Tully's first page:*
+
+  **Tully:** Where to? I still don't know what
+  to call you. The poster says
+  seal-breaker. ...Corvin, then.
+
+  *Then: [menu: the chart's places, The Galeway, Not now]. The chart's places sail as the Kestrel's chart did (as
+  built). The Galeway: scene 15.*
+
+- **Corvin**, slot 9 (as built), berthed, from `m10_ship` until `m10_supper`:
+
+  **Corvin:** She's ours. Both crews'. Go and
+  look at everything. I already
+  have. Twice.
+
+- **Tamsin, Nerissa and Wynn**, on deck, berthed, until `m10_supper`. Tamsin, by the grating:
+
+  **Tamsin:** I'm watching the fire, in case it
+  needs anything. It doesn't. I'm
+  watching anyway.
+
+  *Nerissa, at the rail:*
+
+  **Nerissa:** She sits in the water as if she's
+  thinking. Good ships do.
+
+  *Wynn, at the bow:*
+
+  **Wynn:** WAYFARER. In plain letters.
+  Somebody wanted us to know her
+  name.
+
+- **The engine**, slot 10, the grating over the engine's well:
+
+  **Sign:** Six glass chambers round a heart
+  of brass. One burns red and gold.
+  Five are dark.
+
+  **Sign:** With the Flame Well open, she can
+  cross the Stillwaters, Ketch says.
+
+- **The chart table**, slot 11. Scene 8; then, from `m10_log`:
+
+  **Sign:** The chart table, and the Lodestar's
+  brass cradle. Set the Lodestar in
+  it?
+
+  *[yes/no] Yes: [light: a faint blue glow round the cradle's rim]*
+
+  **System:** The needle shivers, turns once and
+  settles, pointing nowhere. Then
+  {LEADER} takes it back.
+
+- **The muster roll**, slot 12 (the muster role, as built). Scene 9; then, from `m10_muster`, before the trade
+  menu:
+
+  **Sign:** The muster roll: two columns in
+  Wynn's small neat hand, the two
+  leads side by side at the top.
+
+- **The Farer lamp** (optional B), on the chart room wall, until `m10_cache`:
+
+  **Sign:** A Farer lamp on the chart room
+  wall, cold. A flame is etched into
+  its glass.
+
+  *Blaze on it, from `m10_done` (a crew with Tamsin): [light: the lamp lights, warm]*
+
+  **System:** The lamp's light falls across the
+  chart table, and shows a seam in
+  it: a drawer nobody had seen.
+
+  *Then the drawer's chest (Items, below) and `m10_cache`. From `m10_cache`:*
+
+  **Sign:** The Farer lamp burns, small and
+  steady. It doesn't seem to need
+  oil.
+
+- **The bow:**
+
+  **Sign:** Farer letters on the bow. Under
+  them, cut in old plain letters:
+  WAYFARER.
+
+- **The folded wings:**
+
+  **Sign:** Long fins of sailcloth on ribs,
+  folded flat along her sides like a
+  bird's wings at rest. Very still.
+
+- **The blue window**, in the chart room. Berthed:
+
+  **Sign:** A window of blue glass. Through it,
+  rock, and the dark of the cave.
+
+  *At anchor:*
+
+  **Sign:** A window of blue glass. Through it
+  the sky is bluer than the sky.
+
+- **The hatches:**
+
+  **Sign:** A hatch down to the galley. It
+  smells of fish stew.
+
+  **Sign:** A hatch down to the quarters:
+  eight bunks, and a hammock.
+
+- **Old Jory**, on deck, from `m10_done`:
+
+  **Old Jory:** Under the marrow, under the stone.
+  I always said it meant something.
+  ...I never said it. I thought it.
+
+  **Old Jory:** Corla rowed me out. Don't tell
+  anyone. I've a reputation for not
+  going places.
+
+### `wayfarer_galley` (new)
+
+- **Ketch**, at the stove, from `m10_done` (a free restoration point, as his skiff was at Bastion Rock):
+
+  **Ketch:** Galley's open. Fish stew. It's
+  always fish stew. I've written a
+  galley verse.
+
+  **Ketch:** It rhymes "stew" with "stew". That's
+  allowed, in galley verses.
+
+  **Ketch:** A nap at the table? I'll keep
+  watch. And eat. Quietly.
+
+  *[menu: Rest, Pokémon, Not now] (the inn's menu, at no charge). After resting:*
+
+  **Ketch:** You slept through two verses. That's
+  a compliment, from you.
+
+- **The stove:**
+
+  **Sign:** A stove of Farer brass. Ketch lit it
+  with an apple core and a lot of
+  words. He won't say which.
+
+- **The table:**
+
+  **Sign:** The galley table. Somebody has
+  carved into it, very neatly: TAMSIN
+  10/10.
+
+- **The pie dish**, from `m10_supper`:
+
+  **Sign:** Maudie's pie dish, scraped clean.
+  Somebody has to take it back to
+  Maudie.
+
+### `wayfarer_quarters` (new)
+
+*The states:* the first night (`m10_night`, until `m10_done`): all seven Adepts at their bunks, the talks; free
+play (`m10_done`): each Adept at their bunk while they're in the waiting crew and aren't its lead.
+
+- **The ship's bunk** ({HERO}'s, beside Corvin's; decision 34). The first night: scene 12. Free play:
+
+  **Bunk:** Your bunk, beside Corvin's. Sleep
+  until...?
+
+  *Corvin leading:*
+
+  **Bunk:** Corvin's bunk, beside {HERO}'s.
+  Sleep until...?
+
+  *[menu: Dusk, Dawn, Not now] (the home bed's)*
+
+- **The waiting Adepts**, free play, one each:
+
+  **Maren:** I wrote a list today. Bandages,
+  splints, Herbs. Nobody will read it
+  but me. It's very restful.
+
+  **Sorrel:** The hull's warmer today. Don't ask
+  me how I know. I know.
+
+  **Vesper:** Still a hammock. Still not a ghost
+  on her. I'm keeping an eye out.
+
+  **Tamsin:** Ninety press-ups for me, ten for
+  the Forgeheart. Every morning. It's
+  a system.
+
+  **Nerissa:** Froakie likes the bucket. I like
+  the quiet. We're both very happy.
+  You can't tell, but we are.
+
+  **Wynn:** ...and if those are wings, then she
+  flew, which I said. Don't take me
+  up. I'm only saying.
+
+- **Corvin's bunk**, while he isn't there:
+
+  **Sign:** Corvin's bunk, beside yours. A
+  disgrace, he says. He's right.
+
+- **Vesper's hammock**, while she isn't there:
+
+  **Sign:** A hammock, slung between two hooks
+  over a perfectly good bunk.
+
+- **The other bunks**, while their Adepts aren't there:
+
+  **Sign:** A bunk of the grey wood, with a
+  curtain and a little lamp, and
+  somebody's things on it.
+
+### The other rooms (free play)
+
+- **Tully, the Wayfarer's mate**, in every room where the ship moors (Canalport slot 15, Eldergrove slot 13, Lantern
+  Reef's mate), from `m10_done`, in place of the Kestrel's lines:
+
+  **Tully:** The Wayfarer, Deputy. Not the
+  Kestrel. Very nice, though. Where
+  to? Or a bunk below?
+
+  *Corvin leading, in place of it:*
+
+  **Tully:** The Wayfarer. Where to? ...I still
+  don't know what to call you.
+  Corvin, then.
+
+  *[menu: the chart's places, Bunk, Not now] Bunk:*
+
+  **Bunk:** A Farer bunk below decks. It
+  smells of cedar and six hundred
+  years. Sleep until...?
+
+  *[menu: Dusk, Dawn, Not now] (at the reef, Night in place of Dusk, as mission 6 has it)*
+
+- **Canalport, while Corvin's crew is played** (bounties add a joke line in Tidewarden towns, story.md §9b):
+
+  *The marine at the sandbags:*
+
+  **Marine:** You look like the seal-breaker on
+  the poster. ...No. He's uglier.
+  Move along.
+
+  *Harbourmaster Quayle, before his own lines:*
+
+  **Quayle:** The seal-breaker! On my quay! Have
+  you a licence? No? Well. Mind the
+  tide. It doesn't care who you are.
+
+- **The poster boards** (Canalport's Tidewarden notice and Eldergrove's tithe notice, as Stonehollow's above),
+  Corvin leading, after the posters' page:
+
+  **Corvin:** Still not my face.
+
+## Items and chests
+
+| What | Where | Gives | The words |
+|---|---|---|---|
+| The landing's sea-chest | `vault_halls`, the landing behind the inner door (the dungeon's gear chest; items §13's suggestion for the Vault) | Long Sword | The engine's chest line, naming `{LEADER}` |
+| The berth's glint | `wayfarer_berth`, the shingle at the waterline (Scoop, optional A; sets `m10_glint`) | Elixir ×1 | **System:** {LEADER} found Elixir! |
+| The Farer drawer | `wayfarer`, the chart table's hidden drawer (Blaze on the chart room's lamp, from `m10_done`, optional B; sets `m10_cache`; items §13's "Farer cache on the Wayfarer") | 300 coins and a Psy Crystal | **System:** {LEADER} found 300 coins! Then the engine's chest line for the crystal |
+| The Farer's Log | Scene 8 | The Log (decision 32): a key item that opens the Start menu's Log row | Scene 8's system lines |
+| The linking cord | Scene 10 | Nothing new: mission 7's Linking Cord is in the one bag from scene 9; the scene stages it changing hands | — |
+| Marta's shop | `stonehollow`, from `m10_done` | Fallhaven's stock (items §11) | Her shop lines |
+
+**The Farer's Log's Key Items text:**
+
+**Item:** The Farers' half-written book. Its
+first pages nobody can read. The
+rest fill as you go.
+
+**The Lodestar's Key Item text**, from `m10_cradle` (mission 1's, rewritten):
+
+**Item:** A brass Farer compass with a
+needle of blue glass. It stirred in
+its cradle, and points nowhere yet.
+
+## Puzzles
+
+The crew's verbs: Crew 1's Psynergy (Move, Scoop, Frost, Ply, Growth, Reveal, Halt, Cloak) until the muster roll,
+with Corvin beside it; from `m10_done`, whatever either crew holds, and any Adept traded across. The main path needs
+only Crew 1's verbs and Corvin's scripted hand. Pushed things stay where they're pushed, so every block can always
+be got behind again.
+
+**Puzzle 1. The Two-Earth Door (Move, with Corvin; new).**
+1. Corvin waits by the inner door's east print. Talking to him plays his question (scene 4); he lays his palm on
+   the east print (`m10_asked`).
+2. Cast Move on the west print. Before `m10_asked` it stays cold, with its line; after, scene 5 plays: both prints
+   glow, the door opens (`m10_door`).
+3. Both hands are needed, and one is the player's: the door is the player's to open, as the Forest seal was in
+   mission 5.
+
+It pays off mission 1's lock gate ("Two keepers stand where one cannot") and the fight in this room.
+
+**Puzzle 2. The shingle (Scoop; new).**
+1. At the sea stair's foot, six hundred years of shingle have buried the last flight above the quay.
+2. Cast Scoop on it: it slides away (`m10_shingle`, a gate opening the stair), and the quay is open.
+
+**Puzzle 3. The gangway (Halt; new: mission 6's spar).**
+1. The Wayfarer's gangway hangs from a brass arm on her rail and swings out over the one-cell gap between quay and
+   rail, and back (a patrol actor).
+2. Cast Halt while it lies across the gap: for ten seconds that cell can be walked.
+3. Once the crew is across, Corvin catches its chain and makes it fast (`m10_gangway`, a gate keeping the cell
+   bridged), so the way back never needs Halt again.
+
+**Optional A. The glint (Scoop).** At the berth's waterline: an Elixir (`m10_glint`).
+
+**Optional B. The Farer lamp (Blaze, from `m10_done`).** On the chart room wall, a cold Farer lamp. With Tamsin in
+the crew (Corvin's crew played, or Tamsin traded in at the muster roll), Blaze lights it, and its light shows a
+hidden drawer in the chart table (`m10_cache`). It gives the player a reason to try a trade at once.
+
+## Eggs
+
+- **Cidrick** (story.md §9a, Final Fantasy's recurring engineer; decision 10): a Fallhaven shipwright who walked up
+  the cliff road with his tools in mission 9 and opens a yard on Marrow Isle's cove the morning after. His gag starts
+  here: his family built every ship ever ("And most of the ones that aren't"), the Kestrel included ("He'd have built
+  her better, if they'd asked him"), and the Wayfarer too, "probably". His yard's board says CIDRICK AND SONS, with
+  SONS TO FOLLOW underneath. His own look, never a copied one: goggles pushed up into his hair, a toolbag over each
+  shoulder, a mallet in his belt. His quest (the airship's figurehead) and the Wayfarer's upgrades come later.
+- **"A Funeral at Sea"** (§9a, One Piece's send-off of a ship that can't sail on; decision 10): when the Wayfarer
+  replaces the Kestrel, an optional scene at dusk floats the cracked cutter out on the ebb, Tamsin's Blaze sets her
+  sails alight, and Tully says goodbye. Ketch sings the funeral song he has been writing for Corvin as a joke since
+  mission 2, finished for Sael, and Corvin answers with his own line from then, "It rhymed and everything." Nothing
+  in it is quoted; the Kestrel never speaks.
+- **Gary Rivalson's** gag carries on (mission 1's egg): he gives the refugees his room but not his "very talented"
+  partner, would have found the ship himself, and has a word for Corvin back from the dead "AGAIN".
+- **The Mercury-blue puddle** (mission 1's egg) gets a line for Corvin's crew: Nerissa's Frost bounces off it too.
+
+## Either order
+
+Nothing differs: mission 10 always follows mission 9, with both crews full.
+
+## Not in this mission
+
+The warded stair and the Earth Well under it (mission 22, Primal Groudon); the Wayfarer's other upgrades (the
+living hull at mission 14, the bubble hull at 18, wings at 19, fog sight at 20), which Sorrel's, Nerissa's and Wynn's
+talks seed; Cidrick's quest and his upgrades; the Lodestar waking (mission 12); the Breaking itself (mission 11) and
+the lamp waiting in the Galeway; the heart quests the talks seed (Corvin and {HERO}'s Fallhaven memorial, Maren's
+charter, Sorrel's groves, Vesper's survivor, Tamsin's flame, Nerissa's domes, Wynn's chart); Ilse's answer at the
+Pinnacle (mission 21); Maren's Shiny Stone (mission 13, demo decision 13); the walkable Kin Garden, Gannet's library
+and the rest of Marrow Isle's growth (decision 33); Vesper's Haunter and Ralts's Kirlia, which their levels keep
+after the demo; the Farers' return "when it is complete" (the postgame) and the Steward (mission 19).
+
+## Inventions
+
+Things story.md doesn't say, for you to keep or strike:
+
+- **The morning after:** mission 10 opens the same morning, once the Holdfast has sailed; Corvin's crew climbs out
+  of Ketch's nets ("Which way up do people go?").
+- **Brann and Corvin:** "You're late." "Five years late."; the halls, the seal-bar, the floor and the Sleeper;
+  Brann's embrace; "Eggs in your boots... I never once caught you." "You did. You let me."
+- **The memorial stone:** Brann cuts Sael's name, then Fallhaven and Saltcombe at Ossian's asking ("There's always
+  room on this stone. That's the trouble with it"; "The stone says it now. I don't have to say it on my own").
+- **Brann's blessing:** keepers are never told what's behind the inner door; "Forty years I kept it. I never once
+  asked what it was for. Maybe it's time somebody asked"; mission 1's lock words, "Two keepers stand where one
+  cannot", as his leave.
+- **Old Jory's skiff-song as the key** (mission 2's seed, heard by Crew 1 in mission 9): "Under the marrow" is
+  Marrow Isle, "under the stone" the Vault, and Corvin's reason for Keeping Night.
+- **The door:** Corvin asking again, properly, in the room where they fought; both prints amber, "It knows us"; the
+  landing behind it with two stairs; the warded stair's one slow red breath, the Sleeper settled since Keeping Night.
+- **The Wayfarer:** a sea cave under Stonehollow that opens under the north cliffs; a quay older than the Vault,
+  carved with the six marks; her pale grey wood that Sorrel feels is alive and asleep; her sails folded along her
+  sides like wings (§8's wings, dormant until the Sky Well); WAYFARER cut in old plain letters under her Farer name;
+  her engine of six glass chambers round a brass heart, one per Well, with only the Flame chamber alight; Ketch's
+  Stillwaters, where boats "sit till they're bones".
+- **Wynn's proof:** the Wayfarer is one of the sky-ships her mother showed her from the window (mission 8), "I said.
+  I always said."
+- **The cradle and the Log:** a brass cradle on the chart table cut to the Lodestar's shape, where it turns once
+  and settles; "It isn't awake. It's stirring"; the Farer's Log lying beside it, half Farer script and charts
+  nobody can read, half blank pages that fill themselves with both crews' records as the crews watch, which is how
+  decision 32's records "kept since mission 1" reach the book; its one plain line, "To whoever finds her: keep the
+  Log. We will come back when it is complete" (story.md §3's promise, hinted in Act I); "Come back. From where?";
+  Maren's "It's been keeping notes. ...I know how that sounds."
+- **The muster roll** in Wynn's hand, "Two keepers, standing where one can't"; the bags into one hold, Maren's
+  inventory ("It isn't a report"), and mission 1's "Herbs first" from Maren.
+- **Supper:** Ketch's fish stew ("The recipe is: fish"), Brann's six hundred steps and "I said supper. I didn't say
+  where", the linking cord passing from Nerissa to Vesper's Gastly (mission 7's "A Haunter, they say"), Brann's "It
+  was waiting for the ship, not for you", the toast to Sael, Ketch's song held back, and Brann's "What are you now?"
+  with "Since the table."
+- **The quarters:** eight bunks and Vesper's hammock; the seven talks and what they seed: Corvin's burned sleeve
+  and his new post for the rim; Maren's empty notebook and her "Rules. Better ones"; Sorrel feeling the hull alive and
+  meaning to undo the Forest seal and replant the groves; Vesper's fog past the Galeway ("Not as a client. I'll still
+  send you the bill"); Tamsin's ninety press-ups and the cold brazier; Nerissa wanting to know if the ship can go
+  under; Wynn drawing the ship onto her chart.
+- **The morning:** Ketch takes the Wayfarer round to the cove on the tide; Tully becomes her mate; Cidrick's "Sea
+  trials first", so she sails the Calm and her maiden voyage is the Galeway crossing.
+- **The Kestrel's end:** her keel cracked in the lanes (mission 9), Cidrick's verdict, and her send-off with Tully's
+  goodbye, Tamsin's Blaze and Ketch's song in two verses ("The captain was the last ashore, so she's first aboard
+  tonight").
+- **The ending's frame:** the Wayfarer leaving the cove with Brann's hand raised, "somewhere in it, a single lamp was
+  waiting" (Hask, mission 9), the end card's wording, the credits' title "HALCYRA. Act I: Open Water", the save
+  prompt, and the deck "the morning before she sailed" with Ketch's "...Probably."
+- **Marrow Isle starts to grow:** Marta's shop reopened with Fallhaven's stock, Tanner baking at the inn's back door,
+  Fen at The Quiet Stone, Gannet's library-to-be in the cellar under the hatchery, Wenna's cellar, Old Jory on Moss's
+  bench, Cidrick's yard, and Brann's notice with WANTED HOME FOR SUPPER under Corvin's poster.
+- **Free play:** every line above for Stonehollow, the house, the Vault and the ship; Corvin's and {HERO}'s waiting
+  lines; the waiting Adepts aboard; Ketch as the ship's free restoration point; Tully at the moorings; the joke lines
+  for Corvin's crew in Canalport, and "Still not my face".
+- **The rewards:** a Long Sword, an Elixir, 300 coins and a Psy Crystal.
+
+## Changes to the build
+
+**Rooms**
+- **`vault_halls`:** the inner door chamber gains the landing behind the door (a gate on `m10_door` opening the
+  door's cells), with the sea stair (a warp to `wayfarer_berth`, in place of today's straight warp to `wayfarer`),
+  the warded stair (slot 13, as built, moved onto the landing) and the sea-chest. The west print is a Psynergy event
+  (Move) gated on `m10_asked`, with its `else_text`; Corvin's slot 12 shows from `m10_vault_in` (today `m10_intro`).
+- **`wayfarer_berth`** (new, decision 5's Wayfarer rooms): a sea cave clipped from a Golden Sun water cave, the
+  builder's pick, with `--water`: the sea stair's foot (entrance 0) and its shingle (a dig spot with a gate on
+  `m10_shingle`), the quay, the gangway (a patrol actor across the one-cell gap to the ship's rail that Halt makes
+  walkable; a gate on `m10_gangway` keeps it bridged), the glint, the painted cave mouth, and the ship's rail (a
+  warp to `wayfarer`'s entrance 0). From `m10_done` the ship, the gangway and the warp are gone.
+- **`wayfarer`** re-clipped (today one deck): the deck with the helm, the grating over the engine's well, the muster
+  roll by the mainmast and the bow; the chart room at the stern with the chart table and cradle, the blue window, the
+  Farer lamp and its hidden drawer (a chest that shows on `m10_cache`); the hatches down to the galley and the
+  quarters. Two moorings: in the berth (entrance 0, the gangway from `wayfarer_berth`) until `m10_done`, and at
+  anchor in Stonehollow's cove (entrance 1, the gangway to the jetty) from it.
+- **`wayfarer_galley`** (new): the table, the stove and Ketch, a free restoration point from `m10_done`.
+- **`wayfarer_quarters`** (new): eight bunks and the hammock; the ship's bunk with the home bed's menu (decision 34);
+  the first night's rows (`m10_night` until `m10_done`) and the free-play rows.
+- **`stonehollow`:** the cove's two states (the boats and the beached Kestrel; then the Wayfarer at anchor, with a
+  boarding warp from `m10_done`); new rows for Old Jory, Hanne and Pip, Tanner, Wenna, Marta (her shop from
+  `m10_done`), Fen, Gannet, Cidrick and his yard, Ketch, Tully and the beached Kestrel (hidden from `m10_funeral`);
+  slot 18 renamed Ossian; slot 19's line; slot 20 hidden from `m10_stone`; slot 17's voyage row hidden from `m9_done`;
+  the memorial stone's and the notice board's new pages; every row's text by state. Today's `refugees_settle`
+  becomes mission 9's scene 20 and scenes 1 and 2 here.
+- **`hero_house`:** the note, mirror, bed, egg and window states.
+
+**Actors and engine**
+- **Today's scenes replaced:** `refugees_settle` (mission 9's scene 20, scenes 1 and 2), `inner_door` (scenes 4 and
+  5: a talk, then a Psynergy event), `wayfarer_found` (scenes 7 to 9: `merge_bags` and `crew_swap` move to the
+  muster roll, and `m10_done` to the morning, scene 12).
+- **The Wayfarer moves at `m10_done`:** her deck's gangway warp switches from the berth to the cove, the berth
+  empties, and Stonehollow's cove shows her at anchor.
+- **The helm:** the voyage role's menu (as built, the Kestrel's chart) gains a last row, "The Galeway", which plays
+  scene 15.
+- **New steps for the ending (decision 20):** `end card` (a full-screen card over black, in the title's lettering),
+  `credits` (the roll from credits.md), and `save prompt` (a yes/no into the save flow), after which the scene puts
+  the player back on the deck as it was before the voyage: the same phase and the same mooring.
+- **The Log** (decision 32): scene 8 gives the Farer's Log, which opens the Start menu's Log row with its tabs filled
+  from the records kept since mission 1 (menus §8.9), and DexNav's "Search here".
+- **The Lodestar:** the chart table's cradle as a yes/no with a light, which changes nothing; the item's text from
+  `m10_cradle`.
+- **Crew conditions:** a row that shows only while a named Adept is in the waiting crew and isn't its lead (the
+  quarters' free-play rows); scenes that show any Adept, wherever they are (supper, the first night, the funeral's
+  Tamsin, whichever crew she is in).
+- **The first night** as a state: from `m10_night` every Adept stands at their bunk as an actor, the played crew
+  stepped out (`crew out`), until the morning's `crew in`.
+- **Tully's mate rows** in every mooring room (Canalport slot 15, Eldergrove slot 13, Lantern Reef's) switch to the
+  Wayfarer's lines and bunk text from `m10_done`.
+- **Corvin's crew in Canalport:** the marine's and Quayle's lines while Crew 2 is played (`while_crew 2`), and
+  Corvin's line after the posters on the three boards.
+- **Marta's shop** in Stonehollow from `m10_done`, with Fallhaven's stock (items §11); Nell's stall stays as built.
+- **Music:** Ketch's song for the funeral in the music table (decision 37, slice 11).
+- **`{LEADER}`** in the give, chest and cradle lines.
+- **Actors scenes can move:** Brann (aboard), Ketch, Tully, Old Jory, Ossian, Cidrick, the Kestrel (floated out,
+  burning, with a fire tint), Gastly, Rowlet, and Froakie in its bucket.
+
+**New scene steps** (README §2): `phase`, `light` (the amber prints, the ward's breath, the engine's glow, the
+cradle's blue, the spreading ink, the Kestrel's fire), `camera`, `pose` (embrace, kneel, stand, a hand on the door,
+set the Lodestar down, write, lean over the rail, nod), `choice` (both beats, with the quiet set), `crew out` and
+`crew in`, `merge bags` (as built), `end card`, `credits`, `save prompt`, a Psynergy-event trigger (scene 5), and
+yes/no menus (the bunk, the Kestrel, the chart table, Ketch).
+
+**Checks.** `tools/mission10_check` follows the new flow from mission 9's landing: the nets and the stone; the door
+refusing Move before Corvin's question; his reply menu in both voices; the door, and the warded stair refusing; the
+shingle and the gangway; the ship; the cradle; the Log's row in the Start menu; the muster roll, the one bag and
+purse, and `crew_swap`; supper's reply menu in both voices; the seven talks in any order, and none; the bunk to dawn
+and `m10_done`; the Wayfarer in the cove; a swap at Stonehollow and a trade at the muster roll; Tully's rows; the
+funeral, yes and no; the Farer drawer with Tamsin traded in; and the helm's maiden voyage, with the end card, the
+credits, the save prompt (yes and no) and the return to the deck with the clock and the mooring as they were.
