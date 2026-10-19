@@ -175,3 +175,15 @@ Recommended first. The alternatives are in brackets.
     named for the archived chat (from the board's page list and BRIEF.md). Recommended: rename it story-questions.md,
     with the links in BRIEF.md and README.md and the board's page list updated; its answered items stay as they are.
     [Keep the name as a record of where the questions began.]
+
+**Found while building (19 Oct)**
+
+27. **Tamsin's weapon.** Equipment decision 11 gives Corvin and Tamsin the Machete as their join kit, but equipment.md
+    §4 makes Tamsin's class line the monk's (maces and staffs), and she fights bare-fisted at the Forgeheart (mission 4's
+    third trial). The engine lets her hold the Machete by hand for now. Recommended: Tamsin joins with a mace from the
+    Forgeheart's rack, her class's own weapon, and Corvin keeps the Machete. [Keep the Machete for both; move her to a
+    blade-wielding class line.]
+28. **How Cloak works.** The engine built Cloak as hidden from every guard until the crew walks ten cells or leaves the
+    room; the mission 5 script (the Hive) uses Golden Sun's own rule, unseen while standing on dark cells and broken by
+    stepping into light. Recommended: Golden Sun's rule, with each room's dark cells marked in its data, so the Hive
+    plays as written. [Ten cells of walking, as built; until the crew leaves the room.]
