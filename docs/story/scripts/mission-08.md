@@ -246,8 +246,8 @@ that part.
   event, rewritten). Before Wynn, nobody in crew 2 has Mind Read, and Dabney says his line (People and signs).
 
 *Behind Factor Plumb's counting table, a thin young man in a clerk's coat counts coins into stacks, very fast, lips
-moving. At the table's far end Plumb is haggling with a fisher, his back turned. [crew out] Wynn puts two fingers to her temple. [light: a faint
-violet shimmer round Dabney]*
+moving. At the table's far end Plumb is haggling with a fisher, his back turned. [crew out] Wynn puts two fingers
+to her temple. [light: a faint violet shimmer round Dabney]*
 
 **Dabney, thinking:** Seven. Three. Don't think it,
 Dabney. Don't you think it.
@@ -265,8 +265,9 @@ has its number on its bow.
 He's been thinking it all week, poor
 man. It's very loud.
 
-*[crew in] [flag m8_code] Control returns. Hull Nine's bow can be read from the market hull's rail (People and
-signs).*
+*At the relic stall beside the table, two slipping moustaches turn toward the bow, then toward each other. [emote
+the relic sellers: idea] [crew in] [flag m8_code] The relic stall's rows hide (People and signs). Control returns.
+Hull Nine's bow can be read from the market hull's rail.*
 
 ### 5. The sail-bridge
 
@@ -412,9 +413,9 @@ Wynn's hands. [walk Bramble fast → Wynn] [emote Wynn: exclaim]*
 **Bramble:** Thank you SO much, dears. We'd have
 been in that crate all day.
 
-**Burr:** We've been in it all morning. It
-felt like a week. I can't feel my
-legs. Or the oranges.
+**Burr:** We had ourselves delivered. As
+oranges. I can't feel my legs. Or
+the oranges.
 
 **Scratch:** Quiet! The motto. Do the motto!
 
@@ -1363,7 +1364,8 @@ nobody here is seen after scene 15. Positions are places in the re-clipped room.
   **Hettie:** Slept? Good. The masts creak. It's
   how they say good morning.
 
-- **The relic sellers** (the Trio in disguise), at a stall on the market hull, until `m8_bridge`:
+- **The relic sellers** (the Trio in disguise), at a stall on the market hull beside Plumb's table, until `m8_code`
+  (they hear Wynn read the purser, and go to be delivered to Hull Nine as oranges):
 
   **Relic seller:** Genuine Farer relics! Used by the
   Farers themselves! Whoever they
@@ -1375,7 +1377,7 @@ nobody here is seen after scene 15. Positions are places in the re-clipped room.
   **Sign:** Both of them have moustaches. Both
   moustaches are slipping.
 
-- **The "Persian"**, on the relic stall's counter, until `m8_bridge`:
+- **The "Persian"**, on the relic stall's counter, until `m8_code`:
 
   **Sign:** A Meowth in a tiny tricorn hat sits
   on the counter. A card round its
@@ -1386,7 +1388,7 @@ nobody here is seen after scene 15. Positions are places in the re-clipped room.
   **Meowth, thinking:** Don't talk. Persians don't talk.
   Persians are classy. Be classy.
 
-  *From `m8_bridge`, the stall:*
+  *From `m8_code`, the stall:*
 
   **Sign:** The relic stall, empty. A card on
   the counter: BACK SOON. NOT ROBBING
@@ -1646,7 +1648,8 @@ thought that gives the thief away, and a swing that only shows what it's made of
   original's shape (call and answer, two names, the cat's tag line) and not a word of it, and they leave on a gust,
   "We're tumbling off agaaain!", with a twinkle in the sky: the bent catchphrase their last quest, "Blasting Off
   Again... Again", pays off. Even their first heist says "again". Before it, they sell fake Farer relics in slipping
-  moustaches, beside a Meowth with a card that says PERSIAN.
+  moustaches beside Plumb's table, with a Meowth wearing a card that says PERSIAN, overhear the code, and have
+  themselves delivered to Hull Nine as oranges.
 - **The Bounty Board starts** (§9a; decision 11). The Freeport Guild's board with its five hand-written contracts,
   and the order's wanted posters with terrible portraits: Corvin always gets the worst one (§9a's "one Adept always
   gets the worst portrait"), first at the Bazaar's licence desk, then, from scene 16, on every Tidewarden board in the
@@ -1718,7 +1721,7 @@ Things story.md doesn't say, for you to keep or strike:
   think about it. ...Briefly" and "That's not a fire's price. That's a storm's", Maren's "Three Adepts. One short of
   us. For now", "ready for weather".
 - **The narration's last line,** "And neither knew how soon they would need each other", a seed for mission 9.
-- **The Trio's details** (Eggs, above), including their fake Farer relics.
+- **The Trio's details** (Eggs, above), including their fake Farer relics and the delivery as oranges.
 - **The rewards:** the Dawn Stone, 400 coins (the heist purse), the contracts' 390 coins, the Turtle Boots (items
   §13's artifact list) and the fights' purses.
 
