@@ -11,27 +11,28 @@ with the builds. Pick "Approve", "Approve with my notes" (write them in the note
 
 Recommended first. The alternatives are in brackets.
 
-1. **The LPC cast and townsfolk** (engine PR #61): the 8 Adepts and 20 townsfolk looks, shown standing in Stonehollow,
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
+1. **Decided (18 Oct):** **The LPC cast and townsfolk** (engine PR #61): the 8 Adepts and 20 townsfolk looks, shown standing in Stonehollow,
    Canalport and the Bazaar at the planned 480×320 look, with the critic's fixes applied: Corvin's shirt blue-grey so he
    no longer vanishes on sand, Tamsin's headband gold, a map-case strap for Wynn, Sorrel's green apart from Rowan's,
    Nerissa's top white, and no villager wearing an Adept's colours. Recommended: approve them, and wire them into
    every room with the 480×320 switch (art part B). [Approve with my notes; redo the looks I name.]
-2. **The five scripted poses.** Push and sprawled read well; nod and shake head don't yet (LPC has neither), and hammer
+2. **Decided (18 Oct):** **The five scripted poses.** Push and sprawled read well; nod and shake head don't yet (LPC has neither), and hammer
    swings an empty hand. Recommended: before any scene uses them, nod becomes two quick head dips, shake head a
    left-right turn of the head, and hammer uses the library's real hammer swing. [Approve the poses as they are; draw
    our own five poses.]
-3. **A soft shadow under every person.** The critic tried a faint ellipse under each person's feet: it grounds the
+3. **Decided (18 Oct):** **A soft shadow under every person.** The critic tried a faint ellipse under each person's feet: it grounds the
    finer LPC people on Golden Sun's coarser floors, most on sand and pale decks. Recommended: yes, in the field, for
    people and Pokémon alike. [No shadow; shadows on pale floors only.]
-4. **The UI art** (engine PR #63): Kenney Pixel 16 for dialogue and Mini 8 for menus (its lower case is partly small
+4. **Decided (18 Oct):** **The UI art** (engine PR #63): Kenney Pixel 16 for dialogue and Mini 8 for menus (its lower case is partly small
    capitals, a quirk you get used to), the navy window frame, the item icons, and the button prompts. Recommended:
    approve them, with icons shown at full size in the item detail box rather than squeezed into menu rows. [Approve
    with my notes; look for another font.]
-5. **Battle backgrounds by night.** The 12 day scenes are lovely; some night versions are murky (the desert night is
+5. **Decided (18 Oct):** **Battle backgrounds by night.** The 12 day scenes are lovely; some night versions are murky (the desert night is
    almost flat teal, the meadow and snowfield nights are dim), and the arena's red sky is loud. Recommended: use a
    night background only where a room really is at night (the clock decides), brighten the murky ones a little, and
    keep the arena for a special fight. [Every outdoor room switches at night as they are; day scenes only.]
-6. **The Tab and Enter button prompts.** Kenney's pixel prompt pack has no one-key Tab or Enter: Tab is two tiles wide
+6. **Decided (18 Oct):** **The Tab and Enter button prompts.** Kenney's pixel prompt pack has no one-key Tab or Enter: Tab is two tiles wide
    and Enter an L-shaped key two rows tall, and shrinking them breaks their borders and letters. They only matter for
    a keyboard. Recommended: draw our own one-key Tab and Enter in the pack's style when the prompts are wired in.
    [Show them at their own size; drop keyboard prompts and show the pad's only.]

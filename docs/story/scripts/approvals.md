@@ -5,41 +5,42 @@
 Demo decision 1 (yours, 18 Oct): the engine side writes every mission's full script in story.md's tone and posts it
 here for your yes or notes before it is built. Each card below is one script page in this folder; read it on GitHub
 (the links are in each card), then pick "Approve as written", "Approve with my notes" (write the notes in the card's
-note box) or "Rewrite it". Missions 3 to 8 are added (18-19 Oct); missions 9 and 10 follow, faster once you've judged the voice on these. The format, the tokens and the line budget are in [README.md](README.md).
+note box) or "Rewrite it". Missions 3 to 10 are added (18-19 Oct). Missions 9 and 10 are drafts: their editor's pass follows. The format, the tokens and the line budget are in [README.md](README.md).
 
 ## 2. Decisions for you
 
 Recommended first. The alternatives are in brackets.
 
-1. **The opening** (opening.md, 6 pages over 6 painted stills: the six Wells, the sealing, the Tidewardens and their
+Answered on the decision page: accepted items are marked **Decided** with the date, the rest **To talk over**.
+1. **Decided (18 Oct):** **The opening** (opening.md, 6 pages over 6 painted stills: the six Wells, the sealing, the Tidewardens and their
    tithe, the falling rim, Marrow Isle's keepers, Keeping Night and an unlit skiff coming home). Read it at
    https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/opening.md. Recommended:
    approve it as written; the stills are drawn in slice 8. [Approve with my notes; rewrite it.]
-2. **Mission 1, The Keeping Night** (mission-01.md, 180 pages). The hero wakes in Brann's cottage on festival night;
+2. **Decided (18 Oct):** **Mission 1, The Keeping Night** (mission-01.md, 180 pages). The hero wakes in Brann's cottage on festival night;
    Brann gives the first partner, five Poké Balls and the Lodestar; the quake; three Move puzzles and an optional dig
    in the Vault; Corvin unmasks at the inner door, fights, stirs "the Sleeper" and escapes down the river; at dawn
    Ilse makes the hero her deputy. Two reply beats, a quiet version of every hero line, Gary Rivalson and the blue
    puddle. Read it at https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-01.md.
    Recommended: approve it as written. [Approve with my notes; rewrite it.]
-3. **Mission 2, Corvin's road home** (mission-02.md, 147 pages). The sea caves with Ilse's marines searching the wrong
+3. **Decided (18 Oct):** **Mission 2, Corvin's road home** (mission-02.md, 147 pages). The sea caves with Ilse's marines searching the wrong
    caves and three puzzles; Ketch's skiff through the Galeway; Fallhaven and Sael's reunion; a street falling into the
    Rimfalls; the new cliff road (a boulder, Wenna dug out of her cellar, Pip caught at the edge); Hask's offer and
    Corvin's refusal; Sael sends him to Embral. Read it at
    https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-02.md. Recommended:
    approve it as written. [Approve with my notes; rewrite it.]
-4. **New canon in these scripts.** What the scripts invent where story.md is silent, listed at the end of each page:
+4. **Decided (18 Oct):** **New canon in these scripts.** What the scripts invent where story.md is silent, listed at the end of each page:
    Keeping Night's customs and the Keeping Stone's words ("What was sealed, we keep. What we keep, keeps us."),
    Stonehollow's and Fallhaven's townsfolk by name, the fishing boat Tern lost with Corvin's family, the Keeping Night
    mask Brann carved for Corvin as a boy, Ketch the Rimborn skiff pilot, Old Jory's skiff-song as a seed for the
    Wayfarer, the lost town of Saltcombe, Hask's Gible and his "noose with six knots", and Pip's fall as Golden Sun's
    nod. Recommended: accept them all into the canon, with story.md updated to match. [Accept with my notes; strike
    the ones I name.]
-5. **What the scripts need built** (each page's "Changes to the build"). A new `hero_house` room where a new game
+5. **Decided (18 Oct):** **What the scripts need built** (each page's "Changes to the build"). A new `hero_house` room where a new game
    starts at dusk, the Vault re-clipped larger, a new Fallhaven cliff road room, new scene steps (set the clock,
    light, camera pans, poses, reply menus), text that changes with flags, a {LEADER} token so chest lines name whoever
    leads, a free inn in mission 2, and the hatchery as a scene. Recommended: build them in demo slice 9, the story
    pass, as listed. [Build only the words and steps, keeping today's rooms until the playtest.]
-6. **Mission 3, Highwater** (mission-03.md, 185 pages). Ilse posts Maren, a by-the-book Tidewarden medic and Sea
+6. **Decided (18 Oct):** **Mission 3, Highwater** (mission-03.md, 185 pages). Ilse posts Maren, a by-the-book Tidewarden medic and Sea
    Adept, to the hero, lends them the Kestrel and sails south with the tithe fleet. In Canalport Maren's Frost plugs
    the dike, Harbourmaster Quayle gives a Marill and with it Surf, and the crew swims the drowned lower town: a swing
    bridge, Barnaby the bargeman, three Frost pillars across the Long Weir and an optional dig. The sluice beast isn't
@@ -47,7 +48,7 @@ Recommended first. The alternatives are in brackets.
    on the jetty Maren asks whether the hero can bring Corvin in. Eggs: Captain Maize and the push-the-truck rumour.
    Read it at https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-03.md.
    Recommended: approve it as written. [Approve with my notes; rewrite it.]
-7. **Mission 4, The Forgeheart** (mission-04.md, 198 pages). Corvin reaches Embral; Abbot Haldor refuses him, but the
+7. **Decided (18 Oct):** **Mission 4, The Forgeheart** (mission-04.md, 198 pages). Corvin reaches Embral; Abbot Haldor refuses him, but the
    Open Door lets anyone who passes three trials ask one thing: the stone (Move), the ash heaps (Scoop) and the fist,
    a fight with Tamsin, who rates everything out of ten and names him "Landslide". She holds the abbot to his word,
    joins, admits the tithe braziers have quadrupled, lights the Well's braziers with Blaze and pulls the seal with
@@ -56,14 +57,14 @@ Recommended first. The alternatives are in brackets.
    (a much-loved Bidoof) and is sent away; Ilse's letter names the Forest seal next. Read it at
    https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-04.md. Recommended:
    approve it as written. [Approve with my notes; rewrite it.]
-8. **New canon in missions 3 and 4.** Letters by Wingull; Ilse's flagship the Holdfast; Canalport as the City of a
+8. **Decided (18 Oct):** **New canon in missions 3 and 4.** Letters by Wingull; Ilse's flagship the Holdfast; Canalport as the City of a
    Hundred Bridges and its people (Quayle, Barnaby and Lettie, Effie, Odile, Mother Brindle); Maize's sloop the Merry
    Wooloo; Maren's weekly reports flown west, a quiet seed for mission 9; the Forgeheart's Open Door and its three
    trials, Abbot Haldor and the brothers and sisters; the fire tithe of braziers (forty this year, ten in Tamsin's
    novice days); the carved Summon panels with a blank fourth ("the firebird keeps the fourth"), the in-world reason
    the top Flame Summon waits; the Elder. Recommended: accept them into the canon, with story.md updated to match.
    [Accept with my notes; strike the ones I name.]
-9. **Mission 5, The Eldergrove** (mission-05.md, 230 pages; either order with mission 6). Following Ilse's letter,
+9. **Decided (18 Oct):** **Mission 5, The Eldergrove** (mission-05.md, 230 pages; either order with mission 6). Following Ilse's letter,
    the Kestrel brings the crew to the Greenwild. The great tree has dropped green leaves since spring, a green light
    burns in its heart at night, and Elder Hollin blames Sorrel, the one person who goes near it. Prickly and kinder
    to plants than people, Sorrel says the tree isn't cursed but hungry, 'something is drinking it from underneath',
@@ -79,7 +80,7 @@ Recommended first. The alternatives are in brackets.
    queen's mind, and with it Hazel's two absorbed sons and a chest. Read it at
    https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-05.md. Recommended:
    approve it as written. [Approve with my notes; rewrite it.]
-10. **Mission 6, Lantern Reef** (mission-06.md, 168 pages; either order with mission 5). On Canalport's beach Vesper,
+10. **Decided (18 Oct):** **Mission 6, Lantern Reef** (mission-06.md, 168 pages; either order with mission 5). On Canalport's beach Vesper,
    a deadpan fog pilot, offers a lead: a Rimborn skiff went into Lantern Reef running dark and came out lighter. She
    takes the crew in for fifty coins (or the whole purse and 'a very good tab') and joins with Gastly. By day the
    reef's fog stands like a wall; the Kestrel's bunk sleeps until night. At dusk old Marrit lights her lanterns for
@@ -95,7 +96,7 @@ Recommended first. The alternatives are in brackets.
    versions. Read it at
    https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-06.md. Recommended:
    approve it as written. [Approve with my notes; rewrite it.]
-11. **New canon in missions 5 and 6.** In the Greenwild: 'Kin' as its own word for Pokémon; the Eldergrove village
+11. **Decided (18 Oct):** **New canon in missions 5 and 6.** In the Greenwild: 'Kin' as its own word for Pokémon; the Eldergrove village
     with its Kin-stone, the Mossbed, Fennel's ball-free apothecary, the harvest tithe of seed and sap, and the sick
     groves burned on the Elder's word; the people (Elder Hollin, Brack, Rue, Sedge, Clover, Mother Hazel and her sons
     Linn and Osric); the tree's sickness since spring, read by Sorrel as hunger from below; Sorrel's GO AWAY hut and
@@ -111,7 +112,7 @@ Recommended first. The alternatives are in brackets.
     fifty-year song and lost violin; Mimikyu's three hiding places; and the night holding while the crew is on the
     reef. Recommended: accept them into the canon, with story.md updated to match. [Accept with my notes; strike the
     ones I name.]
-12. **Mission 7, Bastion Rock** (mission-07.md, 221 pages). The first Crew 2 interlude. It starts the next time Crew
+12. **Decided (19 Oct):** **Mission 7, Bastion Rock** (mission-07.md, 221 pages). The first Crew 2 interlude. It starts the next time Crew
     1 rests at an inn or a sanctum after its first recruitment, and hands back where Crew 1 slept. By night Ketch
     lands Corvin and Tamsin under the order's sea fortress in the west Calm, where a Pearlhollow diver is held for
     knowing the way to Silverdeep. Tamsin lights the cold beacon so the wall sentry stares out to sea, and Corvin
@@ -128,7 +129,7 @@ Recommended first. The alternatives are in brackets.
     egg). Read it at
     https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-07.md. Recommended:
     approve it as written. [Approve with my notes; rewrite it.]
-13. **Mission 8, The Tradewind Bazaar** (mission-08.md, 304 pages: 175 in the story, 64 in optional contracts). The
+13. **Decided (19 Oct):** **Mission 8, The Tradewind Bazaar** (mission-08.md, 304 pages: 175 in the story, 64 in optional contracts). The
     second Crew 2 interlude. It starts at Crew 1's next rest after its second recruitment, once mission 7 is done.
     Ketch brings Corvin, Tamsin and Nerissa through the Galeway to a hundred ships lashed into one market, looking
     for a chart with the Crown on it. The only one is Wynn's. She is a chatty cartographer who is scared of heights,
@@ -147,7 +148,7 @@ Recommended first. The alternatives are in brackets.
     story.md's mission 8 eggs are in. Read it at
     https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-08.md. Recommended:
     approve it as written. [Approve with my notes; rewrite it.]
-14. **New canon in missions 7 and 8.** The full lists are at the end of each page. At Bastion Rock: - Pearlhollow's
+14. **Decided (19 Oct):** **New canon in missions 7 and 8.** The full lists are at the end of each page. At Bastion Rock: - Pearlhollow's
     divers come and go under the Galeway. Nerissa refused Hask at Coralreach this spring, and the order took her on a
     Calm quay for 'knowledge of restricted waters'. - The fortress: the strand, the beacon and the sea-gate; the
     cells, records office and registry pen; the sea caves and their boom of tar barrels. - Its people: Sergeant
@@ -163,3 +164,32 @@ Recommended first. The alternatives are in brackets.
     delivered as oranges. - The poster bounties (Corvin 5,000, Tamsin 1,200, the diver 800, the cartographer 300) and
     their portraits.  Recommended: accept them into the canon, with story.md updated to match. [Accept with my notes;
     strike the ones I name.]
+15. **Mission 9, The Fall of Fallhaven** (mission-09.md, 281 pages; a draft, the editor's pass follows). Ketch
+    knocks at night with Corvin's "Tell {HERO} I'm asking" and leads the Kestrel through the Galeway's storm lanes.
+    Crew 1 comes down the cliff road into the falling lower town and frees Tanner, Ossian and Pip; Crew 2 reads the
+    archivist with Mind Read, lights the east wing with Blaze and rides Old Jory's lift as he sings the skiff-song;
+    relay stones switch between the crews. Sael bars the great doors while both crews read the Ledger in the order's
+    own hand (the rim is the price; Saltcombe and Fallhaven "to pay"); her death is the illustrated still ("Doors
+    hold. It's what they're for"; "Take a coat"). The cliff road falls behind them; at the top Maren confesses and
+    names Lord Warden Vey; Ilse turns her fleet: "To Marrow Isle." Read it at https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/story-scripts-5/docs/story/scripts/mission-09.md. Recommended:
+    approve it as written. [Approve with my notes; rewrite it.]
+16. **Mission 10, The Two-Earth Door and the demo's end** (mission-10.md, 353 pages; a draft, the editor's pass
+    follows). Corvin's crew climbs out of Ketch's nets at Stonehollow; Brann cuts Sael, Fallhaven and Saltcombe into
+    the memorial stone. The hero's Move and Corvin's hand open the inner door; through the sea cave the Wayfarer wakes
+    on the Flame Well, the Lodestar stirs in its cradle, and the Farer's Log writes itself from both crews' records
+    ("We will come back when it is complete"). The muster roll merges the bags and opens swapping and trading; supper
+    with a toast to Sael; one talk per Adept in the quarters, each seeding a heart quest. Eggs: Cidrick's yard and the
+    Kestrel's burning send-off with Ketch's funeral song for Sael. At the helm the maiden voyage plays the end card,
+    the credits and the save prompt, then free play. Read it at https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/story-scripts-5/docs/story/scripts/mission-10.md. Recommended: approve it as
+    written. [Approve with my notes; rewrite it.]
+17. **New canon in missions 9 and 10.** The Ledger of the Crown's text (the seals draw each Well into the Crown; the
+    great ones "do not wake, they thin"; the rim is the cost, "a street a year"; towns paid and to pay; a last warden's
+    "hold a while... Forgive us"); the archive as the order's old Rimward station; Gannet the archivist; relay stones
+    as Rimborn lamp-stones; Sael's coat, which Corvin wears from then on; Maren's notebook of copied reports; Lord
+    Warden Aurelian Vey named in Act I; Ilse's "Written and witnessed"; Cidrick's yard; the Log's "We will come back
+    when it is complete". Recommended: accept them into the canon, with story.md updated to match. [Accept with my
+    notes; strike the ones I name.]
+18. **The Kestrel's fate.** The mission 9 draft cracks the Kestrel's keel in the Galeway storm, so mission 10's egg can
+    give her a burning send-off with Ketch's funeral song finished for Sael ("It rhymed and everything"), and the
+    Wayfarer replaces her. Recommended: keep it: the old ship goes out with honours as the new one wakes. [The Kestrel
+    survives and moors beside the Wayfarer, and the funeral is Sael's alone.]

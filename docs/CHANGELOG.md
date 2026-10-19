@@ -5,6 +5,23 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **Decided (you, 19 Oct), all as recommended:** the 28 open questions (among them: the Forest and Shadow Summon
+  names Dryad, Silvanus, Cernunnos and Nyx, Erebus, Hecate; the cast's ages written into story.md; Gible in
+  Dustplain; the seven backup items' names kept; the Log's entries written with each mission's script; the other
+  starters after the demo; ordinary forms beside Weyard forms; legendaries' catch rate rising to 45 once calmed;
+  finds joining at the area's level; Teleport at mission 19; the six group class lines through the demo; the
+  partner numbers kept and retuned in slice 10; the proposed battle, gear and catch rules confirmed; catch-up at
+  the join-level floor; no Z-Moves or Dynamax; 600 steps a clock phase; no random battles in the Vault's upper
+  halls; four Forest and Shadow pieces of gear; 1x inside and 2x on the cover with a Large text row; a go-ahead
+  for the LPC tileset download when the redraw starts; Weyard Mimikyu's Djinn costume; the Adepts and adult
+  townsfolk in adult content, never Brann; the video converter when adult mode starts; the sprite strip held;
+  for-the-story-chat.md renamed; **Tamsin joins with a mace**; **Cloak works by Golden Sun's rule**, unseen on
+  dark cells). **Scripts approved:** the opening and missions 1 to 8 with their new canon and build changes.
+  **Art approved:** the LPC cast and townsfolk, the poses plan, the foot shadow, the UI art, night backdrops only
+  where it is night, our own Tab and Enter prompts.
+- **New for your yes:** the drafts of missions 9 and 10 (design PR #78), their new canon and the Kestrel's fate
+  (Scripts 15-18), and open questions 29-31 (Espeon and Umbreon, the cost of turning back after a lost story
+  fight, friendship levels for five species).
 - **The Fold's real screens, measured on your phone (demo decision 22):** the cover screen is 2520×1080 and the inner
   screen 2184×1968 (1080×2520 and 1968×2184 held upright), both at about 120 frames a second. They match the sizes the
   plan assumed, so the 480×320 picture draws at 3× on the cover (a 746×320 view, thin bars) and 4× inside (480×432).
