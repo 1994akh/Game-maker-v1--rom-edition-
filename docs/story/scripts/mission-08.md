@@ -9,8 +9,8 @@
 | Mission | 8, The Tradewind Bazaar (Act I; the second Crew 2 interlude) |
 | Plays after | Crew 1's second recruitment and mission 7: Crew 1's next rest at an inn or a sanctum once `m5_done`, `m6_done` and `m7_done` are all set (demo decision 7; story.md §14 Q1) |
 | Crew | Corvin (at his L9 floor, progression 1) and Larvitar, Tamsin and Riolu, Nerissa and Froakie, with crew 2's own bag (the Linking Cord in it); Wynn (L9) and Ralts join in scene 3 |
-| Rooms | Wherever Crew 1 rests (the handover and the hand-back); `tradewind_bazaar` (re-clipped larger: the Guild hull, the market hull, Hull Nine, the licence hull, the grain hull, the rope hull, the fish hull, the bell hull, Hull Two's old hold and the lanes of water between them). The Bazaar's other hulls stay narration and painted backdrop (decision 5) |
-| Clock | The rest sets dawn for Crew 1; the handover sets dawn at the Bazaar, and the clock runs as the crew walks; dusk as the skiff leaves; Crew 1 wakes at dawn |
+| Rooms | Wherever Crew 1 rests (the handover and the hand-back); `tradewind_bazaar` (re-clipped larger: three hulls, the ones a beat happens in: the Guild hull with its old hold, the market hull and Hull Nine, and the lanes of water between them). The Bazaar's other hulls stay narration and painted backdrop (decision 5) |
+| Clock | The rest sets dawn for Crew 1; the handover sets dawn at the Bazaar, and the clock runs as the crew walks (nothing at the Bazaar depends on the phase); dusk as the skiff leaves; Crew 1 wakes at dawn |
 | Flags in | `m5_done`, `m6_done`, `m7_done` |
 | Flags out | `m8_started`, `m8_intro`, `m8_wynn`, `m8_code`, `m8_bridge`, `m8_heights`, `m8_crates`, `m8_heist`, `m8_trio`, `m8_back`, `m8_cleared`, `m8_guild`, `m8_chart`, `m8_done`, `m8_posters`; the contracts: `m8_c_bilge`, `m8_box`, `m8_c_overboard`, `m8_c_ice`, `m8_hold_lamp`, `m8_hold_crate`, `m8_c_hold`, `m8_tibbs_read`, `m8_bell_rope`, `m8_c_bell`; and the optional Mind Read flags, `m8_plumb_read`, `m8_clerk_read`, `m8_scratch_read`, `m8_rook_read`, `m8_aipom_read` |
 | Unlocks | Wynn (Sky, with Ralts) joins, and with her Whirlwind and Mind Read; the Dawn Stone in crew 2's bag (story decision 5); crew 2's Freeport Guild rank, Bronze, and five hand-written contracts on the Bazaar's board (decision 11, step 1); the wanted posters on Tidewarden notice boards (decision 11; §9a's Bounty Board). Both crews are full |
@@ -24,12 +24,12 @@ an "impossible" chart that Factor Plumb holds in his strongbox as surety for a d
 he has added a nought. If Wynn can't pay by the turn of the tide, the Bazaar's oldest law lets him take her Ralts in
 kind. She joins on the promise of a heist. Mind Read gets the strongbox's numbers out of Plumb's purser; Whirlwind
 swings a sail across the gap to his hull; Move clears his collateral; the dial opens the box on the real note, the
-chart and Wynn's Dawn Stone. A crate labelled ORANGES turns out to hold the Tumbleweed Trio, who want the "treasure
+chart and Wynn's Dawn Stone; the note shows the nought added in a different ink. A crate labelled ORANGES turns out to hold the Tumbleweed Trio, who want the "treasure
 map". Beaten, they are blown away on Wynn's wind. At the Guild, Guildmistress Tally weighs the two notes, clears
 Wynn's name, fines Plumb his nought and the crew one coin, and opens the board to them. Wynn's chart shows six
 threads of light running under the world to a ring beneath the Pinnacle, "the Crown", and a tower above the clouds
-where sky-ships moored; Corvin lays the ledger page on it. The crew sails for Fallhaven at dusk, and Crew 1 wakes to
-a runner with four wanted posters.
+where sky-ships moored; Corvin lays the ledger page on it. The crew sails east for Fallhaven at dusk, and Crew 1
+wakes to a runner with three wanted posters.
 
 ## Scenes
 
@@ -154,8 +154,8 @@ chart-hall laughed so hard he had to
 sit down. So I couldn't pay.
 
 So Plumb took the chart as surety.
-Fine. Fair. Then the note came back
-from his strongbox to the Guild...
+Fine. Fair. Then he filed his copy
+of the note with the Guild...
 
 ...and it says two thousand. He
 added a nought. Noughts are very
@@ -173,9 +173,7 @@ tide, he takes it in kind.
 
 **Nerissa:** In kind. Your Ralts.
 
-**Wynn:** A Pokémon can settle a debt, on the
-Bazaar. It's the oldest law on the
-water. I hate it.
+**Wynn:** My Ralts. For a nought.
 
 **Corvin:** And the real note? The one that
 says two hundred?
@@ -296,14 +294,14 @@ with a thump. The sail hangs flat and taut beneath it. [gate: the bridge's cells
   `m8_bridge`, unless `m8_heights`.
 
 *[crew out] Wynn stops at the foot of the spar. Below it, between the two hulls, the green water of the lane slops
-about, a long way down.*
+about.*
 
 **Wynn:** I'm fine. I'm fine. I'm just not
 looking down. Why is there so much
 down?
 
-**Tamsin:** It's three masts high. You've been
-higher.
+**Tamsin:** It's a plank over a puddle. You've
+been higher.
 
 **Wynn:** I fell out of the sky once. Once
 was plenty. Once was a whole life's
@@ -566,9 +564,9 @@ loud, I said...
 **Tally:** The Guild doesn't care who you are.
 The Guild cares what you owe.
 
-Wynn owes two hundred. She'll pay
-it. Factor, you owe the Guild for
-every nought you added.
+Wynn owes two hundred. Factor, you
+owe the Guild for every nought you
+added.
 
 That's eighteen hundred coins. The
 Guild keeps twelve hundred for its
@@ -653,8 +651,8 @@ window, very high, up in the
 clouds.
 
 She pointed down at the world and
-said, those are the Wells, running
-home under the mountain.
+said, see the lights? They all run
+in, under the mountain.
 
 And that's the Crown. Don't you ever
 fall on it.
@@ -695,9 +693,9 @@ You believe it? Nobody believes it.
 
 1. "I believe it."
 
-   **Wynn:** Oh. Oh, good. I had a speech for
-   this. Six years of speech. I don't
-   need it.
+   **Wynn:** Oh. Oh, good. Nobody's ever said
+   that. I don't know what to do with
+   my hands.
 
 2. "It's hard to believe."
 
@@ -741,14 +739,15 @@ talking to Ketch at the landing sails.*
 - Room: `tradewind_bazaar`, the Guild hull's landing. Trigger: talking to Ketch, once `m8_chart`. Before then, his
   line (People and signs).
 
-**Ketch:** Fallhaven? Two days, if the
-Galeway's in a good mood. It never
-is.
+**Ketch:** Fallhaven? East, to the rim. A
+day and a night, if the wind's
+kind. It never is.
 
 *With any contract not done (any of `m8_c_bilge`, `m8_c_overboard`, `m8_c_ice`, `m8_c_hold`, `m8_c_bell` unset):*
 
-**Ketch:** There's still work on that board.
-Coin, too. Sail anyway?
+**Ketch:** There's still work on that board,
+and coin. We won't be back this way
+for a long while. Sail anyway?
 
 *Otherwise:*
 
@@ -760,16 +759,16 @@ Coin, too. Sail anyway?
 
 *Yes: scene 15.*
 
-### 15. West through the Galeway
+### 15. East to the rim
 
 - Room: `tradewind_bazaar`, the landing. Trigger: yes to Ketch.
 
 *[phase dusk] The Bazaar's lanterns come on, hull by hull, as the skiff pulls away from the landing. [hide the crew]
 [fade out 40]*
 
-**Narration:** Ketch ran the skiff west out of
-Eastwater at dusk, into the storm
-lanes of the Galeway.
+**Narration:** Ketch ran the skiff east from
+the Bazaar at dusk, out toward the
+rim and Fallhaven.
 
 *Over black:*
 
@@ -793,8 +792,8 @@ away, and it always swings back.
 
 **Wynn:** Sorry. You think very loudly.
 
-**Tamsin:** He does. Ten out of ten. You can
-hear it from the bow.
+**Tamsin:** He does. You can hear it from
+the bow.
 
 **Narration:** Both crews were full now: four
 Adepts each, on either side of the
@@ -845,17 +844,16 @@ Rock.
 
 **Sorrel:** That's a potato with a grudge.
 
-**Vesper:** Five thousand. I'd turn him in for
-five thousand.
+**Vesper:** Five thousand. For that, I'd
+think about it.
 
 *[wait 20]*
 
-**Vesper:** I wouldn't. But I'd think about it
-for a while.
+**Vesper:** Briefly.
 
-**Pell:** There are four, Deputy. The
-Bazaar's licence post sent the last
-one by Wingull.
+**Pell:** There are three, Deputy. The
+seal-breaker's crew, as far as the
+order knows it.
 
 *She unrolls the rest, one after another.*
 
@@ -867,19 +865,14 @@ For arson, assault and insolence.
 Escaped prisoner of the order.
 800 COINS.
 
-**Poster:** WANTED. A CARTOGRAPHER, NAME
-UNKNOWN. An accomplice.
-300 COINS.
-
-**Maren:** A monk, a diver and a map-maker.
-The portraits get worse as they go.
-
-The diver is a fish. The map-maker
-is a map case with legs.
+**Maren:** A monk and a diver. The portraits
+get worse as they go. The diver is
+a fish.
 
 **Sorrel:** The monk's quite good, actually.
 
-**Maren:** Four Adepts. Like us.
+**Maren:** Three Adepts. One short of us.
+For now.
 
 *[emote Maren: silence]*
 
@@ -889,15 +882,15 @@ Thank you for listening.
 
 *[walk Pell fast → off] [hide Pell]*
 
-**Vesper:** Five thousand coins, and a
-map-maker. Your friend's up to
-something big, deputy.
+**Vesper:** Five thousand. That's not a
+fire's price. That's a storm's.
 
-**Maren:** Then so are we. Whatever it is,
-it's coming our way.
+**Maren:** Then we'd better be ready for
+weather.
 
-*[crew in] [flag m8_posters] Control returns. From here every Tidewarden notice board in the Calm carries the four
-posters (People and signs).*
+*[crew in] [flag m8_posters] Control returns. From here every Tidewarden notice board in the Calm carries the three
+posters (People and signs). The cartographer's poster is the Bazaar's own, drawn that afternoon; it hasn't crossed
+the Galeway yet.*
 
 ## The Freeport Guild's contracts (decision 11)
 
@@ -927,13 +920,13 @@ the skiff leaves (scene 15): Ketch warns before sailing, and the contracts stay 
 big is eating the Guild's grain. It
 wears a bucket. Reward: 150 coins.
 
-Ask Mother Bunce, on the grain hull.
+Ask Mother Bunce, at the grain hold.
 
-- **Mother Bunce** (new), on the grain hull by the open hold. Before `m8_guild`:
+- **Mother Bunce** (new), on the market hull, by its open grain hold. Before `m8_guild`:
 
-  **Bunce:** Grain! Good Dustplain grain! Mind
-  the hold, mind. Something lives in
-  the hold.
+  **Bunce:** Grain! Good dry grain! Mind the
+  hold, mind. Something lives in the
+  hold.
 
   *From `m8_guild`, until `m8_c_bilge`:*
 
@@ -950,7 +943,7 @@ Ask Mother Bunce, on the grain hull.
   **Bunce:** Not a whisker in the hold. I sleep
   at night again. I'd forgotten how.
 
-- **The Bilge King** (new), on the grain heap in the open hold, until `m8_c_bilge`:
+- **The Bilge King** (new), on the grain heap in the market hull's open hold, until `m8_c_bilge`:
 
   **Sign:** A rat the size of a pig, sitting on
   the Guild's grain with a bucket on
@@ -980,9 +973,9 @@ Ask Mother Bunce, on the grain hull.
 went over the rail into the lane.
 It floats. I don't. Reward: 80.
 
-Pim, chandler. The rope hull.
+Pim, chandler. The market hull.
 
-- **Pim** (new), at his chandlery on the rope hull. Before `m8_guild`:
+- **Pim** (new), at his chandlery stall on the market hull. Before `m8_guild`:
 
   **Pim:** Rope, tar, nails, lamp oil.
   Everything a hull needs to go on
@@ -1012,7 +1005,7 @@ Pim, chandler. The rope hull.
   **Pim:** Rope, tar, nails. And a new lock on
   my cashbox, on a longer chain.
 
-- **The barrel** (new), bobbing in the lane east of the rope hull, reached on Froakie, until `m8_box`:
+- **The barrel** (new), bobbing in the lane off the Guild hull's landing, reached on Froakie, until `m8_box`:
 
   **Sign:** A barrel bobbing in the lane, a
   cashbox wedged in its mouth.
@@ -1028,9 +1021,9 @@ Pim, chandler. The rope hull.
 house is melting. Fish wait for
 nobody. Reward: 60, and a fish.
 
-Gudrun, the fish hull. Hurry.
+Gudrun, the fish stall. Hurry.
 
-- **Gudrun** (new), on the fish hull. Before `m8_guild`:
+- **Gudrun** (new), at her fish stall on the market hull. Before `m8_guild`:
 
   **Gudrun:** Fish! Fresh fish! Fresh-ish fish!
   The ice is going, and so are the
@@ -1050,7 +1043,7 @@ Gudrun, the fish hull. Hurry.
   **Gudrun:** Fish! Frozen fish! Corvin's still in
   there. He's doing very well.
 
-- **The ice tub** (new), on the fish hull. Until `m8_c_ice`:
+- **The ice tub** (new), beside Gudrun's stall. Until `m8_c_ice`:
 
   **Sign:** The ice house: a great tub of
   meltwater, full of fish. They look
@@ -1079,16 +1072,16 @@ Gudrun, the fish hull. Hurry.
   **Sign:** A tub of solid ice. A fish in it
   looks out at you with your jaw.
 
-### G4. Hull Two's old hold (Cache: Blaze, Move, Scoop)
+### G4. The Guild's old hold (Cache: Blaze, Move, Scoop)
 
-**Notice:** CACHE. HULL TWO'S OLD HOLD. Shut
-since old Guildmaster Penhallow's
+**Notice:** CACHE. THE GUILD HULL'S OLD HOLD.
+Shut since Guildmaster Penhallow's
 day. Nobody's been down since.
 
 Whoever can get in keeps what's
 inside. By the Guild's leave. T.
 
-- **The hatch**, on Hull Two's deck. Before `m8_guild`:
+- **The hatch**, on the Guild hull's deck behind Tally's desk. Before `m8_guild`:
 
   **Sign:** A hatch, nailed shut. Painted on
   it: GUILD PROPERTY. NOT YOURS.
@@ -1135,10 +1128,11 @@ inside. By the Guild's leave. T.
 Guild's bell can't ring. Nobody
 knows when lunch is. Reward: 100.
 
-Absalom, the bell hull. Ask anyone.
+Absalom, at the bell. Ask anyone.
 Nobody will admit anything.
 
-- **Absalom** (new), the bell-ringer, on the bell hull under a bell with no rope. Before `m8_guild`:
+- **Absalom** (new), the bell-ringer, on the Guild hull under the Guild's bell, which has no rope. Before
+  `m8_guild`:
 
   **Absalom:** I ring the Guild's bell. Every
   hour, on the hour. Well. I used to.
@@ -1175,10 +1169,10 @@ Nobody will admit anything.
   *From `m8_c_bell`:*
 
   **Absalom:** On the hour, every hour. And a
-  swing on the grain hull. Everybody's
+  swing for the Aipom. Everybody's
   happy.
 
-- **Rook** (new), a sailmaker, stitching on the bell hull:
+- **Rook** (new), a sailmaker, stitching by the Guild's bell:
 
   **Rook:** I sew sails. I don't steal rope.
   I've got all the rope I need.
@@ -1189,7 +1183,7 @@ Nobody will admit anything.
   **Rook, thinking:** Rope. I could use some rope. I
   didn't take it. But I could use it.
 
-- **Tibbs** (new), a deck-boy, by the grain hull's mast:
+- **Tibbs** (new), a deck-boy, by the market hull's mainmast:
 
   **Tibbs:** I never! I never anything!
 
@@ -1206,7 +1200,7 @@ Nobody will admit anything.
   the swing! I didn't even have to
   steal it!
 
-- **The Aipom**, on the bell hull's rail:
+- **The Aipom**, on the Guild hull's rail under the bell:
 
   **Sign:** An Aipom, hanging from the rail by
   its tail, swinging hopefully.
@@ -1216,7 +1210,7 @@ Nobody will admit anything.
   **Aipom, thinking:** Swing! Swing! Swing! Swing!
   Swing! Swing!
 
-- **The swing**, from the grain hull's yard. Until `m8_tibbs_read`:
+- **The swing**, from the market hull's yard. Until `m8_tibbs_read`:
 
   **Sign:** A rope swing, hung from a yard. A
   very good rope.
@@ -1355,8 +1349,8 @@ nobody here is seen after scene 15. Positions are places in the re-clipped room.
 
   **Ossery:** Bring me something strange.
 
-- **Hettie** (new), the innkeeper, at The Hammock, an inn hull (the inn role, at Eastwater's price on Golden Sun's
-  inn ladder). Before the rest menu:
+- **Hettie** (new), the innkeeper, at The Hammock: hammocks strung between the Guild hull's masts (the inn role, at
+  Eastwater's price on Golden Sun's inn ladder). Before the rest menu:
 
   **Hettie:** The Hammock. Beds strung between
   the masts. Very airy. Nobody falls
@@ -1403,8 +1397,8 @@ nobody here is seen after scene 15. Positions are places in the re-clipped room.
 
 - **Mother Bunce, Pim, Gudrun, Absalom, Rook, Tibbs and the Aipom:** the contracts, above.
 
-- **The licence clerk** (new), a Tidewarden at a desk on the licence hull, at the Bazaar's western edge. Until
-  `m8_cleared`:
+- **The licence clerk** (new), a Tidewarden at a licence desk at the market hull's west end, the order's one post on
+  the Bazaar. Until `m8_cleared`:
 
   **Clerk:** Licences for the Calm. Name. Hull.
   Cargo. Next.
@@ -1501,7 +1495,7 @@ nobody here is seen after scene 15. Positions are places in the re-clipped room.
 
   **Sign:** Plumb's strongbox, open and empty.
 
-- **The wanted posters**, on the licence hull's board. Corvin's:
+- **The wanted posters**, on the board behind the licence desk. Corvin's:
 
   **Poster:** WANTED. CORVIN OF FALLHAVEN,
   called THE SEAL-BREAKER.
@@ -1561,9 +1555,9 @@ The Tidewarden boards Crew 1 can reach in the demo each gain the posters as a la
 `stonehollow`'s notice board (mission 1), `canalport`'s Tidewarden notice (mission 3) and `eldergrove`'s tithe notice
 (mission 5).
 
-**Sign:** Four wanted posters, nailed up
-fresh: a seal-breaker, a monk, a
-fish and a map case with legs.
+**Sign:** Three wanted posters, nailed up
+fresh: a seal-breaker, a monk and a
+fish.
 
 Corvin's is the worst likeness, by a
 long way.
@@ -1592,7 +1586,7 @@ Commodore said. She meant it.
 | The Bilge King | G1, Mother Bunce | 150 coins | G1's system line |
 | Pim's cashbox | G2, Pim | 80 coins | G2's system line |
 | The ice house | G3, Gudrun | 60 coins (and a frozen fish named Corvin, a joke, not an item) | G3's system line |
-| Penhallow's chest | G4, Hull Two's hold, in the ballast (Scoop; the dungeon's gear chest, items §13) | Turtle Boots (the artifact items §13 lists) | The engine's chest line, naming `{LEADER}` |
+| Penhallow's chest | G4, the Guild hull's old hold, in the ballast (Scoop; the dungeon's gear chest, items §13) | Turtle Boots (the artifact items §13 lists) | The engine's chest line, naming `{LEADER}` |
 | The bell-rope | G5, Absalom | 100 coins | G5's system line |
 | The Bilge King's purse | G1's fight | The fight's coins | The fight's own line |
 | Wynn's chart and the real note | Scene 8 | Nothing: props (the note goes to Tally) | — |
@@ -1623,6 +1617,8 @@ Golden Sun's habit: half the answer in a thought, the other half in plain sight.
    and drops its far end on Hull Nine's rail, and the sail becomes a bridge (scene 5, `m8_bridge`, the gate as
    built).
 3. The first crossing plays scene 6, Wynn's fear; the first one back, scene 11.
+4. The lane between the hulls is surf water, but Hull Nine's sides are sheer and have no landing steps, so Froakie
+   can't board her: the sail-bridge is the only way across.
 
 **Puzzle 3. The collateral (Move, new).**
 1. On Hull Nine, crates tagged COLLATERAL stand stacked in front of the deckhouse door, with open deck round the
@@ -1639,9 +1635,10 @@ Golden Sun's habit: half the answer in a thought, the other half in plain sight.
    penalty and no limit.
 3. Wynn's line says the numbers if Dabney has been read, and sends the player back to him if not.
 
-**The contracts.** G1 is a fight. G2 is Surf in the lanes (the barrel can only be reached on Froakie; landing
-steps on the rope hull, mission 3's). G3 is Frost on the ice tub. G4 chains three verbs: Blaze lights the hold, Move
-shifts the ballast crate off the glint, Scoop digs out the chest. G5 is a Mind Read riddle: three suspects, one
+**The contracts.** All five are on the Guild and market hulls (decision 5). G1 is a fight. G2 is Surf in the lanes
+(the barrel can only be reached on Froakie, from landing steps at the Guild hull's landing, as mission 3's). G3 is
+Frost on the ice tub. G4 chains three verbs: Blaze lights the hold, Move shifts the ballast crate off the glint, Scoop
+digs out the chest. G5 is a Mind Read riddle: three suspects, one
 thought that gives the thief away, and a swing that only shows what it's made of once Tibbs has been read.
 
 ## Eggs
@@ -1655,7 +1652,7 @@ thought that gives the thief away, and a swing that only shows what it's made of
   moustaches, beside a Meowth with a card that says PERSIAN.
 - **The Bounty Board starts** (§9a; decision 11). The Freeport Guild's board with its five hand-written contracts,
   and the order's wanted posters with terrible portraits: Corvin always gets the worst one (§9a's "one Adept always
-  gets the worst portrait"), first on the Bazaar's licence hull, then, from scene 16, on every Tidewarden board in the
+  gets the worst portrait"), first at the Bazaar's licence desk, then, from scene 16, on every Tidewarden board in the
   Calm.
 
 ## Either order
@@ -1676,12 +1673,15 @@ page's, seeded by "We sail for Fallhaven" and Sael's archive.
 
 Things story.md doesn't say, for you to keep or strike:
 
-- **The handover's words** ("{HERO} slept. Far to the east...") and the posters' hand-back, written for any
-  restoration point.
+- **The handover's words** ("{HERO} slept. Far to the east, beyond the Galeway...") and the posters' hand-back,
+  written for any restoration point.
+- **The way to Fallhaven:** east from the Bazaar to the rim, a day and a night, with no Galeway between (both lie
+  outside it, mission 2); Ketch's warning that they won't be back this way for a long while.
 - **Why Corvin comes:** a chart with the Crown on it, because "if it's on a chart anywhere, it's for sale at the
   Tradewind Bazaar" (Ketch, mission 7).
-- **The Bazaar:** the Guild hull with Tally's desk, scales and board; the market hull; Hull Nine; the licence hull;
-  the grain, rope, fish and bell hulls; Hull Two's old hold; the lanes of water between the hulls; "A hundred hulls,
+- **The Bazaar:** three walkable hulls among a hundred painted ones: the Guild hull (Tally's desk, scales and board,
+  the Guild's bell, The Hammock's hammocks between its masts, its old hold), the market hull (the stalls, the open
+  grain hold, the yard, the order's licence desk) and Hull Nine; the lanes of water between them; "A hundred hulls,
   one law: the Guild's"; the oldest law on the water, a debt "paid in coin or paid in kind" (story.md §9's "Pokémon
   as currency, which is a problem"); Ottoline's "No Pokémon. Not on my deck"; Pearlhollow selling its pearls there.
 - **The Bazaar's people:** Guildmistress Tally ("The Guild doesn't care who you are. The Guild cares what you owe";
@@ -1691,8 +1691,8 @@ Things story.md doesn't say, for you to keep or strike:
   looks up; old Guildmaster Penhallow, named only.
 - **Wynn:** her look (a sky-blue coat with too many pockets, a scarf, the map case's strap from art part A's note);
   beginning in the middle of a thought; the debt of two hundred for engraving the chart, with a nought added; the
-  chart-hall laughing; her mother at a window in the clouds, pointing at "the Wells, running home under the
-  mountain" and "the Crown. Don't you ever fall on it"; falling into the sea off Eastwater, found by a fisher; the
+  chart-hall laughing; her mother at a window in the clouds, pointing at the lights that "all run in, under the
+  mountain" and "the Crown. Don't you ever fall on it" (the Wells' threads are Corvin's reading, not hers); falling into the sea off Eastwater, found by a fisher; the
   Dawn Stone in her fist (story decision 5's stone, given a past); "I can't do heights. But I can do that"; reading
   Corvin's thoughts of {HERO}, "like a compass needle".
 - **Wynn's chart:** six silver threads from the six Well sites meeting under the Pinnacle in a ring "like a crown"
@@ -1704,17 +1704,22 @@ Things story.md doesn't say, for you to keep or strike:
   archive", a seed for crew 2 at the archive in mission 9.
 - **The heist's shape:** Hull Nine's collateral, the debt pen with the Lillipup, the breathing orange crate, the
   bills of sale, and the code 7, 3, 9 (today's, kept), split between Dabney's thought and the bow.
-- **The Guild's ruling:** two notes in brown and black ink weighed on Tally's scales, the nought's eighteen hundred
+- **The Guild's ruling:** Plumb's copy filed with the Guild at two thousand, and the original in his strongbox,
+  two hundred in brown ink with a nought added in black; the two notes weighed on Tally's scales; Dabney's "I said
+  it wasn't legal" (story.md's "Mind Read gets the truth out of a purser", finished out loud); the nought's eighteen hundred
   coins (twelve hundred to the Guild, two hundred for the debt, four hundred to the crew), the crew's one-coin fine,
   and Bronze rank for "Corvin's crew".
 - **The five contracts:** the Bilge King and its bucket; Pim's cashbox; the ice house and the frozen fish named
-  Corvin; Hull Two's old hold and Penhallow's dry boots; the bell-rope and Tibbs's swing.
+  Corvin; the Guild's old hold and Penhallow's dry boots; the bell-rope and Tibbs's swing.
 - **The wanted posters:** the figures (Corvin 5,000, Tamsin 1,200, the diver 800, the cartographer 300) and the
   charges; the portraits (Corvin's jaw like an anvil and Wurmple eyebrows, the worst; Tamsin's a good likeness; the
-  diver a fish; the cartographer a map case with legs); the Bazaar's licence hull and its clerk; the posters reaching
-  Crew 1 by Runner Pell, then every Tidewarden board in the Calm; Gary's line.
-- **Crew 1's lines** in scene 16: "That's a terrible likeness", "a potato with a grudge", Vesper's five thousand,
-  "Four Adepts. Like us", "it's coming our way".
+  diver a fish; the cartographer a map case with legs); the order's licence desk on the Bazaar and its clerk (like
+  mission 2's Tidewarden notice in Fallhaven, the order's word reaching past the Galeway though its ships don't);
+  the three posters made after Bastion Rock reaching Crew 1 by Runner Pell, then every Tidewarden board in the Calm,
+  while the cartographer's, drawn the same afternoon, stays on the Bazaar for now; Gary's line.
+- **Crew 1's lines** in scene 16: "That's a terrible likeness", "a potato with a grudge", Vesper's "For that, I'd
+  think about it. ...Briefly" and "That's not a fire's price. That's a storm's", Maren's "Three Adepts. One short of
+  us. For now", "ready for weather".
 - **The narration's last line,** "And neither knew how soon they would need each other", a seed for mission 9.
 - **The Trio's details** (Eggs, above), including their fake Farer relics.
 - **The rewards:** the Dawn Stone, 400 coins (the heist purse), the contracts' 390 coins, the Turtle Boots (items
@@ -1724,16 +1729,20 @@ Things story.md doesn't say, for you to keep or strike:
 
 **Rooms**
 - **`tradewind_bazaar`** re-clipped larger from Golden Sun 2's Lemurian ship (room 42) and other Lost Age decks, the
-  builder's pick, with painted sea and painted far hulls round them (decision 5): the Guild hull (the landing,
-  entrance 0, with Ketch; Tally's desk with the scales; the board; Wynn's bollard, slot 9; the bench), the market
-  hull (the counting table with Plumb and Dabney, slot 8; Calloway's, Ottoline's, Ossery's and the relic stalls; the
-  spar and its sail, slot 10, on the rail facing Hull Nine), Hull Nine across a gap of water (its bow sign, the
-  chained gangplank, the collateral crates, the orange crate, the pen, the deckhouse with the strongbox, slot 11),
-  the licence hull with the clerk and the posters, The Hammock, the grain hull (Bunce, the open hold with the Bilge
-  King, Tibbs and the swing), the rope hull (Pim), the fish hull (Gudrun and the ice tub), the bell hull (Absalom,
-  the Aipom, Rook) and Hull Two with its hatch and hold. Plank bridges join the hulls; the lanes between them are on
-  the surf layer, with landing steps where the contracts need them. Slot 12's merchant gives way to the named
-  people; today's gangway warp goes (Ketch's scene sails instead).
+  builder's pick, with painted sea and painted far hulls round three walkable ones, the hulls a beat happens in
+  (decision 5):
+  - **The Guild hull:** the landing (entrance 0) with Ketch and the landing steps; Tally's desk with the scales; the
+    board; Wynn's bollard (slot 9); the bench; the Guild's bell with Absalom, Rook and the Aipom; The Hammock's
+    hammocks between its masts, with Hettie; and the hatch down to its old hold (G4), drawn dark until lit.
+  - **The market hull,** joined to the Guild hull by a plank bridge: the counting table with Plumb and Dabney (slot
+    8); Calloway's, Ottoline's, Ossery's and the relic stalls; Pim's and Gudrun's stalls with the ice tub; Bunce's
+    open grain hold with the Bilge King; the yard with Tibbs and the swing; the licence desk with the clerk and the
+    posters at its west end; and the spar and its sail (slot 10) on the rail facing Hull Nine.
+  - **Hull Nine,** across a gap of water: its bow sign, the chained gangplank, the collateral crates, the orange crate,
+    the pen, and the deckhouse with the strongbox (slot 11). Her sides are sheer, with no steps, so Surf never boards
+    her.
+  - The lanes round the hulls are on the surf layer (Pim's barrel). Every other hull stays painted backdrop. Slot 12's
+    merchant gives way to the named people; today's gangway warp goes (Ketch's scene sails instead).
 
 **Actors and engine**
 - **The rest hook and the resume scene** (mission 7's), for scenes 1 and 16, on `m5_done`, `m6_done` and `m7_done`.
@@ -1756,14 +1765,14 @@ Things story.md doesn't say, for you to keep or strike:
 - **The board:** one row whose menu lists the five notices, each with its DONE page once its flag is set (text by
   state, mission 1's recommendation).
 - **The orange crate:** a Move event that only shows its line and never moves.
-- **Hull Two's hold:** drawn dark until `m8_hold_lamp` (a tint over the hold's cells, the `light` step's), the crate
+- **The Guild's old hold:** drawn dark until `m8_hold_lamp` (a tint over the hold's cells, the `light` step's), the crate
   and the glint showing from it, and the chest's row from `m8_c_hold`.
 - **Frost with a flag gate:** the ice tub sets `m8_c_ice` only from `m8_guild` (mission 4's `if_flag` with
   `else_text`).
 - **Hettie's inn** at Eastwater's rest price, on items §12's ladder.
 - **The shops:** Ottoline's stock and Ossery's buying and Artifacts list in `data_src/shops.json` (items §11's
   Bazaar row).
-- **The posters:** rows on the licence hull (three, then a fourth from `m8_cleared`); a last page on `stonehollow`'s
+- **The posters:** rows on the licence desk's board (three, then a fourth from `m8_cleared`); a last page on `stonehollow`'s
   notice board, `canalport`'s Tidewarden notice and `eldergrove`'s tithe notice from `m8_posters`, with Maren's line
   the first time each is read; Gary's line in Stonehollow from `m8_posters`.
 - **Ketch's yes/no** with a condition on the five contract flags.
