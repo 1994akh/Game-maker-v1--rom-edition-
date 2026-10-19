@@ -972,3 +972,174 @@ maiden voyage waits there too.
 *Control returns. Free play goes on in Act I (decision 20): both crews, swapping and trading, the Calm on the
 Wayfarer, and the maiden voyage at her helm (scene 15).*
 
+### 13. Cidrick (optional, the egg)
+
+- Room: `stonehollow`, the cove's far end. Trigger: talking to Cidrick, once `m9_done`, unless `m10_cidrick` (the
+  egg's short staged scene, decision 10).
+
+*At the cove's far end, two trestles and a heap of timber have become a shipyard overnight, with a painted board
+leaning on the trestles. A stocky man with goggles pushed up into his hair, a toolbag over each shoulder and a
+mallet in his belt is measuring the Kestrel's keel with a knotted string, and tutting. [face Cidrick → {HERO}] [crew
+out]*
+
+**Cidrick:** Cidrick. Shipwright. Of Fallhaven,
+formerly. Of here, now, it seems.
+My family built every ship ever.
+
+**Cidrick:** Every boat on the rim. Every
+cutter in the Calm. And most of the
+ones that aren't.
+
+**Cidrick:** This one, for instance. My great
+uncle built her. ...He'd have built
+her better, if they'd asked him.
+
+*[face Cidrick → the Kestrel] [emote Cidrick: sweat]*
+
+**Cidrick:** Her keel's cracked, stem to stern.
+The lanes did that. She got you
+home first, though.
+
+**Cidrick:** She won't sail again. I'm sorry.
+I'd tell you different if I could.
+I'm a shipwright, not a liar.
+
+*With `m10_done`:*
+
+**Cidrick:** And that one at anchor. The Farer
+one. My family built her too.
+Obviously.
+
+**Cidrick:** ...Six hundred years ago. Someone
+in my family. Probably. I'll look
+into it.
+
+*[crew in] [flag m10_cidrick] Control returns.*
+
+### 14. A Funeral at Sea (optional, the egg)
+
+- Room: `stonehollow`, the cove. Trigger: yes to the beached Kestrel's question (People and signs), once
+  `m10_done`, unless `m10_funeral` (§9a's "A Funeral at Sea", decision 10).
+
+*[fade out 30] [phase dusk] [fade in 30] Dusk in the cove, the tide going out. The Kestrel has been floated off the
+shingle and rides at the end of a long line, her sails set, her deck heaped with driftwood and old nets. Both crews
+stand on the jetty, with half of Stonehollow behind them and what's left of Fallhaven. Beyond, the Wayfarer lies at
+anchor, very still. Tully holds the line. [show the crew that isn't played] [crew out]*
+
+**Tully:** She was the fastest hull in the
+Calm. I polished every inch of her.
+
+**Tully:** She took us to Canalport, and the
+Greenwild, and the reef. To the rim,
+and home again.
+
+**Tully:** She wasn't built for the lanes.
+She went anyway, because we asked
+her to.
+
+*[wait 30]*
+
+**Tully:** Thank you, Kestrel.
+
+*He lets go of the line. The tide takes her. [walk the Kestrel → out on the ebb] Tamsin steps up beside {HERO} and
+looks at {HERO}. [face Tamsin → {HERO}]*
+
+**Tamsin:** Ready?
+
+*{HERO} nods. [pose {HERO}: nod] Tamsin points two fingers. [light: a spark across the water] Fire catches in the
+driftwood on the Kestrel's deck and climbs her rigging, and her sails go up gold against the dusk. [light: orange on
+the water] She sails on out of the cove on the tide, burning, with her own light under her on the water.*
+
+*Ketch walks to the end of the jetty and clears his throat.*
+
+**Ketch:** I wrote this for Corvin. For a
+joke. It was going to rhyme with
+"drowned".
+
+**Ketch:** It fits her better. Her, and the
+captain.
+
+*Ketch sings, and for once he isn't eating. [music: Ketch's song, slow (the music table, decision 37)]*
+
+**Ketch:** Go out on the ebb, old girl,
+with your sails all gold and bright.
+Go easy, where we can't.
+
+**Ketch:** The captain was the last ashore,
+so she's first aboard tonight.
+Keep her a place by the rail.
+
+*[wait 40]*
+
+**Corvin:** ...It rhymed and everything.
+
+**Ketch:** Course it did.
+
+*[wait 60] Far out past the point, the Kestrel's light grows smaller, and smaller, and goes out. [light: dusk]
+Nobody moves for a long while.*
+
+**Tully:** ...Right. The Wayfarer wants
+polishing. Somebody has to.
+
+*[crew in] [flag m10_funeral] Control returns. The Kestrel's place on the shingle is empty from here.*
+
+### 15. The maiden voyage
+
+- Room: `wayfarer`, the helm. Trigger: "The Galeway", the last row of the helm's menu (slot 8, its voyage role,
+  rewritten; People and signs), from `m10_done` (decision 20).
+
+*Ketch climbs up out of the galley hatch, wiping his hands, and comes to the helm. [show Ketch] [walk Ketch → beside
+the helm]*
+
+**Ketch:** The Galeway. Her maiden voyage.
+Both crews aboard, and me calling
+the lanes.
+
+**Ketch:** Once we're in, there's no turning
+round. Not in that storm. Ready?
+
+*[yes/no] No:*
+
+**Ketch:** Sensible. I'll finish my apple.
+
+*[hide Ketch] Control returns. Yes:*
+
+*[fade out 30] [phase dawn] [fade in 30] The Wayfarer's sails fill. She slides out of Stonehollow's cove on the
+morning tide, past the beacon on the eastern headland, with both crews on her deck and Ketch at the bow calling the
+lanes. On the jetty, Brann lifts a hand and keeps it up. [camera → the cove's mouth] [camera back]*
+
+**Narration:** On the morning tide the Wayfarer
+put out from Marrow Isle, with both
+crews aboard.
+
+**Narration:** Ahead, the Galeway stood up out of
+the sea like a wall. And somewhere
+in it, a single lamp was waiting.
+
+*[fade out 60] [end card] The card, over black, in the title's lettering:*
+
+**Card:** THE BREAKING
+To be continued.
+
+*[credits] The credits roll: every maker in [credits.md](../../engine/resources/credits.md), under the title
+"HALCYRA. Act I: Open Water". [save prompt]*
+
+**System:** Save your game? It carries on
+into the Breaking.
+
+*[yes/no] Yes saves to the file in play (decision 20; the save screen if the player wants another file). Then:
+[fade in 40] The Wayfarer's deck, at anchor in Stonehollow's cove, the morning before she sailed: the voyage is still
+ahead. The clock is where it was. Ketch leans on the helm, eating an apple.*
+
+**Ketch:** ...Not today, eh? The Galeway's
+not going anywhere.
+
+*[wait 30]*
+
+**Ketch:** ...Probably.
+
+**System:** Act I's seas are still open. The
+maiden voyage waits at the helm.
+
+*[hide Ketch] Control returns.*
+
