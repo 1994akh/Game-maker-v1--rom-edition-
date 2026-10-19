@@ -348,3 +348,554 @@ deckhouse.
 
 *[crew in] Control returns. The crates are puzzle 3.*
 
+### 8. The strongbox
+
+- Room: `tradewind_bazaar`, inside Hull Nine's deckhouse. Trigger: talking to the strongbox (slot 11, today's
+  `strongbox`, rewritten), unless `m8_heist`. The crates (puzzle 3) stand between the deck and the deckhouse door.
+
+*Inside the deckhouse: a cabin hung with framed bills of sale, a desk, and in the corner an iron strongbox as big as
+a sea chest, with a brass dial of three rings set in its lid. [crew out]*
+
+*Without `m8_code`:*
+
+**Wynn:** Three rings, and we don't know a
+single number. Dabney does. He's
+thinking about them right now.
+
+*With `m8_code`:*
+
+**Wynn:** Three rings. Seven, three, and the
+bow.
+
+*Then: [dial] The dial shows three rings of the numbers 0 to 9. The player turns each ring and presses A. A wrong
+code:*
+
+**System:** Click. The lid holds fast.
+
+*The right code, 7, 3, 9:*
+
+**System:** Click. Click. Clunk.
+
+*The lid springs open. Wynn dives in with both hands.*
+
+**Wynn:** My chart! Oh, my chart. Hello.
+You're all crumpled. I'm sorry.
+
+*She lifts out a long roll tied with blue ribbon, then a folded paper, then a small stone that glows faintly, pale
+gold, like the edge of morning.*
+
+**Wynn:** And the note. Look. Two hundred, in
+brown ink. And a nought after it, in
+black.
+
+And my stone! He took my stone too.
+It was in my fist when the fisher
+fished me out of the sea.
+
+**Nerissa:** That's a Dawn Stone.
+
+**Wynn:** Is it? I always just called it
+mine.
+
+*[give Dawn Stone]*
+
+**System:** {LEADER} received the Dawn Stone!
+
+*[flag m8_heist] [shake 20, 1] Out on the deck, a crate bangs open.*
+
+*[emote Corvin, Tamsin, Nerissa, Wynn, Larvitar, Riolu, Froakie and Ralts: exclaim] [crew in] Straight on to scene 9.*
+
+### 9. The Tumbleweed Trio
+
+- Room: `tradewind_bazaar`, Hull Nine's deck. Trigger: straight on from scene 8.
+
+*[walk the crew → out onto the deck] [crew out] The crate labelled ORANGES lies open. Out of it climb a lanky woman
+in a dusty green duster with a thistle in her hatband, a round man in a brown coat stuck all over with burrs, and a
+Meowth in a tiny tricorn hat. [show Bramble] [show Burr] [show Scratch] The woman plucks the chart roll out of
+Wynn's hands. [walk Bramble fast → Wynn] [emote Wynn: exclaim]*
+
+**Bramble:** Thank you SO much, dears. We'd have
+been in that crate all day.
+
+**Burr:** We've been in it all morning. It
+felt like a week. I can't feel my
+legs. Or the oranges.
+
+**Scratch:** Quiet! The motto. Do the motto!
+
+*[pose Bramble: flourish] [pose Burr: flourish] [light: a spotlight on the three of them, from nowhere]*
+
+**Bramble:** Hark! Is that trouble,
+blown in on the breeze?
+
+**Burr:** It's us, dearest Bramble,
+the scourge of the seas!
+
+**Bramble:** We roll where we like,
+and we take what we please!
+
+**Bramble:** Bramble!
+
+**Burr:** Burr!
+
+**Scratch:** And Scratch, that's the cat!
+The Tumbleweed Trio, rolling
+free!
+
+*[light: back to day]*
+
+**Tamsin:** ...Was that a song?
+
+**Corvin:** I think it was a threat.
+
+**Scratch:** It's a motto! It's a whole brand!
+The Factor bragged he had a treasure
+map in that box. We heard him.
+
+Hand it over, and nobody gets hurt.
+Mostly you.
+
+**Wynn:** It isn't a treasure map! It's a
+chart! It's much better than a
+treasure map!
+
+**Bramble:** Then it's worth even MORE.
+
+*Bramble's Seviper slides out of the crate after her. Burr's Ferroseed rolls out, and sticks to his coat. [emote
+Burr: sweat] [crew in] [battle tumbleweed_trio]*
+
+*If the fight is lost, "Try again" plays and the fight restarts as it began. Tamsin's line as it restarts:*
+
+**Tamsin:** Again. They're terrible. That's what
+makes it embarrassing.
+
+### 10. Tumbling off
+
+- Room: `tradewind_bazaar`, Hull Nine's deck. Trigger: winning the fight (the Trio's `scene_after`).
+
+*The Seviper and the Ferroseed fall in a heap on top of Burr. Bramble still has the chart. [emote Bramble: sweat]
+[crew out]*
+
+**Bramble:** We'll take our map and go! With
+dignity!
+
+**Scratch:** Run with dignity! RUN!
+
+*[face Wynn → Bramble] [emote Wynn: anger] Wynn lifts both hands. [light: a swirl of wind]*
+
+**Wynn:** That. Is. My. CHART.
+
+*A gust bursts across the deck, picks up all three of them, and the Seviper, and the Ferroseed, and lifts them
+spinning over the mainmast. The chart flutters out of Bramble's hands and drops into Wynn's. [walk Bramble, Burr,
+Scratch, Seviper and Ferroseed fast → up, off the top of the screen] [hide the Trio]*
+
+**Burr:** I still can't feel my legs!
+
+**Scratch:** Nobody can feel anything up here!
+
+**Bramble:** We're tumbling off agaaain!
+
+*[light: a twinkle, high in the sky] [wait 30]*
+
+**Corvin:** ...Again?
+
+**Nerissa:** They did say again.
+
+**Wynn:** Wind. Sky Psynergy. I can't do
+heights. But I can do that.
+
+*[crew in] [flag m8_trio] Control returns. The way back is over the sail-bridge.*
+
+### 11. The way back
+
+- Room: `tradewind_bazaar`, the far end of the sail-bridge. Trigger: stepping onto it (a step-on spot), once
+  `m8_trio`, unless `m8_back`.
+
+*[crew out]*
+
+**Wynn:** In. Out. In. Out. I hate this
+bridge. I hate it slightly less.
+
+*[walk the crew → across the spar] [crew in] [flag m8_back] Control returns. Tally waits on the Guild hull.*
+
+### 12. The Guild weighs it
+
+- Room: `tradewind_bazaar`, the Guild hull. Trigger: talking to Tally, once `m8_trio`, unless `m8_cleared`.
+
+*Guildmistress Tally sits at her desk under the awning: a big woman in a coat of many pockets, a pencil behind
+each ear, a set of brass scales at her elbow. She looks at the crew's faces, and at the chart under Wynn's arm.*
+
+**Tally:** You've got something to show me.
+It's all over your faces.
+
+*Factor Plumb is already hurrying over from the market hull, Dabney at his heels. [show Plumb] [show Dabney] [walk
+Plumb fast → beside the desk] [walk Dabney → behind him]*
+
+**Plumb:** Guildmistress! They have been on my
+hull! My dear Wynn, how nice. Have
+you brought two thousand coins?
+
+**Wynn:** I've brought the note. The real one.
+Out of your strongbox.
+
+*[emote Plumb: exclaim] [emote Dabney: sweat] Wynn lays the folded note on the desk. Tally unfolds it beside the
+Factor's copy and holds them both up to the light.*
+
+**Tally:** Two notes. One debt. One hand.
+
+Two hundred, in brown ink. And on
+this one, a nought after it. In
+black.
+
+Brown ink and black ink, Factor.
+Weigh that for me.
+
+**Plumb:** A clerk's slip! Dabney! You
+slipped!
+
+**Dabney:** I did not slip! I never slip! I
+said it wasn't legal, I said it out
+loud, I said...
+
+*[emote Dabney: exclaim] He claps both hands over his mouth.*
+
+**Tally:** Thank you, Dabney.
+
+*[wait 20] Tally lays one note in each pan of her scales. They balance. She looks at them for a while.*
+
+**Tally:** The Guild doesn't care who you are.
+The Guild cares what you owe.
+
+Wynn owes two hundred. She'll pay
+it. Factor, you owe the Guild for
+every nought you added.
+
+That's eighteen hundred coins. The
+Guild keeps twelve hundred for its
+trouble.
+
+Two hundred pays her debt, in full.
+The rest goes to the wronged party.
+
+*[face Tally → Corvin]*
+
+**Tally:** And you. You broke into a Factor's
+strongbox, on the Guild's water.
+That's a fine as well.
+
+One coin.
+
+*[take_coins 1]*
+
+**System:** {LEADER} paid 1 coin.
+
+**Tamsin:** Ha! Ten out of ten.
+
+*[give coins 400]*
+
+**System:** {LEADER} received 400 coins!
+
+*Tally tears the notice with Wynn's name off the board and drops it over the rail into the lane. [hide the notice]*
+
+**Tally:** Wynn, cartographer. In good
+standing. Debt paid in full.
+
+*[emote Wynn: heart] [emote Ralts: smile]*
+
+**Plumb:** Business is business, my dear. No
+hard feelings.
+
+*[walk Plumb → the market hull] He doesn't look back.*
+
+**Plumb:** ...Many hard feelings.
+
+*[hide Plumb] [walk Dabney fast → after him] [hide Dabney] (Both return to the counting table: People and signs.)*
+
+**Tally:** Now. A crew that can open a
+strongbox and then tell me so to my
+face is a crew I can use.
+
+The Guild board's open to you.
+Bronze. Don't make me sorry.
+
+*[flag m8_guild]*
+
+**System:** Corvin's crew joined the Freeport
+Guild! Rank: Bronze.
+
+*[flag m8_cleared] Straight on to scene 13.*
+
+### 13. The chart
+
+- Room: `tradewind_bazaar`, the bench under the Guild hull's awning. Trigger: straight on from scene 12.
+
+*Wynn spreads her chart along the bench and pins its corners with whatever is to hand: a pie tin, an inkpot,
+Tamsin's fist and Larvitar. [crew out] It is beautifully drawn: the Calm and its islands, the Galeway as a ring of
+tiny storms, Meridia in the middle with the Spine down its back.*
+
+**Wynn:** There. Every chart on the Bazaar
+stops at the ground. Mine doesn't.
+
+*Under the land and under the sea, in fine silver lines, six threads run in from six places at the edges of the
+chart and meet beneath the Pinnacle in a ring of points, like a crown.*
+
+**Corvin:** Six lines, from six places. Embral.
+The Greenwild. Marrow Isle.
+
+They're the Well sites. All six of
+them.
+
+**Wynn:** I didn't know they were Well sites.
+I just drew what I saw.
+
+I was six. My mother held me up to a
+window, very high, up in the
+clouds.
+
+She pointed down at the world and
+said, those are the Wells, running
+home under the mountain.
+
+And that's the Crown. Don't you ever
+fall on it.
+
+*[wait 20]*
+
+**Wynn:** Then I fell. Not on it. In the sea,
+off Eastwater. A fisher found me.
+I've been drawing it ever since.
+
+**Nerissa:** The Crown. "Shipped on, all. To the
+Crown."
+
+*Corvin takes the ledger page out of his coat, unfolds it, and lays it on the chart over the ring beneath the
+Pinnacle. [emote Tamsin: exclaim] [emote Wynn: question]*
+
+**Corvin:** It's a place. The tithe goes to a
+place under the Pinnacle. And the
+order calls it the Crown too.
+
+**Tamsin:** Your mother and the order use the
+same word for it. Eight out of ten,
+for creepy.
+
+*Wynn taps the chart's top edge, far north, above the clouds, where one tall tower is drawn in blue ink.*
+
+**Wynn:** And this. A tower higher than the
+clouds, with ships tied up to it
+like boats at a jetty.
+
+Ships with sails like wings. That's
+where the sky-ships moored. I saw
+them.
+
+You believe it? Nobody believes it.
+
+**Corvin replies:**
+
+1. "I believe it."
+
+   **Wynn:** Oh. Oh, good. I had a speech for
+   this. Six years of speech. I don't
+   need it.
+
+2. "It's hard to believe."
+
+   **Wynn:** It's a chart. You don't believe a
+   chart. You sail it, and you see.
+
+3. "Where's the tower?"
+
+   **Wynn:** North. Then up. A long way up.
+   Don't make me go up.
+
+*Every reply rejoins here.*
+
+*[wait 30] Corvin looks at the tower for a long time.*
+
+**Corvin:** Ships that sail the sky. Nobody in
+Halcyra builds those. Nobody ever
+has.
+
+There's a song in Fallhaven. "Under
+the marrow, under the stone, sleeps
+a ship to carry us home."
+
+To carry us home. Whoever built the
+Crown didn't come from here.
+
+*[emote Wynn: question] [emote Nerissa: silence]*
+
+**Corvin:** Sael has to see this. The page, the
+chart, all of it. She keeps every
+chart of the rim in her archive.
+
+We sail for Fallhaven. When you're
+ready.
+
+*[crew in] [flag m8_chart] Control returns. The Guild board is open (The Freeport Guild's contracts, below), and
+talking to Ketch at the landing sails.*
+
+### 14. Ketch
+
+- Room: `tradewind_bazaar`, the Guild hull's landing. Trigger: talking to Ketch, once `m8_chart`. Before then, his
+  line (People and signs).
+
+**Ketch:** Fallhaven? Two days, if the
+Galeway's in a good mood. It never
+is.
+
+*With any contract not done (any of `m8_c_bilge`, `m8_c_overboard`, `m8_c_ice`, `m8_c_hold`, `m8_c_bell` unset):*
+
+**Ketch:** There's still work on that board.
+Coin, too. Sail anyway?
+
+*Otherwise:*
+
+**Ketch:** Ready when you are.
+
+*[yes/no] No:*
+
+**Ketch:** I'll be here. Eating.
+
+*Yes: scene 15.*
+
+### 15. West through the Galeway
+
+- Room: `tradewind_bazaar`, the landing. Trigger: yes to Ketch.
+
+*[phase dusk] The Bazaar's lanterns come on, hull by hull, as the skiff pulls away from the landing. [hide the crew]
+[fade out 40]*
+
+**Narration:** Ketch ran the skiff west out of
+Eastwater at dusk, into the storm
+lanes of the Galeway.
+
+*Over black:*
+
+**Wynn:** This boat is very low. Low is good.
+I love low.
+
+**Nerissa:** The deep's lower still. You'd love
+it.
+
+**Wynn:** ...Ask me again in a few years.
+
+*[wait 20]*
+
+**Wynn:** Corvin? You keep thinking about
+somebody. {HERO}.
+
+Like a compass needle. It swings
+away, and it always swings back.
+
+**Corvin:** Don't do that.
+
+**Wynn:** Sorry. You think very loudly.
+
+**Tamsin:** He does. Ten out of ten. You can
+hear it from the bow.
+
+**Narration:** Both crews were full now: four
+Adepts each, on either side of the
+Galeway.
+
+And neither knew how soon they would
+need each other.
+
+*[flag m8_done] [phase dawn] [resume crew 1] Crew 1 plays again where it rested.*
+
+### 16. The posters
+
+- Room: wherever Crew 1 rested. Trigger: Crew 1 resuming there, once `m8_done`, unless `m8_posters` (mission 7's
+  resume scene).
+
+*[fade in 40] Dawn, where Crew 1 rested. The innkeeper's after-rest line plays (it was held back). Then running
+feet, and Runner Pell comes in at a scramble, muddy to the knees as always, a fat oilskin satchel on her back. [show
+Pell] [walk Pell fast → before {HERO}] She salutes, sways, and gets her breath. [crew out]*
+
+**Pell:** Deputy {HERO}! Runner Pell, off
+the Dunlin. Begging your pardon, at
+this hour.
+
+The Dunlin's been after the Kestrel
+since the turn of the tide. Thank
+you for being so easy to find.
+
+Orders from the Commodore. One set
+for every Tidewarden board in the
+Calm. And one set for you.
+
+*She pulls a roll of posters out of the satchel and unrolls the first. [show the poster]*
+
+**Poster:** WANTED. CORVIN OF FALLHAVEN,
+called THE SEAL-BREAKER.
+5,000 COINS.
+
+For the Flame seal, the Forgeheart
+fire and the breaking of Bastion
+Rock.
+
+*Under the words is a portrait: a scowling face with a jaw like an anvil and eyebrows like two Wurmple. [emote
+{HERO}: question]*
+
+**{HERO}:** That's a terrible likeness.
+
+*Quiet: [emote {HERO}: sweat] and no line.*
+
+**Sorrel:** That's a potato with a grudge.
+
+**Vesper:** Five thousand. I'd turn him in for
+five thousand.
+
+*[wait 20]*
+
+**Vesper:** I wouldn't. But I'd think about it
+for a while.
+
+**Pell:** There are four, Deputy. The
+Bazaar's licence post sent the last
+one by Wingull.
+
+*She unrolls the rest, one after another.*
+
+**Poster:** WANTED. TAMSIN OF THE FORGEHEART.
+For arson, assault and insolence.
+1,200 COINS.
+
+**Poster:** WANTED. THE DIVER, NAME UNKNOWN.
+Escaped prisoner of the order.
+800 COINS.
+
+**Poster:** WANTED. A CARTOGRAPHER, NAME
+UNKNOWN. An accomplice.
+300 COINS.
+
+**Maren:** A monk, a diver and a map-maker.
+The portraits get worse as they go.
+
+The diver is a fish. The map-maker
+is a map case with legs.
+
+**Sorrel:** The monk's quite good, actually.
+
+**Maren:** Four Adepts. Like us.
+
+*[emote Maren: silence]*
+
+**Pell:** The Commodore says, if you see them,
+send word. Don't take them on alone.
+Thank you for listening.
+
+*[walk Pell fast → off] [hide Pell]*
+
+**Vesper:** Five thousand coins, and a
+map-maker. Your friend's up to
+something big, deputy.
+
+**Maren:** Then so are we. Whatever it is,
+it's coming our way.
+
+*[crew in] [flag m8_posters] Control returns. From here every Tidewarden notice board in the Calm carries the four
+posters (People and signs).*
+
