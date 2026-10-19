@@ -2038,7 +2038,10 @@ the lamp waiting in the Galeway; the heart quests the talks seed (Corvin and {HE
 charter, Sorrel's groves, Vesper's survivor, Tamsin's flame, Nerissa's domes, Wynn's chart); Ilse's answer at the
 Pinnacle (mission 21); Maren's Shiny Stone (mission 13, demo decision 13); the walkable Kin Garden, Gannet's library
 and the rest of Marrow Isle's growth (decision 33); Vesper's Haunter and Ralts's Kirlia, which their levels keep
-after the demo; the Farers' return "when it is complete" (the postgame) and the Steward (mission 19).
+after the demo; the Farers' return "when it is complete" (the postgame) and the Steward (mission 19). The Log's
+own words are here (scene 8, its item text and its System lines), but not the entries it fills in: each species'
+Kin text in the crew's voices (Marill's among them, which mission 3 left for this page), each chart's captain's-log
+line and each relic's text wait on open question 5, which asks whether the dialogue pass writes them.
 
 ## Inventions
 
