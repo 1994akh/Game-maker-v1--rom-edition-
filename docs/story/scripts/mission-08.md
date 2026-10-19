@@ -12,7 +12,7 @@
 | Rooms | Wherever Crew 1 rests (the handover and the hand-back); `tradewind_bazaar` (re-clipped larger: the Guild hull, the market hull, Hull Nine, the licence hull, the grain hull, the rope hull, the fish hull, the bell hull, Hull Two's old hold and the lanes of water between them). The Bazaar's other hulls stay narration and painted backdrop (decision 5) |
 | Clock | The rest sets dawn for Crew 1; the handover sets dawn at the Bazaar, and the clock runs as the crew walks; dusk as the skiff leaves; Crew 1 wakes at dawn |
 | Flags in | `m5_done`, `m6_done`, `m7_done` |
-| Flags out | `m8_started`, `m8_intro`, `m8_wynn`, `m8_code`, `m8_bridge`, `m8_heights`, `m8_crates`, `m8_heist`, `m8_trio`, `m8_back`, `m8_cleared`, `m8_guild`, `m8_chart`, `m8_done`, `m8_posters`; the contracts: `m8_c_bilge`, `m8_box`, `m8_c_overboard`, `m8_c_ice`, `m8_hold_lamp`, `m8_hold_crate`, `m8_c_hold`, `m8_tibbs_read`, `m8_bell_rope`, `m8_c_bell`; and, optional, `m8_plumb_read`, `m8_clerk_read` |
+| Flags out | `m8_started`, `m8_intro`, `m8_wynn`, `m8_code`, `m8_bridge`, `m8_heights`, `m8_crates`, `m8_heist`, `m8_trio`, `m8_back`, `m8_cleared`, `m8_guild`, `m8_chart`, `m8_done`, `m8_posters`; the contracts: `m8_c_bilge`, `m8_box`, `m8_c_overboard`, `m8_c_ice`, `m8_hold_lamp`, `m8_hold_crate`, `m8_c_hold`, `m8_tibbs_read`, `m8_bell_rope`, `m8_c_bell`; and the optional Mind Read flags, `m8_plumb_read`, `m8_clerk_read`, `m8_scratch_read`, `m8_rook_read`, `m8_aipom_read` |
 | Unlocks | Wynn (Sky, with Ralts) joins, and with her Whirlwind and Mind Read; the Dawn Stone in crew 2's bag (story decision 5); crew 2's Freeport Guild rank, Bronze, and five hand-written contracts on the Bazaar's board (decision 11, step 1); the wanted posters on Tidewarden notice boards (decision 11; §9a's Bounty Board). Both crews are full |
 | Reply beats | 2, Corvin's (README §3): Wynn's offer (scene 3); Wynn's chart (scene 13) |
 | Fights | The Tumbleweed Trio (`tumbleweed_trio`, new) on Hull Nine; optional, the Bilge King (`bounty_bilge_king`, new: contract G1). A loss plays "Try again" |
@@ -96,7 +96,7 @@ business.
 *[walk Plumb → the market hull] He tips his hat to the crew as he passes. [hide Plumb] Tally looks the crew up and
 down.*
 
-**Tally:** New faces. Rimborn, by the coats.
+**Tally:** New faces, off a Rimborn skiff.
 Buying or selling?
 
 **Corvin:** Buying. A chart, with something on
@@ -251,7 +251,7 @@ that part.
   event, rewritten). Before Wynn, nobody in crew 2 has Mind Read, and Dabney says his line (People and signs).
 
 *Behind Factor Plumb's counting table, a thin young man in a clerk's coat counts coins into stacks, very fast, lips
-moving. Plumb is away down the deck, haggling. [crew out] Wynn puts two fingers to her temple. [light: a faint
+moving. At the table's far end Plumb is haggling with a fisher, his back turned. [crew out] Wynn puts two fingers to her temple. [light: a faint
 violet shimmer round Dabney]*
 
 **Dabney, thinking:** Seven. Three. Don't think it,
@@ -528,8 +528,8 @@ each ear, a set of brass scales at her elbow. She looks at the crew's faces, and
 **Tally:** You've got something to show me.
 It's all over your faces.
 
-*Factor Plumb is already hurrying over from the market hull, Dabney at his heels. [show Plumb] [show Dabney] [walk
-Plumb fast → beside the desk] [walk Dabney → behind him]*
+*Factor Plumb is already hurrying over from the market hull, Dabney at his heels. [walk Plumb fast → beside the
+desk] [walk Dabney → behind him]*
 
 **Plumb:** Guildmistress! They have been on my
 hull! My dear Wynn, how nice. Have
@@ -636,8 +636,8 @@ tiny storms, Meridia in the middle with the Spine down its back.*
 **Wynn:** There. Every chart on the Bazaar
 stops at the ground. Mine doesn't.
 
-*Under the land and under the sea, in fine silver lines, six threads run in from six places at the edges of the
-chart and meet beneath the Pinnacle in a ring of points, like a crown.*
+*Under the land and under the sea, in fine silver lines, six threads run in from six places across the chart and
+meet beneath the Pinnacle in a ring of points, like a crown.*
 
 **Corvin:** Six lines, from six places. Embral.
 The Greenwild. Marrow Isle.
@@ -1657,6 +1657,11 @@ thought that gives the thief away, and a swing that only shows what it's made of
   and the order's wanted posters with terrible portraits: Corvin always gets the worst one (§9a's "one Adept always
   gets the worst portrait"), first on the Bazaar's licence hull, then, from scene 16, on every Tidewarden board in the
   Calm.
+
+## Either order
+
+Mission 8 always follows both of Crew 1's recruitments and mission 7, so Sorrel and Vesper are both in Crew 1 for
+scene 16 and nothing differs with the order missions 5 and 6 were played in. Their lines there need no `when` steps.
 
 ## Not in this mission
 
