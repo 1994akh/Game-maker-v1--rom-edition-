@@ -402,8 +402,9 @@ turn, slowly, like something stretching in its sleep. Then it settles, trembling
 
 **Maren:** It moved.
 
-**Corvin:** Brann's had that since before his
-grandmother. It never once moved.
+**Corvin:** The keepers have had that since
+before Brann's grandmother. It
+never once moved.
 
 **Sorrel:** It isn't awake. It's stirring.
 Like the wood.
@@ -1824,8 +1825,8 @@ Mission 1's signs stand. From `m10_vault_in`:
 
   *[menu: Rest, Pokémon, Not now] (the inn's menu, at no charge). After resting:*
 
-  **Ketch:** You slept through two verses. That's
-  a compliment, from you.
+  **Ketch:** You slept through two verses. I'll
+  take that as a compliment.
 
 - **The stove:**
 
