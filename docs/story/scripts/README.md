@@ -18,8 +18,10 @@ turn each one into the room's `events.json` without inventing a word.
 | [mission-06.md](mission-06.md) | Mission 6, Lantern Reef (either order with 5) | Draft |
 | [mission-07.md](mission-07.md) | Mission 7, Bastion Rock: the first Crew 2 interlude, with Nerissa | Draft |
 | [mission-08.md](mission-08.md) | Mission 8, The Tradewind Bazaar: the second Crew 2 interlude, with Wynn, the Guild's contracts and the posters | Draft |
+| [mission-09.md](mission-09.md) | Mission 9, The Fall of Fallhaven: both crews and the relay stones, the Ledger of the Crown, Sael at the doors (with her still), Maren's confession and Ilse's choice | Draft |
+| [mission-10.md](mission-10.md) | Mission 10, The Two-Earth Door: the refugees, the door, the Wayfarer, the Lodestar's cradle and the Farer's Log, swapping, the quarters and the galley, the Kestrel's send-off, the end card and Act I's free-play lines | Draft |
 
-Missions 9 and 10 follow in this folder, one page each, in the same format.
+The demo's ten missions are all here, in the same format.
 
 ## 1. What a page holds, in order
 
@@ -70,6 +72,8 @@ brackets so the builder knows what to use:
 | `[battle corvin_vault]` | `battle` |
 | `[gate …]` | a room `gate` opening or repainting cells |
 | `[crew 2]`, `[resume crew 1]`, `[warp room, entrance]` | `crew`, `resume_crew`, `warp` |
+| `[place crew 2 → fallhaven_archive, entrance 0]` | `place_crew` (as built): puts the crew that isn't played somewhere |
+| `[merge bags]` | `merge_bags` (as built): the crews' bags and purses become one (mission 10) |
 | `[rest point]` | `rest_point` |
 | `[phase night]` | **new step:** set the clock's phase (day-night-clock.md decision 4) |
 | `[light: …]` | **new step:** a tint or a pulse of coloured light over the room |
@@ -82,6 +86,8 @@ brackets so the builder knows what to use:
 | `[give coins 100]` | `give`, **new:** coins as well as items |
 | `[round 2]` | **new step:** a line in a story fight's message bar at the start of that round (Ho-Oh's judgement) |
 | `[dial]` | **new step:** a number dial of three rings, 0 to 9 (the Bazaar's strongbox, decision 6); the right code plays on, a wrong one says its line |
+| `[end card]`, `[credits]`, `[save prompt]` | **new steps:** the demo's ending (decision 20): a full-screen card over black (written `**Card:**`), the credits roll from credits.md, and a save yes/no, after which the scene puts the player back where they were |
+| `[music: Ketch's song]` | **new step:** a music cue from the music table (decision 37), over a scene |
 
 Each page's last section lists every new step it uses.
 
@@ -174,20 +180,20 @@ story.md is an invention, listed on the page where it's first used.
 | Corvin | Warm and quick, teasing, a little theatrical. Jokes when it hurts. Apologises lightly and means it heavily |
 | Keeper Brann | Old, slow, dry. Talks in eggs and stone. Gruff on top, soft underneath. Calls the hero "apprentice" |
 | Commodore Ilse | Clipped and exact, a naval officer. Kind in what she does more than what she says. Believes in the order. Calls the hero by name, then "deputy"; "apprentice" is Brann's word |
-| Captain Sael | Dry, blunt, a sea captain. Fierce love said as scolding. Never wastes a word |
+| Captain Sael | Dry, blunt, a sea captain. Fierce love said as scolding. Never wastes a word (missions 2 and 9). Her last words are orders: "Then stop paying", "Doors hold. It's what they're for", "Take a coat" |
 | Hask | Low and level, never shouts. Speaks in absolutes: every, all, now. Needles Corvin as "Sael's stray" |
-| Maren | By the book, precise, a medic's calm; a careful listener (mission 3 on). Diagnoses in lists ("a split knuckle, a bruised jaw"; "drought, blight or root rot"), takes notes on everything ("I'll need a new page"), "I'll know if you don't". Calls the hero "Deputy", then by name. Never says who her reports go to: asked, she says "Medical returns" or "The order" |
+| Maren | By the book, precise, a medic's calm; a careful listener (mission 3 on). Diagnoses in lists ("a split knuckle, a bruised jaw"; "drought, blight or root rot"), takes notes on everything ("I'll need a new page"), "I'll know if you don't". Calls the hero "Deputy", then by name. Never says who her reports go to: asked, she says "Medical returns" or "The order", until mission 9, where she tells both crews they went to Lord Warden Vey, hands {HERO} her copies and stops. After that she writes lists for herself: "It isn't a report" |
 | Sorrel | Prickly, short, kinder to plants than to people (mission 5 on). Clipped sentences, often one word ("What.", "East."); gentle only with plants and Kin ("Slowly. Nobody's going to take it off you"). Says the blunt true thing ("It isn't lifted. It's buried"). Never thanks anyone outright; does the kind thing and scowls. Says "Kin", the Greenwild's word. Calls the hero "keeper" when she wants something of them, Maren "Tidewarden" |
 | Vesper | Dry wit, few words, a pilot's eye for weather (mission 6 on). Deadpan, two or three words where others use ten ("Pilot. Paid."); talks in weather ("Day fog stands up. Night fog lies down"); money-minded ("I don't give credit. I keep a tab"). Treats Ghost Pokémon as friends. Calls the hero "deputy", Maren "medic". Dislikes the Tidewardens and takes their coin ("Tidewarden orders. My favourite"). Never says where she's from; when it nearly slips, "Never mind. Old weather" |
 | Tamsin | Proud, blunt and funny; rates everything by how hard it hits, out of ten (mission 4 on). Calls Corvin "Landslide". Brave, "not stupid"; soft about the Elder |
 | Nerissa | Calm and wry; a diver's patience (mission 7 on). Slow, short and dry ("'Yet.' A short word with a long tail on it"); hears people by their walk; talks in breath and depth ("Breathe when I breathe. In. Out."); kind without fuss ("Kind. Nobody does anything for nothing. But kind"). Calls Corvin "seal-breaker" while she's testing him. Wants to go home to Pearlhollow, and says so once, not often |
 | Wynn | Chatty, quick, always mid-thought; afraid of heights and says so (mission 8 on). Starts in the middle of a sentence ("...which it is, which I said. Hello!"); runs on, then takes it back ("Ask anyone. Don't ask anyone"); says she's scared of heights every time ("Why is there so much down?"); hears loud thoughts and says that too ("You think very loudly"). Fierce only about her chart |
 | Gary Rivalson | Smug, sure he's the main character, never in danger. Signs off "Smell you next tide!" |
-| Ketch | Corvin's Rimborn skiff pilot: chatty, cheerful under fire, always mid-way through Corvin's funeral song, with a new verse for every place (a volcano verse, a prison verse, a market verse); always eating or about to (missions 2, 4, 7 and 8) |
+| Ketch | Corvin's Rimborn skiff pilot: chatty, cheerful under fire, always mid-way through Corvin's funeral song, with a new verse for every place (a volcano verse, a prison verse, a market verse); always eating or about to (missions 2, 4 and 7 to 10). Crosses the Galeway alone to fetch {HERO} (mission 9); the Wayfarer's cook from mission 10 ("The recipe is: fish"), where the song is finished for Sael and he isn't eating while he sings it |
 | Abbot Haldor | The Forgeheart's abbot, an old champion: formal, slow, few words, fighting sayings. Keeps his word past sense. Calls Corvin "Rimborn" (mission 4) |
 | Harbourmaster Quayle | Canalport's harbourmaster: fussy, kind, talks in tide times and bells, loves his ferry Marill (mission 3) |
 | Captain Rufio Maize | The One Piece cameo (story.md §9a): loud, delighted, always hungry; "Best adventure ever!", "King of the Open Sea", asks everyone to join his crew (mission 3 on) |
-| Tully | The Kestrel's mate: cheerful and practical, proud of the cutter and calls her "she"; says the plain thing ("It's not turning"). Calls the hero "Deputy" once there is one (missions 1 on) |
+| Tully | The Kestrel's mate: cheerful and practical, proud of the cutter and calls her "she"; says the plain thing ("It's not turning"). Calls the hero "Deputy" once there is one (missions 1 on). Says goodbye to the Kestrel in plain words ("Thank you, Kestrel") and becomes the Wayfarer's mate: "She's not the Kestrel. She's very nice, though" (mission 10) |
 | Celebi | The Forest legendary, which talks (story.md §5): rarely, in short strange lines out of time ("This is when"). Tired and thin, and wants only to be remembered (mission 5) |
 | Elder Hollin | The Eldergrove's elder: stern, frightened, proud of the grove's ways. Not cruel: says sorry for what she believes ("I'm sorry for that"), calls Sorrel a fool and "ours" in one breath (mission 5) |
 | Runner Pell | A young Tidewarden runner off the cutter Dunlin: earnest, breathless, very correct ("Begging your pardon"); thanks people for small things ("Thank you for being so easy to find") (missions 5 and 8) |
@@ -200,6 +206,9 @@ story.md is an invention, listed on the page where it's first used.
 | Factor Plumb | A Bazaar moneylender: oily courtesy, "my friend", "my dear", "Business is business"; menace said smiling; fond of the old laws, "paid in coin or paid in kind" (mission 8) |
 | Purser Dabney | Plumb's clerk: nervous, honest underneath, and thinks very loudly ("Don't think it, Dabney") (mission 8) |
 | The Tumbleweed Trio | The Pokémon cameo (story.md §9a): Bramble, grand and theatrical ("Thank you SO much, dears"); Burr, soft, stuck with burrs, always complaining about his legs; Scratch, a talking Meowth in a tricorn hat, bossy ("Do the motto!"). A rhyming call-and-answer motto, bent, never quoted; they leave on "We're tumbling off agaaain!" (mission 8 on) |
+| Old Jory | Fallhaven's net-mender: old, cheerful and contrary ("Up the cliff road? At my age?"); sings the skiff-song "Under the marrow, under the stone" that nobody can explain, and lives to see it explained (missions 2, 9 and 10) |
+| Gannet | The Fallhaven archivist: thin, scrupulous, frightened of the order's vault, which he promised his old master never to open; says "dust" out loud and the truth in his head (Mind Read), then carries the rim's charts out, three hundred and twelve of four hundred (missions 9 and 10) |
+| Cidrick | Fallhaven's shipwright, the Final Fantasy engineer cameo (story.md §9a): hearty, proud and honest about wood; his family built every ship ever, "And most of the ones that aren't", the Wayfarer "probably"; never lies about a hull ("I'm a shipwright, not a liar") (missions 9 and 10 on) |
 | Townsfolk | Each has one small life of their own, a job, a worry or a joke, and talks about that first |
 
 ## 8. Content rules
