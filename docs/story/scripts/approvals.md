@@ -5,7 +5,7 @@
 Demo decision 1 (yours, 18 Oct): the engine side writes every mission's full script in story.md's tone and posts it
 here for your yes or notes before it is built. Each card below is one script page in this folder; read it on GitHub
 (the links are in each card), then pick "Approve as written", "Approve with my notes" (write the notes in the card's
-note box) or "Rewrite it". Missions 3 to 6 are added (18 Oct); missions 7 to 10 follow, faster once you've judged the voice on these. The format, the tokens and the line budget are in [README.md](README.md).
+note box) or "Rewrite it". Missions 3 to 8 are added (18-19 Oct); missions 9 and 10 follow, faster once you've judged the voice on these. The format, the tokens and the line budget are in [README.md](README.md).
 
 ## 2. Decisions for you
 
@@ -111,3 +111,55 @@ Recommended first. The alternatives are in brackets.
     fifty-year song and lost violin; Mimikyu's three hiding places; and the night holding while the crew is on the
     reef. Recommended: accept them into the canon, with story.md updated to match. [Accept with my notes; strike the
     ones I name.]
+12. **Mission 7, Bastion Rock** (mission-07.md, 221 pages). The first Crew 2 interlude. It starts the next time Crew
+    1 rests at an inn or a sanctum after its first recruitment, and hands back where Crew 1 slept. By night Ketch
+    lands Corvin and Tamsin under the order's sea fortress in the west Calm, where a Pearlhollow diver is held for
+    knowing the way to Silverdeep. Tamsin lights the cold beacon so the wall sentry stares out to sea, and Corvin
+    digs under the wall by the sea-gate. In the cells the crew slips past a patrolling guard and blocks Sergeant
+    Pruitt's view with a pushed crate ('Name! Number! Licence!'). They take the keys and free Nerissa, a calm, wry
+    diver who knows people by their walk. She has kept her Froakie in her cell's drain all month: it isn't on the
+    register, so the sergeant says it's a frog. In the records office the tithe ledger lists the Calm's fire, rain,
+    seed and quarry stone, 'Shipped on, all. To the Crown', with no column for anything coming back, and Corvin tears
+    out the page. The alarm bells ring. Down the cistern in the sea caves, Lieutenant Holm loses a fight and sets the
+    boom across the cave mouth on fire. Nerissa's new Douse rains it out, and Froakie carries the crew to Ketch at
+    dawn, where Nerissa gives them a Linking Cord. Later that morning a letter from Ilse reaches Crew 1: the
+    seal-breaker is building a crew, and the Pinnacle will set a price on him. Corvin gets two reply beats, the main
+    path has four puzzles, and Old Tarrant sells a Magikarp through the bars for five hundred coins, then five (the
+    egg). Read it at
+    https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-07.md. Recommended:
+    approve it as written. [Approve with my notes; rewrite it.]
+13. **Mission 8, The Tradewind Bazaar** (mission-08.md, 304 pages: 175 in the story, 64 in optional contracts). The
+    second Crew 2 interlude. It starts at Crew 1's next rest after its second recruitment, once mission 7 is done.
+    Ketch brings Corvin, Tamsin and Nerissa through the Galeway to a hundred ships lashed into one market, looking
+    for a chart with the Crown on it. The only one is Wynn's. She is a chatty cartographer who is scared of heights,
+    and her 'impossible' chart sits in Factor Plumb's strongbox against a 200-coin debt he has made 2,000 with one
+    added nought. By the Bazaar's oldest law he takes her Ralts at the turn of the tide. She joins on the promise of
+    a heist. Her Mind Read hears Plumb's purser, Dabney, thinking two of the numbers and 'the last one's on the bow'.
+    Her Whirlwind swings a sail into a bridge to Plumb's ship ('Why is there so much down?'), Move clears his
+    collateral, and the strongbox's dial opens on the original note, the chart and her Dawn Stone. The Tumbleweed
+    Trio burst out of a crate labelled ORANGES after the 'treasure map', lose, and are blown away on Wynn's wind
+    ('We're tumbling off agaaain!'). At the Guild, Tally weighs the two notes and Dabney blurts the truth. The nought
+    costs Plumb 1,800 coins. The crew is fined one coin and joins the Freeport Guild at Bronze, with five
+    hand-written contracts on the board. Wynn's chart shows six threads from the Well sites meeting in a ring under
+    the Pinnacle, the Crown, and a tower in the north where the sky-ships moored. Corvin lays the torn ledger page on
+    it and sails east for Sael's archive at Fallhaven. Crew 1 wakes to Runner Pell with three wanted posters, and
+    Corvin's is the worst likeness. Corvin gets two reply beats, the main path has four puzzles, and both of
+    story.md's mission 8 eggs are in. Read it at
+    https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/main/docs/story/scripts/mission-08.md. Recommended:
+    approve it as written. [Approve with my notes; rewrite it.]
+14. **New canon in missions 7 and 8.** The full lists are at the end of each page. At Bastion Rock: - Pearlhollow's
+    divers come and go under the Galeway. Nerissa refused Hask at Coralreach this spring, and the order took her on a
+    Calm quay for 'knowledge of restricted waters'. - The fortress: the strand, the beacon and the sea-gate; the
+    cells, records office and registry pen; the sea caves and their boom of tar barrels. - Its people: Sergeant
+    Pruitt, Lieutenant Holm and Old Tarrant with his forty Magikarp. - Nerissa: her look, how she reads people's
+    walks, Froakie in the drain, and Douse as her first field Psynergy. - The tithe ledger, 'Shipped on, all. To the
+    Crown', with Marrow Isle's quarry stone as the Earth tithe and Corvin's torn page. - The Pearlhollow linking
+    cord.  At the Bazaar: - Three walkable ships among a hundred painted ones; 'A hundred hulls, one law: the
+    Guild's'; debts 'paid in coin or paid in kind'; the order's one licence desk. - Guildmistress Tally, Factor
+    Plumb, Purser Dabney and the market's people. - Wynn: her look, her debt for engraving the chart, her mother at a
+    window in the clouds naming the Crown, and her fall into the sea off Eastwater with the Dawn Stone in her fist. -
+    The chart's six silver threads and the northern tower. - The Guild's ruling and Bronze rank. - The five
+    contracts. - The Trio, Bramble, Burr and Scratch: their bent motto, the PERSIAN card, and having themselves
+    delivered as oranges. - The poster bounties (Corvin 5,000, Tamsin 1,200, the diver 800, the cartographer 300) and
+    their portraits.  Recommended: accept them into the canon, with story.md updated to match. [Accept with my notes;
+    strike the ones I name.]
