@@ -86,9 +86,9 @@ hold it on my own.
 
 1. "I'm coming." · quiet: (Nod)
 
-   **Ketch:** He said you'd say that. He also
-   said you'd argue first. ...You
-   didn't argue.
+   **Ketch:** He said you'd say that. Straight
+   off, no arguing. ...I owe him a
+   biscuit.
 
 2. "He's a seal-breaker." · quiet: (Shake head)
 
@@ -171,8 +171,8 @@ That's the high town behind you.
 Sael's on the plaza, and Corvin's
 with her. Mind the edge.
 
-*A woman pushes up the last bend against the crowd, looking at every child she passes: Hanne. [walk Hanne →
-before Ketch]*
+*A woman pushes back out through the gate against the crowd, looking at every child who passes: Hanne. [walk Hanne
+→ before Ketch]*
 
 **Hanne:** Ketch! Have you seen Pip? Pip was
 right behind me. I turned round, and
@@ -220,7 +220,7 @@ out]*
 *Quiet: [pose {HERO}: nod] and no line.*
 
 **Corvin:** I did. Ketch owes me a biscuit.
-He said you'd stop to arrest me
+He bet you'd want a warrant
 first.
 
 **Maren:** Corvin of Fallhaven. There's a
@@ -312,7 +312,7 @@ different bread. Same idea.
 
 **Tanner:** Forty years on the east street,
 and now I lodge with a Saltcombe
-man. He snores in his sleep.
+man. He snores like a foghorn.
 
 **Ossian:** Again. We're doing this again.
 
@@ -454,8 +454,9 @@ door. [crew out]*
 medic, a forest girl and a fog
 pilot. They came through a storm.
 
-**Corvin:** Two nights of it. Ketch says
-{HERO} didn't argue once.
+**Corvin:** Two nights of it, in a cutter,
+through the lanes. Nobody does
+that.
 
 **Sael:** Hm. The medic looked at my hands
 before she looked at my face. I
@@ -685,9 +686,9 @@ being drunk.
 summer. The fields green, the
 Pinnacle bright. Every year.
 
-**Ledger:** The cost, as the founders set it:
-the rim. Measured each year at the
-edge posts. A street a year.
+**Ledger:** The cost, as the founders reckoned
+it: the rim. Measured every year at
+the edge posts. A street a year.
 
 **Corvin:** The edge posts. THE EDGE WAS HERE.
 They were never ours. They were the
@@ -933,7 +934,9 @@ have me.
 **Corvin:** Sael would have asked one thing.
 Can she set a bone?
 
-**Corvin:** She can. So she stays.
+**Maren:** ...I can.
+
+**Corvin:** Then she stays.
 
 *[wait 20] Running feet. Ketch comes out through the high town gate and stops dead when he sees their faces. [show
 Ketch] [walk Ketch → the gate]*
@@ -1686,7 +1689,7 @@ Things story.md doesn't say, for you to keep or strike:
 - **Maren's confession:** to both crews, at the cliff top; Lord Warden Aurelian Vey named in Act I for the first
   time; he asked for her by name, "a medic to watch the deputy. The deputy would lead him to the seal-breaker"; "I
   noticed you noticing. I wrote that down too"; her notebook of copies handed to {HERO}, a seed for her trial
-  (mission 13) and Ilse's (mission 21); and Corvin's "Can she set a bone? She can. So she stays."
+  (mission 13) and Ilse's (mission 21); and Corvin's "Can she set a bone?" "...I can." "Then she stays."
 - **The way home:** every boat in the west cove follows Ketch through the Galeway; the Kestrel's keel cracks on the
   second night (mission 10's funeral); one lamp goes another way into the storm (Hask, for mission 11); Crew 2 hides
   under Ketch's nets ("sacks of nets. You've had practice", mission 2's "look like a sack of nets"); the Holdfast's
