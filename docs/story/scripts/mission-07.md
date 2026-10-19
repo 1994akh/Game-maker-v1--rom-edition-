@@ -10,7 +10,7 @@
 | Plays after | Crew 1's first recruitment (mission 5 or 6, either order), at Crew 1's next rest at an inn or a sanctum (demo decision 7; story.md §14 Q1) |
 | Crew | Corvin (at his L8 floor, progression 1) and Larvitar, Tamsin and Riolu, with crew 2's own bag; Nerissa (L8) and Froakie join in scene 8 |
 | Rooms | Wherever Crew 1 rests (the handover and the hand-back); `bastion_shore` (re-clipped: the strand and the sea-gate); `bastion_jail` (re-clipped larger: the cistern landing, the cell corridor, the guard passage, the key room, the records office, the seized-goods store); `bastion_caves` (new: the sea-cave escape, decision 5) |
-| Clock | The rest sets dawn for Crew 1; the handover sets night for Crew 2; night through the break-in; dawn at the cave mouth, and Crew 1 wakes at dawn |
+| Clock | The rest sets dawn for Crew 1; the handover sets night for Crew 2; night through the break-in; dawn at the cave mouth, and Crew 1 wakes at dawn; Ilse's letter comes later that morning (day) |
 | Flags in | `m5_done` or `m6_done`; `m5_sorrel` and `m6_pilot` for Crew 1's lines in the hand-back |
 | Flags out | `m7_started`, `m7_intro`, `m7_beacon`, `m7_tunnel`, `m7_jail_intro`, `m7_passage`, `m7_cover`, `m7_key`, `m7_cell_open`, `m7_freed`, `m7_ledger`, `m7_alarm`, `m7_sluice`, `m7_caves_in`, `m7_holm`, `m7_boom_lit`, `m7_boom`, `m7_done`, `m7_letter`; and, optional, `m7_strand_dug`, `m7_flagstone`, `m7_magikarp`, `m7_pen`, `m7_store`, `m7_locker`, `m7_cave_stash` |
 | Unlocks | Nerissa (Sea, with Froakie) joins, and with her Frost, Ply and **Douse** (new, built for the boom: decision 6's "whatever Nerissa brings"); Surf for crew 2 (Froakie, under mission 3's `hm_surf`); the Linking Cord in crew 2's bag (story decision 5: Vesper's, usable once the bags merge at mission 10); the word "Crown" for crew 2 |
@@ -20,7 +20,8 @@
 
 **The flow.** The next time Crew 1 rests at an inn or a sanctum after its first recruitment, the story crosses to
 Corvin's crew. The Rimborn lanes say the Tidewardens are holding a diver of the Deep Shelf at Bastion Rock, the
-order's sea fortress in the west Calm, because she knows the way to Silverdeep. Corvin wants the way. By night Tamsin
+order's sea fortress in the west Calm, because she knows the way to Silverdeep. They took her in the Calm, where
+she had come up under the storm to trade. Corvin wants the way. By night Tamsin
 lights the fortress's cold beacon so the wall sentry stares out to sea, and Corvin digs under the wall by the
 sea-gate. In the cells the crew slips past a patrolling guard and blinds the duty sergeant with a pushed crate, takes
 the cell keys and frees Nerissa, who has kept her Froakie in her cell's drain all month: it isn't on the register, so
@@ -28,7 +29,7 @@ the sergeant says it isn't a Pokémon. In the records office the tithe ledger li
 stone, "shipped on, all, to the Crown", with no column for anything coming back. Corvin tears out the page. The bells
 ring: the tunnel is found. Down the cistern into the sea caves, Lieutenant Holm stops them on the landing, loses, and
 fires the boom across the cave mouth; Nerissa's Douse puts it out, and Froakie carries them out to Ketch at dawn.
-Crew 1 wakes where it rested, to a letter from Ilse.
+Crew 1 wakes where it rested, and later that morning a letter from Ilse finds it.
 
 ## Scenes
 
@@ -40,9 +41,9 @@ Crew 1 wakes where it rested, to a letter from Ilse.
 *The rest's fade holds on black. The innkeeper's after-rest line is held back until Crew 1 returns (Changes to the
 build).*
 
-**Narration:** {HERO} slept. Far to the west,
-in the dark of the Calm, a Rimborn
-skiff was running without lights.
+**Narration:** {HERO} slept. Out in the west
+Calm, in the dark, a Rimborn skiff
+was running without lights.
 
 It came in under a rock the order
 built to keep things in. The
@@ -61,7 +62,8 @@ sea-gate, two iron leaves taller than a mast, chained shut for the night. A lamp
 ring of light across the strand. West of the landing, on a spur of rock, stands a cold iron beacon. Ketch's skiff
 noses onto the shingle at the strand's west end.*
 
-*[crew out] Tamsin steps out beside Corvin, and Riolu beside Larvitar. Ketch stays in the skiff with the oars.*
+*[crew out] Tamsin steps out beside Corvin, and Riolu beside Larvitar. Ketch stays in the skiff with the oars and a
+bag of ship's biscuit.*
 
 **Ketch:** Bastion Rock. Every Rimborn who
 ever sailed dark has a bad story
@@ -272,15 +274,18 @@ who knows the way to Silverdeep.
 **Nerissa:** Everyone wants the way to
 Silverdeep. That's why I'm in here.
 
-A month ago some Rimborn came down
-to Pearlhollow asking for it. A man
-in a coat made of old sails.
+This spring some Rimborn came to
+Coralreach, over our domes, asking.
+A man in a coat made of old sails.
 
 **Corvin:** ...Hask.
 
 **Nerissa:** He didn't give a name. I said no.
-Then the Tidewardens came, and they
-didn't ask.
+Then I came up under the storm to
+trade in the Calm. Divers do.
+
+The Tidewardens took me on the
+quay. They didn't ask.
 
 "Knowledge of restricted waters."
 That's the charge. I know where the
@@ -368,8 +373,8 @@ it aloud every night.
 a ledger open on it. [crew out]*
 
 **Nerissa:** Every night the clerk reads this
-to the commandant. Every night, a
-month. I learned it like a song.
+to the commandant, through that
+wall. I learned it like a song.
 
 *Corvin turns the ledger to the lamp, and reads.*
 
@@ -394,16 +399,16 @@ Forgeheart. That's our fire.
 
 **Corvin:** And Marrow Isle. Quarry stone.
 
-{HERO} cuts that stone. Every
-summer, out of Brann's quarries.
+{HERO} cuts it. So did I, once.
+In Dunstan's quarry.
 
 *[wait 20] Corvin runs a finger down the page, then across it, then down again.*
 
 **Corvin:** Received. Shipped on. Where's the
 column for what comes back?
 
-**Nerissa:** There isn't one. I listened every
-night for a month.
+**Nerissa:** There isn't one. I listened for
+it every night.
 
 **Tamsin:** What's the Crown?
 
@@ -497,8 +502,7 @@ bars burst out of the stone and drop into the water with a splash. [hide the gra
 
 **Tamsin:** Four out of ten. It was rusty.
 
-**Nerissa:** I've been in here a month. I could
-have used you a month ago.
+**Nerissa:** Where were you a month ago?
 
 *[crew in] [flag m7_sluice] [warp bastion_caves, entrance 0]*
 
@@ -515,8 +519,8 @@ rides the swell on a chain. [crew out]*
 **Nerissa:** The sea caves. Every wave in the
 west Calm comes in here to shout.
 
-I've listened to them for a month.
-It's good to see them.
+I've only ever heard them. It's good
+to see them.
 
 *Froakie hops into the pool and paddles a circle, waiting. [emote Froakie: smile]*
 
@@ -691,9 +695,9 @@ Cord!
 - Room: wherever Crew 1 rested. Trigger: Crew 1 resuming there, once `m7_done`, unless `m7_letter` (mission 4's
   enter scene on resuming, played in whatever room Crew 1 rested in).
 
-*[fade in 40] Dawn, where Crew 1 rested. The innkeeper's after-rest line plays (it was held back). Then a Wingull
-finds the crew, as Wingulls always do, and lands at Maren's feet with a letter tube on its leg. [show Wingull]
-[crew out]*
+*[fade in 40] Dawn, where Crew 1 rested. The innkeeper's after-rest line plays (it was held back). [fade out 20]
+[phase day] [fade in 20] Later that morning a Wingull finds the crew, as Wingulls always do, and lands at Maren's
+feet with a letter tube on its leg. [show Wingull] [crew out]*
 
 **Maren:** The Commodore's seal again. It's
 for you, Deputy.
@@ -760,6 +764,8 @@ the book.
 **Maren:** ...Hold to our own work, she says.
 So we hold to it.
 
+*She folds the letter away, takes out her notebook and writes a line. She doesn't say who it's for.*
+
 *[crew in] [flag m7_letter] Control returns. Crew 1 plays on from where it rested.*
 
 ## People and signs, by room
@@ -790,7 +796,7 @@ break. Positions are places in the re-clipped room.
   *Then, in both:*
 
   **Ketch:** A nap in the boat? I'll keep
-  watch. And sing. Quietly.
+  watch. And eat. Quietly.
 
   *[menu: Rest, Pokémon, Not now] (the inn's menu, at no charge)*
 
@@ -1316,14 +1322,18 @@ in the demo; Maren's Douse, which follows the shared Sea list by level once Dous
 
 Things story.md doesn't say, for you to keep or strike:
 
-- **The handover's words,** written for any restoration point ("{HERO} slept. Far to the west..."), and the
-  innkeeper's after-rest line held back until the letter.
+- **The handover's words,** written for any restoration point ("{HERO} slept. Out in the west Calm..."), with no
+  direction from wherever Crew 1 sleeps, and the innkeeper's after-rest line held back until the letter.
 - **Why Corvin goes:** the Rimborn lanes' word that the order took a diver who knows the way to Silverdeep, the Sea
   Well's site; Corvin wants the way, and Nerissa's terms are "Get me out. One day, get me home to Pearlhollow. And
   I'll think about the way".
-- **Hask at Pearlhollow:** the Rimborn in a coat of old sails who asked Nerissa for the way a month before; she
-  refused, and the order jailed her anyway on "knowledge of restricted waters" (a seed for Hask at Silverdeep,
-  mission 18, and for the order and the Breakers being each half right).
+- **Hask at Coralreach:** the Rimborn in a coat of old sails (mission 2's coat) who came asking Nerissa for the way
+  this spring; she refused (a seed for the Breakers recruiting at Coralreach, mission 16, and Hask at Silverdeep,
+  mission 18).
+- **Divers of the Shelf come and go under the Galeway** ("I came up under the storm to trade in the Calm. Divers
+  do"), so the order took Nerissa on a Calm quay, on "knowledge of restricted waters". This keeps mission 4's rule
+  that the order's ships turn back at the Galeway: they never sailed to Southdeep for her. The order and the
+  Breakers both wanted the way, each half right.
 - **Bastion Rock:** the strand, the sea-gate, the lamp and the wall sentry, the cold beacon, the soft fill under the
   quay; the cistern landing, the cell corridor with deep doorways, the guard passage, a key room labelled in a neat
   hand, the records office, the seized-goods store, the registry pen and the rules board; the sea caves, the outfall,
@@ -1340,7 +1350,8 @@ Things story.md doesn't say, for you to keep or strike:
   seed and sap (mission 5's notice), and **Marrow Isle's four hundred blocks of quarry stone**, the Earth tithe, which
   no earlier page names; no column for anything coming back; Corvin's torn page, kept as proof.
 - **Corvin's lines:** "I left {HERO} a question, on Lantern Reef" (mission 6's note, left before this mission in
-  either order), "{HERO} cuts that stone", "It was a very good hole", "Then that's where we go next".
+  either order), "{HERO} cuts it. So did I, once. In Dunstan's quarry" (mission 1's quarry foreman and the
+  hero's work), "It was a very good hole", "Then that's where we go next".
 - **Tamsin:** the beacon "Eight out of ten", breaking the grate ("Four out of ten. It was rusty"), "I've never seen
   anybody un-set one".
 - **Ketch:** his four bad stories about the rock, the prison verse, the skiff as crew 2's free restoration point,
@@ -1348,9 +1359,12 @@ Things story.md doesn't say, for you to keep or strike:
 - **The Linking Cord** (story decision 5): a Pearlhollow diver's cord, given by Nerissa in the skiff "for the crew",
   with "A Haunter, they say", which points at Vesper's Gastly without naming her.
 - **Ilse's letter:** the breakout, the torn ledger page ("I cannot think why"), "He is building a crew", the price
-  to come and "Leave him to the fleet".
+  to come and "Leave him to the fleet"; it comes later the same morning, not at dawn, so a Wingull has had time to
+  fly it.
 - **Crew 1's lines:** "He isn't running. He's looking for something"; Maren's "Nobody has ever got out of Bastion
-  Rock" and her "The tithe goes to the Pinnacle"; Vesper's and Sorrel's lines.
+  Rock" and her "The tithe goes to the Pinnacle"; Vesper's and Sorrel's lines; Maren writing a line in her notebook
+  for no one she names (the reports' thread, missions 5, 6 and 9).
+- **Ketch** eating as he waits (a bag of ship's biscuit), as in missions 2 and 4.
 - **Lieutenant Holm's fight** on the landing, which story.md doesn't name: the dungeon's one fight, for crew 2's
   EXP and coins (items §12's "interlude fights") and Nerissa's first battle in the crew.
 - **The rewards:** Nut ×1, 60 coins, 120 coins (the Bastion locker), the Bandit's Sword, Herb ×2, Magikarp and
@@ -1381,7 +1395,8 @@ Things story.md doesn't say, for you to keep or strike:
   `m7_started`; it holds back that rest's after-rest line. Today's `when` steps at the ends of `celebi_vision`
   (`eldergrove_heart`) and the note's `scene_after` (`lantern_reef`) come out, as missions 5 and 6 ask.
 - **A scene on resuming, in any room** (scene 16): from the same shared file, it plays when `resume_crew` returns
-  Crew 1, once `m7_done` and unless `m7_letter`, wherever Crew 1 rested, after the held-back after-rest line.
+  Crew 1, once `m7_done` and unless `m7_letter`, wherever Crew 1 rested, after the held-back after-rest line; its
+  `phase day` and fades stand for the morning passing before the Wingull comes.
 - **Guards:** a guard row with no patrol (the sentry, Pruitt) keeps one heading; **a pushed block in a guard's line
   stops his sight**, as a wall does (puzzle 3); **caught steps per guard** (the sentry's and Pruitt's own), the
   room's as the default.
