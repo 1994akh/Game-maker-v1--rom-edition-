@@ -320,3 +320,655 @@ disappointing.
 *[crew in] [flag m10_berth_in] Control returns. The stair's last flight is buried in shingle (puzzle 2), and the
 ship's gangway swings over the water on its chain (puzzle 3).*
 
+### 7. The Wayfarer
+
+- Room: `wayfarer`, the deck. Trigger: boarding by the gangway, unless `m10_ship` (today's `wayfarer_found`,
+  rewritten and split into scenes 7 to 9).
+
+*[fade in 30] The Wayfarer's deck: pale grey planks, smooth as river stone; brass fittings gone green. Aft, a wheel
+taller than a man. Amidships, a hatch with a brass grating over it, and under the grating, nothing but dark. At the
+stern, a cabin door with a window of blue glass. Both crews come aboard. [show Corvin, Tamsin, Nerissa and Wynn]
+[crew out]*
+
+*Under the grating, something takes a breath. [light: red, brightening through the grating] A low hum comes up
+through the planks into everyone's boots. [shake 10, 1] [emote everyone: exclaim]*
+
+**Tamsin:** That's fire. Down there. ...I know
+that fire.
+
+*[walk Tamsin → the grating] [pose Tamsin: kneel] [camera → the grating] Below it, in the engine's well, six chambers
+of thick glass stand in a ring round a heart of brass. Five are dark. In one, a flame burns, red and gold.*
+
+**Tamsin:** That's the Well's fire. Ours. The
+Forgeheart's, in a glass jar,
+running a ship.
+
+**Corvin:** The Flame Well. I opened it, and
+it burned down a monastery.
+
+**Tamsin:** And now it's in a ship. That's a
+nine, Landslide. I'm being
+generous.
+
+**Wynn:** Six chambers. Six Wells. She runs
+on what's open, and one is.
+
+*[camera back] Ketch has come down the stair after them. He stands on the quay with his mouth open and an apple in
+his hand. [show Ketch] [walk Ketch → the gangway's foot]*
+
+**Ketch:** One's plenty. Out in the Wide
+there are the Stillwaters. Dead
+calm. No wind. No current.
+
+**Ketch:** Boats sit in them till they're
+bones. Not her. Not with a fire in
+her belly.
+
+**Corvin:** Does she have a name?
+
+*[walk Wynn → the bow] [pose Wynn: lean over the rail] [emote Wynn: sweat]*
+
+**Wynn:** There's letters on the bow. I can't
+read the top ones. Nobody reads
+Farer.
+
+**Wynn:** But somebody's cut plain letters
+under them. Old ones. They say
+WAYFARER.
+
+**Corvin:** The Wayfarer.
+
+*[crew in] [flag m10_ship] Control returns. The chart room is at the stern; the muster roll stands by the
+mainmast.*
+
+### 8. The cradle and the Log
+
+- Room: `wayfarer`, the chart room. Trigger: talking to the chart table (slot 11), once `m10_ship`, unless
+  `m10_log`.
+
+*The chart room: a stern cabin under a window of blue glass, with a chart table of the same grey wood, and on the
+table a brass cradle cut to the exact shape of a compass. Beside the cradle lies a book bound in blue-grey leather,
+the six marks pressed into its cover. [crew out]*
+
+**Wynn:** That's a cradle. For a compass.
+That size. That exact size.
+
+*Everyone looks at {HERO}. {HERO} takes out the Lodestar and sets it in the cradle. It fits as if it had never left.
+[pose {HERO}: set the Lodestar down]*
+
+*[wait 40] [light: a faint blue glow round the cradle's rim] The needle of blue glass shivers. It swings once, a full
+turn, slowly, like something stretching in its sleep. Then it settles, trembling, pointing at nothing. [shake 10,
+1]*
+
+**Maren:** It moved.
+
+**Corvin:** Brann's had that since before his
+grandmother. It never once moved.
+
+**Sorrel:** It isn't awake. It's stirring.
+Like the wood.
+
+*[flag m10_cradle]*
+
+**System:** The Lodestar stirred in its
+cradle. It still points nowhere.
+
+*In the blue light, the book beside the cradle falls open on its own. [walk Wynn → the table]*
+
+**Wynn:** The first half's Farer. I can't read
+a word of it. Look at the charts,
+though. Look at them.
+
+**Wynn:** Then blank pages. Hundreds of them.
+Wait. They aren't blank. They're...
+
+*[light: ink spreading across the pages] On the blank pages, ink comes up through the paper like a stain through
+cloth: drawings, names, lines in a small neat hand.*
+
+**Wynn:** It's writing! It's writing itself!
+That's Canalport! That's the reef!
+That's a Marill!
+
+**Nerissa:** That's the Bazaar. How does it
+know about the Bazaar?
+
+**Corvin:** It's a Farer book. I've stopped
+asking how.
+
+**Maren:** It's been keeping notes. All this
+time. On all of us.
+
+*[wait 30]*
+
+**Maren:** ...I know how that sounds.
+
+**Vesper:** From you? Yes.
+
+*[emote Maren: sweat] Wynn turns back to the last of the Farer pages. Under the Farer script, in the same old plain
+letters as the bow, there is one line.*
+
+**Wynn:** There's one line I can read. Plain
+letters, like the bow.
+
+**Log:** To whoever finds her: keep the
+Log. We will come back when it is
+complete.
+
+**Corvin:** Come back. From where?
+
+*Nobody answers. Wynn looks up through the blue window, as if she could see the sky through the rock.*
+
+*{HERO} lifts the Lodestar back out of its cradle. Its needle drifts, and goes still. [give Farer's Log] [flag
+m10_log]*
+
+**System:** {HERO} received the Farer's Log!
+
+**System:** It keeps both crews' records: Kin,
+Bestiary, Charts, Relics and
+Cultures.
+
+**System:** And the Guild Ledger and your
+Bearings. Open it from the Start
+menu.
+
+*[crew in] Control returns.*
+
+### 9. The muster roll
+
+- Room: `wayfarer`, by the mainmast. Trigger: talking to the muster roll (slot 12), once `m10_log`, unless
+  `m10_muster`.
+
+*A board of the grey wood by the mainmast, ruled in two columns. At the top of each, faded Farer letters; under them,
+empty lines. A stick of chalk hangs from it on a cord, as if somebody meant to come back and fill it in. [crew
+out]*
+
+**Corvin:** A muster roll. Two columns. Two
+crews. One ship.
+
+**Tamsin:** Put me at the top. I hit the
+hardest.
+
+**Wynn:** Let me. My hand's the neatest.
+Nobody argue. Nobody's hand is
+neater than mine.
+
+*[walk Wynn → the roll] [pose Wynn: write] She writes fast and small, in two columns: Corvin's crew on one side,
+{HERO}'s on the other, and the two leads at the top, side by side.*
+
+**Wynn:** There. Two keepers, standing where
+one can't. The keeper said it, so
+it goes on the roll.
+
+**Nerissa:** And the bags. Two crews, two bags,
+two purses, on one ship. That's
+silly.
+
+**Maren:** Everything into the hold, then.
+I'll do the inventory. I like an
+inventory. It isn't a report.
+
+*[fade out 20] [merge bags] [fade in 20] Both crews' packs lie open on the deck, and Maren is writing a list.*
+
+**System:** The two crews' bags and purses are
+one now.
+
+**Maren:** Your crew carries one linking
+cord, one Dawn Stone and a great
+many biscuit crumbs.
+
+**Tamsin:** Your crew carries a great many
+Herbs.
+
+**Maren:** Herbs first. Always Herbs first.
+
+*[flag crew_swap]*
+
+**System:** Crew swapping is open. The crew
+you aren't playing waits on Marrow
+Isle, its lead in Stonehollow.
+
+**System:** Talk to the waiting lead to take
+over, or to trade Adepts. The muster
+roll trades them too.
+
+**Corvin:** Your crew, my crew. Swap whoever
+you like. Only the two of us stay
+put.
+
+**Corvin:** Somebody has to stand at the top
+of each column.
+
+*[crew in] [flag m10_muster] From the galley hatch, a shout:*
+
+**Ketch:** Supper! Fish stew! Come down
+before I eat it all!
+
+*Control returns. The galley is below, down the hatch by the mainmast.*
+
+### 10. Supper
+
+- Room: `wayfarer_galley` (new). Trigger: entering, once `m10_muster`, unless `m10_supper`.
+
+*[phase dusk] [fade in 30] The galley: a long table of the grey wood with benches down both sides, and a stove of
+Farer brass that Ketch has somehow lit and is very pleased about. Both crews crowd onto the benches with a bowl each.
+[show Corvin, Tamsin, Nerissa and Wynn] [crew out]*
+
+**Ketch:** Fish stew. Rimborn recipe. The
+recipe is: fish.
+
+**Tamsin:** Six out of ten. Seven with bread.
+
+**Ketch:** There's no bread.
+
+**Tamsin:** Six, then.
+
+*Boots on the ladder, slow and heavy, and a good deal of muttering. Brann comes down into the galley one rung at a
+time, a pie in a cloth under one arm. [show Brann] [walk Brann → the head of the table]*
+
+**Brann:** Six hundred steps to a ship. My
+knees will be writing to you both.
+Separately.
+
+**Brann:** I said supper. I didn't say
+where.
+
+*He sets the pie down in the middle of the table. [emote Wynn: heart]*
+
+**Maren:** Maudie's.
+
+**Brann:** It's always on.
+
+*[wait 20] Nerissa leans across the table and puts the braided cord into Vesper's hand.*
+
+**Nerissa:** The linking cord. I said one day
+somebody's Pokémon would want it
+more than mine does.
+
+**Nerissa:** A Haunter, they say. Yours is a
+Gastly. It'll grow.
+
+*[emote Gastly: heart]*
+
+**Vesper:** Gastly doesn't want anything.
+
+*[wait 20]*
+
+**Vesper:** ...Gastly wants that.
+
+**Brann:** Ketch tells me my compass moved.
+
+**Wynn:** It turned right round! In a cradle!
+And a book wrote itself! I can show
+you the book!
+
+**Brann:** Six keepers carried that compass
+before me. It never moved for one
+of us.
+
+**Brann:** It was waiting for the ship, not
+for you, apprentice. Don't let it
+go to your head.
+
+*[wait 30] Corvin stands, with his cup. The table goes quiet.*
+
+**Corvin:** To Sael.
+
+**All:** To Sael.
+
+**Brann:** To the captain.
+
+**Ketch:** I finished the song, you know.
+The funeral one. ...Not tonight.
+
+*[wait 30] Brann turns to {HERO}.*
+
+**Brann:** Well, apprentice. You went out a
+deputy. You've come home with a
+ship and a seal-breaker.
+
+**Brann:** So. What are you now?
+
+**{HERO} replies:**
+
+1. "Still your apprentice." · quiet: (Nod)
+
+   **Brann:** Hm. You'll always be that. It's
+   not an answer. I'll take it.
+
+2. "Not just a keeper." · quiet: (Shake head)
+
+   **Brann:** No. Not just. A keeper, a deputy
+   and a friend of seal-breakers. A
+   busy year.
+
+3. "I don't know yet." · quiet: ...
+
+   **Brann:** Good. Nor do I. That's where the
+   good keepers start.
+
+*Every reply rejoins here.*
+
+**Brann:** Eat your pie. That's an order.
+Mine outranks the Commodore's, at
+this table.
+
+**Corvin:** Since when?
+
+**Brann:** Since the table.
+
+*[crew in] [flag m10_supper] [fade out 30]*
+
+**Narration:** Later, Brann went back up the six
+hundred steps, complaining all the
+way. The crews went below to sleep.
+
+*[phase night] [warp wayfarer_quarters, entrance 0]*
+
+### 11. The first night
+
+- Room: `wayfarer_quarters` (new). Trigger: entering, once `m10_supper`, unless `m10_night`.
+
+*[fade in 30] The quarters: eight bunks of the grey wood down both walls, each with a curtain and a little lamp.
+Tamsin has already claimed the biggest. Vesper has slung a hammock between two hooks instead. [crew out] Each Adept
+goes to a bunk and stays there for the night (the first night's rows, below). {HERO}'s bunk is at the end, beside
+Corvin's.*
+
+**Corvin:** Eight bunks. Exactly eight. Do
+you ever feel like somebody
+planned this?
+
+**{HERO}:** Every day, lately.
+
+*Quiet: [emote {HERO}: sweat] and no line.*
+
+**Corvin:** Talk to whoever you like. I'll be
+on the end bunk, being quiet. It's
+a new thing I'm trying.
+
+*[flag m10_night] Control returns. Each Adept's bunk plays that Adept's talk, once (the talks, below). {HERO}'s own
+bunk ends the night (scene 12).*
+
+### The talks (the first night)
+
+Room: `wayfarer_quarters`, each Adept at their bunk. Trigger: talking to the Adept, once `m10_night`, unless that
+talk's flag. All seven are optional and can come in any order; each sets its flag and plays once (decision 5's "one
+talk per Adept"). From `m10_done`, the bunks give the free-play lines instead (People and signs).
+
+**T1. Corvin** (`m10_talk_corvin`)
+
+*Corvin sits on his bunk with Sael's coat across his knees, picking at a burn on its sleeve.*
+
+**Corvin:** She burned this sleeve on a lamp,
+the winter I came. Never mended it.
+"It's a reminder."
+
+**Corvin:** Of what, I asked. Of not leaning
+on lamps, she said.
+
+*[wait 30]*
+
+**Corvin:** I keep thinking she'll come down
+that ladder and tell me my bunk's a
+disgrace.
+
+**Corvin:** It is a disgrace. Look at it.
+
+*[wait 30] [face Corvin → {HERO}]*
+
+**Corvin:** You came. I asked, and you came.
+I'd never asked anybody for
+anything.
+
+**Corvin:** When this is over, I'm going back
+to the rim. There's a post there
+that says THE EDGE WAS HERE.
+
+**Corvin:** I want to put up one that says
+something else. I don't know what
+yet.
+
+**Corvin:** You'll help me think of it. You
+always had the good words. I just
+had the loud ones.
+
+*[flag m10_talk_corvin]*
+
+**T2. Maren** (`m10_talk_maren`)
+
+*Maren sits on her bunk with a new notebook open on her knee, a pencil in her hand. The page is empty.*
+
+**Maren:** I bought a new notebook from Nell.
+Herbs first, she said. Then she sold
+me the notebook.
+
+**Maren:** I've sat here an hour. I don't know
+what to write when nobody's going
+to read it.
+
+**Maren:** Every page I ever wrote, I wrote
+for someone. The order. The Lord
+Warden.
+
+*[wait 30]*
+
+**Maren:** You have the old one. My reports.
+Whatever you decide to do with
+them, I'll stand by it.
+
+**Maren:** If I ever write for the order
+again, it'll be something it has to
+read. Rules. Better ones.
+
+**Maren:** ...I'll start with a list. I always
+start with a list. It's how I know
+I'm still me.
+
+*[flag m10_talk_maren]*
+
+**T3. Sorrel** (`m10_talk_sorrel`)
+
+*Sorrel kneels on her bunk with her palm flat on the wall beside it and her eyes shut. Rowlet sits on her head.*
+
+**Sorrel:** Shh. Listen.
+
+*[wait 40]*
+
+**Sorrel:** It's alive. The whole hull, under
+the polish. Asleep, like the tree
+was before the spring.
+
+**Sorrel:** I could wake it. Not with Growth.
+With something I haven't got yet.
+
+*[wait 30] She takes her hand off the wall.*
+
+**Sorrel:** We buried the Forest seal on the
+order's word. Your Earth. My roots.
+You were there.
+
+**Sorrel:** That Ledger says every seal drinks
+its Well. We made that one drink
+harder.
+
+**Sorrel:** One day I'm going back to undo it.
+And to plant something in the ash
+where the groves burned.
+
+**Sorrel:** Don't tell anyone I said that.
+Especially the Elder.
+
+*[flag m10_talk_sorrel]*
+
+**T4. Vesper** (`m10_talk_vesper`)
+
+*Vesper lies in her hammock, slung between two hooks over a perfectly good bunk, one boot over the edge, Gastly curled
+on her chest with the linking cord round it like a scarf.*
+
+**Vesper:** I don't do bunks. Bunks are for
+people who expect to wake up in the
+same place.
+
+**Vesper:** Not a ghost on this ship. Six
+hundred years. ...I checked twice.
+
+*[wait 30]*
+
+**Vesper:** That Ledger. A street a year, paid
+by the edge. And the islands that
+wouldn't pay?
+
+**Vesper:** I knew one. I told you that.
+...Not tonight. Old weather.
+
+*[wait 20]*
+
+**Vesper:** There's fog out past the Galeway
+that never lifts. One day I'll take
+you into it.
+
+**Vesper:** Not as a client. I'll still send
+you the bill.
+
+*[flag m10_talk_vesper]*
+
+**T5. Tamsin** (`m10_talk_tamsin`)
+
+*Tamsin is doing press-ups beside her bunk, counting under her breath. She stops at a round number.*
+
+**Tamsin:** Ninety. The abbot made us do a
+hundred before bed. I'm leaving ten
+for the Forgeheart.
+
+**Tamsin:** That fire in the engine is ours.
+The Well's, I mean. I'd know it
+with my eyes shut.
+
+**Tamsin:** Our sacred flame went up with the
+bird. The brazier's cold. And here's
+its Well, warming a ship.
+
+*[wait 30]*
+
+**Tamsin:** One day I'll go home and light
+that brazier again. Properly. Then
+the abbot can throw me out.
+
+*[wait 20]*
+
+**Tamsin:** Corvin's captain. Sael. She made me
+carry rope for four days, and never
+said thank you once.
+
+**Tamsin:** Ten out of ten. I'd have followed
+her anywhere.
+
+*[flag m10_talk_tamsin]*
+
+**T6. Nerissa** (`m10_talk_nerissa`)
+
+*Nerissa sits cross-legged on her bunk with her eyes shut, as she sat in her cell. Froakie is asleep in a bucket of
+seawater at her feet.*
+
+**Nerissa:** You walk differently since the
+cliff. Heavier on the left. That's
+all right. It passes.
+
+**Nerissa:** This ship. Wynn says she flew,
+once. Sorrel says she's alive.
+
+**Nerissa:** I'd like to know if she can go
+down. Under. Where Pearlhollow is.
+
+*[wait 30]*
+
+**Nerissa:** Corvin promised me home, one day.
+I said I'd remember it for him. I
+have. Every day.
+
+**Nerissa:** No hurry. Divers are patient.
+...Mostly.
+
+*[flag m10_talk_nerissa]*
+
+**T7. Wynn** (`m10_talk_wynn`)
+
+*Wynn lies on her front on her bunk with her chart spread out under the lamp, drawing the Wayfarer in its corner.*
+
+**Wynn:** ...and if she's one of the ships
+from the window, then the window
+was real, which I said. Hello!
+
+**Wynn:** I'm drawing her. For the chart.
+Every chart should have a ship on
+it, and this one's true.
+
+**Wynn:** Do you know what it's like? Being
+right, and nobody believing you,
+for years and years?
+
+*[wait 20]*
+
+**Wynn:** ...Of course you do. You went after
+Corvin, when everybody said he'd
+drowned.
+
+**Wynn:** If she ever flies again, I'm
+staying below. In a bunk. Holding
+on to something.
+
+**Wynn:** But I'll draw the view. Somebody
+should. My mother would want it
+drawn.
+
+*[flag m10_talk_wynn]*
+
+### 12. Morning
+
+- Room: `wayfarer_quarters`, {HERO}'s bunk. Trigger: talking to it, once `m10_night`, unless `m10_done` (the ship's
+  bunk's first use, decision 34).
+
+**Bunk:** Your bunk, beside Corvin's. Sleep
+until morning?
+
+*[yes/no] No: nothing happens. Yes: [fade out 60]*
+
+**Narration:** For the first time since Keeping
+Night, {HERO} and Corvin slept
+under the same roof.
+
+**Narration:** Deep under the Vault, the Sleeper
+slept on. In {HERO}'s pack, the
+Lodestar lay still. Mostly.
+
+*[phase dawn] [fade in 40] Morning in the quarters. The bunks are empty and made, all but Vesper's hammock. Through
+the hatch comes the sound of Ketch singing in the galley, badly. [crew in] Corvin comes down the ladder. [show
+Corvin] [walk Corvin → before {HERO}]*
+
+**Corvin:** Morning. Ketch took her out of the
+cave on the tide. She's at anchor in
+the cove now.
+
+**Corvin:** Tully's been polishing her since
+dawn. He says she's not the
+Kestrel. He says she'll do.
+
+**Corvin:** Cidrick looked her over at first
+light. Fit for the Calm, he says.
+Sea trials first.
+
+**Corvin:** The Galeway's another matter.
+When we go, we go with everything
+ready. Both crews.
+
+**Corvin:** I'll be in the village when you
+want us. So. Where to, {HERO}?
+
+*[walk Corvin → up the ladder] [hide Corvin] [flag m10_done]*
+
+**System:** The Wayfarer is the crews' ship.
+Her helm sails the Calm, and her
+maiden voyage waits there too.
+
+*Control returns. Free play goes on in Act I (decision 20): both crews, swapping and trading, the Calm on the
+Wayfarer, and the maiden voyage at her helm (scene 15).*
+
