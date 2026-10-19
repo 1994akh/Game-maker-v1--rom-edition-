@@ -12,7 +12,7 @@
 | Rooms | `eldergrove` (the village), `greenwild` (re-clipped larger: the river, the Sourmire, the Hive Hollow's mouth), `eldergrove_heart` (re-clipped: the root hall, the root pool, the seal hollow), `greenwild_hive` (new: the Hive, optional, decision 9) |
 | Clock | Day on arrival and in the forest; dusk from the heart; night from the deed on; the Mossbed rests to dawn |
 | Flags in | `m4_done` (the chart's row); `m6_pilot` if Vesper is in the crew |
-| Flags out | `m5_intro`, `m5_sorrel`, `m5_forest_intro`, `m5_vine`, `m5_bough`, `m5_mire_in`, `m5_mire_1`, `m5_mire_2`, `m5_mire_3`, `m5_mire_dug`, `m5_heart_in`, `m5_mould`, `m5_ladder`, `m5_vision`, `m5_order`, `forest_seal_deepened`, `hm_cut`, `m5_bush_cut`, `m5_done`; and, optional, `m5_village_dug`, `m5_hive_seen`, `m5_hive_vesper`, `m5_hive_in`, `m5_hive` |
+| Flags out | `m5_intro`, `m5_sorrel`, `m5_forest_intro`, `m5_vine`, `m5_bough`, `m5_mire_in`, `m5_mire_1`, `m5_mire_2`, `m5_mire_3`, `m5_mire_dug`, `m5_heart_in`, `m5_log`, `m5_mould`, `m5_ladder`, `m5_vision`, `m5_order`, `forest_seal_deepened`, `hm_cut`, `m5_bush_cut`, `m5_done`; and, optional, `m5_village_dug`, `m5_hive_seen`, `m5_hive_vesper`, `m5_hive_in`, `m5_hive` |
 | Unlocks | Sorrel (Forest, with Rowlet) joins, and with her Growth; Cut (`hm_cut`, a kept HM: a Set Pokémon that can learn it, story.md §7); the Forest seal driven deeper (`forest_seal_deepened`, which missions 9 and 14 read); the Hive, once Vesper is in the crew |
 | Reply beats | 2: Sorrel at the east path (scene 2); the Commodore's order at the seal (scene 8) |
 | Fights | None in the story. Wild battles in the Greenwild and the Hive |
@@ -23,10 +23,11 @@ the Eldergrove the village is frightened: since spring the great tree's leaves h
 burns in its heart at night, and Elder Hollin blames Sorrel, the only one who goes near it. Sorrel says the tree
 isn't cursed but hungry, and takes the crew in for the tree's sake. Growth binds a rotten bridge, Frost makes a way
 across the poison Sourmire, and in the roots under the tree a sprout climbs to the seal. There Celebi shows its
-vision further than it has ever gone: six hooded founders closing the Forest Well "so the centre may endure", and
-the light running away east under the ground. Then it breaks off. A Tidewarden runner brings the Commodore's order
-to drive the seal deeper. Sorrel objects; {HERO} sets it with Earth, Sorrel binds the roots, and the tree falls
-silent. Back in the village the Elder calls the curse lifted. Sorrel says it's buried, and leaves with the crew.
+vision further than it has ever gone: six hooded founders closing the Forest Well "so the centre may endure", the
+light running away east under the ground, and five more Wells sealed far away. Then it breaks off. A Tidewarden
+runner brings the Commodore's order to drive the seal deeper. Sorrel objects; {HERO} sets it with Earth, Sorrel
+binds the roots, and the tree falls silent. Back in the village the Elder calls the curse lifted. Sorrel says it's
+buried, and leaves with the crew.
 
 **Either order.** Nothing here needs mission 6. Where Vesper is in the crew (`m6_pilot`), she has a few lines of her
 own, the Greenwild's Reveal cache shows, and the Hive is open. Each of those lines is marked *Vesper in the crew*
@@ -287,8 +288,8 @@ freeze the frogs.
 
 *[phase dusk] [fade in 30] Under the Eldergrove: a hall of roots as wide as a town square, every root thicker than
 a house and grey at the edges. Dusk comes down in threads through cracks far above. A pool fills the middle of the
-hall, fed by a spring that wells up pale green. High on the far side a hollow opens in the roots, and something in
-it glows.*
+hall, fed by a spring that wells up pale green, and a path of roots runs round its east side to the far wall. High
+on the far side a hollow opens in the roots, and something in it glows.*
 
 *[crew out]*
 
@@ -360,6 +361,10 @@ So the centre may endure.
 *In the still, the lid closes. The green light narrows to a thread and runs away under the ground, east, toward
 the middle of the world. The still pans after it.*
 
+**Narration:** Far away, one after another,
+five more lights narrow to threads.
+Six Wells, sealed.
+
 **Celebi:** Every keeper. Every spring. I
 show them. Nobody remembers.
 
@@ -376,7 +381,7 @@ before.
 
 It went further with you here.
 
-**Maren:** Founders, sealing the Well. "So
+**Maren:** Founders, sealing the Wells. "So
 the centre may endure." I'll need
 a whole page.
 
@@ -396,9 +401,9 @@ That was a memory, with wings.
 
 - Room: `eldergrove_heart`. Trigger: straight on from scene 7.
 
-*Running feet on the roots below. A young Tidewarden in a blue coat soaked to the waist comes up the vine ladder at
-a scramble, a sealed oilskin tube in one fist. [show Pell] [walk Pell fast → before {HERO}] She salutes, sways, and
-gets her breath.*
+*Running feet on the roots below. A young Tidewarden in a blue coat, muddy to the knees, comes up the vine ladder
+at a scramble, a sealed oilskin tube in one fist. [show Pell] [walk Pell fast → before {HERO}] She salutes, sways,
+and gets her breath.*
 
 **Pell:** Deputy {HERO}? Runner Pell, off
 the cutter Dunlin. Orders, from the
@@ -408,7 +413,7 @@ The Elder said you'd gone to the
 heart. I followed the vines. And
 the ice. Thank you for the ice.
 
-The pool, I swam.
+And the log. Thank you for the log.
 
 *{HERO} breaks the seal and reads.*
 
@@ -521,8 +526,8 @@ the Commodore. She'll be glad.
 
 *[wait 40] Sorrel gets up and brushes off her knees. She doesn't look at the seal.*
 
-**Sorrel:** You came to learn the Greenwild.
-So learn this.
+**Sorrel:** One more thing. Since you're all
+so good at doing what you're told.
 
 If you must cut a living thing, cut
 it clean. A clean cut heals.
@@ -551,9 +556,9 @@ bank, by the path home.*
 
 - Room: `eldergrove`. Trigger: entering from the Greenwild, once `forest_seal_deepened`, unless `m5_done`.
 
-*[fade in 30] The village at night. Reed lanterns glow in the doors of the root-houses. The smoke over the east
-groves is gone. People stand in their doorways looking up at the great tree, where the green light no longer
-shows. Elder Hollin waits at the foot of the east path, with Brack and Pell. [walk Hollin → before {HERO}]*
+*[fade in 30] The village at night. Reed lanterns glow in the doors of the root-houses. Smoke still goes up from
+the east groves, thin and grey. People stand in their doorways looking up at the great tree, where the green light
+no longer shows. Elder Hollin waits at the foot of the east path, with Brack and Pell. [walk Hollin → before {HERO}]*
 
 **Hollin:** The light at the heart has gone
 out. The whole village watched it
@@ -595,7 +600,7 @@ within the week.
 *[walk Pell → the landing] [hide Pell]*
 
 **Maren:** And I'll write mine tonight. A
-seal, a vision and a very wet
+seal, a vision and a very muddy
 runner.
 
 *Maren writes a page by lantern light, rolls it and whistles. A Wingull drops out of the dark onto a root, and
@@ -689,8 +694,8 @@ from within. The hum is everywhere, in the floor and the walls and the crew's te
 summer, and it's very hard to remember why anyone would want to leave. Between the bright combs run lanes of bare,
 dark bark. Drones fly their loops over the light. [crew out]*
 
-**Maren:** It's lovely. Why is it lovely? I
-don't like that it's lovely.
+**Maren:** Warm. Sweet. I feel very calm.
+I don't trust it. Calm is my job.
 
 **Vesper:** Keep to the dark bark. In the
 light they'll see us, Cloak or no
@@ -771,13 +776,16 @@ leaves bright, standing over a round pool of green light where the hollow's ston
 hooded robes, the same robes as the opening's still 2 and the Vault's mural, stand round the pool, their faces lost
 under their hoods. Together they lower a round stone lid carved with six marks onto the light, and the light round
 its rim is narrowing to a seam. From the seam a single thread of green light runs away under the ground toward the
-right of the picture (east), thinning as it goes. At the belt of the figure nearest the viewer hangs a brass
-compass with a needle of blue glass (the Lodestar, for those who look; nobody in the scene says so). Celebi hangs
+right of the picture (east), thinning as it goes. Near the right edge, under a far blue mountain on the horizon,
+five fainter threads (amber, red, blue, violet and silver, the opening's Well colours) run in from the edges of the
+world toward the same point the green one is going. At the belt of the figure nearest the viewer hangs a brass
+compass with a needle of blue glass (the Lodestar, for those who look). Nobody in the scene names either. Celebi hangs
 above the young tree, small and bright, watching. Warm green and gold, the light of a summer morning long gone,
 the edges soft and faded like an old memory.*
 
-*Motion: a slow pan right, following the thread of light, for Celebi's last two pages. Then the picture tears from
-its edges inward like wet paper (a mask over the still, the scene's own transition) to the hollow at dusk.*
+*Motion: a slow pan right, following the thread of light, from the five lights' page to Celebi's last. Then the
+picture tears from its edges inward like wet paper (a mask over the still, the scene's own transition) to the
+hollow at dusk.*
 
 ## People and signs, by room
 
@@ -1159,6 +1167,23 @@ examine:
   wells up pale green. Calm enough to
   Surf.
 
+- **The inlet** (puzzle 3), across the root-path, until `m5_log`:
+
+  **Sign:** The spring has cut the path here.
+  Too wide to step over, too deep to
+  wade.
+
+  *From `m5_log`:*
+
+  **Sign:** The dead root sits snug in the
+  inlet, its top level with the path.
+
+- **The dead root** (puzzle 3), in the bay beside the inlet, until `m5_log`:
+
+  **Sign:** A dead root, fallen from the roof,
+  as thick as a barrel. It would roll,
+  with a push.
+
   *After the seal:*
 
   **Sign:** The spring has stopped. The pool
@@ -1276,9 +1301,9 @@ Bees and Combee, at a low rate.
 | The mire glint | `greenwild`, the Sourmire's hummock (Scoop; sets `m5_mire_dug`) | Elixir ×1 | **System:** {LEADER} found Elixir! |
 | The stump cache | `greenwild`, the old stump (Reveal; Vesper in the crew) | Elixir ×2 | The engine's chest line |
 | The bush chest | `greenwild`, behind the thick bush (Cut, as built) | Nut ×2 | The engine's chest line |
-| The pool alcove | `eldergrove_heart`, a root alcove across the pool (Surf; the dungeon's gear chest, items §13) | Circlet | The engine's chest line |
+| The pool alcove | `eldergrove_heart`, a root alcove across the pool (Surf, optional; the dungeon's gear chest, items §13) | Circlet | The engine's chest line |
 | The ladder nook | `eldergrove_heart`, beside the vine ladder's top | Herb ×3 | The engine's chest line |
-| The queen's thanks | `greenwild_hive`, beside the royal comb (scene H3) | Cookie ×2 (Golden Sun's PP food) | The engine's chest line |
+| The queen's thanks | `greenwild_hive`, beside the royal comb (scene H3) | Potion ×2 (Golden Sun's full heal, loot only; built, where the stat foods are still inert, items §2) | The engine's chest line |
 | The Commodore's order | Scene 8 | Nothing: words | The Letter, above |
 
 Open question 19 (a staff for Sorrel as this mission's gear chest) is still open; the Circlet is items §13's
@@ -1286,11 +1311,11 @@ suggestion until it's answered.
 
 ## Puzzles
 
-The crew's verbs here: {HERO}'s Move and Scoop, Maren's Frost, Surf on Marill, and Sorrel's Growth from scene 2.
-Vesper's Reveal, Halt and Cloak only when she is in the crew, and only for optional rewards and the Hive. Cut from
-scene 9, for one optional chest. The main path needs only the verbs every order of play has (story.md §7: Crew 1's
-Psynergy, or what the named Adept brings). Pushed things stay where they're pushed, so every block can be got
-behind again.
+The crew's verbs here: {HERO}'s Move and Scoop, Maren's Frost, and Sorrel's Growth from scene 2. Vesper's Reveal,
+Halt and Cloak only when she is in the crew, and only for optional rewards and the Hive. Surf (a Pokémon's HM, not
+Psynergy) and Cut from scene 9 guard one optional chest each. The main path needs only the verbs every order of play
+has (story.md §7: Crew 1's Psynergy, or what the named Adept brings), so a crew that left Marill in the Kin Garden
+still gets through. Pushed things stay where they're pushed, so every block can be got behind again.
 
 **The Greenwild**
 
@@ -1329,15 +1354,22 @@ stump on the north bank (the region's Reveal cache, items §13).
 
 **The heart**
 
-**Puzzle 3. The way up (Surf, Scoop and Growth, new).**
-1. The hollow is high on the hall's far side, with a sheer root wall below it. The root pool fills the hall between.
-2. Surf across the pool on Marill to the ledge at the wall's foot, and climb off (mission 3's landing steps).
-3. On the ledge, a heap of leaf mould with a pale shoot in it. Cast Scoop: the mould slumps away, uncovering a
+**Puzzle 3. The way up (Move, Scoop and Growth, new).**
+1. The hollow is high on the hall's far side, with a sheer root wall below it. The root pool fills the hall's
+   middle, and a path of roots runs round its east side to a ledge at the wall's foot.
+2. Halfway round, the spring has cut an inlet across the path, one cell wide, too deep to step over. In a bay beside
+   it lies a dead root fallen from the roof, as thick as a barrel.
+3. Stand behind the root and cast Move: it rolls into the inlet and wedges there, its top level with the path
+   (`m5_log`, a gate repainting that cell as floor, as mission 1's pillar drum). The bay opens onto the path, so the
+   root can always be got behind.
+4. On the ledge, a heap of leaf mould with a pale shoot in it. Cast Scoop: the mould slumps away, uncovering a
    sprout (`m5_mould`; the sprout's row shows).
-4. Cast Growth on the sprout: a vine ladder climbs the wall to the hollow (`m5_ladder`, a gate). The Herb nook is
-   beside its top; the Circlet's alcove is across the pool, by Surf.
+5. Cast Growth on the sprout: a vine ladder climbs the wall to the hollow (`m5_ladder`, a gate). The Herb nook is
+   beside its top.
+6. The pool itself is optional: on Marill, or any Set Pokémon that can Surf, a root alcove across it holds the
+   Circlet (mission 3's landing steps).
 
-Three verbs from three Adepts and a Pokémon, chained, Golden Sun's way.
+Three verbs from two Adepts, chained, Golden Sun's way. No Pokémon's HM on the way up, by story.md §7.
 
 **Puzzle 4. The seal (Move, scripted, new).**
 1. Until the order, Move on the seal gives its refusal line, and nothing moves.
@@ -1426,23 +1458,27 @@ Things story.md doesn't say, for you to keep or strike:
 - **Celebi:** it speaks, briefly and strangely ("This is when"), has shown its vision to "every keeper, every
   spring", is "so thin now" (drained, as every legendary is), and gets further with a keeper there. Its vision: the
   young tree, six hooded founders, "Hold a while. Only a while. So the centre may endure" (the stopgap meant for one
-  generation, story.md §3, hinted), the light running east under the ground (the drain to the Crown, hinted), and
-  the Lodestar at a founder's belt in the still, which nobody mentions.
+  generation, story.md §3, hinted), the light running east under the ground and five more Wells' lights narrowing
+  far away, their threads running in toward the same point in the still (story.md's "sealing the Wells", and the
+  drain to the Crown, hinted), and the Lodestar at a founder's belt in the still, which nobody mentions.
 - **The Forest seal:** a round stone lid with the six marks, lifted by the roots all spring; driven down by
   {HERO}'s Earth and bound by Sorrel's roots; the tree's silence after, and the root-way it opens.
-- **The order:** Runner Pell off the cutter Dunlin, soaked to the waist ("Thank you for the ice", "The pool, I swam"); Ilse passing on "the
-  Pinnacle's order", so the deepening comes from the top (Vey) through a Commodore who believes in it; "If the deputy
-  won't, the Commodore will send someone who will".
+- **The order:** Runner Pell off the cutter Dunlin, muddy to the knees ("Thank you for the ice", "Thank you for the
+  log"); Ilse passing on "the Pinnacle's order", so the deepening comes from the top (Vey) through a Commodore who
+  believes in it; "If the deputy won't, the Commodore will send someone who will".
 - **Cut from Sorrel:** "If you must cut a living thing, cut it clean. A clean cut heals."
 - **Maren:** "a puddle with ambitions", "I'll need a new page", her honey diagnosis, and a second Wingull report
   flown east toward the centre, which Sorrel notices ("East.") and Maren deflects ("Medical returns").
 - **The Greenwild:** the river too rough to Surf, the Sourmire and its three bog pools, the high bough, the Hive
-  Hollow off the north path, the old stump, the root-way.
+  Hollow off the north path, the old stump, the root-way. In the heart, the root-path round the pool, the inlet and
+  the dead root that bridges it.
 - **The Hive:** its glamour as a dream the queen dreams from the grey sap's honey, which Reveal breaks; the foragers
   absorbed since spring, who come to the mouth at dusk to wave; Cloak working only in the dark, as in Golden Sun;
   the drones carrying intruders "gently but firmly" back out.
 - **The rewards:** Nut ×1, Leather Gloves, Elixir ×1, Elixir ×2, Nut ×2 (as built), the Circlet, Herb ×3 and
-  Cookie ×2; the gloves and Circlet are items §13's suggestions.
+  Potion ×2; the gloves and Circlet are items §13's suggestions.
+- **Sorrel's bitter "One more thing. Since you're all so good at doing what you're told"** before she shows the crew
+  Cut, straight after the seal.
 
 ## Changes to the build
 
@@ -1460,10 +1496,11 @@ Things story.md doesn't say, for you to keep or strike:
   (as built, moved to the north bank) and the root-way's mouth (a new entrance from the heart). The river is never
   on the surf layer. The swamp gets tiles from the Essentials parts bin (demo slice 8) in place of today's tint.
 - **`eldergrove_heart`** re-clipped from Tret's insides (Golden Sun 1, room 44 and its neighbours) to hold: the root
-  hall with the pool (`--water`, the surf layer, with landing steps), the ledge with the leaf mould and the sprout,
-  the vine ladder (a gate), the Herb nook, the Circlet's alcove across the pool, the seal hollow (a step-on spot at
-  its threshold) with the seal (slot 8), and the root-way on the west side (a gate on `forest_seal_deepened` and a
-  warp to the Greenwild's north bank). No random battles.
+  hall with the pool (`--water`, the surf layer, with landing steps to the Circlet's alcove only), the root-path round
+  its east side with the inlet (a gate on `m5_log`) and the dead root's bay (a pushable actor), the ledge with the
+  leaf mould and the sprout, the vine ladder (a gate), the Herb nook, the seal hollow (a step-on spot at its
+  threshold) with the seal (slot 8), and the root-way on the west side (a gate on `forest_seal_deepened` and a warp
+  to the Greenwild's north bank). No random battles.
 - **`greenwild_hive`** (new, decision 9): a hollow tree of comb, clipped from a Golden Sun tree or cave room, the
   builder's pick, with comb tiles from the Essentials parts bin: the mouth (entrance 0), the drone gallery with its
   dark lanes, the bright span with the sentry, the foragers' gallery, and the queen's chamber with her chest.
@@ -1480,7 +1517,11 @@ Things story.md doesn't say, for you to keep or strike:
   `m5_order`, and its event plays scene 9.
 - **Scoop that reveals a row:** the leaf mould's dig flag shows the sprout's row.
 - **Gates on Frost and Growth flags:** the three bog pillars, the trunk climb and the vine ladder.
-- **Surf and the landing steps** in the heart (mission 3's), with the pool on the surf layer.
+- **Surf and the landing steps** in the heart (mission 3's), with the pool on the surf layer, for the optional
+  alcove only; the way up never needs Surf.
+- **A pushed block that fills a gap** (mission 1's pillar drum): the dead root into the inlet sets `m5_log`.
+- **Sorrel's class** shows decision 18's Forest names (Sprout first, then Briar, Grovekeeper, Wildwarden, Elder
+  Sage) in place of the placeholder Wind Seer line (`placeholder_class` in `adepts.json` comes off).
 - **Celebi on the field:** the expansion's overworld sprite at 2× with its appear and vanish (decision 28), in the
   `light` step's green glow.
 - **Cloak** (decisions 6 and 9): Golden Sun's rule, unseen on dark cells and broken by lit ones. A room lists its
@@ -1501,7 +1542,7 @@ foragers as actors scenes can move.
 
 **Checks.** `tools/mission5_check` follows the new flow, both with Vesper in the crew and without: the arrival,
 Sorrel's reply menu in both voices, the bridge, the Sourmire's three pillars and its sting, the way up the root
-wall, the vision, the order's reply menu, the seal refusing Move before the order and taking it after, Cut and the
-bush, the root-way, the village at night and `m5_done`; then that the next rest starts the right interlude. A
+wall with no Pokémon that can Surf in any Set (the root, the mould, the ladder), the vision, the order's reply menu,
+the seal refusing Move before the order and taking it after, Cut and the bush, the root-way, the village at night and `m5_done`; then that the next rest starts the right interlude. A
 second check walks the Hive: closed without `m6_pilot`, caught on lit comb, the Halt crossing, the queen and the
 chest.

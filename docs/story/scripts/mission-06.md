@@ -15,7 +15,7 @@
 | Flags out | `m6_pilot`, `m6_intro`, `m6_night`, `m6_bonewhistle`, `m6_plank_bow`, `m6_boom_seen`, `m6_plank_stern`, `m6_mark`, `m6_stash`, `m6_note`, `hm_defog`, `m6_done`; and, optional, `m6_fog_cleared`, `m6_mimikyu_seen`, `m6_mimikyu_2`, `m6_mimikyu_3`, `m6_mimikyu`, `m6_litwick_1`, `m6_litwick_2`, `m6_litwick`, `m6_gloam`, `m6_sapling` |
 | Unlocks | Vesper (Shadow, with Gastly) joins, and with her Reveal, Halt and Cloak; Defog (`hm_defog`, a kept HM: a Set Pokémon that can learn it, story.md §7); Lantern Reef on the Kestrel's chart (`m6_pilot`); Mimikyu for the Kin Garden (optional, decision 12) |
 | Reply beats | 2: Vesper's price (scene 1); Corvin's note (scene 7) |
-| Fights | None in the story. Optional: Mimikyu (`mimikyu_reef`, decision 12) and the lantern Litwick (`lantern_litwick`, the §9a egg). A loss plays "Try again"; the Litwick can be fled. Wild battles on the decks at night |
+| Fights | None in the story. Optional: Mimikyu (`mimikyu_reef`, decision 12) and the lantern Litwick (`lantern_litwick`, the §9a egg). A loss plays "Try again"; both can be fled, and no ball works on Mimikyu. Wild battles on the decks at night |
 | Leads into | Crew 1's next rest at an inn or a sanctum plays a Crew 2 interlude (decision 7): mission 7 if this is Crew 1's first recruitment, mission 8 if missions 5 and 7 are done |
 
 **The flow.** On Canalport's beach a fog pilot, Vesper, offers the deputy a lead: a Rimborn skiff went into Lantern
@@ -98,9 +98,9 @@ neither do I.
 
 **System:** {HERO} paid every last coin.
 
-**Vesper:** That's not fifty. I'll put the
-rest on your tab. I keep a very
-good tab.
+**Vesper:** That's not fifty. I don't give
+credit. I keep a tab. A very good
+tab.
 
 *Then, either way:*
 
@@ -139,9 +139,9 @@ reef.
 
 *Over black, before the fade:*
 
-**Narration:** The Kestrel sailed north from
-Canalport, a day and a night, into
-waters where the sun went grey.
+**Narration:** The Kestrel sailed north, a day
+and a night, into waters where the
+sun went grey.
 
 Then came the fog. Vesper took the
 helm, and for an hour nobody said a
@@ -294,9 +294,9 @@ May I see your Pokédex?
 
 - No:
 
-  **Bonewhistle:** Quite right. One shouldn't show
-  one's Pokédex to strange men. And I
-  am very strange.
+  **Bonewhistle:** Quite right. Never show a
+  skeleton your Pokédex. We're
+  terribly nosy.
 
 *Then, either way:*
 
@@ -387,7 +387,7 @@ we were the ones.
 
 The monks pay their tithe in fire.
 Forty braziers this year. Ten,
-once. Their flame is half as tall.
+once. Their flame kept shrinking.
 
 I'm not asking you to forgive me.
 I'm asking you one thing.
@@ -426,13 +426,14 @@ where it goes.
 
 *Sorrel in the crew, and the Forest seal deepened (`forest_seal_deepened`):*
 
-**Sorrel:** And we buried a seal for her.
-Ask her about that while you're
-asking.
+**Sorrel:** And we buried a seal on the
+Commodore's order. Ask her about
+that while you're asking.
 
 *[face Vesper → {HERO}]*
 
-**Vesper:** Well, deputy? Going to ask her?
+**Vesper:** Well, deputy? Going to ask your
+Commodore?
 
 **{HERO} replies:**
 
@@ -443,14 +444,15 @@ asking.
 
 2. "Ilse has her reasons." · quiet: (Shake head)
 
-   **Vesper:** Course she does. Everybody's got
-   reasons. That's how a thing goes
-   on for six hundred years.
+   **Vesper:** Loyal. Fine. Loyal is how a
+   thing goes on for six hundred
+   years.
 
 3. "Where does it go?" · quiet: ...
 
-   **Vesper:** Some of it, I know. Some of it
-   went down with a whole island.
+   **Vesper:** Somewhere it never comes back
+   from. I knew an island that wouldn't
+   pay. It isn't there any more.
 
    *[wait 30]*
 
@@ -590,6 +592,13 @@ anger]*
 one, and it'll trust you.
 
 *[crew in] [battle mimikyu_reef]*
+
+*A Poké Ball thrown in this fight isn't used up (decision 12: it joins with no ball):*
+
+**System:** Mimikyu ducks under its costume.
+The ball bounces off.
+
+*Fleeing works, and leaves Mimikyu in the locker, ready to fight again.*
 
 *If the fight is lost, "Try again" plays and the fight restarts as it began. Vesper's line as it restarts:*
 
@@ -948,7 +957,7 @@ re-clipped room.
 | The waist chest | The waist, past the sweeping boom (the dungeon's gear chest, items §13) | Travel Robe | The engine's chest line, naming `{LEADER}` |
 | The forecastle head | The bow, behind its fog bank (Defog) | Magic Rod (the artifact, items §13's Lantern Reef suggestion) | The engine's chest line |
 | The crow's nest | The bow's foremast, up the seedling's vine (Growth, Sorrel in the crew) | 150 coins (a lookout's purse) | **System:** {LEADER} found 150 coins! |
-| The Merrow's chest | The Merrow's deck (over the spar, Halt) | Mist Potion ×1 | The engine's chest line |
+| The Merrow's chest | The Merrow's deck (over the spar, Halt) | Water of Life ×1 (Golden Sun's revival, loot only; built, where the Mist Potion isn't, items §2) | The engine's chest line |
 | The Litwick's hook | The waist, after the fight (L) | Psy Crystal ×1 | L's system line |
 | Vesper's fee | Scene 1 | Out: 50 coins, or the whole purse | Scene 1's system lines |
 | Mimikyu | M3 | Mimikyu, L9, to the Kin Garden (decision 12) | M3's system line |
@@ -1029,7 +1038,7 @@ Everything else plays the same before or after mission 5.
 | Scene 2 | `m5_sorrel` | Sorrel's "All this wood", Vesper's "Nothing grows on the reef" and Sorrel's answer |
 | Scene 3 | `m5_sorrel` | Sorrel's "Something's growing on that bow" |
 | Scene 7 | `m5_sorrel` | Sorrel's line on the seed tithe |
-| Scene 7 | `m5_sorrel` and `forest_seal_deepened` | Sorrel's "And we buried a seal for her" |
+| Scene 7 | `m5_sorrel` and `forest_seal_deepened` | Sorrel's "And we buried a seal on the Commodore's order" |
 | Scene 8 | `m5_sorrel` | Sorrel's "Rowlet has wings" and Vesper's answer |
 | S | `m5_sorrel` (Growth needs a Forest Adept) | The seedling's vine and its two lines |
 
@@ -1041,9 +1050,9 @@ trade Adepts until mission 10. In every `[crew out]`, Sorrel steps out with the 
 ## Not in this mission
 
 Vesper's Linking Cord (Haunter to Gengar) comes from Nerissa after Bastion Rock (story decision 5); Vesper's
-regroup at Gloam Shore is mission 20, which the Merrow's carving and "a whole island" seed; Bonewhistle's quest, "The
-Long Wait", and his ghost-ship side room come later (§9a). The words of the Crew 2 interlude that the next rest
-plays belong to mission 7's and mission 8's pages.
+regroup at Gloam Shore is mission 20, which the Merrow's carving and "an island that wouldn't pay" seed;
+Bonewhistle's quest, "The Long Wait", and his ghost-ship side room come later (§9a). The words of the Crew 2
+interlude that the next rest plays belong to mission 7's and mission 8's pages.
 
 ## Inventions
 
@@ -1051,9 +1060,10 @@ Things story.md doesn't say, for you to keep or strike:
 
 - **Vesper's hire:** her look (grey oilskins, near-black hair, a pilot's spyglass), mending a storm lantern on the
   beach; the lead that brings the deputy north (a Rimborn skiff "came out lighter"); fifty coins, or the whole purse
-  and a tab ("I keep a very good tab"); "For the job, I'm crew"; "I see what's hidden. I stop what moves. And nobody
-  sees me unless I let them"; staying on at "the same rate", with the bill to follow.
-- **The voyage:** a day and a night north from Canalport into grey water, then an hour of fog.
+  and a tab ("I don't give credit. I keep a tab. A very good tab"); "For the job, I'm crew"; "I see what's hidden.
+  I stop what moves. And nobody sees me unless I let them"; staying on at "the same rate", with the bill to follow.
+- **The voyage:** a day and a night north into grey water, then an hour of fog (from wherever the Kestrel lies, so
+  it reads the same in either order).
 - **Lantern Reef:** "every ship the north fog ever ate"; why the decks are night-only, in a pilot's words ("Day fog
   stands up. Night fog lies down"); the water "all teeth", so nobody swims it; the lanterns kindling on the wrecks by
   themselves; the Last Bell, a three-master broken in three, and its bell rung by a Duskull; the Merrow, a small
@@ -1068,18 +1078,24 @@ Things story.md doesn't say, for you to keep or strike:
   stash under mission 2's chalk mark and tied with his knot.
 - **Maren and Vesper at the note:** "The tithe goes to the Pinnacle. Everybody knows that." "And after the
   Pinnacle?"; "Who reads your reports?" "...The order." A seed for mission 9's confession that names nobody.
-- **Vesper's past, hinted only:** "Some of it went down with a whole island. Never mind. Old weather"; the Merrow's
+- **Vesper's past, hinted only:** "I knew an island that wouldn't pay. It isn't there any more. Never mind. Old
+  weather" (the Tidewardens drowning the Gloam island, story.md §4, never said outright); the Merrow's
   carving, a lantern with an eye in its flame, "Westgloam built. They don't build them any more" (seeds for her
   regroup at Gloam Shore, mission 20); Marrit's "She's been on this reef too long".
 - **Defog from Vesper:** "Fog's only weather that's lost its nerve. You just shoo it"; "Rowlet has opinions".
 - **Bonewhistle's details:** the Rumbelow, the drowned orchestra (Shuppet, two Gastly, a Duskull), the fifty-year
-  song "nearly at the chorus", the lost violin.
+  song "nearly at the chorus", the lost violin; "Never show a skeleton your Pokédex. We're terribly nosy" (the
+  answer to no: the original's question is bent to the Pokédex by §9a, and the answer keeps it a bone joke, with no
+  innuendo).
 - **The Litwick's field gag** (a plank closer each time it's examined) and its four round lines.
 - **Mimikyu's three spots** (the bow's tip, the sailcloth, the Merrow's lantern locker), Vesper's "It isn't angry.
-  It's lonely", and its level, L9 (proposed: progression.md §6 leaves Djinn-style levels open).
+  It's lonely", its level, L9 (proposed: progression.md §6 leaves Djinn-style levels open), and the ball that bounces
+  off its costume.
 - **Canalport's new lines:** Maize turned down twice, Quayle's missing tide table, Tully's inked chart.
-- **The rewards:** Elixir ×1, a Travel Robe and the Magic Rod (items §13's suggestions), 150 coins, Mist Potion ×1
+- **The rewards:** Elixir ×1, a Travel Robe and the Magic Rod (items §13's suggestions), 150 coins, Water of Life ×1
   and a Psy Crystal.
+- **Corvin's note** says the Forgeheart's flame "kept shrinking", not that it is half as tall: it went out with
+  Ho-Oh (mission 4) before he wrote.
 
 ## Changes to the build
 
@@ -1106,7 +1122,8 @@ Things story.md doesn't say, for you to keep or strike:
 - **Scene 3's trigger** fires when the room is at night (on entering, or when the phase turns while in it), once
   `m6_intro`.
 - **The bunk at the reef** offers Night in place of Dusk (clock decision 3's skip; the reef's own menu).
-- **Marrit's row** is an inn: a restoration point, priced on Golden Sun's inn ladder (items §12).
+- **Marrit's row** is an inn: a restoration point at one coin, "a coin in the lantern box" (an invention: her own
+  price, below items §12's inn ladder).
 - **The note's row** (slot 11) becomes the crate and locker: `m6_stash` plays scene 7; `m6_note`, the Elixir and the
   reply menu are in it; `hm_defog` and `m6_done` move to scene 8. Today's `scene_after` lines, and the two `when`
   steps that switch to crew 2 for mission 7 or 8, come out.
@@ -1117,8 +1134,12 @@ Things story.md doesn't say, for you to keep or strike:
   with the two system lines.
 - **The spar as a bridge** (new): while a halted patrol actor stands on a gap cell, that cell can be walked.
 - **Mimikyu:** one hidden actor whose row moves between three spots by flag, each found by Reveal and each playing a
-  scene; its fight, `mimikyu_reef` (a single Mimikyu, L9, proposed) with "Try again"; `give_pokemon` straight to
-  the Kin Garden with the storage line, never into a Set.
+  scene; its fight, `mimikyu_reef` (a single Mimikyu, L9, proposed) with "Try again" and Flee allowed; a thrown ball
+  isn't used up and shows its line (as Ho-Oh's in mission 4), so it can never be caught with one; `give_pokemon`
+  straight to the Kin Garden with the storage line, never into a Set.
+- **Vesper's class** shows decision 18's Shadow names (Shade first, then Fogrunner, Gloamcaller, Nightwarden, Umbral
+  Sage) over Mia's curve (progression 8), in place of the placeholder Water Seer line (`placeholder_class` in
+  `adepts.json` comes off).
 - **The Litwick:** three rows, one per place, chosen by `m6_litwick_1` and `m6_litwick_2`; its fight,
   `lantern_litwick` (a Litwick at L13, proposed, whose strongest move lands on round 4, tuned in slice 10 so a crew
   at L9 using Psynergy wins about half the time), with the `[round N]` lines, Flee allowed (a trainer flag), its flee
@@ -1139,5 +1160,5 @@ triggers (scenes 5 and 6), a phase trigger (scene 3), flag triggers (scene 7, M1
 full purse and a light one, Vesper's reply menu in both voices, the reef closed at dusk, the bunk to night, the
 lanterns, the two planks, the boom, the crate, the note's reply menu in both voices, the stay, `hm_defog` and
 `m6_done`; then that the next rest starts the right interlude and that the decks are gone at dawn. A second check
-walks the finds: the spar, Mimikyu's three spots and its fight into the Kin Garden, the Litwick's three talks and its
-fight (won, and fled), the banks, and the seedling only with Sorrel.
+walks the finds: the spar, Mimikyu's three spots and its fight into the Kin Garden (a thrown ball bounces off), the
+Litwick's three talks and its fight (won, and fled), the banks, and the seedling only with Sorrel.
