@@ -1115,3 +1115,651 @@ memory.*
 with the falls' roar. Then the light through the cracks swells until it whites out the picture, and fades to black
 (Celebi's still tears; this one goes white, then dark).*
 
+## People and signs, by room
+
+### Where Crew 1 rests
+
+No lines of its own: the knock (scene 1) plays there. That rest's after-rest line is dropped, since Crew 1 sails
+from that door and never comes back to it in this mission.
+
+### `fallhaven_cliff`
+
+*The states:* the way down (`m9_road`, until `m9_sael`), the road intact but shaking, with the lower town climbing
+past; falling (`m9_sael` on). Mission 2's rows hide from `m2_done`. Nobody stands here after mission 9: Fallhaven is
+a ruin beyond the Galeway (story.md §9) and on no chart in the demo.
+
+- **Wenna** (mission 2), on the first switchback with a jar, the way down:
+
+  **Wenna:** Pickled egg? For the road. I went
+  back for them. Twice. Priorities,
+  dear.
+
+  **Wenna:** You're Corvin's keeper. He said
+  you'd come. I said nobody comes
+  to the rim on purpose.
+
+- **Marta** (mission 2), on the second bend with the shop's till in her arms, the way down:
+
+  **Marta:** Carrying the shop up a cliff.
+  Again. I've got it down to just
+  the till.
+
+  **Marta:** The rest's on the counter. Take
+  what you need. The sea will take
+  what you don't.
+
+- **Fen** (mission 2), with the Leaning Gull's keys on a ring, the way down:
+
+  **Fen:** I locked up the Leaning Gull.
+  Habit. She's going in the sea,
+  and I've locked her.
+
+- **Cidrick** (new, mission 10's egg, seeded here), on the last bend: a stocky man with goggles pushed up into his
+  hair and a toolbag over each shoulder, the way down:
+
+  **Cidrick:** Cidrick. Shipwright. My family
+  built every boat in that harbour.
+  And most of the others.
+
+  **Cidrick:** The harbour's gone. So I'm carrying
+  its tools. That's what's left of a
+  shipwright: the tools.
+
+- **A Rimborn sailor**, at the top by the gate, the way down:
+
+  **Sailor:** Hask's boats went out at dusk, west
+  along the rim. Low in the water.
+  They weren't carrying people.
+
+  **Sailor:** Powder, if you ask me. Nobody
+  asks me.
+
+**Signs and things to examine**
+
+- **The road sign**, at the bottom. The way down:
+
+  **Sign:** CLIFF ROAD TO THE HIGH TOWN.
+  Uphill both ways. Under it, in
+  tonight's chalk: UP. EVERYONE UP.
+
+- **The edge sign**, halfway. The way down:
+
+  **Sign:** MIND THE EDGE. It minds you.
+
+  *Falling:*
+
+  **Sign:** The edge sign is gone, and the
+  edge it stood beside.
+
+- **Wenna's cellar door**, on the second bend (mission 2's). The way down:
+
+  **Sign:** Wenna's cellar door, propped open.
+  On every shelf, a gap where a jar
+  used to be.
+
+- **The archive's high door**, on the second bend. The way down:
+
+  **Sign:** A heavy door set in the cliff: the
+  archive's high door. Barred from
+  inside.
+
+  *Falling:*
+
+  **Sign:** Rubble where the high door was.
+
+- **The high town gate**, at the top:
+
+  **Sign:** HIGH TOWN. Fallhaven's spare
+  streets. Under it, in chalk: BOATS.
+  WEST COVE. HURRY.
+
+- **The boulder** (puzzle 9), falling, until `m9_boulder`:
+
+  **Sign:** A boulder, fresh down off the
+  cliff, square across the road. East
+  of it, nothing but mist.
+
+- **The rocking slab** (puzzle 10), falling, at the last bend where the low wall was:
+
+  **Sign:** A slab of the road has broken
+  loose. It rocks on the edge: out
+  over the drop, and back.
+
+- **The bends behind** (falling): as the crew passes each, a step-on spot shakes it loose ([shake 20, 3]) and a gate
+  turns its cells to the edge. No lines.
+
+### `fallhaven_lower`
+
+*The states:* the night (`m9_lower_intro`, until `m9_evacuated`); everyone out (`m9_evacuated`, until `m9_meet`).
+Crew 1 never comes back after scene 14: the lower town falls in scene 17. Positions are places in the re-clipped
+room.
+
+- **The relay stone**, slot 8, by the Leaning Gull's door (the relay role, as built), until `m9_meet`:
+
+  **Sign:** A relay stone, carved with a lamp.
+  Knock on it, and its twin in the
+  archive hums.
+
+  *Then the relay menu: To Corvin, Rest, Pokémon, Leave (as built).*
+
+- **The fallen chimney**, slot 9, in the west lane (puzzle 1), until `m9_alley`:
+
+  **Sign:** A chimney has come down across a
+  door in the west lane. Somebody is
+  thumping on the door behind it.
+
+  *Then, from behind the door:*
+
+  **Tanner:** Is that a person? We're in here.
+  Me and Ossian. And the bread.
+
+  **Ossian:** Tell Sael we're not dead. We're
+  just behind things.
+
+- **Pip**, slot 12, on the old terrace, until `m9_vine`:
+
+  **Pip:** Hello! I can see ALL the boats!
+  The steps fell down. I'm fine! I'm
+  very high!
+
+  *From `m9_vine`:* scene 5.
+
+- **The sprout**, slot 11, in a crack at the terrace's foot (puzzle 2). Until `m9_vine`:
+
+  **Sign:** A sprout in a crack at the foot of
+  the old terrace. Above it, somebody
+  small is waving.
+
+  *From `m9_vine`:*
+
+  **Sign:** A vine climbs the cliff to the old
+  terrace.
+
+- **Old Jory**, slot 13, on the harbour steps, until `m9_lift`:
+
+  **Old Jory:** Up the cliff road? At my age? I
+  said that once before. I meant it
+  then, too.
+
+  **Old Jory:** If Sael's lift came down, I'd ride
+  it. She's never once let me ride
+  it.
+
+  *From `m9_lift`:* scene 7.
+
+- **The lift basket**, slot 14, from `m9_lift` until `m9_ev_c`:
+
+  **Sign:** The archive's lift basket, swaying
+  at the foot of the cliff. Its rope
+  climbs away into the dark.
+
+- **The old well** (new), on the plaza (puzzle 3). Until `m9_hatch_seen`:
+
+  **Sign:** The plaza's old well, dry for
+  years. The flagstones beside it
+  shimmer, as if something's there.
+
+  *From `m9_hatch_seen`:*
+
+  **Sign:** The plaza's old well. Beside it,
+  the order's hatch.
+
+- **The hatch**, slot 16 (slot 15's hidden row, as built, is what Reveal finds). From `m9_hatch_seen`: scene 6.
+  From `m9_hatch` (today's `text_after`):
+
+  **Sign:** The order's hatch, standing open on
+  the cellar stair.
+
+- **Dace, a fisher** (today's "Townsman", slot 17), on the plaza with a last armful of nets, until `m9_evacuated`:
+
+  **Dace:** Sael says the archive's cellar runs
+  under the plaza. Under the old
+  well, my gran said.
+
+  **Dace:** Nobody's seen the door in sixty
+  years. Gran said it was painted
+  shut. Gran said a lot of things.
+
+**Signs and things to examine**
+
+- **The town sign** (mission 2's):
+
+  **Sign:** FALLHAVEN. Built on solid ground.
+  The ground has since changed its
+  mind. Chalked under it: AGAIN.
+
+- **The edge board** (mission 2's new board):
+
+  **Sign:** THE EDGE IS HERE. FOR NOW. Under
+  it, in fresh chalk: NOW.
+
+- **The crack**, across the plaza:
+
+  **Sign:** A crack across the plaza, a hand
+  wide and getting wider. Mist
+  breathes up out of it.
+
+- **The Tidewarden notice** (mission 2's):
+
+  **Sign:** BY ORDER OF THE PINNACLE: no
+  unlicensed vessel shall enter the
+  Calm.
+
+  Chalked underneath: SAFE WHERE?
+  THE SEA IS BEHIND US. And under
+  that, tonight: IT'S UNDER US NOW.
+
+- **The harbour stair:**
+
+  **Sign:** The harbour stair ends halfway
+  down, in mist. The harbour went
+  at dusk.
+
+- **The Leaning Gull:**
+
+  **Sign:** THE LEANING GULL. It leans further
+  than it did. Every bed is level now,
+  if you sleep standing up.
+
+- **Marta's counter** (optional A), until `m9_marta`:
+
+  **Sign:** MARTA'S. A note on the counter:
+  GONE UP THE CLIFF ROAD. TAKE WHAT
+  YOU NEED. THE SEA GETS THE REST.
+
+  *Then the counter's chest (Items, below) and `m9_marta`. From `m9_marta`:*
+
+  **Sign:** Marta's counter, bare. The note
+  is still there.
+
+- **The north stair** (the warp to the archive's great doors, as built). Until `m9_evacuated`:
+
+  **Maren:** Not yet. Three households, the
+  captain said. Not one fewer.
+
+  *From `m9_evacuated`, without `m9_ledger`:*
+
+  **Maren:** Corvin's crew hasn't got their
+  book yet. The relay stone reaches
+  them.
+
+  *With both, the warp's scene sets `m9_meet` and plays scene 14 (as built).*
+
+### `fallhaven_archive`
+
+*The states:* the night (`m9_archive_intro`, until `m9_meet`); both crews (`m9_meet`, until `m9_sael`). The archive
+falls in scene 17.
+
+- **The relay stone**, slot 8, by the reading table, until `m9_meet`: the lower town stone's sign and menu ("To
+  {HERO}").
+
+- **Sael**, slot 9, at the great doors. Scene 8; then, until `m9_ledger`:
+
+  **Sael:** The book. And Jory's lift. I'm
+  watching the plaza. Go on.
+
+  *From `m9_ledger`, until `m9_meet`:*
+
+  **Sael:** You've got it? Good. Wait for your
+  keeper. Read it here, where I can
+  hear it.
+
+  *From `m9_meet`:* scene 14. The row hides from `m9_sael`.
+
+- **Gannet, the archivist**, slot 10 (today's "Archivist"). Until `m9_where`:
+
+  **Gannet:** The east vault? Dust. Nothing in
+  it but dust. Nobody has opened it in
+  my lifetime.
+
+  **Gannet:** Please. I have four hundred charts
+  to carry, and two arms.
+
+  *Mind Read, until `m9_where`:* scene 9. *From `m9_where`, until `m9_ledger`:*
+
+  **Gannet:** Forty years I kept that shut. You'd
+  think it would feel lighter, open.
+  It doesn't. Not yet.
+
+  *From `m9_ledger`:* gone up the high stair with the charts (scene 13).
+
+- **The wind-wheel**, slot 11, on its ledge (puzzle 8). Until `m9_lift`:
+
+  **Sign:** The lift's wind-wheel, its little
+  sails hanging still. A strong wind
+  would turn it.
+
+  *From `m9_lift`:*
+
+  **Sign:** The wind-wheel turns slowly in the
+  draught that comes up off the drop.
+
+- **The vault door**, slot 12, until `m9_hatch`:
+
+  **Sign:** The east vault's door, iron-bound.
+  It won't give. It's barred on the
+  other side, from below.
+
+- **The Ledger's shelf**, slot 13, in the vault. Until `m9_where`:
+
+  **Sign:** Shelves of the order's blue ledgers,
+  a season to a book. Hundreds.
+  Somebody knows which one matters.
+
+  *From `m9_where`:* scene 13. *From `m9_ledger` (today's `text_after`):*
+
+  **Sign:** The top shelf, and a clean gap in
+  the dust where the Ledger was.
+
+- **The great lamp** (puzzle 6), over the east wing's aisle. Until `m9_lamp`:
+
+  **Sign:** A great lamp on a chain, cold. Past
+  it, the dark in the east wing is
+  very thick.
+
+  *From `m9_lamp`:*
+
+  **Sign:** The great lamp burns. The east
+  wing's stacks stand in its light.
+
+- **The fallen case** (puzzle 6), from `m9_lamp` until `m9_case`:
+
+  **Sign:** A tall case of ledgers, down across
+  the aisle. It would slide, with a
+  push.
+
+- **The smouldering racks** (optional B), in the west alcove, until `m9_charts`:
+
+  **Sign:** A lamp has fallen into the west
+  racks. The charts are smouldering.
+  Water would save them.
+
+  *Douse on them (Crew 2's Nerissa): [light: grey rain in the alcove] [flag m9_charts] [crew out]*
+
+  **Nerissa:** Not the charts. Never the charts.
+
+  **Wynn:** Every coast on the rim. You saved
+  them. I'm going to cry on them now.
+  Don't let me cry on them.
+
+  *[crew in] The gear chest behind the racks can be opened (Items, below).*
+
+  *From `m9_charts`:*
+
+  **Sign:** The west racks, wet and black at the
+  edges. The charts inside are dry.
+
+- **Corvin, Tamsin, Nerissa and Wynn**, slots 14 to 17, from `m9_meet` (as built): scene 14 only.
+
+**Signs and things to examine**
+
+- **The reading table:**
+
+  **Sign:** A long reading table, scarred by
+  sixty years of elbows. The lamps
+  over it swing at every shake.
+
+- **The chart racks:**
+
+  **Sign:** Charts rolled in racks to the roof:
+  every coast on the rim, and a few
+  that aren't there any more.
+
+- **The great doors**, until `m9_meet`:
+
+  **Sign:** The great doors, open on the plaza.
+  Sael stands between them. She has
+  the key.
+
+- **The inner stair:**
+
+  **Sign:** A stair cut up through the rock to
+  the wind-wheel ledge and the high
+  door.
+
+- **The high door**, at the inner stair's top, until `m9_sael`:
+
+  **Sign:** The archive's high door, barred
+  from inside. The cliff road is on
+  the other side.
+
+- **The south way out** (today's warp back to the lower town), for Crew 2, until `m9_meet`:
+
+  **Corvin:** We hold the archive. The lower
+  town is {HERO}'s. The relay
+  stone's quicker than I am.
+
+### `stonehollow`
+
+Scene 20 only. Mission 10's page takes Stonehollow over from `m9_done`.
+
+## Items and chests
+
+| What | Where | Gives | The words |
+|---|---|---|---|
+| Marta's counter | `fallhaven_lower`, Marta's (optional A; sets `m9_marta`) | Herb ×3, Antidote ×2, into Crew 1's bag | The engine's chest line, naming `{LEADER}` |
+| The west racks | `fallhaven_archive`, the west alcove behind the smouldering racks (Douse, optional B; the dungeon's gear chest, items §13) | Bronze Shield (the Bazaar's tier, items §11; Crew 2's bag) | The engine's chest line, naming `{LEADER}` |
+| The Ledger of the Crown | Scene 13 | A story object (items §5's row, shown from `m9_ledger`) | — |
+| Maren's notebook | Scene 18 | A story object (new: shown from `m9_confession`, never gone) | Scene 18's system line |
+| Sael's coat | Scene 14 | Nothing: a prop Corvin wears from scene 18 | — |
+
+**The Ledger's Key Items text:**
+
+**Item:** The order's ledger from its old rim
+station, bound in blue and silver.
+The rim's account, paid in towns.
+
+**Maren's notebook's Key Items text:**
+
+**Item:** Maren's notebook: a copy of every
+report she sent the Pinnacle, in a
+neat medic's hand.
+
+## Puzzles
+
+Both crews, each with the verbs it holds (story.md §7: mandatory puzzles use what the named crew brings). Crew 1:
+{HERO}'s Move and Scoop, Maren's Frost and Ply, Sorrel's Growth, Vesper's Reveal, Halt and Cloak. Crew 2: Corvin's
+Move and Scoop, Tamsin's Blaze, Nerissa's Frost, Douse and Ply, Wynn's Whirlwind and Mind Read. Two puzzles cross
+the relay, one each way. Pushed things stay where they're pushed, so every block can always be got behind again.
+
+**Crew 1, the lower town**
+
+**Puzzle 1. The chimney (Move, as built).**
+1. In the west lane, a fallen chimney lies across Tanner and Ossian's door. A niche opens in the lane's wall beside
+   it.
+2. Stand on the far side and cast Move: the chimney slides into the niche (`m9_alley`, its target cell as built),
+   and scene 4 plays.
+
+**Puzzle 2. Pip's terrace (Growth, as built).**
+1. The old terrace's steps have fallen. Pip is on top.
+2. In a crack at its foot, a sprout. Cast Growth: a vine climbs to the terrace (`m9_vine`, the gate as built).
+3. Climb, and talk to Pip (scene 5).
+
+**Puzzle 3. The order's cellar (Reveal, as built, extended).**
+1. Dace's line and the well's sign say the archive's cellar runs under the plaza's old well, and the flags beside
+   it shimmer.
+2. Cast Reveal there: the hatch shows, painted to look like stone (`m9_hatch_seen`).
+3. Open it: the cellar's bar is lifted with the Earth (scene 6, `m9_hatch`), which unbars the vault on Crew 2's
+   side.
+
+**Puzzle 4. Old Jory's lift (the relay: Crew 2's Whirlwind).**
+1. Jory won't climb and won't be carried. His line names Sael's lift.
+2. On Crew 2's side, Whirlwind turns the wind-wheel (puzzle 8, `m9_lift`), and the basket comes down by the
+   harbour steps.
+3. Back with Crew 1, talk to Jory (scene 7, `m9_ev_c`).
+
+**Crew 2, the archive**
+
+**Puzzle 5. The archivist (Mind Read, as built).** Gannet says the vault holds dust. Mind Read hears the Ledger's
+name, its shelf, and that the bar is below, under the plaza's well (scene 9, `m9_where`).
+
+**Puzzle 6. The east wing (Blaze, then Move, new).**
+1. The east wing's lamps are out, and its aisle is drawn dark (mission 8's hold).
+2. Cast Blaze on the great lamp over the aisle: the dark lifts (scene 10, `m9_lamp`), and the fallen case shows
+   across the aisle.
+3. Stand at its end and cast Move: it slides into the gap between two stacks (`m9_case`), and the vault door is
+   reachable. The aisle is open round the case's cells, so it can always be got behind.
+
+**Puzzle 7. The vault (the relay: Crew 1's bar).** The vault's door opens only once Crew 1 has lifted the bar
+(`m9_hatch`, a gate on Crew 2's side, as built). The Ledger needs `m9_where` as well (scene 13).
+
+**Puzzle 8. The wind-wheel (Whirlwind, as built).** On the ledge, Whirlwind on the wheel drops the lift (scene 11,
+`m9_lift`), for puzzle 4.
+
+**The falling road, Crew 1**
+
+**Puzzle 9. The boulder (Move, new; mission 2's, turned round).**
+1. Between the second bend and the last, a boulder comes down square across the road, with the cliff wall west of it
+   and the edge east.
+2. Stand west of it and cast Move: it rolls east off the edge (scene 16, `m9_boulder`). Pushed north or south it
+   only moves along the road, and can always be got behind again.
+
+**Puzzle 10. The rocking slab (Halt, new; mission 6's spar).**
+1. At the last bend, where Pip's low wall stood, a slab of the road has broken loose. It rocks out over the drop and
+   back across a one-cell gap in the road (a patrol actor), and nobody can cross while it moves.
+2. Cast Halt while the slab lies across the gap: for ten seconds the gap can be walked (`m9_slab` once crossed).
+   Halted out over the drop, it bridges nothing; wait and try again.
+
+**Optional A. Marta's counter (no verb).** Marta's note says take what you need: the counter's chest.
+
+**Optional B. The smouldering racks (Douse, Crew 2).** Douse puts out the west racks (`m9_charts`), and the gear
+chest behind them can be opened.
+
+## Eggs
+
+story.md §9a places no egg in mission 9, and none is added: the mission is the loss. Cidrick, mission 10's egg,
+walks up the cliff road with his tools (People and signs), so he isn't a stranger when he opens his yard on Marrow
+Isle.
+
+## Either order
+
+Mission 9 always follows both of Crew 1's recruitments and both interludes, so Sorrel and Vesper are always in Crew
+1 and nothing differs with the order missions 5 and 6 were played in.
+
+## Not in this mission
+
+Fallhaven's ruin as a memorial you can visit (story.md §9), and Corvin and {HERO}'s heart quest to rebuild its
+memorial (§11), both beyond the Galeway after the demo; the one lamp that goes another way in the storm, which is
+Hask's Breakers on their way to the Galeway relay (mission 11); the Ledger and Maren's notebook as evidence at her
+trial (mission 13) and Ilse's (mission 21, where she answers for Fallhaven); Lord Warden Vey in person; the
+Kestrel's end, which is mission 10's funeral; Gannet's charts as the start of the Marrow Isle library (Act II).
+
+## Inventions
+
+Things story.md doesn't say, for you to keep or strike:
+
+- **How Crew 1 gets to the rim:** Corvin sends Ketch through the Galeway to fetch {HERO} ("Tell {HERO} I'm
+  asking"), and Ketch's skiff leads the Kestrel through the storm lanes; the order's ships still never cross. The
+  knock plays on mission 7's rest hook, wherever Crew 1 sleeps, and sets night (decision 8's "soon after").
+- **Maren's choice to come**, and her last report, sent west by Wingull that night: the reason the order's fleet is
+  waiting at the Galeway.
+- **Fallhaven's geography for its fall:** the boats gathered in the west cove under the high town; the harbour
+  gone at dusk; the lower town reached down the cliff road; the archive cut into the cliff above the plaza, with
+  great doors on the plaza, a high door onto the cliff road, a wind-wheel lift down to the harbour steps, and the
+  order's east vault, barred from a cellar under the plaza's well.
+- **The archive was the order's:** its Rimward station on the rim, left "before Sael's time", its vault barred from
+  below and its hatch painted to look like stone; the edge posts ("THE EDGE WAS HERE") as the order's measuring
+  sticks.
+- **The Ledger of the Crown's words:** the seals draw each Well "up under the Spine, into the Crown"; the great ones
+  "do not wake. They thin"; the Crown keeps the centre in summer; the rim is the cost, "a street a year"; towns paid
+  (Hale's Point, Gullstone, Kettle Bay) and to pay (Saltcombe, Fallhaven); and the last warden's note, "We were told:
+  hold a while. Only a while. It has been a long while. I am going home. Forgive us", which echoes the founders in
+  Celebi's vision (mission 5) and hints at layer 3 without naming the Farers.
+- **Each crew brings a piece to the reading:** Tamsin's grey firebird, Sorrel's "hold a while", Maren's "the
+  order's hand", Wynn's six lines and her mother's lights, Vesper's "Paid for by the edge", Corvin's "It's being
+  bled".
+- **Sael's last night:** "He was somewhere worth being found" (mission 2's "be somewhere worth being found"); "I'll
+  be the last. The captain always is" (mission 2's seed, said on the plaza); "Somebody has to lock up"; the lift she
+  never let Jory ride; "Then stop paying"; "Doors hold. It's what they're for" (mission 2's "Doors do. It's what
+  they're for"); and "Take a coat" (mission 2's "You never take a coat"), with her captain's coat, which Corvin wears
+  from then on.
+- **Sael's still** and its white-out.
+- **Corvin's grief:** "She made me take a coat. I always forget the coat."
+- **The three households as mission 2's people:** Tanner (new bread, lodging with Ossian) and Ossian of Saltcombe
+  behind the chimney ("Again. We're doing this again"), Pip on the old terrace ("Can we do that again?" "No."), and
+  Old Jory, who rides Sael's lift singing the skiff-song, so Crew 1 hears "Under the marrow" and Sorrel hears "Marrow"
+  in it. Wenna, Marta and Fen on the road; Hanne's "Tidewardens. On the rim. Helping."
+- **New people:** Gannet the archivist, who promised his master never to open the vault and carries the rim's charts
+  out (a seed for the Marrow Isle library); Dace the fisher; a sailor who saw Hask's boats go "low in the water"; and
+  Cidrick (mission 10's egg).
+- **Relay stones as Rimborn lamp-stones,** "Every Rimborn house keeps a pair."
+- **Maren's confession:** to both crews, at the cliff top; Lord Warden Aurelian Vey named in Act I for the first
+  time; he asked for her by name, "a medic to watch the deputy. The deputy would lead him to the seal-breaker"; "I
+  noticed you noticing. I wrote that down too"; her notebook of copies handed to {HERO}, a seed for her trial
+  (mission 13) and Ilse's (mission 21); and Corvin's "Can she set a bone? She can. So she stays."
+- **The way home:** every boat in the west cove follows Ketch through the Galeway; the Kestrel's keel cracks on the
+  second night (mission 10's funeral); one lamp goes another way into the storm (Hask, for mission 11); Crew 2 hides
+  under Ketch's nets ("sacks of nets. You've had practice", mission 2's "look like a sack of nets"); the Holdfast's
+  hail and Ilse's "Belay that order. ...To Marrow Isle."
+- **Ilse at the landing:** "I had never once watched it fall"; "Written and witnessed" (her own words from mission
+  1), with Brann as witness; "The order knew where you'd gone, Deputy, before I did. I'd like to know how" (Maren
+  silent); "And you've broken my cutter" and Tully's answer; sailing for the Pinnacle that noon to answer for it (a
+  seed for mission 21), so she never sees the Wayfarer.
+- **Brann's welcome:** "There's pie. There's always pie"; mission 1's "Whole. Good. That's the first thing a keeper
+  checks", and "The second's the report. ...Later. Eat first."
+- **The rewards:** Herb ×3 and Antidote ×2 from Marta's counter, and a Bronze Shield behind the charts.
+
+## Changes to the build
+
+**Rooms**
+- **`fallhaven_lower`** re-clipped from the same part of Golden Sun 1's Bilibin as mission 2's `fallhaven`, so the
+  plaza, the Leaning Gull, Marta's, the harbour stair and the new edge are where a player left them, with more of
+  Bilibin's lanes south and west for the households: the west lane with the chimney's door and niche, the old
+  terrace with the sprout's crack and the vine gate (`m9_vine`), the broken harbour steps with the lift's foot, the
+  plaza with its crack (a gate opening it wider in scene 12), the old well and the hatch, the relay stone by the
+  Leaning Gull, Marta's counter, the north stair (the warp to the archive's entrance 1, as built) and the west alley
+  (a warp to `fallhaven_cliff`'s bottom). Entrance 0 moves from the harbour to the foot of the west alley. Outdoor,
+  at night, with `clock_hold: night`.
+- **`fallhaven_archive`** re-clipped: the great hall (entrance 1 at the great doors) with a strip of the plaza
+  outside the doors that a gate turns to the edge in scene 14; the reading table, the racks and the relay stone
+  (entrance 0 beside it for Crew 2); the east wing, drawn dark until `m9_lamp` (mission 8's hold), with the great
+  lamp and the fallen case (a pushable actor, `m9_case` on its target cell); the vault door (the gate on `m9_hatch`,
+  as built) and the vault with the shelf; the west alcove with the smouldering racks and the gear chest; and the inner
+  stair to the wind-wheel ledge and the high door (a warp to `fallhaven_cliff`'s new high-door entrance, taken only
+  by scene 14). `clock_hold: night`.
+- **`fallhaven_cliff`** (mission 2's room), mission 9's states: two new entrances (the high town gate at the top,
+  and the high door on the second bend); the people climbing on the way down; in the falling state, gates turning
+  the road below the second bend and the high door to the edge and rubble, a step-on spot at each bend that drops it
+  behind the crew, the boulder (pushable; falls off the edge, mission 2's rule), the rocking slab (a patrol actor
+  over the last bend's gap that Halt stops, its cell walkable while it's halted there: mission 6's spar), and the
+  lower town's roofs at the road's foot, which a gate turns to the edge in scene 17. `clock_hold: night`.
+- **`stonehollow`:** a new entrance at the cove for the landing; scene 20 (Ilse, the Holdfast's boat, the towed
+  Kestrel, Ketch's skiff and its nets as actors) replaces the first half of today's `refugees_settle`.
+
+**Actors and engine**
+- **The rest hook** (mission 7's shared file) plays scene 1 once `m8_posters`, unless `m9_started`, and drops that
+  rest's after-rest line. Ketch is an actor the scene places at the room's restoration point. The `when` step on the
+  Bazaar's gangway that starts mission 9 today comes out (mission 8's page moves it here).
+- **The clock:** `phase night` in scene 1, `clock_hold: night` in the three Fallhaven rooms, `phase dawn` before the
+  landing.
+- **`place_crew`** (as built): Crew 2 into the archive in scene 1, and into Stonehollow's cove (Ketch's skiff) in
+  scene 19.
+- **Relay stones** as built, hidden from `m9_meet`, when both crews stand together.
+- **Today's rows renamed:** `fallhaven_lower` slot 10's "Mother" family becomes Tanner and Ossian, behind the chimney
+  until `m9_alley` and staged in scene 4; slot 12 "Child" is Pip; slot 13 "Old man" is Old Jory; slot 17
+  "Townsman" is Dace. `fallhaven_archive` slot 10 "Archivist" is Gannet. Every row's text by state (mission 1's
+  recommendation).
+- **Story objects by flag** (items §5): a `key_items.json` row for Maren's notebook (`m9_confession`), the Ledger's
+  row (`m9_ledger`) with its text, and a System line said by the scene.
+- **The still** `sael_doors` (the `still` step), with a white-out end.
+- **Poses** (art part A's list grows): brace against the doors, hold Corvin, a hand on a shoulder, put on the coat,
+  lift.
+- **Crowd walks** (mission 2's): the crews to the stair, Tanner and Ossian, Crew 2 up the road.
+- **Lines over black** for the Galeway (mission 4's), with a `Distant voice` and Ilse unseen.
+- **Blaze lifting a room's dark** (mission 8's hold) and **Douse on smouldering racks** (mission 7's burning cells).
+- **Today's lines replaced:** `lower_arrival`, `family_a`, `child_b`, `family_c`, `hatch`, `archive_arrival`,
+  `ledger`, `finale`, and every row's text in the two rooms.
+- **The Kestrel** is damaged from `m9_done`: Stonehollow's voyage row (Tully, slot 17) gives no chart until the
+  Wayfarer (mission 10).
+
+**New scene steps** (README §2): `phase`, `light` (the shimmer, the gust, the amber hands, the cold white through the
+doors), `camera`, `pose`, `choice` (both beats, with the quiet set), `crew out` and `crew in`, `still`, `place crew`
+(as built), step-on triggers (scene 17 and the bends behind), Psynergy-flag triggers (scenes 4, 10, 11 and 16), a
+flag trigger (scene 12) and the rest-hook trigger (scene 1).
+
+**Checks.** `tools/mission9_check` follows the new flow from a rest after `m8_posters`: the knock and Ketch's reply
+menu in both voices, the voyage, the road down, the plaza, the three households in any order through the relay
+(Jory refusing before the lift), the hatch and the bar, the archivist's thought, the lamp and the case, the wheel,
+the vault shut before the bar and open after it, the Ledger, the north stair refusing until both halves are done,
+the doors and the still, the falling road (the boulder, the slab), the fall, Maren's reply menu in both voices, the
+Galeway, the landing and `m9_done`.
