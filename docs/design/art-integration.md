@@ -64,6 +64,12 @@ No decision needed. The critic trimmed it to what has a use now, in two parts.
 | 8 | UI art: item icons, button prompts, emotes, window frames | Your UI-art decisions |
 | 9 | Tiles, area by area, without touching events | Decided 17 Oct (art 8): Golden Sun's tiles stay for the demo; only gaps (ships, Surf) get new art |
 
+## 3b. The phone's own numbers (19 Oct)
+
+Measured on your Fold 7: the cover screen 2520×1080 and the inner screen 2184×1968 in landscape, about 120 fps. These
+are the sizes §1 and the fold probe assumed, so decision 1's 480×320 picture holds: 3× on the cover (a 746×320 view,
+bars 141 and 60 px) and 4× inside (480×432, bars 132 and 120 px), with the UI at 2× (decision 7).
+
 ## 3a. What the Phase 2 probes showed (17 Oct)
 
 Two probes drew the open art questions as pictures (the LPC composer over all eight Adepts on two bodies; the
