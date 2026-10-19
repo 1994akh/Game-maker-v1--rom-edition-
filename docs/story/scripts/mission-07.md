@@ -12,7 +12,7 @@
 | Rooms | Wherever Crew 1 rests (the handover and the hand-back); `bastion_shore` (re-clipped: the strand and the sea-gate); `bastion_jail` (re-clipped larger: the cistern landing, the cell corridor, the guard passage, the key room, the records office, the seized-goods store); `bastion_caves` (new: the sea-cave escape, decision 5) |
 | Clock | The rest sets dawn for Crew 1; the handover sets night for Crew 2; night through the break-in; dawn at the cave mouth, and Crew 1 wakes at dawn |
 | Flags in | `m5_done` or `m6_done`; `m5_sorrel` and `m6_pilot` for Crew 1's lines in the hand-back |
-| Flags out | `m7_started`, `m7_intro`, `m7_beacon`, `m7_tunnel`, `m7_jail_intro`, `m7_passage`, `m7_cover`, `m7_key`, `m7_cell_open`, `m7_freed`, `m7_ledger`, `m7_alarm`, `m7_sluice`, `m7_caves_in`, `m7_holm`, `m7_boom_lit`, `m7_boom`, `m7_done`, `m7_letter`; and, optional, `m7_strand_dug`, `m7_flagstone`, `m7_magikarp`, `m7_store`, `m7_locker`, `m7_cave_stash` |
+| Flags out | `m7_started`, `m7_intro`, `m7_beacon`, `m7_tunnel`, `m7_jail_intro`, `m7_passage`, `m7_cover`, `m7_key`, `m7_cell_open`, `m7_freed`, `m7_ledger`, `m7_alarm`, `m7_sluice`, `m7_caves_in`, `m7_holm`, `m7_boom_lit`, `m7_boom`, `m7_done`, `m7_letter`; and, optional, `m7_strand_dug`, `m7_flagstone`, `m7_magikarp`, `m7_pen`, `m7_store`, `m7_locker`, `m7_cave_stash` |
 | Unlocks | Nerissa (Sea, with Froakie) joins, and with her Frost, Ply and **Douse** (new, built for the boom: decision 6's "whatever Nerissa brings"); Surf for crew 2 (Froakie, under mission 3's `hm_surf`); the Linking Cord in crew 2's bag (story decision 5: Vesper's, usable once the bags merge at mission 10); the word "Crown" for crew 2 |
 | Reply beats | 2, Corvin's (README §3): Nerissa's question in her cell (scene 8); Nerissa's question at the ledger (scene 9) |
 | Fights | Lieutenant Holm (`bastion_holm`, new) on the cave landing. A loss plays "Try again" |
@@ -570,7 +570,7 @@ spend herself first.
 
 ### 13. The boom
 
-- Room: `bastion_caves`. Trigger: winning the fight (Holm's `scene_after`).
+- Room: `bastion_caves`. Trigger: winning the fight (Holm's `scene_after`; the win sets `m7_holm`).
 
 *Holm's Spheal rolls onto its back, done. Holm backs up the first steps of the stair, breathing hard, her lantern
 still held high. [walk Holm → the stair's foot]*
@@ -762,3 +762,661 @@ So we hold to it.
 
 *[crew in] [flag m7_letter] Control returns. Crew 1 plays on from where it rested.*
 
+## People and signs, by room
+
+### Where Crew 1 rests
+
+No lines of its own. The handover (scene 1) and the letter (scene 16) play there, and the innkeeper's after-rest
+line from that one rest is held back until the letter. Every inn's other lines are its own page's (missions 1 to 6).
+
+### `bastion_shore`
+
+*The states:* before the beacon (until `m7_beacon`); after the beacon (`m7_beacon`). Crew 2 leaves by the sea caves
+and never comes back, and Bastion Rock is on neither ship's chart in the demo, so nothing is written for after the
+break. Positions are places in the re-clipped room.
+
+- **Ketch**, in the skiff at the strand's west end: crew 2's restoration point, free (as Fen's inn in mission 2).
+  Before the beacon:
+
+  **Ketch:** Light the beacon, and they all look
+  at the sea. Clever. I'd have thought
+  of that. Eventually.
+
+  *After the beacon:*
+
+  **Ketch:** Go on, while they're busy looking
+  at nothing. I'll be here. Probably.
+
+  *Then, in both:*
+
+  **Ketch:** A nap in the boat? I'll keep
+  watch. And sing. Quietly.
+
+  *[menu: Rest, Pokémon, Not now] (the inn's menu, at no charge)*
+
+  *After resting:*
+
+  **Ketch:** You snored. I sang over it. The
+  sentry never heard a thing.
+
+- **The sentry**, on the wall walk over the lamp, until `m7_beacon`: a guard row with no patrol, facing down across
+  the lit strand (range 4), out of reach. From `m7_beacon` a second row stands at the parapet's west end facing out
+  to sea, and the first hides. No lines but scene 3's and the caught steps.
+
+- **The shore's caught steps** (the sentry sees the crew in the lamp's light):
+
+  **Sentry:** Who's that on the strand? Lights!
+  Lights!
+
+  *[fade out 20] [to_entrance 0] [fade in 20]*
+
+  **Corvin:** He watches the light. We have to
+  give him something better to look
+  at.
+
+**Signs and things to examine**
+
+- **The fortress sign**, at the landing:
+
+  **Sign:** BASTION ROCK. Property of the
+  Pinnacle. No landing. No mooring.
+  No exceptions.
+
+- **The licence notice**, beside it:
+
+  **Sign:** NOTICE. All Pokémon on this rock
+  shall be licensed and registered.
+  By order of the Commandant.
+
+  Unregistered Pokémon will be held
+  until registered. Or for ever.
+
+- **The sea-gate:**
+
+  **Sign:** The sea-gate: two iron leaves,
+  taller than a mast, chained shut
+  for the night.
+
+- **The lamp.** Before the beacon:
+
+  **Sign:** A lamp on a post, throwing a ring
+  of light across the strand. Above
+  it, the sentry watches the light.
+
+  *After the beacon:*
+
+  **Sign:** A lamp on a post. Above it, the
+  wall walk is empty.
+
+- **The beacon**, on the spur. Before Blaze:
+
+  **Sign:** A cold iron beacon on a spur of
+  rock, its basket stacked with tarred
+  wood. Nobody's lit it in years.
+
+  *After the beacon:*
+
+  **Sign:** The beacon roars. Every lantern on
+  the wall is looking out to sea.
+
+- **The soft ground**, slot 8, by the sea-gate, until `m7_tunnel`:
+
+  **Sign:** Soft, wet earth under the quay's
+  edge, washed out by the tides.
+  Scoop would dig it.
+
+  *From `m7_tunnel`:*
+
+  **Sign:** A hole under the wall. It goes
+  down a long way.
+
+- **The strand glint** (optional A), on the shingle west of the light, until `m7_strand_dug`:
+
+  **Sign:** Something glints in the shingle
+  where the tide just left it. Scoop
+  would dig it out.
+
+- **Ketch's skiff:**
+
+  **Sign:** Ketch's skiff, mast down, oars
+  shipped. A coat of patches hangs off
+  the bow.
+
+### `bastion_jail`
+
+*The states:* the night (until `m7_alarm`); the alarm (`m7_alarm`): the guard and the sergeant have gone up to the
+strand, and the tunnel is closed. Positions are places in the re-clipped room.
+
+- **The guard** (Marine Dobbs, by the roster), slot 8, walking the corridor (patrol and sight as built, range 4).
+  Talking to him is never possible: he sees whoever stands in front of him. The room's caught steps (as built,
+  rewritten):
+
+  **Guard:** Hey! Who's down there?
+
+  *[fade out 20] [to_entrance 0] [fade in 20]*
+
+  **Tamsin:** Back in the hole. ...Again. Quieter
+  this time. Watch which way he's
+  facing.
+
+  *From `m7_alarm`:* gone (scene 9).
+
+- **Sergeant Pruitt** (new), at his desk at the guard passage's south end: a guard row with no patrol, facing north
+  up the passage (range 4). A pushed block in his line stops his sight (puzzle 3). His own caught steps (Changes to
+  the build):
+
+  **Pruitt:** You! Name! Number! Licence!
+
+  *[fade out 20] [to_entrance 0] [fade in 20]*
+
+  **Corvin:** He sees all the way up the
+  passage. We need something in his
+  way.
+
+  *From `m7_alarm`:* gone (scene 9).
+
+- **Old Tarrant** (new, the egg), behind the bars of a cell on the corridor's north side. The night, until
+  `m7_magikarp`:
+
+  **Tarrant:** Psst. You. Not a guard. Good.
+  Tarrant. Rimborn, same as you. It's
+  in the boots.
+
+  In for unlicensed Magikarp. Forty of
+  them. They were going to be a
+  surprise.
+
+  Want one? A very special Magikarp.
+  Five hundred coins.
+
+  *[wait 20]*
+
+  **Tarrant:** ...Five. Five coins. I'm in no
+  position to haggle.
+
+  *[yes/no] (the mirror's yes/no) Yes, with 5 coins or more: [take_coins 5]*
+
+  **System:** {LEADER} paid 5 coins.
+
+  *Yes, with fewer: [take_coins: the whole purse]*
+
+  **System:** {LEADER} paid every last coin.
+
+  *Then, after either:*
+
+  **Tarrant:** Pleasure doing business.
+
+  *He reaches into his bucket and passes a Magikarp through the bars. It flops. [give_pokemon Magikarp, L5, to the
+  Kin Garden] [flag m7_magikarp]*
+
+  **System:** Magikarp joined! It was sent to
+  the Kin Garden.
+
+  **Tarrant:** Don't tell the sergeant. He thinks
+  that's a bucket of water.
+
+  *No:*
+
+  **Tarrant:** Your loss. I'll be here. Eleven
+  more years, the sergeant says.
+
+  *From `m7_magikarp`, the night:*
+
+  **Tarrant:** Thirty-nine left. Every one very
+  special.
+
+  *The alarm:*
+
+  **Tarrant:** Go on, go! I'll tell them you went
+  the other way. For a fee.
+
+- **The registry pen** (new), the first cell on the corridor, by the cistern landing (optional E). Until `m7_pen`:
+
+  **Sign:** A cell full of Pokémon: a
+  Zigzagoon, a Wingull and a Psyduck.
+  A board on the door:
+
+  AWAITING REGISTRATION. To be held
+  at the Commandant's pleasure.
+
+  *From `m7_key`, then:*
+
+  **Sign:** One of the cell keys fits. Open
+  the pen?
+
+  *[yes/no] Yes:*
+
+  *The Zigzagoon is gone before the door is fully open. The Wingull follows it, low, toward the cistern. The
+  Psyduck stays where it is, holding its head. [hide the Zigzagoon] [hide the Wingull] [flag m7_pen]*
+
+  **Tamsin:** Two out of three. The duck's
+  thinking about it.
+
+  *From `m7_pen`:*
+
+  **Sign:** The pen stands open. The Psyduck
+  is still thinking about it.
+
+- **Nerissa**, slot 11, in the last cell. Before the keys, the cell door (slot 10):
+
+  **Sign:** A cell door, locked. Through the
+  grille, somebody sits very still on
+  a cot.
+
+  *Then, from inside:*
+
+  **Calm voice:** If you're the night watch, you're
+  early. If you're not, the keys are
+  next door.
+
+  *With the keys:* scene 8. From `m7_freed` she is in the crew, and the row hides (as built).
+
+- **The laundry crate**, in the bay beside the guard passage (puzzle 3). Until `m7_cover`:
+
+  **Sign:** A laundry crate full of grey
+  blankets. It would slide, with a
+  push.
+
+  *From `m7_cover`:*
+
+  **Sign:** The crate sits square in front of
+  the desk. The sergeant can see a
+  crate. That's all.
+
+**Signs and things to examine**
+
+- **The rules board**, in the cistern landing:
+
+  **Sign:** RULES OF BASTION ROCK.
+  1. No talking. 2. No singing.
+  3. No unregistered Pokémon.
+
+  4. See rule 1.
+
+- **The duty roster**, by the corridor door:
+
+  **Sign:** NIGHT WATCH. Corridor: Marine
+  Dobbs. Desk: Sgt. Pruitt. Strand
+  bell: whoever is awake.
+
+- **The sergeant's desk**, from `m7_alarm`:
+
+  **Sign:** THE REGISTER OF BASTION ROCK.
+  Every Pokémon on the rock, by
+  number. There's no Froakie.
+
+  A brass plate on the desk: SGT.
+  PRUITT. HAS NEVER ONCE SLEPT ON
+  DUTY.
+
+- **The key board**, from `m7_key`:
+
+  **Sign:** A hook labelled CELLS, empty. The
+  other hooks are labelled too. Very
+  neatly.
+
+- **The seized-goods store's door** (optional C), on the corridor's south side. Until `m7_key`:
+
+  **Sign:** A door marked SEIZED GOODS.
+  Locked.
+
+  *From `m7_key` the door opens (a gate on the flag).*
+
+- **The store's shelves:**
+
+  **Sign:** Seized goods, every one tagged
+  UNLICENSED. A fiddle. A fishing rod.
+  A barrel of pickled eggs.
+
+- **The evidence chest**, in the store (the dungeon's gear chest), with a tag read before the engine's chest line:
+
+  **Sign:** A long chest, tagged SEIZED FROM
+  A PIRATE. EVIDENCE. DO NOT OPEN.
+
+- **Nerissa's locker**, in the store. Before `m7_freed`:
+
+  **Sign:** A locker tagged THE DIVER. A purse
+  inside, sealed with the order's
+  wax. It isn't yours.
+
+  *From `m7_freed`, until `m7_locker`:*
+
+  **Nerissa:** My purse. Light, but mine.
+
+  *[give coins 120] [flag m7_locker]*
+
+  **System:** {LEADER} received 120 coins!
+
+- **The flagstone** (optional B), in the middle of the corridor's row, until `m7_flagstone`:
+
+  **Sign:** A loose flagstone, a chalk mark
+  scratched on it: a wave over a
+  line. Rimborn. Something kept.
+
+  *Scoop on it: [flag m7_flagstone] [give coins 60]*
+
+  **System:** {LEADER} found 60 coins!
+
+  **Tarrant:** Oi! That's my... Oh, keep it. I'm
+  not going anywhere.
+
+- **The records office's shelves:**
+
+  **Sign:** Ledgers bound in blue, a season to
+  a book, back further than anybody
+  could count.
+
+- **The tithe ledger**, slot 12. Before `m7_freed`:
+
+  **Sign:** A ledger open on the lectern,
+  columns of figures in a neat hand.
+  It would take a while to read.
+
+  *From `m7_freed`:* scene 9. *From `m7_ledger`:*
+
+  **Sign:** The tithe ledger. Where this
+  season's page was, a torn edge.
+
+- **The cistern grate.** Until `m7_alarm`:
+
+  **Sign:** An iron grate over the cistern.
+  Black water runs away under it,
+  somewhere, toward the sea.
+
+  *From `m7_alarm`:* scene 10. *From `m7_sluice`, the hole where it was (the warp to `bastion_caves`):*
+
+  **Sign:** The grate is gone. The water runs
+  down into the dark, and out.
+
+- **The tunnel**, the warp back to the strand: open until `m7_alarm`, then closed with this line:
+
+  **Sign:** Lanterns, at the far end of the
+  tunnel. And voices. Not that way.
+
+- **The drain**, in Nerissa's cell, from `m7_freed`:
+
+  **Sign:** A drain in the floor, breathing
+  cold salt air. Froakie's front door.
+
+### `bastion_caves` (new)
+
+*The states:* before the boom burns (until `m7_boom_lit`); burning (until `m7_boom`); out (`m7_boom`). No people
+but Holm (scenes 12 and 13). No random battles: the caves are the escape, and Holm is the fight.
+
+**Signs and things to examine**
+
+- **The outfall**, by the pool:
+
+  **Sign:** The cistern's outflow falls into
+  the pool in a white rope, loud and
+  cold.
+
+- **The fortress stair**, at the landing:
+
+  **Sign:** A stair up into the fortress.
+  Boots, a long way up, and bells.
+
+- **The boom.** Until `m7_boom_lit`:
+
+  **Sign:** A boom of tar barrels on a chain,
+  rock to rock across the cave mouth.
+
+  *Burning (also the line when Surf meets it):*
+
+  **Sign:** The boom is burning from rock to
+  rock. Froakie won't swim near it.
+
+  *From `m7_boom`:*
+
+  **Sign:** Wet black barrels, steaming. The
+  way to the sea is open.
+
+- **The tide marks**, on the cave wall:
+
+  **Sign:** Lines of old weed on the rock, one
+  above another. The sea comes a long
+  way in, here.
+
+- **The chalk mark** (optional D), on the wall above a niche off the ledge:
+
+  **Sign:** Chalk on the cave wall: a wave over
+  a line. Rimborn, under the order's
+  own fortress.
+
+  **Corvin:** Of course. Of course there's a
+  Rimborn stash under Bastion Rock.
+
+- **The wedged rock** (optional D), in the niche, until `m7_cave_stash`:
+
+  **Sign:** A rock wedged into the niche under
+  the chalk mark. It would slide, with
+  a push.
+
+## Items and chests
+
+| What | Where | Gives | The words |
+|---|---|---|---|
+| The strand glint | `bastion_shore`, west of the light (Scoop; sets `m7_strand_dug`) | Nut ×1 | **System:** {LEADER} found Nut! (the engine's line) |
+| Tarrant's stash | `bastion_jail`, the marked flagstone in the guard's row (Scoop; sets `m7_flagstone`) | 60 coins | The flagstone's lines, above |
+| The evidence chest | `bastion_jail`, the seized-goods store (the dungeon's gear chest, items §13) | Bandit's Sword (the artifact items §13 lists for a dungeon chest) | The tag, then the engine's chest line, naming `{LEADER}` |
+| Nerissa's purse | `bastion_jail`, her locker in the store, with her in the crew (sets `m7_locker`) | 120 coins (items §12's "Bastion locker") | The locker's lines, above |
+| Tarrant's Magikarp | `bastion_jail`, his cell (the egg) | Magikarp, L5, to the Kin Garden, for 5 coins | Tarrant's lines, above |
+| The cave stash | `bastion_caves`, the niche under the chalk mark (Move; sets `m7_cave_stash`) | Herb ×2 | The engine's chest line, naming `{LEADER}` |
+| Holm's purse | The fight | The fight's coins (a Tidewarden officer's: slice 10 sets them) | The fight's own line |
+| The ledger page | Scene 9 | Nothing: a prop Corvin keeps (mission 8 uses it) | — |
+| The Linking Cord | Scene 15, from Nerissa (story decision 5) | Linking Cord ×1, into crew 2's bag | Scene 15's system line |
+
+**The Linking Cord's item text** (the Items screen):
+
+**Item:** A Pearlhollow linking cord of
+braided silk, a loop at each end.
+Some Pokémon change, tied to it.
+
+## Puzzles
+
+The crew's verbs here: Corvin's Move and Scoop, Tamsin's Blaze (decision 6: built), and from scene 8 Nerissa's
+Frost, Ply and Douse (new). Surf comes with Froakie: a kept HM under mission 3's `hm_surf`, which crew 2 can use as
+soon as a Set Pokémon in it can learn Surf. There is no Halt or Cloak: those are crew 1's. Guards see along their
+heading, four cells, unless a wall is in the way (as built); here a pushed block stops them too. Pushed things stay
+where they're pushed (slice 4), so every block can always be got behind again, or can't be pushed anywhere useless.
+
+**Puzzle 1. The strand (Blaze, then Scoop; new and as built).**
+1. From the skiff at the strand's west end, the strand runs east under the wall to the sea-gate. The lamp lights
+   the cells beneath it, from the wall's foot to the water's edge, and the sentry on the wall walk above looks
+   straight down them (a guard row, range 4). The soft ground lies east of the light, by the sea-gate.
+2. West of the light, on a spur off the strand, stands the cold beacon. Cast Blaze on it: it flares (scene 3,
+   `m7_beacon`), and the sentry's row swaps for one at the parapet's west end, looking out to sea.
+3. Now the light can be crossed. Cast Scoop on the soft ground: the tunnel opens (scene 4, `m7_tunnel`, as built),
+   and the hole is the warp to the cells.
+4. Crossing the light before the beacon plays the shore's caught steps: back to the skiff, with Corvin's hint.
+
+It teaches Blaze away from a brazier stair, and a guard's sight before the cells.
+
+**Puzzle 2. The corridor (sight-lines, as built, laid out again).**
+1. The cell corridor runs east from the cistern landing. Cell doors line its north side, each set back a cell in a
+   deep doorway; on its south side are the store's door and the crate's bay.
+2. The guard walks the corridor's row from end to end (as built: a patrol, sight four cells along his heading).
+   Doorways are off his row, so he never sees into one.
+3. Follow him while his back is turned, and step into a doorway before he turns. There is cover every few cells.
+4. Seen, the room's caught steps play: back to the tunnel's mouth, with Tamsin's line.
+
+**Puzzle 3. The sergeant's line (Move, new).**
+1. At the corridor's east end the guard passage runs north to the key room, the records office and the last cell.
+   Pruitt sits at its south end, facing north, so he sees the cell in front of his desk, the junction with the
+   corridor and the two cells beyond it. Every way north crosses his line.
+2. In a bay off the corridor, beside the passage, a laundry crate stands one cell west of the cell in front of his
+   desk. The bay opens onto the corridor, so the cell west of the crate can be reached without crossing his line.
+3. Stand west of the crate and cast Move: it slides east one cell, square in front of his desk (`m7_cover`). His
+   sight stops at it (new: a pushed block cuts a guard's line).
+4. Now the junction and the passage's north end are safe. The crate can't be pushed again (his desk is behind it
+   and the passage wall beside it), and it is never in the way.
+
+It teaches that a guard's line can be cut, not only dodged.
+
+**Puzzle 4. The boom (Douse and Surf, new).**
+1. In the sea caves the channel runs from the pool to the cave mouth. Surf on Froakie from the landing's water
+   steps, once Holm is beaten.
+2. After the fight the boom burns across the mouth (`m7_boom_lit`): a row of burning cells on the surf layer that
+   Surf won't enter, with the boom's line.
+3. Surf down the channel to within Douse's reach and cast Douse on the boom: rain puts it out (scene 14,
+   `m7_boom`), and its cells are water again.
+4. Douse is Nerissa's, and the boom only burns after the fight, so nothing can come out of order.
+
+It shows off the new Adept's Psynergy, as the party rules ask of each recruitment (party-and-battle.md §7), and it
+is Tamsin's Blaze turned round.
+
+**Optional A. The strand glint (Scoop).** West of the light, on the shingle: Nut ×1 (`m7_strand_dug`).
+
+**Optional B. Tarrant's flagstone (Scoop, in the guard's row).** A loose flagstone with the Rimborn chalk mark
+(mission 2's "something kept here") lies in the middle of the corridor's row. Scoop it while the guard's back is
+turned: 60 coins (`m7_flagstone`), and Tarrant's line. It is the corridor's risk, for a reward.
+
+**Optional C. The seized-goods store (the keys and Move).**
+1. From `m7_key` the store's door opens.
+2. Inside, two crates of seized goods stand in a row in front of the evidence chest and Nerissa's locker, with an
+   empty corner bay north of the first.
+3. Push the first crate north into the corner bay, then the second west into the space it left (`m7_store`). The
+   store is laid out so neither crate can be pushed anywhere it can't be got behind again.
+4. The evidence chest holds the Bandit's Sword; the locker, with Nerissa in the crew, her purse (`m7_locker`).
+
+**Optional D. The cave stash (Move).** On the ledge under the chalk mark, a rock is wedged in a niche. Move it one
+cell aside: the stash holds Herb ×2 (`m7_cave_stash`).
+
+**Optional E. The registry pen (the keys).** From `m7_key` the pen opens to the cell keys: the Zigzagoon and the
+Wingull bolt, and the Psyduck stays (`m7_pen`). Nothing is gained but the line; nothing is lost either.
+
+## Eggs
+
+story.md §9a places no egg in mission 7. As mission 2 placed Pip and mission 4 the Elder, one of §9a's unplaced
+Pokémon nods fits here and is placed as an invention: **"A suspicious Magikarp salesman"** is **Old Tarrant**, a
+Rimborn smuggler jailed for forty unlicensed Magikarp and still selling them through the bars. His opening price is
+the original's, bent by the haggle that follows: five hundred coins, then five. The Magikarp is real (L5, to the Kin
+Garden), and the sergeant thinks the bucket is water.
+
+## Either order: the lines that differ
+
+Everything in the interlude plays the same after mission 5 or mission 6. Only the hand-back (scene 16) differs:
+
+| Where | When | What |
+|---|---|---|
+| Scene 16 | `m6_pilot` | Vesper's "That makes two of us" |
+| Scene 16 | `m5_sorrel` | Sorrel's "They write our seed in a book like that" |
+
+If Crew 1 finished both recruitments before resting, both lines play, each standing on its own, and mission 8 plays
+at the following rest. In every `[crew out]` of scene 16, whoever is in Crew 1 steps out.
+
+## Not in this mission
+
+The way to Silverdeep and Nerissa's home (missions 16 and 18), which her terms seed; Hask's own search for the way
+(mission 18); the price Ilse promises (mission 8's posters); the Linking Cord's use (Vesper's Haunter, once the bags
+merge at mission 10, whose page can stage the cord changing hands); Crew 1 at Bastion Rock, which isn't on the chart
+in the demo; Maren's Douse, which follows the shared Sea list by level once Douse is built.
+
+## Inventions
+
+Things story.md doesn't say, for you to keep or strike:
+
+- **The handover's words,** written for any restoration point ("{HERO} slept. Far to the west..."), and the
+  innkeeper's after-rest line held back until the letter.
+- **Why Corvin goes:** the Rimborn lanes' word that the order took a diver who knows the way to Silverdeep, the Sea
+  Well's site; Corvin wants the way, and Nerissa's terms are "Get me out. One day, get me home to Pearlhollow. And
+  I'll think about the way".
+- **Hask at Pearlhollow:** the Rimborn in a coat of old sails who asked Nerissa for the way a month before; she
+  refused, and the order jailed her anyway on "knowledge of restricted waters" (a seed for Hask at Silverdeep,
+  mission 18, and for the order and the Breakers being each half right).
+- **Bastion Rock:** the strand, the sea-gate, the lamp and the wall sentry, the cold beacon, the soft fill under the
+  quay; the cistern landing, the cell corridor with deep doorways, the guard passage, a key room labelled in a neat
+  hand, the records office, the seized-goods store, the registry pen and the rules board; the sea caves, the outfall,
+  the landing and stair, and the boom of tar barrels that the watch lights against fleeing boats. story.md §9's
+  "licensed, registered Pokémon only" becomes the register, the pen and the frog joke.
+- **Bastion's people:** Sergeant Pruitt ("Name! Number! Licence!", never once slept on duty), Marine Dobbs on the
+  roster, Lieutenant Holm with her Wingull and Spheal, and Old Tarrant (the egg).
+- **Nerissa:** her look (a diver's white wrap, wavy hair tied back with a cord); hearing people by their walk;
+  "Took you long enough" and "I'd shake your hand" kept from today's build; "I know where the water is. It's a crime
+  now"; "a slow thinker. Divers are"; the knife the guards didn't find; Froakie living in her cell's drain, off the
+  register; Douse as her first field verb.
+- **The tithe ledger:** the Calm's tithe received at Bastion Rock and "shipped on, all. To the Crown": Embral's forty
+  braziers (mission 4), Canalport's two hundred barrels of rain (mission 3's notice), the Greenwild's thirty carts of
+  seed and sap (mission 5's notice), and **Marrow Isle's four hundred blocks of quarry stone**, the Earth tithe, which
+  no earlier page names; no column for anything coming back; Corvin's torn page, kept as proof.
+- **Corvin's lines:** "I left {HERO} a question, on Lantern Reef" (mission 6's note, left before this mission in
+  either order), "{HERO} cuts that stone", "It was a very good hole", "Then that's where we go next".
+- **Tamsin:** the beacon "Eight out of ten", breaking the grate ("Four out of ten. It was rusty"), "I've never seen
+  anybody un-set one".
+- **Ketch:** his four bad stories about the rock, the prison verse, the skiff as crew 2's free restoration point,
+  and the Bazaar as the place every chart is for sale (the seed for mission 8).
+- **The Linking Cord** (story decision 5): a Pearlhollow diver's cord, given by Nerissa in the skiff "for the crew",
+  with "A Haunter, they say", which points at Vesper's Gastly without naming her.
+- **Ilse's letter:** the breakout, the torn ledger page ("I cannot think why"), "He is building a crew", the price
+  to come and "Leave him to the fleet".
+- **Crew 1's lines:** "He isn't running. He's looking for something"; Maren's "Nobody has ever got out of Bastion
+  Rock" and her "The tithe goes to the Pinnacle"; Vesper's and Sorrel's lines.
+- **Lieutenant Holm's fight** on the landing, which story.md doesn't name: the dungeon's one fight, for crew 2's
+  EXP and coins (items §12's "interlude fights") and Nerissa's first battle in the crew.
+- **The rewards:** Nut ×1, 60 coins, 120 coins (the Bastion locker), the Bandit's Sword, Herb ×2, Magikarp and
+  Holm's purse.
+
+## Changes to the build
+
+**Rooms**
+- **`bastion_shore`** re-clipped from Golden Sun 1's Kalay Docks (room 107, as today) or a better walled shore, the
+  builder's pick: the strand with the skiff's landing (entrance 0) and Ketch's row, the lamp and its lit cells, the
+  wall walk with the sentry's two rows, the spur and the beacon, the sea-gate, the soft ground (slot 8) and the
+  tunnel's warp, and the strand glint. The sea warp and its escape scene move to `bastion_caves`; entrance 1, back
+  from the jail, is used only until `m7_alarm`.
+- **`bastion_jail`** re-clipped larger from Golden Sun 2's Madra jail (room 45) and its neighbours: the cistern
+  landing (entrance 0, the tunnel's mouth, with the grate and the rules board), the cell corridor with deep doorways
+  (the registry pen, Tarrant's cell, two empty cells), the flagstone, the store's door and the crate's bay on its
+  south side, the guard passage with Pruitt's desk, the key room (slot 9), the records office (slot 12), the last
+  cell (slots 10 and 11) and the seized-goods store with its two crates, chest and locker. The grate becomes a warp
+  to `bastion_caves` from `m7_sluice`.
+- **`bastion_caves`** (new, decision 5): a sea cave clipped from a Lost Age water dungeon (Aqua Rock or the like,
+  the builder's pick) with `--water`: the outfall and the pool (entrance 0, from the cistern), the ledge with the
+  chalk mark and the niche, the landing with its water steps and the fortress stair, the channel on the surf layer,
+  the boom across the mouth, and the mouth's exit, which plays scene 15. No random battles.
+
+**Actors and engine**
+- **The rest hook** (decision 7): scene 1 plays as an inn's or a sanctum's rest menu closes, from a shared events
+  file rather than one room (proposed: `maps_src/_interludes/events.json`), on `m5_done` or `m6_done` and unless
+  `m7_started`; it holds back that rest's after-rest line. Today's `when` steps at the ends of `celebi_vision`
+  (`eldergrove_heart`) and the note's `scene_after` (`lantern_reef`) come out, as missions 5 and 6 ask.
+- **A scene on resuming, in any room** (scene 16): from the same shared file, it plays when `resume_crew` returns
+  Crew 1, once `m7_done` and unless `m7_letter`, wherever Crew 1 rested, after the held-back after-rest line.
+- **Guards:** a guard row with no patrol (the sentry, Pruitt) keeps one heading; **a pushed block in a guard's line
+  stops his sight**, as a wall does (puzzle 3); **caught steps per guard** (the sentry's and Pruitt's own), the
+  room's as the default.
+- **Douse** on the field (Sea Psynergy, DESIGN.md's Sea list): it puts out a burning actor or burning cells and sets
+  their flag (`m7_boom`). Nerissa has it at her join level; Maren follows the shared Sea list. The Douse Drop stays
+  its backup item (party-and-battle.md §7).
+- **Burning cells on the surf layer:** the boom's cells refuse Surf, with the boom's line, from `m7_boom_lit` until
+  `m7_boom`.
+- **Nerissa's recruit:** `recruit nerissa` at L8 with Froakie and her kit (a light blade, equipment decision 11),
+  on Golden Sun's Sea class line and Summons (Mia's), as decisions 17 and 18 keep Golden Sun's names for the Golden
+  Sun elements. She wears Mia's field sprite until art part B2 gives her her LPC look.
+- **Corvin's L8 floor** applied when crew 2 starts here (progression 1).
+- **Ketch's skiff** as a free restoration point (mission 2's `restoration_price` 0 for Fen's inn).
+- **`bastion_holm`** (new): Lieutenant Holm, a Tidewarden Sea Adept at about L9 with a Wingull and a Spheal
+  (proposed; slice 10 measures it with `balance_fight` against crew 2 at L8 with Nerissa), "Try again" with
+  Nerissa's line, and scene 13 as its `scene_after`.
+- **Tarrant's sale:** the mirror's yes/no with mission 6's coins condition, `take_coins 5` or the whole purse, and
+  `give_pokemon Magikarp, L5, to the Kin Garden`.
+- **Gates and warps:** the store's door and the pen's door open on `m7_key`; the tunnel's warp closes from
+  `m7_alarm` with its line; the cistern's warp opens on `m7_sluice`; the beacon's Blaze event swaps the sentry's
+  rows.
+- **The alarm:** from `m7_alarm` the guard and Pruitt hide, and Tarrant's row says its alarm line.
+- **Today's lines replaced:** `bastion_arrival`, `jail_arrival`, `caught`, `cell_door`, `nerissa_joins`, the key
+  ring's text, the ledger's text and the sea warp's escape scene.
+- **`{LEADER}`** in the give, chest and coin lines (mission 2's).
+- **Froakie, Larvitar, Riolu, Ketch, the two sentries, Holm's Wingull and Spheal, the pen's Pokémon and Tarrant's
+  Magikarp** as actors scenes can move.
+
+**New scene steps** (README §2): `phase`, `light` (the beacon's flare, the boom's fire, the rain's grey), `camera`,
+`pose` (dig, reach, strike), `choice` (Corvin's two beats, with no quiet set), `crew out` and `crew in`, step-on
+triggers (scenes 6 and 12), Psynergy-flag triggers (scenes 3, 4 and 14), and the rest-hook and resume triggers
+(scenes 1 and 16).
+
+**Checks.** `tools/mission7_check` follows the new flow twice, from a rest at the Mossbed after mission 5 and from
+Marrit's lantern house after mission 6: the handover, the strand caught before the beacon and safe after it, the
+tunnel, the corridor caught and safe, the crate cutting Pruitt's line, the keys, both reply menus, the recruit, the
+ledger and the alarm, the tunnel closed after it, the grate, Holm and her retry line, the boom refusing Surf until
+Douse, the cave mouth, the Linking Cord in crew 2's bag, and Crew 1 back where it rested, with the letter.
