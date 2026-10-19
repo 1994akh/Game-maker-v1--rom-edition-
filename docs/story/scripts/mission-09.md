@@ -438,3 +438,345 @@ for.
 
 *[emote {HERO}: question] [crew in] [flag m9_ev_c] Then, if all three households are out, scene 12.*
 
+### 8. The archive
+
+- Room: `fallhaven_archive`. Trigger: entering, unless `m9_archive_intro`: Crew 2's first turn, from the lower
+  town's relay stone (today's `archive_arrival`, rewritten).
+
+*[fade in 40] The Fallhaven archive at night: a great hall cut back into the cliff, shelves climbing the rock to the
+roof, charts rolled in racks like bottles in a cellar, a long reading table under lamps that swing on their chains
+at every shake. South, the great doors stand open on the plaza's lamps and the roar beyond. East, the east wing runs
+back into the dark. A thin old man in ink-stained sleeves hurries between the racks with an armful of charts:
+Gannet, the archivist. Sael stands at the great doors, the archive's key on a cord round her neck, a hand on each
+door. [crew out]*
+
+**Sael:** Your keeper's down there with a
+medic, a forest girl and a fog
+pilot. They came through a storm.
+
+**Corvin:** Two nights of it. Ketch says
+{HERO} didn't argue once.
+
+**Sael:** Hm. The medic looked at my hands
+before she looked at my face. I
+like her.
+
+**Tamsin:** Everyone likes the medics. It's
+how they get you.
+
+*[face Sael → Corvin]*
+
+**Sael:** The order's vault is in the east
+wing. They barred it from below
+when they left. Before my time.
+
+**Sael:** Nobody's needed what's in it. I
+never asked what that was. I'm
+asking now.
+
+**Wynn:** The archivist knows. He's been
+thinking about it all night. Very,
+very loudly.
+
+**Gannet:** I am not thinking about anything.
+I am carrying charts.
+
+**Sael:** And Old Jory, on the harbour
+steps. The lift's wind-wheel jammed
+in the first shake. Up on the ledge.
+
+**Sael:** Get your book. Get that lift down.
+I'm watching the plaza.
+
+*[face Sael → the doors] [wait 20]*
+
+**Sael:** ...Corvin. Did you eat?
+
+**Corvin:** There were biscuits. At some
+point.
+
+**Sael:** That's not eating. That's
+surviving.
+
+*[crew in] [rest point] [flag m9_archive_intro] Control returns. The relay stone stands by the reading table.*
+
+### 9. The archivist's thought
+
+- Room: `fallhaven_archive`, the racks. Trigger: Mind Read on Gannet (slot 10, `m9_where`, as built; puzzle 5).
+
+*[light: a faint violet shimmer round Gannet] Wynn puts two fingers to her temple.*
+
+**Gannet, thinking:** Don't think it. The Ledger of the
+Crown. East vault, top shelf, blue
+and silver. Don't think it.
+
+**Gannet, thinking:** My master said never open it. The
+bar's below, in the cellar, under
+the plaza's well. Let it rot.
+
+*[emote Gannet: sweat] [crew out]*
+
+**Wynn:** The Ledger of the Crown. He's been
+carrying that name round like a
+stone in his shoe.
+
+**Corvin:** The Crown. In our own archive, all
+the years Sael's kept it.
+
+**Gannet:** My master made me promise. I was
+nineteen. He said some books are
+better left shut.
+
+**Corvin:** He was wrong.
+
+**Gannet:** ...I've thought so for forty
+years. Quietly.
+
+*[crew in] [flag m9_where] Control returns.*
+
+### 10. The east wing
+
+- Room: `fallhaven_archive`, the east wing. Trigger: Blaze on the great lamp (`m9_lamp`, puzzle 6).
+
+*Tamsin points two fingers at the great lamp that hangs over the east wing's aisle. Fire catches in its wick and
+climbs, and the dark draws back along the stacks. [light: the east wing's dark lifts] Halfway down the aisle a tall
+case of ledgers has come down across it, end to end. Past it, the vault's door. [crew out]*
+
+**Tamsin:** Finally. Something I can do in a
+library.
+
+**Wynn:** Please don't do it to any of the
+books.
+
+*[crew in] [flag m9_lamp] Control returns. The fallen case is the rest of puzzle 6.*
+
+### 11. The wind-wheel
+
+- Room: `fallhaven_archive`, the wind-wheel ledge. Trigger: Whirlwind on the wind-wheel (slot 11, `m9_lift`, as
+  built; puzzle 8).
+
+*The wind-wheel ledge: a niche cut through the cliff face, open to the night and the drop, with a great wheel of
+little sails on an axle, and a rope running over a pulley and down into the dark. [crew out] Wynn stands as far back
+from the edge as the ledge allows.*
+
+**Wynn:** It's high. Why is it always high?
+Every time. Every single time.
+
+*She lifts both hands without looking. A gust fills the wheel's sails with a crack, and the wheel turns, faster and
+faster. [light: a swirl of wind] Far below, the basket drops down the cliff on its rope to the lower town.*
+
+**Nerissa:** Breathe when I breathe. You've done
+it.
+
+**Wynn:** I didn't look. I never look. It's
+my very best skill.
+
+*[crew in] [flag m9_lift] Control returns. Old Jory can ride up (scene 7, Crew 1's side).*
+
+### 12. Everyone out
+
+- Room: `fallhaven_lower`. Trigger: the third household out (`m9_ev_a`, `m9_ev_b` and `m9_ev_c` all set), unless
+  `m9_evacuated` (as built: a `when` at the end of each household's scene).
+
+*[shake 50, 3] The crack across the plaza opens wider with a sound like a mast breaking. The lamps on its far side
+tilt, and one goes over the edge into the mist. [camera → the crack] [camera back] [crew out]*
+
+**Maren:** That's everyone. The whole lower
+town is up the road or up the lift.
+
+**Vesper:** And the lower town's about to be
+down the falls.
+
+**Maren:** The archive, then. The north
+stair. Corvin's crew is still up
+there.
+
+*[crew in] [flag m9_evacuated] Control returns. The north stair climbs to the archive's great doors once Crew 2 has
+the Ledger (its warp, People and signs).*
+
+### 13. The Ledger
+
+- Room: `fallhaven_archive`, the east vault. Trigger: talking to the Ledger's shelf (slot 13), once `m9_where` and
+  the vault unbarred (`m9_hatch`), unless `m9_ledger` (today's `ledger`, rewritten). Before `m9_where`, the shelf's
+  line (People and signs).
+
+*The east vault: a small square room behind the unbarred door, shelved to the roof with ledgers bound in blue, a
+season to a book, grey with dust. On the top shelf one book is bound in blue and silver, the six marks on its spine.
+[crew out] Corvin takes it down and opens it on the lectern. He reads the first page, and stops. [emote Corvin:
+silence]*
+
+**Corvin:** This is it. The Ledger of the
+Crown.
+
+**Tamsin:** And? Read it, Landslide.
+
+**Corvin:** Not without {HERO}. Not this.
+We read it together, or I'm not
+reading it.
+
+**Nerissa:** Then carry it. The cliff won't
+wait for anybody's reading.
+
+*Corvin shuts the Ledger and holds it against his chest. [walk Gannet → the vault door] Gannet stands in the
+doorway with his arms full of charts.*
+
+**Gannet:** I'm taking the rim's charts up the
+high stair. All I can carry.
+Somebody should keep them.
+
+*[walk Gannet → the inner stair] [hide Gannet] [crew in] [flag m9_ledger] Control returns. Once the lower town is
+out (`m9_evacuated`), Crew 1's north stair leads here.*
+
+### 14. The doors
+
+- Room: `fallhaven_archive`, the great hall. Trigger: entering from the north stair, once `m9_meet` (set by that
+  warp's scene once `m9_evacuated` and `m9_ledger`, as built), unless `m9_sael` (today's `finale`, rewritten and
+  split into scenes 14 to 18).
+
+*[fade in 30] Crew 1 comes up the north stair and in through the great doors. Corvin's crew waits at the reading
+table with the Ledger. Sael stands just inside the doors, a hand on each. [show Corvin, Tamsin, Nerissa and Wynn]
+[walk {HERO} → the reading table] [crew out]*
+
+**Sael:** Everyone out?
+
+**{HERO}:** Everyone.
+
+*Quiet: [pose {HERO}: nod] and no line.*
+
+**Maren:** Tanner, Ossian, Pip and Old Jory.
+Not a broken bone among them.
+
+**Sael:** Good. Then I'll shut the door
+behind you.
+
+*[shake 90, 4] The roar outside doubles. Through the open doors the plaza tilts, slowly, like a table with a leg
+gone, and slides away into the mist: the well, the Leaning Gull, Marta's, the lamps one after another, going out as
+they go. [camera → the doors] [gate: the plaza strip beyond the doors becomes the edge] [camera back] [emote
+everyone: exclaim]*
+
+*Sael swings the great doors shut and drops the bar across them. [pose Sael: brace against the doors] The doors
+boom. Spray hisses in through the cracks round their frame, and the loose papers on the reading table lift and
+flutter toward them.*
+
+**Sael:** Read it. Quick. That's what we're
+here for.
+
+*Corvin opens the Ledger on the reading table, and both crews crowd round it. [walk both crews → round the reading
+table]*
+
+**Ledger:** THE LEDGER OF THE CROWN. Kept at
+the Rimward station, by the order's
+own hand.
+
+**Ledger:** Six Wells, sealed. What each seal
+holds, it draws: up under the
+Spine, into the Crown.
+
+**Ledger:** And what sleeps in each Well is
+drawn with it. The great ones do
+not wake. They thin.
+
+*[emote Tamsin: exclaim]*
+
+**Tamsin:** The firebird. It was grey. It was
+being drunk.
+
+**Ledger:** The Crown holds the centre in
+summer. The fields green, the
+Pinnacle bright. Every year.
+
+**Ledger:** The cost, as the founders set it:
+the rim. Measured each year at the
+edge posts. A street a year.
+
+**Corvin:** The edge posts. THE EDGE WAS HERE.
+They were never ours. They were the
+order's measuring sticks.
+
+**Ledger:** Paid by the rim: Hale's Point.
+Gullstone. Kettle Bay. And under
+them, a hundred more names.
+
+**Ledger:** To pay, by our reckoning:
+Saltcombe. Fallhaven. Then the
+next. Then the next.
+
+**Corvin:** Saltcombe. Ossian's town. They
+wrote it down before he was even
+born.
+
+*[wait 30] The doors boom again. Sael leans into them. Corvin turns to the last page. It is in another hand,
+shaky, the ink gone brown.*
+
+**Ledger:** We were told: hold a while. Only
+a while. It has been a long while.
+I am going home. Forgive us.
+
+*[emote Sorrel: exclaim]*
+
+**Sorrel:** "Hold a while. Only a while." The
+founders said that. In the tree's
+vision. We heard them.
+
+**Maren:** And that's the order's hand. It's
+how we're taught to keep a ledger.
+I'd know it anywhere.
+
+**Wynn:** The six lines on my chart. The
+lights my mother showed me. That's
+what they were. The Wells, running.
+
+**Vesper:** Running to the middle. Paid for
+by the edge.
+
+**Corvin:** The rim isn't dying of bad luck.
+It's being bled.
+
+*[emote {HERO}: silence] Sael doesn't let go of the bar.*
+
+**Sael:** Well? What does your book say?
+
+**Corvin:** That the rim's the price. Every
+town. Us. It always was.
+
+*[wait 30]*
+
+**Sael:** ...Then stop paying.
+
+*[shake 60, 4] One of the bar's brackets cracks out of the stone. The doors bow inward, and the roar comes through
+the gap with a sheet of spray. [light: cold white through the cracks round the doors] Sael throws her weight against
+them and holds. [pose Sael: brace against the doors]*
+
+**Corvin:** Sael! The doors!
+
+**Sael:** Doors hold. It's what they're for.
+
+**Sael:** Up. The high door. All of you.
+Now.
+
+*Nobody moves. [wait 20]*
+
+**Sael:** I said now!
+
+*[walk Wynn, Nerissa, Maren, Sorrel and Vesper → the inner stair] Tamsin takes Corvin by one arm. {HERO} takes the
+other. [pose Tamsin: hold Corvin] [pose {HERO}: hold Corvin]*
+
+**Corvin:** Not without you.
+
+**Sael:** Corvin.
+
+*[face Sael → Corvin] She looks back at him over her shoulder, and for a moment she isn't scolding at all. She nods
+at the reading chair, where her captain's coat hangs, gone white at the seams with salt.*
+
+**Sael:** Take a coat.
+
+*[still sael_doors] (The still, for the illustrator, is described below.)*
+
+*Corvin takes the coat. [walk Tamsin, Corvin and {HERO} → the inner stair] [fade out 60]*
+
+**Narration:** The doors held long enough.
+
+**Narration:** Captain Sael did not come out.
+
+*[flag m9_sael] [warp fallhaven_cliff, the high door (a new entrance on the second bend)]*
+
