@@ -3,6 +3,14 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 19 Oct 2026
+
+- **The Fold's real screens, measured on your phone (demo decision 22):** the cover screen is 2520×1080 and the inner
+  screen 2184×1968 (1080×2520 and 1968×2184 held upright), both at about 120 frames a second. They match the sizes the
+  plan assumed, so the 480×320 picture draws at 3× on the cover (a 746×320 view, thin bars) and 4× inside (480×432).
+  The readout came from the first diagnostics app (Gate 0); the new probe adds the look of the LPC people on the glass,
+  which is optional now. The 480×320 switch (demo slice 2) is being built, landscape on both screens (art 2).
+
 ## 18 Oct 2026
 
 - **Merged in the engine:** the LPC cast (PR #61: 8 Adepts and 20 townsfolk on adult and child bodies, the critic's
