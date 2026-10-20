@@ -3,6 +3,13 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 20 Oct 2026
+
+- **Built (engine):** the fan game's non-adult parts copied in as they are (PR #74: 20,080 files, people and title
+  art left out); Tamsin joins with the Mace (open 27) and Cloak works on dark cells (open 28), with the Greenwild
+  glade's shade marked, in the review-fixes PR; Corvin's crew rests free at Fallhaven's inn until mission 2 is done,
+  as the approved script has it. Mission 3's and 4's win rates re-measured on the current rules.
+
 ## 19 Oct 2026
 
 - **story.md carries the approved canon** of the opening and missions 1-10 (Scripts 4, 8, 11, 14, 17 and 18) in
