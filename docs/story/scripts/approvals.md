@@ -164,7 +164,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     delivered as oranges. - The poster bounties (Corvin 5,000, Tamsin 1,200, the diver 800, the cartographer 300) and
     their portraits.  Recommended: accept them into the canon, with story.md updated to match. [Accept with my notes;
     strike the ones I name.]
-15. **Mission 9, The Fall of Fallhaven** (mission-09.md, 281 pages; a draft, the editor's pass follows). Ketch
+15. **Decided (19 Oct):** **Mission 9, The Fall of Fallhaven** (mission-09.md, 281 pages; a draft, the editor's pass follows). Ketch
     knocks at night with Corvin's "Tell {HERO} I'm asking" and leads the Kestrel through the Galeway's storm lanes.
     Crew 1 comes down the cliff road into the falling lower town and frees Tanner, Ossian and Pip; Crew 2 reads the
     archivist with Mind Read, lights the east wing with Blaze and rides Old Jory's lift as he sings the skiff-song;
@@ -173,7 +173,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     hold. It's what they're for"; "Take a coat"). The cliff road falls behind them; at the top Maren confesses and
     names Lord Warden Vey; Ilse turns her fleet: "To Marrow Isle." Read it at https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/story-scripts-5/docs/story/scripts/mission-09.md. Recommended:
     approve it as written. [Approve with my notes; rewrite it.]
-16. **Mission 10, The Two-Earth Door and the demo's end** (mission-10.md, 353 pages; a draft, the editor's pass
+16. **Decided (19 Oct):** **Mission 10, The Two-Earth Door and the demo's end** (mission-10.md, 353 pages; a draft, the editor's pass
     follows). Corvin's crew climbs out of Ketch's nets at Stonehollow; Brann cuts Sael, Fallhaven and Saltcombe into
     the memorial stone. The hero's Move and Corvin's hand open the inner door; through the sea cave the Wayfarer wakes
     on the Flame Well, the Lodestar stirs in its cradle, and the Farer's Log writes itself from both crews' records
@@ -182,14 +182,14 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     Kestrel's burning send-off with Ketch's funeral song for Sael. At the helm the maiden voyage plays the end card,
     the credits and the save prompt, then free play. Read it at https://github.com/1994akh/Game-maker-v1--rom-edition-/blob/story-scripts-5/docs/story/scripts/mission-10.md. Recommended: approve it as
     written. [Approve with my notes; rewrite it.]
-17. **New canon in missions 9 and 10.** The Ledger of the Crown's text (the seals draw each Well into the Crown; the
+17. **Decided (19 Oct):** **New canon in missions 9 and 10.** The Ledger of the Crown's text (the seals draw each Well into the Crown; the
     great ones "do not wake, they thin"; the rim is the cost, "a street a year"; towns paid and to pay; a last warden's
     "hold a while... Forgive us"); the archive as the order's old Rimward station; Gannet the archivist; relay stones
     as Rimborn lamp-stones; Sael's coat, which Corvin wears from then on; Maren's notebook of copied reports; Lord
     Warden Aurelian Vey named in Act I; Ilse's "Written and witnessed"; Cidrick's yard; the Log's "We will come back
     when it is complete". Recommended: accept them into the canon, with story.md updated to match. [Accept with my
     notes; strike the ones I name.]
-18. **The Kestrel's fate.** The mission 9 draft cracks the Kestrel's keel in the Galeway storm, so mission 10's egg can
+18. **Decided (19 Oct):** **The Kestrel's fate.** The mission 9 draft cracks the Kestrel's keel in the Galeway storm, so mission 10's egg can
     give her a burning send-off with Ketch's funeral song finished for Sael ("It rhymed and everything"), and the
     Wayfarer replaces her. Recommended: keep it: the old ship goes out with honours as the new one wakes. [The Kestrel
     survives and moors beside the Wayfarer, and the funeral is Sael's alone.]

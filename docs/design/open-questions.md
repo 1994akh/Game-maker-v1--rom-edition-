@@ -188,16 +188,16 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     room; the mission 5 script (the Hive) uses Golden Sun's own rule, unseen while standing on dark cells and broken by
     stepping into light. Recommended: Golden Sun's rule, with each room's dark cells marked in its data, so the Hive
     plays as written. [Ten cells of walking, as built; until the crew leaves the room.]
-29. **Espeon and Umbreon.** Two decided rules disagree: story 12 (the clock's model) has time-of-day evolutions
+29. **Decided (19 Oct):** **Espeon and Umbreon.** Two decided rules disagree: story 12 (the clock's model) has time-of-day evolutions
     "use it instead of the stone routes", naming Eevee's Espeon and Umbreon, while progression.md §4 and items 10 say
     Eevee evolves by stone only (Sun to Espeon, Moon to Umbreon). The engine follows the stones for now. Recommended:
     both: a level-up by day or by night, as the main games do, and the Sun and Moon Stones as a second route.
     [Stones only, as built; the clock only.]
-30. **The cost of turning back after a lost story fight.** "No" at "Try again?" (progression 2) is built as the
+30. **Decided (19 Oct):** **The cost of turning back after a lost story fight.** "No" at "Try again?" (progression 2) is built as the
     ordinary defeat, which takes half the crew's coins on the walk back. Recommended: no coin loss for turning back
     from a story fight, since the fight still waits; the ordinary defeat keeps its half-coins rule. [Half the coins, as
     built; a quarter.]
-31. **Friendship levels for five species.** Progression.md §4 turns friendship evolutions into fixed levels and names
+31. **Decided (19 Oct):** **Friendship levels for five species.** Progression.md §4 turns friendship evolutions into fixed levels and names
     most species; five it doesn't name got proposed levels while building: Alolan Meowth 28, Buneary 25, Woobat 25,
     Swadloon 30, Type: Null 40. Recommended: keep these. [Each at its own family's usual friendship level, one table
     for all.]
