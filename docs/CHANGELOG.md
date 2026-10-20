@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **New for your answer (adult 64 to 64):** The draft Gallery plan.
+- **Decided (you, 19 Oct night):** every adult review sheet and sound approved (adult 52-54 in chat, 58-63 on the
+  page, and "all images in the file approved"): 160 items in the private review folder's `approved.csv`, each
+  with its proposed use.
 - **New for your answer (adult 58 to 63):** Review sheet 4: the smooth animation set; Review sheet 5: the expression
   frames; Review sheet 6: the small sprite pack; Review sheet 7: the character and scene cards; Review sheet 8: the
   fan game's portrait busts; The fan game's adult sounds.
