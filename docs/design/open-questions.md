@@ -204,39 +204,39 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **After the demo (19 Oct)**
 
-32. **What comes first after the demo.** The order of work puts adult mode and mission 11 after the demo, but not
+32. **Decided (19 Oct):** **What comes first after the demo.** The order of work puts adult mode and mission 11 after the demo, but not
     which goes first (from demo-plan.md §6 and adult 10). Recommended: adult mode's Act I build first, while the
     demo's places, cast and scripts are fresh, then mission 11. [Mission 11 first; both side by side.]
-33. **Writing mission 11 onward.** The scripts for missions 1 to 10 were written ahead of the build, and they are all
+33. **Decided (19 Oct), alternative:** **Writing mission 11 onward.** The scripts for missions 1 to 10 were written ahead of the build, and they are all
     approved now (from docs/story/scripts/approvals.md). Recommended: draft missions 11 to 13 for your yes while the
     demo's art, balance and audio slices are built, so the story keeps pace. [Wait until the demo ships; draft all of
     Act II at once.]
 
 **Playtesting on the phone (19 Oct)**
 
-34. **Reports from the phone.** In each playtest round you mark every mission yes or add a note (demo 39); a
+34. **Decided (19 Oct):** **Reports from the phone.** In each playtest round you mark every mission yes or add a note (demo 39); a
     screenshot and the game's state would make a note easy to act on. Recommended: a "Send report" row in the debug
     builds' pause box that opens Android's share sheet with a screenshot and a small text file (the version, room,
     position and flags), so you can save it to OneDrive or send it to yourself. [Screenshots and your own notes only;
     a log file the game keeps, which you copy from the phone.]
-35. **Playtest saves from one build to the next.** Saves already carry a format version and migrate when it changes
+35. **Decided (19 Oct):** **Playtest saves from one build to the next.** Saves already carry a format version and migrate when it changes
     (engine src/autoload/save.gd). Recommended: every playtest build reads the last build's saves; when a change can't
     carry a save over, the build says so and the debug menu's mission jump starts you at that mission. [A new game
     each round.]
-36. **Android's own backup of saves.** Android can back an app's files up to your Google account, so saves survive a
+36. **Decided (19 Oct):** **Android's own backup of saves.** Android can back an app's files up to your Google account, so saves survive a
     reset or a new phone. The saves hold flags only, no pictures, including the adult_mode flag (adult-mode.md §3).
     Recommended: allow Android's backup for the saves and the Settings file. [Turn it off, so nothing leaves the
     phone.]
 
 **Music (19 Oct)**
 
-37. **How you pick the music.** Demo 37 puts all music and sound in one table for your yes, but each ROM's song table
+37. **Decided (19 Oct):** **How you pick the music.** Demo 37 puts all music and sound in one table for your yes, but each ROM's song table
     numbers its tracks without names (from demo-plan.md and data_src/music_roms.json in the engine). Recommended: I
     render the music tracks of Golden Sun 1 and 2 and Unbound (not the sound effects) to OGG in a listening folder,
     `OneDrive\Apps-Roms\_music-preview`, numbered, and post a place-by-place table here with a best guess in each row
     that you change by number. [You name tracks by their titles in the games and I find them; I choose them all and
     you hear them in the playtest.]
-38. **Trainer and boss battle music.** Demo 37 gives Golden Sun's music to monster battles and story scenes and
+38. **Decided (19 Oct):** **Trainer and boss battle music.** Demo 37 gives Golden Sun's music to monster battles and story scenes and
     Unbound's to wild battles, catching and evolution, but names neither trainer fights nor story bosses (from
     demo-plan.md). Recommended: Unbound's trainer themes for Pokémon trainer fights, Golden Sun's boss themes for
     story bosses, and each kind's own victory fanfare. [Golden Sun's battle themes for every fight but wild Pokémon;

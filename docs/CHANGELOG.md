@@ -5,6 +5,14 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **Decided (you, 19 Oct late):** adult 52-57 and open 32-38. Adult: you keep only the review-sheet numbers you
+  write in the note boxes (52 and 53, none written yet); the pixel animation set approved as the scenes' base if
+  every figure is clearly an adult (54); videos at 720p and the APK under 1 GB (55); one adult quarters talk per
+  night (56); the fan game's parts copied now as they are, converted when used (57). Open: adult mode's Act I
+  build comes first after the demo, then mission 11 (32); **missions 11 onward are written once the demo ships**
+  (33, an alternative); a Send report row in debug builds (34); playtest saves carry from build to build (35);
+  Android's backup allowed (36); the music rendered to `OneDrive\Apps-Roms\_music-preview` for a table you change
+  by number (37); Unbound's trainer themes and Golden Sun's boss themes (38).
 - **Decided (you, 19 Oct night):** adult 25-51, as recommended except five alternatives: one APK with everything
   (25), an optional adult version of mission 10's quarters talks (40), any Adept may wield the Giant Dildo Sword
   (44), a private review of the fan game's rows with no stated age (45), and the fan game's other parts copied in
