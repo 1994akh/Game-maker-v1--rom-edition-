@@ -244,31 +244,31 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **The music table, first rows (19 Oct)**
 
-39. **Title screen and opening.** Track numbers are files in `OneDrive\Apps-Roms\_music-preview` (open 37); TRACKS.csv
+39. **Decided (19 Oct):** **Title screen and opening.** Track numbers are files in `OneDrive\Apps-Roms\_music-preview` (open 37); TRACKS.csv
     names what is known. gs1 74 matched a fan remake's "page one", Golden Sun's opening. Recommended: gs1 74. [Unbound
     278, its title theme.]
-40. **Stonehollow, the home village.** gs1 1 matched the remake's "happy town", Golden Sun's home-village theme.
+40. **Decided (19 Oct):** **Stonehollow, the home village.** gs1 1 matched the remake's "happy town", Golden Sun's home-village theme.
     Recommended: gs1 1. [Another gs1 track I name in the note box.]
-41. **Caves: the sea caves, the river caves and the Vault's lower halls.** gs1 24 matched the remake's "cave".
+41. **Decided (19 Oct):** **Caves: the sea caves, the river caves and the Vault's lower halls.** gs1 24 matched the remake's "cave".
     Recommended: gs1 24. [Unbound 309, its rift cave.]
-42. **Sailing the Calm.** gs1 42 matched the remake's "world map", the overworld theme Golden Sun plays between
+42. **Decided (19 Oct):** **Sailing the Calm.** gs1 42 matched the remake's "world map", the overworld theme Golden Sun plays between
     places. Recommended: gs1 42. [Unbound 305, its surfing theme.]
-43. **Monster battles.** gs1 50 is Golden Sun's normal battle and gs2 49 The Lost Age's (both matched the remake's
+43. **Decided (19 Oct):** **Monster battles.** gs1 50 is Golden Sun's normal battle and gs2 49 The Lost Age's (both matched the remake's
     battle themes). Recommended: gs1 50. [gs2 49; gs1 50 in Crew 1's battles and gs2 49 in Crew 2's.]
-44. **Story bosses.** gs2 52 matched the remake's boss battle. Open 38 gives story bosses Golden Sun's boss themes.
+44. **Decided (19 Oct):** **Story bosses.** gs2 52 matched the remake's boss battle. Open 38 gives story bosses Golden Sun's boss themes.
     Recommended: gs2 52. [Unbound 408, its villain boss battle.]
-45. **Wild Pokémon battles.** Unbound 420 is its own region's wild battle theme (CFRU's name), Unbound 298 the older
+45. **Decided (19 Oct):** **Wild Pokémon battles.** Unbound 420 is its own region's wild battle theme (CFRU's name), Unbound 298 the older
     one it keeps. Recommended: Unbound 420. [Unbound 298.]
-46. **Pokémon trainer battles.** Unbound 421 is its own region's trainer battle theme; open 38 gives trainer fights
+46. **Decided (19 Oct):** **Pokémon trainer battles.** Unbound 421 is its own region's trainer battle theme; open 38 gives trainer fights
     Unbound's themes. Recommended: Unbound 421. [Unbound 297; Unbound 401, its rival battle, for Corvin's fights.]
-47. **Victory fanfares.** gs1 58 is Golden Sun's victory (it matched the remake's), Unbound 311 its wild-Pokémon
+47. **Decided (19 Oct):** **Victory fanfares.** gs1 58 is Golden Sun's victory (it matched the remake's), Unbound 311 its wild-Pokémon
     victory and 310 its trainer victory. Recommended: gs1 58 after monster and boss battles, Unbound 311 after wild
     Pokémon and 310 after trainers. [gs1 58 after every win.]
-48. **Catching and evolution.** Demo 37 gives Pokémon moments Unbound's music: Unbound 322 is its "caught" jingle and
+48. **Decided (19 Oct):** **Catching and evolution.** Demo 37 gives Pokémon moments Unbound's music: Unbound 322 is its "caught" jingle and
     264 its evolution theme. Recommended: Unbound 322 and 264. [Golden Sun's own jingles for both.]
-49. **Sad scenes.** gs1 59 matched the remake's "fallen heroes", a sad scene theme; mission 9 has Sael's death and the
+49. **Decided (19 Oct):** **Sad scenes.** gs1 59 matched the remake's "fallen heroes", a sad scene theme; mission 9 has Sael's death and the
     fall of Fallhaven. Recommended: gs1 59. [Another track I name in the note box.]
-50. **The other places.** Canalport, the Forgeheart, the Eldergrove, Lantern Reef, Bastion Rock, the Tradewind Bazaar,
+50. **Decided (19 Oct):** **The other places.** Canalport, the Forgeheart, the Eldergrove, Lantern Reef, Bastion Rock, the Tradewind Bazaar,
     Fallhaven and the Wayfarer need Golden Sun tracks, but only 12 of Golden Sun's are named so far: its rooms set
     their music in a way not yet read from the ROM. Recommended: I read the rest of Golden Sun's room music from the
     ROM after the weekly reset (23 Oct) and post a guess for each place. [You name them by number from the listening

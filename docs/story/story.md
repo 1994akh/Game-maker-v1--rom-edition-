@@ -5,6 +5,12 @@ the best parts of `drafts/elemental-epic.md`. All names are invented. The hero's
 player can rename them. Dialogue uses the `{HERO}` tokens. Anything that needs a new system or changes how the game
 plays is listed in §14 with a recommendation, and is not decided here.
 
+**Updated 19 Oct 2026:** the new canon in the approved scripts of the opening and missions 1–10 (`scripts/`,
+approvals cards 4, 8, 11, 14 and 17, and the Kestrel's fate, card 18) is written in where it belongs: the world (§2), the factions and how Act I hints at
+the truth (§3), the cast and their ages (§4, open question 2), the legendaries (§5), the opening (§6), missions 1–8
+(§7), the Kestrel (§8), the Act I places (§9), the eggs (§9a) and the first bounties (§9b). Where a script and this
+page disagreed, the approved script won.
+
 ---
 
 ## 1. Logline, tone, themes
@@ -57,7 +63,7 @@ centre is "toward the Pinnacle" and the edge is "toward the falls".
 |---|---|---|---|
 | **Meridia**, the continent | Four walkable regions around the **Spine**, a mountain range with the capital, **the Pinnacle**, at its peak. **Brightcoast** (east: farms, canals), **the Greenwild** (west: the giant tree), **Dustplain** (south: desert, mines) and **Frostmarch** (north: tundra, monasteries) | On foot from the coast | Puzzles and danger; the Pinnacle is closed by story until Act III |
 | **The Calm**, the inner sea | A gentle ring of islands: the home island, the volcano, the reef, the fortress | A cutter (from mission 3) | Calm water. A few whirlpools and reefs are puzzle gates |
-| **The Galeway** | A permanent storm ring | Act I: only Rimborn skiffs know the lanes (Crew 2's interludes). Act II: it breaks into passable fragments | Story gate, then strong monsters in the storm fragments |
+| **The Galeway** | A permanent storm ring | Act I: only Rimborn skiffs know the lanes (Crew 2's interludes), two days through the storm. The order's ships turn back at its edge, and Pearlhollow's divers come and go under it. Act II: it breaks into passable fragments | Story gate, then strong monsters in the storm fragments |
 | **The Wide**, the outer sea | Four quarters (Northreach, Eastwater, Southdeep, Westgloam), each with its own look, weather and Pokémon culture | The **Wayfarer** (from mission 10) | Strong monsters (danger shown on the map); puzzles; Stillwater calm belts need the Flame engine |
 | **The Rimfalls** | The world's edge, where the sea pours away | Visible from the outer sea | Currents push ships back; it can't be crossed |
 | **Layers** | The Cloudreach above and the Deep Shelf below, **each about the size of one quarter of the Wide** (decided 14 Oct), with their own towns, routes and islands of the week; the Hollow beside | Updraft and wings; Dive and the bubble hull; the Vault tear | Story and site rewards |
@@ -70,6 +76,17 @@ centre is "toward the Pinnacle" and the edge is "toward the falls".
 - the Silverdeep whirl, a giant whirlpool with a lighthouse (south-east);
 - the black falls of the Umbral Gate (north-west rim);
 - Marrow Isle's beacon (home, east).
+
+**The six Wells' colours** (the opening's stills): Golden Sun's element colours for four of them, amber for Earth,
+red for Flame, blue for Sea and violet for Sky, with green for Forest and a cold silver for Shadow.
+
+**Sailing times in Act I** (the scripts tell the voyages as narration):
+- Marrow Isle to Canalport: two days across the Calm and up Saltmarsh Reach's channels.
+- To the Greenwild: two days west across the Calm.
+- To Lantern Reef: a day and a night north into grey water, then an hour of fog.
+- Both Act I voyages read the same from wherever the Kestrel lies, so missions 5 and 6 work in either order.
+- Marrow Isle to Fallhaven by Rimborn skiff: two days through the Galeway lanes, five days there and back.
+- The Tradewind Bazaar to Fallhaven: a day and a night east, with no Galeway between, since both lie outside it.
 
 **What can block a route.** Only three things do, as you asked:
 
@@ -90,6 +107,28 @@ it belongs to.
 | **1. An order vs free islands** | The **Tidewardens** rule the sea lanes from the Pinnacle. They license every Adept and Pokémon handler, collect an "element tithe", and blockade islands that won't pay. The free islands and the Rimborn resist | Prologue and Act I |
 | **2. The elements are failing** | The seals don't hold the Wells back. They drain the Wells up the Spine into **the Crown**, a lattice under the Pinnacle that keeps Meridia green while the rim starves and falls. The legendaries have been drained for six centuries, which is why each one wakes in pain | Act I's ending (the Ledger) and Act II |
 | **3. Someone built this** | Six hundred years ago, when the world was already dying once, the **Farers** came over the edge in ships that sailed the sky: outsiders from beyond the Rimfalls. They built the Crown as a stopgap meant to last one generation, left the Wayfarer, the Lodestar compass and a half-written **Farer's Log**, and sailed away promising to return. The Tidewarden order was founded to "hold until they return" | Revealed at the Stormspire (Act II); pays off in the postgame |
+
+**What Act I shows of it** (the scripts of the opening and missions 1–8). Layer 1 is told plainly; layers 2 and 3
+are only hinted, and nobody in Act I can put the hints together yet:
+- **The opening** tells only what every child of Halcyra believes, and never names the Crown or the Farers. Two
+  phrases carry a quiet doubt: "the songs say", and the rim falling "ever since".
+- **The six marks.** The Keeping Stone in Stonehollow, the Flame seal, the Forest seal and the Eldergrove's
+  Kin-stone all carry the same six marks ("same hands made both"). The Vault's mural shows six faceless robed
+  figures.
+- **"Farer"** is a word nobody on Marrow Isle can explain any more (mission 1). It says nothing yet of who the
+  Farers were.
+- **Sorrel's reading** of the sick Eldergrove: "It's hungry. Something is drinking it from underneath" (mission 5).
+  It's layer 2's truth, said before anyone can know it.
+- **Celebi's vision** (mission 5, an illustrated still): the young tree, six hooded founders closing the Forest
+  Well, "Hold a while. Only a while. So the centre may endure" (the stopgap meant for one generation, hinted), the
+  light running east under the ground, and five more Wells' lights narrowing far away, their threads running in
+  toward one point. The Lodestar hangs at a founder's belt in the still, and nobody mentions it.
+- **The tithe ledger** at Bastion Rock (mission 7): the Calm's tithe, "Shipped on, all. To the Crown", with no
+  column for anything coming back. Crew 2 learns the word "Crown" there. Hask never names it.
+- **Wynn's chart** (mission 8): six silver threads from the six Well sites meeting under the Pinnacle in a ring
+  "like a crown" (the threads Celebi showed the other crew), and a tower above the clouds in the north. Wynn's
+  mother called it "the Crown"; reading the threads as the Wells' is Corvin's work, not hers. Set against Old Jory's
+  skiff-song and the sky-ships, Corvin's reading is "Whoever built the Crown didn't come from here".
 
 ### The villain: Lord Warden Aurelian Vey (sympathetic, and he has a point)
 
@@ -116,6 +155,40 @@ it belongs to.
 | **Free islands** | Many: the Tradewind Bazaar, monasteries, pirates, odd cultures | Mostly to be left alone. They become the crews' allies, one island at a time |
 | **The Farers** (outsiders) | Gone. Their caretaker mind, **the Steward**, still runs the Stormspire | To come back "when the Log is complete". The postgame |
 
+**The factions in Act I** (from the scripts):
+- **The Tidewardens:**
+  - Their sigil is a wave beneath a closed ring. Their post goes by Wingull.
+  - Their fleet: the tithe fleet under Ilse's flagship, **the Holdfast**; cutters such as the Kestrel and the
+    Dunlin; young runners like Pell; marines.
+  - Orders come from the Pinnacle. Notices are signed "By order of the Pinnacle", and the order to drive the Forest
+    seal deeper is "the Pinnacle's order", passed on by Ilse, who believes in it.
+  - **The element tithe is paid in kind**, island by island: Embral's fire in iron braziers filled from the sacred
+    flame (forty this year, ten when Tamsin was a novice), Canalport's rain (two hundred barrels), the Greenwild's
+    harvest, "seed and sap" (thirty carts), and Marrow Isle's quarry stone (four hundred blocks), the Earth tithe.
+    The tithe fleet and its barges collect it at the turn of the season, and Bastion Rock's ledger receives it all
+    and ships it on "To the Crown".
+  - **The order's ships turn back at the Galeway**, but its word reaches past it: notices in Fallhaven, one licence
+    desk at the Tradewind Bazaar, and wanted posters. Refugee boats are turned back at the Galeway "for their own
+    safety".
+  - "Seal-breaker" is the order's word for anyone who forces a seal.
+- **The Rimborn:**
+  - Their skiffs run the Galeway lanes; Ketch is Corvin's pilot (§4).
+  - A Rimborn chalk mark means "something kept here" and marks a stash.
+  - **Old Jory's skiff-song:** "Under the marrow, under the stone, sleeps a ship to carry us home." It's a seed for
+    the Wayfarer under Marrow Isle (mission 10), and the reason Corvin believes in the door.
+  - The rim's towns go one by one. **Saltcombe** is already gone: its people sailed for the Calm, were turned back
+    at the Galeway, and came to Fallhaven.
+- **The Breakers:** Hask calls the seals "a noose with six knots" and means to cut all six in one night. He has the
+  people and the powder (a seed for the Galeway relay, mission 11), and lacks only an Earth Adept for the Vault. His
+  offer stands: "The Breakers keep a lamp lit." This spring he came to Coralreach asking Nerissa for the way to
+  Silverdeep, and she refused (a seed for missions 16 and 18).
+- **The free islands:**
+  - **The Freeport Guild** runs the Tradewind Bazaar: "A hundred hulls, one law: the Guild's." Under the oldest law
+    on the water, a debt is "paid in coin or paid in kind", which is how Pokémon become currency there (§9).
+  - **Pearlhollow's divers** come and go under the Galeway to trade in the Calm, and Pearlhollow sells its pearls
+    at the Bazaar. The order took Nerissa on a Calm quay, for "knowledge of restricted waters". The order and the
+    Breakers both want the way to Silverdeep, and each is half right.
+
 ## 4. The cast
 
 Each Adept has **three story beats** (FF-style personal arcs):
@@ -123,27 +196,95 @@ Each Adept has **three story beats** (FF-style personal arcs):
 - a **regroup** chapter after the world breaks (Act II), which is their emotional core;
 - an optional **heart quest** that decides their ending scene (§11).
 
-| Adept | Group, crew | Who they are | Arc in one line | Partner (Weyard form) |
-|---|---|---|---|---|
-| **{HERO}** (default Rowan) | Earth lead, Crew 1 | Apprentice keeper of the Marrow Vault, sworn to the seals. Steady and loyal. The player decides how they feel | From keeping an oath to making it honest | First partner chosen in mission 1: Treecko, Torchic or Mudkip |
-| **Corvin** | Earth lead, Crew 2 | Childhood friend, lost at sea five years ago, raised by the Rimborn. Warm, reckless, guilty | From saving one town to saving everyone, together | Larvitar → Tyranitar |
-| **Maren** | Sea healer, Crew 1 | A by-the-book Tidewarden medic assigned to watch {HERO}, who secretly reports to Vey | Choosing the people over the order, then remaking the order | Eevee → Sylveon |
-| **Sorrel** | Forest, Crew 1 | A prickly outcast of the Eldergrove tree village, better with plants than with people | Proving the grove isn't cursed, and that neither is Sorrel | Rowlet → Decidueye |
-| **Vesper** | Shadow, Crew 1 | A dry-witted fog pilot, last of the Gloam clan, whose island the Tidewardens drowned | From revenge to reopening the Umbral Gate the right way | Gastly → Gengar |
-| **Tamsin** | Flame, Crew 2 | The best fighter at Embral's Forgeheart monastery. Proud, blunt, funny | Learning why the sacred flame shrinks while the tithe grows | Riolu → Lucario |
-| **Nerissa** | Sea healer, Crew 2 | A calm, wry diver-healer from Pearlhollow, a city under the sea. Jailed for knowing the way to Silverdeep | Getting home, and finding out whether her city survived | Froakie → Greninja |
-| **Wynn** | Sky, Crew 2 | A chatty cartographer in debt who fell from the Cloudreach as a child and is scared of heights | Going home, and proving her "impossible" chart right | Ralts → Gardevoir or Gallade (player's choice) |
+**Ages** (open question 2): every Adept, and every named character who can appear in adult content, is a canon
+adult, with the age written here. The Steward and the spoof cameos get no age and stay out of adult content.
+
+| Adept | Age | Group, crew | Who they are | Arc in one line | Partner (Weyard form) |
+|---|---|---|---|---|---|
+| **{HERO}** (default Rowan) | 19 | Earth lead, Crew 1 | Apprentice keeper of the Marrow Vault, sworn to the seals. Steady and loyal. The player decides how they feel | From keeping an oath to making it honest | First partner chosen in mission 1: Treecko, Torchic or Mudkip |
+| **Corvin** | 20 (lost at sea at 15) | Earth lead, Crew 2 | Childhood friend, lost at sea five years ago, raised by the Rimborn. Warm, reckless, guilty | From saving one town to saving everyone, together | Larvitar → Tyranitar |
+| **Maren** | 24 | Sea healer, Crew 1 | A by-the-book Tidewarden medic assigned to watch {HERO}, who secretly reports to Vey | Choosing the people over the order, then remaking the order | Eevee → Sylveon |
+| **Sorrel** | 22 | Forest, Crew 1 | A prickly outcast of the Eldergrove tree village, better with plants than with people | Proving the grove isn't cursed, and that neither is Sorrel | Rowlet → Decidueye |
+| **Vesper** | 28 | Shadow, Crew 1 | A dry-witted fog pilot, last of the Gloam clan, whose island the Tidewardens drowned | From revenge to reopening the Umbral Gate the right way | Gastly → Gengar |
+| **Tamsin** | 21 | Flame, Crew 2 | The best fighter at Embral's Forgeheart monastery. Proud, blunt, funny | Learning why the sacred flame shrinks while the tithe grows | Riolu → Lucario |
+| **Nerissa** | 26 | Sea healer, Crew 2 | A calm, wry diver-healer from Pearlhollow, a city under the sea. Jailed for knowing the way to Silverdeep | Getting home, and finding out whether her city survived | Froakie → Greninja |
+| **Wynn** | 23 | Sky, Crew 2 | A chatty cartographer in debt who fell from the Cloudreach as a child and is scared of heights | Going home, and proving her "impossible" chart right | Ralts → Gardevoir or Gallade (player's choice) |
+
+**The Adepts in Act I** (from the scripts; each look is the art slice's starting point):
+- **{HERO}** lives under the eaves of Brann's cottage on the Vault road and works the island's quarries by day
+  (Dunstan's quarry), hence the dust and the late nap on Keeping Night. From mission 1's dawn {HERO} is Ilse's
+  deputy of the Tidewardens ("Written and witnessed") and still Brann's apprentice: "Deputy or no, you come home
+  for supper."
+- **Corvin** was a young deckhand on **the Tern**, the fishing boat lost off the Galeway five years ago with its
+  skipper Ebb and its hand Orrin, and Sael fished him out of the wreck. His family stays offstage. As a boy he
+  hatched Brann's eggs in his boots, and Brann carved him a Keeping Night mask, which he wears to the Vault and
+  leaves at the inner door. He forced the Vault's doors himself ("I knocked. The Vault knocked back"), hoping two
+  Earth Adepts' Psynergy at the seal would force the inner door. He left for Marrow Isle against Sael's wishes,
+  with a note ("a quick look at Marrow Isle"), and takes a coat to Embral only because Sael says he never does.
+  His lines: "come and find me. I'll tell you everything"; "The Vault door takes two. And the other one just beat
+  me." Tamsin calls him "Landslide".
+- **Maren** wears a medic's white coat with blue cuffs and carries a satchel and a notebook. She asked for the
+  posting, has the best Frost in the cutter fleet, and takes notes on everything ("I'll need a new page"). Her
+  weekly "medical returns" fly by Wingull toward the Pinnacle (west from Marrow Isle, east from the Greenwild,
+  which Sorrel notices). Asked who reads them, she says "Medical returns" or "The order", and names nobody before
+  mission 9.
+- **Sorrel** wears a moss-green work coat, her hands stained green, with Rowlet on her head. She lives in a hut
+  grown from a living tree, with a GO AWAY board and a sapling. Her gran kept the tree's heart until the Elder
+  closed it. Since spring the heart has shown her Celebi's torn pictures, and she said so, which is why the village
+  calls her cursed. She guides the crew in "Not for your Commodore. For the tree", and after the seal she teaches
+  Cut: "If you must cut a living thing, cut it clean. A clean cut heals."
+- **Vesper** wears grey oilskins, with near-black hair and a pilot's spyglass. Hired on Canalport's beach for fifty
+  coins, or the whole purse and a tab ("I don't give credit. I keep a tab. A very good tab"), she stays on "at the
+  same rate". "I see what's hidden. I stop what moves. And nobody sees me unless I let them": she brings Reveal,
+  Halt and Cloak, and teaches Defog. Her past is only hinted: "I knew an island that wouldn't pay. It isn't there
+  any more. Never mind. Old weather."
+- **Tamsin** has red hair and a tied headband, a sparring wrap, taped knuckles and a burn scar, and rates everything
+  out of ten. She came to the trials over the tithe braziers and the shrinking flame ("I'm brave. I'm not stupid"),
+  and goes down the Well stair as "the Forgeheart's eyes". She pulls the Flame seal with Corvin, which is why Haldor
+  sends her away "tonight", not forever, with Grist's "Come back" (seeds for her heart quest). Riolu reads pain from
+  the Well before anyone sees Ho-Oh.
+- **Nerissa** wears a diver's white wrap, her wavy hair tied back with a cord, and hears people by their walk. She
+  kept her Froakie in her cell's drain all month, off the register, and Douse is her first field Psynergy. Her
+  terms: "Get me out. One day, get me home to Pearlhollow. And I'll think about the way." In Ketch's skiff she gives
+  the crew a Pearlhollow diver's Linking Cord ("A Haunter, they say").
+- **Wynn** wears a sky-blue coat with too many pockets and a scarf, with a map case on a strap, and begins in the
+  middle of a thought. Her debt is two hundred coins for engraving the chart the chart-hall laughed at. She
+  remembers her mother at a window in the clouds, pointing at lights that "all run in, under the mountain": "the
+  Crown. Don't you ever fall on it." She fell into the sea off Eastwater as a child, and a fisher found her with
+  the Dawn Stone in her fist. "I can't do heights. But I can do that."
 
 **Supporting cast:**
-- **Commodore Ilse:** the hero's mentor. She is put on trial in Act III and survives.
-- **Captain Sael:** dies holding the Fallhaven archive in mission 9. This is the story's big loss.
-- **Hask:** leader of the Breakers. Lost in the Silverdeep collapse.
-- **Keeper Brann:** the hero's guardian on Marrow Isle.
+- **Commodore Ilse (47):** the hero's mentor. A tall woman in a Tidewarden's blue coat, grey at the temples, a hand
+  on her sword hilt; clipped and exact. She is in port for Keeping Night as the order's guest, makes {HERO} her
+  deputy, lends the Kestrel ("If Canalport stands, keep her") and sails south with the tithe fleet on the Holdfast.
+  She writes by Wingull, and passes on the Pinnacle's order to deepen the Forest seal. She is put on trial in Act
+  III and survives.
+- **Captain Sael (52):** Corvin's foster mother. A tall woman in a captain's coat gone white at the seams with salt,
+  her grey hair cropped short. "You drag your left heel when you've done something stupid"; "You never take a
+  coat"; "I'll be the last. The captain always is" (a seed for mission 9). Nobody gets the archive key off her. She
+  dies holding the Fallhaven archive in mission 9. This is the story's big loss.
+- **Hask (39):** leader of the Breakers. A lean, weathered man in a sea-coat stitched from old sails, a scar through
+  one eyebrow, with a Gible at his boot. Low and level, he speaks in absolutes and calls Corvin "Sael's stray". Lost
+  in the Silverdeep collapse.
+- **Keeper Brann (61):** the hero's guardian on Marrow Isle. A broad old man in a keeper's brown coat, with a beard
+  like a hedge, bad knees and an old Sudowoodo that pretends to be a tree. He keeps the hatchery and gives {HERO}
+  the first partner, five Poké Balls and the Lodestar ("Hold it till it wakes"). After the Vault he scratches
+  Corvin's name off the memorial stone.
+- **Lord Warden Aurelian Vey (58):** the villain (§3).
+- **Ketch:** Corvin's Rimborn skiff pilot. Chatty, cheerful under fire and always eating, with Corvin's funeral song
+  half written and a new verse for every place. His skiff is Crew 2's free restoration point.
+- **Tully:** the Kestrel's mate, cheerful and practical, who calls the cutter "she".
+- **Runner Pell:** a young Tidewarden runner off the cutter Dunlin, muddy to the knees and very correct. He brings
+  the deepening order (mission 5) and the wanted posters (mission 8).
 - **The Steward:** the Farers' caretaker mind, the game's first-contact character.
 
+Each Act I place's own people are in §9.
+
 **Popular-10 roles:**
-- Hask's ace is a Weyard Mega Garchomp, and a wild Gible is a chase encounter on Dunesea.
-- Mimikyu hides in Lantern Reef, visible only with Reveal.
+- Hask's ace is a Weyard Mega Garchomp (his Gible in mission 2), and a wild Gible is a chase encounter in
+  Dustplain's "Water Rights" (§9; open question 3).
+- Mimikyu hides in three places on Lantern Reef, visible only with Reveal. Then it fights, and joins with no ball (a
+  ball bounces off its costume), going to the Kin Garden. "It isn't angry. It's lonely."
 - Eevee's other branches appear across the Wide as Djinn-style finds.
 
 ## 5. The legendaries
@@ -161,6 +302,20 @@ is a separate later beat, so a legendary never joins the party early enough to b
 | **Rayquaza** | Stormspire (Sky) | **Judge and guardian** of the Farers' tower; it dives in to stop Primal Groudon in Act III | Mission 19 | **Classic:** a battle-and-catch at the Stormspire summit, reachable by airship after its arc |
 | **Groudon** | Marrow Vault (Earth) | Vey forces it into its **Primal** form with the Red Orb. It's the Act III catastrophe | Mission 22 | **End of the story arc:** it rests in the Vault after the ending; caught in the postgame |
 | **Giratina** | The Hollow (Shadow) | **Talks and sides with Vey:** it offered the Hollow as a refuge for Meridia's people. It's the final judge | Mission 23 | **Classic, postgame:** a superboss-strength battle-and-catch deep in the Hollow |
+
+**The legendaries in Act I** (from the scripts):
+- **Groudon** is "the Sleeper" in Stonehollow and is never named in Act I. The clash of two Earth Adepts at the seal
+  on Keeping Night stirs it (mission 1). Behind the inner door, the warded stair down to the Earth Well breathes once,
+  red; the Sleeper has been settled since that night (mission 10).
+- **Ho-Oh** (mission 4) rises grey and drained from the Flame Well, its colour coming back as the Well's fire returns
+  to it. Its judgement is wordless: it never speaks. It turns the ball aside and flies straight up through the
+  Forgeheart's roof, taking the sacred flame with it and leaving the brazier cold (seeds for Tamsin's heart quest and
+  the caldera nest). The great hall's four panels carve Golden Sun's Flame Summons, Mars, Kirin and Tiamat, and leave
+  the fourth blank: "the firebird keeps the fourth", the in-world reason the top Flame Summon waits for Ho-Oh's catch
+  (progression 20). The panels also give the brazier stair's order.
+- **Celebi** (mission 5) speaks, briefly and strangely ("This is when"). It has shown its vision to "every keeper,
+  every spring", is "so thin now", drained like every legendary, and gets further with a keeper there. The vision is
+  in §3.
 
 ## 6. How the story opens up
 
@@ -190,6 +345,17 @@ The story structure is fixed by the brief and mapped onto your "short guided int
 - **Act III, the Crown (linear finale):** the Pinnacle, the Marrow Vault and the Hollow.
 - **Ending and postgame:** the ending varies with your heart quests and the islands you helped (§11). The postgame
   covers the Farers' return, superbosses and legendary catches.
+
+**The opening as scripted** (`scripts/opening.md`, six painted stills): the six Wells in their colours (§2), the
+sealing, the Tidewardens with their sigil (a wave beneath a closed ring) and the tithe barge carrying iron braziers,
+and last a dark skiff with one figure in it: Corvin, arriving for mission 1. It tells only what every child believes,
+with a quiet doubt in "the songs say" and the rim falling "ever since" (§3). The character creator's title line is
+"Who keeps the Vault tonight?"
+
+**Keeping Night** (mission 1): lanterns at dusk, the rite at moonrise at the Keeping Stone, whose six marks match the
+seals', and the words "What was sealed, we keep. What we keep, keeps us." An apprentice gets their partner on their
+own Keeping Night. Stonehollow's west road is shut by a rockslide, the in-world reason its west gate stays closed
+(progression 4).
 
 ## 7. Mission list
 
@@ -225,6 +391,83 @@ because Act I is played as Crew 1.
 | 8 | **The Tradewind Bazaar** | Crew 2 interlude, then Wynn joins | A floating market of lashed ships in Eastwater | Plays after Crew 1's second recruitment. A heist clears Wynn's debt; Whirlwind swings the sail-bridges and Mind Read gets the truth out of a purser. Wynn's "impossible" chart puts the Crown under the Pinnacle and shows a tower "where the sky-ships moored" | **Wynn joins. Both crews are full** | Story |
 | 9 | **The Fall of Fallhaven** | Both crews (relay) | The east rim | Fallhaven collapses the night after Crew 1 deepened the Forest seal. Crew 1 evacuates the lower town while Crew 2 holds the archive. **Sael dies** holding the doors so both crews can read the **Ledger of the Crown**: the layer-2 reveal. Maren confesses she has been reporting to Vey. Ilse defies the order to turn the refugee boats away and escorts them to Marrow Isle | Fallhaven is lost for good (§9) | Story |
 | 10 | **The Two-Earth Door** | Both crews | Marrow Isle | The refugees settle in Stonehollow, and the home island starts to grow (§8). {HERO} and Corvin open the inner door together and find the **Wayfarer**, a Farer ship whose engine runs on open Wells. With the Flame Well open, it can cross the Stillwaters. The stair down to the Earth Well stays warded | **Crew swapping. The Wayfarer. Home base and ship hub (§8)** | Story |
+
+**Act I as the scripts tell it** (the opening and missions 1–10, approved 18–19 Oct; places and people are in §9, the
+ship in §8):
+- **1, The Keeping Night:** Corvin forced the Vault's doors himself on festival night ("I knocked. The Vault knocked
+  back"); that is the quake. Inside: the bronze seal-bar, the mural of six faceless robed figures, the inner door's
+  two handprints, and the crack along the east wall he escapes by. He leaves behind the Keeping Night mask Brann
+  carved for him as a boy, so Brann names him even if {HERO} says nothing, and Brann scratches his name off the
+  memorial stone. Ilse's marines search the north shore caves.
+- **2, The Drowned Boy:** the trip is Corvin's own idea, against Sael's wishes: five days there and back with Ketch,
+  two of them through the Galeway lanes, landing in the east caves while the marines search the north. Tanner survives
+  with his bread. The rest at The Leaning Gull is free, since Corvin's purse is empty.
+- **3, Highwater:** Ilse lends the Kestrel ("If Canalport stands, keep her") and sails south the same day with the
+  tithe fleet on the Holdfast, Embral first, which puts her fleet in Embral's bay for mission 4. The sluice beast is a
+  sea creature the spring tide pushed up the channel and wedged in the gates; beaten, it is carried back out on the
+  ebb, and nobody kills it.
+- **4, The Forgeheart:** the Open Door law: anyone who passes the three trials (stone, ash and the fist) may ask the
+  Forgeheart one thing, a law older than the tithe, and Tamsin holds Abbot Haldor to it. The Flame seal is a
+  bronze-banded stone lid with the six marks ("same hands made both"), pulled by Corvin, Larvitar and Tamsin together,
+  which is why Haldor sends her away "tonight", not forever. Haldor: "I kept my word. Look what my word has bought"
+  and "You didn't know. That is what the seals were for". No lives are lost in the fire. The tithe fleet chases Crew 2
+  to the Galeway and turns back at its edge. Ilse's letter says the Forest seal "has no fleet to guard it" and holds
+  {HERO} to it "until my orders come"; Crew 1 shovels Canalport's mud for two days while it waits.
+- **5, The Eldergrove:** the sickness came in spring: green leaves falling in summer, quiet Kin, grey roots and sap, a
+  green light at the heart at night, and the village burning its sick groves on the Elder's word. The Forest seal is a
+  round stone lid with the six marks, lifted by the roots all spring; {HERO}'s Earth drives it down and Sorrel's roots
+  bind it, then the tree goes silent and a root-way opens. Runner Pell brings the order: "If the deputy won't, the
+  Commodore will send someone who will". The Hive's glamour is a dream its queen dreams from the grey sap's honey;
+  Reveal breaks it, and Cloak works only in the dark, as in Golden Sun.
+- **6, Lantern Reef:** Vesper's lead is a Rimborn skiff that "came out lighter". Corvin's note waits in a Rimborn
+  stash under mission 2's chalk mark, tied with his knot: the fog pilot is "worth it", the Rimborn hide in the reef
+  from the Holdfast, Ho-Oh rose "grey as ash, and screaming", Embral pays forty braziers against ten, and "Ask your
+  Commodore where the tithe goes" (here only, not in mission 1). Maren and Vesper at the note: "The tithe goes to the
+  Pinnacle. Everybody knows that." "And after the Pinnacle?"
+- **7, Bastion Rock:** Corvin goes for Nerissa because the Rimborn lanes say the order took a diver who knows the way
+  to Silverdeep. Lieutenant Holm's fight on the landing is the dungeon's one battle. Corvin keeps a torn page of the
+  tithe ledger (§3) as proof. Ilse's letter that morning mentions the torn page ("I cannot think why"), says "He is
+  building a crew", and orders "Leave him to the fleet".
+- **8, The Tradewind Bazaar:** Corvin comes because "if it's on a chart anywhere, it's for sale at the Tradewind
+  Bazaar". Wynn's debt was two hundred; Factor Plumb added a nought. The Guild weighs the two notes on Tally's scales,
+  and Purser Dabney's "I said it wasn't legal" settles it: of the nought's eighteen hundred coins, twelve hundred go
+  to the Guild, two hundred pay the debt and four hundred go to the crew, with a one-coin fine and Bronze rank for
+  "Corvin's crew". The wanted posters: Corvin 5,000, Tamsin 1,200, the diver 800, the cartographer 300. Corvin: "Sael
+  has to see this. She keeps every chart of the rim in her archive." The last narration: "And neither knew how soon
+  they would need each other."
+- **9, The Fall of Fallhaven:** Corvin sends Ketch through the Galeway to fetch {HERO} ("Tell {HERO} I'm asking"), and
+  Ketch's skiff leads the Kestrel through the storm lanes; the order's ships still never cross. Maren chooses to come,
+  and her last report, flown west that night, is why the order's fleet waits at the Galeway. The archive was the
+  order's Rimward station, left "before Sael's time": its east vault is barred from a cellar under the plaza's well,
+  its hatch painted to look like stone, and the edge posts ("THE EDGE WAS HERE") were the order's measuring sticks.
+- **The Ledger of the Crown** says the seals draw each Well "up under the Spine, into the Crown"; the great ones "do
+  not wake. They thin"; the Crown keeps the centre in summer; the rim is the cost, "a street a year"; towns paid
+  (Hale's Point, Gullstone, Kettle Bay) and to pay (Saltcombe, Fallhaven); and the last warden's note: "We were told:
+  hold a while. Only a while. It has been a long while. I am going home. Forgive us." It echoes the founders in
+  Celebi's vision and hints at layer 3 without naming the Farers. Each crew brings a piece to the reading (Tamsin's
+  grey firebird, Sorrel's "hold a while", Maren's "the order's hand", Wynn's six lines, Vesper's "Paid for by the
+  edge", Corvin's "It's being bled").
+- **Sael's last night:** "Somebody has to lock up", "Then stop paying", "Doors hold. It's what they're for" and "Take
+  a coat", with her captain's coat, which Corvin wears from then on ("She made me take a coat. I always forget the
+  coat"). Her death is the illustrated still.
+- **Maren's confession** comes at the cliff top, to both crews: she names Lord Warden Aurelian Vey for the first time
+  ("a medic to watch the deputy. The deputy would lead him to the seal-breaker") and hands {HERO} her notebook of
+  copied reports (seeds for missions 13 and 21). "Can she set a bone?" "...I can." "Then she stays."
+- **The way home:** every boat in the west cove follows Ketch through the Galeway; the Kestrel's keel cracks on the
+  second night; one lamp goes another way into the storm (Hask, for mission 11); Crew 2 hides under Ketch's nets; and
+  Ilse turns her fleet: "Belay that order. ...To Marrow Isle." At the landing, with Brann as witness: "Written and
+  witnessed", and "The order knew where you'd gone, Deputy, before I did. I'd like to know how" (Maren says nothing).
+  Ilse sails for the Pinnacle that noon to answer for it (a seed for mission 21), so she never sees the Wayfarer.
+- **10, The Two-Earth Door:** Brann cuts Sael's name into the memorial stone, then Fallhaven's and Saltcombe's.
+  Keepers are never told what lies behind the inner door: "Forty years I kept it. I never once asked what it was for."
+  Old Jory's skiff-song is the key: "under the marrow" is Marrow Isle, "under the stone" the Vault. Both prints glow
+  amber ("It knows us"); behind the door a landing has two stairs, the warded one down to the Earth Well and the way
+  down to the Wayfarer's sea cave (§8). Supper is a toast to Sael, and Brann asks "What are you now?" Seven quarters
+  talks seed the heart quests (§11): Corvin's new post for the rim, Maren's "Rules. Better ones", Sorrel's groves and
+  the Forest seal, Vesper's fog past the Galeway, Tamsin's cold brazier, Nerissa's question whether the ship can go
+  under, and Wynn's chart. Next morning the Wayfarer comes round to the cove on the tide and sails the Calm on sea
+  trials; her maiden voyage is the Galeway crossing (mission 11). The demo's credits are titled "HALCYRA. Act I: Open
+  Water".
 
 ### Midpoint
 
@@ -321,6 +564,29 @@ stays optional (§9).
 - **Islands of the week (§9):** self-contained stories with a moral or cultural puzzle, solved by talking,
   thinking or fighting. Many are first contact with odd cultures, misunderstood creatures or Farer machines.
 
+**The Wayfarer and home in Act I** (mission 10):
+- **Where she lies:** a sea cave under Stonehollow that opens under the north cliffs, at a quay older than the Vault,
+  carved with the six marks.
+- **How she looks:** pale grey wood that Sorrel feels is alive and asleep; sails folded along her sides like wings,
+  dormant until the Sky Well; WAYFARER cut in old plain letters under her Farer name. Wynn knows her: one of the
+  sky-ships her mother showed her from the window ("I said. I always said").
+- **Her engine:** six glass chambers round a brass heart, one per Well, with only the Flame chamber alight, enough for
+  the Stillwaters, where boats "sit till they're bones".
+- **The chart room:** a brass cradle cut to the Lodestar's shape, where it turns once and settles ("It isn't awake.
+  It's stirring"), and the Farer's Log beside it: half Farer script and charts nobody can read, half blank pages that
+  fill themselves with both crews' records as they watch, which is how the records kept since mission 1 reach the Log.
+  Its one plain line: "To whoever finds her: keep the Log. We will come back when it is complete."
+- **Her crew:** Tully becomes her mate; Cidrick, a shipwright out of Fallhaven with a yard on Marrow Isle, rules "Sea
+  trials first"; Ketch is her free restoration point.
+- **The Kestrel's end** (approvals card 18): the cutter Ilse lent in mission 3 cracks her keel in the Galeway lanes in
+  mission 9. After Cidrick's verdict she gets a burning send-off at dusk, an optional egg: Tully's goodbye, Tamsin's
+  Blaze, and Ketch's funeral song finished for Sael in two verses ("The captain was the last ashore, so she's first
+  aboard tonight").
+- **Marrow Isle starts to grow:** Marta's shop reopens with Fallhaven's stock, Tanner bakes at the inn's back door,
+  Fen works at The Quiet Stone, Gannet's library-to-be fills the cellar under the hatchery, Wenna has a cellar, Old
+  Jory sits on Moss's bench, Cidrick keeps his yard, and Brann's notice board says WANTED HOME FOR SUPPER under
+  Corvin's poster.
+
 ## 9. Exploration: regions and islands of the week
 
 **Pokémon culture differs by region** (your "mix by region" choice). That gives first-contact stories something to
@@ -354,6 +620,54 @@ push against.
 | The Hollow | Mirror copies of earlier places | — | Main: 23 | Act III | ★★★★★ |
 
 Fallhaven stays a **ruin** after mission 9: a memorial you can visit, with the rim currents beyond it.
+
+**Act I's places and people** (from the scripts; the Adepts and the supporting cast are in §4):
+- **Stonehollow, Marrow Isle:** Brann's cottage on the Vault road, with {HERO} under the eaves (Brann's note, the
+  porridge, the books, a speckled egg that is a seed for a later hatching); the hatchery; the Keeping Stone; the
+  memorial stone with the Tern's skipper Ebb and hand Orrin; The Quiet Stone; Dunstan's quarry. People: Ada the
+  lamplighter, Dunstan the quarry foreman, Old Moss, Maudie (whose pie comes back twice), Nell at the stall, who wants
+  to be a keeper, Corla the fisher, Tobin and his Sleeper lantern, Tully, and Brann's Sudowoodo.
+- **Fallhaven, on the east rim:** the lower town under the high town, with the cliff road between; the lamp-house and
+  the east street falling; the Tidewarden notice and its chalked answer; the archive cut into the cliff above the
+  plaza, with great doors on the plaza, a high door onto the cliff road and a wind-wheel lift down to the harbour
+  steps; The Leaning Gull; Marta's; the west cove where the boats gather. People: Sael, Ketch, Old Jory, Tanner,
+  Marta, Fen, Hanne and Pip, Ossian of Saltcombe, Wenna and her pickled eggs, Gannet the archivist (sworn to his
+  master never to open the vault; he carries the rim's charts out), and Dace the fisher. Relay stones are Rimborn
+  lamp-stones: "Every Rimborn house keeps a pair."
+- **Canalport, Brightcoast:** the City of a Hundred Bridges, with blue shutters, the beach dike, the spring tide and
+  "Highwater at four bells", the sea sluice that drains the lower town at every ebb, the Grand Cut, the Tanners'
+  Swing, the Long Weir, the lock stair and The Dry Boot; it pays its tithe in rain, and the south road closes while
+  the dikes are walked. People: Harbourmaster Quayle and his ferry Marill pod, Lettie and her father Barnaby the
+  bargeman, Effie at The Dry Boot, Odile the chandler, Ivo the armourer, Hobb the docker, Mother Brindle and her eel
+  pies, Mrs Pennock and Grandad at their window, and Maize with his sloop, the Merry Wooloo.
+- **The Forgeheart, Embral Isle:** red stone and iron roofs on the mountainside; the gate court, the great hall, the
+  stone and ash courts, the kitchen and the tithe store; "The flame tests what the hand claims". People: Abbot Haldor,
+  an old champion with his Hariyama; Brother Grist at the gate ("Hm."); Sister Wren and her riddle; Brother Olm the
+  cook, his bean stew and his Poliwrath; Sister Ama and her Machop; Dorrin the novice and her Meditite; and the Elder.
+- **The Eldergrove, the Greenwild:** root-houses, rope bridges and moss roofs; the Kin-stone with the six marks at its
+  base; the Mossbed; the Sourmire's three bog pools, the high bough, the Hive Hollow, the old stump and the root-way.
+  Its people say **"Kin"** for Pokémon, on their signs too, while the crew says Pokémon; "Kin come with you, or they
+  don't" is why the forest sells no balls, and "If a Kin asks you for a fight, give it a good one". People: Elder
+  Hollin (frightened, not cruel), Brack the forester, Fennel at her stall, Bryony, Rue, Sedge the Kin-warden, Clover
+  and her Seedot, and Mother Hazel with her sons Linn and Osric.
+- **Lantern Reef, the north Calm:** "every ship the north fog ever ate"; the decks are night-only because "Day fog
+  stands up. Night fog lies down"; the water is "all teeth", so nobody swims it; the lanterns kindle on the wrecks by
+  themselves; the Last Bell, a three-master broken in three, its bell rung by a Duskull; the Merrow, a small black
+  Westgloam fog-runner. Marrit the lantern-keeper lights the lanterns every dusk so the drowned crews can find their
+  ships, and believes the "Ghost Pokémon" story is what the dead want you to think; her lantern house is the
+  restoration point, for "a coin in the lantern box".
+- **Bastion Rock, the west Calm:** the strand, the sea-gate and the cold beacon; the cistern landing, the cell
+  corridor, a key room labelled in a neat hand, the records office and the seized-goods store; "licensed, registered
+  Pokémon only" as a register, a pen and a rules board; the sea caves and the boom of tar barrels lit against fleeing
+  boats. People: Sergeant Pruitt ("Name! Number! Licence!"), Marine Dobbs, Lieutenant Holm with her Wingull and
+  Spheal, and Old Tarrant.
+- **The Tradewind Bazaar, Eastwater:** three walkable hulls among a hundred painted ones: the Guild hull (Tally's desk
+  and scales, the Guild's bell, The Hammock's hammocks between the masts, the old hold), the market hull (the stalls,
+  the open grain hold, the yard, the order's licence desk) and Hull Nine. Ottoline's rule: "No Pokémon. Not on my
+  deck." People: Guildmistress Tally ("The Guild doesn't care who you are. The Guild cares what you owe"), Factor
+  Plumb, Purser Dabney, who thinks very loudly, Calloway the chart-seller, Ottoline, Ossery the treasure buyer, Hettie
+  of The Hammock, Mother Bunce, Pim, who sinks, Gudrun, Absalom and his Aipom, Rook, Tibbs, a licence clerk who never
+  looks up, and old Guildmaster Penhallow, named only.
 
 ## 9a. Easter eggs, homages and spoof cameos
 
@@ -454,6 +768,12 @@ gag.
 | 23 | Torro, lost inside the Hollow, somehow |
 | Postgame | The Gem Sentinels; the Dreamdeck boss rush; the Galgamash finale; the Mew sighting |
 
+**Act I's placed eggs** (each script's Eggs section has the staging), among them: Pip's fall in Fallhaven (mission 2);
+the Forgeheart's Elder (mission 4); Bonewhistle's drowned orchestra on Lantern Reef, fifty years from the chorus
+("Never show a skeleton your Pokédex. We're terribly nosy"), and a Litwick whose plank creeps closer each time it's
+examined (mission 6); Old Tarrant at Bastion Rock (mission 7); the Trio at the Tradewind Bazaar with fake Farer relics
+and a delivery of oranges (mission 8); and Cidrick's yard and the Kestrel's send-off (mission 10).
+
 ## 9b. Bounties and generated contracts (outside the story)
 
 Two kinds of bounty, One Piece style, plus **generated side quests** so there's always something to do, before and
@@ -516,6 +836,10 @@ These are bounty hunters who come after **you**:
   route, or challenge you at a port.
 - **Beating one** lowers your heat for a while, and some of them later become friendly contacts.
 - **The cameos:** the Tumbleweed Trio count as a hunter crew, a very bad one.
+
+**The first contracts** (mission 8): the Freeport Guild ranks "Corvin's crew" Bronze, and five contracts open on the
+Bazaar: the Bilge King and its bucket; Pim's cashbox; the ice house and the frozen fish named Corvin; the Guild's old
+hold and Penhallow's dry boots; the bell-rope and Tibbs's swing. Together they pay 390 coins.
 
 ## 10. Navigation aids (all four you picked)
 

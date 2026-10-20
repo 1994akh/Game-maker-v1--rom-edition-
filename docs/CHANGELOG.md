@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **story.md carries the approved canon** of the opening and missions 1-10 (Scripts 4, 8, 11, 14, 17 and 18) in
+  §§2-9b, and the cast's ages in §4 (open question 2); the story questions page is renamed
+  [story-questions.md](story/story-questions.md) (open question 26).
 - **New for your answer (open 39 to 50):** Title screen and opening; Stonehollow, the home village; Caves: the sea
   caves, the river caves and the Vault's lower halls; Sailing the Calm; Monster battles; Story bosses; Wild Pokémon
   battles; Pokémon trainer battles; Victory fanfares; Catching and evolution; Sad scenes; The other places.
@@ -236,7 +239,7 @@ header; the detailed rules are in `docs/design/`.
   [adult-mode.md](design/adult-mode.md); the content rules (people only, canon adults only, consent on the page, off by
   default, nothing required behind it) are written there.
 - **Decided (you, 16 Oct): the story chat is archived.** Story questions now go to the decision page too; the engine
-  side updates story.md from the answers. [for-the-story-chat.md](story/for-the-story-chat.md) carries them.
+  side updates story.md from the answers. [story-questions.md](story/story-questions.md) carries them.
 - **Decided (you, 16 Oct): the local folder's materials may be used,** with or without licence terms, with your
   approval per item where needed, and every maker tracked for an end-credits scroll:
   [credits.md](engine/resources/credits.md).
