@@ -204,3 +204,144 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 24. **Decided (17 Oct):** **A forgotten code.** Recommended: the title screen's options can clear the code after the 18+ warning and the
     age confirmation again, which also turns the mode off. [No recovery: a new game; the code can be changed only
     while the mode is on.]
+
+**The build and the phone (19 Oct)**
+
+25. **How adult content reaches the phone.** The pictures, sounds and videos live in the gitignored assets/adult/
+    folder, and the debug APK is already about 53 MB, past the 30 MB a file can be sent to you in chat (from
+    adult-mode.md §4 and the probe builds). Recommended: one game APK without them, plus a separate adult pack file
+    you copy to the phone once; the game loads it at start and the glasses work only when it is there, so no build
+    that gets sent around carries adult content. [Everything in the one APK; two APKs, a normal one and an adult one.]
+26. **Hiding the game from the recent-apps view.** Android keeps a picture of the last screen in its recent-apps list,
+    and screenshots and screen recordings catch whatever is shown. Android can mark a window secure, which in Godot
+    needs a small Android plugin (from adult-mode.md §2). Recommended: while the mode is on, the game's window is
+    marked secure, so the recent-apps card is blank and screenshots come out black; with the mode off everything works
+    as now, so you can still send me screenshots. [Never: screenshots always work; a Settings row that you switch
+    yourself.]
+27. **One code for the phone, or one per save file.** The game has three save files, and adult 12 and 24 don't say
+    whether the four-digit code and the 18+ confirmation belong to a save file or to the phone (from adult-mode.md §3
+    and menus-and-navigation.md §1). Recommended: one code and one confirmation for the phone, kept with the Settings
+    and outside any save, so all three save files share them and the title screen can clear them (adult 24); each save
+    file keeps its own on or off. [A code per save file, set on each file's first use; one code for the phone that
+    turns the mode on or off for every save file at once.]
+28. **Wrong codes.** Adult 12 says a wrong code leaves the mode off, but not what happens after many wrong tries (from
+    adult-mode.md §3). Recommended: no lockout: each wrong code shows "Wrong code." and leaves the mode off, and the
+    pad shows the digits as dots. [After three wrong tries in a row the glasses rest for five minutes; after five
+    wrong tries the code must be cleared from the title screen.]
+
+**Screens and safety (19 Oct)**
+
+29. **The 18+ warning's words.** Adult 12 decided the warning, the age check and the code, but not the text (from
+    adult-mode.md §3). Recommended: one short page: "Adult-o-Vision shows sexual content between adults: nudity,
+    explicit scenes and sounds. It is for players 18 or older." Then "I confirm I am 18 or older" with No as the
+    default, and nothing adult shown before both. [A longer page that lists every kind of content; your own words,
+    written in the note box.]
+30. **Leaving the game quickly.** A phone game gets interrupted: a call, the home button, someone walking in. The
+    planned pause box offers Resume, Settings and Return to title (from adult-mode.md §2 and menus-and-navigation.md
+    §1). Recommended: while the mode is on, the pause box covers the whole screen whenever it opens or the game goes
+    to the background, so nothing adult shows behind it; no separate panic button. [A quick-hide gesture, such as a
+    three-finger tap, that also turns the mode off; nothing extra.]
+31. **The cover screen.** The Fold's cover screen is the one used folded, often in public (from art-integration.md
+    §3b). Recommended: the mode shows the same on both screens: it is your switch. [Pictures and videos open only on
+    the inner screen, and folded the Gallery asks you to unfold; the mode turns itself off when you fold the phone.]
+32. **Adult sounds and voice clips.** Adult 20 adds stingers, loops and voice clips; Settings plans music, effects and
+    voice volumes (from adult-mode.md §3 and menus-and-navigation.md §6). Recommended: an "Adult sounds" volume row
+    that appears only while the mode is on, starting at the effects volume, so they can be turned down without muting
+    the rest. [They follow the effects and voice volumes; voice clips play only through headphones and stay silent on
+    the speaker.]
+33. **Browsing the Gallery on the touch screen.** The Gallery lists pictures as "n of N" and opens one on A; videos
+    show in the same pop-up (from adult-mode.md §3). Recommended: swipe left and right for the next and previous,
+    pinch to zoom a picture, tap a video to pause it, and B closes; the pad and buttons work too. [The pad and buttons
+    only; the swipes plus a seek bar on videos.]
+
+**The story and the cast (19 Oct)**
+
+34. **How much the first adult build covers.** Adult mode is built after the demo (adult 10). Act I's adult missions
+    are the gallery hunt and a heart quest with an adult beat for each recruited Adept (adult 7), but the Gallery's
+    size isn't set (from adult-mode.md §3 and §5). Recommended: the first adult build covers Act I's places and every
+    Adept's quest, with about 30 Gallery finds, three for each mission's places; each later act adds its own finds and
+    beats as it is built. [About 12 finds, with the quests; all of the game's adult content at once, after Act III.]
+35. **Where the glasses are found.** Adult 1 makes them an optional Act I find the player can pass by, without naming
+    the place (from adult-mode.md §2). Recommended: a hidden spot in Stonehollow, the home village, there from mission
+    1 on and still there in free play, so a save from the demo can find them, close to the home eggs of adult 14. [The
+    Tradewind Bazaar's back rooms in mission 8; aboard the Wayfarer in free play after the demo.]
+36. **Who the hero's adult beats are with.** Adult 7 gives each recruited Adept a heart quest with an adult beat,
+    while story.md's heart quests are friendships that decide each ending (from adult-mode.md §5 and story.md §11).
+    Recommended: the player may follow any of the heart quests, as many as they like; no partner is exclusive, nobody
+    is jealous, and each beat is between the hero and that Adept. [One partner per playthrough, chosen at a set point
+    in Act I; the hero's beats, plus some between two Adepts where their scripts support it.]
+37. **The hero's gender in adult scenes.** The hero is a boy or a girl, chosen at the start, with pronouns chosen
+    apart; drawing for both bodies doubles the scene art (from character-creator.md). Recommended: every Adept's adult
+    beat works with either hero: the lines use the pronoun tokens and the art is drawn for both bodies. [Each Adept
+    has a stated preference, and only the beats with a hero they'd choose play; the beats are written for one hero
+    body only, which you name.]
+38. **What opens an adult beat.** The asset curation's lessons suggest a bond with a threshold and a yes on the page,
+    with no effect on battles or prices (from the curation lessons). Recommended: no meter: each beat opens at a set
+    step of that Adept's heart quest, and every scene first asks both people; "Not now" ends it with an ordinary line
+    and no penalty, and it can be asked again later. [A bond meter for each Adept, raised by talks and gifts and shown
+    in the Log; the same bond meter, kept hidden.]
+39. **Mission variants and story decision 11.** Story decision 11 puts adult scenes in side stories and heart quests,
+    never a main mission, while your rule of 17 Oct (decision log 75) and adult 8 give missions 3, 5 and 6 variants in
+    the mode (from story decision 11 and adult-mode.md §3 and §5). Recommended: a variant may add optional adult lines
+    and scenes beside a main mission's path, such as a night at the inn, but never changes a required scene, so
+    nothing required touches the mode. [Variants may replace a main mission's own scenes; no variants: story decision
+    11 wins.]
+40. **Adult beats after Fallhaven.** Mission 9 ends with Sael's death, and mission 10's night in the quarters is a
+    toast to her and seven quiet talks that seed the heart quests (from the mission 9 and 10 drafts). Recommended: no
+    adult beat in missions 9 and 10; the first heart-quest beats open at the first rest aboard the Wayfarer in free
+    play after the demo. [An optional adult version of the quarters talks in mission 10; nothing until after mission
+    11.]
+41. **How the Adepts' adult scenes are shown.** The 16 Oct animation sets show generic figures, not our cast, and the
+    LPC people are small sprites; adult 15 cuts to black only where no art exists (from adult-mode.md §3 and §4 and
+    needed-assets decision 2). Recommended: sprite scenes in the engine, built from the pixel animation set on adult
+    bodies only and recoloured to each Adept's hair, skin and palette at the 64×64 standard, with the text carrying
+    the rest; the packs' own pictures and videos stay Gallery finds that don't stand for our cast. [A painted still
+    for each scene, from an artist you commission; text over the scene's room, cutting to black.]
+42. **Mind Read on the townsfolk.** With the mode on, Mind Read on a townsperson reads a dirty thought, and some
+    thoughts add a Gallery find (decision log 78), but not who writes how many (from adult-mode.md §3). Recommended: a
+    pool of thoughts for each townsfolk look, picked at random, plus written thoughts for named people once you
+    approve them (open question 23); one thought in each place adds a Gallery find, and Brann's thoughts never change.
+    [A written thought for every townsperson; thoughts for a few chosen townsfolk, the rest read as normal.]
+43. **Where the Giant Dildo Sword comes from.** Adult 11 unlocks it at the end of one adult side quest without naming
+    which (from adult-mode.md §3 and decision log 76). Recommended: the gallery hunt's final reward, beside its coins,
+    charm and scene (adult 3), so it marks finishing the mode's biggest quest. [A quest of its own from a smith at the
+    Tradewind Bazaar; the end of the hero and Corvin's heart quest.]
+44. **Who can wield the Giant Dildo Sword.** Long swords go only to the hero and Corvin; the other Adepts' class lines
+    use light blades, maces and staffs (from equipment.md). Recommended: it is a long sword, so the hero and Corvin.
+    [Any Adept, as the one exception to the weapon table; the hero only.]
+
+**Assets and curation (19 Oct)**
+
+45. **The fan game's characters and scenes.** The 17 Oct asset curation found no character there with a stated age and
+    no scene set that passes the §1 rules; rows written as younger or failing a rule are out and are never shown (from
+    the private curation sheet, kept out of the repo). Recommended: approve none of them; the 16 Oct animation sets
+    and the sound pack stay the adult base. [A private contact sheet of the few rows with no age either way, and you
+    tick only those that clearly show adults with consent, adding an age to each first.]
+46. **The fan game's other parts.** Its tiles, audio, windows, battle backgrounds, icons and follower sprites hold no
+    adult content. Since the curation, the Kenney UI, the CC0 art and music rendered from the ROMs were chosen (from
+    the curation sheet and art approvals 4). Recommended: keep them outside git as a parts bin and take a piece only
+    when a screen has a gap the chosen art doesn't fill, each one credited. [Copy them all into the game's third-party
+    folder now; leave them out.]
+47. **The curation lessons as rules.** The curation drew twelve lessons for this page. Among them: a check that the
+    adult_mode and gallery flags are read only by dialogue, looks and menus, so the mode can't change play; an age
+    field on every cast row, with the build refusing an adult entry whose people lack an age of 18 or more or that
+    includes a Pokémon; and adult text kept in separate files (from the curation lessons). Recommended: add all twelve
+    to §1 and §3 as proposed rules, with the age field and both checks built in the first adult slice. [Add only the
+    two checks; keep the lessons on the private sheet.]
+48. **Packs without terms.** The two animation sets and the small sprite pack came with no licence file, so their
+    makers are unknown (from credits.md). Recommended: one web search for each pack's name before the adult build, to
+    find its maker and terms; if nothing turns up, use it in this personal build and credit it as "maker unknown".
+    [Hold them until a maker is found; use them now, with no search.]
+49. **Showing you adult assets for a yes.** Every art step gets your yes (demo 21), but adult pictures can't go on the
+    public repo or this decision page (from art-approvals.md §1 and adult-mode.md §4). Recommended: numbered contact
+    sheets made by a saved script into a review folder beside your uploads (`OneDrive\Apps-Roms\_adult-review`), for
+    you to open on the computer or the phone; you answer here by number only. [You look in the source folders yourself
+    and write the file names in the note box; the same contact sheets kept on the computer only, outside OneDrive.]
+50. **Revealing looks where LPC has no piece.** Adult 17 composes the Adepts' adult looks from the same LPC layers,
+    but the library may lack a piece a look needs (from adult-mode.md §3). Recommended: draw the missing layer
+    ourselves in LPC's style and palette, credited to this project. [Use the nearest LPC piece; leave that Adept's
+    adult look unchanged until a piece exists.]
+51. **Adult makers in the end credits.** Every maker goes in the end-credits scroll (your rule, 16 Oct), and the
+    Gallery shows a picture's maker under it (adult 19) (from credits.md and adult-mode.md §3). Recommended: an
+    "Adult-o-Vision" section at the end of the scroll, shown only while the mode is on; credits.md lists them always.
+    [Always in the main scroll; only in credits.md and the Gallery.]

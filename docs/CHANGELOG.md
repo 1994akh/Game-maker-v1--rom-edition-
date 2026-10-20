@@ -5,6 +5,19 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **Decided (you, 19 Oct evening), all as recommended:** open questions 29-31 (Espeon and Umbreon by a day or night
+  level-up and by the Sun and Moon Stones; no coin loss for turning back from a lost story fight; the five
+  friendship levels kept) and Scripts 15-18 (missions 9 and 10 approved as written, their new canon accepted, and
+  the Kestrel's burning send-off kept).
+- **New adult-mode questions for your answer:** adult 25 to 51 on the decision page (adult mode is still built after
+  the demo): How adult content reaches the phone; Hiding the game from the recent-apps view; One code for the phone,
+  or one per save file; Wrong codes; The 18+ warning's words; Leaving the game quickly; The cover screen; Adult sounds
+  and voice clips; Browsing the Gallery on the touch screen; How much the first adult build covers; Where the glasses
+  are found; Who the hero's adult beats are with; The hero's gender in adult scenes; What opens an adult beat; Mission
+  variants and story decision 11; Adult beats after Fallhaven; How the Adepts' adult scenes are shown; Mind Read on
+  the townsfolk; Where the Giant Dildo Sword comes from; Who can wield the Giant Dildo Sword; The fan game's
+  characters and scenes; The fan game's other parts; The curation lessons as rules; Packs without terms; Showing you
+  adult assets for a yes; Revealing looks where LPC has no piece; Adult makers in the end credits.
 - **Decided (you, 19 Oct), all as recommended:** the 28 open questions (among them: the Forest and Shadow Summon
   names Dryad, Silvanus, Cernunnos and Nyx, Erebus, Hecate; the cast's ages written into story.md; Gible in
   Dustplain; the seven backup items' names kept; the Log's entries written with each mission's script; the other
