@@ -122,6 +122,10 @@ All as recommended except five alternatives:
   that clearly show adults with consent (question 52; the sheets are in `OneDrive\Apps-Roms\_adult-review`).
 - **The fan game's other parts (46):** copied into the game's third-party folder now (question 57 asks about
   converting them).
+- **Review sheets 1-3 (52-54, 19 Oct late):** you viewed them and approved every number as showing adults over 18:
+  the fan game's 12 rows with no stated age, the five loose uploads and the pixel animation set's 22 clips. Their
+  proposed uses are listed beside them in the private review folder (`approved.csv`); sheets 4-8 and the fan
+  game's adult sounds follow as questions 58-63.
 
 ## 4. Assets
 
@@ -394,3 +398,32 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     also converts them (tiles re-cut, autotiles baked, sprites padded to 64, MIDI rendered, audio re-encoded) (from
     the curation sheet §5). Recommended: copy them now as they are, with the exclusion list and a manifest, and
     convert each part only when a screen uses it. [Copy and convert everything now.]
+
+**More review sheets (19 Oct)**
+
+58. **Review sheet 4: the smooth animation set.** In `OneDrive\Apps-Roms\_adult-review\sheets`, with the README: one
+    middle frame of each of the 21 clips of the full-size animation set, the same clips as sheet 3's pixel set.
+    Proposed use: stills and pop-up art for the Gallery (adult 15). Recommended: keep every number that clearly shows
+    adults, writing any you leave out in the note box. [Keep none of them; keep only the numbers I write in the note
+    box.]
+59. **Review sheet 5: the expression frames.** 18 faces: numbers 1-9 from the smooth set and 10-18 from the pixel set,
+    whose faces sheet 3 didn't show. Proposed use: faces for the scene portraits. Recommended: keep every number that
+    clearly shows adults, writing any you leave out in the note box. [Keep none of them; keep only the numbers I write
+    in the note box.]
+60. **Review sheet 6: the small sprite pack.** 21 strips of 48-pixel frames from the small pack, a character and an
+    NPC, shown enlarged; its Aseprite source lets them be redrawn at 64. Proposed use: extra scene poses and
+    townsfolk. Recommended: keep every number that clearly shows adults, writing any you leave out in the note box.
+    [Keep none of them; keep only the numbers I write in the note box.]
+61. **Review sheet 7: the character and scene cards.** 26 cards' own pictures: two character cards and 24 studio scene
+    cards, approved on 16 Oct as reference only. The files also carry their game's data, which this game won't use.
+    Recommended: keep them as references for drawing our own art, every number that clearly shows adults. [Keep none
+    of them; use the numbers I write in the note box as Gallery finds too.]
+62. **Review sheet 8: the fan game's portrait busts.** 19 busts: the professor's four (an adult by role; her one scene
+    stays out because it has a Pokémon) and 15 of six characters with no stated age, never in its scenes. Proposed
+    use: style references for our own portraits, not in the game as they are. Recommended: keep them as style
+    references, every number that clearly shows an adult. [Keep none of them; use the numbers I write in the note box
+    in the game as they are.]
+63. **The fan game's adult sounds.** 16 sounds copied to the review folder's audio subfolder for listening: breaths,
+    wet sounds, a kiss, a spank and one ambient loop; one ambient loop with a creature stays out. Adult 20 already
+    keeps voice clips and loops from the Kentaro pack. Recommended: keep the ones you like beside the Kentaro pack,
+    writing any you leave out in the note box. [Keep none: the Kentaro pack is enough.]
