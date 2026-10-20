@@ -126,6 +126,11 @@ All as recommended except five alternatives:
   the fan game's 12 rows with no stated age, the five loose uploads and the pixel animation set's 22 clips. Their
   proposed uses are listed beside them in the private review folder (`approved.csv`); sheets 4-8 and the fan
   game's adult sounds follow as questions 58-63.
+- **Review sheets 4-8 and the sounds (58-63, 19 Oct night):** all approved, every number, and you confirmed in chat
+  that every picture in the review folder is approved: the smooth animation set, both sets' faces, the small
+  sprite pack, the character and scene cards (reference only), the fan game's portrait busts (style references)
+  and its 16 adult sounds. 160 approved items are listed in the folder's `approved.csv`; the draft Gallery plan is
+  question 64.
 
 ## 4. Assets
 
@@ -401,29 +406,38 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **More review sheets (19 Oct)**
 
-58. **Review sheet 4: the smooth animation set.** In `OneDrive\Apps-Roms\_adult-review\sheets`, with the README: one
+58. **Decided (19 Oct):** **Review sheet 4: the smooth animation set.** In `OneDrive\Apps-Roms\_adult-review\sheets`, with the README: one
     middle frame of each of the 21 clips of the full-size animation set, the same clips as sheet 3's pixel set.
     Proposed use: stills and pop-up art for the Gallery (adult 15). Recommended: keep every number that clearly shows
     adults, writing any you leave out in the note box. [Keep none of them; keep only the numbers I write in the note
     box.]
-59. **Review sheet 5: the expression frames.** 18 faces: numbers 1-9 from the smooth set and 10-18 from the pixel set,
+59. **Decided (19 Oct):** **Review sheet 5: the expression frames.** 18 faces: numbers 1-9 from the smooth set and 10-18 from the pixel set,
     whose faces sheet 3 didn't show. Proposed use: faces for the scene portraits. Recommended: keep every number that
     clearly shows adults, writing any you leave out in the note box. [Keep none of them; keep only the numbers I write
     in the note box.]
-60. **Review sheet 6: the small sprite pack.** 21 strips of 48-pixel frames from the small pack, a character and an
+60. **Decided (19 Oct):** **Review sheet 6: the small sprite pack.** 21 strips of 48-pixel frames from the small pack, a character and an
     NPC, shown enlarged; its Aseprite source lets them be redrawn at 64. Proposed use: extra scene poses and
     townsfolk. Recommended: keep every number that clearly shows adults, writing any you leave out in the note box.
     [Keep none of them; keep only the numbers I write in the note box.]
-61. **Review sheet 7: the character and scene cards.** 26 cards' own pictures: two character cards and 24 studio scene
+61. **Decided (19 Oct):** **Review sheet 7: the character and scene cards.** 26 cards' own pictures: two character cards and 24 studio scene
     cards, approved on 16 Oct as reference only. The files also carry their game's data, which this game won't use.
     Recommended: keep them as references for drawing our own art, every number that clearly shows adults. [Keep none
     of them; use the numbers I write in the note box as Gallery finds too.]
-62. **Review sheet 8: the fan game's portrait busts.** 19 busts: the professor's four (an adult by role; her one scene
+62. **Decided (19 Oct):** **Review sheet 8: the fan game's portrait busts.** 19 busts: the professor's four (an adult by role; her one scene
     stays out because it has a Pokémon) and 15 of six characters with no stated age, never in its scenes. Proposed
     use: style references for our own portraits, not in the game as they are. Recommended: keep them as style
     references, every number that clearly shows an adult. [Keep none of them; use the numbers I write in the note box
     in the game as they are.]
-63. **The fan game's adult sounds.** 16 sounds copied to the review folder's audio subfolder for listening: breaths,
+63. **Decided (19 Oct):** **The fan game's adult sounds.** 16 sounds copied to the review folder's audio subfolder for listening: breaths,
     wet sounds, a kiss, a spank and one ambient loop; one ambient loop with a creature stays out. Adult 20 already
     keeps voice clips and loops from the Kentaro pack. Recommended: keep the ones you like beside the Kentaro pack,
     writing any you leave out in the note box. [Keep none: the Kentaro pack is enough.]
+
+**The Gallery plan (19 Oct)**
+
+64. **The draft Gallery plan.** gallery_plan.csv in the private review folder lists the 33 approved pictures meant as
+    Gallery finds: the four loose uploads first, then the fan game's pictures, then the smooth set's stills. 30 are
+    placed three to each of the demo's ten places (adult 34), the first being the magazine under the hero's bed (adult
+    14), and three wait for later acts. Each find's hiding spot is chosen when its room's adult content is built.
+    Recommended: approve the draft, with any moves you want written in the note box (find number and place). [Place
+    them yourself in the file; leave the places until each room's adult content is built.]
