@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **New for your answer (adult 58 to 63):** Review sheet 4: the smooth animation set; Review sheet 5: the expression
+  frames; Review sheet 6: the small sprite pack; Review sheet 7: the character and scene cards; Review sheet 8: the
+  fan game's portrait busts; The fan game's adult sounds.
 - **Decided (you, 19 Oct late):** adult 52-57 and open 32-38. Adult: you keep only the review-sheet numbers you
   write in the note boxes (52 and 53, none written yet); the pixel animation set approved as the scenes' base if
   every figure is clearly an adult (54); videos at 720p and the APK under 1 GB (55); one adult quarters talk per
