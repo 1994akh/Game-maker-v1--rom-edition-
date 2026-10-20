@@ -47,17 +47,19 @@ Checked end to end by the engine's `tools/mission4_check`.
 
 ## Balance (proposed)
 
-Measured with the engine's `tools/balance_fight.tscn` over 30 seeds:
+Measured with the engine's `tools/balance_fight.tscn` over 30 seeds (re-measured 19 Oct after the battle and items
+rules, slices 3c and 3d; Tamsin's Mace, decided 19 Oct, hits as hard as the Machete it replaces):
 
 | Fight | Crew | Attacking only | Healing and Psynergy |
 |---|---|---|---|
-| Tamsin (4) + Riolu (4) | Corvin 6 + Larvitar | 12 / 30 | 30 / 30 |
-| Ho-Oh (420 HP, 2 actions) | Corvin 7 + Larvitar, Tamsin 7 + Riolu | 0 / 30 | 29 / 30 |
+| Tamsin (4) + Riolu (4) | Corvin 6 + Larvitar | 20 / 30 | 30 / 30 |
+| Ho-Oh's judgement (fixed length, damaging moves only) | Corvin 7 + Larvitar, Tamsin 7 + Riolu | 30 / 30 | 30 / 30 |
 
 ## Placeholders and proposals (not decided)
 
 - **The monastery trials** are one Move puzzle. Tamsin's crew Psynergy (Flame) has no field use here yet.
 - **Ho-Oh** has no field or battle sprite of its own beyond the Pokémon picture; the seal is a Golden Sun object.
 - **The fire and the escape** are a shake, a fade and narration. The Galeway lanes chase isn't built.
-- **Tamsin** wears Mia's field sprite and Garet's battle curve placeholder (her class is Guard, on Garet's row).
+- **Tamsin** wears Mia's field sprite (art decision 15) and Garet's battle curve placeholder (her class is Guard, on
+  Garet's row). She joins with a Mace from the Forgeheart's rack (open question 27, decided 19 Oct).
 - **Catching Ho-Oh** is a later beat, as the story says (§5).

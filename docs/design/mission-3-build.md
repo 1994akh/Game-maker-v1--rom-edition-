@@ -43,8 +43,8 @@ All lines are placeholders written to the story's beats, in the engine's `maps_s
 - **Surf** in our rooms: a water layer, entered facing the water with A when Surf is unlocked and a Set Pokémon
   in the crew can learn it.
 - **Story bosses** from Golden Sun enemies scaled to the story's level. The sluice beast is Kraken's sheet at
-  level 8 (proposed). Measured over 30 seeds with the hero at 7 and Maren: attacking only wins once; healing with
-  Maren and using Psynergy wins 28 times.
+  level 8 (proposed). Measured over 30 seeds with the hero at 7 and Maren (19 Oct, after the battle and items rules): attacking only
+  wins 7 times; healing with Maren and using Psynergy wins all 30.
 - **Recruits bring their story partner** from the cast table (Maren: Eevee).
 - **Map changes by flag**: a room can open cells and repaint its tiles once flags are set (the drained flood).
   This is the mechanism story §14 question 5 asked for (map variants by flag), at the scale of a room.
