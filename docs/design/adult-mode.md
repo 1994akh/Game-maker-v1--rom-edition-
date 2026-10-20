@@ -435,7 +435,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **The Gallery plan (19 Oct)**
 
-64. **The draft Gallery plan.** gallery_plan.csv in the private review folder lists the 33 approved pictures meant as
+64. **Decided (19 Oct):** **The draft Gallery plan.** gallery_plan.csv in the private review folder lists the 33 approved pictures meant as
     Gallery finds: the four loose uploads first, then the fan game's pictures, then the smooth set's stills. 30 are
     placed three to each of the demo's ten places (adult 34), the first being the magazine under the hero's bed (adult
     14), and three wait for later acts. Each find's hiding spot is chosen when its room's adult content is built.
