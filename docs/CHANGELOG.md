@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **New for your answer (open 39 to 50):** Title screen and opening; Stonehollow, the home village; Caves: the sea
+  caves, the river caves and the Vault's lower halls; Sailing the Calm; Monster battles; Story bosses; Wild Pokémon
+  battles; Pokémon trainer battles; Victory fanfares; Catching and evolution; Sad scenes; The other places.
 - **New for your answer (adult 64 to 64):** The draft Gallery plan.
 - **Decided (you, 19 Oct night):** every adult review sheet and sound approved (adult 52-54 in chat, 58-63 on the
   page, and "all images in the file approved"): 160 items in the private review folder's `approved.csv`, each
