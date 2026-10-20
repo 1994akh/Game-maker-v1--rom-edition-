@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 20 Oct 2026
 
+- **Merged (engine), demo slices 1-3 done:** the 480x320 picture with its review fixes (#72; checks pass at the
+  cover's and the inner screen's sizes), the review fixes for slice 3 and missions 2-4 with Tamsin's Mace and
+  Cloak on dark cells (#76), the progression rules with Eevee by day, night or stone (#73), and no coin loss on
+  "No" after a lost story fight (#75). New build: `_GameMaker-builds/GameMaker-debug-2026-10-20-picture-rules.apk`.
 - **Built (engine):** the fan game's non-adult parts copied in as they are (PR #74: 20,080 files, people and title
   art left out); Tamsin joins with the Mace (open 27) and Cloak works on dark cells (open 28), with the Greenwild
   glade's shade marked, in the review-fixes PR; Corvin's crew rests free at Fallhaven's inn until mission 2 is done,
