@@ -5,6 +5,16 @@ header; the detailed rules are in `docs/design/`.
 
 ## 19 Oct 2026
 
+- **Decided (you, 19 Oct night):** adult 25-51, as recommended except five alternatives: one APK with everything
+  (25), an optional adult version of mission 10's quarters talks (40), any Adept may wield the Giant Dildo Sword
+  (44), a private review of the fan game's rows with no stated age (45), and the fan game's other parts copied in
+  now (46). The review sheets are in `OneDrive\Apps-Roms\_adult-review`.
+- **New for your answer (open 32 to 38):** What comes first after the demo; Writing mission 11 onward; Reports from
+  the phone; Playtest saves from one build to the next; Android's own backup of saves; How you pick the music; Trainer
+  and boss battle music.
+- **New for your answer (adult 52 to 57):** Review sheet 1: the fan game's rows with no stated age; Review sheet 2:
+  the sprite strip and four loose uploads; Review sheet 3: the pixel animation set; The one APK's size; The quarters
+  night in adult mode; Copying the fan game's other parts.
 - **Decided (you, 19 Oct evening), all as recommended:** open questions 29-31 (Espeon and Umbreon by a day or night
   level-up and by the Sun and Moon Stones; no coin loss for turning back from a lost story fight; the five
   friendship levels kept) and Scripts 15-18 (missions 9 and 10 approved as written, their new canon accepted, and
