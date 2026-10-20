@@ -360,19 +360,19 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Review sheets: pictures for your yes (19 Oct)**
 
-52. **Review sheet 1: the fan game's rows with no stated age.** Your choice on adult 45. The sheet is
+52. **Decided (19 Oct), alternative:** **Review sheet 1: the fan game's rows with no stated age.** Your choice on adult 45. The sheet is
     review-sheet-1.png in `OneDrive\Apps-Roms\_adult-review` (adult 49), with a README: 12 numbers, a ranch character,
     a milkmaid dance, milk pumps, four trainer classes' field and battle sprites, and an unplaced animation sheet.
     Left out by the rules and not shown: the fan game's protagonist (written as younger), its rival (the protagonist's
     peer, so out too, a change from the curation sheet), every scene with a Pokémon and every scene where consent
     fails. Recommended: keep none. [Keep the numbers I write in the note box, each clearly an adult, with an age I
     give each person.]
-53. **Review sheet 2: the sprite strip and four loose uploads.** review-sheet-2.png in the same folder: number 1 is
+53. **Decided (19 Oct):** **Review sheet 2: the sprite strip and four loose uploads.** review-sheet-2.png in the same folder: number 1 is
     the 3000×628 sprite strip held by open question 25, and numbers 2 to 5 are four pictures that arrived the same
     evening, 16 Oct, and were never inventoried. Recommended: keep the numbers you write in the note box, each with
     what it is for (a Gallery find, a look or a scene) and only if every person in it is clearly an adult; the rest
     stay out. [Keep none of them.]
-54. **Review sheet 3: the pixel animation set.** review-sheet-3.png in the same folder shows one middle frame of each
+54. **Decided (19 Oct):** **Review sheet 3: the pixel animation set.** review-sheet-3.png in the same folder shows one middle frame of each
     of the set's 22 clips. Adult 41 builds the Adepts' adult scenes from this set, recoloured to each Adept on adult
     bodies only, so this is the check that its figures are adults. Recommended: approve the set as the base for the
     Adepts' scenes, if every figure is clearly an adult. [Approve all but the numbers in the note box; find another
@@ -380,16 +380,16 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Follow-ups to your answers (19 Oct)**
 
-55. **The one APK's size.** Your choice on adult 25 puts everything in the one APK. With the Gallery's videos inside,
+55. **Decided (19 Oct):** **The one APK's size.** Your choice on adult 25 puts everything in the one APK. With the Gallery's videos inside,
     it could pass several hundred MB; it installs from OneDrive as now and can't be sent in chat (from adult 25 and
     adult 15). Recommended: videos converted to 720p at a moderate bitrate and pictures kept at their own size, aiming
     for an APK under 1 GB. [Full source quality, whatever the size; 480p videos, aiming under 300 MB.]
-56. **The quarters night in adult mode.** Your choice on adult 40: an optional adult version of mission 10's quarters
+56. **Decided (19 Oct):** **The quarters night in adult mode.** Your choice on adult 40: an optional adult version of mission 10's quarters
     talks. The night follows supper and the toast to Sael, and each talk seeds that Adept's heart quest (from the
     mission 10 script). Recommended: each of the seven talks can turn adult when the Adept and the hero both choose
     it, written as comfort after the loss, and choosing one ends the night with that Adept, so one per night; the
     supper and the toast stay as written. [Any number of talks may turn adult that night.]
-57. **Copying the fan game's other parts.** Your choice on adult 46 copies its tiles, audio, windows, battle
+57. **Decided (19 Oct):** **Copying the fan game's other parts.** Your choice on adult 46 copies its tiles, audio, windows, battle
     backgrounds, icons and follower sprites into the game's third-party folder now. The curation's extraction plan
     also converts them (tiles re-cut, autotiles baked, sprites padded to 64, MIDI rendered, audio re-encoded) (from
     the curation sheet §5). Recommended: copy them now as they are, with the exclusion list and a manifest, and
