@@ -5,6 +5,16 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Designed (24 Oct, Fable):** the world map, docs/design/world-map.md, with a schematic picture drawn from scratch
+  (docs/design/world-map/). It settles the whole world's layout (rings around Meridia, the Wide's four quarters on the
+  compass, the bite in the east rim with Fallhaven at its end), Act I's places and how you move between them, every
+  place as several scenes with every entrance named both ways (your note), places to explore and grind, the hidden
+  adult-only town (your note: Nightmarket Isle in the north fog), what we generate ourselves where Golden Sun has
+  nothing, what changes later without a remap, and the order of work.
+- **New for your answer (open 74 to 92):** the world map's nineteen questions: the Wide's quarters, Fallhaven and the
+  storm, the Spine, Marrow Isle's shape, the layers, what keeps you out, Sail here, the voyage lines, the world's size,
+  battles at sea, moving between rooms, how the map is drawn, optional content, the west road, a Crew 1 board, the
+  isles that sink, towns as several scenes, what we generate ourselves, and the adult-only hidden town.
 - **Decided (you, 24 Oct):** open questions 65 to 73, all as recommended. Lantern Reef's breaks show sea until Reveal
   finds each plank, then deck boards span them; Stonehollow's collision is rebuilt from its picture right after PR #79,
   with the movement work. Movement and puzzles: vines are climbed Golden Sun's way (facing the vine, half speed, can stop
