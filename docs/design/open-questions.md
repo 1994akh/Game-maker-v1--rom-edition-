@@ -678,3 +678,27 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      comes next (the Breaking, the crews scattered across the Wide) over the sailing theme, then the credits with the
      cameo cast's gag card for every Curio found. [The credits only, nothing about what comes next; a playable teaser:
      one minute of the Breaking before the credits.]
+
+**The UI before any playtest (24 Oct)**
+
+107. **What you saw wrong in the UI.** You said the UI must be fixed before any playtest. The check windows show
+     today's placeholder look: plain boxes in the default font, the touch stick and buttons over parts of the scene,
+     the battle's command menu over the enemies on the cover screen, and some boxes that cut their text. The UI art
+     you decided on 16 Oct (Kenney Pixel 16 and Mini 8, the navy RPG frame, the pixel button prompts, the DCSS icons)
+     is on disk and not yet wired in. Recommended: one UI job before the mid build: wire the decided fonts, frame,
+     icons and prompts into every box, menu and screen, fit the text (three lines a box), and move the touch controls
+     and the command menu so nothing covers the party, the enemies or the words at either Fold view, with a
+     before-and-after contact sheet of every screen for you. Add anything else you saw in the note box. [Only the
+     layout fixes now (overlaps, cut text), the art after the mid build; only the art now, the layout fixes after
+     you've played the mid build.]
+108. **The touch controls' look.** The stick and the A, B, L, R and Start buttons are flat circles today. The Settings
+     rows for their size, a left-handed layout and the stick type were left for later (menus). Recommended:
+     pixel-styled stick and buttons in the frame's navy at about 40% opacity, the stick bottom-left, A and B
+     bottom-right, L and R in the top corners, Start bottom centre, with the field's camera keeping the hero clear of
+     them, and a Settings row for their size. [Fully opaque buttons in a bar under the picture, letterboxed on the
+     cover screen; hidden until you touch the screen, then fading out after a second.]
+109. **Portraits in the message box for the playtest.** Art 24 decided the portraits need illustrated art of their
+     own, which is not drawn yet. The message box has a portrait slot. Recommended: name tags only for the playtest,
+     with the portrait slot folded away so no empty square shows, until the portrait art pass. [Simple drawn
+     silhouettes in each Adept's colour as stand-ins; The fan game's approved portrait busts as stand-ins where one
+     fits.]

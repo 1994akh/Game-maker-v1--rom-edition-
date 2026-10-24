@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **New for your answer (open 107 to 109):** the UI before any playtest (your instruction, 24 Oct): what you saw wrong,
+  the touch controls' look, and portraits in the message box for the playtest. The UI job (the decided fonts, frame,
+  icons and prompts wired in, the text fitted, every overlap cleared at both Fold views) now comes before the mid build.
 - **Decided (you, 24 Oct):** open questions 93 to 106. 93 by your words in chat: the way of working stays, a real choice
   goes on the decision page and that task pauses while other work carries on. 94 to 106 as recommended: a mid playtest
   build after missions 1 to 4 run on the new rooms; the jobs in order (rooms, movement and puzzles, interiors, the world
