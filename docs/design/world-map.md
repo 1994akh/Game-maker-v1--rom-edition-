@@ -537,10 +537,10 @@ moored at. At sea she is a ship on the world map.
 - **Merge:** `fallhaven` and `fallhaven_lower` into one lower-town room.
 - **New outdoor scenes from your note (4):** `fallhaven_harbour`, `fallhaven_high`, `fallhaven_cove` and
   `canalport_upper` (Act II, placed now).
-- **New interior scenes from your note:** on the main path or for the rest and shops, 12: `quiet_stone`, `hatchery`,
+- **New interior scenes from your note:** on the main path or for the rest and shops, 16: `quiet_stone`, `hatchery`,
   `makers_cabin`, `tidewarden_post`, `dry_boot`, `canalport_shop`, `sluice_house`, `mossbed`, `elders_house`,
   `marrits_hut`, `leaning_gull`, `saels_house`, `guild_hall`, `pursers_office`, `lashed_lantern` and `hazels_house`
-  (the demo builds the ones its missions walk into first). Optional, 14: `rivalsons_house`, `quiet_stone_cellar`,
+  (the demo builds the ones its missions walk into first). Optional, 18: `rivalsons_house`, `quiet_stone_cellar`,
   `cidricks_yard`, `tortells_house`, `harbour_office`, `lettie_house`, the fowler's hut, `forge_kitchen`,
   `forge_store`, `sorrels_hut`, the coast post, `lantern_house`, `key_room`, `records_office`, `seized_store`,
   `martas`, `wennas` and `order_cellar`. Golden Sun has interior tiles for most of these; the rest are generated.
