@@ -5,6 +5,23 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Decided (you, 24 Oct):** the room music, open 53 to 64, all as recommended. Stonehollow and the hero's house
+  move to gs1 2 (Vale's theme); Canalport gs1 10 (Tolbi), the Tradewind Bazaar gs1 6 (Kalay), Fallhaven gs2 15
+  (Garoh), the Forgeheart's halls gs1 5 (the temples) and sanctum gs2 27 (Magma Rock), the Greenwild gs1 21 and the
+  Eldergrove gs1 4 (the Tret Tree), Lantern Reef gs1 28 (Crossbone Isle), Bastion Rock gs1 23 (Lunpa Fortress), the
+  Vault's upper halls gs1 20 (Sol Sanctum) and the Wayfarer gs2 41 (the Lemurian Ship). A room's cue can change with
+  a story flag, starting with Fallhaven's sad theme after its fall.
+- **Decided (you, 24 Oct):** the easter eggs, story questions 13 to 39 (story.md §9a now carries them). Original
+  names and bent lines, with looks allowed from the source's art; two or three eggs per Act I mission; a Curios tab
+  in the Log plus one Bounty Board rumour per region; small rewards and a full-set credits card. New cameos: the
+  Spigot brothers (Mario), Turvey the turnip seller (Avatar), Captain Jory Swallow (Pirates of the Caribbean), the
+  Bliss cousins (Nurse Joy), Linden (Zelda), Sabra Arn (Metroid), Captain Obed Hake (Moby Dick), Vedge (Dragon Ball)
+  and Uncle Ashby (Avatar); nods from Ghibli, Dragon Quest, Zelda, Star Wars, Unbound and the GBA; the Idol Run;
+  the makers' cabin, your cameo, holidays and the title-screen code. Left out: the sun knight, the inner-screen
+  secret and the bridge keeper.
+- **Decided (you, 24 Oct):** open question 52, the One Piece GBA sheets as a parts bin; credits row added.
+- **New for your answer (story 40 to 45):** follow-ups to the egg answers: four more Avatar gags (your note on 36),
+  your cameo's look and name, and how the birthday is kept.
 - **Found (24 Oct):** how Golden Sun picks each room's music. Both games keep a table of rows (a room or place, an
   optional door and story flag, a song), and the first row that matches wins, so a town's music changes with the
   story. gs1 1 turned out to be Lunpa's theme, not Vale's: open 53 offers Vale's own, gs1 2, for Stonehollow.
@@ -15,10 +32,10 @@ header; the detailed rules are in `docs/design/`.
   how many, how obvious, rewards, a full set), new spoof cameos (each with a place in Act I or II), small nods,
   themed puzzles, and personal and seasonal eggs (a makers' cabin, a cameo of you, holidays). Ask for any others
   in question 27's note box.
-- **New for your answer (open 52 to 52):** The One Piece GBA sprite sheets.
+- **New for your answer (open 52):** The One Piece GBA sprite sheets.
 - **Decided (you, 24 Oct):** open question 51, the DS-style Pokémon sprite pack kept as a backup for missing or broken
   expansion sprites (most of the 171 without one are alternate forms the pack lacks; it fills a few, such as Genesect).
-- **New for your answer (open 51 to 51):** The DS-style 64x64 Pokémon sprite pack.
+- **New for your answer (open 51):** The DS-style 64x64 Pokémon sprite pack.
 - **Built (engine PR #77, merged):** the first music, from your table (open 39-49): title, Stonehollow, the sea caves,
   sailing, every battle and its victory. Other rooms stay silent until 53 to 64 are answered.
 

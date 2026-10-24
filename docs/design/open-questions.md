@@ -249,6 +249,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     278, its title theme.]
 40. **Decided (19 Oct):** **Stonehollow, the home village.** gs1 1 matched the remake's "happy town", Golden Sun's home-village theme.
     Recommended: gs1 1. [Another gs1 track I name in the note box.]
+    - **Changed by 53 (24 Oct):** gs1 1 turned out to be Lunpa's theme; Stonehollow plays Vale's own, gs1 2.
 41. **Decided (19 Oct):** **Caves: the sea caves, the river caves and the Vault's lower halls.** gs1 24 matched the remake's "cave".
     Recommended: gs1 24. [Unbound 309, its rift cave.]
 42. **Decided (19 Oct):** **Sailing the Calm.** gs1 42 matched the remake's "world map", the overworld theme Golden Sun plays between
@@ -287,7 +288,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **The One Piece sheets (24 Oct)**
 
-52. **The One Piece GBA sprite sheets.** Your 24 Oct upload: 34 sheets from the 2005 One Piece game for the GBA,
+52. **Decided (24 Oct):** **The One Piece GBA sprite sheets.** Your 24 Oct upload: 34 sheets from the 2005 One Piece game for the GBA,
     ripped by Paddy and Lemon for The Spriters Resource. They are side-view brawler sprites about 40 px tall with
     idle, walk, attack and fall rows. They cover Luffy, Zoro, Usopp, Nami and Sanji; the villains Buggy, Arlong, Kuro,
     Don Krieg, Smoker, Alvida, Morgan and others, five of them with a face portrait; nine plain pirates and Navy
@@ -305,46 +306,46 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Room music read from the ROMs (24 Oct)**
 
-53. **Stonehollow's track, corrected.** Open 50's reading is done: both Golden Sun games keep a table of which song
+53. **Decided (24 Oct):** **Stonehollow's track, corrected.** Open 50's reading is done: both Golden Sun games keep a table of which song
     each room plays, changing with story flags. It shows that gs1 1, which open 40 chose for Stonehollow as 'the
     home-village theme', is really Lunpa's town theme. Vale, Golden Sun's real home village, plays gs1 2 once the
     opening is over, the town theme it shares with Bilibin, Kolima and Imil. Files are in
     OneDrive\Apps-Roms\_music-preview. Recommended: switch Stonehollow and the hero's house to gs1 2, Vale's own
     theme. [Keep gs1 1, which you already chose; gs1 0, the theme of Vault, the town next to Vale.]
-54. **Canalport.** A big tidal canal city on Brightcoast (mission 3). gs1 10 is Tolbi's, Golden Sun's busy capital;
+54. **Decided (24 Oct):** **Canalport.** A big tidal canal city on Brightcoast (mission 3). gs1 10 is Tolbi's, Golden Sun's busy capital;
     gs1 6 is Kalay's, the rich merchant city, and its docks. Recommended: gs1 10, Tolbi's. [gs1 6, Kalay's; gs2 2,
     Alhafra's, The Lost Age's port town.]
-55. **The Tradewind Bazaar.** A floating market of lashed ships (mission 8). gs1 6 is Kalay's, the merchant city and
+55. **Decided (24 Oct):** **The Tradewind Bazaar.** A floating market of lashed ships (mission 8). gs1 6 is Kalay's, the merchant city and
     its docks; gs2 37 plays in Loho and the Shaman Village. Recommended: gs1 6, Kalay's. [gs2 37, Loho's; gs2 13,
     Madra's and Mikasalla's.]
-56. **Fallhaven.** A cliff town on the east rim (missions 2 and 9), with its lower town and archive. gs2 15 is
+56. **Decided (24 Oct):** **Fallhaven.** A cliff town on the east rim (missions 2 and 9), with its lower town and archive. gs2 15 is
     Garoh's, a village in the cliffs; gs2 4 is Daila's, a seaside town. Recommended: gs2 15, Garoh's, for the town,
     the lower town and the archive. [gs2 4, Daila's; gs1 2, if Stonehollow keeps gs1 1.]
-57. **The Forgeheart's halls.** The fire monastery on Embral Isle (mission 4): its trials and halls. gs1 5 plays in
+57. **Decided (24 Oct):** **The Forgeheart's halls.** The fire monastery on Embral Isle (mission 4): its trials and halls. gs1 5 plays in
     Golden Sun's temples, Fuchin Temple and Lama Temple, and in Xian. Recommended: gs1 5, the temples' theme. [gs2 3,
     the Kandorean Temple's; gs2 27, Magma Rock's.]
-58. **The Forgeheart's sanctum.** The Flame seal's chamber, where Ho-Oh wakes (mission 4). gs2 27 is Magma Rock's, The
+58. **Decided (24 Oct):** **The Forgeheart's sanctum.** The Flame seal's chamber, where Ho-Oh wakes (mission 4). gs2 27 is Magma Rock's, The
     Lost Age's fire dungeon; gs2 28 is the Mars Lighthouse's. Recommended: gs2 27, Magma Rock's. [gs2 28, the Mars
     Lighthouse's; gs1 27, the Mercury and Venus Lighthouses'.]
-59. **The Greenwild and the Eldergrove.** The western woods, the village at the giant tree and the tree's heart
+59. **Decided (24 Oct):** **The Greenwild and the Eldergrove.** The western woods, the village at the giant tree and the tree's heart
     (mission 5). gs1 21 plays in Kolima and Mogall Forests; gs1 4 in the Tret Tree, Golden Sun's own giant tree, and
     in Altin. Recommended: gs1 21 in the Greenwild, gs1 4 in the Eldergrove and the tree's heart. [gs1 21 everywhere
     in the woods; gs2 30, Taopo Swamp's, for the poison swamp.]
-60. **Lantern Reef.** A ghost-ship graveyard in fog, at night (mission 6). gs1 28 plays in Crossbone Isle's caves, a
+60. **Decided (24 Oct):** **Lantern Reef.** A ghost-ship graveyard in fog, at night (mission 6). gs1 28 plays in Crossbone Isle's caves, a
     pirate's island of bones, and Fuchin Falls; gs1 61 aboard Briggs' pirate ship. Recommended: gs1 28, Crossbone
     Isle's. [gs1 61, the pirate ship's; gs2 65, the Sea of Time's.]
-61. **Bastion Rock.** The Tidewarden sea fortress and its jail, a prison break (mission 7). gs1 23 plays in Lunpa
+61. **Decided (24 Oct):** **Bastion Rock.** The Tidewarden sea fortress and its jail, a prison break (mission 7). gs1 23 plays in Lunpa
     Fortress and on Altin Peak. Recommended: gs1 23, Lunpa Fortress's. [gs2 31, the Ankohl Ruins'; gs1 29, the Tunnel
     Ruins'.]
-62. **The Vault's upper halls.** The ancient halls on Marrow Isle (missions 1 and 10), where the Sentinels come from
+62. **Decided (24 Oct):** **The Vault's upper halls.** The ancient halls on Marrow Isle (missions 1 and 10), where the Sentinels come from
     Sol Sanctum. Open 41 gave the cave theme to its lower halls; the upper halls are silent today. gs1 20 is Sol
     Sanctum's. Recommended: gs1 20, Sol Sanctum's. [gs1 22, the Elemental Star room's; gs1 24, the cave theme, as the
     lower halls.]
-63. **The Wayfarer.** The crew's Farer ship from mission 10, below decks and on deck when it's moored. gs2 41 plays
+63. **Decided (24 Oct):** **The Wayfarer.** The crew's Farer ship from mission 10, below decks and on deck when it's moored. gs2 41 plays
     aboard The Lost Age's Lemurian Ship; gs1 41 aboard Golden Sun's ship to Tolbi. Sailing the open sea keeps gs1 42
     (open 42). Recommended: gs2 41, the Lemurian Ship's. [gs1 41, the Tolbi-bound ship's; gs1 42, the sailing theme,
     on board too.]
-64. **Music that changes with the story.** Golden Sun changes a place's music with story flags: Vale is silent the
+64. **Decided (24 Oct):** **Music that changes with the story.** Golden Sun changes a place's music with story flags: Vale is silent the
     night of the storm, Tolbi and Bilibin change later on. Our table plays one cue per room. Recommended: let a room's
     cue change with a story flag the same way, starting with Fallhaven, which plays the sad theme (gs1 59) after its
     fall in mission 9. [That, and Stonehollow silent on the night of the quake in mission 1; one cue per room, as
