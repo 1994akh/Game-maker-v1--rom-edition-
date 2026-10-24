@@ -402,3 +402,186 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     checks walk the hero along real paths, with jumps kept only where a check must skip ahead on purpose (and then
     behind a fade). [Keep the checks' jumps, and only the game itself moves properly; walk only in the mission checks,
     jump in the small ones.]
+
+**World map: layout (24 Oct)**
+
+74. **The four quarters of the Wide.** The Wide is the outer sea beyond the storm ring. It has four quarters:
+    Northreach, Eastwater, Southdeep and Westgloam. story.md's little sketch puts them at the corners (north-west,
+    north-east, south-east, south-west). But their names, the landmark list and the opening put things at the compass
+    points. The Stormspire is due north. Fallhaven is on the east rim. Silverdeep is south-east. The Umbral Gate's
+    black falls are on the north-west rim. The map needs one answer before anything is drawn. Recommended: Each
+    quarter is centred on the compass point it is named for: Northreach north, Eastwater east, Southdeep south,
+    Westgloam west. The Umbral Gate stays on the north-west rim, in Westgloam's northern part. Silverdeep stays
+    south-east, in Southdeep's eastern part. story.md's sketch is redrawn to match. [Keep the sketch's corners
+    (Northreach north-west, Eastwater north-east, Southdeep south-east, Westgloam south-west) and move the Umbral Gate
+    to the south-west rim; compass-point quarters, with the Umbral Gate moved to due west and Silverdeep to due
+    south.]
+75. **Fallhaven, the storm and the Bazaar.** Ketch's skiff comes out of two days of storm and Fallhaven rises out of
+    the spray. So Fallhaven must sit right against the Galeway's outer edge. But the scripts also sail from the
+    Tradewind Bazaar 'a day and a night east' to Fallhaven, with no storm between. On a ring-shaped map, no spot can
+    be both outside the storm and west of a town that touches it. One of the two has to give. Recommended: The rim has
+    eaten deepest in the east. Fallhaven stands at the inner end of that bite, just outside the storm, on a narrow
+    strait we'd call the Fallhaven Narrows. The Bazaar lies in Eastwater's open water to the north, a day and a
+    night's sail south down the rim to Fallhaven. Four lines change from 'east' to 'south, down the rim' (story.md
+    section 2 and three in mission 8). The Rimborn sailor's 'west along the rim' in mission 9 becomes 'west into the
+    storm'. [Keep 'east'. The storm reaches out a long arm to the rim at Fallhaven, and the Bazaar lies in the open
+    water north of that arm; make the storm thin in the east. The skiff crosses it in a day, then sails a day of open
+    sea, with the Bazaar west of Fallhaven in that open sea. 'Two days of storm' in missions 2 and 9 becomes 'a day of
+    storm and a day of open sea'.]
+76. **The Spine and the Pinnacle's river.** No page says which way the Spine runs. And the Tidewardens 'rule the sea
+    lanes from the Pinnacle', and Ilse 'sails for the Pinnacle'. Yet the Pinnacle is a capital on a mountain top in
+    the middle of the continent, far from any sea. Recommended: The Spine runs north to south down Meridia's middle,
+    with the Pinnacle on its highest peak at the very centre of the world. Frostmarch lies at its north end, Dustplain
+    at its south end, Brightcoast to the east and the Greenwild to the west. A wide river, the Crownwater, runs from
+    the Pinnacle's foot east to the sea at Canalport. The order's ships pass Canalport's locks with a Pinnacle pass
+    and sail up to Crown Landing, a river port under the peak. Nobody else gets through until Act III. [The Spine runs
+    east to west, with Brightcoast and the Greenwild at its two ends, and the Pinnacle's port on Frostmarch's north
+    coast; no river. The order's ships berth at Canalport, and the road up the Spine is the only way to the Pinnacle.]
+77. **Marrow Isle's shape.** The scripts put the jetty, Tully, the Kestrel, Cidrick's yard and later the Wayfarer 'in
+    the cove'. The beacon is on the eastern headland, the Wayfarer's cave is under the north cliffs, and Corvin lands
+    in the east caves while the marines search the north ones. But Stonehollow's room has no shore at all. Tully
+    stands at its top edge by the Vault road, and its south road walks into another game's town. Recommended: Marrow
+    Isle is a cliff-ringed highland island in the east Calm, close to the storm. Its one harbour is the cove on the
+    south-east, a new room at the bottom of Stonehollow's south road. The jetty, Tully, the moored ship and Cidrick's
+    yard are there. The beacon stands on the headland at the cove's mouth. The sea caves open on the east coast just
+    north of it, inside a reef lagoon. The Wayfarer's cave opens under the north cliffs below the Vault. The west road
+    leads to the highlands, lakes and quarries. [The same island, but the cove is added to Stonehollow's own room,
+    making one bigger room instead of two; the cove on the north shore beside the Wayfarer's cave, with the jetty next
+    to the Vault road where Tully stands today.]
+78. **Where the sky and undersea layers sit.** The Cloudreach (above) and the Deep Shelf (below) are each about a
+    quarter of the Wide (decided 14 Oct). Nothing says which part of the world each one covers. The clues: the
+    Stormspire stands north, above the clouds. The Skyspout in the broken storm leads up to the Cloudreach. Wynn fell
+    from it into the sea off Eastwater. The Deep Shelf lies under the Silverdeep whirl in the south-east,
+    Pearlhollow's divers pass under the storm, and the Undertow tunnel runs under the Spine. Recommended: Each layer
+    is its own map, drawn on the same grid as the world, so a spot in the Cloudreach is straight above the same spot
+    on the sea. The Cloudreach hangs over the north and north-east: the Stormspire, the Skyspout and the sea where
+    Wynn fell. The Deep Shelf lies under the south and south-east: Silverdeep, Coralreach and Pearlhollow, and the sea
+    floor under the storm. The Undertow tunnel runs from its north edge under the Calm to the Spine. Going up or down
+    always puts you at the matching spot. [Free-floating maps that don't line up with the world below, entered and
+    left only at their set gateways; the Cloudreach as a thin band of sky over the whole outer sea, and the Deep Shelf
+    as a band under the whole storm ring.]
+
+**World map: how it works and looks (24 Oct)**
+
+79. **What keeps you out in Act I.** Once the Calm can be sailed, nothing yet stops the Kestrel sailing to Embral or
+    Bastion Rock (both Crew 2's places), to Lantern Reef before Vesper is hired, or into the Galeway. Hushwater and
+    Twin Bells are built after the demo. The rule is that only puzzles, story and strong monsters block a route, with
+    no invisible walls. Recommended: Each is closed by something you can see, with a line. The Galeway is a storm wall
+    that turns the ship back. Lantern Reef's fog turns you back until Vesper pilots. Tidewarden cutters ring Embral
+    after the fire. Bastion Rock's sea-gate turns away ships without orders. Tortell's isle sits behind a reef only a
+    Rimborn pilot can thread. Hushwater and Twin Bells show their landings closed, in their own voice, until they are
+    built. [An invisible edge around each closed place, with Tully's line; leave every closed place off the demo's map
+    as open sea, and add each one when it opens.]
+80. **Sailing back to places you know.** Today the Kestrel's deckhand sails you to any place the story has opened, at
+    once. With a real sea to sail, the Chart already has 'Sail here (from a helm or deckhand only)'. Still undecided:
+    whether that stays as a shortcut, and for which places. Teleport doesn't come until mission 19. Recommended: Sail
+    here takes you to any harbour you have already visited, from the helm or from Tully, with a short fade and the
+    ship arriving at the jetty. First visits are always sailed. The inn's Home stays as decided. [No shortcut. You
+    always sail, until Teleport; the shortcut lists every place the story has opened, visited or not, as the Kestrel's
+    list does today.]
+81. **The voyage lines in the scripts.** The scripts tell fixed voyages: 'two days west across the Calm' to the
+    Greenwild, 'a day and a night north' to Lantern Reef. They were written to read the same from wherever the Kestrel
+    lies. On a sea you sail yourself, the trip depends on where you start. The Greenwild is round the far side of
+    Meridia from both Canalport and Marrow Isle, so 'two days' can't be true from both. Recommended: Drop the day
+    counts from the voyages you sail yourself. Each first arrival keeps its scene, which opens on the place, not the
+    trip ('The river mouth at last, and the great tree over it'). The story moves you don't steer keep their
+    narration: mission 3's first voyage, every skiff run and the storm crossings. [Keep the narration as written and
+    play it as a short scene on the first arrival only, whatever the route; write a version of each voyage line for
+    each harbour you can leave from.]
+82. **How big the world is.** The map's size sets every travel time. Today the ship sails 75 pixels a second, and the
+    hero runs 45 on the world map. The Lost Age's world is 8,192 pixels square, and Golden Sun 1's about half that.
+    The phone shows about 373 by 160 pixels of world folded, and 240 by 216 unfolded. Recommended: The Lost Age's
+    size, 8,192 pixels square. Meridia is about 2,200 pixels across (under a minute's run). The Calm is a ring about
+    800 pixels wide around it, then the storm, the Wide and the falls. A first visit by sea takes about 15 seconds
+    from home to Canalport, 16 from the Eldergrove to Lantern Reef, and about a minute round to the Greenwild (two
+    thirds of that holding run). [Golden Sun 1's size, about 4,096 pixels square, with every trip about half as long
+    and a smaller-feeling world; a bigger world, about 12,000 pixels square, with every trip half as long again and
+    more open sea between places.]
+83. **Battles at sea.** Today the ship never meets a battle. The Lost Age has sea battles by region. You asked for
+    places to grind for EXP and money, and the Calm is the demo's widest open space. Recommended: Sea battles by
+    region, at about half the rate on land. Monsters and sea Pokémon are matched to that stretch of water. There are
+    none inside harbours, in the reef lagoon, or in the Reach's channels near Canalport. [No battles at sea, so
+    sailing stays quick; only wild Pokémon at sea, for catching, with no monsters.]
+84. **Moving between rooms.** You said the moves between scenes and their backgrounds are all over the place. Today a
+    room change is an instant cut, while story scenes fade. Some rooms arrive on the wrong side: you leave the forest
+    going south and come into the tree's heart walking north. Six rooms are narrower than the folded screen and show
+    grey around them. Neighbouring rooms can switch art style at the door, because each was cut from a different
+    Golden Sun town. Recommended: A short fade on every room change, arriving on the matching side and facing the way
+    you were going. A room narrower than the screen sits on a backdrop that fits the place (sea round a ship, rock in
+    a cave, fog at the reef) instead of grey. Every room's edge is a wall you can see, and every road in the art leads
+    to a real exit. The rooms of one place are cut from one Golden Sun area where possible. [The same fades and
+    arrivals, but re-cut every narrow room so it fills the screen, with no backdrops; keep instant cuts and only fix
+    the arrivals and the grey.]
+85. **How the whole world map is drawn.** The demo's Calm was decided as pieces of The Lost Age's world map (demo 27).
+    The rest of the world needs deciding too. Golden Sun has coasts, islands, mountains and a white edge ring with
+    falls, but nothing like a storm ring, fog banks, calm belts or a cloud sea. Your note: where nothing fits, we
+    generate what we need. Recommended: the whole world the same way as the Calm: our own layout data (what every
+    square is and where every place sits) with The Lost Age's pieces on top where they fit, cut along open sea and
+    kept on your machine, and our own generated tiles for everything Golden Sun lacks (the storm ring, the fog, the
+    Stillwaters, the reef lagoon), drawn to Golden Sun's grid and palette so no join shows. [A plain coloured map
+    drawn from our layout data now, for testing, dressed in Golden Sun pieces and generated tiles later; generate the
+    whole world map ourselves now, in our own style, with no Golden Sun pieces.]
+
+**World map: places to explore (24 Oct)**
+
+86. **How much optional content the demo has.** You asked for areas to explore and grind, treasure, eggs and side
+    quests, not just the story. Act I's story rooms already have optional pockets in the scripts: chests, dig spots,
+    the Hive, Mimikyu, the drowned orchestra. Demo decision 19 (18 Oct) leaves Hushwater, Twin Bells, Dustplain and
+    Frostmarch until after the demo. Recommended: The scripted pockets, plus six small new optional places. From
+    mission 4: a reed islet in Saltmarsh Reach and Cockle Cay south of Marrow Isle. After mission 10: Marrow's
+    highlands with Dunstan's quarry and the two-room North Shore Caves, and Tortell's isle in the reef lagoon. Each
+    has a grinding spot near an inn, a chest or a dig spot, a hidden Kin and a home for an egg. [All of that, and
+    Hushwater and Twin Bells as well, reopening demo decision 19; only the scripted pockets in the story rooms, with
+    every new optional place after the demo.]
+87. **When Marrow Isle's west road opens.** A spring rockslide shuts Stonehollow's west gate, the road to the island's
+    highlands, lakes and quarries. Progression decision 4 keeps it shut until our world map exists. In mission 3
+    Dunstan jokes that clearing it will take forty years. In mission 10 he has 'forty Rimborn after quarry work, and
+    forty picks'. Recommended: It opens in mission 10, when the forty Rimborn clear it. The highlands become the
+    demo's after-mission-10 area, with tougher wild battles (about level 9 to 13) for the free play before the end
+    card. [At the start of Act I (after mission 4), with Dunstan's mission 3 joke changed; in Act II, after the demo.]
+88. **A contract board for Crew 1.** Demo decision 11 gives the demo four to six hand-written contracts on the
+    Tradewind Bazaar's board from mission 8. Only Crew 2 goes there, and the Bazaar can't be reached again in the
+    demo. So Crew 1 has no board, and no jobs point at the optional places. Recommended: The Rimborn bring a Freeport
+    Guild board to The Quiet Stone in mission 10. It has four to six hand-written Act I contracts that send you to the
+    optional places: a hunt in the highlands, a catch for Nell, a survey of Tortell's isle, a dig on Cockle Cay. [No
+    board for Crew 1 in the demo, as decided; the board, plus generated contracts in the demo as well.]
+89. **The three isles that sink.** At the Breaking the Calm rises and three small isles drown (decided 14 Oct). None
+    is named or placed yet. Nothing in the game may be lost for good, apart from Fallhaven. Recommended: Three small
+    Act I islets you can visit before the Breaking: Cockle Cay (east), Sandmere (south-west) and Driftholm (north).
+    They sink at the Breaking. Their chests and Kin come back as Dive spots in Act II, so nothing is lost and the
+    change is felt. [Three bare rocks with nothing on them, so the change costs the player nothing; three of the reed
+    islets in Saltmarsh Reach, so all the flood's damage is around Canalport.]
+
+**World map: scenes and generated art (24 Oct)**
+
+90. **Towns as several scenes.** Your note: towns and cities have several local scenes with many entrances (doors,
+    steps down to a basement or cave), as big as the story needs. Today every place is one outdoor room, inns and
+    shops are people in the street, and four exits lead somewhere that doesn't come back. The world map page lists,
+    for every place, its scenes and every entrance (§3). Recommended: as the page lists them: a village is one or two
+    outdoor scenes and a city three or more (a district each), every named inn, shop, house and hall is its own
+    interior you walk into, cellars, caves and high towns are scenes with their stairs, and every entrance is listed
+    once and runs both ways. The demo builds the interiors its missions walk into first (16), the optional ones (18)
+    as time allows. [Interiors only for the inns and shops, with houses and halls kept as people in the street; keep
+    one outdoor scene per place, with inns and shops as menus over the street, and add interiors after the demo.]
+91. **What we generate ourselves.** Your note: if something does not work for the map and we have no alternative,
+    generate it to fit our needs. Golden Sun gives us coasts, towns, caves and many interiors, but nothing like a
+    storm ring, fog, calm belts, a cloud sea, a reef lagoon, a hatchery or a sluice house. Our own art may go in the
+    public repo; Golden Sun's never does. Recommended: generate only where Golden Sun has nothing that fits, drawn to
+    its rules (16-pixel cells, its palette depth, its light from the top-left) so a generated tile sits next to a
+    Golden Sun tile with no join showing, checked on the phone, and kept in the engine's own assets folder. [Generate
+    everything new from now on in our own style, and plan to redraw the Golden Sun pieces to match later (the art
+    pass's redraw, brought forward); never generate: use the closest Golden Sun piece even where it does not fit, and
+    leave the storm, fog and calm belts as plain colour.]
+
+**World map: the hidden town (24 Oct)**
+
+92. **The adult-only hidden town.** Your note: one town that only adult mode can reach, a hidden area hinted at in
+    rumours. The world map page places it as Nightmarket Isle, deep in the north fog beyond Lantern Reef on a second
+    lane only Vesper knows, with rumours in every inn and on the Bounty Board. Outside adult mode the fog stays solid
+    and the island is not on the map. Everyone there is an adult by canon, under adult-mode.md's rules, and adult mode
+    itself is built after the demo (open 32). Recommended: as placed: Nightmarket Isle in the north fog past Lantern
+    Reef, opened in adult mode by asking Vesper at the helm once she is hired (mission 6), hinted by one rumour line
+    in each inn and one on the Bounty Board, with its own inn, shop and houses as scenes and ordinary rewards too
+    (rare stock, a dig spot, a Kin find, contracts). [In the Wide instead: a fog island in Westgloam reached in Act
+    II, so the demo's sea stays as it is; behind the Churn in the south Calm, opened with Whirlpool in Act II, with
+    the rumours pointing at the whirlpool.]
