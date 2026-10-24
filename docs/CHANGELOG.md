@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **New for your answer (story 13 to 39):** 27 easter egg and spoof questions in five groups: the rules (how close,
+  how many, how obvious, rewards, a full set), new spoof cameos (each with a place in Act I or II), small nods,
+  themed puzzles, and personal and seasonal eggs (a makers' cabin, a cameo of you, holidays). Ask for any others
+  in question 27's note box.
 - **New for your answer (open 52 to 52):** The One Piece GBA sprite sheets.
 - **Decided (you, 24 Oct):** open question 51, the DS-style Pokémon sprite pack kept as a backup for missing or broken
   expansion sprites (most of the 171 without one are alternate forms the pack lacks; it fills a few, such as Genesect).

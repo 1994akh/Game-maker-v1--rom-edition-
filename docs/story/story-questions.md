@@ -83,3 +83,125 @@ Recommended first. The alternatives are in brackets.
     night) advanced by walking and by resting, never by the phone's real time; rooms tint by phase, Kin habitats and
     the night-only beats read it, and time-of-day evolutions (Rockruff, Eevee's Espeon and Umbreon, Cosmoem) use it
     instead of the stone routes. [Real time from the phone's clock; a day/night switch at inns only.]
+
+**Easter eggs: the rules (24 Oct)**
+
+13. **How close the spoofs sit.** story.md §9a gives every spoof an original name and look, bends every catchphrase
+    and copies no art, music or logo. It was written to the brief's rule against using these franchises' names. The
+    game is for personal use, and your One Piece upload (open 52) raises whether to loosen it. Recommended: keep the
+    original names and bent lines, since spotting them is the joke, but let a cameo's look be built from the source's
+    own art, edited and recoloured, where that makes the egg land (Maize's battered sun hat and red vest). [Keep §9a
+    as written: original looks and no copied art; drop the rule for personal use: real names, real quotes and real
+    art.]
+14. **How many eggs.** Act I has about one placed egg per mission now (ten in all, none in mission 9, the loss).
+    Recommended: two or three per mission in Act I: one placed cameo or puzzle plus one or two small nods (a line, a
+    poster, a statue), about 25 in the demo, still none in mission 9. [Keep about one per mission; as many as fit,
+    with every town holding a room full of nods.]
+15. **How obvious they are.** §9a's aim is 'obvious if you know it, invisible if you don't'. Nothing in the game
+    points at an egg today. Recommended: keep that aim with no pointers; the Farer's Log gets a Curios tab that lists
+    an egg only once you've found it, with a count per act. [Hint at them too: one rumour per region on the Bounty
+    Board; no record at all.]
+16. **What an egg gives you.** The placed eggs give nothing yet beyond the scene. Recommended: small flavour rewards:
+    a keepsake for the Log, a few coins, now and then a cosmetic for the creator kit (a hat, a scarf); never stat
+    items or anything the main path needs. [Real rewards for the bigger egg quests (rare Pokémon, Psynergy items); no
+    rewards: the joke is the reward.]
+17. **Finding them all.** A complete-set reward would give the Curios tab a goal. Recommended: every Curio in an act
+    adds a gag card to the end credits (the cameo cast waving from Maize's ship), and all of them in the game opens a
+    postgame party where every cameo turns up. [Only the postgame party; nothing for a full set.]
+
+**New spoof cameos (24 Oct)**
+
+18. **Two plumber brothers in Canalport.** Canalport is a canal city, so Mario's plumbers fit it well. Red cap and
+    green cap, big moustaches, forever fixing the drains, and the younger one is scared of everything. Recommended:
+    add them in mission 3, unblocking a canal drain with a bent 'Here we flow!'; their Act II quest is a drain-pipe
+    maze where a pipe sends you across the city. [Act II only; leave them out.]
+19. **A knight who praises the sun.** A Dark Souls nod suits a game called Golden Sun: a big knight in a sun tabard
+    who raises both arms to the sky and is 'searching for a sun of his own'. Recommended: add him at the Forgeheart in
+    mission 4, doing the arms-up pose with the bent cheer 'Glory to the light!'; in Act II he joins one hard fight as
+    a guest, then leaves a sun-crest shield. [One line in passing, no fight; leave him out.]
+20. **A big grey forest spirit at the waystone.** A Studio Ghibli (Totoro) nod for the Eldergrove: a Snorlax waiting
+    in the rain at a waystone, plus small white Pokémon that rattle their heads in the trees. Recommended: add it in
+    mission 5: lend the Snorlax a leaf umbrella and it gives you an acorn keepsake, then rumbles off into the mist. [A
+    painted sign only; leave it out.]
+21. **The cabbage merchant.** Avatar's best running gag: a merchant whose cart gets wrecked in every chase and every
+    fight, wherever he sets up. Recommended: add him across Act I with turnips instead of cabbages ('My turnips!'):
+    Canalport in mission 3, the Tradewind Bazaar in mission 8, and in Fallhaven's fall in mission 9 his cart is the
+    one thing that survives. [Act II on only; leave him out.]
+22. **A captain who keeps losing his ship.** Pirates of the Caribbean suits a sea game: a swaggering, swaying captain
+    whose ship is always being stolen and who is always out of grog. Recommended: add him at the Tradewind Bazaar in
+    mission 8, trying to buy back his own stolen ship; bent line 'Why is the grog always gone?'; he turns up in Act II
+    with a different stolen ship each time. [Act II only; leave him out.]
+23. **The healer's identical cousins.** The Pokémon anime's Nurse Joy and Officer Jenny gag: every town's healer is
+    the same face, each a cousin of the last. Recommended: every restoration point's keeper is one of an endless
+    family of identical cousins who mention the cousin in the last town you visited; cheap to build, since they share
+    one look. [Only the healers in Act I's towns; leave it out.]
+24. **A green-capped swordsman who smashes pots.** Zelda: a silent lad in green who cuts every bush and smashes every
+    pot in sight, including yours. Recommended: add him in Fallhaven in mission 2, having smashed the pots in a house,
+    with a bent 'It's dangerous to wander alone. Take a Potion!' from the owner; his Act II quest gathers heart-shaped
+    Heart Scales. [Act II only; leave him out.]
+25. **An armoured bounty hunter.** Metroid's hunter fits the bounty system (story.md §9b): a silent figure in a full
+    suit who beats you to the best notices. Recommended: add her from the Bounty Board's start in mission 8, taking
+    the top notice before you can; in Act II you race her for one named bounty, and she takes off the helmet at the
+    end. [Act II only; leave her out.]
+26. **A peg-legged captain hunting a white Wailord.** Moby Dick, a sea classic: an old captain, half mad, chasing the
+    white whale that took his leg. Recommended: an Act II sea quest that ends with sparing the whale, not killing it;
+    in Act I he's only a rumour in a Canalport tavern. [A full quest in Act I; leave him out.]
+27. **Spoofs you'd like that aren't here.** In now: One Piece (Maize, Torro, Fibber, Bonewhistle), Pokémon's anime
+    (the Trio, Gary), Star Trek (Tarquin, Sorak, the Steward), Final Fantasy (Galgamash, Cidrick, the Doduo races, the
+    casino, the Gem Sentinels), and nods to Golden Sun and Pokémon. Use the note box to ask for any franchise, show or
+    character. Recommended: I add a short list from your note: Dragon Ball (a fighter always training at Ironfist
+    Arena), Monty Python (a bridge keeper's three questions), Indiana Jones (a rolling boulder in a ruin) and Star
+    Wars (a Mind Read 'these aren't the Pokémon you're looking for' on a guard). [Only the ones you name in the note;
+    no more spoofs beyond those in the questions above.]
+
+**Small nods and in-jokes (24 Oct)**
+
+28. **A wild Ditto that draws near.** Dragon Quest's slime: a Ditto shaped like a smiling blue drop, whose battle
+    opens 'A wild Ditto draws near! Command?'. Recommended: a rare encounter in one Act I cave (the sea caves), with
+    the line and a jingle-free fight. [Make it a common sight wherever Ditto lives; leave it out.]
+29. **A fairy that says 'Hey! Look!'.** Zelda's Navi: a Ribombee that buzzes around the hero when the player stands
+    still too long. Recommended: after a minute standing still on the field, a Ribombee flies in with 'Hey! Look!' and
+    points to the objective; it can be turned off in Settings. [Only once, as a joke, in one room; leave it out.]
+30. **The four warriors' statue.** §9a has a statue of four warriors (Golden Sun's heroes) at an old lighthouse, not
+    yet placed. Act I's main path has no lighthouse. Recommended: place it at the lighthouse-court in Northreach
+    (mission 13, Act II), with a plaque naming them only by their elements (Earth, Fire, Wind, Water). [The lighthouse
+    on Twin Bells, an Act I side isle; a painting in Fallhaven's hall instead, so the demo has it.]
+31. **Nods to Unbound and to the GBA.** The game joins Pokémon Unbound and Golden Sun, both GBA games. Recommended: a
+    traveller from a far-off land called Borrius who calls everything 'unbound', a Game Boy Advance on a shelf in the
+    hero's house ('a small grey box that plays songs'), and Golden Sun's Djinn as a children's story the elders tell.
+    [Only the Borrius traveller; no nods to the source games.]
+32. **A secret on the inner screen.** The game is made for the Fold 7, whose inner screen shows a taller view than the
+    cover screen. Recommended: one egg per act that you can see only unfolded: in Act I, words carved high on Bastion
+    Rock's sea-gate in mission 7 that the cover screen's view never reaches. [A secret that shows only on the cover
+    screen too; leave it out.]
+33. **A title-screen code.** The Konami code (up, up, down, down, left, right, left, right, B, A) is gaming's oldest
+    egg. Recommended: entering it on the title screen plays a chime and unlocks a gold outfit in the hero creator.
+    [Unlock a hard mode instead; leave it out.]
+
+**Themed puzzles (24 Oct)**
+
+34. **The bridge keeper's three questions.** Monty Python's bridge of death, bent: a keeper who asks three questions
+    before you may cross. Recommended: on the first long bridge of Act II; the answers come from things said earlier
+    in the game, and a wrong one tips you into the river below to wash up at the start, no harm done. [In the demo, as
+    the gatekeeper of the Forgeheart in mission 4; leave it out.]
+35. **A rolling boulder.** Indiana Jones: grab the idol, run from the boulder. Recommended: an Act II ruin's run,
+    where Move or Lift opens a side gap just in time; the idol turns out to be a Farer paperweight. [In the demo, in
+    the Vault's halls; leave it out.]
+36. **A tea-and-proverbs grandfather.** Avatar's Uncle Iroh: a retired general who runs a tea stall and answers
+    everything with a proverb (Tarquin already orders Sunleaf tea). Recommended: an Act II tea stall in Canalport with
+    a proverb puzzle: match each proverb to the right person's problem in town. [A single scene in Act I; leave him
+    out.]
+
+**Personal and seasonal eggs (24 Oct)**
+
+37. **A makers' cabin.** Every maker is credited for the end-credits scroll (credits.md). A hidden room could hold
+    them too. Recommended: a secret door in the hero's attic in Stonehollow leads to a cabin whose shelves hold every
+    maker's name as a book, with a desk note thanking them; open from mission 1. [Open only after the demo ends; no
+    secret room.]
+38. **A cameo of you.** The game is yours, so you could appear in it. Recommended: a traveller NPC you describe (look,
+    name, a line or two) who sits in the makers' cabin and, later, on Maize's ship at the end; tell me the details in
+    the note. [A painting of you only; no cameo.]
+39. **Holidays on the real calendar.** The clock never reads the phone's time (story decision 12). Holiday dressing
+    would read only the date, not the time of day. Recommended: a few dressings by date with no effect on play:
+    pumpkins and costumes on townsfolk around 31 Oct, snow and lights from 20 Dec to 1 Jan, and a cake in the hero's
+    house on a birthday you give me. [Holidays only, no birthday; none: keep the phone's calendar out of the game.]
