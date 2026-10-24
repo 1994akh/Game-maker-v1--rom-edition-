@@ -282,3 +282,21 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     alike. Recommended: keep it as a backup, used only for a species whose expansion sprite is missing or broken,
     credited as the DS-style 64x64 Pokémon Sprite Resource's contributors. [Use it instead of the expansion's sprites
     for Generations I to V; leave it out.]
+
+**The One Piece sheets (24 Oct)**
+
+52. **The One Piece GBA sprite sheets.** Your 24 Oct upload: 34 sheets from the 2005 One Piece game for the GBA,
+    ripped by Paddy and Lemon for The Spriters Resource. They are side-view brawler sprites about 40 px tall with
+    idle, walk, attack and fall rows. They cover Luffy, Zoro, Usopp, Nami and Sanji; the villains Buggy, Arlong, Kuro,
+    Don Krieg, Smoker, Alvida, Morgan and others, five of them with a face portrait; nine plain pirates and Navy
+    guards; and a Collections sheet of item icons (meat on the bone, a Devil Fruit, swords, Jolly Roger flags). Our
+    people are top-down LPC sprites in the field and LPC again in battle (art part B3), so none of these can walk
+    around as they are. The story's rule for the spoof cameos (story.md §9a) also asks for an original look with no
+    copied art. There is no Brook sheet, so Maestro Bonewhistle has nothing here. Recommended: use them as a parts
+    bin: the plain pirates and Navy guards, recoloured, as the battle sprites of the bandit and pirate groups in
+    bounties and Clear jobs from Act II (they have the idle, attack and fall rows a battle needs); the Collections
+    icons as items for the eggs (the meat for Maize's feast, the flags for the bounty posters and the Wayfarer's
+    flag); and the crew and named villains as reference only, for drawing the spoofs' own LPC looks, so §9a holds.
+    Credited to Paddy and Lemon of The Spriters Resource. [Use the crew's sprites directly for the spoofs (Maize as
+    Luffy, Torro as Zoro, Fibber as Usopp) in battles and scenes, setting §9a's art rule aside since the game is for
+    personal use; reference only: nothing from the sheets goes into the game; leave them out.]
