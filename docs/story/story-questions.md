@@ -248,3 +248,37 @@ Recommended first. The alternatives are in brackets.
     repo is public, so a date written there would be public too. Recommended: a Birthday row in Settings (month and
     day) that stays only in the phone's settings file, so the date never sits in the repo. [Write the date in the note
     box and put it in the game's data; no birthday cake.]
+
+**Dragon Ball eggs (24 Oct)**
+
+46. **The seven wishing orbs.** You asked for Dragon Ball eggs (24 Oct). Vedge, the fighter reading power through a
+    cracked lens, is already in at Ironfist Arena. The series' heart is the hunt for seven orbs that summon a dragon
+    for a wish, and Rayquaza is Pokémon's green sky dragon. Recommended: seven orange star orbs, one per region from
+    Act II, with one hidden on Marrow Isle in Act I as a teaser; all seven summon Rayquaza, who grants one wish from a
+    short list (a rare Pokémon, a stack of Zen beans, or the gag wish: a fine pair of socks) and then scatters them
+    again. [The full hunt inside the demo, on Act I's islands; leave it out.]
+47. **The turtle hermit.** Dragon Ball's old master lives in a little pink house on a tiny island with his turtle, and
+    trains heroes in a famous wave attack. Recommended: a tiny isle in the Calm, reached on the Wayfarer's first
+    voyage after mission 10: an old hermit in sunglasses with a Blastoise, who teaches one partner the 'Tortoise Wave'
+    (a renamed Water move) and reads his newspaper upside down. [Act II only; leave him out.]
+48. **Zen beans.** Dragon Ball's senzu beans heal everything at once and are always in short supply. Recommended: a
+    rare item that fully restores one Adept's HP and PP, grown by a Persian at the top of a tall tower in Act II; at
+    most five held at once, and one waits in a chest in Act I. [A shop item, priced high; leave them out.]
+49. **The cloud only the pure can ride.** The Flying Nimbus carries only the pure of heart; everyone else falls
+    straight through. Recommended: an Act II scene where an Altaria offers rides on its cloud wings: the hero rides,
+    Corvin falls straight through, and Vedge refuses to try. [Make it a fast-travel ride from Act II; leave it out.]
+50. **The fusion dance.** Two fighters fuse by a silly synchronised dance, and getting it wrong makes a fat or scrawny
+    fusion. Recommended: a pair at Ironfist Arena who dance before their double battle, get it wrong every time and
+    fight anyway; when you beat them, they blame each other's left foot. [A one-line gag only; leave it out.]
+51. **The showman who takes the credit.** Dragon Ball's world champion is a loud showman who claims every victory the
+    heroes win, and the world believes him. Recommended: Ironfist Arena's champion in Act II, who claims each of the
+    crew's big wins with posters to prove it; in Act I his posters already hang in Canalport after the sluice beast in
+    mission 3. [Start him in person in mission 3, claiming the sluice beast; leave him out.]
+52. **Gold spiky hair.** Dragon Ball's golden transformation: the hair stands up and turns gold. You chose a
+    title-screen code that unlocks a gold outfit (story question 33). Recommended: the code's gold outfit comes with
+    spiky gold hair in the hero creator. [Also a gold glow on an Adept's hair when their partner is unleashed (Act
+    II); keep the code's outfit as it is.]
+53. **The fighter always knocked out first.** A running Dragon Ball joke: one proud fighter is always the first to
+    fall, found lying in a little crater. Recommended: a cocky fighter at Ironfist Arena who loses his opening bout,
+    and afterwards turns up lying in a crater wherever something big has just happened in Act II. [One appearance
+    only; leave him out.]

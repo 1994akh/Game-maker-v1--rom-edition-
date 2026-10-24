@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **New for your answer (story 46 to 53):** Dragon Ball eggs, as you asked: the seven wishing orbs (Rayquaza), the
+  turtle hermit, Zen beans, the cloud only the pure can ride, the fusion dance, the showman who takes the credit,
+  gold spiky hair and the fighter always knocked out first.
 - **Decided (you, 24 Oct):** the room music, open 53 to 64, all as recommended. Stonehollow and the hero's house
   move to gs1 2 (Vale's theme); Canalport gs1 10 (Tolbi), the Tradewind Bazaar gs1 6 (Kalay), Fallhaven gs2 15
   (Garoh), the Forgeheart's halls gs1 5 (the temples) and sanctum gs2 27 (Magma Rock), the Greenwild gs1 21 and the
