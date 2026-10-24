@@ -5,6 +5,14 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Decided (you, 24 Oct):** the world map, open questions 74 to 92, all as recommended. The Wide's quarters sit on the
+  compass points, the rim bites deep in the east with Fallhaven at the bite's end, the Spine runs north to south with
+  the Crownwater to Canalport, Marrow Isle gets its cove, the layers sit on the world's grid, closed places are seen
+  and refused with a line, Sail here reaches visited harbours, the voyage day counts go, the world is The Lost Age's
+  size, sea battles at half rate, every room change fades and arrives on the matching side, the map is The Lost Age's
+  pieces plus our generated tiles, six optional places in the demo, the west road opens at mission 10, a Rimborn board
+  at The Quiet Stone, three islets that sink, towns as several scenes with interiors, generated art only where Golden
+  Sun has nothing, and Nightmarket Isle as the adult-only hidden town. docs/design/world-map.md is now decided.
 - **Designed (24 Oct, Fable):** the world map, docs/design/world-map.md, with a schematic picture drawn from scratch
   (docs/design/world-map/). It settles the whole world's layout (rings around Meridia, the Wide's four quarters on the
   compass, the bite in the east rim with Fallhaven at its end), Act I's places and how you move between them, every
