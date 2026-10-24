@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **New for your answer (open 67 to 73):** how movement and puzzles feel, ahead of the work that stops the hero
+  teleporting: climbing vines, hopping Frost pillars, getting on and off the water, how a cast looks, puzzles that
+  reset, ledges you jump down, and whether the check windows walk the hero.
 - **New for your answer (open 65 and 66):** How the Lantern Reef wreck looks; When to rebuild Stonehollow's
   collision.
 - **Decided (you, 24 Oct):** story questions 40 to 53, all as recommended and written into story.md §9a: four more
