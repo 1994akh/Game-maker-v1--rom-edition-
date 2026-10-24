@@ -675,11 +675,21 @@ The game's influences show up as easter eggs: some small (a line of dialogue, a 
 whole side quest). The aim is "obvious if you know it, invisible if you don't".
 
 **Copyright-friendly rules** (they also apply to the brief's rule against using these franchises' names):
-- Every spoof has an **original name and look**. It's recognisable by role, silhouette, personality and running
-  gags, not by a copied name, costume or logo.
+- Every spoof has an **original name**. It's recognisable by role, silhouette, personality and running gags.
 - **Catchphrases are bent, never quoted.** For example, "Make it flow", not the original line.
-- No copied music, art or logos.
+- **Looks** (decided 24 Oct, story question 13): a cameo's look may be built from the source's own art, edited and
+  recoloured, where that makes the egg land (Maize's battered sun hat and red vest). No copied music or logos.
 - Pokémon species names are fine (already decided).
+
+**How many, how found, what they give** (decided 24 Oct, story questions 14-17):
+- Two or three eggs per Act I mission: one placed cameo or puzzle plus one or two small nods, about 25 in the demo,
+  still none in mission 9.
+- No pointers in the world. The Farer's Log gets a **Curios** tab that lists an egg once found, with a count per act,
+  and the Bounty Board carries one rumour per region.
+- Small flavour rewards only: a keepsake for the Log, a few coins, now and then a cosmetic for the creator kit.
+  Never stat items or anything the main path needs.
+- Every Curio in an act adds a gag card to the end credits (the cameo cast waving from Maize's ship); all of them
+  opens a postgame party where every cameo turns up.
 
 ### Recurring spoof cameos
 
@@ -699,6 +709,15 @@ gag.
 | **Galgamash**, a wandering swordsman collecting legendary blades | Final Fantasy's recurring swordsman | Every blade he collects is a fake; brags, then flees | Four duels across the Wide | **"The Big Bridge"**: the final duel on a long bridge, and he gives you the one real sword |
 | **Cidrick**, the shipwright | Final Fantasy's recurring engineer | Every FF game has one; he insists his family built every ship ever | Marrow Isle shipyard (mission 10 on) | Upgrades the Wayfarer; his quest builds the airship's figurehead |
 | **Gary Rivalson**, the hero's smug childhood rival from next door | Pokémon's first rival | "Smell ya later" (bent); he's always one step ahead and never in danger | Stonehollow, then a few towns | A joke subplot: he's convinced *he* is the main character |
+| **Marlo and Lugo Spigot**, plumber brothers, red cap and green | Mario's plumbers | Forever fixing the drains; Lugo is scared of everything; "Here we flow!" | Canalport (mission 3, unblocking a canal drain), then Act II | **"Down the Drain"** (Act II): a drain-pipe maze where a pipe sends you across the city |
+| **Turvey**, the turnip seller | Avatar's cabbage merchant | His cart is wrecked in every chase and every fight; "My turnips!" | Canalport (mission 3), the Tradewind Bazaar (mission 8), and in Fallhaven's fall (mission 9) his cart is the one thing that survives; then every act | None: the gag is the payoff |
+| **Captain Jory Swallow**, swaggering and swaying | Pirates of the Caribbean's captain | His ship is always stolen; "Why is the grog always gone?" | The Tradewind Bazaar (mission 8), buying back his own stolen ship; Act II with a different stolen ship each time | To be written with Act II |
+| **The Bliss cousins**, every restoration point's keeper | The Pokémon anime's Nurse Joy | Identical faces; each mentions the cousin in the last town you visited | Every restoration point | None: one shared look |
+| **Linden**, a silent lad in green | Zelda's hero | Cuts every bush and smashes every pot, yours included; the owner: "It's dangerous to wander alone. Take a Potion!" | Fallhaven (mission 2), then Act II | **"Heart Scales"** (Act II): gather heart-shaped Heart Scales |
+| **Sabra Arn**, a silent hunter in a full suit | Metroid's bounty hunter | Takes the best notice before you can | The Bounty Board from mission 8 | **"The Race"** (Act II): race her for one named bounty; she takes off the helmet at the end |
+| **Captain Obed Hake**, peg-legged and half mad | Moby Dick's captain | Chasing the white Wailord that took his leg | A rumour in a Canalport tavern (Act I); Act II at sea | **"The White Wailord"** (Act II): it ends with sparing the whale |
+| **Vedge**, a fighter always training | Dragon Ball's rival | Reads everyone's power through a cracked lens: "It's past nine hundred!" | Ironfist Arena (Act II) | To be written with Act II |
+| **Uncle Ashby**, a retired general with a tea stall | Avatar's Uncle Iroh | Answers everything with a proverb | Canalport's tea stall (Act II) | **"Proverbs"** (Act II): match each proverb to the right person's problem in town |
 
 ### Themed puzzles
 
@@ -730,6 +749,11 @@ gag.
 6. **"The Dreamdeck":** a Farer room in the Stormspire that rebuilds earlier places from your Log. It's a puzzle
    room and, in the postgame, a boss-rush arena.
 
+**More themed puzzles (decided 24 Oct)**
+- **"The Idol Run"** (Indiana Jones, Act II): grab the idol in a ruin and run from the boulder; Move or Lift opens a
+  side gap just in time, and the idol is a Farer paperweight.
+- Monty Python's bridge keeper was offered and left out (story question 34).
+
 **Final Fantasy and other nods (smaller)**
 - **Final Fantasy:**
   - A Doduo ranch with racing, **the Dodo Derby**: a playable mini-game from Act II (decided 14 Oct).
@@ -751,17 +775,45 @@ gag.
   - A suspicious Magikarp salesman.
   - A glitchy "MissingFall" Porygon at the world's edge.
   - A Bidoof everyone loves.
+  - A big grey forest spirit (Studio Ghibli): a Snorlax waiting in the rain at the Eldergrove's waystone. Lend it a
+    leaf umbrella and it gives an acorn keepsake, then rumbles off into the mist (mission 5).
+  - A wild Ditto that draws near (Dragon Quest): a rare Ditto shaped like a smiling blue drop in the sea caves,
+    whose battle opens "A wild Ditto draws near! Command?"
+- **Other nods (decided 24 Oct):**
+  - "Hey! Look!" (Zelda): after a minute standing still on the field, a Ribombee flies in and points to the
+    objective. Settings can turn it off.
+  - "These aren't the Pokémon you're after" (Star Wars): a Mind Read on a Tidewarden guard.
+  - Unbound and the GBA: a traveller from far-off Borrius who calls everything "unbound", a Game Boy Advance on a
+    shelf in the hero's house ("a small grey box that plays songs"), and Golden Sun's Djinn as a children's story.
+  - The title-screen code (Konami's): up, up, down, down, left, right, left, right, B, A plays a chime and unlocks a
+    gold outfit in the hero creator.
+  - The four warriors' statue stands at the lighthouse-court in Northreach (mission 13), its plaque naming them only
+    by their elements.
+- **Personal and seasonal (decided 24 Oct):**
+  - **The makers' cabin:** a secret door in the hero's attic in Stonehollow, open from mission 1, leads to a cabin
+    whose shelves hold every maker's name as a book (credits.md), with a desk note thanking them.
+  - **Your cameo:** a traveller you describe, sitting in the makers' cabin and, at the end, on Maize's ship
+    (details: story question 44).
+  - **Holidays by the real date**, with no effect on play: pumpkins and costumes on townsfolk around 31 Oct, snow
+    and lights from 20 Dec to 1 Jan, and a cake in the hero's house on your birthday (story question 45). The clock
+    itself still never reads the phone's time (story decision 12).
+- Offered and left out (24 Oct): a sun-praising knight (Dark Souls) and a secret seen only on the inner screen.
 
 ### Where the eggs land in the mission list
 
 | Mission | Egg |
 |---|---|
-| 1 | Gary Rivalson at the festival; the Mercury-blue puddle |
-| 3 | Captain Maize on the Canalport docks; the push-the-truck rumour |
-| 5 | "The Hive" |
+| 1 | Gary Rivalson at the festival; the Mercury-blue puddle; the makers' cabin; the Game Boy on the shelf |
+| 2 | Pip's fall; Linden smashing pots |
+| 3 | Captain Maize on the Canalport docks; the push-the-truck rumour; the Spigot brothers; Turvey's first cart; the white Wailord rumour |
+| 4 | The Elder (the Bidoof everyone loves) |
+| 5 | "The Hive"; the Snorlax at the waystone |
 | 6 | Maestro Bonewhistle; the lantern Litwick |
-| 8 | The Bounty Board starts; the Tumbleweed Trio's first heist |
+| 7 | Old Tarrant (the Magikarp salesman) |
+| 8 | The Bounty Board starts, with Sabra Arn; the Tumbleweed Trio's first heist; Captain Swallow; Turvey again |
+| 9 | Turvey's cart survives the fall (nothing else: the mission is the loss) |
 | 10 | Cidrick at the shipyard; "A Funeral at Sea" |
+| Any | The Bliss cousins at every restoration point; the Ditto in the sea caves; "Hey! Look!"; the title-screen code; the Borrius traveller |
 | 15 | The Glimmer Saucer; Captain Fibber |
 | 19 | The Steward; "The Unwinnable Test"; "Energize"; the Dreamdeck; Brother Sorak |
 | 21 | Maize, Tarquin and other cameo allies arrive at the Pinnacle (§11) |
