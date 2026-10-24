@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Decided (you, 24 Oct):** open questions 107 to 109, as recommended: one UI job before the mid build (the decided fonts,
+  frame, icons and prompts wired in, the text fitted, every overlap cleared at both Fold views, a before-and-after sheet
+  of every screen); pixel-styled touch controls in the frame's navy at about 40% opacity, stick bottom-left, A and B
+  bottom-right, L and R top corners, Start bottom centre, the camera keeping the hero clear, a Settings row for their
+  size; name tags only in the message box for the playtest, the portrait slot folded away.
 - **New for your answer (open 107 to 109):** the UI before any playtest (your instruction, 24 Oct): what you saw wrong,
   the touch controls' look, and portraits in the message box for the playtest. The UI job (the decided fonts, frame,
   icons and prompts wired in, the text fitted, every overlap cleared at both Fold views) now comes before the mid build.
