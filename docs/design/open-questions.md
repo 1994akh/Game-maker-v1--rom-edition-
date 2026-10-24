@@ -350,3 +350,20 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     cue change with a story flag the same way, starting with Fallhaven, which plays the sad theme (gs1 59) after its
     fall in mission 9. [That, and Stonehollow silent on the night of the quake in mission 1; one cue per room, as
     now.]
+
+**Map fixes (24 Oct)**
+
+65. **How the Lantern Reef wreck looks.** You saw sea cutting the ship in half at Lantern Reef. The approved mission 6
+    script has the Last Bell broken in three, with hidden planks that Reveal finds, so the sea in the breaks is on
+    purpose; but a found plank was drawn as one tiny tile, so the gap still looked like plain sea. Engine PR #81 now
+    lays full deck boards across a break once its plank is found. Recommended: as built in PR #81: sea shows in the
+    breaks until Reveal finds each plank, then deck boards span the break. [Draw the ship always whole, with the
+    planks covering holes at the bow stairs and stern walkways (it changes the script's broken-in-three look); the
+    script's literal look: one narrow grey plank, one cell wide, across each sea gap.]
+66. **When to rebuild Stonehollow's collision.** Stonehollow is a flattened copy of Golden Sun's terraced Vale, so its
+    collision sits 6 to 10 rows below its picture: the hero can walk straight up the cliff faces instead of using the
+    two diagonal stairs, and the Vault road's exit sits on the river bank. PR #81 moved the misplaced people; the real
+    fix is rebuilding the room's collision from its picture, which moves the mission 1 and 10 checks' spots, and PR
+    #79 is rewriting this room. Recommended: rebuild it right after PR #79 merges, together with the work that makes
+    the hero climb, hop and walk instead of teleporting. [Rebuild it now and resolve the clash with PR #79; keep the
+    flat collision and only wall off the cliff band by hand.]
