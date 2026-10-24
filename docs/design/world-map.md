@@ -1,11 +1,11 @@
 # Halcyra: the world map
 
-**Proposed, 24 Oct.** This page settles how the whole world is laid out, so the rooms can be joined up once and never
+**Decided, 24 Oct** (open questions 74 to 92, every one as recommended). This page settles how the whole world is laid out, so the rooms can be joined up once and never
 remapped. It covers Act I in detail and Act II, the layers and the postgame in outline. The room connections are
 redone against it in the next step, not here.
 
-Everything here is a proposal until you answer it on the decision page. Nineteen questions go there, listed in §10.
-Each section names the question it builds on, in **bold**. The recommended answer is the one this page assumes.
+You answered all nineteen questions on the decision page on 24 Oct, each as recommended, so everything here stands.
+Each section names the question it builds on, in **bold**; its recommended answer is the one you chose.
 
 The picture is `world-map/world-map.png`: the whole world on the left, the Calm and Act I on the right, and Marrow
 Isle at the bottom. It is drawn from scratch from the numbers on this page (shapes and labels only, no game art), so it
@@ -790,7 +790,7 @@ Question **Moving between rooms**. In outline:
 
 ## 8. Order of work
 
-1. **Your answers** to the sixteen questions.
+1. **Your answers** (done, 24 Oct).
 2. **The layout data,** written once: `places.json` and `regions.json` (menus §8.1), and the world layout (the kind
    of every square, its area, places, doors with their sides, harbours, airship pads and the later blocks). A check
    tool confirms every place is reachable exactly when it should be, and every door arrives on the right side.
@@ -812,7 +812,7 @@ Question **Moving between rooms**. In outline:
 
 ## 9. Lines and pages to fix
 
-These follow from the recommendations. Each waits for your answer to its question.
+These follow from your answers (24 Oct) and are the next docs pass.
 
 - **story.md §2:** the sketch redrawn with compass-point quarters and the bite. "The Tradewind Bazaar to Fallhaven: a
   day and a night east" becomes "south, down the rim". The line that both voyages "read the same from wherever the
