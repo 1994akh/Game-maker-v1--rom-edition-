@@ -5,6 +5,8 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Decided (you, 24 Oct):** open question 51, the DS-style Pokémon sprite pack kept as a backup for missing or broken
+  expansion sprites (most of the 171 without one are alternate forms the pack lacks; it fills a few, such as Genesect).
 - **New for your answer (open 51 to 51):** The DS-style 64x64 Pokémon sprite pack.
 - **Built (engine PR #77, in review):** the first music, from your table (open 39-49).
 

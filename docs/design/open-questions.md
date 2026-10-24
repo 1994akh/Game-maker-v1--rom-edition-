@@ -276,7 +276,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **New uploads (24 Oct)**
 
-51. **The DS-style 64x64 Pokémon sprite pack.** Your 19 Oct upload: 722 battle sprites for Generations I to V, each a
+51. **Decided (24 Oct):** **The DS-style 64x64 Pokémon sprite pack.** Your 19 Oct upload: 722 battle sprites for Generations I to V, each a
     strip of front, shiny front, back and shiny back at 64×64, with no credits file. The game's Pokémon already come
     from Unbound's expansion in the same DS style and size for Generations I to IX, and side by side the two sets look
     alike. Recommended: keep it as a backup, used only for a species whose expansion sprite is missing or broken,
