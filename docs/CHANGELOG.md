@@ -5,6 +5,8 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **New for your answer (open 65 and 66):** How the Lantern Reef wreck looks; When to rebuild Stonehollow's
+  collision.
 - **Decided (you, 24 Oct):** story questions 40 to 53, all as recommended and written into story.md §9a: four more
   Avatar gags (the hidden-passage singers, the Stone Mole, the Wide Players, three small lines), your cameo as the
   Wanderer until you describe yourself, the birthday kept in Settings only, and the Dragon Ball eggs (the seven star
