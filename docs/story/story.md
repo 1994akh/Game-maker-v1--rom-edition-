@@ -799,20 +799,55 @@ gag.
     itself still never reads the phone's time (story decision 12).
 - Offered and left out (24 Oct): a sun-praising knight (Dark Souls) and a secret seen only on the inner screen.
 
+**More Avatar (decided 24 Oct, story questions 40-43; your note: "always a welcome side gag")**
+- **The hidden-passage singers:** a band of carefree travelling singers in the river caves in mission 2, singing
+  "Hidden passage! Hidden passage!" at a brooding Corvin, who has to follow them to the way out. An Act II tunnel
+  brings them back.
+- **The Stone Mole:** the masked, blind champion of an earth-wrestling ring at Ironfist Arena (Act II), who reads the
+  floor's tremors. Beating her opens a Scoop secret under the ring.
+- **The Wide Players:** a theatre troupe on the Tradewind Bazaar's stage in Act II acting out Act I with everything
+  wrong: the hero a hulking brute, Corvin a pantomime villain, Maize somehow the star. Watching it all is a Curio.
+- **Small lines:** a Marowak trainer whose Bonemerang always comes back and hits him ("Bonemerang! You always come
+  back!"); "Hup hup!" as the crew's call when the Wayfarer takes to the air in Act II; "That's rough, friend" from a
+  sulking youth in Canalport.
+
+**Dragon Ball (decided 24 Oct, story questions 46-53, at your request)**
+- **The seven star orbs:** one per region from Act II, with one hidden on Marrow Isle in Act I as a teaser. All seven
+  summon Rayquaza, who grants one wish from a short list (a rare Pokémon, a stack of Zen beans, or the gag wish: a
+  fine pair of socks) and scatters them again.
+- **Master Tortell,** the turtle hermit: a tiny isle in the Calm, reached on the Wayfarer's first voyage after
+  mission 10. An old hermit in sunglasses with a Blastoise; he teaches one partner the "Tortoise Wave" (a renamed
+  Water move) and reads his newspaper upside down.
+- **Zen beans:** a rare item that fully restores one Adept's HP and PP, grown by a Persian at the top of a tall tower
+  in Act II; at most five held at once, and one waits in a chest in Act I.
+- **The pure-hearted cloud:** an Act II scene where an Altaria offers rides on its cloud wings. The hero rides, Corvin
+  falls straight through, and Vedge refuses to try.
+- **Pell and Mell,** the fusion pair at Ironfist Arena: they dance before their double battle, get it wrong every
+  time and fight anyway, then blame each other's left foot.
+- **Champion Bravado,** the showman: Ironfist Arena's champion in Act II, who claims each of the crew's big wins with
+  posters to prove it. His posters already hang in Canalport after the sluice beast in mission 3.
+- **Gold spiky hair:** the title-screen code's gold outfit comes with spiky gold hair in the hero creator.
+- **Yancy,** the fighter always knocked out first: he loses his opening bout at Ironfist Arena, and afterwards turns
+  up lying in a crater wherever something big has just happened in Act II. Vedge (above) reads everyone's power.
+
+**Your cameo and birthday (story questions 44-45):** until you describe yourself, your cameo is **the Wanderer**, a
+traveller in a long sea coat who is "only here to see how it all turned out". The birthday cake reads a Birthday row in
+Settings (month and day) that stays only in the phone's settings file, so the date never sits in the repo.
+
 ### Where the eggs land in the mission list
 
 | Mission | Egg |
 |---|---|
-| 1 | Gary Rivalson at the festival; the Mercury-blue puddle; the makers' cabin; the Game Boy on the shelf |
-| 2 | Pip's fall; Linden smashing pots |
-| 3 | Captain Maize on the Canalport docks; the push-the-truck rumour; the Spigot brothers; Turvey's first cart; the white Wailord rumour |
+| 1 | Gary Rivalson at the festival; the Mercury-blue puddle; the makers' cabin (the Wanderer); the Game Boy on the shelf; the first star orb hidden on Marrow Isle |
+| 2 | Pip's fall; Linden smashing pots; the hidden-passage singers in the river caves |
+| 3 | Captain Maize on the Canalport docks; the push-the-truck rumour; the Spigot brothers; Turvey's first cart; the white Wailord rumour; Champion Bravado's posters after the sluice beast; "That's rough, friend" |
 | 4 | The Elder (the Bidoof everyone loves) |
 | 5 | "The Hive"; the Snorlax at the waystone |
 | 6 | Maestro Bonewhistle; the lantern Litwick |
 | 7 | Old Tarrant (the Magikarp salesman) |
 | 8 | The Bounty Board starts, with Sabra Arn; the Tumbleweed Trio's first heist; Captain Swallow; Turvey again |
 | 9 | Turvey's cart survives the fall (nothing else: the mission is the loss) |
-| 10 | Cidrick at the shipyard; "A Funeral at Sea" |
+| 10 | Cidrick at the shipyard; "A Funeral at Sea"; then Master Tortell's isle on the first voyage |
 | Any | The Bliss cousins at every restoration point; the Ditto in the sea caves; "Hey! Look!"; the title-screen code; the Borrius traveller |
 | 15 | The Glimmer Saucer; Captain Fibber |
 | 19 | The Steward; "The Unwinnable Test"; "Energize"; the Dreamdeck; Brother Sorak |
