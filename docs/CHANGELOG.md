@@ -5,6 +5,16 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Decided (you, 24 Oct):** open questions 93 to 106. 93 by your words in chat: the way of working stays, a real choice
+  goes on the decision page and that task pauses while other work carries on. 94 to 106 as recommended: a mid playtest
+  build after missions 1 to 4 run on the new rooms; the jobs in order (rooms, movement and puzzles, interiors, the world
+  map, missions 2 to 10, art, balance, audio, ending); old saves load at their room's main entrance with a line; the
+  Kestrel from The Lost Age's ship sprite and the Wayfarer and skiff drawn by us; the day's phases tint the sea and the
+  clock runs three times faster at sea; the islets keep their working names; Golden Sun's own interiors; the leader
+  walks with the partner behind; generated tiles in code and an image generator only for painted pieces, every piece on
+  a contact sheet first; The Lost Age's ship-deck backdrop for sea battles; I pick the story scenes' music from Golden
+  Sun's own scene tracks and list them; generated ambient loops with their own volume row; a 'to be continued' card and
+  the credits with the Curios' gag card.
 - **New for your answer (open 93 to 106):** questions ahead of the rest of the demo, so the builds run without
   stops: choices that come up mid-build, a mid playtest build, the order of the remaining jobs, old saves when the
   rooms change, the ships' looks, day and night at sea, the islets' names, the interiors' look, who walks behind the
