@@ -273,3 +273,12 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     their music in a way not yet read from the ROM. Recommended: I read the rest of Golden Sun's room music from the
     ROM after the weekly reset (23 Oct) and post a guess for each place. [You name them by number from the listening
     folder in the note box; Unbound's named town themes where Golden Sun has no match.]
+
+**New uploads (24 Oct)**
+
+51. **The DS-style 64x64 Pokémon sprite pack.** Your 19 Oct upload: 722 battle sprites for Generations I to V, each a
+    strip of front, shiny front, back and shiny back at 64×64, with no credits file. The game's Pokémon already come
+    from Unbound's expansion in the same DS style and size for Generations I to IX, and side by side the two sets look
+    alike. Recommended: keep it as a backup, used only for a species whose expansion sprite is missing or broken,
+    credited as the DS-style 64x64 Pokémon Sprite Resource's contributors. [Use it instead of the expansion's sprites
+    for Generations I to V; leave it out.]

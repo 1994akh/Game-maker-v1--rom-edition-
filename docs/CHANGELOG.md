@@ -3,6 +3,11 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 24 Oct 2026
+
+- **New for your answer (open 51 to 51):** The DS-style 64x64 Pokémon sprite pack.
+- **Built (engine PR #77, in review):** the first music, from your table (open 39-49).
+
 ## 20 Oct 2026
 
 - **Merged (engine), demo slices 1-3 done:** the 480x320 picture with its review fixes (#72; checks pass at the
