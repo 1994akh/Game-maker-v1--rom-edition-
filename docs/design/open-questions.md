@@ -585,3 +585,93 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     (rare stock, a dig spot, a Kin find, contracts). [In the Wide instead: a fog island in Westgloam reached in Act
     II, so the demo's sea stays as it is; behind the Churn in the south Calm, opened with Whirlpool in Act II, with
     the rumours pointing at the whirlpool.]
+
+**Running to the demo without stops (24 Oct)**
+
+93. **Choices that come up mid-build.** You asked for questions ahead of the work so I can run uninterrupted. Builds
+    still hit small choices no page covers (a line's wording, which Golden Sun area to clip a new room from, where a
+    chest sits). Today each one is a stop. Recommended: I take the recommended path, build it, and list it on this
+    page afterwards under 'Decided by Claude, change if you like', so nothing waits on you. Only story beats, art
+    you'll see every day and anything about adult content still stop for you. [Stop and ask for every choice, as now;
+    decide everything myself and list nothing, you see it in the playtest.]
+94. **A mid playtest build.** Demo 39 decided two playtest rounds on the full demo. The rooms, the cove, the menus,
+    the saves and the music have all changed since the last build you played (20 Oct). Recommended: one extra build as
+    soon as missions 1 to 4 run on the new rooms with the menus and music, so feel problems (movement, screens, the
+    Fold's views) show early, then demo 39's two rounds as planned. [No mid build, only the two rounds; a build after
+    every two missions.]
+95. **The order of the remaining jobs.** Left to build: the rooms joined up against the world map (starting now),
+    movement and puzzles (climb, hop, cast poses, every puzzle checked), the interiors, the world map and the sailable
+    Calm, missions 2 to 10 with the eggs, the UI, people and battle art, balance, the rest of the audio, and the
+    ending and playtest. Recommended: in that order: rooms, then movement and puzzles, then interiors, then the world
+    map and the Calm, then missions 2 to 10, then the art slices, balance, audio, ending. Each mission is built once
+    the ground it stands on is final, so nothing is built twice. [Missions 2 to 10 right after the rooms, with the
+    world map after, so the story plays through sooner; the art slices before the missions, so every mission is built
+    with its final look.]
+
+**Rooms and the world map (24 Oct)**
+
+96. **Old saves when the rooms change.** The rooms job moves scenes, merges Fallhaven's two rooms and rebuilds
+    Stonehollow's ground. A save made on the old rooms may stand somewhere that no longer exists. Open 35 decided
+    saves migrate between builds. Recommended: a save from before the change loads at its room's main entrance with
+    one line ('The ground has shifted under you'), never refused, and a save in a room that was merged loads in the
+    merged room. [Refuse saves from before the change with a message, so every playtest starts fresh; keep exact spots
+    wherever the old ground still exists, and only move the rest.]
+97. **The ships' looks on the world map.** The Kestrel, Ketch's skiff and the Wayfarer sail the Calm on the world map.
+    Today the ship is a brown box. The Lost Age has ship sprites that can be exported like the other Golden Sun art.
+    Recommended: the Kestrel is The Lost Age's ship sprite recoloured as a cutter, Ketch's skiff a small boat drawn by
+    us, and the Wayfarer drawn by us with her own silhouette and the six marks, since she is a Farer ship no Golden
+    Sun ship resembles. [All three drawn by us; all three from The Lost Age's sprites, recoloured.]
+98. **Day and night at sea.** Clock 2 decided the room tint shows the day's phase. The world map and the sea have no
+    decision. Sailing takes seconds, and the clock advances by walking and resting. Recommended: the same four phases
+    tint the world map and the sea, with night sailing darker and the beacon and the Pinnacle lit, and the clock runs
+    about three times faster at sea than on foot so a voyage feels like a day. [No tint on the world map, always day;
+    the tint, but the clock runs the same at sea as on foot.]
+99. **The new islets' names.** The world map names the new small islands with working names: Cockle Cay, Sandmere,
+    Driftholm, Shelfback, Bellstone, Farer's Step, the Churn and Nightmarket Isle. Recommended: keep them, and name
+    any you'd change in the note box. [I propose a second set in the Calm's own style (Marrow, Embral, Hushwater) for
+    you to pick from; you name them all in the note box.]
+100. **The interiors' look.** You chose that every inn, shop, named house and hall is its own interior (open 90).
+     Golden Sun has houses, inns, shops and halls to clip from, the fan game's Essentials set has modern Pokémon
+     interiors (approved 16 Oct as a parts bin), and some rooms exist in neither (the hatchery, the sluice house, the
+     Bazaar's hulls). Recommended: Golden Sun's own interiors, clipped like the rooms, one style per place, with
+     generated ground only where Golden Sun has no room of that kind. [The fan game's Essentials interiors; all
+     interiors generated in one new style of our own.]
+
+**Art for the demo (24 Oct)**
+
+101. **Who walks behind the lead.** Art 29 decided the lead's partner Pokémon follows on the field. Golden Sun shows
+     only the leader walking, with the party appearing in scenes. Pokémon HeartGold shows one follower. Recommended:
+     Golden Sun's way: the leader walks with the partner Pokémon behind, and the rest of the crew appears in scenes
+     and at the jetty, which keeps rooms uncluttered on the cover screen. [The whole crew in a line behind the lead;
+     the leader, the partner and one Adept.]
+102. **How generated art is made.** Open 91 decided we generate art only where Golden Sun has nothing. It can be drawn
+     in code (exact palette and grid, no style drift, plain-looking) or by an image generator (richer, needs cutting
+     into tiles and checking for drift). Recommended: tiles, icons and backdrops drawn in code to Golden Sun's palette
+     and 16-pixel grid, and an image generator only for painted pieces (the title card, the opening's stills,
+     portraits), with every generated piece on a contact sheet for you before it goes in. [An image generator for
+     everything, cut into tiles; everything in code, no image generator.]
+103. **Sea battle backdrops.** Art 11 picked Pixel-boy's twelve day and night scenes and art 30 filled the gaps, but
+     none is open sea, and the Calm will have battles at sea (open 83). Recommended: The Lost Age's own ship-deck
+     battle backdrop, exported like the sprites, with a night version tinted to match Pixel-boy's nights and a fog
+     version for the north fog. [A generated sea backdrop (horizon, swell, the rail), day and night; reuse the beach
+     backdrop at sea.]
+
+**Sound and the ending (24 Oct)**
+
+104. **Music for the story scenes.** Every place now has its track (open 53 to 64) and battles theirs, but the story
+     scenes have none of their own yet: the Keeping Night festival, the quake, Pip's fall, Ho-Oh waking, the
+     Wayfarer's reveal, the end card. Golden Sun's own cutscenes use particular tracks, which the ROM records the same
+     way as the room music. Recommended: I pick each Act I scene's track from the ones Golden Sun's own scenes of that
+     kind use, build them in, and list them by scene on this page with their file numbers from the listening folder so
+     you can change any by number after the playtest. [You pick each scene's track now from the listening folder in
+     the note box; no scene tracks: the place's music carries on under every scene.]
+105. **Ambient sound.** The decided sound effects are Golden Sun's menu, field and Psynergy sounds and the expansion's
+     cries. Nothing is decided for ambient sound: the sea at a shore, wind on the cliffs, rain at Canalport's
+     highwater, the fog's hush. Recommended: a few short generated loops under the music at low volume, one per kind
+     of place (shore, cliff, rain, fog, cave drip, market), with their own volume row in Settings. [Golden Sun's own
+     ambient sounds only, where it has them; no ambient sound.]
+106. **What the demo says at its end.** Demo 20 decided the maiden voyage's end card closes the demo, and the credits
+     scroll is decided (credits.md). Recommended: after the end card, a short 'to be continued' card that names what
+     comes next (the Breaking, the crews scattered across the Wide) over the sailing theme, then the credits with the
+     cameo cast's gag card for every Curio found. [The credits only, nothing about what comes next; a playable teaser:
+     one minute of the Breaking before the credits.]

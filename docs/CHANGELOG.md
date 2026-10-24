@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **New for your answer (open 93 to 106):** questions ahead of the rest of the demo, so the builds run without
+  stops: choices that come up mid-build, a mid playtest build, the order of the remaining jobs, old saves when the
+  rooms change, the ships' looks, day and night at sea, the islets' names, the interiors' look, who walks behind the
+  lead, how generated art is made, sea battle backdrops, music for the story scenes, ambient sound, and what the demo
+  says at its end.
 - **Decided (you, 24 Oct):** the world map, open questions 74 to 92, all as recommended. The Wide's quarters sit on the
   compass points, the rim bites deep in the east with Fallhaven at the bite's end, the Spine runs north to south with
   the Crownwater to Canalport, Marrow Isle gets its cove, the layers sit on the world's grid, closed places are seen
