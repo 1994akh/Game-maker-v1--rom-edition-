@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Found (24 Oct):** how Golden Sun picks each room's music. Both games keep a table of rows (a room or place, an
+  optional door and story flag, a song), and the first row that matches wins, so a town's music changes with the
+  story. gs1 1 turned out to be Lunpa's theme, not Vale's: open 53 offers Vale's own, gs1 2, for Stonehollow.
+- **New for your answer (open 53 to 64):** Stonehollow's track, corrected; Canalport; The Tradewind Bazaar;
+  Fallhaven; The Forgeheart's halls; The Forgeheart's sanctum; The Greenwild and the Eldergrove; Lantern Reef; Bastion
+  Rock; The Vault's upper halls; The Wayfarer; Music that changes with the story.
 - **New for your answer (story 13 to 39):** 27 easter egg and spoof questions in five groups: the rules (how close,
   how many, how obvious, rewards, a full set), new spoof cameos (each with a place in Act I or II), small nods,
   themed puzzles, and personal and seasonal eggs (a makers' cabin, a cameo of you, holidays). Ask for any others
@@ -13,7 +19,8 @@ header; the detailed rules are in `docs/design/`.
 - **Decided (you, 24 Oct):** open question 51, the DS-style Pokémon sprite pack kept as a backup for missing or broken
   expansion sprites (most of the 171 without one are alternate forms the pack lacks; it fills a few, such as Genesect).
 - **New for your answer (open 51 to 51):** The DS-style 64x64 Pokémon sprite pack.
-- **Built (engine PR #77, in review):** the first music, from your table (open 39-49).
+- **Built (engine PR #77, merged):** the first music, from your table (open 39-49): title, Stonehollow, the sea caves,
+  sailing, every battle and its victory. Other rooms stay silent until 53 to 64 are answered.
 
 ## 20 Oct 2026
 
