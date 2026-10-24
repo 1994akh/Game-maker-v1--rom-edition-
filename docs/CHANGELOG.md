@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Decided (you, 24 Oct):** story questions 40 to 53, all as recommended and written into story.md §9a: four more
+  Avatar gags (the hidden-passage singers, the Stone Mole, the Wide Players, three small lines), your cameo as the
+  Wanderer until you describe yourself, the birthday kept in Settings only, and the Dragon Ball eggs (the seven star
+  orbs and Rayquaza, Master Tortell, Zen beans, the pure-hearted cloud, Pell and Mell, Champion Bravado, gold spiky
+  hair, Yancy).
 - **New for your answer (story 46 to 53):** Dragon Ball eggs, as you asked: the seven wishing orbs (Rayquaza), the
   turtle hermit, Zen beans, the cloud only the pure can ride, the fusion dance, the showman who takes the credit,
   gold spiky hair and the fighter always knocked out first.
