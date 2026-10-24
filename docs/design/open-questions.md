@@ -353,14 +353,14 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Map fixes (24 Oct)**
 
-65. **How the Lantern Reef wreck looks.** You saw sea cutting the ship in half at Lantern Reef. The approved mission 6
+65. **Decided (24 Oct):** **How the Lantern Reef wreck looks.** You saw sea cutting the ship in half at Lantern Reef. The approved mission 6
     script has the Last Bell broken in three, with hidden planks that Reveal finds, so the sea in the breaks is on
     purpose; but a found plank was drawn as one tiny tile, so the gap still looked like plain sea. Engine PR #81 now
     lays full deck boards across a break once its plank is found. Recommended: as built in PR #81: sea shows in the
     breaks until Reveal finds each plank, then deck boards span the break. [Draw the ship always whole, with the
     planks covering holes at the bow stairs and stern walkways (it changes the script's broken-in-three look); the
     script's literal look: one narrow grey plank, one cell wide, across each sea gap.]
-66. **When to rebuild Stonehollow's collision.** Stonehollow is a flattened copy of Golden Sun's terraced Vale, so its
+66. **Decided (24 Oct):** **When to rebuild Stonehollow's collision.** Stonehollow is a flattened copy of Golden Sun's terraced Vale, so its
     collision sits 6 to 10 rows below its picture: the hero can walk straight up the cliff faces instead of using the
     two diagonal stairs, and the Vault road's exit sits on the river bank. PR #81 moved the misplaced people; the real
     fix is rebuilding the room's collision from its picture, which moves the mission 1 and 10 checks' spots, and PR
@@ -370,33 +370,33 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Movement and puzzle feel (24 Oct)**
 
-67. **Climbing a vine.** You saw the hero 'teleport' or walk up walls after Psynergy. Today a Growth vine just opens a
+67. **Decided (24 Oct):** **Climbing a vine.** You saw the hero 'teleport' or walk up walls after Psynergy. Today a Growth vine just opens a
     strip of ground and the hero walks up it like a wall. The coming movement work adds real climbing. In Golden Sun
     the hero climbs a vine facing it, slower than walking, hands alternating. Recommended: Golden Sun's way: step onto
     the vine and the hero climbs facing it at half walking speed, hands alternating, and can stop or go back down part
     way. [Climb the whole vine in one go once started, at half speed; a short fade, then he stands at the top.]
-68. **Hopping Frost pillars.** Today a Frost puzzle opens a walkway and the hero walks across. In Golden Sun, Frost
+68. **Decided (24 Oct):** **Hopping Frost pillars.** Today a Frost puzzle opens a walkway and the hero walks across. In Golden Sun, Frost
     turns puddles into ice pillars and the hero hops from pillar to pillar with a small arc. Recommended: Golden Sun's
     way: push toward the next pillar and the hero hops onto it in a short arc (about a third of a second), one pillar
     per press. [Hop the whole row in one go after the first press; keep the frozen walkway and walk across it.]
-69. **Getting on and off the water.** Surf and the ship move the hero 16 px in a single frame today: a snap. Golden
+69. **Decided (24 Oct):** **Getting on and off the water.** Surf and the ship move the hero 16 px in a single frame today: a snap. Golden
     Sun's Lost Age hops the party onto the ship's deck, and Pokémon games hop the trainer onto the Pokémon's back.
     Recommended: a quick hop onto the water and back onto land (about a quarter of a second, a small arc), with a
     splash. [A short slide instead of a hop; keep it instant.]
-70. **How a cast looks.** Golden Sun shows the caster raising a hand while a glowing Psynergy hand or ring appears
+70. **Decided (24 Oct):** **How a cast looks.** Golden Sun shows the caster raising a hand while a glowing Psynergy hand or ring appears
     before every field Psynergy takes effect. Today only Move shows a hand; other casts just happen. Recommended:
     every field cast shows the hero's raised-hand pose and a glow in the element's colour (Earth amber, Sea blue,
     Flame red, Sky violet) for about half a second, then the effect. [The pose only, no glow; the glow only, no pose.]
-71. **Puzzles that reset.** A block pushed into a corner or a wrong order can leave a puzzle stuck. Golden Sun puts a
+71. **Decided (24 Oct):** **Puzzles that reset.** A block pushed into a corner or a wrong order can leave a puzzle stuck. Golden Sun puts a
     room's movable blocks back when you leave and come in again, unless the puzzle is solved. Recommended: Golden
     Sun's way: an unsolved puzzle resets when you leave the room and come back; a solved one stays solved. [A reset
     stone in each puzzle room you can step on; never reset, and design every puzzle so it can't get stuck.]
-72. **Ledges you jump down.** Some rooms have one-way drops (a ledge, a short cliff step). Today a drop is either a
+72. **Decided (24 Oct):** **Ledges you jump down.** Some rooms have one-way drops (a ledge, a short cliff step). Today a drop is either a
     wall or walked down like a slope. Pokémon and Golden Sun hop the hero down a ledge with a little arc, and you
     can't climb back up it. Recommended: one-way ledges where a room has them: walk into the edge and the hero hops
     down with a small arc; climbing back up is blocked. [Ledges are just walls; drop-downs and climb-ups both allowed
     (as slopes).]
-73. **The check windows.** The windows that pop up while the game's automatic checks run move the hero by jumping him
+73. **Decided (24 Oct):** **The check windows.** The windows that pop up while the game's automatic checks run move the hero by jumping him
     between spots, which is part of what you saw. Making them walk the routes the player would walk shows the real
     movement, also proves every spot can be reached, and makes the checks take about twice as long. Recommended: the
     checks walk the hero along real paths, with jumps kept only where a check must skip ahead on purpose (and then

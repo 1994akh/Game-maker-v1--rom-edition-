@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 24 Oct 2026
 
+- **Decided (you, 24 Oct):** open questions 65 to 73, all as recommended. Lantern Reef's breaks show sea until Reveal
+  finds each plank, then deck boards span them; Stonehollow's collision is rebuilt from its picture right after PR #79,
+  with the movement work. Movement and puzzles: vines are climbed Golden Sun's way (facing the vine, half speed, can stop
+  part way); Frost pillars are hopped one per press in a short arc; a quick hop with a splash onto and off the water;
+  every field cast shows the raised-hand pose and an element-coloured glow for about half a second; an unsolved puzzle
+  resets when you leave and come back; one-way ledges hop you down; the check windows walk the hero along real paths.
 - **New for your answer (open 67 to 73):** how movement and puzzles feel, ahead of the work that stops the hero
   teleporting: climbing vines, hopping Frost pillars, getting on and off the water, how a cast looks, puzzles that
   reset, ledges you jump down, and whether the check windows walk the hero.
