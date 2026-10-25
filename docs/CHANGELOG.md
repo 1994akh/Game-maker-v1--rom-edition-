@@ -3,6 +3,16 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 25 Oct 2026
+
+- **Merged (engine PRs #78, #81, #82, #84; 24-25 Oct):** the screen stack with the Start menu, pause box, Settings,
+  three save files and autosave (#78); the map fixes (#81: people off the cliffs, floors and rugs under people, Lantern
+  Reef's planks as you chose); the sluice beast drawn whole (#82); and the UI fixed before any playtest (#84: the
+  decided fonts, frame, icons and prompts, text fitted, the touch controls as you chose, black beyond a map's edge).
+  In review: the rooms joined up against the world map (#83).
+- **New for your answer (open 110):** what shows past a map's edge when the camera keeps the hero clear of the touch
+  controls (the UI job's one real choice, posted rather than decided).
+
 ## 24 Oct 2026
 
 - **Decided (you, 24 Oct):** open questions 107 to 109, as recommended: one UI job before the mid build (the decided fonts,
