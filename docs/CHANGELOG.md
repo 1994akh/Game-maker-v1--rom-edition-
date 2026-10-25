@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 25 Oct 2026
 
+- **Decided (you, 25 Oct):** open questions 110 to 116, all as recommended. Past a map's edge stays black. Quality of
+  life: a backlog of the last hundred pages under Log, then Said; holding B runs a scene's words at Instant, and a scene
+  already seen in this save offers Skip on Start; Auto-run is the default on the phone (walk while holding B); no extra
+  quick save beyond autosave and the three files; Nickname and Make partner on the Pokémon row's press; a one-line
+  Are you sure? only for rare, key and equipped items.
 - **Built (25 Oct):** the rooms joined up against the world map (engine PR #83: Stonehollow's ground rebuilt, the cove, fades
   and matching-side arrivals, the four bad exits gone, old saves handled) and the mid playtest build (open 94):
   `_GameMaker-builds/GameMaker-debug-2026-10-25-midbuild-rooms-ui.apk`, missions 1 to 4 on the new rooms with the fixed UI.
