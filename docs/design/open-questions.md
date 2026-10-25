@@ -712,3 +712,31 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      edge of the world, matches the Fold probe, and the 40% faded controls sit well on it. [Paint the band with the
      room's backdrop kind (sea, rock, fog, dark), as narrow rooms already do; stop the camera at the map's edge and
      let the hero walk under the controls there.]
+
+**Quality of life (25 Oct)**
+
+111. **A backlog of what was said.** Once a page of words closes there is no way to read it again. Golden Sun has
+     none; most modern RPGs let you scroll back through the last lines. Recommended: a backlog on the Start menu (Log,
+     then Said) that holds the last hundred pages with who said them, read-only, scrolled with the stick or a swipe.
+     [A quick backlog on a button hold (L held on the field) instead of a menu row; no backlog.]
+112. **Skipping scenes you've seen.** Every scene plays in full at its normal text speed, every time, including after
+     a lost story fight's retry. The Settings' text speed already has Instant. Recommended: holding B while a scene
+     plays runs its words at Instant until B is let go, and a scene you have already seen in this save (the retry of a
+     story fight, the second time through a room's talk) offers Skip on Start, straight to its end state.
+     [Hold-to-speed only, no Skip; skip only on the retry of a lost story fight.]
+113. **How fast the hero walks.** The hero walks at Golden Sun's pace, with a run on B. Phone play tends to want a
+     quicker default. Recommended: keep Golden Sun's walk and run, and add Auto-run (already decided as a Run style)
+     as the default on the phone, so you walk only while holding B. [Make the walk itself a fifth faster; keep the
+     walk and the Hold-B run as the default.]
+114. **A quick save.** Saving means the Start menu, Save and a file. Autosave covers room arrivals (on by default).
+     Recommended: no extra quick save: autosave on arrival plus the three files is enough, and fewer ways to save
+     means fewer ways to lose a save. [Start held for a second saves to the autosave slot with a short chime; a Save
+     row at the top of the pause box.]
+115. **Pokémon moves from the field menu.** A partner's moves and summary are on its Adept's menu (the partner model).
+     Changing a partner's set or nickname takes a few steps today. Recommended: keep it as decided (the Adept's menu
+     holds the partner), and add Nickname and Make partner to the Pokémon row's press, so the common two are one step.
+     [A separate Pokémon menu like the games have, with everything on it; leave it as it is.]
+116. **Confirming before a shop sale or a drop.** Selling or dropping an item happens on the press. Rare items (a
+     Farer Ball, a keepsake) could go by mistake. Recommended: a one-line Are you sure? only for rare and key items
+     and for anything equipped, nothing for common stock. [Ask every time; never ask, but keep the last sold item
+     buy-back for free in that shop.]
