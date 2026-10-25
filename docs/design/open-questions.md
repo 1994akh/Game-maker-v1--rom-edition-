@@ -705,7 +705,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the UI job (25 Oct)**
 
-110. **What shows past a map's edge.** With the touch controls on, the camera now scrolls a little past a map's top or
+110. **Decided (25 Oct):** **What shows past a map's edge.** With the touch controls on, the camera now scrolls a little past a map's top or
      bottom edge so the hero never stands under the stick or the buttons (open 108). What lies beyond the map used to
      be a flat grey; the UI job made it black, as a GBA game shows past a map. The band can be up to 40% of the cover
      screen's height when the hero stands at a map's bottom edge. Recommended: keep the black band: it reads as the
@@ -715,28 +715,28 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **Quality of life (25 Oct)**
 
-111. **A backlog of what was said.** Once a page of words closes there is no way to read it again. Golden Sun has
+111. **Decided (25 Oct):** **A backlog of what was said.** Once a page of words closes there is no way to read it again. Golden Sun has
      none; most modern RPGs let you scroll back through the last lines. Recommended: a backlog on the Start menu (Log,
      then Said) that holds the last hundred pages with who said them, read-only, scrolled with the stick or a swipe.
      [A quick backlog on a button hold (L held on the field) instead of a menu row; no backlog.]
-112. **Skipping scenes you've seen.** Every scene plays in full at its normal text speed, every time, including after
+112. **Decided (25 Oct):** **Skipping scenes you've seen.** Every scene plays in full at its normal text speed, every time, including after
      a lost story fight's retry. The Settings' text speed already has Instant. Recommended: holding B while a scene
      plays runs its words at Instant until B is let go, and a scene you have already seen in this save (the retry of a
      story fight, the second time through a room's talk) offers Skip on Start, straight to its end state.
      [Hold-to-speed only, no Skip; skip only on the retry of a lost story fight.]
-113. **How fast the hero walks.** The hero walks at Golden Sun's pace, with a run on B. Phone play tends to want a
+113. **Decided (25 Oct):** **How fast the hero walks.** The hero walks at Golden Sun's pace, with a run on B. Phone play tends to want a
      quicker default. Recommended: keep Golden Sun's walk and run, and add Auto-run (already decided as a Run style)
      as the default on the phone, so you walk only while holding B. [Make the walk itself a fifth faster; keep the
      walk and the Hold-B run as the default.]
-114. **A quick save.** Saving means the Start menu, Save and a file. Autosave covers room arrivals (on by default).
+114. **Decided (25 Oct):** **A quick save.** Saving means the Start menu, Save and a file. Autosave covers room arrivals (on by default).
      Recommended: no extra quick save: autosave on arrival plus the three files is enough, and fewer ways to save
      means fewer ways to lose a save. [Start held for a second saves to the autosave slot with a short chime; a Save
      row at the top of the pause box.]
-115. **Pokémon moves from the field menu.** A partner's moves and summary are on its Adept's menu (the partner model).
+115. **Decided (25 Oct):** **Pokémon moves from the field menu.** A partner's moves and summary are on its Adept's menu (the partner model).
      Changing a partner's set or nickname takes a few steps today. Recommended: keep it as decided (the Adept's menu
      holds the partner), and add Nickname and Make partner to the Pokémon row's press, so the common two are one step.
      [A separate Pokémon menu like the games have, with everything on it; leave it as it is.]
-116. **Confirming before a shop sale or a drop.** Selling or dropping an item happens on the press. Rare items (a
+116. **Decided (25 Oct):** **Confirming before a shop sale or a drop.** Selling or dropping an item happens on the press. Rare items (a
      Farer Ball, a keepsake) could go by mistake. Recommended: a one-line Are you sure? only for rare and key items
      and for anything equipped, nothing for common stock. [Ask every time; never ask, but keep the last sold item
      buy-back for free in that shop.]
