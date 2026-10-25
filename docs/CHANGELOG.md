@@ -5,6 +5,14 @@ header; the detailed rules are in `docs/design/`.
 
 ## 25 Oct 2026
 
+- **Built (25 Oct):** the rooms joined up against the world map (engine PR #83: Stonehollow's ground rebuilt, the cove, fades
+  and matching-side arrivals, the four bad exits gone, old saves handled) and the mid playtest build (open 94):
+  `_GameMaker-builds/GameMaker-debug-2026-10-25-midbuild-rooms-ui.apk`, missions 1 to 4 on the new rooms with the fixed UI.
+- **Quality of life (your word, 25 Oct):** the decided Settings rows and menu behaviours the screens slice left out are being
+  built (Repeat last turn, auto-run, left-handed layout, stick type, haptics, edge inset, window colour, remapping with the
+  controller test, rumble, the objective line, place banners).
+- **New for your answer (open 111 to 116):** quality of life not yet decided: a backlog of what was said, skipping scenes
+  you've seen, how fast the hero walks, a quick save, Pokémon shortcuts on the field menu, and confirming before a sale.
 - **Merged (engine PRs #78, #81, #82, #84; 24-25 Oct):** the screen stack with the Start menu, pause box, Settings,
   three save files and autosave (#78); the map fixes (#81: people off the cliffs, floors and rugs under people, Lantern
   Reef's planks as you chose); the sluice beast drawn whole (#82); and the UI fixed before any playtest (#84: the
