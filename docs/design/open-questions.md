@@ -702,3 +702,13 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      with the portrait slot folded away so no empty square shows, until the portrait art pass. [Simple drawn
      silhouettes in each Adept's colour as stand-ins; The fan game's approved portrait busts as stand-ins where one
      fits.]
+
+**From the UI job (25 Oct)**
+
+110. **What shows past a map's edge.** With the touch controls on, the camera now scrolls a little past a map's top or
+     bottom edge so the hero never stands under the stick or the buttons (open 108). What lies beyond the map used to
+     be a flat grey; the UI job made it black, as a GBA game shows past a map. The band can be up to 40% of the cover
+     screen's height when the hero stands at a map's bottom edge. Recommended: keep the black band: it reads as the
+     edge of the world, matches the Fold probe, and the 40% faded controls sit well on it. [Paint the band with the
+     room's backdrop kind (sea, rock, fog, dark), as narrow rooms already do; stop the camera at the map's edge and
+     let the hero walk under the controls there.]
