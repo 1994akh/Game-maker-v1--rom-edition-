@@ -740,3 +740,13 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      Farer Ball, a keepsake) could go by mistake. Recommended: a one-line Are you sure? only for rare and key items
      and for anything equipped, nothing for common stock. [Ask every time; never ask, but keep the last sold item
      buy-back for free in that shop.]
+
+**From the QoL job (25 Oct)**
+
+117. **Remapping the touch buttons.** The new Remap controls screen rebinds keys and pad buttons by pressing them, and
+     shows the touch controls, which stay fixed: A and B carry their letters, L, R and Start their names, and the
+     Left-handed, Stick and touch size rows already cover the touch layout. The design pages say remapping is per
+     action but not whether a touch button can take another action, so this part was left unbuilt. Recommended: keep
+     the touch buttons fixed, as built: the table shows them, and the Left-handed, Stick and size rows cover the touch
+     layout. [While a row waits for its new input, tapping an on-screen button gives it that action, with the button
+     keeping its letter; a touch layout editor where each button is dragged to a new place.]

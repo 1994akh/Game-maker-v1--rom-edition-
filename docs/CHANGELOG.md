@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 25 Oct 2026
 
+- **Merged (engine PR #85, 25 Oct):** quality of life, part 1: Repeat last turn, an Auto-run bar on touch, left-handed
+  layout, fixed or floating stick, haptics, edge inset, window colours with high contrast, remapping with the controller
+  test, rumble, the objective line in the Start menu, and place banners. Part 2 (your answers to 111-116) is next.
+- **New for your answer (open 117):** remapping the touch buttons (the QoL job's one real choice, left unbuilt).
 - **Decided (you, 25 Oct):** open questions 110 to 116, all as recommended. Past a map's edge stays black. Quality of
   life: a backlog of the last hundred pages under Log, then Said; holding B runs a scene's words at Instant, and a scene
   already seen in this save offers Skip on Start; Auto-run is the default on the phone (walk while holding B); no extra
