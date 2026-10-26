@@ -5,6 +5,8 @@ header; the detailed rules are in `docs/design/`.
 
 ## 25 Oct 2026
 
+- **New for your answer (open 118 to 121):** Cast glow colours for Forest and Shadow Psynergy; How a Pokémon's field
+  move looks (Cut, Defog, Surf); Which way Move pushes a block; What L or R does when nothing is in front of you.
 - **Merged (engine PR #85, 25 Oct):** quality of life, part 1: Repeat last turn, an Auto-run bar on touch, left-handed
   layout, fixed or floating stick, haptics, edge inset, window colours with high contrast, remapping with the controller
   test, rumble, the objective line in the Start menu, and place banners. Part 2 (your answers to 111-116) is next.

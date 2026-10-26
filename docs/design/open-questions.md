@@ -750,3 +750,30 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      the touch buttons fixed, as built: the table shows them, and the Left-handed, Stick and size rows cover the touch
      layout. [While a row waits for its new input, tapping an on-screen button gives it that action, with the button
      keeping its letter; a touch layout editor where each button is dragged to a new place.]
+
+**From the movement and puzzles job (25 Oct)**
+
+118. **Cast glow colours for Forest and Shadow Psynergy.** The cast glow colours you chose cover Earth (amber), Sea
+     (blue), Flame (red) and Sky (violet). The game also has Forest Psynergy (Growth, Catch) and Shadow Psynergy
+     (Reveal, Halt, Cloak, Avoid), which have no colour yet. Until you choose, those casts glow plain white.
+     Recommended: Forest leaf green, and Shadow deep indigo with a pale lilac edge so it reads apart from Sky's
+     violet. [Borrow the nearest chosen colour: Forest uses Earth's amber and Shadow uses Sky's violet; forest green,
+     and Shadow plain white.]
+119. **How a Pokémon's field move looks (Cut, Defog, Surf).** Field moves like Cut, Defog and Surf are done by a
+     Pokémon in your Set and cost no PP. The cast pose and glow you chose are for Psynergy, so these moves have no
+     look of their own yet. Until you choose, the hero does the cast pose with a white glow. Recommended: Pokémon's
+     way: the Pokémon's icon pops up beside the hero with a small hop for about half a second, with no glow, and then
+     the move happens. For Surf this comes just before the hop onto the water. [The hero's cast pose, glowing in the
+     Pokémon's type colour; no lead-in: the move happens at once, as now.]
+120. **Which way Move pushes a block.** In Golden Sun you aim Move with the stick, so you can push a block toward you
+     or away from you from where you stand. The game works that way now. The approved mission scripts say Move pushes
+     away from you, and some puzzles expect you to walk round the block (mission 1 puzzle 1, mission 4 puzzle 1, and
+     puzzles in missions 3 and 8). With free aiming those puzzles can be solved from one spot. Either way, a block can
+     never land on the hero. Recommended: keep Golden Sun's free aiming, and reword those four scripts so the puzzles
+     are about choosing the direction and the order of the pushes. [Move pushes only away from the hero, the way the
+     hero faces, so you walk round the block to push it another way; free aiming, but never toward the hero.]
+121. **What L or R does when nothing is in front of you.** Pressing L (Move) or R with nothing to act on does nothing
+     now: no pose, no sound and no words. That fixed an old bug where R spent PP casting at nothing. Golden Sun
+     instead plays the cast and an empty effect, and spends the PP. Recommended: a short cast pose of about a quarter
+     of a second with a grey puff, no PP spent and no words, so a press is never ignored. [Nothing happens, as now;
+     golden Sun's way: the full cast plays and the PP is spent.]
