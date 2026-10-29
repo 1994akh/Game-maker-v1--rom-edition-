@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 29 Oct 2026
 
+- **Decided (you, 27 Oct):** open questions 117 to 121, all as recommended. The touch buttons stay fixed (no touch
+  remapping). Forest Psynergy glows leaf green and Shadow deep indigo with a pale lilac rim. An HM field move (Cut,
+  Defog, Surf) shows the Set Pokémon's icon popping up beside the hero with a small hop, with no glow, before the
+  move. Move keeps Golden Sun's free aim, so the walk-round lines in missions 1, 3 and 4 now read as aiming and the
+  order of the pushes (mission 8's crates already did). L or R with nothing in front gives a short cast pose and a
+  grey puff, with no PP spent. The movement and puzzles job builds them.
 - **New for your answer (open 122 to 124):** Bigger touch areas than the drawn buttons; A clearer pressed look on
   the touch buttons; Tapping the message box to turn the words.
 - **Fixed (engine PR #87, 29 Oct), your report that A did nothing on the phone:** every touch button (A, B, L, R, Start

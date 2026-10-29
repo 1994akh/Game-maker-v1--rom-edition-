@@ -1115,7 +1115,7 @@ It teaches Frost: ice where there was water.
    can't pass under it.
 2. On the quay beside it, a landing step lets {HERO} climb off Marill. The bridge's counterweight lies on the
    quay, two cells east and one north of its plinth.
-3. Push it west twice and south once, in any order that works, so the player walks round it. The quay is open on
+3. Push it west twice and south once, aiming each push, in any order the quay allows. The quay is open on
    every side of those cells, so it can always be got behind again.
 4. On the plinth (`m3_bridge`), the weight drops with a thud and the bridge swings round along the quay (a gate
    turning the bridge's cells to water on the surf layer, and the bridge's tiles onto the quay). Back on Marill,

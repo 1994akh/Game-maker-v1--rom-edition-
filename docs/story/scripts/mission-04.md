@@ -1078,8 +1078,8 @@ Pushed things stay where they're pushed, so every block can be got behind again.
 **Puzzle 1. The Trial of Stone (Move, as built, laid out again).**
 1. In the stone court, the training stone (slot 10) sits one row north and three cells east of the mat. A
    sparring post stands west of the stone, in its row.
-2. Push it south once (from the north), then west three times (from the east), so the player has to walk round
-   it. The mat's cell is today's target, (5,9) on today's clip; the re-clip keeps the same shape.
+2. Push it south once, then west three times: the sparring post west of it, in its row, stops it going west
+   first, so the order of the pushes is the puzzle (Golden Sun's free aim: open question 120). The mat's cell is today's target, (5,9) on today's clip; the re-clip keeps the same shape.
 3. On the mat (`m4_trial`), scene 3 plays. The court is open round every cell the stone can reach.
 4. The stone only moves once the abbot has set the trials (`m4_asked`); before that Move gives the stone's
    refusal line (People and signs), as Grist says, so the trials keep their order.
