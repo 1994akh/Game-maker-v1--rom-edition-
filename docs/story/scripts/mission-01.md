@@ -1031,7 +1031,7 @@ room to reset it: every room is laid out so a block can never be pushed into a c
 4. Pushing either Sentinel north up the corridor clears the way too, as built; the space beyond is wide enough that
    it never blocks puzzle 2.
 
-It teaches that Move pushes away from you.
+It teaches that Move pushes a thing the way you aim it (Golden Sun's free aim: open question 120).
 
 **Puzzle 2. The split floor (Move, new).**
 1. Past the Sentinels, the shake has split the floor right across the hall: a crack one cell wide, wall to wall.
@@ -1049,12 +1049,12 @@ It teaches that Move can fill a gap.
    same row. The second stands one row north of the sockets and three cells east of the east socket.
 3. The first: push it east twice onto the west socket (`m1_lock_a`). It settles with a click, and its eyes glow
    amber.
-4. The second needs two pushes from two sides: west three times and south once, in either order, so the player
-   has to walk round it (`m1_lock_b` on the east socket).
+4. The second needs pushes in two directions: west three times and south once, in either order, each one aimed
+   (`m1_lock_b` on the east socket).
 5. With both statues on their sockets, the bars sink into the floor (a gate on both flags). The words above the
    gate echo the inner door: two keepers, where one cannot.
 
-It teaches that a push needs room behind it, and sets up the two-Earth door.
+It teaches that a pushed thing needs room to slide into, and sets up the two-Earth door.
 
 **Optional. The glint (Scoop, new).**
 1. In the Sentinel gallery, earth has poured from a cracked wall into a heap with a glint in it (a dig spot).
