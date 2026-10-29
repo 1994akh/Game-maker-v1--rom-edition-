@@ -3,6 +3,17 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 29 Oct 2026
+
+- **New for your answer (open 122 to 124):** Bigger touch areas than the drawn buttons; A clearer pressed look on
+  the touch buttons; Tapping the message box to turn the words.
+- **Fixed (engine PR #87, 29 Oct), your report that A did nothing on the phone:** every touch button (A, B, L, R, Start
+  and the Run bar) took a tap only on the top-left quarter of its face, since 14 Oct: its touch shape was centred on the
+  button's corner. Now each takes a tap anywhere on its drawn face, every control stands on whole pixels so it is drawn
+  where it takes taps, the phone's Back and volume keys no longer hide the touch controls, and the first tap after a
+  pad or key is no longer lost. A new check drives the game with real touches at both Fold views, so this cannot come
+  back unseen. Your order for the jobs after it: movement and puzzles, then the world map and quality of life.
+
 ## 25 Oct 2026
 
 - **New for your answer (open 118 to 121):** Cast glow colours for Forest and Shadow Psynergy; How a Pokémon's field
