@@ -17,7 +17,9 @@ engine work continues in parallel and reads only the decisions recorded in this 
   superseded. `docs/CHANGELOG.md` lists every decision since 13 Oct with the reasons.
 - The story has **no decided content yet** beyond the structure below. One finished draft exists as raw material:
   `docs/story/drafts/elemental-epic.md`. It predates several decisions (see its caveats), so take ideas, not text.
-  `docs/phase1/WORLD_PROPOSAL.md` is an earlier world/map proposal; its traversal and biome lists are still useful.
+  `docs/design/world-map.md` is the decided world (24 Oct): the rings, every place, its rooms and how they join, and
+  how you move between them. `docs/phase1/WORLD_PROPOSAL.md` is an earlier proposal it replaces: take no traversal or
+  biomes from it.
 
 ## Fixed: the shape of the story (decided 13 Oct)
 

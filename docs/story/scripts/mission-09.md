@@ -997,7 +997,7 @@ fleet. We escort them in.
 
 ### 20. The landing
 
-- Room: `stonehollow`, the cove. Trigger: entering from the voyage, once `m9_top`, unless `m9_done` (it replaces
+- Room: `marrow_cove`. Trigger: entering from the voyage, once `m9_top`, unless `m9_done` (it replaces
   the first half of today's `refugees_settle`).
 
 *[fade in 40] Dawn in Stonehollow's cove, crowded as it has never been: Rimborn boats tied two deep along the jetty,

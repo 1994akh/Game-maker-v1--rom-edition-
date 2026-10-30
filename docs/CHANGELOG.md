@@ -3,6 +3,15 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 30 Oct 2026
+
+- **The world map's docs pass (world-map.md §9), done:** story.md's sketch puts the Wide's quarters on the compass
+  points with Fallhaven in the east rim's bite; Lantern Reef is in the north-west Calm; the Bazaar-to-Fallhaven run is
+  south, down the rim (Ketch's lines and scene 15 in mission 8); the Greenwild and Lantern Reef arrivals name no day
+  count, since you sail them yourself; the cove scenes of missions 9 and 10 and Tully's place name `marrow_cove`;
+  mission 3's build doc sails south; BRIEF.md points agents at the world map page; menus §8.8 uses the new world size.
+  Left: the engine's "sailed east" placeholder line, after the traversal branch lands.
+
 ## 29 Oct 2026
 
 - **Decided (you, 27 Oct):** open questions 117 to 121, all as recommended. The touch buttons stay fixed (no touch
