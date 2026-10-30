@@ -8,7 +8,7 @@ Built on Opus 5.5 while Fable 5.1 was rate-limited; the Fable model reviews it w
 ## The flow
 
 1. **Stonehollow, after mission 2.** Commodore Ilse has news: Canalport is flooding and the old sluice house has
-   gone quiet. **Maren joins** (with her Eevee), and the Kestrel carries them east across the Calm.
+   gone quiet. **Maren joins** (with her Eevee), and the Kestrel carries them south across the Calm.
 2. **Canalport** (`canalport`, placeholder tiles from Golden Sun 2's Alhafra beach). The Kestrel ties up at the
    stone jetty. The sea is pouring across the beach through two breaches beside the tide pools.
 3. **Frost.** Maren's Frost turns each breach's pool into an ice pillar. Once both are frozen the flood drains:

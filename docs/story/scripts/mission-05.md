@@ -41,9 +41,8 @@ in place and listed under "Either order", below.
 
 *Over black, before the fade:*
 
-**Narration:** The Kestrel sailed west across
-the Calm, two days and two nights,
-to the coast of the Greenwild.
+**Narration:** The Kestrel came in at last to
+the coast of the Greenwild.
 
 Long before the coast, they saw the
 tree. The Eldergrove stood over the
@@ -1436,7 +1435,8 @@ the Crew 2 interlude that the next rest plays belong to mission 7's and mission 
 
 Things story.md doesn't say, for you to keep or strike:
 
-- **The voyage:** two days west across the Calm, and the Eldergrove seen from far off "like a green thundercloud"
+- **The voyage:** sailed by the player, so the arrival names no days (world-map.md §1.8); the Eldergrove seen from far
+  off "like a green thundercloud"
   (story.md §2's landmark).
 - **The village:** root-houses, rope bridges and moss roofs; the Kin-stone with six old marks at its base; the
   Mossbed; Fennel's stall; the Greenwild's tithe paid in harvest, "seed and sap"; the village burning its sick

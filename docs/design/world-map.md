@@ -812,7 +812,9 @@ Question **Moving between rooms**. In outline:
 
 ## 9. Lines and pages to fix
 
-These follow from your answers (24 Oct) and are the next docs pass.
+These followed from your answers (24 Oct). Done on 30 Oct (the design repo), except the engine's placeholder line,
+which waits for the traversal branch to land, since that branch edits Stonehollow's events. mission-09.md had no "west
+along the rim" line left to change.
 
 - **story.md §2:** the sketch redrawn with compass-point quarters and the bite. "The Tradewind Bazaar to Fallhaven: a
   day and a night east" becomes "south, down the rim". The line that both voyages "read the same from wherever the

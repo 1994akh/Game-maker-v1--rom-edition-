@@ -36,7 +36,7 @@ the crews want it, the cracked Kestrel gets a burning send-off at dusk, with Ket
 
 ### 1. Nets
 
-- Room: `stonehollow`, the cove. Trigger: straight on from mission 9's landing (or entering the cove once
+- Room: `marrow_cove`. Trigger: straight on from mission 9's landing (or entering the cove once
   `m9_done`, unless `m10_intro`). It replaces the second half of today's `refugees_settle`.
 
 *[phase day] [fade in 40] Later that morning, in Stonehollow's cove. The Holdfast's sails go out round the point,
@@ -975,7 +975,7 @@ Wayfarer, and the maiden voyage at her helm (scene 15).*
 
 ### 13. Cidrick (optional, the egg)
 
-- Room: `stonehollow`, the cove's far end. Trigger: talking to Cidrick, once `m9_done`, unless `m10_cidrick` (the
+- Room: `marrow_cove`, Cidrick's yard at the far end. Trigger: talking to Cidrick, once `m9_done`, unless `m10_cidrick` (the
   egg's short staged scene, decision 10).
 
 *At the cove's far end, two trestles and a heap of timber have become a shipyard overnight, with a painted board
@@ -1019,7 +1019,7 @@ into it.
 
 ### 14. A Funeral at Sea (optional, the egg)
 
-- Room: `stonehollow`, the cove. Trigger: yes to the beached Kestrel's question (People and signs), once
+- Room: `marrow_cove`. Trigger: yes to the beached Kestrel's question (People and signs), once
   `m10_done`, unless `m10_funeral` (§9a's "A Funeral at Sea", decision 10).
 
 *[fade out 30] [phase dusk] [fade in 30] Dusk in the cove, the tide going out. The Kestrel has been floated off the

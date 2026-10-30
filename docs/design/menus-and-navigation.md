@@ -310,7 +310,7 @@ world map it fires when the region changes and adds the danger stars. It has a s
 ### 8.8 Landmarks on a small screen (decision N-10)
 
 The decided "camera pulled back to see the nearest landmark" can't hold at 240–373 px wide, since the world is
-4,096×5,120 px. Instead, each off-screen landmark of a known region gets a tiny edge marker on the world map. A
+8,192 px square (world-map.md §1.8; the demo plays its middle 4,096). Instead, each off-screen landmark of a known region gets a tiny edge marker on the world map. A
 zoom-out can come after the 480×320 picture.
 
 ### 8.9 The Farer's Log (sections decided, screen proposed)

@@ -139,9 +139,8 @@ reef.
 
 *Over black, before the fade:*
 
-**Narration:** The Kestrel sailed north, a day
-and a night, into waters where the
-sun went grey.
+**Narration:** The water went grey under the
+Kestrel, and the sun with it.
 
 Then came the fog. Vesper took the
 helm, and for an hour nobody said a
@@ -1062,8 +1061,8 @@ Things story.md doesn't say, for you to keep or strike:
   beach; the lead that brings the deputy north (a Rimborn skiff "came out lighter"); fifty coins, or the whole purse
   and a tab ("I don't give credit. I keep a tab. A very good tab"); "For the job, I'm crew"; "I see what's hidden.
   I stop what moves. And nobody sees me unless I let them"; staying on at "the same rate", with the bill to follow.
-- **The voyage:** a day and a night north into grey water, then an hour of fog (from wherever the Kestrel lies, so
-  it reads the same in either order).
+- **The voyage:** sailed by the player into the north-west Calm, so the arrival names no days (world-map.md §1.8):
+  grey water, then an hour of fog.
 - **Lantern Reef:** "every ship the north fog ever ate"; why the decks are night-only, in a pilot's words ("Day fog
   stands up. Night fog lies down"); the water "all teeth", so nobody swims it; the lanterns kindling on the wrecks by
   themselves; the Last Bell, a three-master broken in three, and its bell rung by a Duskull; the Merrow, a small

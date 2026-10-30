@@ -28,7 +28,7 @@ chart and Wynn's Dawn Stone; the note shows the nought added in a different ink.
 map". Beaten, they are blown away on Wynn's wind. At the Guild, Guildmistress Tally weighs the two notes, clears
 Wynn's name, fines Plumb his nought and the crew one coin, and opens the board to them. Wynn's chart shows six
 threads of light running under the world to a ring beneath the Pinnacle, "the Crown", and a tower above the clouds
-where sky-ships moored; Corvin lays the ledger page on it. The crew sails east for Fallhaven at dusk, and Crew 1
+where sky-ships moored; Corvin lays the ledger page on it. The crew sails south for Fallhaven at dusk, and Crew 1
 wakes to a runner with three wanted posters.
 
 ## Scenes
@@ -737,8 +737,8 @@ talking to Ketch at the landing sails.*
 - Room: `tradewind_bazaar`, the Guild hull's landing. Trigger: talking to Ketch, once `m8_chart`. Before then, his
   line (People and signs).
 
-**Ketch:** Fallhaven? East, to the rim. A
-day and a night, if the wind's
+**Ketch:** Fallhaven? South, down the rim.
+A day and a night, if the wind's
 kind. It never is.
 
 *With any contract not done (any of `m8_c_bilge`, `m8_c_overboard`, `m8_c_ice`, `m8_c_hold`, `m8_c_bell` unset):*
@@ -757,16 +757,16 @@ for a long while. Sail anyway?
 
 *Yes: scene 15.*
 
-### 15. East to the rim
+### 15. Down the rim
 
 - Room: `tradewind_bazaar`, the landing. Trigger: yes to Ketch.
 
 *[phase dusk] The Bazaar's lanterns come on, hull by hull, as the skiff pulls away from the landing. [hide the crew]
 [fade out 40]*
 
-**Narration:** Ketch ran the skiff east from
-the Bazaar at dusk, out toward the
-rim and Fallhaven.
+**Narration:** Ketch ran the skiff south from
+the Bazaar at dusk, down the rim
+toward Fallhaven.
 
 *Over black:*
 

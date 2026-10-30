@@ -804,7 +804,7 @@ give a place instead.
   over. I'm being extra good. Just in
   case.
 
-- **Tully, the Kestrel's mate**, slot 17, cell (13,1) (today's voyage role, before `has_ship`). The festival:
+- **Tully, the Kestrel's mate**, slot 17, on the jetty in `marrow_cove` (today's voyage role, before `has_ship`). The festival:
 
   **Tully:** The Commodore's cutter, the
   Kestrel. Fastest hull in the Calm.

@@ -42,20 +42,21 @@ Halcyra is laid out in **rings around one continent**. The rings make the map ea
 centre is "toward the Pinnacle" and the edge is "toward the falls".
 
 ```
-                    ~ ~ ~ ~ ~ ~  T H E   R I M F A L L S  (world edge) ~ ~ ~ ~ ~ ~
-            NORTHREACH (ice, sky)                      EASTWATER (rim towns, trade)
-                 ≈≈≈≈≈≈≈≈≈≈≈  T H E   G A L E W A Y  (storm ring) ≈≈≈≈≈≈≈≈≈≈≈
-                       ·  ·  ·  T H E   C A L M  (inner sea)  ·  ·  ·
-                                 ┌──────────────────────┐
-                    Lantern Reef │   M E R I D I A      │ Marrow Isle (HOME)
-                                 │  (the continent)     │
-                    Bastion Rock │  ▲ the Pinnacle ▲    │ Canalport
-                                 │   on the Spine       │
-                                 └──────────────────────┘
-                       ·  ·  ·        Embral Isle (volcano)       ·  ·  ·
-                 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
-            WESTGLOAM (fog, the Umbral Gate)           SOUTHDEEP (coral, the Deep Shelf below)
-                    ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+                 ~ ~ ~ ~ ~ ~ ~  T H E   R I M F A L L S  (world edge)  ~ ~ ~ ~ ~ ~ ~
+                           NORTHREACH (ice, sky; the Stormspire)
+                ≈≈≈≈≈≈≈≈≈≈≈  T H E   G A L E W A Y  (storm ring)  ≈≈≈≈≈≈≈≈≈≈≈
+                      ·  ·  ·  T H E   C A L M  (inner sea)  ·  ·  ·
+                 Lantern Reef   ┌──────────────────────┐
+  WESTGLOAM                     │   M E R I D I A      │  Marrow Isle (HOME)      EASTWATER
+  (fog, the                     │  (the continent)     │  Canalport               (rim towns, trade)
+   Umbral Gate)  Bastion Rock   │  ▲ the Pinnacle ▲    │                           the bite in the
+                                │   on the Spine       │                             rim: Fallhaven
+                                └──────────────────────┘
+                      ·  ·  ·        Embral Isle (volcano)       ·  ·  ·
+                ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+                           SOUTHDEEP (coral, the Deep Shelf below)
+                 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+   The Wide's four quarters sit on the compass points (docs/design/world-map.md §1.5); the east rim bites inward.
    Layers:  ABOVE = the Cloudreach (cloud sea)   BELOW = the Deep Shelf   BESIDE = the Hollow (Giratina's mirror world)
 ```
 
@@ -80,13 +81,15 @@ centre is "toward the Pinnacle" and the edge is "toward the falls".
 **The six Wells' colours** (the opening's stills): Golden Sun's element colours for four of them, amber for Earth,
 red for Flame, blue for Sea and violet for Sky, with green for Forest and a cold silver for Shadow.
 
-**Sailing times in Act I** (the scripts tell the voyages as narration):
+**Sailing times in Act I** (mission 3's first voyage and Crew 2's skiff runs are told as narration; the voyages you sail
+yourself name no days: world-map.md §1.8):
 - Marrow Isle to Canalport: two days across the Calm and up Saltmarsh Reach's channels.
-- To the Greenwild: two days west across the Calm.
-- To Lantern Reef: a day and a night north into grey water, then an hour of fog.
-- Both Act I voyages read the same from wherever the Kestrel lies, so missions 5 and 6 work in either order.
+- To the Greenwild: west across the Calm, round Meridia's south from Canalport or its north from home. The tree
+  shows long before the coast.
+- To Lantern Reef, in the north-west Calm: grey water, then an hour of fog.
 - Marrow Isle to Fallhaven by Rimborn skiff: two days through the Galeway lanes, five days there and back.
-- The Tradewind Bazaar to Fallhaven: a day and a night east, with no Galeway between, since both lie outside it.
+- The Tradewind Bazaar to Fallhaven: a day and a night south, down the rim, with no Galeway between, since both lie
+  outside it.
 
 **What can block a route.** Only three things do, as you asked:
 
@@ -386,7 +389,7 @@ because Act I is played as Crew 1.
 | # | Mission | Crew | Where | What happens | Unlocks | Gate |
 |---|---|---|---|---|---|---|
 | 5 | **The Eldergrove** | Crew 1, then Sorrel joins | The Greenwild (continent west), the giant tree | The village calls Sorrel cursed. Growth vines, a poison swamp, a bug hive. **Celebi** shows a vision of the founders sealing the Wells "so the centre may endure", then breaks off. On Ilse's order, Crew 1 drives the Forest seal deeper: a choice that comes back to haunt them | **Sorrel joins.** Growth; Cut | Open |
-| 6 | **Lantern Reef** | Crew 1, then Vesper joins | The north Calm: a ghost-ship graveyard in fog | Night-only decks: Reveal planks, Defog banks, Halt booms. Vesper pilots through the fog for a price. Corvin has left {HERO} a note: "Ask your Commodore where the tithe goes" | **Vesper joins.** Reveal; Defog | Open (Vesper pilots you in) |
+| 6 | **Lantern Reef** | Crew 1, then Vesper joins | The north-west Calm: a ghost-ship graveyard in fog | Night-only decks: Reveal planks, Defog banks, Halt booms. Vesper pilots through the fog for a price. Corvin has left {HERO} a note: "Ask your Commodore where the tithe goes" | **Vesper joins.** Reveal; Defog | Open (Vesper pilots you in) |
 | 7 | **Bastion Rock** | Crew 2 interlude: Corvin, Tamsin, then Nerissa joins | The Tidewarden sea fortress (west Calm) | Plays after Crew 1's first recruitment. A prison break: Scoop under the walls, slip past guards' sight-lines, Surf out through the sea caves. The fortress ledgers list fire, rain and harvests shipped "to the Crown" | **Nerissa joins** | Story |
 | 8 | **The Tradewind Bazaar** | Crew 2 interlude, then Wynn joins | A floating market of lashed ships in Eastwater | Plays after Crew 1's second recruitment. A heist clears Wynn's debt; Whirlwind swings the sail-bridges and Mind Read gets the truth out of a purser. Wynn's "impossible" chart puts the Crown under the Pinnacle and shows a tower "where the sky-ships moored" | **Wynn joins. Both crews are full** | Story |
 | 9 | **The Fall of Fallhaven** | Both crews (relay) | The east rim | Fallhaven collapses the night after Crew 1 deepened the Forest seal. Crew 1 evacuates the lower town while Crew 2 holds the archive. **Sael dies** holding the doors so both crews can read the **Ledger of the Crown**: the layer-2 reveal. Maren confesses she has been reporting to Vey. Ilse defies the order to turn the refugee boats away and escorts them to Marrow Isle | Fallhaven is lost for good (§9) | Story |
@@ -650,7 +653,7 @@ Fallhaven stays a **ruin** after mission 9: a memorial you can visit, with the r
   don't" is why the forest sells no balls, and "If a Kin asks you for a fight, give it a good one". People: Elder
   Hollin (frightened, not cruel), Brack the forester, Fennel at her stall, Bryony, Rue, Sedge the Kin-warden, Clover
   and her Seedot, and Mother Hazel with her sons Linn and Osric.
-- **Lantern Reef, the north Calm:** "every ship the north fog ever ate"; the decks are night-only because "Day fog
+- **Lantern Reef, the north-west Calm:** "every ship the north fog ever ate"; the decks are night-only because "Day fog
   stands up. Night fog lies down"; the water is "all teeth", so nobody swims it; the lanterns kindle on the wrecks by
   themselves; the Last Bell, a three-master broken in three, its bell rung by a Duskull; the Merrow, a small black
   Westgloam fog-runner. Marrit the lantern-keeper lights the lanterns every dusk so the drowned crews can find their

@@ -632,7 +632,7 @@ Between the two the crew is away, so nobody needs a line. Cells are mission 1's.
   Brann. He hung it in the hatchery.
   He says the eggs like it.
 
-- **Tully**, slot 17, at the cove. Before the voyage:
+- **Tully**, slot 17, on the jetty in `marrow_cove`. Before the voyage:
 
   **Tully:** We sail the moment the Commodore
   has spoken to you, Deputy. She's at
