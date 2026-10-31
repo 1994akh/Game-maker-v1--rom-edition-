@@ -780,18 +780,18 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the touch fix (29 Oct)**
 
-122. **Bigger touch areas than the drawn buttons.** Each touch button now takes a tap exactly on its drawn face or
+122. **Decided (29 Oct):** **Bigger touch areas than the drawn buttons.** Each touch button now takes a tap exactly on its drawn face or
      bar. At the default Medium size, A is about 9 mm across on the cover screen, which is small for a thumb. There is
      little room to grow: A and B are 6 units apart, and the Run bar sits 2 units from B and A. The Large touch size
      already gives bigger faces. Recommended: keep the touch area exactly the drawn face for now, and add a margin
      only if your phone test still shows missed taps. [Grow every touch area by 2 units on each side, kept clear of
      its neighbours; grow only A and B, and leave L, R, Start and Run exact.]
-123. **A clearer pressed look on the touch buttons.** You chose the buttons' look in open question 108: navy, at about
+123. **Decided (29 Oct):** **A clearer pressed look on the touch buttons.** You chose the buttons' look in open question 108: navy, at about
      40% opacity. A pressed button is only a slightly lighter navy at the same opacity, so a tap that lands barely
      shows. The 19 Oct buttons flashed bright when pressed. Haptics, on by default, already buzz on every press.
      Recommended: brighten the pressed fill and raise its opacity while it is held, so a tap that lands can be seen as
      well as felt. [Keep the look you chose and rely on the buzz; brighten the pressed look on A and B only.]
-124. **Tapping the message box to turn the words.** Today only A (or a pad's or keyboard's confirm) fills or turns a
+124. **Decided (29 Oct):** **Tapping the message box to turn the words.** Today only A (or a pad's or keyboard's confirm) fills or turns a
      page of words, in the opening and on the field. The menus page proposes that tapping the message box moves it on
      while the pause box is up, but nothing settles tapping the box in general. Recommended: a tap on the message box
      fills or turns the page everywhere, as a second way beside A. [A only, as now; in the opening only.]
