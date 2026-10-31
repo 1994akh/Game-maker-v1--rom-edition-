@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 130 to 130):** Where a ship may land on a beach once Brightcoast opens.
+- **Merged (engine PR #94), your answer 127:** Sandmere and Driftholm stay closed with a line in their own voice until their
+  build flags are set, like Hushwater and Twin Bells; the lines are in world-map.md §2.3.
 - **Decided (you, 31 Oct):** open questions 125 to 129, all as recommended. The balance slice ports Golden Sun's exact
   status wear-off, buff size and poison timing (125). The world layout stays as built: the rim's move tapers at the Fallhaven
   Narrows and the Umbral Gate is an airship landmark (126), Sandmere and Driftholm get build flags with a closed line until

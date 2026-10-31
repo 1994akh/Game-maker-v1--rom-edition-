@@ -841,3 +841,15 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      Recommended: the Log row shows from the start holding only Said, and the Farer's Log's tabs join it when the book
      is given, as built. [Hide the Log row until the Farer's Log is given, with no backlog before mission 10; give
      Said its own row on the Start menu and let Log appear only with the book, as N-0 says.]
+
+**From the islets job (31 Oct)**
+
+130. **Where a ship may land on a beach once Brightcoast opens.** The world layout lets a ship end on any beach once
+     the Breaking has passed or Brightcoast's map is open, so the crew can walk onto Meridia's coasts. With
+     Brightcoast open before the Breaking, that same rule lets the ship land on a beach of Embral Isle or Bastion Rock
+     and walk round their closed harbours, which the page says nobody passes until their missions. The layout job's
+     reachability test caught it with a stage that set every build flag. Recommended: beach landings only on the
+     coasts of a place whose own map is open (Meridia's shores once Brightcoast's map is in), never on an island whose
+     harbour is still closed. [Beach landings anywhere only after the Breaking, and never before it, even with
+     Brightcoast open; keep it as it is: Brightcoast open means any beach, and rely on the closed islands' missions
+     coming first.]
