@@ -5,6 +5,7 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 131 to 131):** A control that appears under your finger.
 - **Merged (engine PR #93), your answer 124:** a tap on the message box does what A does to the words, everywhere: it fills a
   page still being written and turns a full one, and leaves a yes/no or a list to its own rows and A once it stands. A drag, a
   hold, a second finger, a system-cancelled touch and the touch that opened the box do nothing. Two small touch-control
