@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #91), your answer 123:** a held touch button shows a bright face with its letter in the frame's dark
+  ink, and stands above the controls' opacity until let go, so a tap that lands is seen as well as felt. The review
+  found a separate fault on main: at the cover view the floating stick lets go while a second finger taps Start; it is
+  the next small task.
 - **New page, docs/design/asset-priorities.md:** your rule of 31 Oct (make or reuse local material as each slice comes up,
   with credit) turned into a plan: the seven things we make, in order (the four interiors Golden Sun lacks, the Calm's
   storm ring and fogs, the stills and title card, the ships, missing icons, ambient loops, portraits after the demo) and
