@@ -853,3 +853,14 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      harbour is still closed. [Beach landings anywhere only after the Breaking, and never before it, even with
      Brightcoast open; keep it as it is: Brightcoast open means any beach, and rely on the closed islands' missions
      coming first.]
+
+**From the touch follow-up job (31 Oct)**
+
+131. **A control that appears under your finger.** When you have used a keyboard or pad, the touch controls hide. The
+     next touch brings them back, and a button can appear right under that finger. Today a first tap on A's place
+     after a key presses A, on purpose, so the first tap is never wasted. The new fix makes one exception: a finger
+     that lands on the message box's words, where the box then moves up out of the way, is kept from the Start bar
+     that appears under it, and turns the page instead. Recommended: keep what is built: a touch on the words is the
+     box's tap, and anywhere else a control appearing under the finger presses, so the first tap after a key still
+     works. [The touch that brings the controls back presses nothing anywhere, so a first tap on A after a key only
+     shows the controls; that touch presses nothing anywhere and turns no page either.]
