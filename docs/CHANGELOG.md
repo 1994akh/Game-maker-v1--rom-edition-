@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #93), your answer 124:** a tap on the message box does what A does to the words, everywhere: it fills a
+  page still being written and turns a full one, and leaves a yes/no or a list to its own rows and A once it stands. A drag, a
+  hold, a second finger, a system-cancelled touch and the touch that opened the box do nothing. Two small touch-control
+  follow-ups the job had to leave (the floating stick's ring jumping to a tap on the box; the first tap after a keyboard
+  pressing the Start bar that appears under it) are being fixed next.
 - **New for your answer (open 130 to 130):** Where a ship may land on a beach once Brightcoast opens.
 - **Merged (engine PR #94), your answer 127:** Sandmere and Driftholm stay closed with a line in their own voice until their
   build flags are set, like Hushwater and Twin Bells; the lines are in world-map.md §2.3.
