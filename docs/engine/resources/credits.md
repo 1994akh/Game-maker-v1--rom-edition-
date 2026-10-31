@@ -30,6 +30,8 @@ The in-game Credits screen (menus-and-navigation.md §10) reads a committed `dat
 | GUT (Godot Unit Test) | bitwes | MIT | Tests (not shipped once art decision 16 is taken) | "GUT by bitwes" | Dev only |
 | YATI (Tiled importer) | Roland Helmerichs | MIT | Map import | "YATI by Roland Helmerichs" | In the game |
 | Tiled | Thorbjørn Lindeijer and contributors | GPL (the editor; maps are ours) | Map authoring | "Maps made with Tiled" | Dev only |
+| Golden Sun: The Lost Age Editor, source (uploaded 30 Oct) | Josh "Atrius" VH (goldensunhacking.net) | GNU GPL | Reference only, never run: its data handler and scripting notes document the ROMs' compression, text and event-script opcodes, read to confirm our own extraction | "Format notes with thanks to Atrius's Golden Sun: The Lost Age Editor" | Reference, 30 Oct |
+| Game Tools Collection, source (uploaded 30 Oct) | RyudoSynbios (game-tools-collection.com) | MIT | Reference only, never run: its Golden Sun ROM and save editor templates list the stat, experience, enemy-group, item and save tables with their pointers, a cross-check for our tables and the balance slice | "Table offsets cross-checked against RyudoSynbios's Game Tools Collection" | Reference, 30 Oct |
 
 **Rules of the record:** a row is added before an asset enters the engine, and a row's status moves to "In the game"
 in the same PR that uses it. "To find out" credit lines are chased before the credits scroll is built. Nothing from
