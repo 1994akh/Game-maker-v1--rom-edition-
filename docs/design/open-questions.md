@@ -795,3 +795,14 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      page of words, in the opening and on the field. The menus page proposes that tapping the message box moves it on
      while the pause box is up, but nothing settles tapping the box in general. Recommended: a tap on the message box
      fills or turns the page everywhere, as a second way beside A. [A only, as now; in the opening only.]
+
+**From the decompilation research (31 Oct)**
+
+125. **Status, buff and poison rules: Golden Sun's exact ones or ours.** Reading the Golden Sun decompilation
+     confirmed every battle formula in our notes and showed three rules our battle code does not follow exactly: a
+     status wears off by a roll that depends on the unit's Luck, a stat buff is (8 plus the caster's level) eighths of
+     the stat, and poison takes a tenth and venom a fifth of HP at the poisoned unit's own turn end. Our battle uses
+     Golden Sun's formulas elsewhere, so this is the last gap for parity. The balance slice is where it would be
+     built. Recommended: port the three rules as Golden Sun has them, so status fights feel like Golden Sun's, and
+     re-measure the story fights afterwards. [Keep our rules as built and tune them in the balance slice; port only
+     the Luck-based wear-off and leave buffs and poison as they are.]

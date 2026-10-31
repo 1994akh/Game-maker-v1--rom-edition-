@@ -5,6 +5,7 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 125 to 125):** Status, buff and poison rules: Golden Sun's exact ones or ours.
 - **Merged (engine PR #91), your answer 123:** a held touch button shows a bright face with its letter in the frame's dark
   ink, and stands above the controls' opacity until let go, so a tap that lands is seen as well as felt. The review
   found a separate fault on main: at the cover view the floating stick lets go while a second finger taps Start; it is
