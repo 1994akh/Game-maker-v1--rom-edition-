@@ -880,3 +880,29 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      whose harbour is not closed takes a landing on its beach. [Only islands the page names as large take a landing,
      and the rest are entered only at their harbours; no island beach landings at all: islands are entered only at
      their harbours.]
+
+**From the sound effects job (31 Oct)**
+
+134. **Which chirp is Djinn Set and which is Standby.** Golden Sun's Djinn menu plays one of two chirps for Set and
+     the other for Standby, and the decompilation does not say which is which. Both are rendered. The higher chirp is
+     also Golden Sun's battle recovery sound. In our battles they play when a partner is unleashed and when it is Set
+     again. Recommended: keep the built reading (the lower chirp for Set, the higher for Standby) and swap them after
+     you hear it if it feels backwards. [Swap them now; use Golden Sun's own battle Djinn sounds instead of the menu
+     chirps: a rumble when unleashing, a chime then the rumble when one is Set.]
+135. **What plays when the party falls in battle.** Golden Sun fades the battle music and plays its game-over theme
+     under The party has fallen. That theme is already the track of your sad cue. Recommended: Golden Sun's game-over
+     theme from the defeat message until the walk back brings the room's music, as built. [Keep the battle music
+     playing through the defeat message; a different track for game over, so it is not the same as the sad cue.]
+136. **How loud the effects sit against the music.** The effects are rendered at the music's own gain, so their
+     balance is the Game Boy's. With the Settings defaults (Music 6, Effects 8) the effects come out a little louder
+     than that. Menu sounds sit under the music and battle hits reach slightly above it. Recommended: keep the Game
+     Boy's balance with the defaults Music 6 and Effects 8, and adjust after you hear it on the Fold. [Raise the menu
+     sounds so they are easier to hear; lower the battle hits so they do not stand out over the music.]
+137. **The level-up jingle: once per battle or once per member.** Golden Sun plays the jingle before each character's
+     level-up line. Ours plays it once when the level-up pages open after a battle, even if several members levelled
+     up. Recommended: once per member, as Golden Sun does, built after the movement branch merges since it needs the
+     message box's page-by-page flow. [Once per battle, as built now, quieter after a fight where everyone levels.]
+138. **Sounds on message pages and Settings changes.** Golden Sun turns ordinary dialogue pages silently. For a
+     Settings value the build plays the cursor sound, which on the Effects row also lets you hear the new level.
+     Recommended: silent page turns and the cursor sound when a Settings value changes, as built. [A soft click on
+     each page turn; the confirm sound instead of the cursor when a Settings value changes.]
