@@ -5,6 +5,8 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 126 to 128):** The rim's move at the Breaking against the Fallhaven Narrows; Sandmere
+  and Driftholm before they are built; Crown Landing from the land.
 - **New for your answer (open 125 to 125):** Status, buff and poison rules: Golden Sun's exact ones or ours.
 - **Merged (engine PR #91), your answer 123:** a held touch button shows a bright face with its letter in the frame's dark
   ink, and stands above the controls' opacity until let go, so a tap that lands is seen as well as felt. The review
