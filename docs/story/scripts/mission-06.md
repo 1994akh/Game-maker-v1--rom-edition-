@@ -969,8 +969,8 @@ Open question 19 (a light blade for Vesper as this mission's gear chest) is stil
 The crew's verbs here: {HERO}'s Move and Scoop, Maren's Frost, Surf on Marill (no use on the reef: its water is all
 teeth), and Vesper's Reveal, Halt and Cloak from scene 1; Sorrel's Growth when she is in the crew, for one optional
 reward; Defog from scene 8, for the optional banks. The main path needs only the verbs every order of play has. The
-clock is a puzzle of its own: the decks are there only at night. Pushed things stay where they're pushed, so the
-crate can always be got behind again.
+clock is a puzzle of its own: the decks are there only at night. An unsolved puzzle resets when the room is left
+(decision 71), and the crate can always be got behind again.
 
 **Puzzle 1. Wait for dark (the clock, new).**
 1. By day, at dawn and at dusk the fog stands like a wall at the rock's edge, and the gangway is closed.

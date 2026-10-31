@@ -822,8 +822,9 @@ stay. Cells are on today's 25×20 clip.
 ## Puzzles
 
 Corvin's verbs are Move and Scoop, both innate to Earth Adepts; Larvitar has no kept HM yet. Three puzzles in the
-caves (one optional) and three on the way out of Fallhaven. As in mission 1, pushed things stay where they're pushed
-(slice 4), so no room may let a block be pushed where it can't be got behind again.
+caves (one optional) and three on the way out of Fallhaven. As in mission 1, an unsolved puzzle resets when the room
+is left and entered again (decision 71), so leaving is always a way back from a wrong push; no room lets a block be
+pushed where it can't be got behind again all the same.
 
 **The sea caves**
 

@@ -1018,9 +1018,11 @@ The hero's verbs here are Move and Scoop, both innate to Earth Adepts. The partn
 their story flags. Three Move puzzles stand between the entrance and the inner door, and one optional Scoop. They
 all fit one re-clipped `vault_halls` (changes, below).
 
-**Pushed things stay where they're pushed** once slice 4 saves them in place, so no puzzle may rely on leaving the
-room to reset it: every room is laid out so a block can never be pushed into a cell it can't be brought back from
-(no reachable corner, and no wall on the side the next push needs).
+**An unsolved puzzle resets when the room is left** and entered again (decision 71, 24 Oct; this replaces the old
+rule that pushed things stayed put): a block pushed part way stands in its own place again, a solved one stays on
+its target, and a filled pit stays filled. So leaving the room is always a way back from a wrong push; the rooms
+are still laid out so a block is never pushed into a cell it can't be brought back from, and the engine holds every
+built block to that (`test_puzzle_recoverable`).
 
 **Puzzle 1. The Sentinels (Move, as built).**
 1. The corridor north out of the entrance hall is two cells wide, blocked by two Sentinels side by side (slots 9

@@ -61,5 +61,6 @@ All lines are our placeholders, written to the story's beats, in the engine's `m
   pass.
 - **The Lodestar** does nothing yet. The story gives it a role later (rumours, danger markers, §10); the item is
   in the bag so saves carry it.
-- **Save and continue mid-mission:** flags and the bag persist; a pushed Sentinel's position does not (it stands
-  where the room places it on re-entry), which only matters for the puzzle's look, not for progress.
+- **Save and continue mid-mission:** flags and the bag persist; a pushed Sentinel's position does not: an unsolved
+  puzzle resets when the room is left and entered again, and a solved one stays solved (decision 71, built 31 Oct in
+  engine PR #90), so leaving the Vault is always a way back from a wrong push.

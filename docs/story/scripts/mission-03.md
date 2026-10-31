@@ -1098,8 +1098,8 @@ beast is the fight.
 
 The crew's verbs here: {HERO}'s Move and Scoop, Maren's Frost (Sea), and Surf once Marill joins (a kept HM, free).
 Cut waits for mission 5. One puzzle on the harbour front and two in the canals, with an optional dig, all on the
-main path but the dig. As in missions 1 and 2, pushed things stay where they're pushed (slice 4), so every block
-can always be got behind again.
+main path but the dig. As in missions 1 and 2, an unsolved puzzle resets when the room is left (decision 71), and every
+block can always be got behind again.
 
 **Puzzle 1. The breaches (Frost, as built).**
 1. The flood band cuts the jetty off from the town. Two tide pools on the band bubble with seawater: the breaches
