@@ -864,3 +864,19 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      box's tap, and anywhere else a control appearing under the finger presses, so the first tap after a key still
      works. [The touch that brings the controls back presses nothing anywhere, so a first tap on A after a key only
      shows the controls; that touch presses nothing anywhere and turns no page either.]
+
+**From the beach landings job (31 Oct)**
+
+132. **Meridia's shores that have no map yet.** Your answer 130 lets a ship land on a beach only where that place's
+     own map is open. Brightcoast, the Greenwild and the Marrow highlands each now carry the flag that opens their
+     map. Dustplain, Frostmarch and the Spine's peaks have no map flag yet, because their maps come after the demo,
+     while the page says that in Act II a ship lands on any beach of Meridia. Recommended: as built: no landing on
+     their beaches until each gets its own map, when that map is made, matching your answer 130. [Open their beaches
+     with Brightcoast's map, treating Meridia as one map; open their beaches at the Breaking, as the page's any beach
+     of Meridia says.]
+133. **Which islands take a beach landing in Act II.** The page says that in Act II a ship lands on any beach of
+     Meridia or a large island, but the layout gives no island sizes. On every island the beach is part of the place
+     itself, so landing there is the same as docking. Recommended: as built: after the Breaking every open island
+     whose harbour is not closed takes a landing on its beach. [Only islands the page names as large take a landing,
+     and the rest are entered only at their harbours; no island beach landings at all: islands are entered only at
+     their harbours.]

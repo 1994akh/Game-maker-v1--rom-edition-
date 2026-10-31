@@ -674,8 +674,9 @@ hidden town**. Working name: **Nightmarket Isle**.
 - **Large areas** (a forest, a desert stretch) can be entered at their edges instead, as Golden Sun does.
 - **Harbours.** A place with a jetty is a harbour. Sail into its icon and you arrive at the jetty, with the ship
   moored. Talk to Tully or take the helm to set sail, and you're on the world map beside the harbour, aboard.
-- **The ship stays where you left her,** drawn on the map. In Act II, landing on any beach of Meridia or a large
-  island parks her there.
+- **The ship stays where you left her,** drawn on the map. Landing on a beach parks her there, but only where that
+  place's own map is open (open question 130, decided 31 Oct): Meridia's shores once their area's map is in, and an
+  island's beach only after the Breaking and never while its harbour is closed (engine PR #96).
 - **Sail here** (from the helm or Tully) goes to any harbour you have visited (question **Sailing back to places you
   know**).
 - **Story moves** you don't steer (skiff runs, storm crossings, handovers) stay a fade with a line of narration.
