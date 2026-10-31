@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #92):** the floating stick's touch area now takes in the ring wherever it is drawn, so a thumb on it
+  always holds the stick. The cover-view check failure turned out to be the desktop's oversized check window lifting the
+  ring out of its zone, not a second finger; the Auto edge inset now ignores a window larger than its display, and the
+  touch check asserts it tests the phone's own layout. All 39 checks pass at every size again.
 - **Merged (engine PR #86), quality of life part 2, your answers 111 to 116:** the Said backlog under Log, holding B runs a
   scene at Instant and a scene already seen offers Skip (including a lost story fight's retry), Auto-run as the phone's
   default, Make partner and Nickname on the Pokémon row, and an Are you sure? before selling or dropping a rare, key or
