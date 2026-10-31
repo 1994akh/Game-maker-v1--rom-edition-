@@ -295,6 +295,7 @@ when you cross into a new one, with its danger stars.
 | Bastion Rock | A shut sea-gate | Sergeant Pruitt's "Name! Number! Licence!" and a refusal | Act II |
 | Tortell's isle | A pink roof behind a reef | Tully: "That gap's Rimborn work. Not with this keel" | The Wayfarer with Ketch (mission 10) |
 | Hushwater, Twin Bells | Islands with closed landings | Their own voices: a barred reed gate, a tide over the sandbar | When they're built (after the demo) |
+| Sandmere, Driftholm | Islets with closed landings (open 127) | Sandmere: "Low dunes and a hermit's hut. The shoals keep the boat off." Driftholm: "Gull cliffs above the wrecks. No way in through the hulls." | When they're built (after the demo); flags built_sandmere, built_driftholm (engine PR #94) |
 | The Crownwater | Canalport's locks | "No vessel up the Crownwater without a Pinnacle pass" | Act III |
 | Meridia's other coasts | Cliffs and beaches, no landing | (no line, just shore) | When Meridia's walkable map comes |
 | Marrow Isle's west road | The rockslide behind the west gate | The west gate's sign | Mission 10 |
