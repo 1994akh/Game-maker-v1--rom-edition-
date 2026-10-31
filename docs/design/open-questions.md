@@ -806,3 +806,29 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      built. Recommended: port the three rules as Golden Sun has them, so status fights feel like Golden Sun's, and
      re-measure the story fights afterwards. [Keep our rules as built and tune them in the balance slice; port only
      the Luck-based wear-off and leave buffs and poison as they are.]
+
+**From the world map layout job (31 Oct)**
+
+126. **The rim's move at the Breaking against the Fallhaven Narrows.** The world map page says the rim moves inward by
+     one block all round after the Breaking. Drawn to the page's numbers, the Narrows beside Fallhaven are about 230
+     pixels wide, so a full move would close that strait and drown the Umbral Gate's ledge, yet the page still sails
+     to Fallhaven's ruin in Act II and uses its west cove as a harbour. The layout data had to pick a reading so the
+     reachability test holds. Recommended: as built: the move tapers to nothing where the Wide is narrower than about
+     300 pixels and is full where it is wider than about 556, so the Narrows stay open and Fallhaven's cliff stands.
+     The Umbral Gate's ledge sits at the falls' edge wherever the rim stands, reached by airship, with no harbour.
+     [The rim moves in everywhere, so the Narrows close at the Breaking and Fallhaven's ruin is reached only from the
+     broken storm's side or by airship, with the Act II voyage lines to Fallhaven rewritten; the whole bite is exempt
+     from the move, leaving a visible one-block step in the rim at the bite's sides.]
+127. **Sandmere and Driftholm before they are built.** The page lists these two wild islets as Act I places built
+     after the demo. Unlike Hushwater and Twin Bells, it gives them no closed landing or line, so in the demo the
+     Kestrel can reach their harbours and find islets with no room behind them. Recommended: give them build flags
+     like Hushwater's, with a short closed line in each islet's own voice until its rooms exist. [Leave them open as
+     now, so reaching the islet does nothing until the room is built; leave them off the demo's map entirely and add
+     each when built.]
+128. **Crown Landing from the land.** The page makes Crown Landing the order's river port under the Pinnacle, reached
+     by ship through Canalport's locks with a pass in Act III, and says nobody else gets through until then. It does
+     not say whether the port can be walked to across Brightcoast once Meridia's map is in. The reachability test
+     found it on foot, so the layout now closes it. Recommended: as built: the port is the order's walled basin ringed
+     by rock, entered only from the river, so neither walking nor Surf gets in before Act III. [Walkable from
+     Brightcoast in Act II through a land gate where the order's guards turn you away, opening in Act III with the
+     locks; walkable only from the Pinnacle's side in Act III, with the land gate opening with mission 21.]
