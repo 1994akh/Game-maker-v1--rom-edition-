@@ -1563,7 +1563,8 @@ neat medic's hand.
 Both crews, each with the verbs it holds (story.md §7: mandatory puzzles use what the named crew brings). Crew 1:
 {HERO}'s Move and Scoop, Maren's Frost and Ply, Sorrel's Growth, Vesper's Reveal, Halt and Cloak. Crew 2: Corvin's
 Move and Scoop, Tamsin's Blaze, Nerissa's Frost, Douse and Ply, Wynn's Whirlwind and Mind Read. Two puzzles cross
-the relay, one each way. Pushed things stay where they're pushed, so every block can always be got behind again.
+the relay, one each way. An unsolved puzzle resets when the room is left (decision 71), and every block can always
+be got behind again.
 
 **Crew 1, the lower town**
 

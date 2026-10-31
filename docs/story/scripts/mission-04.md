@@ -1073,7 +1073,7 @@ Scene 15 only. Mission 3's "after the sluice" lines hold for everyone else in th
 
 Corvin's verbs are Move and Scoop. Tamsin brings Blaze (Flame Psynergy, built for her: decision 6) from scene 6.
 Two trials in the hall, the brazier stair below it with Tamsin's first Blaze, and the escape through the fire.
-Pushed things stay where they're pushed, so every block can be got behind again.
+An unsolved puzzle resets when the room is left (decision 71), and every block can be got behind again.
 
 **Puzzle 1. The Trial of Stone (Move, as built, laid out again).**
 1. In the stone court, the training stone (slot 10) sits one row north and three cells east of the mat. A

@@ -1601,7 +1601,8 @@ it since she fell.
 The crew's verbs here: Corvin's Move and Scoop, Tamsin's Blaze, Nerissa's Frost, Douse and Ply, Surf on Froakie,
 and from scene 3 Wynn's Whirlwind and Mind Read. The main path needs Mind Read (or a lucky guess at the dial),
 Whirlwind, Move and the dial. The contracts use the rest: a fight, Surf, Frost, Blaze with Move and Scoop, and Mind
-Read three times. Pushed things stay where they're pushed, so every crate can always be got behind again.
+Read three times. An unsolved puzzle resets when the room is left (decision 71), and every crate can always be
+got behind again.
 
 **Puzzle 1. The purser and the bow (Mind Read, as built; and a sign, new).**
 1. Dabney sits at Plumb's counting table on the market hull. Talking to him gets nothing.

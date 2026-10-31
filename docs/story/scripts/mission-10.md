@@ -1978,8 +1978,8 @@ its cradle, and points nowhere yet.
 
 The crew's verbs: Crew 1's Psynergy (Move, Scoop, Frost, Ply, Growth, Reveal, Halt, Cloak) until the muster roll,
 with Corvin beside it; from `m10_done`, whatever either crew holds, and any Adept traded across. The main path needs
-only Crew 1's verbs and Corvin's scripted hand. Pushed things stay where they're pushed, so every block can always
-be got behind again.
+only Crew 1's verbs and Corvin's scripted hand. An unsolved puzzle resets when the room is left (decision 71), and
+every block can always be got behind again.
 
 **Puzzle 1. The Two-Earth Door (Move, with Corvin; new).**
 1. Corvin waits by the inner door's east print. Talking to him plays his question (scene 4); he lays his palm on

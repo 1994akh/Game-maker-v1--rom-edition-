@@ -1314,7 +1314,8 @@ The crew's verbs here: {HERO}'s Move and Scoop, Maren's Frost, and Sorrel's Grow
 Halt and Cloak only when she is in the crew, and only for optional rewards and the Hive. Surf (a Pokémon's HM, not
 Psynergy) and Cut from scene 9 guard one optional chest each. The main path needs only the verbs every order of play
 has (story.md §7: Crew 1's Psynergy, or what the named Adept brings), so a crew that left Marill in the Kin Garden
-still gets through. Pushed things stay where they're pushed, so every block can be got behind again.
+still gets through. An unsolved puzzle resets when the room is left (decision 71), and every block can be got
+behind again.
 
 **The Greenwild**
 
