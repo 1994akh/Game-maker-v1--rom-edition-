@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New page, docs/design/asset-priorities.md:** your rule of 31 Oct (make or reuse local material as each slice comes up,
+  with credit) turned into a plan: the seven things we make, in order (the four interiors Golden Sun lacks, the Calm's
+  storm ring and fogs, the stills and title card, the ships, missing icons, ambient loops, portraits after the demo) and
+  the nine we reuse (LPC people and battle rows, Golden Sun interiors, The Lost Age's sea pieces, Golden Sun sound
+  effects and the expansion's cries, backdrops, effects, Pokémon art). Every row rests on a decided question.
 - **Decided (you, 29 Oct), the touch fix's three questions (open 122 to 124), all as recommended:** the touch areas stay
   exactly the drawn faces unless the phone test still shows misses; a held button shows a brighter fill at a higher
   opacity (being built); a tap on the message box turns the words everywhere, as a second way beside A (queued
