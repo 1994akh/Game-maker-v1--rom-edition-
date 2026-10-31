@@ -5,6 +5,15 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #90), movement and puzzles:** the hero climbs vines, hops pillars, ledges and onto the water, and walks
+  every route instead of snapping or teleporting; every cast shows the pose and its element's glow, pays only when it works,
+  aims as Golden Sun aims, and plays its effect before its result, with your answers 118 to 121; unsolved puzzles reset when
+  you leave (71); people no longer stand in the only way through; every mission check walks the hero by input. Three
+  reviewers found 13 faults, all fixed before the merge (among them mission 9's scene playing twice and a mission 2 stone that
+  could be pushed into a soft-lock). Design PR #128 documents the rules as built.
+- **Merged (engine PR #97), the audio slice's first build (decision 105):** 61 of Golden Sun's own sounds rendered from your ROM
+  with agbplay, an Effects volume row in Settings, and the menus and battles playing them. The field and Psynergy sounds follow
+  next, now that movement has merged. Its five choices are open 134 to 138.
 - **New for your answer (open 134 to 138):** Which chirp is Djinn Set and which is Standby; What plays when the
   party falls in battle; How loud the effects sit against the music; The level-up jingle: once per battle or once per
   member; Sounds on message pages and Settings changes.
