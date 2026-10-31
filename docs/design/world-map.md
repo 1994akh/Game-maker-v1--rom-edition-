@@ -742,8 +742,8 @@ fits, we generate what we need.
   ours, it goes in the public repo, in the engine's `assets/own`. The same rule covers place icons, the parchment Chart
   and the opening's stills.
 - **Tools.** A small compose tool takes a saved recipe (which Golden Sun piece goes where, which generated piece
-  where, and painted fixes) and writes the map. The world exporter needs a fix first: it can't read The Lost Age's map
-  yet. A tile check tool compares a generated tile's palette and cell edges with its neighbours.
+  where, and painted fixes) and writes the map. The world exporter reads The Lost Age's map since 31 Oct (engine PR #89),
+  so the compose tool can start. A tile check tool compares a generated tile's palette and cell edges with its neighbours.
 - **Icons.** Golden Sun's own town icons where one fits, exported like the other sprites. Generated ones where none
   fits.
 - **First,** a flat coloured map straight from the layout, to test sizes and routes before any art goes on.
@@ -801,7 +801,7 @@ Question **Moving between rooms**. In outline:
 5. **The room connections, redone against this map** (the next step): the new rooms (`marrow_cove`, `embral_cove`,
    the makers' cabin), the approved ones, the Fallhaven merge, the removed Golden Sun links, the moved arrivals, the
    fades and the backdrops. The six affected checks are reworked.
-6. **The Calm's art:** fix the world exporter for The Lost Age, write the compose tool and its recipe, and place the
+6. **The Calm's art:** write the compose tool and its recipe (the exporter reads The Lost Age since 31 Oct), and place the
    icons. All of it stays on your machine.
 7. **The interior scenes and the optional places** you choose for the demo: the inns, shops and houses the missions
    walk into first, then the optional ones, with their tables, chests, finds and contracts. Generated tiles where

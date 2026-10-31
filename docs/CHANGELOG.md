@@ -3,6 +3,13 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 31 Oct 2026
+
+- **Merged (engine PR #89):** the map copy tool reads The Lost Age's exported world map as well as Golden Sun's, which
+  was the one known blocker on the Calm's art (world-map.md §8 step 6). The Lost Age's export was regenerated first so
+  its cells carry the terrain class. Reference sources dropped in the local folder on 30 Oct (Atrius's Lost Age editor
+  source, the Game Tools Collection) are credited on the credits page; read only, never run.
+
 ## 30 Oct 2026
 
 - **The world map's docs pass (world-map.md §9), done:** story.md's sketch puts the Wide's quarters on the compass
