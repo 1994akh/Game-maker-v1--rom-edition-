@@ -101,10 +101,13 @@ puzzle plays:
   a block dropping into its pit, an amber tint and a shake on a socket. Gates open after their effect.
 - **Climb (67), pillars (68), water (69), ledges (72).** A grown vine is climbed facing it at half walking speed,
   hands alternating, and can be stopped or backed down part way; frost pillars are hopped one per press; onto the
-  water and back is a quarter-second hop with a splash; a one-way ledge is hopped down and never climbed back.
+  water and back is a quarter-second hop with a splash; a one-way ledge is hopped down and never climbed back. A
+  frozen pool that plugs a breach (Canalport's two tide pools, `pillar: false`) is never hopped, so the flood band
+  waits for both breaches as mission 3's script has it, and Frost first makes a way to hop at the Long Weir.
 - **Guards and patrols.** A guard sees 20 px either side of his line and nothing behind him; walls and solid things
   (a pushed crate) block his sight. A patrol with `knocks_back` (the reef's boom) shoves the hero back with a short
   hop; a halted one doesn't. A scene may play once when a flag is set in the room (`trigger: "flag"`).
 - **The Start menu** casts the chosen Adept's field Psynergy, who pays, so Retreat and Avoid are reachable there.
-- **The checks (73)** walk the hero by input along real paths, and `test_demo_puzzles` plays every built puzzle from
-  its pre-state; `test_puzzle_recoverable` holds every Move block to a state a player can recover from.
+- **The checks (73)** walk the hero by input along real paths, and `test_demo_puzzles` plays every built puzzle (every
+  Move block and every Psynergy and HM event in the demo's rooms) from its pre-state, with its glow or icon;
+  `test_puzzle_recoverable` holds every Move block to a state a player can recover from.
