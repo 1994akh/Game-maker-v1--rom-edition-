@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 132 to 133):** Meridia's shores that have no map yet; Which islands take a beach
+  landing in Act II.
+- **Merged (engine PR #96), your answer 130:** a ship lands on a beach only where that place's own map is open, and never on
+  an island whose harbour is closed. The review also caught the flat map landing the crew on the shore beside a harbour
+  instead of at the place itself (Eldergrove, Crown Landing); fixed before the merge. world-map.md §5.1 now says the rule.
 - **Merged (engine PR #95), the touch follow-ups and your answer 131:** the floating stick's ring stays home when you tap
   the message box, and the first touch after a keyboard or pad turns the page when it lands on the words instead of pressing
   the Start bar that appears there. The review caught the overlay staying stuck after that tap in any room reached by a
