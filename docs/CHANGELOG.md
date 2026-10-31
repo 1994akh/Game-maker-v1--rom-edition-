@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #95), the touch follow-ups and your answer 131:** the floating stick's ring stays home when you tap
+  the message box, and the first touch after a keyboard or pad turns the page when it lands on the words instead of pressing
+  the Start bar that appears there. The review caught the overlay staying stuck after that tap in any room reached by a
+  warp or in a battle; fixed before the merge. Elsewhere a control appearing under a finger still presses, as you chose.
 - **Decided (you, 31 Oct):** open questions 130 and 131, as recommended. A ship lands on a beach only where that place's own
   map is open (Meridia's shores once Brightcoast's map is in), never on an island whose harbour is still closed (130, being
   built). A touch that brings the controls back after a keyboard or pad presses a control under it as before, except on the
