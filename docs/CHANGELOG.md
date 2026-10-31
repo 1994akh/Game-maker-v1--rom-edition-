@@ -5,6 +5,14 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Built (engine PR #90, Part B, 31 Oct):** every field cast shows the hero's pose and a glow in its element's colour
+  first (decision 70; Forest green and Shadow indigo per 118, an HM move's Pokémon icon per 119, a grey puff on an
+  empty press per 121), pays only when it works, aims as Golden Sun aims, and its effect plays before its result; Move
+  keeps its free steering (120) but never onto the hero or a doorway; an unsolved puzzle resets when the room is left
+  (71); guards see the rows beside theirs; the reef's boom knocks back; the Start menu casts; and each mission's
+  puzzle data stands as its script has it (the keepers seat either socket, the sea caves' stone chokes the neck to
+  Ketch, the cart waits for Sael). The ten scripts' "pushed things stay where they're pushed" gives way to 71
+  (`field-abilities.md` engine status has the rules as built).
 - **Decided (you, 31 Oct):** open questions 125 to 129, all as recommended. The balance slice ports Golden Sun's exact
   status wear-off, buff size and poison timing (125). The world layout stays as built: the rim's move tapers at the Fallhaven
   Narrows and the Umbral Gate is an airship landmark (126), Sandmere and Driftholm get build flags with a closed line until
