@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 134 to 138):** Which chirp is Djinn Set and which is Standby; What plays when the
+  party falls in battle; How loud the effects sit against the music; The level-up jingle: once per battle or once per
+  member; Sounds on message pages and Settings changes.
 - **New for your answer (open 132 to 133):** Meridia's shores that have no map yet; Which islands take a beach
   landing in Act II.
 - **Merged (engine PR #96), your answer 130:** a ship lands on a beach only where that place's own map is open, and never on
