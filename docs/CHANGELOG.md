@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 130 to 130):** Where a ship may land on a beach once Brightcoast opens.
+- **Merged (engine PR #94), your answer 127:** Sandmere and Driftholm stay closed with a line in their own voice until their
+  build flags are set, like Hushwater and Twin Bells; the lines are in world-map.md §2.3.
 - **Built (engine PR #90, Part B, 31 Oct):** every field cast shows the hero's pose and a glow in its element's colour
   first (decision 70; Forest green and Shadow indigo per 118, an HM move's Pokémon icon per 119, a grey puff on an
   empty press per 121), pays only when it works, aims as Golden Sun aims, and its effect plays before its result; Move
