@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Decided (you, 29 Oct), the touch fix's three questions (open 122 to 124), all as recommended:** the touch areas stay
+  exactly the drawn faces unless the phone test still shows misses; a held button shows a brighter fill at a higher
+  opacity (being built); a tap on the message box turns the words everywhere, as a second way beside A (queued
+  behind quality of life part 2, which is editing the message box). Every question on the decision page is now
+  answered: 519 of 519.
 - **Merged (engine PR #89):** the map copy tool reads The Lost Age's exported world map as well as Golden Sun's, which
   was the one known blocker on the Calm's art (world-map.md §8 step 6). The Lost Age's export was regenerated first so
   its cells carry the terrain class. Reference sources dropped in the local folder on 30 Oct (Atrius's Lost Age editor
