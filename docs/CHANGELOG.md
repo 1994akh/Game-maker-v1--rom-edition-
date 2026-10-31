@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Decided (you, 31 Oct):** open questions 130 and 131, as recommended. A ship lands on a beach only where that place's own
+  map is open (Meridia's shores once Brightcoast's map is in), never on an island whose harbour is still closed (130, being
+  built). A touch that brings the controls back after a keyboard or pad presses a control under it as before, except on the
+  message box's words, where it turns the page (131, built in engine PR #95). Every question answered again: 526 of 526.
 - **New for your answer (open 131 to 131):** A control that appears under your finger.
 - **Merged (engine PR #93), your answer 124:** a tap on the message box does what A does to the words, everywhere: it fills a
   page still being written and turns a full one, and leaves a yes/no or a list to its own rows and A once it stands. A drag, a
