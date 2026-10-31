@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #86), quality of life part 2, your answers 111 to 116:** the Said backlog under Log, holding B runs a
+  scene at Instant and a scene already seen offers Skip (including a lost story fight's retry), Auto-run as the phone's
+  default, Make partner and Nickname on the Pokémon row, and an Are you sure? before selling or dropping a rare, key or
+  equipped item. The two tests that had failed on main since PR #83 are fixed with it. Also merged: PR #88, the world
+  map's places, regions and layout as data with a reachability test and a flat test map (open 126 to 128 came from it).
+- **New for your answer (open 129 to 129):** The Log row before the Farer's Log is given.
 - **New for your answer (open 126 to 128):** The rim's move at the Breaking against the Fallhaven Narrows; Sandmere
   and Driftholm before they are built; Crown Landing from the land.
 - **New for your answer (open 125 to 125):** Status, buff and poison rules: Golden Sun's exact ones or ours.

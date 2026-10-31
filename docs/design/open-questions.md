@@ -832,3 +832,12 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      by rock, entered only from the river, so neither walking nor Surf gets in before Act III. [Walkable from
      Brightcoast in Act II through a land gate where the order's guards turn you away, opening in Act III with the
      locks; walkable only from the Pinnacle's side in Act III, with the land gate opening with mission 21.]
+
+**From the quality of life job (31 Oct)**
+
+129. **The Log row before the Farer's Log is given.** Decision N-0 has the Start menu's Log row appear once the
+     Farer's Log is given, aboard the Wayfarer in mission 10. Your answer 111 puts the backlog of what was said under
+     Log, and the backlog is useful from the first scene. Quality of life part 2 built the recommended way below.
+     Recommended: the Log row shows from the start holding only Said, and the Farer's Log's tabs join it when the book
+     is given, as built. [Hide the Log row until the Farer's Log is given, with no backlog before mission 10; give
+     Said its own row on the Start menu and let Log appear only with the book, as N-0 says.]
