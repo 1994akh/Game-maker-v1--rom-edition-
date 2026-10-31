@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Decided (you, 31 Oct):** open questions 125 to 129, all as recommended. The balance slice ports Golden Sun's exact
+  status wear-off, buff size and poison timing (125). The world layout stays as built: the rim's move tapers at the Fallhaven
+  Narrows and the Umbral Gate is an airship landmark (126), Sandmere and Driftholm get build flags with a closed line until
+  their rooms exist (127, to add), Crown Landing is reached only from the river before Act III (128). The Log row shows
+  from the start holding Said, and the Farer's Log's tabs join it when the book is given (129). Every question is
+  answered again: 524 of 524.
 - **Merged (engine PR #92):** the floating stick's touch area now takes in the ring wherever it is drawn, so a thumb on it
   always holds the stick. The cover-view check failure turned out to be the desktop's oversized check window lifting the
   ring out of its zone, not a second finger; the Auto edge inset now ignores a window larger than its display, and the

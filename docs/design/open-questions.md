@@ -798,7 +798,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the decompilation research (31 Oct)**
 
-125. **Status, buff and poison rules: Golden Sun's exact ones or ours.** Reading the Golden Sun decompilation
+125. **Decided (31 Oct):** **Status, buff and poison rules: Golden Sun's exact ones or ours.** Reading the Golden Sun decompilation
      confirmed every battle formula in our notes and showed three rules our battle code does not follow exactly: a
      status wears off by a roll that depends on the unit's Luck, a stat buff is (8 plus the caster's level) eighths of
      the stat, and poison takes a tenth and venom a fifth of HP at the poisoned unit's own turn end. Our battle uses
@@ -809,7 +809,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the world map layout job (31 Oct)**
 
-126. **The rim's move at the Breaking against the Fallhaven Narrows.** The world map page says the rim moves inward by
+126. **Decided (31 Oct):** **The rim's move at the Breaking against the Fallhaven Narrows.** The world map page says the rim moves inward by
      one block all round after the Breaking. Drawn to the page's numbers, the Narrows beside Fallhaven are about 230
      pixels wide, so a full move would close that strait and drown the Umbral Gate's ledge, yet the page still sails
      to Fallhaven's ruin in Act II and uses its west cove as a harbour. The layout data had to pick a reading so the
@@ -819,13 +819,13 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      [The rim moves in everywhere, so the Narrows close at the Breaking and Fallhaven's ruin is reached only from the
      broken storm's side or by airship, with the Act II voyage lines to Fallhaven rewritten; the whole bite is exempt
      from the move, leaving a visible one-block step in the rim at the bite's sides.]
-127. **Sandmere and Driftholm before they are built.** The page lists these two wild islets as Act I places built
+127. **Decided (31 Oct):** **Sandmere and Driftholm before they are built.** The page lists these two wild islets as Act I places built
      after the demo. Unlike Hushwater and Twin Bells, it gives them no closed landing or line, so in the demo the
      Kestrel can reach their harbours and find islets with no room behind them. Recommended: give them build flags
      like Hushwater's, with a short closed line in each islet's own voice until its rooms exist. [Leave them open as
      now, so reaching the islet does nothing until the room is built; leave them off the demo's map entirely and add
      each when built.]
-128. **Crown Landing from the land.** The page makes Crown Landing the order's river port under the Pinnacle, reached
+128. **Decided (31 Oct):** **Crown Landing from the land.** The page makes Crown Landing the order's river port under the Pinnacle, reached
      by ship through Canalport's locks with a pass in Act III, and says nobody else gets through until then. It does
      not say whether the port can be walked to across Brightcoast once Meridia's map is in. The reachability test
      found it on foot, so the layout now closes it. Recommended: as built: the port is the order's walled basin ringed
@@ -835,7 +835,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the quality of life job (31 Oct)**
 
-129. **The Log row before the Farer's Log is given.** Decision N-0 has the Start menu's Log row appear once the
+129. **Decided (31 Oct):** **The Log row before the Farer's Log is given.** Decision N-0 has the Start menu's Log row appear once the
      Farer's Log is given, aboard the Wayfarer in mission 10. Your answer 111 puts the backlog of what was said under
      Log, and the backlog is useful from the first scene. Quality of life part 2 built the recommended way below.
      Recommended: the Log row shows from the start holding only Said, and the Farer's Log's tabs join it when the book
