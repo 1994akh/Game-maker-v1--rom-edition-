@@ -844,7 +844,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the islets job (31 Oct)**
 
-130. **Where a ship may land on a beach once Brightcoast opens.** The world layout lets a ship end on any beach once
+130. **Decided (31 Oct):** **Where a ship may land on a beach once Brightcoast opens.** The world layout lets a ship end on any beach once
      the Breaking has passed or Brightcoast's map is open, so the crew can walk onto Meridia's coasts. With
      Brightcoast open before the Breaking, that same rule lets the ship land on a beach of Embral Isle or Bastion Rock
      and walk round their closed harbours, which the page says nobody passes until their missions. The layout job's
@@ -856,7 +856,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the touch follow-up job (31 Oct)**
 
-131. **A control that appears under your finger.** When you have used a keyboard or pad, the touch controls hide. The
+131. **Decided (31 Oct):** **A control that appears under your finger.** When you have used a keyboard or pad, the touch controls hide. The
      next touch brings them back, and a button can appear right under that finger. Today a first tap on A's place
      after a key presses A, on purpose, so the first tap is never wasted. The new fix makes one exception: a finger
      that lands on the message box's words, where the box then moves up out of the way, is kept from the Start bar
