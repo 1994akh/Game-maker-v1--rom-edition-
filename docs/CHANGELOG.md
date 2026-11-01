@@ -5,6 +5,16 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Decided (open 145 to 158), all as recommended:** as built: Corvin's homecoming plays on landing at the harbour jetty
+  (145), the four new rooms keep their Golden Sun ground (146), the lower town is 'Fallhaven, lower town' (148), the
+  alley's top stays shut with its line until the cart is moved (152), the cliff road and high town open once the cart is
+  moved (154), the high town's doors stay shut (155), crew 1 lands in the west cove (156) and the alley stays open in
+  mission 9 (157). To build: one lift, coming down at the lower town's harbour steps, with none in the harbour (147);
+  the Leaning Gull is the bottom-right house with the inn sign, with the relay stone beside its door (149); Marta's is
+  behind the jar-signed door at the top left and Sael's the plain house on the plaza's west side (150, the interiors
+  job); the clock holds in Fallhaven through mission 2, so Fen's rest heals without dawn (151); walkable ramps up the
+  cliff road's terraces before mission 2's cliff scenes (153); and a small cellar room under the old well (158, with
+  mission 9's build).
 - **New for your answer (open 145 to 158):** Where Corvin's homecoming plays; The look of Fallhaven's four new
   rooms; Where the archive's lift comes down; The lower town's name on the place banner; Which house is the Leaning
   Gull; Which houses are Sael's and Marta's; Resting at Fen's inn in mission 2; The way round the cart in the west
