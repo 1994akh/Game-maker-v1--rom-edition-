@@ -973,7 +973,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 150. **Which houses are Sael's and Marta's.** The world map page gives the lower town a door to Sael's house and one
      to Marta's shop, but neither script says which house is which. Golden Sun's town art has a jar sign, its item
      shop's mark, on a door cut into the cliff at the top left, and a sword sign on the big house at the top of the
-     plaza. The build keeps every door shut until the interiors job. Recommended: marta's behind the jar-signed door
+     plaza. The build keeps every door shut until the interiors job. Recommended: Marta's behind the jar-signed door
      at the top left, and Sael's the plain house on the plaza's west side. [Marta's in the big house with the sword
      sign, and Sael's the plain house on the plaza's west side; sael's in the big house with the sword sign, and
      Marta's behind the jar-signed door.]
