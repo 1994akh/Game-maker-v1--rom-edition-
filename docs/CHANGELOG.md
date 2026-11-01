@@ -5,6 +5,13 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Art sources and the make list (1 Nov):** for the art pass after the 6 Nov reset, art-sources.md lists the free art
+  and tools checked for each need in visual-survey.md §9's order (licences read on each page, nothing downloaded: 16
+  downloads and 8 make-or-reuse choices wait for your answer, the rest are reference only or dropped), and
+  art-handoff.md lists what we must make ourselves (36 pieces for the demo, 3 after it), each with its spec, its check
+  and a brief for another model: a code brief for every piece drawn in code, an image-tool prompt only for the painted
+  ones, each with its palette as hex ramps (from the Golden Sun tiles beside it where it has any), its frame times and
+  its files. One find saves a make: Ilse's naval bicorne is already in the LPC generator (open 179).
 - **Decided (open 183), as recommended:** SpriteLib stays in the local folder as reference only; none of it goes in
   the game.
 - **New for your answer (open 183 to 183):** SpriteLib, new in the local folder.
