@@ -6,11 +6,12 @@ header; the detailed rules are in `docs/design/`.
 ## 31 Oct 2026
 
 - **Decided (open 132 to 138), all as recommended:** no landing on a Meridia shore that has no map yet (132); after the
-  Breaking every open island whose harbour is not closed takes a beach landing (133); the Djinn chirps stay as built, the
-  lower for Set and the higher for Standby, to swap if it sounds backwards (134); the party's fall plays Golden Sun's
-  game-over theme until the walk back (135); the effects keep the GBA's balance, Music 6 and Effects 8 (136); the level-up jingle plays once per member who rises, as Golden Sun does (137, a small build after the field
-  sounds merge); ordinary message pages turn silently and Settings changes play the cursor sound (138). Every question
-  on the board now has your answer: 533 of 533.
+  Breaking every open island whose harbour is not closed takes a beach landing (133); the Djinn chirps stay as built,
+  the lower for Set and the higher for Standby, to swap if it sounds backwards (134); the party's fall plays Golden
+  Sun's game-over theme until the walk back (135); the effects keep the GBA's balance, Music 6 and Effects 8 (136); the
+  level-up jingle plays once per member who rises, as Golden Sun does (137, a small build after the field sounds merge);
+  ordinary message pages turn silently and Settings changes play the cursor sound (138). Every question on the board now
+  has your answer: 533 of 533.
 - **Merged (engine PR #90), movement and puzzles:** the hero climbs vines, hops pillars, ledges and onto the water, and walks
   every route instead of snapping or teleporting; every cast shows the pose and its element's glow, pays only when it works,
   aims as Golden Sun aims, and plays its effect before its result, with your answers 118 to 121; unsolved puzzles reset when
