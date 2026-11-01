@@ -1706,7 +1706,7 @@ Things story.md doesn't say, for you to keep or strike:
 ## Changes to the build
 
 **Rooms**
-- **`fallhaven_lower`** re-clipped from the same part of Golden Sun 1's Bilibin as mission 2's `fallhaven`, so the
+- **`fallhaven_lower`** re-clipped from the same part of Golden Sun 1's Bilibin as mission 2's lower town, so the
   plaza, the Leaning Gull, Marta's, the harbour stair and the new edge are where a player left them, with more of
   Bilibin's lanes south and west for the households: the west lane with the chimney's door and niche, the old
   terrace with the sprout's crack and the vine gate (`m9_vine`), the broken harbour steps with the lift's foot, the
