@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Decided (open 181 and 182), as recommended and as built:** no bunk at the Wayfarer's helm until her quarters are
+  built (181); at each jetty the mission's own line, then mission 3's, with Canalport's inked-chart line until mission
+  10 (182).
 - **Merged (engine PR #102), your Fallhaven answers 147, 149 and 151:** one lift, from the archive down to the lower
   town's harbour steps, none in the harbour; the relay stone beside the Leaning Gull's door, with Old Jory moved beside
   the basket; and a clock hold, so Fallhaven stays at dusk through mission 2 and at night through mission 9, Fen's rest
