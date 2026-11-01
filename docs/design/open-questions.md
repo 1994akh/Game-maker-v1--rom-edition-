@@ -941,7 +941,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      field too. Recommended: on every square that takes HP, matching the HP loss, as built. [Only on the first square
      of each visit, with its words.]
 
-**Fallhaven's rooms (31 Oct)**
+**From the Fallhaven rooms job (31 Oct)**
 
 145. **Decided (31 Oct):** **Where Corvin's homecoming plays.** The world map page lands Ketch's skiff in the new harbour below the lower
      town. Mission 2's script plays the homecoming as Corvin walks up the harbour stair to the plaza's edge and sees
@@ -949,19 +949,20 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      up the stair into the lower town. Recommended: on landing at the harbour jetty, as built. [On reaching the
      plaza's edge at the top of the harbour stair, as the script walks it; split in two, with the dusk narration on
      landing and Corvin's lines at the plaza's edge.]
-146. **Decided (31 Oct):** **The look of Fallhaven's four new rooms.** The world map page asks for one look per place where possible, and
-     lists Fallhaven's high town among the things we generate. The lower town is Golden Sun 1's Bilibin. The build
-     cuts the harbour from Golden Sun 1's Tolbi docks, which look like Marrow Isle's cove mirrored, the cliff road
-     from its Alpine Crossing and the high town from its Lunpa. The west cove comes from The Lost Age's Osenia Cliffs,
-     for its rafts where the boats gather. Recommended: Golden Sun 1's Tolbi docks, Alpine Crossing and Lunpa, with
-     The Lost Age's Osenia Cliffs for the west cove, as built. [The Lost Age's closer fits: Champa for the harbour and
-     the cove, Gondowan Cliffs for the cliff road and Garoh for the high town; as built, but the high town drawn in
-     our own tiles, as the world map page lists it; as built, but the west cove cut from Tolbi docks too, so all four
-     rooms are Golden Sun 1's.]
-147. **Decided (31 Oct):** **Where the archive's lift comes down.** The world map page's list of rooms puts the foot of the archive's
-     wind-wheel lift in the harbour. Its own archive row, and mission 9's script, bring the lift down to the harbour
-     steps in the lower town, where Old Jory rides it up after the harbour has fallen. The build has both: a shut lift
-     in the harbour, and mission 9's basket in the lower town. Only Old Jory ever rides it, as the script has it.
+146. **Decided (31 Oct):** **The look of Fallhaven's four new rooms.** The world map page asks for one look per place
+     where possible, and lists Fallhaven's high town among the things we generate. The lower town is Golden Sun 1's
+     Bilibin. The build cuts the harbour from Golden Sun 1's Tolbi Docks, which look like Marrow Isle's cove mirrored,
+     the cliff road from its Alpine Crossing and the high town from its Lunpa. The west cove comes from The Lost Age's
+     Osenia Cliffs, for its rafts where the boats gather. Recommended: Golden Sun 1's Tolbi Docks, Alpine Crossing and
+     Lunpa, with The Lost Age's Osenia Cliffs for the west cove, as built. [The Lost Age's closer fits: Champa for the
+     harbour and the cove, Gondowan Cliffs for the cliff road and Garoh for the high town; as built, but the high town
+     drawn in our own tiles, as the world map page lists it; as built, but the west cove cut from Tolbi Docks too, so
+     all four rooms are Golden Sun 1's.]
+147. **Decided (31 Oct):** **Where the archive's lift comes down.** The world map page's list of scenes puts the foot
+     of the archive's wind-wheel lift in the harbour, in both the harbour's row and the archive's. Its table of
+     changes runs the lift to the harbour steps, and mission 9's script puts those steps, with the lift's foot, in the
+     lower town, where Old Jory rides it up after the harbour has fallen. The build has both: a shut lift in the
+     harbour, and mission 9's basket in the lower town. Only Old Jory ever rides it, as the script has it.
      Recommended: one lift, coming down at the lower town's harbour steps in both missions, with no lift in the
      harbour. [Its foot in the harbour, as built now, with mission 9's basket stopping at the lower town's broken
      steps; no lift to see in mission 2, only mission 9's basket in the lower town.]
@@ -977,56 +978,58 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      door. Recommended: the bottom-right house with the inn sign, with the relay stone moved beside its door. [The
      bottom-centre house where the relay stone already stands, with the inn sign moved onto it; another house, named
      in the note box.]
-150. **Decided (31 Oct):** **Which houses are Sael's and Marta's.** The world map page gives the lower town a door to Sael's house and one
-     to Marta's shop, but neither script says which house is which. Golden Sun's town art has a jar sign, its item
-     shop's mark, on a door cut into the cliff at the top left, and a sword sign on the big house at the top of the
-     plaza. The build keeps every door shut until the interiors job. Recommended: Marta's behind the jar-signed door
-     at the top left, and Sael's the plain house on the plaza's west side. [Marta's in the big house with the sword
-     sign, and Sael's the plain house on the plaza's west side; sael's in the big house with the sword sign, and
-     Marta's behind the jar-signed door.]
-151. **Decided (31 Oct):** **Resting at Fen's inn in mission 2.** Mission 2's script keeps Fallhaven at dusk while everyone climbs to the
-     high town tonight, then has night on the cliff road. Fen gives Corvin a free rest, and every inn rest moves the
-     clock to dawn. So resting partway through turns Fallhaven to dawn in the middle of the evacuation, until the
-     cliff road sets night again. Recommended: hold the clock in Fallhaven through mission 2, as mission 9 holds its
-     night, so Fen's rest heals without turning it to dawn. [Rest to dawn like every inn, as built now; fen's rest
-     leaves the clock where it is, but walking still moves it on.]
+150. **Decided (31 Oct):** **Which houses are Sael's and Marta's.** The world map page gives the lower town a door to
+     Sael's house and one to Marta's shop, but neither script says which house is which. Golden Sun's town art has a
+     jar sign, its item shop's mark, on a door cut into the cliff at the top left, and a sword sign on the big house
+     at the top of the plaza. The build keeps every door shut until the interiors job. Recommended: Marta's behind the
+     jar-signed door at the top left, and Sael's the plain house on the plaza's west side. [Marta's in the big house
+     with the sword sign, and Sael's the plain house on the plaza's west side; Sael's in the big house with the sword
+     sign, and Marta's behind the jar-signed door.]
+151. **Decided (31 Oct):** **Resting at Fen's inn in mission 2.** Mission 2's script keeps Fallhaven at dusk while
+     everyone climbs to the high town tonight, then has night on the cliff road. Fen gives Corvin a free rest, and
+     every inn rest moves the clock to dawn. So resting partway through turns Fallhaven to dawn in the middle of the
+     evacuation, until the cliff road sets night again. Recommended: hold the clock in Fallhaven through mission 2, as
+     mission 9's script holds its night, so Fen's rest heals without turning it to dawn. [Rest to dawn like every inn,
+     as built now; Fen's rest leaves the clock where it is, but walking still moves it on.]
 152. **Decided (31 Oct):** **The way round the cart in the west alley.** In mission 2 a toppled cart blocks the west alley, the only way up
      to the cliff road. In the joined-up lower town you can walk round the cart through the plaza to the alley's top.
      The build keeps the top shut until the cart is moved, with a line saying the cart still blocks the way for the
      townsfolk. Recommended: shut at the alley's top with that line until the cart is moved, as built. [Wall the plaza
      off from the alley's top, so the cart itself blocks the only way up.]
-153. **Decided (31 Oct):** **Walking the cliff road's switchbacks.** Both scripts climb the cliff road in switchbacks, with a boulder pushed
-     off the edge, Wenna's cellar on the second bend and Pip on the last bend. Golden Sun's Alpine Crossing, which the
-     build cut the road from, has terraces with no ramps to walk. Today you walk a meadow at the cliff's foot and a
-     road east to the high town gate, and the terraces are only art. Recommended: keep Alpine Crossing's look, and
-     carve walkable ramps up its terraces before mission 2's cliff road scenes are built. [Re-cut the cliff road from
-     a Golden Sun room that has real ramps; keep the meadow and the road as built, and set the scripts' bends along
-     that road.]
-154. **Decided (31 Oct):** **The high town in mission 2.** Mission 2 ends at the top of the cliff road, where Hask leaves through the high
-     town gate and the scene fades to crew 1. The build opens the cliff road, the high town and the west cove once the
-     cart is moved. Mission 2's cliff road scenes are not built yet, so those rooms hold nobody, and Hask's offer
-     still plays in the lower town. Recommended: open once the cart is moved, as built. [Shut the high town gate until
-     mission 9, with a line; shut the west alley until mission 2's cliff road scenes are built.]
+153. **Decided (31 Oct):** **Walking the cliff road's switchbacks.** Both scripts climb the cliff road in switchbacks,
+     with a boulder pushed off the edge and Wenna's cellar on the second bend; mission 2 also has Pip on the last
+     bend. Golden Sun's Alpine Crossing, which the build cut the road from, has terraces with no ramps to walk. Today
+     you walk a meadow at the cliff's foot and a road east to the high town gate, and the terraces are only art.
+     Recommended: keep Alpine Crossing's look, and carve walkable ramps up its terraces before mission 2's cliff road
+     scenes are built. [Re-cut the cliff road from a Golden Sun room that has real ramps; keep the meadow and the road
+     as built, and set the scripts' bends along that road.]
+154. **Decided (31 Oct):** **The high town in mission 2.** Mission 2 ends at the top of the cliff road: Hask leaves
+     through the high town gate, Sael sends Corvin to Embral, and the scene fades to Crew 1. The build opens the cliff
+     road, the high town and the west cove once the cart is moved. Mission 2's cliff road scenes are not built yet, so
+     those rooms hold nobody, and Hask's offer still plays in the lower town. Recommended: open once the cart is
+     moved, as built. [Shut the high town gate until mission 9, with a line; shut the west alley until mission 2's
+     cliff road scenes are built.]
 155. **Decided (31 Oct):** **The high town's house doors.** The high town is cut from Golden Sun's Lunpa, whose houses have doors, one of
      them under an inn sign. The world map page lists no buildings to enter in the high town. The build makes every
      door there a wall that does nothing. Recommended: shut doors that do nothing, as built. [Shut, with a short line
      when you try one; an inn behind the door with the inn sign; the doors and the inn sign painted out of the
      houses.]
-156. **Decided (31 Oct):** **Where crew 1 arrives in mission 9.** The world map page has crew 1 come down the cliff road from the west cove,
-     where the Kestrel moors. Mission 9's script instead starts at the top of the cliff road, with Ketch and Hanne
-     coming out of the high town gate. The build lands crew 1 in the west cove. You then walk the lane, the high town
-     and its gate, and down the cliff road into the lower town. Recommended: in the west cove, walking down through
-     the high town, as built. [At the top of the cliff road by the high town gate, as the script's first scene says;
-     in the high town, just inside its gate.]
-157. **Decided (31 Oct):** **Leaving the lower town before the households are out.** Sael gives crew 1 three households to free, and the
-     north stair to the archive stays shut until they are out. The script does not say whether crew 1 may walk back up
+156. **Decided (31 Oct):** **Where Crew 1 arrives in mission 9.** The world map page has Crew 1 come down the cliff
+     road from the west cove, where the Kestrel moors. Mission 9's script instead starts at the top of the cliff road,
+     as Ketch leads Crew 1 out of the high town gate from the west cove, skipping the walk, with Hanne pushing back
+     out after them. The build lands Crew 1 in the west cove. You then walk the lane, the high town and its gate, and
+     down the cliff road into the lower town. Recommended: in the west cove, walking down through the high town, as
+     built. [At the top of the cliff road by the high town gate, as the script's first scene says; in the high town,
+     just inside its gate.]
+157. **Decided (31 Oct):** **Leaving the lower town before the households are out.** Sael gives Crew 1 three households to free, and the
+     north stair to the archive stays shut until they are out. The script does not say whether Crew 1 may walk back up
      the west alley to the cliff road before then. The build leaves the alley open in mission 9, the way mission 2
-     left it, since the households go up it. Recommended: the alley stays open, as built. [Hold crew 1 in the lower
-     town until the three households are out, with a line like the north stair's; hold crew 1 in the lower town for
+     left it, since the households go up it. Recommended: the alley stays open, as built. [Hold Crew 1 in the lower
+     town until the three households are out, with a line like the north stair's; hold Crew 1 in the lower town for
      all of mission 9, since it leaves by the archive's high door.]
-158. **Decided (31 Oct):** **The order's cellar under the plaza.** In mission 9, Reveal finds the order's hatch beside the plaza's old well.
-     The script then fades down into a cellar where the hero lifts the vault's bar, and fades back to the plaza. The
-     world map page makes the cellar a room of its own only if that beat needs one, and otherwise part of the archive.
-     The build tells it in words, with no cellar to see. Recommended: a small cellar room of its own under the old
-     well, where the bar is lifted. [Part of the archive's re-cut, reached from the hatch; told in words between the
-     fades, with no cellar to see, as built now.]
+158. **Decided (31 Oct):** **The order's cellar under the plaza.** In mission 9's script, Reveal finds the order's
+     hatch beside the plaza's old well (the build's hatch is not by the well yet). The script then fades down into a
+     cellar where the hero lifts the vault's bar, and fades back to the plaza. The world map page makes the cellar a
+     room of its own only if that beat needs one, and otherwise part of the archive. The build tells it in words, with
+     no cellar to see. Recommended: a small cellar room of its own under the old well, where the bar is lifted. [Part
+     of the archive's re-cut, reached from the hatch; told in words, with no cellar to see, as built now.]
