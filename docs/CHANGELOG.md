@@ -5,6 +5,7 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **New for your answer (open 183 to 183):** SpriteLib, new in the local folder.
 - **Decided (open 181 and 182), as recommended and as built:** no bunk at the Wayfarer's helm until her quarters are
   built (181); at each jetty the mission's own line, then mission 3's, with Canalport's inked-chart line until mission
   10 (182).
