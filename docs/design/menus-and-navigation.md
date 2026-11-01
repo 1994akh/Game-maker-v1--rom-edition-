@@ -126,7 +126,10 @@ FIELD (free field): Start / Back -> START MENU   [built: Psynergy, Items, Status
   Status   -> a page per Adept; a Crews tab shows the waiting crew and guests (read only)
   Log      -> the Farer's Log (once given)
   Map      -> Area tab always; Chart tab once you have a ship
+              [built in engine PR #101, waiting to merge: until the area map is built (§8.3), Map shows once the
+              party has a ship and opens the Chart to read, for either crew (§8.4)]
   Save     -> pick a file, confirm overwrite; greyed with the reason at sea, while surfing, or mid-cast
+              [engine PR #101: on foot on the world map it saves, and the save's header names the area]
   Settings
   Side panel: coins, the objective line, an Adept summary
 
@@ -137,6 +140,13 @@ PLACE SCREENS (by talking to someone; never in the Start menu)
   Inn and relay stone [built]: To <other crew> (relay stones, once the other crew is placed) | Rest | Pokémon |
                                Home (inns away from home, once crew swapping is unlocked) | Leave
   Ship helm / deckhand: the Chart in Sail mode (replaces "Set sail")
+                        [built in engine PR #101, waiting to merge: a deckhand stands at a jetty only while the
+                        ship is moored there. From free sailing (after mission 4), talking to the deckhand or the
+                        helm opens the Chart in Sail mode, with the cursor on her berth. Her berth's list:
+                        Set sail | Sleep (the bunk, demo decision 34) | Details | Back. A visited harbour she can
+                        reach: Sail here | Details | Back. Any other place: Details | Back, and the place's box
+                        says why she can't go there. B closes the list, then the Chart. voyages.json is folded
+                        into places.json]
   Waiting lead / muster roll [built]: Take over | Trade Adepts -> a two-column trade screen that shows the rules
                                (leads can't be traded; guests after the Breaking can't change Set)
   Kin Garden: a browser with paging and sorting (summary, use an item, move to a Set at a restoration point)
@@ -275,6 +285,23 @@ meaning alone: danger is a count of stars, and HP shows as numbers.
 - Golden Sun's Angara placeholder isn't charted. Stonehollow's west gate is progression.md decision 4.
 - **Fast travel.** The built innkeeper "Home" warp is a second fast travel next to Teleport, while field-abilities.md
   says one is enough. That is decision N-13.
+- **As built (engine PR #101, waiting to merge):** `src/world/chart.gd` and `src/world/chart_screen.gd`.
+  - The Calm's page, with the ship where she lies, the crew's own spot, and a marker on the page's edge for each
+    known place off it.
+  - The five place states, read from the flags `known:<id>`, `rumour:<id>` and `explored:<id>` and the visited
+    flags (§8.1). Dialogue sets no known or rumour flags yet; the PR's description lists how the build starts the
+    places of Act I, and the places it counts as visited from the story.
+  - Landmarks show once their region is known. The build counts a region known once one of its other places is
+    known, or by a flag `known:<region>`, so in Act I the Pinnacle shows and Act II's landmarks don't.
+  - The stick or the D-pad steps the cursor to the nearest place that way. A opens the place's list; B closes the
+    list, then the Chart. A tap selects a place, and a tap on the selected one opens its list.
+  - Every place's list has Details and Back. In Sail mode (§3) her berth's list adds Set sail and Sleep, and a
+    visited harbour she can reach adds Sail here. A place she can't be sailed to says why: no harbour, a line that
+    closes it, not open yet, nothing built ashore yet, a first visit to sail yourself (open question 80), or she
+    lies there.
+  - From the Start menu's Map row it opens to read, with no Sail mode, for either crew; crew 2's place is marked
+    (world-map.md §2.2).
+  - Not built yet: Set bearing, Teleport here and the Kin habitat marks (§8.9).
 
 ### 8.5 The Lodestar (behaviour decided, form proposed)
 
