@@ -1186,3 +1186,13 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      Recommended: the mission's own line, then mission 3's, with Canalport's inked-chart line until mission 10, as
      built. [Only the mission's own line, with mission 3's after that mission is done; canalport's inked-chart line
      only until mission 6 is done.]
+
+**From the local folder (1 Nov)**
+
+183. **SpriteLib, new in the local folder.** You added SpriteLib, Ari Feldman's free 1990s sprite set (Common Public
+     License 1.0: free to use and change, with credit). It holds platformer heroes and tiles, Breakout paddles, tanks,
+     1945-style planes, space invaders and a fish game. Its bright, black-outlined arcade style doesn't match Golden
+     Sun's tiles or the LPC people, and your item-art answer (art 14) already has the missing item icons drawn to
+     match. Recommended: keep it in the folder as reference only, and use none of it in the game. [Use its pickups
+     (fruit, gems, keys, potions) as a parts bin for item icons, recoloured to the item art; use its fish for a
+     fishing pastime later, recoloured to Golden Sun's palette.]
