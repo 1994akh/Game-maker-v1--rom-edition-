@@ -5,6 +5,11 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 145 to 158):** Where Corvin's homecoming plays; The look of Fallhaven's four new
+  rooms; Where the archive's lift comes down; The lower town's name on the place banner; Which house is the Leaning
+  Gull; Which houses are Sael's and Marta's; Resting at Fen's inn in mission 2; The way round the cart in the west
+  alley; Walking the cliff road's switchbacks; The high town in mission 2; The high town's house doors; Where crew 1
+  arrives in mission 9; Leaving the lower town before the households are out; The order's cellar under the plaza.
 - **Decided (open 139 to 144), all as recommended and as built:** an empty L or R press plays Golden Sun's no-target
   buzz with its puff (139); a quest's hand-over plays the item jingle on its received page (140); Move plays Golden
   Sun's own push sound on each push, with the hand's leaving sounds to come with its other extra cast sounds (141); Cut,
