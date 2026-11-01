@@ -17,9 +17,9 @@ new. The rest of the page is the 15 Oct build.
    his crew's restoration point. A fallen stone blocks the passage north; Move slides it twice and the way opens
    to the river mouth, where a Rimborn skiff waits. A chest holds two Herbs.
 3. **Fallhaven**, the cliff town on the east rim. The skiff lands at the harbour's jetty (`fallhaven_harbour`,
-   placeholder Tolbi Docks tiles), and the arrival (`skiff_in`) plays there; where the homecoming (the script's
-   scene 4) plays is for your answer (open 145). Corvin climbs the harbour stair into the lower town
-   (`fallhaven_lower`, placeholder Bilibin tiles, in its mission 2 state, at dusk).
+   placeholder Tolbi Docks tiles), and the arrival (`skiff_in`) plays there, where you decided the homecoming (the
+   script's scene 4) plays (open 145). Corvin climbs the harbour stair into the lower town (`fallhaven_lower`,
+   placeholder Bilibin tiles, in its mission 2 state, at dusk).
    - **Sael** recognises Corvin as the boy she pulled from the wreck. The ground shakes and Tanner's street falls
      into the Rimfalls (Tanner is gone from the town afterwards). Sael asks Corvin to clear the west alley.
    - A **toppled cart** blocks the alley the townsfolk need to reach the cliff road. Move clears it, and **Hask**

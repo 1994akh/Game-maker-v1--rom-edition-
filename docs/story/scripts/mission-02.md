@@ -533,7 +533,7 @@ No people but Corvin, Larvitar, the distant voice (scene 2) and Ketch (scene 3).
 
 *The states:* the lower town's (arrival, then the fall). Engine PR #98 built the harbour below the lower town:
 Ketch's skiff lands at its jetty, entrance 0 (scene 3), and the harbour stair climbs from here to the lower town. As
-built, the placeholder arrival (`skiff_in`) plays on the jetty; where scene 4 plays is for your answer (open 145).
+built, the placeholder arrival (`skiff_in`) plays on the jetty, where you decided scene 4 plays (open 145).
 
 - **Ketch** (new), at the foot of the harbour stair, by the skiff. Arrival:
 
@@ -912,15 +912,15 @@ Things story.md doesn't say, for you to keep or strike:
 **Rooms**
 - **`fallhaven_cliff`** (decision 5's falling cliff road): switchbacks from the top of the west alley to the high
   town gate, with the edge along the east, the cellar ledge on the second bend, the low wall on the last bend and the
-  gate at the top. Built as ground only by engine PR #98, cut from Golden Sun 1's Alpine Crossing, the builder's pick
-  (its look is for your answer, open 146). Its terraces are only in the art so far, so how the switchbacks are walked
-  is for your answer (open 153). The west alley's top leads into it (built).
+  gate at the top. Built as ground only by engine PR #98, cut from Golden Sun 1's Alpine Crossing, the builder's pick,
+  which you kept (open 146). Its terraces are only in the art so far; walkable ramps are to be carved up them before
+  mission 2's cliff road scenes are built, as you decided (open 153). The west alley's top leads into it (built).
 - **`sea_caves`:** the silted arch on the main path (a dig spot and a gate), the chalk mark, the crate in front of
   a niche with today's chest (slot 10) moved into it, a step-on spot for scene 2, and Ketch's skiff as an actor
   whose scene replaces today's bare warp to Fallhaven. Extend the clip if the three puzzles don't fit.
 - **`fallhaven_harbour`** (built by engine PR #98): scene 3's warp lands the skiff at its jetty (entrance 0), as
-  built, and Ketch's row (new) stands by it. As built, the placeholder arrival (`skiff_in`) plays on the jetty; where
-  scene 4 plays is for your answer (open 145).
+  built, and Ketch's row (new) stands by it. As built, the placeholder arrival (`skiff_in`) plays on the jetty, where
+  you decided scene 4 plays (open 145).
 - **`fallhaven_lower`** (mission 2's `fallhaven`, merged into it by engine PR #98): Sael's scene rewritten (scene 5);
   the east street falls (a gate turning its cells into the edge, with the camera pan), and the edge post swaps for the
   new board; Tanner stays and moves to the plaza (today he's hidden); Hask moves to `fallhaven_cliff`; new rows for

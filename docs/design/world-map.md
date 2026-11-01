@@ -302,10 +302,11 @@ when you cross into a new one, with its danger stars.
 
 ## 3. Each place's rooms, and how they join
 
-**Rooms today:** 22 are built after engine PR #98 (31 Oct), Fallhaven's merged lower town and its four new rooms
-among them; the page counted 17 when it was written on 24 Oct. The approved scripts add 8 (hero_house,
-fallhaven_cliff, canalport_canals, greenwild_hive, bastion_caves, wayfarer_berth, wayfarer_galley and
-wayfarer_quarters; fallhaven_cliff is now built as ground). This design adds 3 for the main path and 6 optional ones,
+**Rooms today:** 22 are built after engine PR #98 (31 Oct); the page counted 17 when it was written on 24 Oct. The
+five since then are `hero_house` (24 Oct), `marrow_cove` (25 Oct) and Fallhaven's four new rooms, less mission 2's
+`fallhaven`, merged into the lower town. The approved scripts add 8 (hero_house, fallhaven_cliff, canalport_canals,
+greenwild_hive, bastion_caves, wayfarer_berth, wayfarer_galley and wayfarer_quarters; hero_house is now built and
+fallhaven_cliff built as ground). This design adds 3 for the main path (marrow_cove now built) and 6 optional ones,
 merges 2 into 1 (Fallhaven's, now built), and removes 4 links that make no sense. Your second note then makes every
 place bigger than its one room: the **Scenes and entrances** list under each place below is the full set (question
 **Towns as several scenes**).
@@ -520,7 +521,8 @@ lift can be walked both ways:
 - **The high door:** the cave on the cliff road to the archive. Barred until mission 9 is done. Then the cliff road's
   side is rubble.
 - **The lift:** a door in the harbour's cliff face to the archive. Cargo only until mission 9 is done. Then its rope
-  hangs cut. Where the lift comes down, here or at the lower town's harbour steps, is for your answer (open 147).
+  hangs cut. You decided on one lift, coming down at the lower town's harbour steps in both missions, with none in
+  the harbour (open 147): still to build.
 
 The archive's own sides open once mission 9 is done, so nobody is shut in. The story's arrivals: Ketch's skiff lands
 at the harbour's jetty (mission 2, at dusk). Mission 8's handover lands crew 1 in the west cove (mission 9, at night).

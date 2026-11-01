@@ -13,7 +13,7 @@ high town and the west cove are new. The rest of the page is the 15 Oct build.
 1. **The hook.** Mission 8's escape ends with word from a Rimborn skiff: Fallhaven is falling. Corvin's crew takes
    the cliff to the archive. The hero's crew lands in the west cove (`fallhaven_cove`) at night and walks the high
    town (`fallhaven_high`) and the cliff road (`fallhaven_cliff`) down to the lower town's west alley. The script
-   starts at the high town gate instead; where crew 1 arrives is for your answer (open 156).
+   starts at the high town gate instead; you kept the west cove, as built (open 156).
 2. **The lower town** (`fallhaven_lower`, crew 1, the whole of Golden Sun 1's Bilibin as placeholder, in its
    mission 9 state). Three households are trapped:
    - a family behind a **fallen chimney**: Move pushes it into a niche;

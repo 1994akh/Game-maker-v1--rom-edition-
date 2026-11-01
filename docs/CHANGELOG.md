@@ -14,8 +14,8 @@ header; the detailed rules are in `docs/design/`.
   either lower-town room load at their old room's main entrance with the one line, as open 96 decided. The scripts'
   scenes on the cliff road and at the high town gate come with the mission builds. The review found 13 faults, all
   fixed. world-map.md §3, §3.7 and §3.10, mission-02.md, mission-09.md and the two build pages now say what was
-  built; where the build and a script differ, the script keeps its own reading and the page names the question that
-  waits for your answer (open 145 to 158).
+  built; where the build and a script differ, the script keeps its own reading, and the pages point to your answers
+  (open 145, 146, 147, 153 and 156, decided below).
 - **Decided (open 145 to 158), all as recommended:** as built: Corvin's homecoming plays on landing at the harbour jetty
   (145), the four new rooms keep the ground they were cut from, Golden Sun 1's Tolbi Docks, Alpine Crossing and Lunpa,
   with The Lost Age's Osenia Cliffs for the west cove (146), the lower town is 'Fallhaven, lower town' (148), the
