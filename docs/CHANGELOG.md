@@ -5,6 +5,19 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #98), Fallhaven's rooms:** mission 2's and mission 9's lower towns are one room,
+  `fallhaven_lower`, cut from the whole of Bilibin, in three states by story flag (mission 2 at dusk, mission 9 at
+  night, then fallen). Four new rooms join it as ground, entrances and links (the harbour also plays mission 2's
+  placeholder arrival): the harbour (Golden Sun 1's Tolbi Docks), the cliff road (Alpine Crossing), the high town
+  (Lunpa) and the west cove (The Lost Age's Osenia Cliffs). Ketch's skiff lands at the harbour's jetty, mission 9 starts
+  at night in the west cove, and the archive's finale lands both crews at `marrow_cove` at dawn. Old saves in either
+  lower-town room load at their old room's main entrance with the one line, as open 96 decided. The scripts' scenes on
+  the cliff road and at the high town gate come with the mission builds. The review found 13 faults and a second check
+  three more (rocks you could stand on, the west alley shut in the mission 4 to 8 jumps, and old saves keeping their
+  spot instead of your answer 96's main entrance), all fixed before the merge; every test and check passed at all three
+  sizes. world-map.md §3, §3.7 and §3.10, mission-02.md, mission-09.md and the two build pages now say what was built;
+  where the build and a script differ, the script keeps its own reading, and the pages point to your answers (open 145,
+  146, 147, 153 and 156, decided below).
 - **Decided (open 145 to 158), all as recommended:** as built: Corvin's homecoming plays on landing at the harbour jetty
   (145), the four new rooms keep the ground they were cut from, Golden Sun 1's Tolbi Docks, Alpine Crossing and Lunpa,
   with The Lost Age's Osenia Cliffs for the west cove (146), the lower town is 'Fallhaven, lower town' (148), the

@@ -302,9 +302,12 @@ when you cross into a new one, with its danger stars.
 
 ## 3. Each place's rooms, and how they join
 
-**Rooms today:** 17 are built. The approved scripts add 8 (hero_house, fallhaven_cliff, canalport_canals,
-greenwild_hive, bastion_caves, wayfarer_berth, wayfarer_galley and wayfarer_quarters). This design adds 3 for the main
-path and 6 optional ones, merges 2 into 1, and removes 4 links that make no sense. Your second note then makes every
+**Rooms today:** 22 are built after engine PR #98 (31 Oct); the page counted 17 when it was written on 24 Oct. The
+five since then are `hero_house` (24 Oct), `marrow_cove` (25 Oct) and Fallhaven's four new rooms, less mission 2's
+`fallhaven`, merged into the lower town. The approved scripts add 8 (hero_house, fallhaven_cliff, canalport_canals,
+greenwild_hive, bastion_caves, wayfarer_berth, wayfarer_galley and wayfarer_quarters; hero_house is now built and
+fallhaven_cliff built as ground). This design adds 3 for the main path (marrow_cove now built) and 6 optional ones,
+merges 2 into 1 (Fallhaven's, now built), and removes 4 links that make no sense. Your second note then makes every
 place bigger than its one room: the **Scenes and entrances** list under each place below is the full set (question
 **Towns as several scenes**).
 
@@ -485,21 +488,51 @@ between them, and the west cove (where the boats gather) on the cliff's west sid
 
 | Room | Joins | Today | Change |
 |---|---|---|---|
-| `fallhaven` and `fallhaven_lower` | Two rooms for one lower town (missions 2 and 9), cut from overlapping parts of the same Golden Sun town, with no link between them | Two rooms | **Merge into one lower-town room** with three states: mission 2 at dusk, mission 9 at night, and fallen. The harbour stair at its south end (Ketch lands there in mission 2). The west alley's top to `fallhaven_cliff`. The north stair to the archive's great doors |
-| `fallhaven_cliff` (approved) | The switchbacks from the lower town to the high town gate, with the archive's high door on the second bend | Not built | Build. In mission 9 you come down it from the west cove |
-| `fallhaven_archive` | The great doors (south) to the lower town. The high door to the cliff road. The wind-wheel lift to the harbour steps. The order's cellar under the plaza's well | The finale lands you at Stonehollow's lower entrance | Land at `marrow_cove` at dawn, as the script says |
+| `fallhaven` and `fallhaven_lower` | Two rooms for one lower town (missions 2 and 9), cut from overlapping parts of the same Golden Sun town, with no link between them | Built on 31 Oct (engine PR #98): one room, `fallhaven_lower`, cut from the whole of Golden Sun 1's Bilibin. Its states go by story flag: mission 2 at dusk until `m9_started`, mission 9 at night until `m9_done`, then fallen. Mission 2's cells moved by (+2, +12) and its slots 8 to 13 became 20 to 25; mission 9's cells and slots are as they were. Its three ways are built (below). Its house doors are walls until the interiors are built | **Merge into one lower-town room** with two states: mission 2 at dusk and mission 9 at night. It falls at mission 9's end, seen from the cliff road (the script's scene 17), and is gone for good (§6): in Act II the ruin room takes its place. The harbour stair at its south end (Ketch lands there in mission 2). The west alley's top to `fallhaven_cliff`. The north stair to the archive's great doors |
+| `fallhaven_cliff` (approved, built as ground) | The switchbacks from the lower town to the high town gate, with the archive's high door and Wenna's cellar door on the second bend | Built as ground only (engine PR #98), cut from Golden Sun 1's Alpine Crossing: the meadow at the cliff's foot, the cave that is the archive's high door, and the road east up to the high town's gate. The terraces are only in the art, so the switchbacks aren't walked yet, and none of the scripts' scenes here is built. In mission 9 crew 1 lands in the west cove and comes down it | Build. In mission 9 you come down it from the west cove |
+| `fallhaven_archive` | The great doors (south) to the lower town. The high door to the cliff road. The wind-wheel lift to the harbour steps. The order's cellar under the plaza's well | The finale sets the clock to dawn (engine PR #98) and lands both crews on `marrow_cove`'s jetty. The north stair is its only way in. The high door's and the lift's sides sit on the tops of its west and east corridors until the re-clip that mission 9's script asks for. Once mission 9 is done, no way leads in | Done: the finale lands at `marrow_cove` (since 25 Oct), at dawn (since engine PR #98), as the script says |
 | `fallhaven_ruin` (Act II) | The cliff top, the high town's empty lanes, the west cove (the harbour on the world map), the memorial | — | After mission 9. Home of the memorial heart quest |
 
 **Scenes and entrances, Fallhaven**
 
 | Scene | Entrances |
 |---|---|
-| `fallhaven_lower` (merged, outdoor: the lower town, three states) | Harbour stair (south) → `fallhaven_harbour`. West alley's top → `fallhaven_cliff`. North stair → `fallhaven_archive`'s great doors. Doors → `leaning_gull` (new, interior: Fen's inn, the free rest until mission 2 is done), `saels_house` (new, interior), `martas` (new, optional), `wennas` (new, optional: the pickled eggs). The plaza's well → `order_cellar` (new: the order's cellar under the plaza, if the mission 9 script's cellar beat needs its own scene, else inside the archive). The east street falls inside the scene |
-| `fallhaven_harbour` (new, outdoor, small) | Harbour stair → `fallhaven_lower`. Ketch's skiff lands here (mission 2). The wind-wheel lift → `fallhaven_archive`'s ledge |
-| `fallhaven_cliff` (approved, outdoor: the switchbacks) | Bottom → `fallhaven_lower`'s west alley. Second bend's high door → `fallhaven_archive`. Top → `fallhaven_high` (new, outdoor: the high town gate and lanes, mission 9's way down from the west cove) |
-| `fallhaven_high` (new, outdoor) | Gate → `fallhaven_cliff`. West lane → `fallhaven_cove` (new, outdoor, small: the west cove where the boats gather, the Kestrel's mooring in mission 9, and the ruin's harbour on the world map in Act II) |
+| `fallhaven_lower` (built, merged, outdoor: the lower town, in its mission 2 and mission 9 states) | Harbour stair (south) → `fallhaven_harbour`. West alley's top → `fallhaven_cliff`. North stair → `fallhaven_archive`'s great doors. Doors → `leaning_gull` (new, interior: Fen's inn, the free rest until mission 2 is done), `saels_house` (new, interior) and `martas` (new, optional). The plaza's well → `order_cellar` (new: the order's cellar under the plaza, if the mission 9 script's cellar beat needs its own scene, else inside the archive). The east street falls inside the scene |
+| `fallhaven_harbour` (built, outdoor, small) | Harbour stair → `fallhaven_lower`. Ketch's skiff lands here (mission 2). The wind-wheel lift → `fallhaven_archive`'s ledge |
+| `fallhaven_cliff` (approved, built as ground, outdoor: the switchbacks) | Bottom → `fallhaven_lower`'s west alley. Second bend's high door → `fallhaven_archive`. Second bend's cellar door → `wennas` (new, optional: Wenna's cellar, where she keeps the pickled eggs). Top → `fallhaven_high` (built, outdoor: the high town gate and lanes, mission 9's way down from the west cove) |
+| `fallhaven_high` (built, outdoor) | Gate → `fallhaven_cliff`. West lane → `fallhaven_cove` (built, outdoor, small: the west cove where the boats gather, the Kestrel's mooring in mission 9, and the ruin's harbour on the world map in Act II) |
 | `fallhaven_archive` (built) | Great doors (south) → `fallhaven_lower`. High door → `fallhaven_cliff`. The lift → `fallhaven_harbour`. The east wing and the east vault are inside the scene |
 | `fallhaven_ruin` (later, outdoor) | The cove is the harbour. The cliff top, the empty lanes and the memorial |
+
+**As built (engine PR #98, 31 Oct).** The four new rooms are cut from Golden Sun ground, with their floors drawn by
+hand: `fallhaven_harbour` from Golden Sun 1's Tolbi Docks, `fallhaven_cliff` from Golden Sun 1's Alpine Crossing,
+`fallhaven_high` from Golden Sun 1's Lunpa, and `fallhaven_cove` from The Lost Age's Osenia Cliffs. So far they hold
+ground, entrances and links, and the harbour also plays mission 2's placeholder arrival (`skiff_in`) on its jetty.
+Each way below is one row in the engine's `room_links.json`, with a side in each room; all but the high door and the
+lift can be walked both ways:
+- **The harbour stair:** the lower town's south gate to the top of the harbour's stair. Always open.
+- **The west alley:** the alley's top in the lower town, at (3, 13), to the cliff road's foot. In mission 2 it stays
+  shut, with a line, until the cart is cleared (`m2_path_cleared`). From then on it is open, in mission 9 too.
+- **The high gate:** the cliff road's top to the high town's log gate. Always open.
+- **The west lane:** the high town's west edge to the west cove's lane. Always open.
+- **The north stair:** the lower town's plaza to the archive's great doors. In mission 2 the doors are locked. In
+  mission 9 it opens once the households are out: until the Ledger is found it points to the relay stone, and then it
+  takes crew 1 up to the meeting. Once mission 9 is done, it ends in empty air.
+- **The high door:** the cave on the cliff road to the archive. Barred until mission 9 is done. Then the cliff road's
+  side is rubble.
+- **The lift:** a door in the harbour's cliff face to the archive. Cargo only until mission 9 is done. Then its rope
+  hangs cut. You decided on one lift, coming down at the lower town's harbour steps in both missions, with none in
+  the harbour (open 147): still to build.
+
+The archive's own sides open once mission 9 is done, so nobody is shut in. The story's arrivals: Ketch's skiff lands
+at the harbour's jetty (mission 2, at dusk). Mission 8's handover lands crew 1 in the west cove (mission 9, at night).
+The archive's finale lands both crews on `marrow_cove`'s jetty at dawn. On the world map, Fallhaven's harbour is the
+harbour's jetty, and from mission 9's end the west cove.
+
+Old saves follow open 96: a save made before this build that stands in mission 2's `fallhaven` or in
+`fallhaven_lower` loads in the lower town at its old room's main entrance, with the one line ("The ground has shifted
+under you."), and is never refused. For mission 2's room that is the head of the harbour stair, now the lower town's
+entrance 2.
 
 ### 3.8 The Tradewind Bazaar
 
@@ -533,11 +566,12 @@ moored at. At sea she is a ship on the world map.
   `hero_house`).
 - **New optional rooms in the demo (6, question How much optional content the demo has):** `reach_islet`,
   `cockle_cay`, `marrow_quarry`, `north_shore_caves` (two rooms) and `tortell_isle`.
-- **Approved rooms still to build (8):** `hero_house`, `fallhaven_cliff`, `canalport_canals`, `greenwild_hive`,
-  `bastion_caves`, `wayfarer_berth`, `wayfarer_galley` and `wayfarer_quarters`.
-- **Merge:** `fallhaven` and `fallhaven_lower` into one lower-town room.
-- **New outdoor scenes from your note (4):** `fallhaven_harbour`, `fallhaven_high`, `fallhaven_cove` and
-  `canalport_upper` (Act II, placed now).
+- **Approved rooms still to build (8):** `hero_house`, `fallhaven_cliff` (built as ground by engine PR #98; its scenes
+  come with missions 2 and 9), `canalport_canals`, `greenwild_hive`, `bastion_caves`, `wayfarer_berth`,
+  `wayfarer_galley` and `wayfarer_quarters`.
+- **Merge (built, engine PR #98):** `fallhaven` and `fallhaven_lower` into one lower-town room.
+- **New outdoor scenes from your note (4):** `fallhaven_harbour`, `fallhaven_high` and `fallhaven_cove` (built, engine
+  PR #98), and `canalport_upper` (Act II, placed now).
 - **New interior scenes from your note:** on the main path or for the rest and shops, 16: `quiet_stone`, `hatchery`,
   `makers_cabin`, `tidewarden_post`, `dry_boot`, `canalport_shop`, `sluice_house`, `mossbed`, `elders_house`,
   `marrits_hut`, `leaning_gull`, `saels_house`, `guild_hall`, `pursers_office`, `lashed_lantern` and `hazels_house`
@@ -550,7 +584,8 @@ moored at. At sea she is a ship on the world map.
 - **Links removed:** Stonehollow's south road into Golden Sun's Vale, Stonehollow's west edge onto Golden Sun's Angara
   map, Canalport's south road onto the same spot, and the sea caves' corner walk into Fallhaven.
 - **Arrivals moved:** Tully to the cove's jetty. Every harbour arrival to its jetty end. The forest and the heart
-  arrive on the matching sides. The archive's finale lands at the cove.
+  arrive on the matching sides. The archive's finale lands at the cove (built: the cove since 25 Oct, at dawn since
+  engine PR #98).
 - **Data:** `places.json` (name, region, position, harbour, doors and their sides, stars, landmark) and
   `regions.json`, as menus §8.1 planned. The Kestrel's `voyages.json` folds into `places.json`.
 - **Checks to rework:** `stonehollow_check`, `world_check`, `ship_check`, `reveal_check`, `vale_exits_check` and

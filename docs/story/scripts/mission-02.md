@@ -8,7 +8,7 @@
 | Mission | 2, The Drowned Boy (prologue) |
 | Plays after | Mission 1's dawn scene, which switches to crew 2 ([mission-01.md](mission-01.md), scene 7) |
 | Crew | Corvin alone (crew 2) with Larvitar, his own bag and an empty purse (as built) |
-| Rooms | `sea_caves`, `fallhaven`, `fallhaven_cliff` (new: the falling cliff road, decision 5) |
+| Rooms | `sea_caves`, `fallhaven_harbour` (the harbour below the lower town, where Ketch's skiff lands: built by engine PR #98), `fallhaven_lower` (the lower town: mission 2's `fallhaven`, merged into it by engine PR #98), `fallhaven_cliff` (the falling cliff road, decision 5: built as ground by engine PR #98, its scenes still to build) |
 | Clock | Dawn in the caves; dusk in Fallhaven; night on the cliff road; dawn when crew 1 resumes |
 | Flags in | `m1_done`, `m2_started` |
 | Flags out | `m2_caves_intro`, `m2_silt_dug`, `m2_marines`, `m2_stone_moved`, `m2_stash`, `m2_fallhaven`, `m2_sael`, `m2_path_cleared`, `m2_cliff_in`, `m2_boulder`, `m2_wenna`, `m2_pip`, `m2_done` |
@@ -114,18 +114,18 @@ by lanes only Rimborn pilots know.
 Two days of storm and silence later,
 Fallhaven rose out of the spray.
 
-*[phase dusk] [warp fallhaven, entrance 0]*
+*[phase dusk] [warp fallhaven_harbour, entrance 0]*
 
 ### 4. Fallhaven at dusk
 
-- Room: `fallhaven`. Trigger: entering, unless `m2_fallhaven`.
+- Room: `fallhaven_lower`. Trigger: entering, unless `m2_fallhaven`.
 
 *[fade in 40] Dusk at the end of the world. Fallhaven clings to a cliff above the Rimfalls: houses on stilts and
 chains, stairs cut into the rock, washing strung between the roofs. Beyond the east edge the sea pours away into
 white mist, and its roar never stops. Neither does the ground's soft trembling. [an ambient shake of 1 every few
 seconds while in Fallhaven]*
 
-*[walk Corvin → up the harbour stair to the plaza's edge, cell (12,15)] [face Corvin → east]*
+*[walk Corvin → up the harbour stair to the plaza's edge, cell (14,27)] [face Corvin → east]*
 
 **Corvin:** Home. Still here. Mostly.
 
@@ -136,7 +136,7 @@ and the edge took the lamp-house.
 
 ### 5. Sael
 
-- Room: `fallhaven`, the plaza. Trigger: talking to Sael (slot 8, cell (14,9)), unless `m2_sael`.
+- Room: `fallhaven_lower`, the plaza. Trigger: talking to Sael (slot 20, cell (16,21)), unless `m2_sael`.
 
 *Sael stands on the plaza with a coil of rope over one shoulder, directing two sailors who are lashing a house to a
 post: a tall woman in a captain's coat gone white at the seams with salt, her grey hair cropped short. She hears
@@ -241,7 +241,7 @@ finished, you and I.
 
 ### 6. The alley clears
 
-- Room: `fallhaven`. Trigger: the cart reaching cell (1,3) by Move (`m2_path_cleared`, as built).
+- Room: `fallhaven_lower`. Trigger: the cart reaching cell (3,15) by Move (`m2_path_cleared`, as built).
 
 *The cart grinds aside and the alley is open. [emote Hanne: exclaim]*
 
@@ -529,37 +529,11 @@ No people but Corvin, Larvitar, the distant voice (scene 2) and Ketch (scene 3).
   **Sign:** Grey sea, grey sky, and somewhere
   past them both, Fallhaven.
 
-### `fallhaven`
+### `fallhaven_harbour`
 
-*The states:* arrival (until `m2_sael`); the street has fallen (`m2_sael`, until `m2_path_cleared`); the alley is
-clear (`m2_path_cleared`): Hanne, Ossian, Old Jory and Marta have gone up the alley, and Sael, Tanner, Ketch and Fen
-stay. Cells are on today's 25×20 clip.
-
-- **Sael**, slot 8, cell (14,9), on the plaza. Scene 5. Then, until the alley is clear:
-
-  **Sael:** The alley, Corvin. They're
-  waiting on you.
-
-  *Once the alley is clear:*
-
-  **Sael:** Go on up. I'll be the last. The
-  captain always is.
-
-- **Tanner**, slot 11, cell (23,4) on the east street; after the fall, on the plaza beside Sael. He stays in the
-  town (today's build hides him). Arrival:
-
-  **Tanner:** My house is on the east street.
-  It leans a little more every year.
-  So do I.
-
-  Forty years I've lived there. You
-  stop hearing the roar after the
-  first ten.
-
-  *After the fall:*
-
-  **Tanner:** I've still got the bread. Funny,
-  the things you keep.
+*The states:* the lower town's (arrival, then the fall). Engine PR #98 built the harbour below the lower town:
+Ketch's skiff lands at its jetty, entrance 0 (scene 3), and the harbour stair climbs from here to the lower town. As
+built, the placeholder arrival (`skiff_in`) plays on the jetty, where you decided scene 4 plays (open 145).
 
 - **Ketch** (new), at the foot of the harbour stair, by the skiff. Arrival:
 
@@ -575,6 +549,40 @@ stay. Cells are on today's 25×20 clip.
   **Ketch:** If the harbour goes, I'm rowing
   out past the stair to wait. Go on,
   they need you.
+
+### `fallhaven_lower`
+
+*The states:* arrival (until `m2_sael`); the street has fallen (`m2_sael`, until `m2_path_cleared`); the alley is
+clear (`m2_path_cleared`): Hanne, Ossian, Old Jory and Marta have gone up the alley, and Sael, Tanner and Fen stay,
+with Ketch down in the harbour. Cells and slots are the merged lower town's (engine PR #98): the whole of Bilibin,
+where the old 25×20 clip's cells moved by (+2, +12), and mission 2's slots 8 to 13 became 20 to 25. Entrance 2 is
+the head of the harbour stair, where Corvin comes up from the harbour.
+
+- **Sael**, slot 20, cell (16,21), on the plaza. Scene 5. Then, until the alley is clear:
+
+  **Sael:** The alley, Corvin. They're
+  waiting on you.
+
+  *Once the alley is clear:*
+
+  **Sael:** Go on up. I'll be the last. The
+  captain always is.
+
+- **Tanner**, slot 23, cell (25,16) on the east street; after the fall, on the plaza beside Sael. He stays in the
+  town (today's build hides him). Arrival:
+
+  **Tanner:** My house is on the east street.
+  It leans a little more every year.
+  So do I.
+
+  Forty years I've lived there. You
+  stop hearing the roar after the
+  first ten.
+
+  *After the fall:*
+
+  **Tanner:** I've still got the bread. Funny,
+  the things you keep.
 
 - **Old Jory, the net-mender** (new), on the harbour steps. Arrival:
 
@@ -618,7 +626,7 @@ stay. Cells are on today's 25×20 clip.
   GONE UP THE CLIFF ROAD. BACK WHEN
   THE CLIFF IS.
 
-- **Fen, the innkeeper**, slot 13, cell (13,2), at The Leaning Gull (the inn role, free during mission 2). Before
+- **Fen, the innkeeper**, slot 25, cell (15,14), at The Leaning Gull (the inn role, free during mission 2). Before
   the rest menu:
 
   **Fen:** The Leaning Gull. Every bed's
@@ -633,7 +641,7 @@ stay. Cells are on today's 25×20 clip.
   **Fen:** You slept through two shakes.
   That's a Rimborn talent, that is.
 
-- **Hanne**, slot 12, cell (2,2), by the alley mouth. Arrival:
+- **Hanne**, slot 24, cell (4,14), by the alley mouth. Arrival:
 
   **Hanne:** Corvin! Have you seen Pip? Small,
   loud, always climbing something
@@ -719,13 +727,13 @@ stay. Cells are on today's 25×20 clip.
   **Sign:** MARTA'S. Herbs, gear, and no
   promises.
 
-- **The cart**, slot 10, cell (1,6) (puzzle 4):
+- **The cart**, slot 22, cell (3,18) (puzzle 4):
 
   **Sign:** A cart lies on its side across
   the alley, one wheel still turning.
   Earth would shift it.
 
-### `fallhaven_cliff` (new)
+### `fallhaven_cliff` (built as ground by engine PR #98)
 
 *The states:* climbing (from `m2_cliff_in`); at the top, which changes as `m2_wenna` and `m2_pip` are set.
 
@@ -851,8 +859,8 @@ It teaches the Rimborn mark, which later rooms can reuse for hidden stashes.
 **Fallhaven and the cliff road**
 
 **Puzzle 4. The west alley cart (Move, as built).**
-1. The cart (slot 10) lies across the alley mouth.
-2. Cast Move from the south: it slides north to cell (1,3), out of the way (`m2_path_cleared`). Scene 6 plays.
+1. The cart (slot 22) lies across the alley mouth.
+2. Cast Move from the south: it slides north to cell (3,15), out of the way (`m2_path_cleared`). Scene 6 plays.
 
 **Puzzle 5. The boulder (Move, new).**
 1. The boulder sits on the first switchback with the cliff wall west of it and the edge east of it.
@@ -902,17 +910,22 @@ Things story.md doesn't say, for you to keep or strike:
 ## Changes to the build
 
 **Rooms**
-- **`fallhaven_cliff`** (new, decision 5's falling cliff road): switchbacks from the top of the west alley to the
-  high town gate, with the edge along the east, the cellar ledge on the second bend, the low wall on the last bend
-  and the gate at the top. Clipped from a Golden Sun cliff path with `--solid-shapes`, the builder's pick. The west
-  alley's top warps into it.
+- **`fallhaven_cliff`** (decision 5's falling cliff road): switchbacks from the top of the west alley to the high
+  town gate, with the edge along the east, the cellar ledge on the second bend, the low wall on the last bend and the
+  gate at the top. Built as ground only by engine PR #98, cut from Golden Sun 1's Alpine Crossing, the builder's pick,
+  which you kept (open 146). Its terraces are only in the art so far; walkable ramps are to be carved up them before
+  mission 2's cliff road scenes are built, as you decided (open 153). The west alley's top leads into it (built).
 - **`sea_caves`:** the silted arch on the main path (a dig spot and a gate), the chalk mark, the crate in front of
   a niche with today's chest (slot 10) moved into it, a step-on spot for scene 2, and Ketch's skiff as an actor
   whose scene replaces today's bare warp to Fallhaven. Extend the clip if the three puzzles don't fit.
-- **`fallhaven`:** Sael's scene rewritten (scene 5); the east street falls (a gate turning its cells into the
-  edge, with the camera pan), and the edge post swaps for the new board; Tanner stays and moves to the plaza (today
-  he's hidden); Hask moves to `fallhaven_cliff`; new rows for Ketch, Old Jory, Marta (with the shop, slice 4),
-  Ossian and Pip, and the signs; the townsfolk walk off up the alley in scene 6.
+- **`fallhaven_harbour`** (built by engine PR #98): scene 3's warp lands the skiff at its jetty (entrance 0), as
+  built, and Ketch's row (new) stands by it. As built, the placeholder arrival (`skiff_in`) plays on the jetty, where
+  you decided scene 4 plays (open 145).
+- **`fallhaven_lower`** (mission 2's `fallhaven`, merged into it by engine PR #98): Sael's scene rewritten (scene 5);
+  the east street falls (a gate turning its cells into the edge, with the camera pan), and the edge post swaps for the
+  new board; Tanner stays and moves to the plaza (today he's hidden); Hask moves to `fallhaven_cliff`; new rows for
+  Old Jory, Marta (with the shop, slice 4), Ossian and Pip, and the signs; the townsfolk walk off up the alley in
+  scene 6.
 
 **Actors and engine**
 - **A pushed block that reaches a void cell falls** (hidden after a short drop): the boulder.
