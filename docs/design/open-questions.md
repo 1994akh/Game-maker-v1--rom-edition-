@@ -776,7 +776,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      now: no pose, no sound and no words. That fixed an old bug where R spent PP casting at nothing. Golden Sun
      instead plays the cast and an empty effect, and spends the PP. Recommended: a short cast pose of about a quarter
      of a second with a grey puff, no PP spent and no words, so a press is never ignored. [Nothing happens, as now;
-     golden Sun's way: the full cast plays and the PP is spent.]
+     Golden Sun's way: the full cast plays and the PP is spent.]
 
 **From the touch fix (29 Oct)**
 
@@ -907,29 +907,36 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      Recommended: silent page turns and the cursor sound when a Settings value changes, as built. [A soft click on
      each page turn; the confirm sound instead of the cursor when a Settings value changes.]
 
-**The field and Psynergy sounds (31 Oct)**
+**From the field sounds job (31 Oct)**
 
-139. **Decided (31 Oct):** **The sound of L or R with nothing in front.** Your answer 121 made an empty L or R press a short pose with a
-     grey puff, no PP and no words, but it said nothing about sound. Golden Sun plays the whole cast there, and it has
-     a short buzz for a cast with no target. Recommended: Golden Sun's no-target buzz with the puff, as built. [The
-     cast's hand sound, as a real cast's pose plays; silent.]
-140. **Decided (31 Oct):** **The item jingle when a quest hands you something.** The got-item jingle plays for a chest, a find and a scene's
-     gift. A quest that hands you an item (its page says you received it) is the same kind of moment, and Golden Sun
-     has no quests like ours to copy. Recommended: play the jingle on the quest's received page, as a scene's gift
-     does, as built. [Only chests, finds and scenes play it, and a quest's hand-over is silent.]
-141. **Decided (31 Oct):** **Move's push sound.** Our sound list had a whoosh for each push of Move. Golden Sun's code shows it plays a
-     different sound on each push, and the whoosh as the hand rises away at the end, then a vanishing sound.
-     Recommended: Golden Sun's own push sound on each push, as built, with the hand's leaving sounds added with Golden
-     Sun's other extra cast sounds. [The old whoosh on each push; the push sound now, and the whoosh and the vanishing
-     sound as the hand leaves, both now.]
-142. **Decided (31 Oct):** **The sound of a Pokémon's field move.** Cut, Defog and Surf cast like Psynergy but show the Set Pokémon's icon
-     instead of a hand. The Pokémon cries come with a later job. Recommended: The cast's hand sound, like every cast,
-     until the cries job, as built. [Silent until the cries job; the Pokémon's cry, built with the cries job.]
-143. **Decided (31 Oct):** **A sound for healing from the Start menu.** Picking a heal in the Start menu plays the confirm sound. Golden Sun
-     has a restore chime it plays when HP changes on the field, but its code does not show what its own menu plays for
-     a heal. Recommended: The confirm sound only, as built. [The confirm sound, then the restore chime after a heal or
-     a PP restore.]
-144. **Decided (31 Oct):** **How often the hurt sound plays on poison ground.** Ground that hurts takes HP on every square you walk, so the
-     hurt sound plays on every square, about four times a second across a long swamp. A step that takes no HP is
-     silent. Recommended: On every square that takes HP, matching the HP loss, as built. [Only on the first square of
-     each visit, with its words.]
+139. **Decided (31 Oct):** **The sound of L or R with nothing in front.** Your answer 121 made an empty L or R press a
+     short pose with a grey puff, no PP and no words, but it said nothing about sound. Golden Sun plays the whole cast
+     there, with the hand's own sounds. The buzz built here is Golden Sun's one refusal buzz, the sound of 'Not enough
+     PP.' and a greyed menu row, which Golden Sun plays when a push is blocked or Catch finds nothing. Recommended:
+     Golden Sun's no-target buzz with the puff, as built. [The cast's hand sound, as a real cast's pose plays;
+     silent.]
+140. **Decided (31 Oct):** **The item jingle when a quest hands you something.** The got-item jingle plays for a
+     chest, an item Scoop digs up and an item a scene gives you. A quest that hands you an item (its page says you
+     received it) is the same kind of moment, and Golden Sun has no quests like ours to copy. Recommended: play the
+     jingle on the quest's received page, as a scene's gift does, as built. [Only chests, finds and scenes play it,
+     and a quest's hand-over is silent.]
+141. **Decided (31 Oct):** **Move's push sound.** Our sound list had Cloak's whoosh on each push of Move, by mistake,
+     and it was never played. Golden Sun's code plays another sound as each push starts, the higher Djinn chirp, and
+     the whoosh only as the hand rises away at the end, then a vanishing sound. It also buzzes while you push against
+     something in the way. Recommended: Golden Sun's own push sound on each push, as built, with the hand's leaving
+     sounds added with Golden Sun's other extra cast sounds. [The old whoosh on each push; the push sound now, and the
+     whoosh and the vanishing sound as the hand leaves, both now.]
+142. **Decided (31 Oct):** **The sound of a Pokémon's field move.** Cut, Defog and Surf cast like Psynergy but show
+     the Set Pokémon's icon beside the hero in place of the Psynergy glow. In Pokémon games a field move plays the
+     Pokémon's cry as it shows. The Pokémon cries come with a later job. Recommended: The cast's hand sound, like
+     every cast, until the cries job, as built. [Silent until the cries job; the Pokémon's cry, built with the cries
+     job.]
+143. **Decided (31 Oct):** **A sound for healing from the Start menu.** Picking a heal in the Start menu plays the
+     confirm sound. Golden Sun plays a restore chime when the party's HP goes up on the field, but we have not yet
+     found what its own menu plays for a heal. Recommended: The confirm sound only, as built. [The confirm sound, then
+     the restore chime after a heal or a PP restore.]
+144. **Decided (31 Oct):** **How often the hurt sound plays on poison ground.** Ground that hurts takes HP on every
+     square you walk, so the hurt sound plays on every square, about four times a second walking and six running
+     across a long swamp. A step that takes no HP is silent. Golden Sun's poison plays it each time it takes HP on the
+     field too. Recommended: On every square that takes HP, matching the HP loss, as built. [Only on the first square
+     of each visit, with its words.]
