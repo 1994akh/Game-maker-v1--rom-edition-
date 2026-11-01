@@ -3,6 +3,20 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 1 Nov 2026
+
+- **Decided (open 159 to 165), all as recommended:** as built: every Act I place shows on the Chart from the start, with
+  Hushwater and Twin Bells as rumours (159); battles at sea come half as often per stretch of water sailed (161);
+  Tully's lines at the storm and the fog, said once each time she comes up against it (162); a plain line at places
+  whose rooms aren't built yet (163); the ship comes to the crew's harbour when they go Home from an inn or wake after a
+  defeat (164); and the west road opens as mission 10 ends, with no scene (165). To build: at the jetty, Tully's line
+  first, then Chart, Bunk and Not now, with Set sail and Sail here chosen on the Chart (160); the Wayfarer's helm from
+  mission 10 follows its own script the same way, its line first, then Chart, The Galeway once that row is built, and
+  Not now.
+- **New for your answer (open 159 to 165):** What the Chart shows before you've been there; What Tully offers at the
+  jetty; How often battles come at sea; Tully's words at the storm and the fog; Places on the map whose rooms aren't
+  built yet; Where the ship goes when the crew is sent home; How Marrow Isle's west road opens.
+
 ## 31 Oct 2026
 
 - **Merged (engine PR #98), Fallhaven's rooms:** mission 2's and mission 9's lower towns are one room,
