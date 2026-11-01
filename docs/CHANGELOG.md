@@ -3,6 +3,12 @@
 Every design decision since the phase-1 answers, newest first, with the reason. `DESIGN.md` carries a summary
 header; the detailed rules are in `docs/design/`.
 
+## 1 Nov 2026
+
+- **New for your answer (open 159 to 165):** What the Chart shows before you've been there; What Tully offers at the
+  jetty; How often battles come at sea; Tully's words at the storm and the fog; Places on the map whose rooms aren't
+  built yet; Where the ship goes when the crew is sent home; How Marrow Isle's west road opens.
+
 ## 31 Oct 2026
 
 - **Merged (engine PR #98), Fallhaven's rooms:** mission 2's and mission 9's lower towns are one room,
