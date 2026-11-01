@@ -5,6 +5,14 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Merged (engine PR #104), battle art:** every Pokemon's back sprite is in its normal colours (1,269 backs and 50
+  fronts were on the wrong palette), the Pixel-boy battle pictures are wired for every room and area by day and night,
+  the command window no longer covers the party on either screen, and the creator's preview draws in its frame. A
+  reviewer found the window pushing a fourth Adept under the touch buttons on the inner screen, fixed before the merge;
+  every test (1,202) and check passed at all three sizes. The Lost Age's ship deck at sea waits for its export. Its four
+  choices are open 208 to 211.
+- **New for your answer (open 208 to 211):** Where the battle commands sit on the cover screen; How the battle
+  background fills the cover's width; Which battle scene each place uses; Where the horizon sits in battle.
 - **New for your answer (open 184 to 207):** Download tiledpalettequant, the palette tool; Download SuperFamiconv,
   the tile check; Install Proper Pixel Art, the clean-up tool; Download Tiny RPG Mana Soul GUI for menu cursors;
   Download (LPC) Overworld for the map's missing icons; Download (LPC) Ship for the Bazaar's hull and the Wayfarer's

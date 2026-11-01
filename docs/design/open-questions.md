@@ -1338,3 +1338,27 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      hand. Recommended: Nila122's kit as the base, repainted, with the expressions drawn by hand, downloaded when
      portraits start. [The image generator, with each person's LPC sheet as the reference, as decision 23 has it;
      drawn by hand as pixel art from nothing.]
+
+**From the battle art job (1 Nov)**
+
+208. **Where the battle commands sit on the cover screen.** The survey asked to move the command window off the party.
+     On the inner screen it now sits in the empty left half. The folded cover is too short to fit it below the
+     fighters beside the stick, Start and A and B, so from two Adepts up it now sits along the top, right of the
+     status box, with both lines below it. With one Adept it stays at the bottom centre, as in Golden Sun.
+     Recommended: along the top, right of the status box, from two Adepts up, as built. [A one-row command strip along
+     the bottom between the stick and A and B, a bigger rework; bottom right beside A and B, Golden Sun's corner, with
+     less room for the enemy line.]
+209. **How the battle background fills the cover's width.** Art 11 draws the Pixel-boy battle pictures at their own
+     size. The cover's view is 746 pixels wide and the pictures are 640, so 106 pixels are left over. Recommended: the
+     picture at its own size, centred, with a mirrored copy on each side so the edges meet, as built. [Scale the
+     picture up to fill the width, which blurs the pixels slightly; plain bars of the sky's colour at the sides.]
+210. **Which battle scene each place uses.** Art 11 sets night per room and the clock sets it outdoors, but no page
+     names a scene for each place. The build picks forest for the Greenwild and the Eldergrove, beach for harbours,
+     the reef, the Bazaar and at sea, hills for Stonehollow and Marrow Isle, the arena for the Forgeheart and the dry
+     plain at red dusk for the Flame Sanctum. The Vault, the sea caves and the Bastion jail use night pictures, and
+     other indoor rooms use day. Recommended: those picks, as built. [Every indoor room by day; indoor rooms by a
+     story flag instead of a fixed time.]
+211. **Where the horizon sits in battle.** Art 11 says the battle picture's horizon is kept in place but not at what
+     height. The build puts it at four tenths of the way down the view, kept so the picture always covers the top and
+     bottom. Recommended: four tenths of the way down, as built. [Level with the enemies' feet; a fixed distance from
+     the top.]
