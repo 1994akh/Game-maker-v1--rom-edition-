@@ -5,6 +5,38 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Decided (open 166 to 168), all as recommended and as built:** all six Fallhaven rooms hold dusk until mission 2
+  ends, the cliff road turning to night when its scenes are built (166); Old Jory sits beside the basket in mission 9,
+  leaving the street open (167); the lift's foot says the same 'for cargo' line in both missions (168).
+- **Decided (open 169 to 180), all as recommended, for the art pass after the 6 Nov reset
+  (docs/design/visual-survey.md):** solid navy menu windows with the ones underneath hidden (169); l, k and é redrawn as
+  true lower case in our copies of both fonts (170); Fallhaven's high town matched to Fallhaven, its grass, signs and
+  doors (171); one bright cyan for the open sea (172); Brann's cottage as a main room and a back room through a door
+  (173); exit markers redrawn as hard-edged pixel art (174); a grey stone fort wall and sea-gate above Bastion's strand
+  (175); a light drifting fog at Lantern Reef with the decks at full colour, gone after Defog (176); a warmer night tint
+  with lit windows and lamps in towns (177); the Chart's map filling the left side at full height (178); a naval bicorne
+  for Commodore Ilse, her hair to the shoulders (179); Touch size's Auto built, the controls over the picture with a
+  dark backing (180).
+- **Decided (adult 65 to 78), for adult mode after the demo:** as recommended for all but 73: Bella's two music themes
+  dropped (65); fan-game people only as Gallery finds and drawing references, adult townsfolk as LPC variants (66); the
+  Adepts' scenes as close-up panels at the set's own size (67); pixel-art pop-ups scaled by whole numbers (68); the
+  animation sets as looping pop-ups, no videos (69); the three later-act finds on Nightmarket Isle (70); a discreet town
+  marker (71); Golden Sun town and harbour tiles at night for its rooms (72); adult looks and thoughts only for the
+  generic adult townsfolk, Mind Read thoughts only for Ilse and Hask, nothing for anyone else named or for children,
+  with a build check (74); plain round glasses as the icon (75); a debug survey switch with grey cards for checking
+  adult screens (76); every Pokémon and creature hidden from adult scenes, with a build check (77); the long strip as an
+  animated Gallery find (78). For 73 you kept adult 14's one embarrassed, non-sexual line from Keeper Brann about the
+  home find.
+- **New for your answer (adult 65 to 78):** Bella's two music themes in the parts bin; Fan-game people as adult
+  townsfolk and trainer art; How the Adepts' scenes use the pixel animation set; Scaling the pixel-art pop-ups;
+  Videos: none exist in the local folder; Gallery finds on Nightmarket Isle; Nightmarket Isle's marker on the map and
+  the Chart; Art for Nightmarket Isle's rooms; Brann's line about the home find; Which named people may carry adult
+  looks or thoughts; The glasses' Key Items icon; A safe way to survey adult screens; Pokémon and creatures during
+  adult scenes; Sheet 2's long sprite strip: a find or a look.
+- **New for your answer (open 169 to 180):** Menu windows: see-through or solid; The fonts' lowercase l and k, and
+  é; Fallhaven's high town: its own look or Fallhaven's; One colour for the open sea; Brann's cottage: one house or
+  two rooms; How exits are marked; Bastion Rock's strand; Lantern Reef's fog before Defog; Night in towns; The Chart's
+  layout; Commodore Ilse's hat; Where the touch controls sit on the inner screen.
 - **New for your answer (open 166 to 168):** Which Fallhaven rooms hold dusk in mission 2; Where Old Jory sits in
   mission 9; What the lift's foot says in mission 9.
 - **Visual survey (1 Nov):** you asked for a look at the game as it is now, with notes on what is visually off, so the

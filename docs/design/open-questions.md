@@ -1085,20 +1085,89 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the Fallhaven answers job (1 Nov)**
 
-166. **Which Fallhaven rooms hold dusk in mission 2.** Your answer 151 holds Fallhaven's clock at dusk through mission
+166. **Decided (1 Nov):** **Which Fallhaven rooms hold dusk in mission 2.** Your answer 151 holds Fallhaven's clock at dusk through mission
      2. Mission 2's script has night falling on the cliff road, but its cliff road scenes aren't built yet, and the
      cliff road, the high town and the west cove are open once the cart is moved. Recommended: all six Fallhaven rooms
      hold dusk until mission 2 ends, as built, with the cliff road turning to night when its scenes are built. [Hold
      only the harbour and the lower town at dusk, and let the clock run on the cliff road, the high town and the cove;
      turn the cliff road to night now, once the cart is moved.]
-167. **Where Old Jory sits in mission 9.** Old Jory sat in the only street into the Leaning Gull's corner. With the
+167. **Decided (1 Nov):** **Where Old Jory sits in mission 9.** Old Jory sat in the only street into the Leaning Gull's corner. With the
      relay stone now beside the inn's door (your answer 149), he blocked the stone, the lift's foot and the inn's
      doorstep. The script only says he sits on the top step that's left, beside the basket. The build moves him one
      step, beside the basket, so the street stays open. Recommended: beside the basket, leaving the street open, as
      built. [In the corner below the way into the inn's corner; just below the inn's doorstep, on the other side of
      the basket.]
-168. **What the lift's foot says in mission 9.** Your answer 147 has the lift's foot say it is for cargo in mission 2.
+168. **Decided (1 Nov):** **What the lift's foot says in mission 9.** Your answer 147 has the lift's foot say it is for cargo in mission 2.
      Neither script gives it a line in mission 9, where only Old Jory rides it. The build says the same in both
      missions: "The archive's lift: a basket on a rope, up the cliff to the wind-wheel. It's for cargo." Recommended:
      the same line in both missions, as built. [A line of its own in mission 9, written in the dialogue pass; no line
      at the foot in mission 9.]
+
+**From the visual survey (1 Nov)**
+
+169. **Decided (1 Nov):** **Menu windows: see-through or solid.** Menu windows are see-through, so a window opened over another shows the
+     text underneath as ghost letters. 'Rowan L9 HP 69/69' shows through Settings, and 'Text speed: Normal' through
+     Remap controls, which opens over Settings. The Start menu and party rows show through the Chart. Slivers of the
+     lower window also peek out where two boxes overlap by a few pixels. Golden Sun's windows are solid. Recommended:
+     solid navy windows like Golden Sun's, with the windows underneath hidden while a new one is open. [Keep the
+     see-through look over the field but hide the windows underneath; solid windows only where one window opens over
+     another.]
+170. **Decided (1 Nov):** **The fonts' lowercase l and k, and é.** Kenney Mini 8, the menu font, draws lowercase l and k as small capitals.
+     You approved it on 18 Oct with that as a quirk you'd get used to (art approval 4). Kenney Pixel 16 in the
+     dialogue box does the same ('bLows bubbLes', 'MudKip'). This asks again because a double l reads as a u: the
+     place banner 'Fallhaven' reads 'Fauhaven'. Both fonts also draw é as a capital, so the Start menu and the battle
+     commands read 'PokÉmon'. Recommended: redraw l, k and é as true lowercase in our own copies of both fonts,
+     keeping their size and spacing. [Keep the fonts as approved on 18 Oct; switch both to another free pixel font
+     with true lowercase.]
+171. **Decided (1 Nov):** **Fallhaven's high town: its own look or Fallhaven's.** The high town is clipped from Golden Sun's Lunpa, and its
+     grass is a pale mint beside the lime green of the cliff road and harbour next door. Lunpa's round
+     yellow-and-black signs sit by the doors and read like hazard signs, and one door is purple among orange ones.
+     Walking up from the cliff road, the colour jump stands out. Recommended: match Fallhaven: the cliff road's lime
+     grass, Golden Sun's hanging shop signs, and one wood colour for every door. [Keep the pale grass, Lunpa's signs
+     and the doors as the high town's look; match the grass only and keep Lunpa's signs and doors.]
+172. **Decided (1 Nov):** **One colour for the open sea.** The open sea is bright cyan in Marrow cove, Fallhaven's harbour, Bastion's
+     strand, the Wayfarer and Lantern Reef. It is deep royal blue in the fallen west cove and the Tradewind Bazaar.
+     Each room keeps the water of the Golden Sun place it was clipped from, so the same ocean looks like two seas.
+     Recommended: the bright cyan water in every open-sea room, since five of the seven use it already. [The deep blue
+     water of the fallen cove and the Bazaar in every open-sea room; keep each room's own Golden Sun water.]
+173. **Decided (1 Nov):** **Brann's cottage: one house or two rooms.** Brann's cottage (the hero's house) is two rooms joined by a strip of
+     green carpet across black space, with no walls. Dark wedges sit in the walls where the strip meets each room.
+     Golden Sun's houses put a back room behind a door, as a room of its own. Recommended: Golden Sun's way: the main
+     room, and the back room as its own room through a door. [One long house with a walled corridor between the two
+     rooms.]
+174. **Decided (1 Nov):** **How exits are marked.** Doorways that lead out (Brann's cottage, the Bastion jail, the Forge hall and sanctum,
+     the sea caves) are drawn as smooth white-gold glows. They are easy to spot on the phone but look soft and
+     code-drawn beside the pixel art. Golden Sun uses plain dark door openings with steps. Recommended: keep a marker,
+     redrawn as hard-edged pixel art in Golden Sun's palette. [Golden Sun's plain dark door openings with no marker;
+     keep the soft glows as they are.]
+175. **Decided (1 Nov):** **Bastion Rock's strand.** Bastion's north strand looks like a copy of Marrow cove: the same jetty and jars, the
+     same thatched house and the same cliffs. Nothing says fortress, though mission 7 turns on walls too high to climb
+     and soft earth by the sea-gate. Recommended: keep the docks but add a grey stone fort wall and sea-gate above the
+     strand, from Golden Sun's stone tiles. [Clip a Golden Sun stone harbour instead, such as Alhafra's or Tolbi's;
+     leave it until the tile redraws after the demo.]
+176. **Decided (1 Nov):** **Lantern Reef's fog before Defog.** The reef's fog is meant (Defog clears it), but today it is one pale veil
+     over the whole room. The decks, the people and the water all look faded, and at night the room turns a flat
+     grey-blue. Recommended: a light drifting fog over the water and between the wreck's pieces, with the decks at
+     full colour, gone after Defog. [A lighter even veil over everything; thick fog at the room's edges only.]
+177. **Decided (1 Nov):** **Night in towns.** Night is one flat blue tint on every outdoor room. Sand turns concrete grey (the fallen west
+     cove's beach), thatch stays bright yellow, and no window or lamp lights up. Indoor rooms stay untinted, which is
+     right. Recommended: a night tint that keeps sand and wood warm, with lit windows and lamps in the towns drawn in
+     code. [A warmer tint only, with no lights; keep today's blue tint.]
+178. **Decided (1 Nov):** **The Chart's layout.** The Chart's round map is a small disc about a fifth of the screen wide, beside a large
+     details box that holds two or three lines. There is room for a much bigger map on both screens, and on the inner
+     screen it is a small square between two empty panes. The look itself is decided: the terrain grid with Kenney
+     Cartography icons now, a painted chart later. Recommended: the map fills the left side at full height, with the
+     details in a narrow strip on the right. [The map fills the screen and the details open as a small box when a
+     place is picked; keep today's layout.]
+179. **Decided (1 Nov):** **Commodore Ilse's hat.** Ilse's LPC look wears a pointed blue hat that reads as a wizard's hat. From behind, her
+     long hair is a grey sheet down to the floor. She is a naval commodore. Recommended: a naval bicorne, with her
+     hair cut to the shoulders. [A tricorne with her hair tied back; keep the look approved on 18 Oct.]
+180. **Decided (1 Nov):** **Where the touch controls sit on the inner screen.** The stick, A, B, L and R are the same size in view pixels
+     on both screens, so on the inner screen the stick's ring is nearly a quarter of the picture's width and about
+     half again as big on the glass (about 31 mm across against 20 on the cover). Where the camera stops at a room's
+     edge the hero walks beside them, as at the Eldergrove's arrival. The Settings default you chose for Touch size is
+     Auto (S-5, 16 Oct), but the engine has only Small, Medium and Large, with Medium on both screens. The inner
+     screen is nearly square, so a 3:2 picture would leave a band below it for the controls. Recommended: build Touch
+     size's Auto, which sizes them per screen to about the cover's size on the glass, keep them over the picture, and
+     give them a dark backing. [A band of their own below a 3:2 picture, so nothing covers the game (the view drops to
+     480x320).]
