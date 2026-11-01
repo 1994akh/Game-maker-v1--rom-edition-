@@ -5,6 +5,22 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Decided (open 145 to 158), all as recommended:** as built: Corvin's homecoming plays on landing at the harbour jetty
+  (145), the four new rooms keep the ground they were cut from, Golden Sun 1's Tolbi Docks, Alpine Crossing and Lunpa,
+  with The Lost Age's Osenia Cliffs for the west cove (146), the lower town is 'Fallhaven, lower town' (148), the
+  alley's top stays shut with its line until the cart is moved (152), the cliff road, the high town and the west cove
+  open once the cart is moved (154), the high town's doors stay shut and do nothing (155), crew 1 lands in the west cove
+  (156) and the alley stays open in mission 9 (157). To build: one lift, coming down at the lower town's harbour steps
+  in both missions, with none in the harbour (147); the Leaning Gull is the bottom-right house with the inn sign, with
+  the relay stone beside its door (149); Marta's is behind the jar-signed door at the top left and Sael's the plain
+  house on the plaza's west side (150, the interiors job); the clock holds in Fallhaven through mission 2, so Fen's rest
+  heals without dawn (151); walkable ramps up the cliff road's terraces before mission 2's cliff scenes (153); and a
+  small cellar room under the old well (158, with mission 9's build).
+- **New for your answer (open 145 to 158):** Where Corvin's homecoming plays; The look of Fallhaven's four new
+  rooms; Where the archive's lift comes down; The lower town's name on the place banner; Which house is the Leaning
+  Gull; Which houses are Sael's and Marta's; Resting at Fen's inn in mission 2; The way round the cart in the west
+  alley; Walking the cliff road's switchbacks; The high town in mission 2; The high town's house doors; Where crew 1
+  arrives in mission 9; Leaving the lower town before the households are out; The order's cellar under the plaza.
 - **Merged (engine PR #99), the field and Psynergy sounds:** every cast's hand, each Psynergy with Golden Sun's own
   timings (Halt's four beats now all play while the hero is held), a refused or empty cast's buzz, exits and stairs (the
   archive's stair up included), chests, Scoop finds, gifts and quest hand-overs, poison ground's hurt, the inn's rest,
