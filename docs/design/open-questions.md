@@ -1039,7 +1039,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 159. **What the Chart shows before you've been there.** The menus page has places become known or rumoured through
      what people tell you, and far landmarks appear once their region is known. No lines do that yet. The build shows
      every Act I place with its name and stars from the start, Fallhaven and the Tradewind Bazaar as marks at the east
-     edge, Hushwater and Twin Bells as rumours, and the Pinnacle because Meridia's towns are known. Recommended: Every
+     edge, Hushwater and Twin Bells as rumours, and the Pinnacle because Meridia's towns are known. Recommended: every
      Act I place known from the start, with Hushwater and Twin Bells as rumours, as built. [Only Marrow Isle and the
      places you have been, until people in the story tell you of the rest; as built, but Fallhaven and the Tradewind
      Bazaar stay off the Chart until a crew first goes there.]
@@ -1053,28 +1053,28 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 161. **How often battles come at sea.** The world map page has battles at sea at about half the land rate. The ship
      moves two and a half times as fast as the hero walks, so half per stretch of water and half per second are
      different things. The build halves it per stretch of water sailed, so per second a battle comes about a quarter
-     more often at sea than when walking on land. Recommended: Half as often per stretch of water sailed, as built.
+     more often at sea than when walking on land. Recommended: half as often per stretch of water sailed, as built.
      [Half as often per second of sailing, which is about a fifth as often per stretch of water; as often as on land
      per stretch of water, which is two and a half times as often per second.]
 162. **Tully's words at the storm and the fog.** The world map page leaves Tully's lines at the storm wall and at the
      north fog to be written, saying only what each should mean. The build has him say "That's the Galeway. The
      order's ships turn back here, and so does she." and "I can't see the bow from the helm in this. Not without a
      pilot." Each comes once as she presses in, and again only after she has sailed off and come back. Recommended:
-     Those two lines, said once each time she comes up against it, as built. [The same lines, said every time she
+     those two lines, said once each time she comes up against it, as built. [The same lines, said every time she
      bumps it; a line of narration in place of Tully; new lines written in the dialogue pass.]
 163. **Places on the map whose rooms aren't built yet.** Saltmarsh Reach's reed islet, Cockle Cay, Tortell's isle,
      Dunstan's quarry and the North Shore Caves are demo places whose rooms come in a later step. Until then the build
      turns you back with a plain line, such as "Cockle Cay. There's no way ashore here yet." The pages gave Sandmere
-     and Driftholm, which wait until after the demo, a closed line in each place's own voice. Recommended: A plain
+     and Driftholm, which wait until after the demo, a closed line in each place's own voice. Recommended: a plain
      line until each room is built, as built. [A closed line in each place's own voice, as Sandmere and Driftholm
      have; hide them on the map and the Chart until their rooms are built.]
 164. **Where the ship goes when the crew is sent home.** The world map page says the ship stays where you left her.
      The inn's Home puts the crew in Stonehollow, and a defeat wakes them at their last inn, so a ship left elsewhere
      could leave them stuck on an island. The build brings her along: to Marrow Isle's cove on Home, and to the
-     harbour of the place they wake in after a defeat. Recommended: She comes to the crew's harbour, as built. [She
+     harbour of the place they wake in after a defeat. Recommended: she comes to the crew's harbour, as built. [She
      stays where she was left; she always comes home to Marrow Isle's cove.]
 165. **How Marrow Isle's west road opens.** The pages open the west road in mission 10, when the forty Rimborn clear
      the rockslide, but no scene shows it. The build opens it quietly as mission 10 ends, and from then on the west
-     gate leads onto the highlands. Dunstan's line about forty picks is the only hint. Recommended: It opens as
+     gate leads onto the highlands. Dunstan's line about forty picks is the only hint. Recommended: it opens as
      mission 10 ends, with no scene, as built. [A short scene after mission 10, with Dunstan's crew clearing the
      slide; a line from Dunstan the first time you try the gate after mission 10, which then opens it.]
