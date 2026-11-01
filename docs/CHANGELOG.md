@@ -5,6 +5,8 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **New for your answer (open 166 to 168):** Which Fallhaven rooms hold dusk in mission 2; Where Old Jory sits in
+  mission 9; What the lift's foot says in mission 9.
 - **Visual survey (1 Nov):** you asked for a look at the game as it is now, with notes on what is visually off, so the
   next art pass can fix it and bring in the item art and the hero creator. visual-survey.md goes place by place (the
   rooms, the people, the items, the hero creator, menus, battles, the world map and the Chart), with a fix for each,
