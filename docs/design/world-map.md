@@ -706,14 +706,27 @@ hidden town**. Working name: **Nightmarket Isle**.
 - **One world map** you walk on land and sail at sea, as decided (decision log 45 and 49).
 - **Places are icons.** A town or dungeon is a small picture on the map. Walk or sail into it and the room opens on
   the side you came from. Leave the room and you stand beside the icon on that side, facing away from it.
+  As built (engine PR #101, waiting to merge): on foot or by Surf you go in by stepping onto one of the icon's squares,
+  by its door on the side you came from, and a door out stands you on that door's square beside it. The ship never
+  enters an icon: she docks by sailing onto the harbour's own square, a square of water beside the icon on its harbour
+  side. The build reads §8 step 4's "icons you enter by touch" as that contact on the map; whether a tap on an icon
+  should also take you there is the PR's question 18.
 - **Large areas** (a forest, a desert stretch) can be entered at their edges instead, as Golden Sun does.
 - **Harbours.** A place with a jetty is a harbour. Sail into its icon and you arrive at the jetty, with the ship
   moored. Talk to Tully or take the helm to set sail, and you're on the world map beside the harbour, aboard.
 - **The ship stays where you left her,** drawn on the map. Landing on a beach parks her there, but only where that
   place's own map is open (open question 130, decided 31 Oct): Meridia's shores once their area's map is in, and an
   island's beach only after the Breaking and never while its harbour is closed (engine PR #96).
+  As built (engine PR #101): the save keeps where she lies, moored at a harbour or parked off a beach. A landing
+  parks her at the centre of her square, and A, pressed facing her from the square beside it, boards her again, as A
+  works on anything in the field. The page doesn't say either; both are the build's plain reading.
 - **Sail here** (from the helm or Tully) goes to any harbour you have visited (question **Sailing back to places you
-  know**).
+  know**). As built (engine PR #101): Sail here is a row on the Chart in Sail mode (menus-and-navigation.md §3 and
+  §8.4). It is offered at a visited harbour with a Sail-here row in places.json (today Marrow Isle, Canalport, the
+  Eldergrove and Lantern Reef) only while the ship could sail there now (open to her, not closed by a line, and with a
+  room built ashore), and not where she already lies; any other place says why. That is the build's reading of "any
+  harbour you have visited". At the jetty, Tully's line will come first, then Chart, Bunk and Not now (your answer 160,
+  still to build).
 - **Story moves** you don't steer (skiff runs, storm crossings, handovers) stay a fade with a line of narration.
 
 ### 5.2 What the ground is
@@ -751,12 +764,19 @@ Each square also carries its **area** (§1.9), which picks the battles, backdrop
 - **Flat and top-down,** as today. Far landmarks of known regions get a small marker at the screen's edge (N-10).
 - **The Lodestar** dial sits at the top centre on the world map and at sea only. It has no needle in Act I, stirs at
   mission 10 and wakes at mission 12 (N-1).
+  As built (engine PR #101): it shows while the crew being played carries the Lodestar, and hides under words,
+  scenes, menus and battles (menus §8.5). The build reads "stirs" as its rim breathing, still with no needle, from
+  the end of mission 10. Its needle (mission 12) and its Settings row (menus §6) aren't built yet.
 - **The place banner** shows an area's name and stars at the bottom when you cross into it.
 - **The sea mini-chart** is optional and off by default (N-4).
 - **The Chart** (Map, then Chart, once you have a ship): Act I's page is the Calm, the middle 4,096 pixels, with edge
   markers toward Eastwater and the rim. It shows places as unknown, rumoured (?), known (name and stars), visited or
   fully explored, plus Kin habitat marks. The whole world's page comes in Act II, the Cloudreach at mission 17 and the
   Deep Shelf at mission 18.
+  As built (engine PR #101): until the area map is built (menus §8.3, in the screens slice), Map opens the Chart
+  straight away. Each known place off the page stands as a marker on the page's edge toward it, which is the build's
+  plain reading of "edge markers toward Eastwater and the rim". The ship and the crew's spot are marked. The Kin
+  habitat marks aren't built yet; menus §8.4 has the rest.
 
 ### 5.5 How the art is made, and what we generate ourselves
 
@@ -835,6 +855,38 @@ Question **Moving between rooms**. In outline:
 4. **The world map in the engine:** icons you enter by touch, doors by side, harbours and docking, the parked ship,
    closed water by flag (storm, fog, blockades, the reef), battles at sea by area, the area banner, the Calm's Chart
    page, and Sail here.
+
+   **Built in engine PR #101 (1 Nov, waiting to merge).** The world map is a room of the game now
+   (`src/world/world_map.gd`), so the Start menu, the pause box, words, battles, banners, touch and the autosave work
+   on it as in any room. You walk it and sail it at §1.8's speeds. Every item of the step is in:
+   - Icons, entered on foot or by Surf by stepping onto them, each by the door on the side you came from; a door out
+     stands you beside the icon, facing away (§5.1). Stonehollow's west gate leads onto the highlands once mission 10 is
+     done; the road opens quietly as mission 10 ends, as built (your answer 165).
+   - Docking, by sailing onto a harbour's own square beside its icon. Set sail puts the crew aboard beside the harbour,
+     bow out (§7).
+   - The parked ship, drawn where she lies and kept in the save.
+   - Closed water by flag: the storm, the north fog, Embral's cutters, Bastion Rock's sea-gate, the reef gap and the
+     Crownwater's locks each turn the ship back with a line, and so do the closed landings of Hushwater, Twin Bells,
+     Sandmere and Driftholm (§2.3) when she sails onto their harbours. Tully's words at the storm and the fog are for
+     your answer (open 162).
+   - Battles by area, on land and at sea, with none on §5.3's quiet squares. The tables are placeholders from Golden
+     Sun 1's world map until the encounter-table work (demo slice 10).
+   - The area banner, with the area's stars.
+   - The Calm's Chart page (`src/world/chart.gd`): to read from the Start menu's Map row, and in Sail mode from the
+     deckhand and the helm (menus-and-navigation.md §3 and §8.4).
+   - Sail here, with a fade.
+
+   It also brings the Lodestar's needleless dial (§5.4) and Surf on the highlands' lakes. The checks that sail, or
+   walk out of a town, now do it on this map by input.
+
+   **Left for later:** the art (step 6: the map is still step 3's flat coloured one, with simple markers); the rooms
+   behind the icons and harbours that have none yet (step 7: the quarry, the North Shore Caves, the Reach's islet,
+   Cockle Cay and Tortell's isle), which turn you back until then; the landmarks' edge markers on the map (N-10); the
+   sea mini-chart (N-4); the Chart's Kin habitat marks, Set bearing and Teleport here; the Wayfarer's "The Galeway"
+   row (demo 20); the battle backdrops by area (open question 103); and the Lodestar's needle (mission 12) and its
+   Settings row. Where the build had to choose something these pages leave to you, the PR's description lists its
+   choice for the decision page.
+
 5. **The room connections, redone against this map** (the next step): the new rooms (`marrow_cove`, `embral_cove`,
    the makers' cabin), the approved ones, the Fallhaven merge, the removed Golden Sun links, the moved arrivals, the
    fades and the backdrops. The six affected checks are reworked.

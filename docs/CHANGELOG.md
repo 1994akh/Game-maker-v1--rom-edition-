@@ -5,6 +5,20 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Merged (engine PR #101), the world map in the engine:** world-map.md §8 step 4. The map is a room of the game now,
+  walked on land and sailed at sea at the decided speeds: icons entered on foot or by Surf, doors by side, docking by
+  sailing onto a harbour's square, the ship drawn where she lies and kept in the save, closed water turning her back
+  with its line, battles by area on land and at sea (placeholder tables until slice 10), the area banner, the Lodestar's
+  needleless dial, the Calm's Chart from the Start menu's Map row, and the deckhand's and the helm's Chart in Sail mode
+  with Set sail, Sleep and Sail here. The art stays the flat coloured map until step 6. A reviewer found seven faults,
+  all fixed (among them crew 1 stranded in Canalport without the Kestrel, sea battles at more than half the land rate,
+  and the Crownwater's line never heard); a second check found three more (a defeat before any inn rest stranding the
+  crew, waking aboard the Wayfarer while she lay elsewhere, docking where nobody could set sail again) and a third round
+  three more (the mission 4 and 9 jumps without an inn to wake at, the Wayfarer's gangway walling the cove's jetty,
+  mission 6's flags missing from later jumps), all fixed before the merge; every test (1,159) and all 40 checks passed
+  at all three sizes. world-map.md §5 and §8 and menus-and-navigation.md §3 and §8.4 now say what was built. The choices
+  the build made where the pages leave the answer to you are listed on the PR; seven of them went to you as open 159 to
+  165, decided below.
 - **Decided (open 159 to 165), all as recommended:** as built: every Act I place shows on the Chart from the start, with
   Hushwater and Twin Bells as rumours (159); battles at sea come half as often per stretch of water sailed (161);
   Tully's lines at the storm and the fog, said once each time she comes up against it (162); a plain line at places
