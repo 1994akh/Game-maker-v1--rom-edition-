@@ -293,14 +293,16 @@ meaning alone: danger is a count of stars, and HP shows as numbers.
     places of Act I, and the places it counts as visited from the story.
   - Landmarks show once their region is known. The build counts a region known by a flag `known:<region>`, or once one
     of its places that isn't a landmark is known, visited or explored; a landmark's own `known:<id>` flag shows it too.
-    So in Act I the Pinnacle shows (Meridia's Canalport and the Eldergrove are known) and Act II's landmarks don't. What
-    the Chart shows before you've been there is for your answer (open 159).
+    So in Act I the Pinnacle shows (Meridia's Canalport and the Eldergrove are known) and Act II's landmarks don't.
+    Before you've been anywhere, every Act I place shows with its name and stars, Hushwater and Twin Bells as rumours,
+    as built (your answer 159).
   - The stick or the D-pad steps the cursor to the nearest place that way. A opens the place's list; B closes the
     list, then the Chart. A tap selects a place, and a tap on the selected one opens its list.
   - Every place's list has Details and Back. In Sail mode (§3) her berth's list adds Set sail and Sleep, a visited
     harbour she can reach adds Sail here, and the box under any other place says why she can't be sailed there: no
     harbour, a line that closes it, not open yet, nothing built ashore yet, a first visit to sail yourself (open
-    question 80), or she lies there. What Tully offers at the jetty is for your answer (open 160).
+    question 80), or she lies there. At the jetty, Tully's line will come first, then Chart, Bunk and Not now (your
+    answer 160, still to build).
   - From the Start menu's Map row it opens to read, with no Sail mode, for either crew; crew 2's place is marked
     (world-map.md §2.2).
   - Not built yet: Set bearing, Teleport here and the Kin habitat marks (§8.9).

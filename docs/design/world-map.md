@@ -721,12 +721,12 @@ hidden town**. Working name: **Nightmarket Isle**.
   parks her at the centre of her square, and A, pressed facing her from the square beside it, boards her again, as A
   works on anything in the field. The page doesn't say either; both are the build's plain reading.
 - **Sail here** (from the helm or Tully) goes to any harbour you have visited (question **Sailing back to places you
-  know**).
-  As built (engine PR #101): Sail here is a row on the Chart in Sail mode (menus-and-navigation.md §3 and §8.4). It is
-  offered at a visited harbour with a Sail-here row in places.json (today Marrow Isle, Canalport, the Eldergrove and
-  Lantern Reef) only while the ship could sail there now (open to her, not closed by a line, and with a room built
-  ashore), and not where she already lies; any other place says why. That is the build's reading of "any harbour you
-  have visited". What Tully offers at the jetty is for your answer (open 160).
+  know**). As built (engine PR #101): Sail here is a row on the Chart in Sail mode (menus-and-navigation.md §3 and
+  §8.4). It is offered at a visited harbour with a Sail-here row in places.json (today Marrow Isle, Canalport, the
+  Eldergrove and Lantern Reef) only while the ship could sail there now (open to her, not closed by a line, and with a
+  room built ashore), and not where she already lies; any other place says why. That is the build's reading of "any
+  harbour you have visited". At the jetty, Tully's line will come first, then Chart, Bunk and Not now (your answer 160,
+  still to build).
 - **Story moves** you don't steer (skiff runs, storm crossings, handovers) stay a fade with a line of narration.
 
 ### 5.2 What the ground is
@@ -861,7 +861,7 @@ Question **Moving between rooms**. In outline:
    on it as in any room. You walk it and sail it at §1.8's speeds. Every item of the step is in:
    - Icons, entered on foot or by Surf by stepping onto them, each by the door on the side you came from; a door out
      stands you beside the icon, facing away (§5.1). Stonehollow's west gate leads onto the highlands once mission 10 is
-     done; how that road opens is for your answer (open 165).
+     done; the road opens quietly as mission 10 ends, as built (your answer 165).
    - Docking, by sailing onto a harbour's own square beside its icon. Set sail puts the crew aboard beside the harbour,
      bow out (§7).
    - The parked ship, drawn where she lies and kept in the save.
