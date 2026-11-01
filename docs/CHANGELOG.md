@@ -5,6 +5,16 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **New for your answer (adult 65 to 78):** Bella's two music themes in the parts bin; Fan-game people as adult
+  townsfolk and trainer art; How the Adepts' scenes use the pixel animation set; Scaling the pixel-art pop-ups;
+  Videos: none exist in the local folder; Gallery finds on Nightmarket Isle; Nightmarket Isle's marker on the map and
+  the Chart; Art for Nightmarket Isle's rooms; Brann's line about the home find; Which named people may carry adult
+  looks or thoughts; The glasses' Key Items icon; A safe way to survey adult screens; Pokémon and creatures during
+  adult scenes; Sheet 2's long sprite strip: a find or a look.
+- **New for your answer (open 169 to 180):** Menu windows: see-through or solid; The fonts' lowercase l and k, and
+  é; Fallhaven's high town: its own look or Fallhaven's; One colour for the open sea; Brann's cottage: one house or
+  two rooms; How exits are marked; Bastion Rock's strand; Lantern Reef's fog before Defog; Night in towns; The Chart's
+  layout; Commodore Ilse's hat; Where the touch controls sit on the inner screen.
 - **New for your answer (open 166 to 168):** Which Fallhaven rooms hold dusk in mission 2; Where Old Jory sits in
   mission 9; What the lift's foot says in mission 9.
 - **Merged (engine PR #101), the world map in the engine:** world-map.md §8 step 4. The map is a room of the game now,

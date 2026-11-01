@@ -441,3 +441,78 @@ Answered on the decision page: accepted items are marked **Decided** with the da
     14), and three wait for later acts. Each find's hiding spot is chosen when its room's adult content is built.
     Recommended: approve the draft, with any moves you want written in the note box (find number and place). [Place
     them yourself in the file; leave the places until each room's adult content is built.]
+
+**From the visual survey (1 Nov)**
+
+65. **Bella's two music themes in the parts bin.** The fan game's copy holds two music tracks named for Bella (her
+    theme and her battle theme). They are music, not pictures of her, but your rule excludes Bella. Recommended: drop
+    both, so nothing of Bella's is in the game. [Keep them as ordinary music the game may use under other names; keep
+    them in the parts bin but never use them.]
+66. **Fan-game people as adult townsfolk and trainer art.** Review sheet 1's approved rows propose four of the fan
+    game's people sprites as adult townsfolk walking looks and four as adult-mode trainer art. Their frames are 64 px
+    like LPC's, but they are drawn in Pokémon Essentials' style, and art 3 makes every person in the game LPC. Beside
+    the LPC townsfolk they would look out of place. Recommended: use them only as Gallery finds and drawing
+    references, with the adult townsfolk looks made as LPC variants of today's townsfolk (adult 17's method). [Redraw
+    them on LPC bodies as new adult-only townsfolk; use them as they are and accept the style mismatch.]
+67. **How the Adepts' scenes use the pixel animation set.** Adult 41 builds the Adepts' scenes from the pixel set
+    (sheet 3), recoloured to each Adept at the 64x64 standard. Its figures are about 220 px tall, roughly four times
+    an LPC person in a 64 frame, so shrinking them loses the drawing. Their outline and palette also differ from
+    LPC's. Recommended: show each scene as a close-up panel over the dimmed room at the set's own size, recoloured to
+    the Adept's hair, skin and outfit colours, with the field sprites staying LPC. [Redraw every pose at 64 in LPC
+    style (the largest art job); shrink the frames to 64 and accept the lost detail.]
+68. **Scaling the pixel-art pop-ups.** Adult-mode.md §3 says pop-up art is scaled to fit, never pixel-doubled. Several
+    approved finds are pixel art with 96- and 144-px frames (sheet 2). Smooth scaling to the inner screen (2184x1968)
+    or the cover (2520x1080) will blur them. Recommended: pixel-art finds scale by the largest whole number that fits
+    and stay sharp, and the smooth set's stills scale to fit with smoothing. [Everything scales to fit with smoothing,
+    as written; everything scales by whole numbers only.]
+69. **Videos: none exist in the local folder.** Adult 15 and 55 plan videos converted to 720p Ogg Theora, but the
+    local folder holds no video file. The two animation sets are frame sequences. Recommended: play the animation
+    sets' frame sequences as looping animated pop-ups, and convert real videos only if you add some later. [You will
+    add video files to the local folder for the adult build; drop videos and keep still pictures only.]
+70. **Gallery finds on Nightmarket Isle.** The draft Gallery plan places 30 finds, three in each demo place, and holds
+    3 for later acts. Nightmarket Isle, the adult-only town decided on 24 Oct after that plan, has none. Recommended:
+    move the three later-act finds to Nightmarket Isle: one on the quay, one in the inn, one in the shop. [Move three
+    from the demo places instead; give Nightmarket Isle its own new finds when its rooms are built.]
+71. **Nightmarket Isle's marker on the map and the Chart.** With the mode on, the island shows today as a hot-pink
+    debug square. It stands out on the cover screen in public, and adult 31 keeps the mode the same on both screens.
+    Recommended: a discreet marker: the same town icon as any other place, in the UI's own colours, with only its
+    name. [A distinct icon or colour that marks it as the adult town; no marker at all, with Vesper sailing there from
+    a helm line only.]
+72. **Art for Nightmarket Isle's rooms.** The rooms nightmarket (quay and market), nightmarket_inn and
+    nightmarket_shop are planned as 'later'. Golden Sun has no night-market tileset. The art rules use Golden Sun's
+    room tiles at 2x, with generated art only where Golden Sun has nothing (open 91 and 102). Recommended: Golden Sun
+    town and harbour tiles at 2x with a night tint, plus lanterns and lashed boats drawn in code to Golden Sun's
+    palette. [Generated art throughout for a look of its own; tiles from the fan game's parts bin.]
+73. **Brann's line about the home find.** Adult 14 (your choice, 17 Oct) gives the home three finds: the magazine
+    under the bed, a poster that changes with the mode, and an embarrassed, non-sexual line from Keeper Brann. Your
+    rule is 'never Brann'. Recommended: Brann has no adult-mode line at all, and the magazine and the poster stay.
+    [Keep his one embarrassed, non-sexual line, as decided in adult 14.]
+74. **Which named people may carry adult looks or thoughts.** Adult 16 allows generic adult townsfolk on adult bodies,
+    and adult 42 adds Mind Read thoughts. The townsfolk looks include two children, Brann (tf_keeper) and Maestro
+    Bonewhistle (a skeleton with no age). Named adults with written ages are Commodore Ilse (47), Hask (39), Captain
+    Sael (52, Corvin's foster mother, who dies in mission 9) and Vey (58, the villain). Gary Rivalson has no written
+    age. Recommended: adult looks and thoughts for the 13 generic adult townsfolk kinds, Mind Read thoughts only (no
+    looks or scenes) for Ilse and Hask, and nothing for Sael, Vey, Gary, Bonewhistle, Brann or the children, with a
+    build check that refuses them. [Every named adult with a written age except Brann; generic townsfolk only, with no
+    named person.]
+75. **The glasses' Key Items icon.** Adult 21 keeps the hero's sprite unchanged, but item 9410 still needs an icon in
+    the Key Items pocket. The pocket can be seen on the cover screen. Recommended: plain round glasses drawn in code
+    to the item-art style, with nothing adult about the look. [Reuse the fan game's Reveal Glass key-item icon from
+    the parts bin; a distinct design, such as tinted lenses.]
+76. **A safe way to survey adult screens.** Adult 26 blanks screenshots while the mode is on, adult pictures stay off
+    every repo, and Claude doesn't look at explicit images. That leaves no way to check adult screens for layout, size
+    or seam faults the way today's survey checked the rest of the game. Recommended: a debug-only survey switch that
+    swaps every adult picture, video and look for numbered grey cards and lifts the secure window, so the screens can
+    be checked, while you review the real art yourself on the private contact sheets. [You check adult screens
+    yourself on the phone and note faults by number; screenshots of the real screens, saved only to the private folder
+    for you.]
+77. **Pokémon and creatures during adult scenes.** Your rule is nothing sexual with Pokémon or creatures. Rooms hold
+    Pokémon and creature actors (for example Mimikyu, the Sluice Beast and the lantern Litwick), and partners are
+    bonded to the Adepts. Recommended: the scene runner hides every Pokémon and creature actor in the room, partners
+    included, while an adult scene or pop-up plays, Mind Read on a Pokémon never gives an adult thought, and the adult
+    build check enforces both. [Only keep them out of the scene's frame; handle it scene by scene when each one is
+    written.]
+78. **Sheet 2's long sprite strip: a find or a look.** Review sheet 2's number 1 (the 3000x628 sprite strip) was
+    approved as 'your call: a look or an animated Gallery find'. The draft Gallery plan counts it as a find, which is
+    why adult 64 says four loose uploads but the plan has five. Recommended: an animated Gallery find, since it isn't
+    LPC and can't sit as a walking look. [A look, redrawn on LPC bodies; reference only.]
