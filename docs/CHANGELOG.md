@@ -5,6 +5,12 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Decided (open 159 to 165), all as recommended:** as built: every Act I place shows on the Chart from the start, with
+  Hushwater and Twin Bells as rumours (159); battles at sea come half as often per stretch of water sailed (161);
+  Tully's lines at the storm and the fog, said once each time she comes up against it (162); a plain line at places
+  whose rooms aren't built yet (163); the ship comes to the crew's harbour when they are sent home (164); and the west
+  road opens as mission 10 ends, with no scene (165). To build: at the jetty Tully says his line first, then offers
+  Chart, Bunk and Not now, with Set sail and Sail here chosen on the Chart (160).
 - **New for your answer (open 159 to 165):** What the Chart shows before you've been there; What Tully offers at the
   jetty; How often battles come at sea; Tully's words at the storm and the fog; Places on the map whose rooms aren't
   built yet; Where the ship goes when the crew is sent home; How Marrow Isle's west road opens.
