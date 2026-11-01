@@ -1189,7 +1189,7 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the local folder (1 Nov)**
 
-183. **SpriteLib, new in the local folder.** You added SpriteLib, Ari Feldman's free 1990s sprite set (Common Public
+183. **Decided (1 Nov):** **SpriteLib, new in the local folder.** You added SpriteLib, Ari Feldman's free 1990s sprite set (Common Public
      License 1.0: free to use and change, with credit). It holds platformer heroes and tiles, Breakout paddles, tanks,
      1945-style planes, space invaders and a fish game. Its bright, black-outlined arcade style doesn't match Golden
      Sun's tiles or the LPC people, and your item-art answer (art 14) already has the missing item icons drawn to
