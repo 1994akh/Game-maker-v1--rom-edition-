@@ -706,9 +706,11 @@ hidden town**. Working name: **Nightmarket Isle**.
 - **One world map** you walk on land and sail at sea, as decided (decision log 45 and 49).
 - **Places are icons.** A town or dungeon is a small picture on the map. Walk or sail into it and the room opens on
   the side you came from. Leave the room and you stand beside the icon on that side, facing away from it.
-  As built (engine PR #101, waiting to merge): you go in by walking or sailing onto the icon's square, and a door out
-  stands you on that door's square beside it. The build reads §8 step 4's "icons you enter by touch" this way, as
-  this bullet says: contact on the map, not a tap on the screen.
+  As built (engine PR #101, waiting to merge): on foot or by Surf you go in by stepping onto one of the icon's squares,
+  by its door on the side you came from, and a door out stands you on that door's square beside it. The ship never
+  enters an icon: she docks by sailing onto the harbour's own square, a square of water beside the icon on its harbour
+  side. The build reads §8 step 4's "icons you enter by touch" as that contact on the map; whether a tap on an icon
+  should also take you there is the PR's question 18.
 - **Large areas** (a forest, a desert stretch) can be entered at their edges instead, as Golden Sun does.
 - **Harbours.** A place with a jetty is a harbour. Sail into its icon and you arrive at the jetty, with the ship
   moored. Talk to Tully or take the helm to set sail, and you're on the world map beside the harbour, aboard.
@@ -720,10 +722,11 @@ hidden town**. Working name: **Nightmarket Isle**.
   works on anything in the field. The page doesn't say either; both are the build's plain reading.
 - **Sail here** (from the helm or Tully) goes to any harbour you have visited (question **Sailing back to places you
   know**).
-  As built (engine PR #101): Sail here is a row on the Chart in Sail mode (menus-and-navigation.md §3 and §8.4). It
-  is offered at a visited harbour only while the ship could sail there now (open to her and not closed by a line),
-  and not where she already lies; any other place says why. That is the build's plain reading of "any harbour you
-  have visited".
+  As built (engine PR #101): Sail here is a row on the Chart in Sail mode (menus-and-navigation.md §3 and §8.4). It is
+  offered at a visited harbour with a Sail-here row in places.json (today Marrow Isle, Canalport, the Eldergrove and
+  Lantern Reef) only while the ship could sail there now (open to her, not closed by a line, and with a room built
+  ashore), and not where she already lies; any other place says why. That is the build's reading of "any harbour you
+  have visited". What Tully offers at the jetty is for your answer (open 160).
 - **Story moves** you don't steer (skiff runs, storm crossings, handovers) stay a fade with a line of narration.
 
 ### 5.2 What the ground is
@@ -856,13 +859,16 @@ Question **Moving between rooms**. In outline:
    **Built in engine PR #101 (1 Nov, waiting to merge).** The world map is a room of the game now
    (`src/world/world_map.gd`), so the Start menu, the pause box, words, battles, banners, touch and the autosave work
    on it as in any room. You walk it and sail it at §1.8's speeds. Every item of the step is in:
-   - Icons, entered by walking or sailing into them, each by the door on the side you came from; a door out stands
-     you beside the icon, facing away (§5.1). Stonehollow's west gate leads onto the highlands once mission 10 is
-     done.
-   - Docking, by sailing onto a harbour. Set sail puts the crew aboard beside the harbour, bow out (§7).
+   - Icons, entered on foot or by Surf by stepping onto them, each by the door on the side you came from; a door out
+     stands you beside the icon, facing away (§5.1). Stonehollow's west gate leads onto the highlands once mission 10 is
+     done; how that road opens is for your answer (open 165).
+   - Docking, by sailing onto a harbour's own square beside its icon. Set sail puts the crew aboard beside the harbour,
+     bow out (§7).
    - The parked ship, drawn where she lies and kept in the save.
    - Closed water by flag: the storm, the north fog, Embral's cutters, Bastion Rock's sea-gate, the reef gap and the
-     Crownwater's locks each turn the ship back with a line.
+     Crownwater's locks each turn the ship back with a line, and so do the closed landings of Hushwater, Twin Bells,
+     Sandmere and Driftholm (§2.3) when she sails onto their harbours. Tully's words at the storm and the fog are for
+     your answer (open 162).
    - Battles by area, on land and at sea, with none on §5.3's quiet squares. The tables are placeholders from Golden
      Sun 1's world map until the encounter-table work (demo slice 10).
    - The area banner, with the area's stars.
