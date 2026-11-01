@@ -5,6 +5,17 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **New for your answer (open 184 to 207):** Download tiledpalettequant, the palette tool; Download SuperFamiconv,
+  the tile check; Install Proper Pixel Art, the clean-up tool; Download Tiny RPG Mana Soul GUI for menu cursors;
+  Download (LPC) Overworld for the map's missing icons; Download (LPC) Ship for the Bazaar's hull and the Wayfarer's
+  props; Copy the pixel cloud shader for the fogs and the storm; Copy the masked fog shader for Lantern Reef; Download
+  (LPC) Rain for the storm ring; Download the Zelda-like tilesets as a 16-px parts bin; Download the shoreline wave
+  template for foam edges; Download the Sewer tileset for the sluice house; Download the full Ninja Adventure pack for
+  effects and items; Download Foozle's Pixel Magic Effects; Download pimen's spell effects, kept out of git; Download
+  Kyrise's 16-px icons for the bag; Battle's status marks: Golden Sun's own or RPG UI Icons; Herb, Nut and Mint:
+  Golden Sun's own icons or drawn by us; Ketch's skiff and the Wayfarer: drawn from nothing or from a free hull; The
+  Churn's whirlpool: animated tiles or a shader; The forge's battle backdrop; Field Psynergy shapes for the demo; How
+  the Halcyra logo is made; How the portraits are made, after the demo.
 - **Art sources and the make list (1 Nov):** for the art pass after the 6 Nov reset, art-sources.md lists the free art
   and tools checked for each need in visual-survey.md §9's order (licences read on each page, nothing downloaded: 16
   downloads and 8 make-or-reuse choices wait for your answer, the rest are reference only or dropped), and
