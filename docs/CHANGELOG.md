@@ -5,6 +5,16 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **Merged (engine PR #99), the field and Psynergy sounds:** every cast's hand, each Psynergy with Golden Sun's own
+  timings (Halt's four beats now all play while the hero is held), a refused or empty cast's buzz, exits and stairs (the
+  archive's stair up included), chests, Scoop finds, gifts and quest hand-overs, poison ground's hurt, the inn's rest,
+  emotes and the Start menu's own sounds, with your answers 139 to 144. A reviewer found two faults, both fixed before
+  the merge, and a second check passed every test and every check at all three Fold sizes. Still to come: Lift, Carry
+  and Douse (no field handlers yet), door sounds (with the interiors), and Golden Sun's extra cast sounds (Move's hand
+  leaving and its blocked buzz, Frost's second chime, Retreat's own).
+- **Merged (engine PR #100), the touch check's rare failure:** it was never the touch controls. Every copy of the game
+  on the PC shares one save folder, so a test running beside the check could leave a save in the check's slots, and the
+  title then opened on Continue. The check now uses save slots of its own; the game itself never drops a tap.
 - **Decided (open 139 to 144), all as recommended and as built:** an empty L or R press plays Golden Sun's no-target
   buzz with its puff (139); a quest's hand-over plays the item jingle on its received page (140); Move plays Golden
   Sun's own push sound on each push, with the hand's leaving sounds to come with its other extra cast sounds (141); Cut,
