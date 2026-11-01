@@ -9,7 +9,7 @@
 | Mission | 9, The Fall of Fallhaven (Act I's ending, part one) |
 | Plays after | Mission 8's posters ([mission-08.md](mission-08.md), scene 16): Crew 1's next rest at an inn or a sanctum once `m8_posters` is set. "Soon after", played at night (decision 8), on mission 7's rest hook (decision 7) |
 | Crew | Both. Crew 1 ({HERO}, Maren, Sorrel, Vesper) is played from the knock; Crew 2 (Corvin, Tamsin, Nerissa, Wynn) is placed in the archive. Relay stones switch between them (mission-9-build.md). Each crew keeps its own bag until mission 10 |
-| Rooms | Wherever Crew 1 rests (the knock); `fallhaven_cliff` (mission 2's cliff road: the way down at the start, falling at the end); `fallhaven_lower` (re-clipped: mission 2's lower town, at night, with the households' lanes); `fallhaven_archive` (re-clipped: the great hall, the east wing and vault, the wind-wheel ledge, the high door); `stonehollow` (the cove, for the landing) |
+| Rooms | Wherever Crew 1 rests (the knock); `fallhaven_cove` and `fallhaven_high` (the west cove, where the Kestrel moors among the boats, and the high town: built by engine PR #98, which lands crew 1 in the cove to walk down through the high town; where crew 1 arrives is for your answer, open 156); `fallhaven_cliff` (mission 2's cliff road: the way down at the start, falling at the end); `fallhaven_lower` (mission 2's lower town, at night, with the households' lanes: one room with mission 2's since engine PR #98, over the whole of Golden Sun 1's Bilibin); `fallhaven_archive` (re-clipped: the great hall, the east wing and vault, the wind-wheel ledge, the high door); `marrow_cove` (the cove, for the landing) |
 | Clock | The knock sets night. Night all through Fallhaven: the clock holds while the crews are there (mission 6's reef rule). Dawn at Stonehollow |
 | Flags in | `m8_posters` |
 | Flags out | `m9_started`, `m9_road`, `m9_lower_intro`, `m9_alley`, `m9_ev_a`, `m9_vine`, `m9_ev_b`, `m9_hatch_seen`, `m9_hatch`, `m9_lift`, `m9_ev_c`, `m9_evacuated`, `m9_archive_intro`, `m9_where`, `m9_lamp`, `m9_case`, `m9_ledger`, `m9_meet`, `m9_sael`, `m9_climb`, `m9_boulder`, `m9_slab`, `m9_top`, `m9_confession`, `m9_done`; and, optional, `m9_marta`, `m9_charts` |
@@ -992,8 +992,8 @@ fleet. We escort them in.
 
 **Ilse:** To Marrow Isle.
 
-*[place crew 2 → stonehollow, the cove (in Ketch's skiff, under its nets)] [phase dawn] [warp stonehollow, the cove
-(a new entrance)]*
+*[place crew 2 → marrow_cove, the jetty (in Ketch's skiff, under its nets)] [phase dawn] [warp marrow_cove, the jetty
+(entrance 0)]*
 
 ### 20. The landing
 
@@ -1532,9 +1532,9 @@ falls in scene 17.
   town is {HERO}'s. The relay
   stone's quicker than I am.
 
-### `stonehollow`
+### `marrow_cove`
 
-Scene 20 only. Mission 10's page takes Stonehollow over from `m9_done`.
+Scene 20 only. Mission 10's page takes the cove over from `m9_done`.
 
 ## Items and chests
 
@@ -1706,14 +1706,14 @@ Things story.md doesn't say, for you to keep or strike:
 ## Changes to the build
 
 **Rooms**
-- **`fallhaven_lower`** re-clipped from the same part of Golden Sun 1's Bilibin as mission 2's lower town, so the
-  plaza, the Leaning Gull, Marta's, the harbour stair and the new edge are where a player left them, with more of
-  Bilibin's lanes south and west for the households: the west lane with the chimney's door and niche, the old
-  terrace with the sprout's crack and the vine gate (`m9_vine`), the broken harbour steps with the lift's foot, the
-  plaza with its crack (a gate opening it wider in scene 12), the old well and the hatch, the relay stone by the
-  Leaning Gull, Marta's counter, the north stair (the warp to the archive's entrance 1, as built) and the west alley
-  (a warp to `fallhaven_cliff`'s bottom). Entrance 0 moves from the harbour to the foot of the west alley. Outdoor,
-  at night, with `clock_hold: night`.
+- **`fallhaven_lower`**, one room with mission 2's lower town since engine PR #98, over the whole of Golden Sun 1's
+  Bilibin (mission 9's cells and slots as they were), so the plaza, the Leaning Gull, Marta's, the harbour stair and
+  the new edge are where a player left them, with more of Bilibin's lanes south and west for the households: the west
+  lane with the chimney's door and niche, the old terrace with the sprout's crack and the vine gate (`m9_vine`), the
+  broken harbour steps with the lift's foot, the plaza with its crack (a gate opening it wider in scene 12), the old
+  well and the hatch, the relay stone by the Leaning Gull, Marta's counter, the north stair (the warp to the
+  archive's entrance 1, as built) and the west alley (a link to `fallhaven_cliff`'s bottom, built by engine PR #98).
+  Entrance 0 moves from the harbour to the foot of the west alley. Outdoor, at night, with `clock_hold: night`.
 - **`fallhaven_archive`** re-clipped: the great hall (entrance 1 at the great doors) with a strip of the plaza
   outside the doors that a gate turns to the edge in scene 14; the reading table, the racks and the relay stone
   (entrance 0 beside it for Crew 2); the east wing, drawn dark until `m9_lamp` (mission 8's hold), with the great
@@ -1727,8 +1727,9 @@ Things story.md doesn't say, for you to keep or strike:
   behind the crew, the boulder (pushable; falls off the edge, mission 2's rule), the rocking slab (a patrol actor
   over the last bend's gap that Halt stops, its cell walkable while it's halted there: mission 6's spar), and the
   lower town's roofs at the road's foot, which a gate turns to the edge in scene 17. `clock_hold: night`.
-- **`stonehollow`:** a new entrance at the cove for the landing; scene 20 (Ilse, the Holdfast's boat, the towed
-  Kestrel, Ketch's skiff and its nets as actors) replaces the first half of today's `refugees_settle`.
+- **`marrow_cove`:** the landing at the jetty, entrance 0 (built: the finale lands both crews there at dawn);
+  scene 20 (Ilse, the Holdfast's boat, the towed Kestrel, Ketch's skiff and its nets as actors) replaces the first
+  half of today's `refugees_settle`.
 
 **Actors and engine**
 - **The rest hook** (mission 7's shared file) plays scene 1 once `m8_posters`, unless `m9_started`, and drops that

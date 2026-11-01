@@ -17,8 +17,9 @@ new. The rest of the page is the 15 Oct build.
    his crew's restoration point. A fallen stone blocks the passage north; Move slides it twice and the way opens
    to the river mouth, where a Rimborn skiff waits. A chest holds two Herbs.
 3. **Fallhaven**, the cliff town on the east rim. The skiff lands at the harbour's jetty (`fallhaven_harbour`,
-   placeholder Tolbi Docks tiles), and Corvin climbs the harbour stair into the lower town (`fallhaven_lower`,
-   placeholder Bilibin tiles, in its mission 2 state, at dusk).
+   placeholder Tolbi Docks tiles), and the arrival (`skiff_in`) plays there; where the homecoming (the script's
+   scene 4) plays is for your answer (open 145). Corvin climbs the harbour stair into the lower town
+   (`fallhaven_lower`, placeholder Bilibin tiles, in its mission 2 state, at dusk).
    - **Sael** recognises Corvin as the boy she pulled from the wreck. The ground shakes and Tanner's street falls
      into the Rimfalls (Tanner is gone from the town afterwards). Sael asks Corvin to clear the west alley.
    - A **toppled cart** blocks the alley the townsfolk need to reach the cliff road. Move clears it, and **Hask**
@@ -27,7 +28,8 @@ new. The rest of the page is the 15 Oct build.
    - **Hask** offers to tear out every seal at once. Corvin refuses: one seal, done right, the Flame Well first.
      Hask leaves, the screen fades, and the game returns to **the hero's crew in Stonehollow**, with the hero's own
      bag and coins as they were.
-4. An inn in Fallhaven lets Corvin's crew rest.
+4. An inn in Fallhaven lets Corvin's crew rest: the innkeeper (slot 25) stands on the lower town's plaza until the
+   Leaning Gull has a room of its own.
 
 Checked end to end by the engine's `tools/mission2_check` (every page turned by pressing confirm).
 

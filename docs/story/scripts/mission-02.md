@@ -8,7 +8,7 @@
 | Mission | 2, The Drowned Boy (prologue) |
 | Plays after | Mission 1's dawn scene, which switches to crew 2 ([mission-01.md](mission-01.md), scene 7) |
 | Crew | Corvin alone (crew 2) with Larvitar, his own bag and an empty purse (as built) |
-| Rooms | `sea_caves`, `fallhaven_lower` (the lower town: mission 2's `fallhaven`, merged into it by engine PR #98), `fallhaven_cliff` (new: the falling cliff road, decision 5) |
+| Rooms | `sea_caves`, `fallhaven_harbour` (the harbour below the lower town, where Ketch's skiff lands: built by engine PR #98), `fallhaven_lower` (the lower town: mission 2's `fallhaven`, merged into it by engine PR #98), `fallhaven_cliff` (the falling cliff road, decision 5: built as ground by engine PR #98, its scenes still to build) |
 | Clock | Dawn in the caves; dusk in Fallhaven; night on the cliff road; dawn when crew 1 resumes |
 | Flags in | `m1_done`, `m2_started` |
 | Flags out | `m2_caves_intro`, `m2_silt_dug`, `m2_marines`, `m2_stone_moved`, `m2_stash`, `m2_fallhaven`, `m2_sael`, `m2_path_cleared`, `m2_cliff_in`, `m2_boulder`, `m2_wenna`, `m2_pip`, `m2_done` |
@@ -114,7 +114,7 @@ by lanes only Rimborn pilots know.
 Two days of storm and silence later,
 Fallhaven rose out of the spray.
 
-*[phase dusk] [warp fallhaven_lower, entrance 2]*
+*[phase dusk] [warp fallhaven_harbour, entrance 0]*
 
 ### 4. Fallhaven at dusk
 
@@ -529,12 +529,34 @@ No people but Corvin, Larvitar, the distant voice (scene 2) and Ketch (scene 3).
   **Sign:** Grey sea, grey sky, and somewhere
   past them both, Fallhaven.
 
+### `fallhaven_harbour`
+
+*The states:* the lower town's (arrival, then the fall). Engine PR #98 built the harbour below the lower town:
+Ketch's skiff lands at its jetty, entrance 0 (scene 3), and the harbour stair climbs from here to the lower town. As
+built, the placeholder arrival (`skiff_in`) plays on the jetty; where scene 4 plays is for your answer (open 145).
+
+- **Ketch** (new), at the foot of the harbour stair, by the skiff. Arrival:
+
+  **Ketch:** Go and see Sael before somebody
+  else tells her you're back. Trust
+  me.
+
+  I'll be here. Somebody has to bail
+  the boat.
+
+  *After the fall:*
+
+  **Ketch:** If the harbour goes, I'm rowing
+  out past the stair to wait. Go on,
+  they need you.
+
 ### `fallhaven_lower`
 
 *The states:* arrival (until `m2_sael`); the street has fallen (`m2_sael`, until `m2_path_cleared`); the alley is
-clear (`m2_path_cleared`): Hanne, Ossian, Old Jory and Marta have gone up the alley, and Sael, Tanner, Ketch and Fen
-stay. Cells and slots are the merged lower town's (engine PR #98): the whole of Bilibin, where the old 25×20 clip's
-cells moved by (+2, +12), and mission 2's slots 8 to 13 became 20 to 25.
+clear (`m2_path_cleared`): Hanne, Ossian, Old Jory and Marta have gone up the alley, and Sael, Tanner and Fen stay,
+with Ketch down in the harbour. Cells and slots are the merged lower town's (engine PR #98): the whole of Bilibin,
+where the old 25×20 clip's cells moved by (+2, +12), and mission 2's slots 8 to 13 became 20 to 25. Entrance 2 is
+the head of the harbour stair, where Corvin comes up from the harbour.
 
 - **Sael**, slot 20, cell (16,21), on the plaza. Scene 5. Then, until the alley is clear:
 
@@ -561,21 +583,6 @@ cells moved by (+2, +12), and mission 2's slots 8 to 13 became 20 to 25.
 
   **Tanner:** I've still got the bread. Funny,
   the things you keep.
-
-- **Ketch** (new), at the foot of the harbour stair, by the skiff. Arrival:
-
-  **Ketch:** Go and see Sael before somebody
-  else tells her you're back. Trust
-  me.
-
-  I'll be here. Somebody has to bail
-  the boat.
-
-  *After the fall:*
-
-  **Ketch:** If the harbour goes, I'm rowing
-  out past the stair to wait. Go on,
-  they need you.
 
 - **Old Jory, the net-mender** (new), on the harbour steps. Arrival:
 
@@ -726,7 +733,7 @@ cells moved by (+2, +12), and mission 2's slots 8 to 13 became 20 to 25.
   the alley, one wheel still turning.
   Earth would shift it.
 
-### `fallhaven_cliff` (new)
+### `fallhaven_cliff` (built as ground by engine PR #98)
 
 *The states:* climbing (from `m2_cliff_in`); at the top, which changes as `m2_wenna` and `m2_pip` are set.
 
@@ -903,17 +910,21 @@ Things story.md doesn't say, for you to keep or strike:
 ## Changes to the build
 
 **Rooms**
-- **`fallhaven_cliff`** (new, decision 5's falling cliff road): switchbacks from the top of the west alley to the
-  high town gate, with the edge along the east, the cellar ledge on the second bend, the low wall on the last bend
-  and the gate at the top. Clipped from a Golden Sun cliff path with `--solid-shapes`, the builder's pick. The west
-  alley's top warps into it.
+- **`fallhaven_cliff`** (decision 5's falling cliff road): switchbacks from the top of the west alley to the high
+  town gate, with the edge along the east, the cellar ledge on the second bend, the low wall on the last bend and the
+  gate at the top. Built as ground only by engine PR #98, cut from Golden Sun 1's Alpine Crossing, the builder's pick
+  (its look is for your answer, open 146). Its terraces are only in the art so far, so how the switchbacks are walked
+  is for your answer (open 153). The west alley's top leads into it (built).
 - **`sea_caves`:** the silted arch on the main path (a dig spot and a gate), the chalk mark, the crate in front of
   a niche with today's chest (slot 10) moved into it, a step-on spot for scene 2, and Ketch's skiff as an actor
   whose scene replaces today's bare warp to Fallhaven. Extend the clip if the three puzzles don't fit.
+- **`fallhaven_harbour`** (built by engine PR #98): scene 3's warp lands the skiff at its jetty (entrance 0), as
+  built, and Ketch's row (new) stands by it. As built, the placeholder arrival (`skiff_in`) plays on the jetty; where
+  scene 4 plays is for your answer (open 145).
 - **`fallhaven_lower`** (mission 2's `fallhaven`, merged into it by engine PR #98): Sael's scene rewritten (scene 5);
   the east street falls (a gate turning its cells into the edge, with the camera pan), and the edge post swaps for the
   new board; Tanner stays and moves to the plaza (today he's hidden); Hask moves to `fallhaven_cliff`; new rows for
-  Ketch, Old Jory, Marta (with the shop, slice 4), Ossian and Pip, and the signs; the townsfolk walk off up the alley in
+  Old Jory, Marta (with the shop, slice 4), Ossian and Pip, and the signs; the townsfolk walk off up the alley in
   scene 6.
 
 **Actors and engine**

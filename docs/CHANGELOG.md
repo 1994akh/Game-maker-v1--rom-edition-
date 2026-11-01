@@ -7,12 +7,15 @@ header; the detailed rules are in `docs/design/`.
 
 - **Built (engine PR #98, waiting to merge), Fallhaven's rooms:** mission 2's and mission 9's lower towns are one room,
   `fallhaven_lower`, cut from the whole of Bilibin, in three states by story flag (mission 2 at dusk, mission 9 at
-  night, then fallen). Four new rooms join it as ground, entrances and links: the harbour (Golden Sun 1's Tolbi Docks),
-  the cliff road (Alpine Crossing), the high town (Lunpa) and the west cove (The Lost Age's Osenia Cliffs). Ketch's
-  skiff lands at the harbour's jetty, mission 9 starts at night in the west cove, and the archive's finale lands both
-  crews at `marrow_cove` at dawn. The scripts' scenes on the cliff road and at the high town gate come with the mission
-  builds. The review found 13 faults, all fixed. world-map.md §3.7 and §3.10, mission-02.md, mission-09.md and the two
-  build pages now say what was built; where the build and a script differ, the script keeps its own reading.
+  night, then fallen). Four new rooms join it as ground, entrances and links (the harbour also plays mission 2's
+  placeholder arrival): the harbour (Golden Sun 1's Tolbi Docks), the cliff road (Alpine Crossing), the high town
+  (Lunpa) and the west cove (The Lost Age's Osenia Cliffs). Ketch's skiff lands at the harbour's jetty, mission 9
+  starts at night in the west cove, and the archive's finale lands both crews at `marrow_cove` at dawn. Old saves in
+  either lower-town room load at their old room's main entrance with the one line, as open 96 decided. The scripts'
+  scenes on the cliff road and at the high town gate come with the mission builds. The review found 13 faults, all
+  fixed. world-map.md §3, §3.7 and §3.10, mission-02.md, mission-09.md and the two build pages now say what was
+  built; where the build and a script differ, the script keeps its own reading and the page names the question that
+  waits for your answer (open 145 to 158).
 - **Decided (open 132 to 138), all as recommended:** no landing on a Meridia shore that has no map yet (132); after the
   Breaking every open island whose harbour is not closed takes a beach landing (133); the Djinn chirps stay as built,
   the lower for Set and the higher for Standby, to swap if it sounds backwards (134); the party's fall plays Golden
