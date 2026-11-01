@@ -16,6 +16,14 @@ header; the detailed rules are in `docs/design/`.
   fixed. world-map.md §3, §3.7 and §3.10, mission-02.md, mission-09.md and the two build pages now say what was
   built; where the build and a script differ, the script keeps its own reading and the page names the question that
   waits for your answer (open 145 to 158).
+- **Decided (open 139 to 144), all as recommended and as built:** an empty L or R press plays Golden Sun's no-target
+  buzz with its puff (139); a quest's hand-over plays the item jingle on its received page (140); Move plays Golden
+  Sun's own push sound on each push, with the hand's leaving sounds to come with its other extra cast sounds (141); Cut,
+  Defog and Surf play the cast's hand sound until the cries job (142); a Start-menu heal plays the confirm sound only
+  (143); poison ground's hurt sound plays on every square that takes HP (144).
+- **New for your answer (open 139 to 144):** The sound of L or R with nothing in front; The item jingle when a quest
+  hands you something; Move's push sound; The sound of a Pokémon's field move; A sound for healing from the Start
+  menu; How often the hurt sound plays on poison ground.
 - **Decided (open 132 to 138), all as recommended:** no landing on a Meridia shore that has no map yet (132); after the
   Breaking every open island whose harbour is not closed takes a beach landing (133); the Djinn chirps stay as built,
   the lower for Set and the higher for Standby, to swap if it sounds backwards (134); the party's fall plays Golden
