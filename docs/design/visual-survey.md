@@ -109,7 +109,7 @@ their size against Golden Sun's tiles can only be checked once slice 6 puts them
 
 | Room | What is off | Kind | Severity | Suggested fix |
 |---|---|---|---|---|
-| Lantern Reef (`lantern_reef`) | One pale veil lies over the whole room, so the decks, people and water look faded. At night the room turns a flat grey-blue. The fog is meant (Defog clears it); how it should look is on the decision page. | colour | High | As decided. Until then, a lighter veil. |
+| Lantern Reef (`lantern_reef`) | One pale veil lies over the whole room, so the decks, people and water look faded. At night the room turns a flat grey-blue. The fog is meant (Defog clears it), and how it should look is on the decision page. | colour | High | Once you choose. Until then, a lighter veil. |
 | Lantern Reef | The wreck is the planned placeholder (a Golden Sun ship broken in three by painted sea, with Reveal's planks between), but the cuts are clean straight lines, so it looks like a cut picture rather than a broken hull. | style mismatch | High | Jagged broken ends with splintered planks on each piece. More hulks round it can come with the graphics pass, as mission-6-build.md says. |
 | Lantern Reef | A grey strip runs down the full east edge. At night a blue oval and a dark plank appear on the rear decks and read as a puddle and a stray beam. The oval may be the old lantern's Litwick glow. | hole | Medium | Fill or trim the east column. A hard-edged glow sprite for the lantern, if that is what it is, and remove the stray plank. |
 
@@ -154,7 +154,7 @@ their size against Golden Sun's tiles can only be checked once slice 6 puts them
 
 | What | What is off | Kind | Severity | Suggested fix |
 |---|---|---|---|---|
-| Everyone on the field | No LPC person is on the field yet. The cast table maps 27 LPC looks, but no room row names a cast id, and the hero comes from a Golden Sun sprite (blue tunic, red sash). Rowan's LPC look and the townsfolk looks appear only on the contact sheets. | missing | Medium | Slice 6: cast ids in each room's events and the hero on the LPC sheet. Then take sheet 07 again to check height against doors and tiles, the foot shadow, and colours under the night tint. |
+| Everyone on the field | No LPC person is on the field yet. The cast table maps 28 LPC looks (the hero, the seven other Adepts and 20 townsfolk), but no room row names a cast id, and the hero comes from a Golden Sun sprite (blue tunic, red sash). Rowan's LPC look and the townsfolk looks appear only on the contact sheets. | missing | Medium | Slice 6: cast ids in each room's events and the hero on the LPC sheet. Then take sheet 07 again to check height against doors and tiles, the foot shadow, and colours under the night tint. |
 | Partner Pokémon in battle | Every back sprite uses its shiny palette: Treecko is mint behind Rowan, Torchic's back is yellow, Mudkip's purple, Eevee's silver and Pikachu's orange. Every front sprite is right. The expansion's back pictures carry the shiny palette. | colour | High | Import the back sprites again with each species' normal palette. Keep the shiny palette for real shinies only, and add a test that front and back share a palette. |
 | The hero in battle | Always Golden Sun's Isaac (blue tunic, yellow scarf, gold shoulders), whatever the creator chose. It won't match the LPC hero on the field. | style mismatch | Medium | Slice 7: LPC battle rows from the creator's look. |
 | Battle with six enemies | Every enemy drops to half size, as art 10 decided for five or more, but the last one is cut off by the right edge and the name labels float at uneven heights. | scale | Medium | A two-row staggered line that stays inside the view. Labels at a fixed offset from each sprite's top. |
@@ -179,7 +179,7 @@ pictures of 24 px in `assets/pokemon/items` (balls, berries, mints, held items).
 | Herb, Nut and Mint (items 180, 181, 195) | No icon. Only Potion's row in the bag has one, so the list looks half-finished. | missing | Medium | Draw them, as art 14 decided, in code to Golden Sun's palette. |
 | The bag | The 16-kind sample shows only Herb, Nut, Potion and Mint, even scrolled. The Poké Balls, the key item, the weapons and the armour never appear, so their icons can't be seen in the game. | missing | Medium | The six decided pockets (items 17), each listing what the bag holds. Then take the bag sample again. |
 | Icon styles | DCSS's soft-shaded, many-coloured 32-px icons sit beside the expansion's flat 24-px balls. In the bag the potion is squeezed to about 19 game px, with a black tail on its right. | style mismatch | Low | Art approval 4 already says icons show at full size in the item detail box, not squeezed into rows. In rows, one size scaled by whole numbers. Trim the potion's tail. |
-| The Poké Ball | Its top is orange, from the expansion's own colours, and reads wrong next to the red potions. | colour | Low | The balls are to be drawn (art 14); draw them red. |
+| The Poké Ball | Its top is orange, from the expansion's own colours, and reads wrong next to the red potions. | colour | Low | The balls are to be drawn (art 14). Draw them red. |
 
 **What to bring in next.** Draw Herb, Nut, Mint and the balls (art 14, open 102). Wire the six pockets and the full-size
 detail box. Then the weapons and armour from DCSS fill the Gear pocket. This is asset-priorities.md §2.8.
@@ -193,9 +193,9 @@ each) and Accessory. `compose_lpc.py` makes a full LPC Rowan sheet (8 facings, i
 
 | What | What is off | Kind | Severity | Suggested fix |
 |---|---|---|---|---|
-| The preview box | Empty when the creator opens, and with every look after it (sheet 23): the hero is drawn above the top of the screen (§8.2). | missing | High | §8.2's fix. The preview already loads again on every change. |
+| The preview box | Empty when the creator opens, and with every look after it (sheet 23): the hero is drawn above the top of the screen (§8.2). | missing | High | §8.2's fix. The preview loads again only when Gender changes, the one choice that picks its sprite today. |
 | The cosmetics | Changing Skin, Hair, Eyes, Outfit, the colours or the Accessory changes nothing on screen. Only Gender swaps the preview's sprite, to another Golden Sun one, and not even that shows until §8.2's fix. | missing | High | Art 5's pre-composed sheets with colour keys and the palette shader, used in the preview, on the field and in battle. |
-| The value column | Choices show as "<1/6>" and "<1/10>" with no swatch or name, starting at a different x on each row. It reads like a debug list. | placeholder | Medium | Swatches for skin, hair, eyes and the colours. Names for hair styles, outfits and accessories. One value column, with left and right arrows you can tap. |
+| The value column | Choices show as "< 1 / 6 >" and "< 1 / 10 >" with no swatch or name, starting at a different x on each row. It reads like a debug list. | placeholder | Medium | Swatches for skin, hair, eyes and the colours. Names for hair styles, outfits and accessories. One value column, with left and right arrows you can tap. |
 | The touch controls | The joystick and A and B draw over the creator. | layer | Medium | Hide them while it is open. |
 | Portraits | None. | missing | Low | After the demo (asset-priorities.md §1.7). |
 
@@ -209,23 +209,32 @@ outfits and three accessories on both bodies, keyed for the colours. A girl hero
 |---|---|---|---|---|
 | Stacked menus (Settings, save files, debug, Remap, controller test, Said, nickname entry, the Chart, the ask box) | Windows are see-through, so the window underneath shows through as ghost text ("Text speed: Normal", "Resume", "Rowan L9 HP 69/69"). Slivers of the lower window also show where two boxes overlap by a few pixels. | layer | High | On the decision page. Either way, snap stacked windows so they don't overlap. |
 | Battle with three or four Adepts | The command box sits on top of the party. The back Adepts (Sorrel, Vesper) and their partners are hidden, and the rest pile on top of each other. | layer | High | Move the command box and the target list to a strip along the bottom, or to the right below the enemies, until the decided Golden Sun icon row comes (B-1). Spread the party on a diagonal with each partner behind its Adept. |
-| Every battle | No background: a flat dark green. | placeholder | High | Art 11's Pixel-boy scenes, and The Lost Age's ship deck at sea (asset-priorities.md §2.6). |
+| Every battle | No background: a flat dark green. | placeholder | High | Art 11's Pixel-boy scenes, day and night, are already in the engine (`assets/battle_backdrops`), but battle doesn't draw them yet. Wire them per room, and add The Lost Age's ship deck at sea (asset-priorities.md §2.6). |
 | The battle party box and the status pane | HP and PP are bare numbers with no labels or bars, "*" is a separator, "EXP -" shows a dash, "Repeat -" sits in the command list, and there are no faces. | placeholder | Medium | Labelled HP and PP bars like Golden Sun's, real EXP or an EXP bar, Repeat greyed out, faces when portraits come. |
 | The Pokémon menu and its pick list | Text only ("*Treecko L5"), with no icon, HP bar or sprite, and "*" for partner. | missing | Medium | The expansion's menu icons (asset-priorities.md §2.8), an HP bar, a small partner badge. |
 | The dialogue box | No speaker faces, only the name tag. | missing | Low | Portraits after the demo (asset-priorities.md §1.7). Leave room for the slot. |
 | The title screen | "HALCYRA" in the menu font on flat navy, with a two-row box. | placeholder | Medium | Demo 25's painted title card: the Wayfarer under the Pinnacle, a drawn logo, sea and cloud parallax (asset-priorities.md §1.3). |
 | The opening's still | Flat navy with a heading and "The world from above, out to its rim", with no picture. | placeholder | Medium | The painted still (asset-priorities.md §1.3). |
-| Text in the menu font | Lowercase l and k are small capitals, so "Fallhaven" reads "Fauhaven" and "Stonehollow" reads "Stonehouow". | other | Medium | On the decision page. The dialogue box does use Kenney Pixel 16 (art 6), and it draws l and k the same way (§8.3). |
+| Text in the menu font | Lowercase l and k are small capitals, so "Fallhaven" reads "Fauhaven" and "Stonehollow" reads "Stonehouow". | other | Medium | On the decision page. Art approval 4 (18 Oct) took Mini 8's small capitals as a quirk you'd get used to. This asks again because "ll" reads as "u", and the dialogue box's Kenney Pixel 16 (art 6) draws l and k the same way (§8.3). |
 | Touch controls | The grey A and B and the thin grey joystick ring almost vanish over bright grass. The joystick and A and B draw over the Pokémon menu, the creator and the INN sign. | other | Medium | A dark backing disc at about half opacity with a light outline. Hide the joystick while a full-screen menu or the creator is open. |
-| The cover screen's scale | The sheet shows the 746×320 view stretched by 3.375 to fill 2520×1080, so pixel columns come out uneven: Stonehollow's grass shows bands that will shimmer when scrolling. | scale | Low | art-integration.md §3b settled 3× with thin bars (141 and 60 px). Check on the phone and scale by exactly 3. |
+| The cover screen's scale | No fault. The game draws the 746×320 view at exactly 3× inside bars of 141 and 60 px, as art-integration.md §3b settled, and the cover shots' pixel columns are even. The sheets show each picture at a third, at the view's own pixels. | — | — | No change. |
 | The Start menu and the pause box | Both show the "Send report" and "Debug" rows. | other | Low | Right for the playtest builds (open 34). Hide them behind the debug flag in a release build. |
 
 ## 6. Adult mode
 
 Adult mode has nothing on screen to survey yet. The only built piece is the world map's hidden town, which shows only
-while the adult flag is set, and nothing in the game sets it; it is drawn as the test map's debug marker. Everything
+while the adult flag is set, and nothing in the game sets it. It is drawn as the test map's debug marker. Everything
 else is unbuilt, and no adult art is in the engine or in any repo. The inventory of what exists and what each piece will
 need visually is text only, kept on the PC outside every repo, and its questions are on the private decision page.
+
+**A fault to fix, not asked.** A check by file name only (nothing opened) of the fan game's parts copy, the parts
+outside adult mode that engine PR #74 copied in, found files its own exclude list is meant to keep out. A key-item icon
+in a subfolder of Items got through, since the item rules catch only files directly under Items and the rule for the
+character it is named for covers only Characters. Several people sprites got through at the Characters top level,
+against the list's own rule that no human sprite comes from the fan game. The copy is outside git and nothing uses it
+yet. The fix, in a small engine PR before anything is taken from the copy: the item rules anywhere under Items, the
+excluded characters' rules on every Graphics path, only non-people sprites kept at the Characters top level, a self-test
+with a subfolder case, then the import run again.
 
 ## 7. What already looks right
 
@@ -279,17 +288,17 @@ checked in the engine's code and files.
 | 24 | The field on the inner screen: Stonehollow, the lower town, the arrivals at Canalport, the Eldergrove and Lantern Reef, the world map off the cove |
 | 25 | The inner screen's screens: a villager's words, the Start menu, a full battle, the Chart |
 
-The inner screen draws a 480×432 view at 4×, a whole number, so its pixel columns come out even, which the cover's
-stretch does not (§5). Against the cover's 746×320 view it shows 112 more rows and 266 fewer columns.
+The inner screen draws a 480×432 view at 4×, as the cover draws its 746×320 view at 3×: whole numbers on both, so
+pixel columns come out even on both. Against the cover's view it shows 112 more rows and 266 fewer columns.
 
 ### 8.1 Pokémon battles (sheet 22)
 
 | What | What is off | Kind | Severity | Suggested fix |
 |---|---|---|---|---|
-| Partner Pokémon from behind | The retake bears out §3: Treecko is mint, Torchic yellow and Eevee silver. Corvin's Larvitar is pale green from the front in mission 1 and olive from behind in mission 4, when his crew is yours. It is the whole back set, not only the starters: in the files Riolu's, Combee's and Ho-Oh's backs are off too, and a rough check of each picture's main colour flags about two in three of the 1,309 species. The foes' fronts (Combee, Ho-Oh, Larvitar, Riolu) look right. | colour | High | §3's fix for every species at once: export every back again with the normal palette, and run the front-and-back palette test over the whole set. |
+| Partner Pokémon from behind | The retake bears out §3: Treecko is mint, Torchic yellow and Eevee silver. Corvin's Larvitar is pale green from the front in mission 1 and olive from behind in mission 4, when his crew is yours. It is the whole back set, not only the starters: in the files Riolu's, Combee's and Ho-Oh's backs are off too, and a rough check of each picture's colours (how much of each back shares a colour with its front) flags 1,118 of the 1,329 species and forms. The foes' fronts (Combee, Ho-Oh, Larvitar, Riolu) look right. | colour | High | §3's fix for every species at once: export every back again with the normal palette, and run the front-and-back palette test over the whole set. |
 | The command window | It covers the party with only two Adepts too. In the wild battle and Ho-Oh's, Maren is hidden but for a wisp of hair, and Eevee's back is half under it. | layer | High | §5's fix: move it off the party. |
-| Corvin and Tamsin | Both rivals are drawn as Golden Sun's Thief, the engine's stand-in for every trainer's Adept (enemy 22), so they look alike and like the Thief an ordinary battle sends (sheet 25). On the field they are LPC people. | placeholder | Medium | Slice 7's LPC battle rows (assets §2.5) for the rivals too, facing the party. |
-| Corvin on your side (mission 4) | Corvin's crew borrows Isaac's battle sheet, the same as the hero's, so your Corvin looks exactly like Rowan. | placeholder | Medium | Slice 7's LPC rows for every Adept. Until then, borrow a sheet the hero doesn't use. |
+| Corvin and Tamsin | Both rivals are drawn as Golden Sun's Thief, the engine's stand-in for every trainer's Adept (enemy 22), so they look alike and like the Thief an ordinary battle sends (sheet 25). Their LPC looks are made (`data_src/cast.json`, sheets 18-20), but on the field they are Golden Sun sprites too until slice 6 (§3). | placeholder | Medium | Slice 7's LPC battle rows (assets §2.5) for the rivals too, facing the party. |
+| Corvin on your side (mission 4) | Corvin's crew borrows Isaac's battle sheet, the same as the hero's, so your Corvin looks exactly like Rowan. | placeholder | Medium | Slice 7's LPC rows for every Adept. Until then, give Corvin a `look_pc` in `data_src/adepts.json` (as Vesper has), so he borrows a battle sheet the hero doesn't use (not 0 or 4, which both draw Isaac's). |
 | The foes' names | "Corvin" and "Tamsin" sit across their partners' heads, since each partner stands just behind and above its Adept. | layer | Low | Place a trainer's name above the taller of the pair. |
 
 The wild battle has the plain green of every battle (§5's backdrops).
@@ -298,7 +307,7 @@ The wild battle has the plain green of every battle (§5's backdrops).
 
 | What | What is off | Kind | Severity | Suggested fix |
 |---|---|---|---|---|
-| The preview | Empty with every look: the default boy, Girl, and the boy with skin 4, hair 7, eyes 5, outfit 3, colours 6 and 9 and the Headband. The rows take each value, so the creator holds the look, but the frame shows only its fill. The code shows why: the field sprite sets its own height every physics tick (`FieldActorSprite.set_air`, y 0 when nothing walks it), so the preview the creator places in the frame jumps to the top of the screen and draws above it. A speck at the top edge, straight above the frame, is all of it that shows. | missing | High | Put the preview in a holder node placed in the frame, with the sprite at the holder's origin, and add a test that the preview draws inside the frame. Then take sheet 23 again to judge Girl and the cosmetics. |
+| The preview | Empty with every look: the default boy, Girl, and the boy with skin 4, hair 7, eyes 5, outfit 3, colours 6 and 9 and the Headband. The rows take each value, so the creator holds the look, but the frame shows only its fill. The code shows why: the field sprite sets its own height every physics tick (`FieldActorSprite.set_air`, y 0 when nothing walks it), so the preview the creator places in the frame jumps to the top of the screen and draws above it. A speck at the top edge, straight above the frame, is all of it that shows. | missing | High | Put the preview in a holder node placed in the frame, with the sprite at the holder's origin, and add a test that the preview draws inside the frame. Then take sheet 23 again to judge Girl's sprite. The cosmetics can show only once art 5's sheets are in (§4.2). |
 
 Gender steps Pronouns to She, as it should. The rows' other faults stand as §4.2 and §5 found them: the value column
 starts at a different x on each row, and "Girl", "Colour" and "Talkative" show the small-capital l.
@@ -308,27 +317,27 @@ starts at a different x on each row, and "Girl", "Colour" and "Talkative" show t
 | Where | What is off | Kind | Severity | Suggested fix |
 |---|---|---|---|---|
 | A full battle | The enemies stand top right, level with the foot of the status box. The party stands bottom right, and the command window covers most of it: only a red-haired Adept and the edges of the partners show. The left half below the status box is empty but for the stick. On a tall view the code stacks the party below the enemies and starts its line right of the stick, and only the enemies' line keeps clear of the command window. | layer | High | Make the command window an obstacle for the party's line, as it is for the enemies'. On the inner screen, stand the party across the empty left half above the stick. The decided icon row (B-1) replaces the window later. |
-| Canalport's arrival (entrance 0) | The view opens on open sea, with the hero at the top end of a pale green strip that runs out into the water, sand and the rainbow clump below, and none of the town in sight. The strip is §2.3's under-actor patch. | stray tile | High | Move entrance 0 onto the town's ground, facing the town, so the first view shows the town on both screens. Then §2.3's fixes for the patch and the north. |
+| Canalport's arrival (entrance 0) | The view opens on open sea. The hero stands at the jetty end, where world-map.md §3.2 decided ship arrivals land, but the jetty shows as a pale green strip running out into the water (§2.3's under-actor patch), with sand below and none of the town in sight. | stray tile | High | Keep the jetty-end arrival (decided, world-map.md §3.2 and §3.10). Draw the jetty from Alhafra's harbour tiles in place of the patch, and face the hero towards the town so the first view shows it on both screens. If no jetty-end spot can show the town on the inner screen, ask on the decision page rather than move the arrival. Then §2.3's fixes for the north. |
 | The Chart | As on the cover (§2.10), the Start menu's rows ghost through, and a line under the header "The Calm" is cut off. Here the disc is a small square in the middle with an empty pane each side, and the Start menu's window, which runs to the bottom edge on this screen, peeks out under the Chart at the bottom left. | layer, scale | High | §2.10's fix: solid panels over a full dim layer, with the Start menu hidden. The layout is on the decision page. |
-| The touch controls on the field | They are the same size in view pixels on both screens, so here the stick's ring is nearly a quarter of the view's width (a seventh on the cover) and about a fifth bigger on the glass. Where the camera stops at a room's edge the hero walks beside them: at the Eldergrove's arrival he stands just above the stick. L, A and B almost vanish over the Eldergrove's trees and Stonehollow's falls, as §5 found over grass. | layer | Medium | How they sit on this screen is on the decision page. Either way, §5's dark backing. |
+| The touch controls on the field | They are the same size in view pixels on both screens, so here the stick's ring is nearly a quarter of the view's width (a seventh on the cover), and at 4× on the inner screen's 368 ppi against 3× on the cover's 422 ppi it is about half again as big on the glass (about 31 mm across against 20). Where the camera stops at a room's edge the hero walks beside them: at the Eldergrove's arrival he stands just above the stick. L, A and B almost vanish over the Eldergrove's trees and Stonehollow's falls, as §5 found over grass. | layer | Medium | Build Touch size's decided Auto (menus-and-navigation.md §6, S-5) so the controls keep one size on the glass. Whether they sit over the picture or in a band of their own is on the decision page. Either way, §5's dark backing. |
 | The Start menu | Both windows run the full height of the view. The rows fill the top half of a window down the left to the bottom edge, and the status window top right (the objective, the coins, Rowan's line) is two thirds empty. Both are see-through, so the falls show through them (§5). | scale | Medium | Size each window to its rows on every screen. |
 | The words | The box across the top reads well in Kenney Pixel at 16, the dialogue font art 6 chose. But Kenney Pixel also draws l and k as small capitals: "bLows bubbLes", "MudKip". | other | Medium | The font question on the decision page now covers both fonts. |
-| "Pokémon" in the menus (sheets 22 and 25) | The menu font's é is a capital, so the Start menu's row and the battle's command read "PokÉmon". | other | Medium | Draw a small é in our copy of the font, with l and k (on the decision page). |
+| "Pokémon" (sheets 22 and 25) | Both fonts draw é as a capital, so the Start menu's row and the battle's command read "PokÉmon", and the dialogue box will too. | other | Medium | Draw a small é in our copies of both fonts, with l and k (on the decision page). |
 
 Lantern Reef shows §2.6's veil and the world map §2.10's brown block for the Kestrel, as on the cover. The area banner
 and the Lodestar's dial sit clear of the picture's middle.
 
 **What looks right on the inner screen.**
 
-- **The whole-number 4×:** Golden Sun's tiles are crisp, with no uneven columns.
+- **The whole-number 4×:** Golden Sun's tiles are as crisp as on the cover's 3×.
 - **More of each place round the hero:** Stonehollow's falls and cliffs, the lower town's houses and well, and the
   Eldergrove's root-trees with their doors read as true Golden Sun.
 - **No black band** past a room's edge in the six field pictures. The edge shots (fold 27 and 28) were not taken on
   this screen.
 - **The stick hides** while the Start menu is open, and the words read comfortably at 16.
 
-**Still to take.** Stonehollow's top and bottom edges, the creator, the bag, Settings and the save files on the inner
-screen; sheet 23 once the preview draws; sheet 07 once slice 6 puts LPC people on the field.
+**Still to take.** On the inner screen: Stonehollow's top and bottom edges, the creator, the bag, Settings and the save
+files. Sheet 23 again once the preview draws, and sheet 07 once slice 6 puts LPC people on the field.
 
 ## 9. The order to fix things in the next art pass
 
@@ -340,22 +349,23 @@ High first, then by how often you see it. Where a fix belongs to a row of asset-
 1. **Solid menu windows**, once you choose, and the Chart's see-through panels, with the Chart's layout once you
    choose. Every menu shows it. On the inner screen, windows sized to their rows (§8.3). An engine fix, no asset row.
 2. **Battle:** the back sprites on their normal palette for every species, not only the starters (§8.1, a fix to the
-   Pokémon sprites already in, assets §3), the battle backgrounds (assets §2.6, art 11), and the command box moved off
-   the party, which it covers from two Adepts up, with the party in the inner screen's empty left half (§8.3; the icon
-   row later, B-1).
+   Pokémon sprites already in, assets §3), the battle backgrounds, whose Pixel-boy scenes are already in the engine and
+   need only wiring per room, plus the ship deck at sea (assets §2.6, art 11), and the command box moved off the party,
+   which it covers from two Adepts up, with the party in the inner screen's empty left half (§8.3), and the icon row
+   later (B-1).
 3. **The hero creator's preview,** which draws above the screen (a small engine fix, §8.2), **then its cosmetics:** the
    first screen of a new game (assets §2.1, art 5).
 4. **Fallhaven's high town colour**, once you choose: a hub from mission 2 on (assets §1.1 names the high town).
 5. **The world map's art and the Kestrel:** every voyage (assets §1.2, §1.4, §1.5 and §2.3: world-map step 6).
 6. **The placeholder rooms, in mission order:** the Vault's halls (mission 1, clip Sol Sanctum again), the sea caves
-   (mission 2, clip Fuchin Falls Cave again), Canalport's north, canal and arrival (mission 3, entrance 0: §8.3), the
-   Greenwild's swamp (mission 5), Lantern Reef's fog and broken ends (mission 6), the Bazaar's bow (mission 8, assets
-   §1.1's Bazaar hulls). These are clip and tile fixes in the rooms' own files, except the Bazaar.
+   (mission 2, clip Fuchin Falls Cave again), Canalport's north, canal and jetty (mission 3, the jetty-end arrival:
+   §8.3), the Greenwild's swamp (mission 5), Lantern Reef's fog and broken ends (mission 6), the Bazaar's bow (mission
+   8, assets §1.1's Bazaar hulls). These are clip and tile fixes in the rooms' own files, except the Bazaar.
 
 **Medium, most seen first**
 
-7. **Touch controls** that vanish over bright ground and draw over full-screen menus, and their size on the inner
-   screen once you choose (§8.3). Always on screen.
+7. **Touch controls** that vanish over bright ground and draw over full-screen menus, Touch size's decided Auto so they
+   keep one size on the glass, and where they sit on the inner screen once you choose (§8.3). Always on screen.
 8. **The fonts' l, k and é**, once you choose: every place banner, the words and "Pokémon" (§8.3).
 9. **LPC people on the field**, the Adepts and the hero first, then the townsfolk together (assets §2.1, slice 6, art
    3). Then take sheet 07 again for size, shadow and night colour, and fix the LPC faces (Tamsin, Nerissa, the
@@ -373,7 +383,7 @@ High first, then by how often you see it. Where a fix belongs to a row of asset-
 
 **Low**
 
-15. The night tint and lights and the exit marks (both once you choose), the cover screen's exact 3× scale, the world
-    map's labels over the ship, the debug map's label, the smaller LPC look fixes in `lpc_recipes.json` and Ilse's hat
-    (once you choose), the cliff road's cave mouth and east strips, the Eldergrove heart's shade edges, the drawn red
-    Poké Ball, and the foes' names over their partners (§8.1).
+15. The night tint and lights and the exit marks (both once you choose), the world map's labels over the ship, the debug
+    map's label, the smaller LPC look fixes in `lpc_recipes.json` and Ilse's hat (once you choose), the cliff road's
+    cave mouth and east strips, the Eldergrove heart's shade edges, the drawn red Poké Ball, and the foes' names over
+    their partners (§8.1).

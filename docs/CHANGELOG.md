@@ -12,7 +12,12 @@ header; the detailed rules are in `docs/design/`.
   menu windows, partner Pokémon drawn in their shiny colours from behind, flat battle backgrounds, the hero creator's
   empty preview, and placeholder rooms (the Vault's halls, the sea caves, Canalport's north, Lantern Reef's veil, the
   Bazaar's bow). No LPC person is on the field yet, and adult mode has nothing on screen to survey. The pictures stay on
-  the PC. 26 choices went to you as new questions: 11 from the survey and 15 for adult mode.
+  the PC. A second pass the same day retook the battles and the creator with every list closed, and shot the inner
+  screen: the Pokémon backs are in the wrong colours for most species, not only the starters, the creator's preview
+  draws above the screen, and the battle's command window covers the party from two Adepts up. A reviewer found 11
+  faults in the page, all fixed (among them Canalport's arrival, which stays at the jetty end as decided, and the cover
+  screen's scale, which was already right). 26 choices went to you as new questions: 12 from the survey and 14 for adult
+  mode.
 - **Merged (engine PR #101), the world map in the engine:** world-map.md §8 step 4. The map is a room of the game now,
   walked on land and sailed at sea at the decided speeds: icons entered on foot or by Surf, doors by side, docking by
   sailing onto a harbour's square, the ship drawn where she lies and kept in the save, closed water turning her back
