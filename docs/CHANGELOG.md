@@ -5,6 +5,9 @@ header; the detailed rules are in `docs/design/`.
 
 ## 31 Oct 2026
 
+- **New for your answer (open 139 to 144):** The sound of L or R with nothing in front; The item jingle when a quest
+  hands you something; Move's push sound; The sound of a Pokémon's field move; A sound for healing from the Start
+  menu; How often the hurt sound plays on poison ground.
 - **Decided (open 132 to 138), all as recommended:** no landing on a Meridia shore that has no map yet (132); after the
   Breaking every open island whose harbour is not closed takes a beach landing (133); the Djinn chirps stay as built,
   the lower for Set and the higher for Standby, to swap if it sounds backwards (134); the party's fall plays Golden
