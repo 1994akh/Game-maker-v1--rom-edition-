@@ -867,14 +867,14 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the beach landings job (31 Oct)**
 
-132. **Meridia's shores that have no map yet.** Your answer 130 lets a ship land on a beach only where that place's
+132. **Decided (31 Oct):** **Meridia's shores that have no map yet.** Your answer 130 lets a ship land on a beach only where that place's
      own map is open. Brightcoast, the Greenwild and the Marrow highlands each now carry the flag that opens their
      map. Dustplain, Frostmarch and the Spine's peaks have no map flag yet, because their maps come after the demo,
      while the page says that in Act II a ship lands on any beach of Meridia. Recommended: as built: no landing on
      their beaches until each gets its own map, when that map is made, matching your answer 130. [Open their beaches
      with Brightcoast's map, treating Meridia as one map; open their beaches at the Breaking, as the page's any beach
      of Meridia says.]
-133. **Which islands take a beach landing in Act II.** The page says that in Act II a ship lands on any beach of
+133. **Decided (31 Oct):** **Which islands take a beach landing in Act II.** The page says that in Act II a ship lands on any beach of
      Meridia or a large island, but the layout gives no island sizes. On every island the beach is part of the place
      itself, so landing there is the same as docking. Recommended: as built: after the Breaking every open island
      whose harbour is not closed takes a landing on its beach. [Only islands the page names as large take a landing,
@@ -883,26 +883,26 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the sound effects job (31 Oct)**
 
-134. **Which chirp is Djinn Set and which is Standby.** Golden Sun's Djinn menu plays one of two chirps for Set and
+134. **Decided (31 Oct):** **Which chirp is Djinn Set and which is Standby.** Golden Sun's Djinn menu plays one of two chirps for Set and
      the other for Standby, and the decompilation does not say which is which. Both are rendered. The higher chirp is
      also Golden Sun's battle recovery sound. In our battles they play when a partner is unleashed and when it is Set
      again. Recommended: keep the built reading (the lower chirp for Set, the higher for Standby) and swap them after
      you hear it if it feels backwards. [Swap them now; use Golden Sun's own battle Djinn sounds instead of the menu
      chirps: a rumble when unleashing, a chime then the rumble when one is Set.]
-135. **What plays when the party falls in battle.** Golden Sun fades the battle music and plays its game-over theme
+135. **Decided (31 Oct):** **What plays when the party falls in battle.** Golden Sun fades the battle music and plays its game-over theme
      under The party has fallen. That theme is already the track of your sad cue. Recommended: Golden Sun's game-over
      theme from the defeat message until the walk back brings the room's music, as built. [Keep the battle music
      playing through the defeat message; a different track for game over, so it is not the same as the sad cue.]
-136. **How loud the effects sit against the music.** The effects are rendered at the music's own gain, so their
+136. **Decided (31 Oct):** **How loud the effects sit against the music.** The effects are rendered at the music's own gain, so their
      balance is the Game Boy's. With the Settings defaults (Music 6, Effects 8) the effects come out a little louder
      than that. Menu sounds sit under the music and battle hits reach slightly above it. Recommended: keep the Game
      Boy's balance with the defaults Music 6 and Effects 8, and adjust after you hear it on the Fold. [Raise the menu
      sounds so they are easier to hear; lower the battle hits so they do not stand out over the music.]
-137. **The level-up jingle: once per battle or once per member.** Golden Sun plays the jingle before each character's
+137. **Decided (31 Oct):** **The level-up jingle: once per battle or once per member.** Golden Sun plays the jingle before each character's
      level-up line. Ours plays it once when the level-up pages open after a battle, even if several members levelled
      up. Recommended: once per member, as Golden Sun does, built after the movement branch merges since it needs the
      message box's page-by-page flow. [Once per battle, as built now, quieter after a fight where everyone levels.]
-138. **Sounds on message pages and Settings changes.** Golden Sun turns ordinary dialogue pages silently. For a
+138. **Decided (31 Oct):** **Sounds on message pages and Settings changes.** Golden Sun turns ordinary dialogue pages silently. For a
      Settings value the build plays the cursor sound, which on the Effects row also lets you hear the new level.
      Recommended: silent page turns and the cursor sound when a Settings value changes, as built. [A soft click on
      each page turn; the confirm sound instead of the cursor when a Settings value changes.]
