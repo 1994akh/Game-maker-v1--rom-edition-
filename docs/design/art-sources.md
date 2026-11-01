@@ -29,10 +29,12 @@ what we reuse; the decided answers 169 to 180 are in [open-questions.md](open-qu
 1. **LPC's 32-pixel art is twice as fine as Golden Sun's tiles.** A 32-px LPC tile covers one 16-px Golden Sun cell on
    screen, but with four times the pixels, so beside Golden Sun's walls and floors it reads as a finer drawing. LPC
    pieces suit what a person stands with or handles, or serve as a base we redraw at 16 px.
-2. **Where the files go.** CC0, CC-BY, OGA-BY and GPL picks can be committed in the engine once used (art 9); edits of
-   a share-alike (CC-BY-SA) piece keep that licence. Two finds have custom licences that forbid passing the files on:
-   pimen's spell packs and OuBa's fog tiles. pimen's would stay in the engine's gitignored `assets/third_party`, like
-   the ROM art. No pick is non-commercial only.
+2. **Where the files go.** Art 9 commits only the CC0 picks, and the engine's `tools/import_assets.py` accepts CC0
+   only. Committing the CC-BY, OGA-BY, CC-BY-SA and GPL picks ([LPC] Overworld, [LPC] Ship, [LPC] Rain, Sewer, Kyrise,
+   Cutting and Healing) needs your yes, a new board question, and the import tool extended to those licences. Until
+   then they stay in the gitignored `assets/third_party`. Edits of a share-alike piece keep that licence. Two finds
+   have custom licences that forbid passing the files on: pimen's spell packs and OuBa's fog tiles. pimen's would stay
+   in `assets/third_party` for good, like the ROM art. No pick is non-commercial only.
 
 ## 2. Already on the PC (not searched again)
 
@@ -41,6 +43,14 @@ Kenney packs (UI, fonts, Cartography, pirate pack, light masks), the DCSS item i
 and item icons, Pixel-boy's battle backdrops, the fan game's parts bin (with Essentials' battle backdrops: three caves,
 three indoor scenes, water by day, dusk and night, underwater), the One Piece rips, Golden Sun's ROM art, the CC0 sky
 pack `sbs-seamless-sky-backgrounds`, and SpriteLib (reference only, open 183).
+
+The engine's two CC0 libraries in the local folder, `2d-assets-main` (1,101 packs) and
+`CC0-Public-Domain-Sprites-main` (76 packs), were searched too (their inventories are in
+[asset-inventory](../engine/resources/asset-inventory/)). Of use: **DevWizard's Pixel Art Spells & Projectiles**
+(CC0, `packs/devwizard-pixel-art-spells`): 22 hard-edged animated sheets, mostly 16-px bolts, orbs and sparks in
+fire, ice, water, wind, rock, plant, light and dark, with a 32×32 splash and a 48×48 shield, for battle projectiles
+(§4.11). The same library's Ninja Adventure is the old subset: it has TeaLeaf and 20 small 32×32 effect sheets, but no
+Nut and none of the elemental or magic effects (§4.11).
 
 One find in the local generator saves a make: **Commodore Ilse's naval bicorne is already there.** The generator has
 `hat_bicorne_athwart_commodore` (and a trim version) under `hat/pirate/bicorne`, by bluecarrot16 with JaidynReiman's
@@ -72,9 +82,11 @@ These hold every piece we make to Golden Sun's limits. They are needed from item
 - **Licence:** MIT ("Copyright (C) 2005-2026 David Lindecrantz").
 - **Gives:** a command-line tile converter. Its `gba` mode (8×8 tiles, 1,024 tiles, 16 subpalettes, 4 bits a pixel)
   reduces colours to native depth, packs subpalettes, removes duplicate tiles and reports counts.
-- **Fit: good.** It is the tile check tool world-map.md §5.5 asks for: `superfamiconv convert -M gba -v` on a made
-  sheet fails or reports when a tile needs more than 16 colours or more palettes than the GBA allows. It reads only
-  our own art, so it can run in the engine's checks with nothing from a ROM.
+- **Fit: good.** It checks the GBA colour limit (each 8×8 block within one 16-colour palette, at most 16 palettes),
+  half of the tile check world-map.md §5.5 asks for. Comparing a made tile's colours and cell edges with its Golden
+  Sun neighbour is a short script of our own in `tools/`. Run it as `superfamiconv convert -M gba -T 4096 -i <sheet>
+  -v`: gba mode caps a sheet at 1,024 tiles, which a 376×216 still (1,269 tiles) would break on count, not colour. It
+  reads only our own art, so it can run in the engine's checks with nothing from a ROM.
 - **credits.md row:** a dev tool. "Tiles checked with SuperFamiconv by David Lindecrantz (MIT)".
 
 #### Proper Pixel Art (ppa): **download**
@@ -136,8 +148,8 @@ hidden. The window frame stays the recoloured RPG-Frames border (art 14).
   buttons, HP, PP and EXP bars, equipment slot frames, 2 headers, a portrait frame, an item frame, a minimap frame.
 - **Fit: good.** Solid navy and purple fills with a gold trim and hard pixel corners, close to Golden Sun's solid blue
   windows and recolourable to our navy preset. The bobbing cursors and the target cursor suit Golden Sun's menu pointer
-  and battle target. The HP, PP and EXP bars answer item 11. A fallback frame if the RPG-Frames border looks thin on
-  the phone.
+  and battle target. The HP, PP and EXP bars are drawn in code (art-handoff.md §2.23); its bars are the other way. A
+  fallback frame if the RPG-Frames border looks thin on the phone.
 - **credits.md row:** maker tiopalada; terms CC0; "Tiny RPG Mana Soul GUI by tiopalada (CC0)".
 
 ### 4.2 Battle (item 2)
@@ -222,7 +234,7 @@ fog banks, the Stillwaters, the rim's bite, Marrow Isle's reef lagoon).
   "[LPC] Overworld by Benjamin K. Smith, commissioned by castelonia. Grass/Water based on tiles by Lanea Zimmerman (AKA
   Sharm). Sand/Snow based on tiles by Daniel Eddeland, William.ThompsonJ, Nushio, and Adrix89."
 
-#### Scallywag - Ships: **download**
+#### Scallywag - Ships: **reference only**
 
 - **Link:** https://foozlecc.itch.io/scallywag-ships (`Foozle_2DT0013_Scallywag_Ships.zip`, 414 KB; name your own
   price, free allowed).
@@ -231,12 +243,10 @@ fog banks, the Stillwaters, the rim's bite, Marrow Isle's reef lagoon).
   projects". Attribution not required.
 - **Gives:** top-down pirate ships with 6 flag colours, markings, animated cannons, damage states and effects, each as
   an .ase file and a tile sheet.
-- **Fit: fair.** The closest free match for a mid-size hull and the only free set with damage states, which Lantern
-  Reef's broken hull ends need (survey §2.6). The page does not state sprite sizes, facings or how many damage states,
-  so check them on the contact sheet before planning around it. Its light needs reworking to Golden Sun's soft
-  top-left light.
-- **credits.md row:** maker "Foozle, commissioned from Pixel Carvel"; terms CC0; "Scallywag Ships by Foozle and Pixel
-  Carvel (CC0)".
+- **Fit: fair.** The closest free match for a mid-size hull and the only free set with damage states. Its damage
+  states are a guide only: Lantern Reef's broken ends (survey §2.6) are drawn in code from the reef ship's own planks
+  (art-handoff.md §2.15), since the page states no sprite sizes, facings or number of damage states and its light
+  needs reworking to Golden Sun's soft top-left light.
 
 #### [LPC] Ship: **download**
 
@@ -280,9 +290,12 @@ fog banks, the Stillwaters, the rim's bite, Marrow Isle's reef lagoon).
   page does not show. Treat it as MIT plus CC0, and keep auntygames' MIT notice with it.
 - **Gives:** a Godot 4 canvas_item shader that pixelates and maps fBm noise to exactly four colours by thresholds,
   with direction, speed, octaves and pixel size.
-- **Fit: good.** Hard-edged bands from a fixed four-colour palette match open 102's "drawn in code to its palette".
-  Fed four greys from a Golden Sun tile and set to whole world pixels, it draws moving fog banks, the storm's cloud
-  band and the fog version of the sea backdrop (open 103).
+- **Fit: fair.** Hard-edged bands from a fixed four-colour palette match open 102's "drawn in code to its palette",
+  but it has no mask uniform, and its last line, `COLOR = smoothed_color * transparency`, also scales the colour,
+  which moves the four greys off their 15-bit values. With a mask uniform added and that line written as
+  `COLOR = vec4(c.rgb, c.a * mask_step)`, `mask_step` being 0, 0.25, 0.5 or 0.75, it keeps the three fixed alpha
+  steps of art-handoff.md §1.1. Fed four greys from a Golden Sun tile and set to whole world pixels, it then draws
+  moving fog banks, the storm's cloud band and the fog version of the sea backdrop (open 103).
 - **credits.md row:** maker "maGGam; auntygames"; terms "CC0 and MIT"; "Pixel cloud shader by maGGam, after auntygames'
   Pixel Animated Water (MIT)".
 
@@ -294,12 +307,14 @@ fog banks, the Stillwaters, the rim's bite, Marrow Isle's reef lagoon).
   Gonkee's original states no licence; a small risk for personal use.
 - **Gives:** a Godot 4 fBm fog with a colour, octaves, a pixelation switch and amount, a greyscale `fog_mask` that sets
   density, and direction and scroll settings.
-- **Fit: good.** The `fog_mask` is what open 176 needs at Lantern Reef: white over open water and the gaps, black over
-  the decks, so the fog drifts only between the wrecks and the decks stay at full colour. A known fault: it breaks at
-  large TIME values with scroll noise on. Apply AlPS_208's fix from the comments (offset the two fBm calls by
-  different constants and add a `fog_speed` factor). blinks' CC0 "2D Fog Overlay"
-  (https://godotshaders.com/shader/2d-fog-overlay/) is a simpler fallback; it needs `repeat_enable` on its noise in
-  Godot 4.
+- **Fit: fair.** The `fog_mask` is what open 176 needs at Lantern Reef: white over open water and the gaps, black over
+  the decks, so the fog drifts only between the wrecks and the decks stay at full colour. But its alpha is smooth
+  noise times a smooth mask (`COLOR = vec4(color.rgb, final * color.a * 0.5)`), so we snap it to 0, 25, 50 or 75 per
+  cent. It also samples `fog_mask` at the unsnapped UV and pixelates by divisions of the UV (`pixelation_amount`), not
+  by world pixels, so both are set per room (art-handoff.md §2.14). A known fault: it breaks at large TIME values
+  with scroll noise on. Apply AlPS_208's fix from the comments (offset the two fBm calls by different constants and
+  add a `fog_speed` factor). blinks' CC0 "2D Fog Overlay" (https://godotshaders.com/shader/2d-fog-overlay/) is a
+  simpler fallback; it needs `repeat_enable` on its noise in Godot 4.
 - **credits.md row:** maker Tennisson; terms MIT; "Fog shader by Tennisson (MIT), after Gonkee".
 
 #### 2D Swirling Vortex Portal shader: **on the decision page, as a make-or-reuse choice**
@@ -334,7 +349,7 @@ fog banks, the Stillwaters, the rim's bite, Marrow Isle's reef lagoon).
 ### 4.6 The placeholder rooms and the interiors job (item 6)
 
 The Vault's halls, the sea caves and the Greenwild's swamp are clips from Golden Sun again. Canalport needs a foam edge,
-Lantern Reef its fog (the fog shader above) and broken ends (Scallywag above), the Bazaar its merchant hull ([LPC]
+Lantern Reef its fog (the fog shader above) and broken ends (drawn in code), the Bazaar its merchant hull ([LPC]
 Ship above). The interiors job adds the sluice house and the hatchery, which no Golden Sun room gives us (open 100).
 
 #### Zelda-like tilesets and sprites: **download**
@@ -421,9 +436,9 @@ if the redraw fails on the phone.
 - **Link:** https://github.com/TakWolf/ark-pixel-font (release 2026.10.25,
   `ark-pixel-font-10px-proportional-ttf-v2026.10.25.zip`, 3,952,810 bytes).
 - **Author:** TakWolf. **Licence:** the fonts SIL Open Font License 1.1, the build code MIT.
-- **Fit: fair.** Full pan-Latin accents and real lower case, a little taller and more modern than Golden Sun. Under the
-  OFL a cut-down copy is a Modified Version and must not keep the name "Ark Pixel". The 16-px size was dropped in
-  September 2026.
+- **Fit: fair.** Full pan-Latin accents and real lower case, a little taller and more modern than Golden Sun. The OFL
+  file names no Reserved Font Name, so a cut-down copy may keep its name. It must stay under the OFL with TakWolf's
+  copyright notice, and may not be sold on its own. The 16-px size was dropped in September 2026.
 
 ### 4.9 LPC people on the field (item 9)
 
@@ -456,8 +471,9 @@ room fixes.
 
 ### 4.11 Battle details and effects (item 11)
 
-Labelled HP and PP bars come from Mana Soul (§4.1) or are drawn in code. Move effects: hard-edged CC0 sheets now,
-Golden Sun's own later (art 12).
+Labelled HP and PP bars are drawn in code (art-handoff.md §2.23), with Mana Soul's (§4.1) the other way. Move
+effects: hard-edged CC0 sheets now, Golden Sun's own later (art 12). DevWizard's CC0 projectiles are already on the PC
+(§2).
 
 #### Ninja Adventure Asset Pack (full itch edition): **download**
 
@@ -466,13 +482,14 @@ Golden Sun's own later (art 12).
 - **Author:** Pixel-Boy and AAA, the makers of the battle backdrops already in the game.
 - **Licence:** "Creative Commons Zero v1.0 Universal"; the bundled README says "released under the Creative Commons
   Zero (CC0) license... Attribution is not required but appreciated."
-- **Gives:** the full pack; the local copy is the old subset and lacks these. FX/Elemental: Flam, Ice, Plant, Rock,
-  RockSpike, Thunder and Explosion, and (per a vendored copy on GitHub) Water and WaterPillar. FX/Magic: Aura, Boost,
-  Circle, Shield, Spark, Spirit. Particles (rain, snow, leaf, rock, spark), projectiles, slashes, smoke. About 30
-  emote balloons. Items: Nut, Nut2, Seed1-3, TeaLeaf, potions, keys, coins, chests, scrolls, weapons. A palette file.
+- **Gives:** the full pack. The local copy is an old subset: it has TeaLeaf and 20 small 32×32 effect sheets, but no Nut
+  and none of these. FX/Elemental: Flam, Ice, Plant, Rock, RockSpike, Thunder and Explosion, and (per a vendored copy on
+  GitHub) Water and WaterPillar. FX/Magic: Aura, Boost, Circle, Shield, Spark, Spirit. Particles (rain, snow, leaf,
+  rock, spark), projectiles, slashes, smoke. About 30 emote balloons. Items: Nut, Nut2, Seed1-3, TeaLeaf, potions, keys,
+  coins, chests, scrolls, weapons. A palette file.
 - **Fit: good.** One hand with the backdrops, 16-px, hard-edged, a small palette, close to Golden Sun's grid. Rock,
-  Plant and Ice suit field casts (Move, Growth, Frost) better than battle-scale sheets. Nut and TeaLeaf are starting
-  points for the Nut and Herb icons. CC0, so it can be committed. Only a few hundred kB of it is needed.
+  Plant and Ice suit field casts (Move, Growth, Frost) better than battle-scale sheets. Nut and TeaLeaf are references
+  for the Herb and Nut icons. CC0, so it can be committed. Only a few hundred kB of it is needed.
 - **credits.md row:** the existing "RPG Battle System, Ninja Adventure" row (Pixel-boy and AAA, CC0) gains the effects
   and items under "What we use".
 
@@ -504,18 +521,21 @@ Golden Sun's own later (art 12).
   effects, a water splash and spike, two holy effects, and slash and heal sheets. Canvases of 16 to 80 px.
 - **Fit: good.** Crisp, unblurred pixels and a few flat colours (seen on the Holy preview), close to Golden Sun's
   Psynergy sparks and inside art 12's no-soft-render rule. Use the blurless thunder. Rar files, about 230 kB in all.
+  DevWizard's CC0 projectiles, already on the PC (§2), are the way without this download.
 - **credits.md row:** maker pimen; terms "pimen's licence: use and modify, no redistribution (Cutting and Healing CC BY
   4.0)"; "Spell effects by pimen"; "Cutting and Healing by pimen, CC BY 4.0".
 
-#### RPG UI Icons: **download**
+#### RPG UI Icons: **on the decision page, as a make-or-reuse choice**
 
 - **Link:** https://opengameart.org/content/rpg-ui-icons (`RPG_Icons_Pack_OwlishMedia.zip`, 46.3 KB). Posted 30 Jun
   2018.
 - **Author:** OwlishMedia. **Licence:** CC0.
 - **Gives:** 16×16 and 32×32 icons for status conditions, elements, items, medicine, weapons and armour, and pointers.
 - **Fit: fair.** Small CC0 status marks at 16 px, where Golden Sun shows status marks in battle. Its preview could not
-  be opened, so judge the style on the contact sheet. Its element icons are generic; Golden Sun's four come from the
-  ROM, and Forest's and Shadow's are ours to draw (art-handoff.md).
+  be opened, so its style is unjudged. Golden Sun's own status marks are in the ROM, and open 91 takes Golden Sun's
+  own art first, so the decision page recommends those, exported and kept local, with this download the other way.
+  Its element icons are generic; Golden Sun's four come from the ROM, and Forest's and Shadow's are ours to draw
+  (art-handoff.md).
 - **credits.md row:** maker OwlishMedia; terms CC0; "RPG UI Icons by OwlishMedia (CC0)".
 
 #### Spell Effects by StarsteelGaming: **skip**
@@ -526,7 +546,9 @@ Golden Sun's own later (art 12).
 ### 4.12 Item icons and the bag's pockets (item 12)
 
 Art 14 decided DCSS's 32-px icons, shown at full size in the detail box, with Herb, Nut, Mint and the balls drawn by
-us. The rows today squeeze 32-px icons to about 19 px (survey §4.1).
+us. The rows today squeeze 32-px icons to about 19 px (survey §4.1). Herb, Nut and Mint (items 180, 181 and 195) are
+Golden Sun's own items, and its item data gives each its own icon in the ROM (icons 117, 132 and 144), while open 91
+(24 Oct, after art 14) generates art only where Golden Sun has nothing. The decision page asks which way.
 
 #### Kyrise's Free 16x16 RPG Icon Pack v1.3: **download**
 
@@ -708,6 +730,8 @@ Golden Sun's enemy list lacks. All of these wait for Act II; none is needed for 
 
 ## 7. On the decision page
 
-Under "From the art sources research": one question for each download above, asking for your yes with its licence and
-what it fills, and the make-or-reuse choices: the bases for the skiff and the Wayfarer, the Churn's whirlpool, the
-forge's battle backdrop, the field Psynergy shapes for the demo, how the logo is made, and how the portraits are made.
+Under "From the art sources research", 24 questions: one for each of the 16 downloads above, asking for your yes with
+its licence and what it fills, and 8 make-or-reuse choices: battle's status marks (Golden Sun's own or RPG UI Icons),
+Herb, Nut and Mint (Golden Sun's own icons or drawn by us), the bases for the skiff and the Wayfarer, the Churn's
+whirlpool, the forge's battle backdrop, the field Psynergy shapes for the demo, how the logo is made, and how the
+portraits are made.
