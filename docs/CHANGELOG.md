@@ -5,6 +5,8 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **New for your answer (open 166 to 168):** Which Fallhaven rooms hold dusk in mission 2; Where Old Jory sits in
+  mission 9; What the lift's foot says in mission 9.
 - **Decided (open 159 to 165), all as recommended:** as built: every Act I place shows on the Chart from the start, with
   Hushwater and Twin Bells as rumours (159); battles at sea come half as often per stretch of water sailed (161);
   Tully's lines at the storm and the fog, said once each time she comes up against it (162); a plain line at places

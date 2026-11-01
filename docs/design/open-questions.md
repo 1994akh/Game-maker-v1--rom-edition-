@@ -1082,3 +1082,23 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      forty picks is the only hint; the build doesn't have that line yet. Recommended: it opens as mission 10 ends,
      with no scene, as built. [A short scene after mission 10, with Dunstan's crew clearing the slide; a line from
      Dunstan the first time you try the gate after mission 10, which then opens it.]
+
+**From the Fallhaven answers job (1 Nov)**
+
+166. **Which Fallhaven rooms hold dusk in mission 2.** Your answer 151 holds Fallhaven's clock at dusk through mission
+     2. Mission 2's script has night falling on the cliff road, but its cliff road scenes aren't built yet, and the
+     cliff road, the high town and the west cove are open once the cart is moved. Recommended: all six Fallhaven rooms
+     hold dusk until mission 2 ends, as built, with the cliff road turning to night when its scenes are built. [Hold
+     only the harbour and the lower town at dusk, and let the clock run on the cliff road, the high town and the cove;
+     turn the cliff road to night now, once the cart is moved.]
+167. **Where Old Jory sits in mission 9.** Old Jory sat in the only street into the Leaning Gull's corner. With the
+     relay stone now beside the inn's door (your answer 149), he blocked the stone, the lift's foot and the inn's
+     doorstep. The script only says he sits on the top step that's left, beside the basket. The build moves him one
+     step, beside the basket, so the street stays open. Recommended: beside the basket, leaving the street open, as
+     built. [In the corner below the way into the inn's corner; just below the inn's doorstep, on the other side of
+     the basket.]
+168. **What the lift's foot says in mission 9.** Your answer 147 has the lift's foot say it is for cargo in mission 2.
+     Neither script gives it a line in mission 9, where only Old Jory rides it. The build says the same in both
+     missions: "The archive's lift: a basket on a rope, up the cliff to the wind-wheel. It's for cargo." Recommended:
+     the same line in both missions, as built. [A line of its own in mission 9, written in the dialogue pass; no line
+     at the foot in mission 9.]
