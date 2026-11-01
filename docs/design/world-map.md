@@ -520,9 +520,8 @@ lift can be walked both ways:
   takes crew 1 up to the meeting. Once mission 9 is done, it ends in empty air.
 - **The high door:** the cave on the cliff road to the archive. Barred until mission 9 is done. Then the cliff road's
   side is rubble.
-- **The lift:** a door in the harbour's cliff face to the archive. Cargo only until mission 9 is done. Then its rope
-  hangs cut. You decided on one lift, coming down at the lower town's harbour steps in both missions, with none in
-  the harbour (open 147): still to build.
+- **The lift:** one lift, from the archive down to the lower town's harbour steps in both missions, with none in the
+  harbour (your answer 147, built by engine PR #102). Cargo only until mission 9 is done. Then its rope hangs cut.
 
 The archive's own sides open once mission 9 is done, so nobody is shut in. The story's arrivals: Ketch's skiff lands
 at the harbour's jetty (mission 2, at dusk). Mission 8's handover lands crew 1 in the west cove (mission 9, at night).
@@ -725,8 +724,8 @@ hidden town**. Working name: **Nightmarket Isle**.
   §8.4). It is offered at a visited harbour with a Sail-here row in places.json (today Marrow Isle, Canalport, the
   Eldergrove and Lantern Reef) only while the ship could sail there now (open to her, not closed by a line, and with a
   room built ashore), and not where she already lies; any other place says why. That is the build's reading of "any
-  harbour you have visited". At the jetty, Tully's line will come first, then Chart, Bunk and Not now (your answer 160,
-  still to build).
+  harbour you have visited". At the jetty, Tully's line comes first, then Chart, Bunk and Not now (your answer 160,
+  built by engine PR #103); the Wayfarer's helm says its own line, then Chart and Not now.
 - **Story moves** you don't steer (skiff runs, storm crossings, handovers) stay a fade with a line of narration.
 
 ### 5.2 What the ground is

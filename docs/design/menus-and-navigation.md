@@ -140,10 +140,11 @@ PLACE SCREENS (by talking to someone; never in the Start menu)
   Inn and relay stone [built]: To <other crew> (relay stones, once the other crew is placed) | Rest | Pokémon |
                                Home (inns away from home, once crew swapping is unlocked) | Leave
   Ship helm / deckhand: the Chart in Sail mode (replaces "Set sail")
-                        [built in engine PR #101, waiting to merge: a deckhand stands at a jetty only while the
-                        ship is moored there. From free sailing (after mission 4), talking to the deckhand or the
-                        helm opens the Chart in Sail mode, with the cursor on her berth. Her berth's list:
-                        Set sail | Sleep (the bunk, demo decision 34) | Details | Back. A visited harbour she can
+                        [built in engine PRs #101 and #103: a deckhand stands at a jetty only while the
+                        ship is moored there. From free sailing (after mission 4), the deckhand says Tully's line
+                        first, then Chart | Bunk (demo decision 34) | Not now (your answer 160); the Wayfarer's
+                        helm says its own line, then Chart | Not now. Chart opens the Chart in Sail mode, with the
+                        cursor on her berth. Her berth's list: Set sail | Details | Back. A visited harbour she can
                         reach: Sail here | Details | Back. Any other place: Details | Back, and the place's box
                         says why she can't go there. B closes the list, then the Chart. voyages.json is folded
                         into places.json]
@@ -298,11 +299,11 @@ meaning alone: danger is a count of stars, and HP shows as numbers.
     as built (your answer 159).
   - The stick or the D-pad steps the cursor to the nearest place that way. A opens the place's list; B closes the
     list, then the Chart. A tap selects a place, and a tap on the selected one opens its list.
-  - Every place's list has Details and Back. In Sail mode (§3) her berth's list adds Set sail and Sleep, a visited
+  - Every place's list has Details and Back. In Sail mode (§3) her berth's list adds Set sail, a visited
     harbour she can reach adds Sail here, and the box under any other place says why she can't be sailed there: no
     harbour, a line that closes it, not open yet, nothing built ashore yet, a first visit to sail yourself (open
-    question 80), or she lies there. At the jetty, Tully's line will come first, then Chart, Bunk and Not now (your
-    answer 160, still to build).
+    question 80), or she lies there. At the jetty, Tully's line comes first, then Chart, Bunk and Not now (your answer
+    160, built by engine PR #103), so the ship's bunk is on that menu, not on the Chart.
   - From the Start menu's Map row it opens to read, with no Sail mode, for either crew; crew 2's place is marked
     (world-map.md §2.2).
   - Not built yet: Set bearing, Teleport here and the Kin habitat marks (§8.9).
