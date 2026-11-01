@@ -5,6 +5,16 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Merged (engine PR #102), your Fallhaven answers 147, 149 and 151:** one lift, from the archive down to the lower
+  town's harbour steps, none in the harbour; the relay stone beside the Leaning Gull's door, with Old Jory moved beside
+  the basket; and a clock hold, so Fallhaven stays at dusk through mission 2 and at night through mission 9, Fen's rest
+  heals without dawn, and mission 2 now ends at dawn as its script says. Merging the world map found one more fault,
+  fixed: the clock stayed held after a crew sailed out of a held room.
+- **Merged (engine PR #103), your answer 160:** at every jetty Tully's line comes first, then Chart, Bunk and Not now;
+  the Wayfarer's helm says mission 10's line, then Chart and Not now. The bunk moved off the Chart onto that menu. Two
+  small choices from it are open 181 and 182.
+- **New for your answer (open 181 to 182):** A bunk on the Wayfarer before her quarters are built; How Tully's jetty
+  lines follow each other.
 - **Decided (open 166 to 168), all as recommended and as built:** all six Fallhaven rooms hold dusk until mission 2
   ends, the cliff road turning to night when its scenes are built (166); Old Jory sits beside the basket in mission 9,
   leaving the street open (167); the lift's foot says the same 'for cargo' line in both missions (168).

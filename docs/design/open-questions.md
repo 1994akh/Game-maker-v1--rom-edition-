@@ -1171,3 +1171,18 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      size's Auto, which sizes them per screen to about the cover's size on the glass, keep them over the picture, and
      give them a dark backing. [A band of their own below a 3:2 picture, so nothing covers the game (the view drops to
      480x320).]
+
+**From the jetty job (1 Nov)**
+
+181. **A bunk on the Wayfarer before her quarters are built.** Your answer 160 moved the ship's bunk from the Chart to
+     the jetty menu: Chart, Bunk, Not now. Mission 10's script gives the Wayfarer's helm only Chart and Not now, with
+     her bunk in her quarters, but the quarters aren't a room yet. So at the cove the Wayfarer has no bunk for now,
+     though the Kestrel's mates still offer one wherever she moors. Recommended: no bunk at the Wayfarer's helm until
+     her quarters are built, as built. [Give the helm a Bunk row until the quarters exist; put her quarters in the
+     next rooms job so the bunk comes sooner.]
+182. **How Tully's jetty lines follow each other.** Mission 3's script gives Tully the jetty line, and missions 5 and
+     6 reuse it after their own first lines. The build says the mission's own line, then mission 3's, as two pages.
+     Canalport's inked-chart line from mission 6 has no end in the script, so it stays until mission 10 replaces it.
+     Recommended: the mission's own line, then mission 3's, with Canalport's inked-chart line until mission 10, as
+     built. [Only the mission's own line, with mission 3's after that mission is done; canalport's inked-chart line
+     only until mission 6 is done.]
