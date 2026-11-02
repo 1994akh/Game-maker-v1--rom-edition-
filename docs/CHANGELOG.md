@@ -5,6 +5,10 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Merged (engine PR #106), your answer 212:** i and j have their dots and p its tail in both Halcyra fonts, at the
+  same widths, so 'Mudkip' reads right. A reviewer found p hanging a row lower than g, q and y in the dialogue font,
+  fixed before the merge. Its full run also confirmed today's merged main as a whole: every test (1,219) and check
+  passed at all three sizes.
 - **Decided (open 184 to 207), all as recommended:** all sixteen downloads approved (the palette tool, the tile check,
   the pixel clean-up tool, Mana Soul's cursors, [LPC] Overworld, [LPC] Ship, the cloud and masked fog shaders, [LPC]
   Rain, the Zelda-like parts bin, the shoreline template, the Sewer set, Ninja Adventure, Foozle's effects, pimen's
