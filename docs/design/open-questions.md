@@ -1362,3 +1362,28 @@ Answered on the decision page: accepted items are marked **Decided** with the da
      height. The build puts it at four tenths of the way down the view, kept so the picture always covers the top and
      bottom. Recommended: four tenths of the way down, as built. [Level with the enemies' feet; a fixed distance from
      the top.]
+
+**From the menus and fonts job (1 Nov)**
+
+212. **The fonts' other small capitals: i, j and p.** Your answer 170 redrew l, k and é as true lowercase in our
+     copies of both fonts. Three more letters are drawn as small capitals: i and j have no dots, and p has no tail
+     below the line, so 'Mudkip' looks like 'MudkiP'. Both fonts have room below the line for p's tail without
+     changing any letter's width. Recommended: redraw i, j and p too: dots on i and j, and a tail on p. [Redraw only i
+     and j, and leave p; leave all three as Kenney drew them.]
+213. **Every accented letter in lowercase.** Your answer named é. Both fonts drew every accented lowercase letter as a
+     capital, so the build redrew them all the same way: the lowercase letter under the font's own accent, at the same
+     widths. That covers à, á, ñ, ü, ç and the rest. Recommended: every accented letter in lowercase, as built. [Only
+     é, with the others left as capitals.]
+214. **The dim under a second screen.** Each screen opened over another (Settings, the Chart, the save files) lays a
+     dark dim over what is under it, so its window stood apart from the window below. Now that the window below hides
+     (your answer 169), only the field shows under the dim. Golden Sun shows the field plainly around its windows.
+     Recommended: keep the dim, as built. [Drop the dim, so the field shows plainly around every window, as Golden Sun
+     does; a lighter dim.]
+215. **Battle boxes under the pause box.** When you pause in the field, the message box and choice boxes now hide
+     until you resume. In battle, pausing leaves the battle's own boxes (the status box, the commands and the battle's
+     words) showing under the pause box's dim. Recommended: the battle's boxes stay under the dim, as built. [Hide the
+     battle's boxes too while paused, leaving only the battle picture.]
+216. **The shape of the new lowercase l.** The new l has to read apart from capital I and L. In the menu font, capital
+     I is a plain stem, so the l got a one-pixel foot. In the dialogue font, the l borrows the curved foot of the
+     font's own t. Recommended: a stem with a small foot in both fonts, as built. [A plain stem, which looks the same
+     as I in the menu font, so 'Ilse' could read oddly; an l taller than h, to set it apart from L.]

@@ -5,6 +5,13 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Merged (engine PR #105), your answers 169 and 170:** menu windows are solid navy, and a window opened over another
+  hides the one below until it closes; our own copies of Kenney's two fonts (Halcyra Mini and Halcyra Pixel, CC0,
+  rebuilt by tools/make_fonts.py) draw l, k and every accented letter as true lowercase at the same widths, so
+  'Fallhaven' and 'Pokémon' read right. A reviewer found the title screen's own window not hiding and three small
+  faults, all fixed; every test (1,206) and check passed at all three sizes. Its five choices are open 212 to 216.
+- **New for your answer (open 212 to 216):** The fonts' other small capitals: i, j and p; Every accented letter in
+  lowercase; The dim under a second screen; Battle boxes under the pause box; The shape of the new lowercase l.
 - **Merged (engine PR #104), battle art:** every Pokemon's back sprite is in its normal colours (1,269 backs and 50
   fronts were on the wrong palette), the Pixel-boy battle pictures are wired for every room and area by day and night,
   the command window no longer covers the party on either screen, and the creator's preview draws in its frame. A
