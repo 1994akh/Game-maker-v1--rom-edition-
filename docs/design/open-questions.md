@@ -1199,139 +1199,139 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the art sources research (1 Nov)**
 
-184. **Download tiledpalettequant, the palette tool.** rilden's tiledpalettequant (MIT, 210 KB,
+184. **Decided (1 Nov):** **Download tiledpalettequant, the palette tool.** rilden's tiledpalettequant (MIT, 210 KB,
      github.com/rilden/tiledpalettequant) cuts an image to the GBA's own limit: 16 palettes of 16 colours chosen per
      tile, 5 bits a channel. Every piece made with an image tool goes through it before its contact sheet. It is plain
      JavaScript and runs from a local copy. Recommended: yes: clone it into UnboundHack/apps and run it locally. [Use
      the hosted page at rilden.github.io with no download; no: cut palettes by hand in an editor.]
-185. **Download SuperFamiconv, the tile check.** Optiroc's SuperFamiconv (MIT, a 405 KB Windows zip, release
+185. **Decided (1 Nov):** **Download SuperFamiconv, the tile check.** Optiroc's SuperFamiconv (MIT, a 405 KB Windows zip, release
      v0.12.0-beta4) checks the GBA colour limit in its gba mode: each 8x8 block within one 16-colour palette, at most
      16 palettes. That is half of the tile check world-map.md §5.5 asks for. Comparing a made tile's colours and cell
      edges with its Golden Sun neighbour is a short script of our own in tools/. It reads only our own art, so it can
      run in the engine's checks. Recommended: yes: download the Windows release into UnboundHack/apps and add the
      check to the art tools. [No: check tile colours with a short Python script of our own.]
-186. **Install Proper Pixel Art, the clean-up tool.** Kenneth Allen's Proper Pixel Art (MIT, the pip package
+186. **Decided (1 Nov):** **Install Proper Pixel Art, the clean-up tool.** Kenneth Allen's Proper Pixel Art (MIT, the pip package
      proper-pixel-art) finds the true pixel grid in an image generator's fake pixel art and rebuilds it at 1x. It fits
      the engine's Python tools, with a saved config per still. It pulls in OpenCV. Recommended: yes: install it with
      pip into the engine's dev environment. [Use unfake.js's browser tool instead; no: clean generated stills by
      hand.]
-187. **Download Tiny RPG Mana Soul GUI for menu cursors.** tiopalada's Mana Soul GUI (CC0, 96.7 KB) has solid navy
+187. **Decided (1 Nov):** **Download Tiny RPG Mana Soul GUI for menu cursors.** tiopalada's Mana Soul GUI (CC0, 96.7 KB) has solid navy
      nine-slice frames, bobbing menu cursors, a target cursor and HP, PP and EXP bars. Its cursors suit Golden Sun's
      menu pointer and battle target. The battle pane's labelled bars (survey §9 item 11) are drawn in code
      (art-handoff.md §2.23), with its bars the other way. The author asks that it never feed AI models, so it would
      never go to an image tool. Recommended: yes: download it and use its cursors, recoloured to our navy, with the
      HP, PP and EXP bars drawn in code (art-handoff.md §2.23). [Yes, but only its bars, with our own cursors; no: draw
      the bars and cursors in code.]
-188. **Download (LPC) Overworld for the map's missing icons.** BenCreating's (LPC) Overworld (CC-BY-SA 3.0 or GPL 3.0,
+188. **Decided (1 Nov):** **Download (LPC) Overworld for the map's missing icons.** BenCreating's (LPC) Overworld (CC-BY-SA 3.0 or GPL 3.0,
      377.4 KB) is the only free 16-px world-map set with a shipwreck, docks and a sailboat, plus water rocks and three
      animated sea creatures. It would give Lantern Reef's icon, the Bazaar's moorings, the reef lagoon's rocks and,
      later, Act II's sea monsters. It is share-alike, so what we change from it stays CC-BY-SA. Recommended: yes:
      download it and use its wreck, docks and water rocks, recoloured to The Lost Age's map. [No: draw every missing
      map icon ourselves in code.]
-189. **Download (LPC) Ship for the Bazaar's hull and the Wayfarer's props.** bluecarrot16's (LPC) Ship (OGA-BY 3.0 or
+189. **Decided (1 Nov):** **Download (LPC) Ship for the Bazaar's hull and the Wayfarer's props.** bluecarrot16's (LPC) Ship (OGA-BY 3.0 or
      CC-BY, 954.5 KB) is a modular top-down ship with separate rails, sails set and furled, a wheel and hatches. It
      answers the Bazaar's merchant hull with its own rail and furled sail (survey §2.8) and the Wayfarer's missing
      deck props. It is drawn at the people's finer density, so pieces are redrawn at 16 px where they meet Golden
      Sun's planks. Recommended: yes: download it under OGA-BY 3.0 as the base for the Bazaar's rail and sail and the
      deck props. [No: draw the Bazaar's hull pieces and the props in code from nothing.]
-190. **Copy the pixel cloud shader for the fogs and the storm.** maGGam's pixelated water and clouds shader (Godot 4,
+190. **Decided (1 Nov):** **Copy the pixel cloud shader for the fogs and the storm.** maGGam's pixelated water and clouds shader (Godot 4,
      about 2 KB of code) draws moving noise in exactly four fixed colours, pixelated to whole pixels. With a mask
      uniform added and its last line changed so the alpha takes one of three fixed steps and the colours stay 15-bit,
      it would draw the north fog, Westgloam's banks, the storm ring's cloud band and the sea backdrop's fog version
      (open 103). The post says CC0, but it builds on auntygames' MIT water shader, so that MIT notice comes with it.
      Recommended: yes: copy the shader text into the engine with both notices, and add the mask and alpha steps. [No:
      write our own four-colour fog shader from scratch.]
-191. **Copy the masked fog shader for Lantern Reef.** Tennisson's Animated 2D Fog (MIT, Godot 4) has a pixelation
+191. **Decided (1 Nov):** **Copy the masked fog shader for Lantern Reef.** Tennisson's Animated 2D Fog (MIT, Godot 4) has a pixelation
      switch and a fog_mask texture that sets density. With the mask black over the decks and white over the water, it
      gives open 176's fog: drifting between the wrecks, the decks at full colour, gone after Defog. Its alpha is
      smooth, so its last line is changed to snap it to 0, 25, 50 or 75 per cent, and it needs a commenter's fix for a
      fault at large TIME values. Recommended: yes: copy the shader text with its MIT notice, the TIME fix and the
      alpha steps. [Use the four-colour cloud shader at Lantern Reef too; no: write our own masked fog shader.]
-192. **Download (LPC) Rain for the storm ring.** Evert's (LPC) Rain animation (OGA-BY 3.0, 880 bytes) is a tileable
+192. **Decided (1 Nov):** **Download (LPC) Rain for the storm ring.** Evert's (LPC) Rain animation (OGA-BY 3.0, 880 bytes) is a tileable
      10-frame rain overlay in 64-px tiles. Over the storm ring with the cloud band it answers the survey's note that
      the storm has no clouds or rain (§2.10). Its streaks would be recoloured to the storm's greys. Recommended: yes:
      download it and recolour it for the storm ring. [No: draw 1-pixel rain streaks in code.]
-193. **Download the Zelda-like tilesets as a 16-px parts bin.** ArMM1998's Zelda-like tilesets (CC0, 174.8 KB) are
+193. **Decided (1 Nov):** **Download the Zelda-like tilesets as a 16-px parts bin.** ArMM1998's Zelda-like tilesets (CC0, 174.8 KB) are
      16-px overworld, cave and indoor sets with soft shading, the nearest free style to Golden Sun's rooms. They would
      fill cave arches and rock rims, the made interiors' furniture and crates where a Golden Sun clip lacks a piece.
      Golden Sun's own clips stay first. Recommended: yes: download it as a 16-px parts bin, leaving its trees out.
      [No: use only Golden Sun's clips and our own drawing.]
-194. **Download the shoreline wave template for foam edges.** Eldiran's shoreline wave template (CC0, 1.1 KB) is an
+194. **Decided (1 Nov):** **Download the shoreline wave template for foam edges.** Eldiran's shoreline wave template (CC0, 1.1 KB) is an
      animated 16-px foam edge we fill with our own land and water colours. Filled with Marrow cove's sand and the
      decided cyan sea (open 172), it fixes Canalport's beach and the four straight grass-to-sea corners (survey §2.1,
      §2.3). Recommended: yes: download it and fill it with Golden Sun's sand and the cyan sea. [No: draw the foam
      edges in code from nothing.]
-195. **Download the Sewer tileset for the sluice house.** MrBeast's Sewer tileset (CC-BY 3.0 or GPL 2.0, 35.5 KB, an
+195. **Decided (1 Nov):** **Download the Sewer tileset for the sluice house.** MrBeast's Sewer tileset (CC-BY 3.0 or GPL 2.0, 35.5 KB, an
      OpenGameArt commission) has 16-px stone walls, floors, water channels and grates in an SNES style. Channelled
      water in stone is the core of the sluice house, which no Golden Sun room gives us (open 100). It would be redrawn
      to Golden Sun's palette. Recommended: yes: download it as the sluice house's parts bin. [No: draw the sluice
      house's channel and gates in code from nothing.]
-196. **Download the full Ninja Adventure pack for effects and items.** Pixel-Boy and AAA's full Ninja Adventure pack
+196. **Decided (1 Nov):** **Download the full Ninja Adventure pack for effects and items.** Pixel-Boy and AAA's full Ninja Adventure pack
      (CC0, 89 MB) is by the makers of our battle backdrops. Its rock, plant, ice, thunder and magic effects suit field
      casts and battle sparks (art 12), and its Nut and TeaLeaf are references for the Herb and Nut icons. The copy on
      the PC is an old subset: it has TeaLeaf and 20 small effect sheets, but no Nut and no elemental effects. Only a
      few hundred kB would be used. Recommended: yes: download the full pack and import only the effects and items we
      use. [No: use Foozle's and pimen's effects alone.]
-197. **Download Foozle's Pixel Magic Effects.** Foozle's Pixel Magic Effects (CC0, 101 kB) are 10 hard-edged 32-px
+197. **Decided (1 Nov):** **Download Foozle's Pixel Magic Effects.** Foozle's Pixel Magic Effects (CC0, 101 kB) are 10 hard-edged 32-px
      spells with matching icons, among them Wind, Tornado, Water and Geyser. They fill Ninja Adventure's wind gap
      under CC0, and the icons could stand in for Psynergy menu icons until the ROM's are exported. Recommended: yes:
      download it for the wind and water effects and the stand-in icons. [No: use pimen's wind and water effects
      instead.]
-198. **Download pimen's spell effects, kept out of git.** pimen's spell effects cover every element in one hard-edged
+198. **Decided (1 Nov):** **Download pimen's spell effects, kept out of git.** pimen's spell effects cover every element in one hard-edged
      style: fire, ice, thunder with blurless versions, wind, earth, water, holy, slash and heal, about 230 kB of rar
      files. The seven element packs forbid redistribution, so they would stay in the engine's gitignored
      assets/third_party, never committed. Cutting and Healing alone is CC BY 4.0. DevWizard's CC0 projectiles, already
      on the PC, are the way without it. Recommended: yes: download the free packs into assets/third_party only. [Only
      Cutting and Healing, which is CC BY 4.0; no: DevWizard's local CC0 projectiles with Foozle's and Ninja
      Adventure's hits.]
-199. **Download Kyrise's 16-px icons for the bag.** Kyrise's 16x16 RPG Icon Pack v1.3 (CC BY 4.0, 879 kB) has 70+
+199. **Decided (1 Nov):** **Download Kyrise's 16-px icons for the bag.** Kyrise's 16x16 RPG Icon Pack v1.3 (CC BY 4.0, 879 kB) has 70+
      black-outlined icons at 16, 32 and 48 px, close to Golden Sun's own item icons. The bag's rows today squeeze
      DCSS's 32-px icons to about 19 px (survey §4.1). With Kyrise a row shows the 16-px icon and the detail box its
      32-px copy, both at whole numbers. Recommended: yes: download it and use it in the rows and the detail box
      wherever it has an icon, with DCSS for the rest. [Kyrise in the rows only, with DCSS in the detail box as art 14
      decided; no: keep DCSS everywhere, halved in the rows.]
-200. **Battle's status marks: Golden Sun's own or RPG UI Icons.** Battle shows status marks, and Golden Sun's own are
+200. **Decided (1 Nov):** **Battle's status marks: Golden Sun's own or RPG UI Icons.** Battle shows status marks, and Golden Sun's own are
      in the ROM. Open 91 takes Golden Sun's own art first. OwlishMedia's RPG UI Icons (CC0, 46.3 KB) are 16 and 32-px
      icons for status conditions, elements, items and pointers, a CC0 source we could commit, but its preview couldn't
      be opened, so its style is unjudged. Exported from the ROM, Golden Sun's marks stay on the PC, like the rooms.
      Recommended: Golden Sun's own status marks from the ROM, kept local. [Yes: download RPG UI Icons and check its
      marks on a contact sheet; draw the status marks in code.]
-201. **Herb, Nut and Mint: Golden Sun's own icons or drawn by us.** Herb, Nut and Mint (items 180, 181 and 195) show
+201. **Decided (1 Nov):** **Herb, Nut and Mint: Golden Sun's own icons or drawn by us.** Herb, Nut and Mint (items 180, 181 and 195) show
      no icon in the bag (survey §4.1). Art 14 (16 Oct) had them drawn by us, but they are Golden Sun's own items and
      its item data gives each its own icon in the ROM (icons 117, 132 and 144). Open 91 (24 Oct, after art 14)
      generates art only where Golden Sun has nothing. Exported from the ROM they stay on the PC, like the rooms, shown
      at 2x in the detail box. Recommended: Golden Sun's own Herb, Nut and Mint icons from the ROM, kept local. [Drawn
      by us in code, as art 14 decided (art-handoff.md §2.26).]
-202. **Ketch's skiff and the Wayfarer: drawn from nothing or from a free hull.** Open 97 has Ketch's skiff and the
+202. **Decided (1 Nov):** **Ketch's skiff and the Wayfarer: drawn from nothing or from a free hull.** Open 97 has Ketch's skiff and the
      Wayfarer drawn by us, the Wayfarer with her own silhouette and the six marks. Two free bases exist: (LPC)
      Overworld's 16-px sailboat for the skiff and Scallywag's top-down hulls for the Wayfarer (Scallywag is reference
      only in art-sources.md, so that way needs its download too). Drawing from nothing keeps the palette exact and her
      shape her own. Recommended: draw both in code from nothing at 16 and 32 px, with the free hulls as references for
      size and facings only. [Start the skiff from LPC Overworld's sailboat and the Wayfarer from a Scallywag hull,
      recoloured; start the skiff from LPC Overworld's sailboat, recoloured, and draw the Wayfarer from nothing.]
-203. **The Churn's whirlpool: animated tiles or a shader.** The Churn, a whirlpool in the Calm's south, is seen in Act
+203. **Decided (1 Nov):** **The Churn's whirlpool: animated tiles or a shader.** The Churn, a whirlpool in the Calm's south, is seen in Act
      I, and no pixel-art whirlpool exists free. It can be 8 frames of animated tiles drawn in code in the cyan sea's
      ramp, or Stinkysunstep's MIT vortex shader twisting Golden Sun's own water. The shader resamples pixels, so it
      would need a pixel snap and a palette step of our own. Recommended: animated tiles drawn in code: 48x48, 8
      frames, in the cyan sea's ramp. [The vortex shader over Golden Sun's water, with our own pixel snap and palette
      step.]
-204. **The forge's battle backdrop.** Demo 30 gave the battle's gaps to Essentials' backdrops, but Essentials has no
+204. **Decided (1 Nov):** **The forge's battle backdrop.** Demo 30 gave the battle's gaps to Essentials' backdrops, but Essentials has no
      forge, so fights in the Forge hall and sanctum (mission 4) have none. The Forge sanctum's own Golden Sun tiles
      (railing walls, banners, braziers, cobbles, the red rug) can be composed into a 640x480 backdrop like
      Pixel-boy's. It would stay on the PC as Golden Sun art. Recommended: compose it in code from the Forge sanctum's
      own Golden Sun tiles. [An Essentials indoor scene recoloured warm; pixel-boy's castle court, as the nearest
      scene.]
-205. **Field Psynergy shapes for the demo.** Golden Sun's field casts have no free match: Move's hand, Catch, Lift,
+205. **Decided (1 Nov):** **Field Psynergy shapes for the demo.** Golden Sun's field casts have no free match: Move's hand, Catch, Lift,
      Growth's vine, Douse's cloud, Frost's pillar, Reveal's lens, Whirlwind's leaves, Pound and Scoop. Art 12 plugs
      Golden Sun's own effects in later, and the decompilation now shows where their frames live. Exported from the ROM
      they stay on the PC, like the rooms. Recommended: export Golden Sun's own field Psynergy now and keep it local.
      [Draw our own in code to the brief in art-handoff.md; ninja Adventure and Foozle stand-ins until the export.]
-206. **How the Halcyra logo is made.** The title is the logo over a live Stonehollow at dusk (decision 25). Image
+206. **Decided (1 Nov):** **How the Halcyra logo is made.** The title is the logo over a live Stonehollow at dusk (decision 25). Image
      generators garble lettering, and no free display font fits. The logo can be hand-placed pixel letters in a gold
      ramp drawn in code, or a painted logo from an image tool redrawn letter by letter. Recommended: hand-placed pixel
      letters drawn in code, 160x40, gold lit from the top-left. [A painted logo from an image tool, its letters
      redrawn by hand; the menu font set large over the scene.]
-207. **How the portraits are made, after the demo.** Decision 24 wants a 64x64 portrait with three expressions for the
+207. **Decided (1 Nov):** **How the portraits are made, after the demo.** Decision 24 wants a 64x64 portrait with three expressions for the
      8 Adepts and Ilse, Brann, Sael and Hask, and decision 23 makes them with an image generator. Nila122's 64x64 LPC
      portrait kit (OGA-BY 3.0, 2.8 MB) is exactly that size and layered, so the hero's face can follow the creator's
      hair. Its outlines are harder than Golden Sun's faces, so the light gets repainted and the expressions drawn by
@@ -1341,49 +1341,49 @@ Answered on the decision page: accepted items are marked **Decided** with the da
 
 **From the battle art job (1 Nov)**
 
-208. **Where the battle commands sit on the cover screen.** The survey asked to move the command window off the party.
+208. **Decided (1 Nov):** **Where the battle commands sit on the cover screen.** The survey asked to move the command window off the party.
      On the inner screen it now sits in the empty left half. The folded cover is too short to fit it below the
      fighters beside the stick, Start and A and B, so from two Adepts up it now sits along the top, right of the
      status box, with both lines below it. With one Adept it stays at the bottom centre, as in Golden Sun.
      Recommended: along the top, right of the status box, from two Adepts up, as built. [A one-row command strip along
      the bottom between the stick and A and B, a bigger rework; bottom right beside A and B, Golden Sun's corner, with
      less room for the enemy line.]
-209. **How the battle background fills the cover's width.** Art 11 draws the Pixel-boy battle pictures at their own
+209. **Decided (1 Nov):** **How the battle background fills the cover's width.** Art 11 draws the Pixel-boy battle pictures at their own
      size. The cover's view is 746 pixels wide and the pictures are 640, so 106 pixels are left over. Recommended: the
      picture at its own size, centred, with a mirrored copy on each side so the edges meet, as built. [Scale the
      picture up to fill the width, which blurs the pixels slightly; plain bars of the sky's colour at the sides.]
-210. **Which battle scene each place uses.** Art 11 sets night per room and the clock sets it outdoors, but no page
+210. **Decided (1 Nov):** **Which battle scene each place uses.** Art 11 sets night per room and the clock sets it outdoors, but no page
      names a scene for each place. The build picks forest for the Greenwild and the Eldergrove, beach for harbours,
      the reef, the Bazaar and at sea, hills for Stonehollow and Marrow Isle, the arena for the Forgeheart and the dry
      plain at red dusk for the Flame Sanctum. The Vault, the sea caves and the Bastion jail use night pictures, and
      other indoor rooms use day. Recommended: those picks, as built. [Every indoor room by day; indoor rooms by a
      story flag instead of a fixed time.]
-211. **Where the horizon sits in battle.** Art 11 says the battle picture's horizon is kept in place but not at what
+211. **Decided (1 Nov):** **Where the horizon sits in battle.** Art 11 says the battle picture's horizon is kept in place but not at what
      height. The build puts it at four tenths of the way down the view, kept so the picture always covers the top and
      bottom. Recommended: four tenths of the way down, as built. [Level with the enemies' feet; a fixed distance from
      the top.]
 
 **From the menus and fonts job (1 Nov)**
 
-212. **The fonts' other small capitals: i, j and p.** Your answer 170 redrew l, k and é as true lowercase in our
+212. **Decided (1 Nov):** **The fonts' other small capitals: i, j and p.** Your answer 170 redrew l, k and é as true lowercase in our
      copies of both fonts. Three more letters are drawn as small capitals: i and j have no dots, and p has no tail
      below the line, so 'Mudkip' looks like 'MudkiP'. Both fonts have room below the line for p's tail without
      changing any letter's width. Recommended: redraw i, j and p too: dots on i and j, and a tail on p. [Redraw only i
      and j, and leave p; leave all three as Kenney drew them.]
-213. **Every accented letter in lowercase.** Your answer named é. Both fonts drew every accented lowercase letter as a
+213. **Decided (1 Nov):** **Every accented letter in lowercase.** Your answer named é. Both fonts drew every accented lowercase letter as a
      capital, so the build redrew them all the same way: the lowercase letter under the font's own accent, at the same
      widths. That covers à, á, ñ, ü, ç and the rest. Recommended: every accented letter in lowercase, as built. [Only
      é, with the others left as capitals.]
-214. **The dim under a second screen.** Each screen opened over another (Settings, the Chart, the save files) lays a
+214. **Decided (1 Nov):** **The dim under a second screen.** Each screen opened over another (Settings, the Chart, the save files) lays a
      dark dim over what is under it, so its window stood apart from the window below. Now that the window below hides
      (your answer 169), only the field shows under the dim. Golden Sun shows the field plainly around its windows.
      Recommended: keep the dim, as built. [Drop the dim, so the field shows plainly around every window, as Golden Sun
      does; a lighter dim.]
-215. **Battle boxes under the pause box.** When you pause in the field, the message box and choice boxes now hide
+215. **Decided (1 Nov):** **Battle boxes under the pause box.** When you pause in the field, the message box and choice boxes now hide
      until you resume. In battle, pausing leaves the battle's own boxes (the status box, the commands and the battle's
      words) showing under the pause box's dim. Recommended: the battle's boxes stay under the dim, as built. [Hide the
      battle's boxes too while paused, leaving only the battle picture.]
-216. **The shape of the new lowercase l.** The new l has to read apart from capital I and L. In the menu font, capital
+216. **Decided (1 Nov):** **The shape of the new lowercase l.** The new l has to read apart from capital I and L. In the menu font, capital
      I is a plain stem, so the l got a one-pixel foot. In the dialogue font, the l borrows the curved foot of the
      font's own t. Recommended: a stem with a small foot in both fonts, as built. [A plain stem, which looks the same
      as I in the menu font, so 'Ilse' could read oddly; an l taller than h, to set it apart from L.]
