@@ -5,6 +5,19 @@ header; the detailed rules are in `docs/design/`.
 
 ## 1 Nov 2026
 
+- **Decided (open 184 to 207), all as recommended:** all sixteen downloads approved (the palette tool, the tile check,
+  the pixel clean-up tool, Mana Soul's cursors, [LPC] Overworld, [LPC] Ship, the cloud and masked fog shaders, [LPC]
+  Rain, the Zelda-like parts bin, the shoreline template, the Sewer set, Ninja Adventure, Foozle's effects, pimen's
+  effects kept out of git, and Kyrise's icons), to fetch after the 6 Nov reset, each into its own folder with its maker
+  credited; Golden Sun's own status marks and its own Herb, Nut and Mint icons from the ROM, kept local; Ketch's skiff
+  and the Wayfarer drawn in code; the Churn's whirlpool as animated tiles in code; the forge backdrop from the sanctum's
+  own tiles; Golden Sun's own field Psynergy exported and kept local; the Halcyra logo drawn in code; and portraits
+  after the demo from Nila122's kit, repainted (docs/design/art-sources.md, art-handoff.md).
+- **Decided (open 208 to 216), all as recommended:** as built: the battle commands along the top on the cover from two
+  Adepts up (208), the battle picture mirrored at the cover's sides (209), each place's scene (210), the horizon at four
+  tenths (211), every accented letter in lowercase (213), the dim kept under a second screen (214), the battle's boxes
+  kept under the pause dim (215), and the new l's small foot (216). To build: i, j and p redrawn too, with dots and a
+  tail (212).
 - **Merged (engine PR #105), your answers 169 and 170:** menu windows are solid navy, and a window opened over another
   hides the one below until it closes; our own copies of Kenney's two fonts (Halcyra Mini and Halcyra Pixel, CC0,
   rebuilt by tools/make_fonts.py) draw l, k and every accented letter as true lowercase at the same widths, so
