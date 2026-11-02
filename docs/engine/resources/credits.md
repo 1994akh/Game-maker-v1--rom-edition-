@@ -11,7 +11,7 @@ The in-game Credits screen (menus-and-navigation.md §10) reads a committed `dat
 | Pokémon Unbound | Skeli and the Unbound team | Personal use; content never enters git | The game's base and references; catching formula | "Pokémon Unbound by Skeli and team" | Referenced |
 | pokeemerald-expansion | RHH (Rom Hacking Hideout) and contributors | Open source (see its licence file) | Species, learnset, move and evolution data; Pokémon pictures; item icons, ball art, menu icons and overworld sprites planned | "pokeemerald-expansion by the Rom Hacking Hideout" | In the game |
 | Pokémon | Nintendo, Creatures Inc., GAME FREAK | Personal use | Pokémon names, pictures and data through the above | "Pokémon © Nintendo, Creatures Inc., GAME FREAK inc." | In the game |
-| Kenney fonts, input prompts, UI packs, emotes, cartography, cursor pack, pirate pack | Kenney (kenney.nl) | CC0 | Kenney Mini Square (in), Kenney Pixel and Mini (planned), prompts, frames, icons | "Art by Kenney (kenney.nl)" | Font in the game |
+| Kenney fonts, input prompts, UI packs, emotes, cartography, cursor pack, pirate pack | Kenney (kenney.nl) | CC0 | Kenney Mini Square (in); Kenney Mini and Pixel in as our edited copies Halcyra Mini and Halcyra Pixel (true lowercase l, k and accents, engine PR #105); prompts, frames, icons | "Art by Kenney (kenney.nl)" | Font in the game |
 | Dungeon Crawl Stone Soup tiles | The DCSS contributors | CC0 | Item icons; dungeon tiles for a prototype | "Dungeon Crawl Stone Soup tiles" | Planned |
 | RPG Battle System, Ninja Adventure | Pixel-boy and AAA | CC0 | Battle backgrounds and effect sheets | "Pixel-boy (Sanctumpixel)" | Planned |
 | Pixel art spells | DevWizard | CC0 | Projectiles, the shield, status sparkles | "DevWizard" | Planned |
